@@ -1,9 +1,9 @@
 n = int(input("Hoeveelste Fibonacci-getal wil je hebben? "))
 
 if n == 1:
-    print(1)
+    fn = 1
 elif n == 2:
-    print(1)
+    fn = 1
 else:
     fmin2 = 1
     fmin1 = 1
@@ -14,4 +14,6 @@ else:
         fmin1 = fi
         i += 1
 
-    print(f"Het {n}e Fibonacci getal is: {fi}.")
+    fn = fi
+
+print(f"Het {n}e Fibonacci getal is: {fn}.")
