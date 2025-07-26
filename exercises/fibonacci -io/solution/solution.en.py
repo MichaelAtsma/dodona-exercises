@@ -14,4 +14,4 @@ else:
         fmin1 = fi
         i += 1
 
-    print(fi)
+    print(f"Fibonacci number {n} is: {fi}.")
