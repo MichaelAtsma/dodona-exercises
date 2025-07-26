@@ -1,11 +1,34 @@
 # <b>Opdracht</b>
-Schrijf een programma dat de gebruiker om een getal vraagt, en dan zegt of dat getal een priemgetal is of niet.
+Schrijf een programma dat de gebruiker om een getal vraagt, en dan het zoveelste Fibonacci getal print.
 
-<details markdown="1"><summary>Wat zijn priemgetallen?</summary>
-Een priemgetal is een positief geheel getal dat enkel en alleen deelbaar is door `1` en zichzelf. Het laagste (en enige <i>even</i>) priemgetal is `2`. De eerste 10 priemgetallen zijn:
-`2`, `3`, `5`, `7`, `11`, `13`, `17`, `19`, `23`, `29`
+<details markdown="1"><summary>Wat zijn Fibonacci getallen?</summary>
+De Fibonacci getallen vormen een reeks van getallen waarbij elk getal de som is van de vorige twee. Men begint meestal met `1` en `1`, waardoor het derde getal dus `2` is (`1+1=2`). De eerste 20 Fibonacci getallen zijn:
 
-<i>(PS: de officiële definitie is iets specifieker, waardoor `1` géén priemgetal is)</i>
+| Index | Fibonacci getal | Waarom?     |
+|-------|------------------|-------------|
+| 1     | 1                |             |
+| 2     | 1                |             |
+| 3     | 2                | `1 + 1 = 2`   |
+| 4     | 3                | `1 + 2 = 3`   |
+| 5     | 5                | `2 + 3 = 5`   |
+| 6     | 8                | `3 + 5 = 8`   |
+| 7     | 13               | `5 + 8 = 13`  |
+| 8     | 21               | `8 + 13 = 21` |
+| 9     | 34               | `13 + 21 = 34`|
+| 10    | 55               | `21 + 34 = 55`|
+| 11    | 89               | `34 + 55 = 89`|
+| 12    | 144              | `55 + 89 = 144`|
+| 13    | 233              | `89 + 144 = 233`|
+| 14    | 377              | `144 + 233 = 377`|
+| 15    | 610              | `233 + 377 = 610`|
+| 16    | 987              | `377 + 610 = 987`|
+| 17    | 1597             | `610 + 987 = 1597`|
+| 18    | 2584             | `987 + 1597 = 2584`|
+| 19    | 4181             | `1597 + 2584 = 4181`|
+| 20    | 6765             | `2584 + 4181 = 6765`|
+
+
+<i>(PS: De eerste twee getallen zijn vrij te kiezen en bepalen hoe de volledige reeks er uit zal zien. In deze opdracht houden we het bij de standaard 1 en 1.)</i>
 </details>
  
 <br>
@@ -15,26 +38,25 @@ Een priemgetal is een positief geheel getal dat enkel en alleen deelbaar is door
 <details markdown="1"><summary>Voorbeeld 1</summary>
 ### Invoer
 ```console?lang=python
-5
+6
 ```
 
 ### Uitvoer
 ```console?lang=python
-5 is priem
+8
 ```
 </details>
 
 <details markdown="1"><summary>Voorbeeld 2</summary>
 ### Invoer
 ```console?lang=python
-21
+10
 ```
 
 ### Uitvoer
 ```console?lang=python
-21 is niet priem
+55
 ```
-<i>(want 21 is ook deelbaar door 3 en 7)</i>
 </details>
 
 <details markdown="1"><summary>Voorbeeld 3</summary>
@@ -45,19 +67,18 @@ Een priemgetal is een positief geheel getal dat enkel en alleen deelbaar is door
 
 ### Uitvoer
 ```console?lang=python
-17 is priem
+1597
 ```
 </details>
 
 <details markdown="1"><summary>Voorbeeld 4</summary>
 ### Invoer
 ```console?lang=python
-55
+20
 ```
 
 ### Uitvoer
 ```console?lang=python
-55 is niet priem
+6765
 ```
-<i>(want 55 is ook deelbaar door 5 en 11)</i>
 </details>
