@@ -43,7 +43,7 @@ De Fibonacci getallen vormen een reeks van getallen waarbij elk getal de som is 
 
 ### Uitvoer
 ```
-8
+Het 6e Fibonacci getal is: 8.
 ```
 </details>
 
@@ -55,7 +55,7 @@ De Fibonacci getallen vormen een reeks van getallen waarbij elk getal de som is 
 
 ### Uitvoer
 ```
-55
+Het 10e Fibonacci getal is: 55.
 ```
 </details>
 
@@ -67,7 +67,7 @@ De Fibonacci getallen vormen een reeks van getallen waarbij elk getal de som is 
 
 ### Uitvoer
 ```
-1597
+Het 17e Fibonacci getal is: 1597.
 ```
 </details>
 
@@ -79,6 +79,6 @@ De Fibonacci getallen vormen een reeks van getallen waarbij elk getal de som is 
 
 ### Uitvoer
 ```
-6765
+Het 20e Fibonacci getal is: 6765.
 ```
 </details>
