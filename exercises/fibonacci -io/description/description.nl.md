@@ -37,48 +37,48 @@ De Fibonacci getallen vormen een reeks van getallen waarbij elk getal de som is 
 # <b>Voorbeelden</b>
 <details markdown="1"><summary>Voorbeeld 1</summary>
 ### Invoer
-```console?lang=python
+```
 6
 ```
 
 ### Uitvoer
-```console?lang=python
+```
 8
 ```
 </details>
 
 <details markdown="1"><summary>Voorbeeld 2</summary>
 ### Invoer
-```console?lang=python
+```
 10
 ```
 
 ### Uitvoer
-```console?lang=python
+```
 55
 ```
 </details>
 
 <details markdown="1"><summary>Voorbeeld 3</summary>
 ### Invoer
-```console?lang=python
+```
 17
 ```
 
 ### Uitvoer
-```console?lang=python
+```
 1597
 ```
 </details>
 
 <details markdown="1"><summary>Voorbeeld 4</summary>
 ### Invoer
-```console?lang=python
+```
 20
 ```
 
 ### Uitvoer
-```console?lang=python
+```
 6765
 ```
 </details>
