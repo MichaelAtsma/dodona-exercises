@@ -1,11 +1,34 @@
 # <b>Assignment</b>
-Write a program that asks the user for a number, and then says whether that number is a prime number or not.
+Write a program that asks the user for a number, and then prints the Fibonacci number at that index.
 
-<details markdown="1"><summary>What are prime numbers?</summary>
-A prime number is a positive integer that is divisible only by `1` and itself. The lowest (and only <i>even</i>) prime number is `2`. The first 10 prime numbers are:
-`2`, `3`, `5`, `7`, `11`, `13`, `17`, `19`, `23`, `29`
+<details markdown="1"><summary>What are Fibonacci numbers?</summary>
+The Fibonacci numbers form a sequence of numbers where each number is the sum of the previous two. It usually starts with `1` and `1`, which makes the third number `2` (`1+1=2`). The first 20 Fibonacci numbers are:
 
-<i>(PS: the official definition is a bit more specific, making `1` not a prime number)</i>
+| Index | Fibonacci number | Why?     |
+|-------|------------------|-------------|
+| 1     | 1                |             |
+| 2     | 1                |             |
+| 3     | 2                | `1 + 1 = 2`   |
+| 4     | 3                | `1 + 2 = 3`   |
+| 5     | 5                | `2 + 3 = 5`   |
+| 6     | 8                | `3 + 5 = 8`   |
+| 7     | 13               | `5 + 8 = 13`  |
+| 8     | 21               | `8 + 13 = 21` |
+| 9     | 34               | `13 + 21 = 34`|
+| 10    | 55               | `21 + 34 = 55`|
+| 11    | 89               | `34 + 55 = 89`|
+| 12    | 144              | `55 + 89 = 144`|
+| 13    | 233              | `89 + 144 = 233`|
+| 14    | 377              | `144 + 233 = 377`|
+| 15    | 610              | `233 + 377 = 610`|
+| 16    | 987              | `377 + 610 = 987`|
+| 17    | 1597             | `610 + 987 = 1597`|
+| 18    | 2584             | `987 + 1597 = 2584`|
+| 19    | 4181             | `1597 + 2584 = 4181`|
+| 20    | 6765             | `2584 + 4181 = 6765`|
+
+
+<i>(PS: The first two numbers can be chosen freely and decide what the entire sequence will look like. In this assignment we will just condisder the standard 1 and 1.)</i>
 </details>
  
 <br>
@@ -14,50 +37,48 @@ A prime number is a positive integer that is divisible only by `1` and itself. T
 # <b>Examples</b>
 <details markdown="1"><summary>Example 1</summary>
 ### Input
-```console?lang=python
-5
+```
+6
 ```
 
 ### Output
-```console?lang=python
-5 is prime
+```
+Fibonacci number 6 is: 8.
 ```
 </details>
 
 <details markdown="1"><summary>Example 2</summary>
 ### Input
-```console?lang=python
-21
+```
+10
 ```
 
 ### Output
-```console?lang=python
-21 is not prime
 ```
-<i>(because 21 is also divisible by 3 and 7)</i>
+Fibonacci number 10 is: 55.
+```
 </details>
 
 <details markdown="1"><summary>Example 3</summary>
 ### Input
-```console?lang=python
+```
 17
 ```
 
 ### Output
-```console?lang=python
-17 is prime
+```
+Fibonacci number 17 is: 1597.
 ```
 </details>
 
 <details markdown="1"><summary>Example 4</summary>
 ### Input
-```console?lang=python
-55
+```
+20
 ```
 
 ### Output
-```console?lang=python
-55 is not prime
 ```
-<i>(because 55 is also divisible by 5 and 11)</i>
+Fibonacci number 20 is: 6765.
+```
 </details>
