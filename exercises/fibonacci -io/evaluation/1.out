@@ -1014,5 +1014,5 @@ comparison: exact match
   <detect token="Fibonacci number" />
   <detect token="is" />
   <fixed from="Het" to="Fibonacci number" detect="false" />
-  <fixed from="e Fibonacci getal is" to="is" detect="false" />
+  <fixed from="e Fibonacci getal is" to=" is" detect="false" />
 </LANGUAGE>
