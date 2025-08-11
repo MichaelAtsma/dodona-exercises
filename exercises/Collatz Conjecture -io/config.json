@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "en": "Collatz Conjecture",
+      "nl": "Vermoeden van Collatz"
+    }
+  },
+  "evaluation": {
+    "pythia_judge": "output"
+  },
+  "labels": [],
+  "internals": {
+    "token": "uPhXxd6EUiuy6puBrPtUwmTgFa9tpdGMAK5XyaEC49eqf2B2JSuCbEHKWaWZJUUT",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
