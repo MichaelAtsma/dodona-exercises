@@ -4,17 +4,12 @@ Schrijf een programma dat de gebruiker om een getal vraagt, en dan het zoveelste
 <details markdown="1"><summary>Wat zijn Fibonacci getallen?</summary>
 De Fibonacci getallen vormen een reeks van getallen waarbij elk getal de som is van de vorige twee. Men begint meestal met `1` en `1`, waardoor het derde getal dus `2` is (`1+1=2`). De eerste 20 Fibonacci getallen zijn:
 
-<!-- <style>
-  th {
-    font-size: 2em;
-  }
-</style> -->
 <table class="table" style="width:60%">
   <thead>
     <tr>
-      <th style="font-size:2em">Index</th>
-      <th style="width:40%"><h3>Fibonacci getal</h3></th>
-      <th style="width:40%"><h3>Waarom?</h3></th>
+      <th style="font-size:1.2em;">Index</th>
+      <th style="font-size:1.2em;width:40%">Fibonacci getal</th>
+      <th style="font-size:1.2em;width:40%">Waarom?</th>
     </tr>
   </thead>
   <tbody>
