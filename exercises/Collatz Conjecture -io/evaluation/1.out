@@ -30,5 +30,5 @@ comparison: exact match
   <detect token="Collatz-reeks" />
 </LANGUAGE>
 <LANGUAGE code="en">
-  <fixed from="Collatz-reeks" to="Collatz-sequence" detect="true" />
+  <fixed from="Collatz-reeks" to="Collatz sequence" detect="true" />
 </LANGUAGE>
