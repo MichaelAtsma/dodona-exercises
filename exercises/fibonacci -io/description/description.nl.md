@@ -7,6 +7,9 @@ De Fibonacci getallen vormen een reeks van getallen waarbij elk getal de som is 
 <style>
   table {
     margin: 0 auto;       /* centers table horizontally */
+    border-left: 2px solid black !important;
+    border-right: 2px solid black !important;
+    border-collapse: collapse; /* makes borders look cleaner */
   }
   th {
     font-size: 1.2em !important;
