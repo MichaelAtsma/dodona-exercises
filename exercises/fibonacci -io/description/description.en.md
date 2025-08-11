@@ -9,7 +9,7 @@ The Fibonacci numbers form a sequence of numbers where each number is the sum of
     margin: 0 auto;       /* centers table horizontally */
   }
   th {
-    font-size: 1.2em;
+    font-size: 2em;
     white-space: nowrap;
   }
   td {
@@ -20,8 +20,8 @@ The Fibonacci numbers form a sequence of numbers where each number is the sum of
   <thead>
     <tr>
       <th>Index</th>
-      <th>Fibonacci getal</th>
-      <th>Waarom?</th>
+      <th>Fibonacci number</th>
+      <th>Why?</th>
     </tr>
   </thead>
   <tbody>
