@@ -24,14 +24,6 @@ The Fibonacci numbers form a sequence of numbers where each number is the sum of
       <th>Waarom?</th>
     </tr>
   </thead>
-<table class="table" style="width:50%">
-  <thead>
-    <tr>
-      <th>Index</th>
-      <th>Fibonacci number</th>
-      <th>Why?</th>
-    </tr>
-  </thead>
   <tbody>
     <tr>
       <td>1</td>
