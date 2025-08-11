@@ -4,7 +4,26 @@ Write a program that asks the user for a number, and then prints the Fibonacci n
 <details markdown="1"><summary>What are Fibonacci numbers?</summary>
 The Fibonacci numbers form a sequence of numbers where each number is the sum of the previous two. It usually starts with `1` and `1`, which makes the third number `2` (`1+1=2`). The first 20 Fibonacci numbers are:
 
-
+<style>
+  table {
+    margin: 0 auto;       /* centers table horizontally */
+  }
+  th {
+    font-size: 1.2em;
+    white-space: nowrap;
+  }
+  td {
+    white-space: nowrap;
+  }
+</style>
+<table class="table" style="width:50%">
+  <thead>
+    <tr>
+      <th>Index</th>
+      <th>Fibonacci getal</th>
+      <th>Waarom?</th>
+    </tr>
+  </thead>
 <table class="table" style="width:50%">
   <thead>
     <tr>
