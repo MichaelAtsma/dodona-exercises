@@ -4,7 +4,7 @@ Schrijf een programma dat de gebruiker om een getal vraagt, en dan het zoveelste
 <details markdown="1"><summary>Wat zijn Fibonacci getallen?</summary>
 De Fibonacci getallen vormen een reeks van getallen waarbij elk getal de som is van de vorige twee. Men begint meestal met `1` en `1`, waardoor het derde getal dus `2` is (`1+1=2`). De eerste 20 Fibonacci getallen zijn:
 
-|-------+-----------------+---------------------|
+|=======+=================+=====================|
 | Index | Fibonacci getal | Waarom?             |
 |-------|-----------------|---------------------|
 | 1     | 1               |                     |
@@ -27,7 +27,7 @@ De Fibonacci getallen vormen een reeks van getallen waarbij elk getal de som is 
 | 18    | 2584            | `987 + 1597 = 2584` |
 | 19    | 4181            | `1597 + 2584 = 4181`|
 | 20    | 6765            | `2584 + 4181 = 6765`|
-|-------+-----------------+---------------------|
+|=======+=================+=====================|
 {:.table}
 
 
