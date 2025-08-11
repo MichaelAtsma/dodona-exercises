@@ -6,17 +6,18 @@ De Fibonacci getallen vormen een reeks van getallen waarbij elk getal de som is 
 
 <table class="table" style="width:50%">
   <thead>
+    0
     <tr>
-      <th>...</th>
-      <th>...</th>
+      <th>Test 1</th>
+      <th>Test 2</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>...</td>
-      <td>...</td>
+      <td>3</td>
+      <td>4</td>
     </tr>
-    ...
+    5
   </tbody>
 </table>
 
