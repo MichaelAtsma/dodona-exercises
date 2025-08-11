@@ -48,9 +48,21 @@ class ToolTip:
         if tw:
             tw.destroy()
 
-def ResultCopier(*results):
+def ResultCopier(*results, names=[]):
+    if type(names) is str:
+        if len(results) == 1:
+            names = [f"Copy {names}"]
+        else:
+            names = [f"Copy {names} {i+1}" for i in range(len(results))]
+    elif type(names) is list:
+        names = [f"Copy {name}" for name in names] + [f"Copy result {i+1}" for i in range(len(names), len(results))]
+    else:
+        print("No valid names for the results given.")
+        names = [f"Copy result {i+1}" for i in range(len(results))]
+
     root = tk.Tk()
     root.title("Copy Results")
+    root.minsize(200, 10)  # width 200 pixels (so title is visible and window is drag-and-drop-able), height 10 pixels
 
     def make_copy_func(text):
         def copy():
@@ -60,9 +72,9 @@ def ResultCopier(*results):
         return copy
 
     for i, res in enumerate(results):
-        btn = tk.Button(root, text=f"Copy file {i}", command=make_copy_func(res),
+        btn = tk.Button(root, text=names[i], command=make_copy_func(res),
                         wraplength=400, anchor="w", justify="left")
-        btn.pack(fill="x", padx=100, pady=2)
+        btn.pack(fill="x", expand=True, padx=5, pady=2)
         ToolTip(btn, res)  # Attach tooltip with the full text
 
     root.mainloop()
@@ -88,6 +100,6 @@ def MakeExercises(start, end):
         outFile += f"{Collatz(n)}\n"
     return inFile.strip(), outFile.strip()
 
-ResultCopier(*MakeExercises(1,5))
-ResultCopier(*MakeExercises(6,25))
-ResultCopier(*MakeExercises(26, 1000))
+ResultCopier(*MakeExercises(1,5), names=["in 0", "out 0"])
+ResultCopier(*MakeExercises(6,25), names=["in 1", "out 1"])
+ResultCopier(*MakeExercises(26, 1000), names=["in 2", "out 2"])
