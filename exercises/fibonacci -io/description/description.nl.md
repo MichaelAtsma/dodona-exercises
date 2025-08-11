@@ -12,7 +12,7 @@ De Fibonacci getallen vormen een reeks van getallen waarbij elk getal de som is 
 <table class="table" style="width:60%">
   <thead>
     <tr>
-      <th><h4>Index</h4></th>
+      <th style="font-size:2em">Index</th>
       <th style="width:40%"><h3>Fibonacci getal</h3></th>
       <th style="width:40%"><h3>Waarom?</h3></th>
     </tr>
