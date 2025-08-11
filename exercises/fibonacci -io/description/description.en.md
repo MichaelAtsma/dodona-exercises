@@ -7,9 +7,6 @@ The Fibonacci numbers form a sequence of numbers where each number is the sum of
 <style>
   table {
     margin: 0 auto;       /* centers table horizontally */
-    border-left: 1px solid grey !important;
-    border-right: 1px solid grey !important;
-    border-collapse: collapse; /* makes borders look cleaner */
   }
   th {
     font-size: 1.2em !important;
