@@ -1,6 +1,6 @@
 # <b>Assignment</b>
 
-Write a program that asks the user for a positive integer, and then prints the complete Collatz sequence (also called the 3n + 1 sequence), starting from that number and ending at 1.
+Write a program that asks the user for a positive integer, and then prints the complete Collatz sequence (also called the <code>3n + 1</code> sequence), starting from that number and ending at 1.
 
 <details markdown="1"><summary>What is the Collatz Conjecture?</summary>  
 The Collatz Conjecture states that for any positive integer, you can calculate the next number using the following rules:  
