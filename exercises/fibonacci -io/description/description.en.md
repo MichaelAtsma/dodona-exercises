@@ -9,7 +9,7 @@ The Fibonacci numbers form a sequence of numbers where each number is the sum of
     margin: 0 auto;       /* centers table horizontally */
   }
   th {
-    font-size: 2em !important;
+    font-size: 1.2em !important;
     white-space: nowrap;
   }
   td {

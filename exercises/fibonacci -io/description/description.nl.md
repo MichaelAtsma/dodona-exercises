@@ -8,16 +8,20 @@ De Fibonacci getallen vormen een reeks van getallen waarbij elk getal de som is 
   table {
     margin: 0 auto;       /* centers table horizontally */
   }
-  th, td {
+  th {
+    font-size: 1.2em !important;
+    white-space: nowrap;
+  }
+  td {
     white-space: nowrap;
   }
 </style>
 <table class="table" style="width:50%">
   <thead>
     <tr>
-      <th style="font-size:1.2em;">Index</th>
-      <th style="font-size:1.2em">Fibonacci getal</th>
-      <th style="font-size:1.2em">Waarom?</th>
+      <th>Index</th>
+      <th>Fibonacci getal</th>
+      <th>Waarom?</th>
     </tr>
   </thead>
   <tbody>
