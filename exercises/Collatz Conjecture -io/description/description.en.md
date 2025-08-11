@@ -15,9 +15,6 @@ Here are some examples:
 <style>
   table {
     margin: 0 auto;       /* centers table horizontally */
-    border-left: 2px solid black !important;
-    border-right: 2px solid black !important;
-    border-collapse: collapse;
   }
   th {
     font-size: 1.2em !important;
