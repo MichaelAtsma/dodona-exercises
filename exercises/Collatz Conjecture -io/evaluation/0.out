@@ -1,23 +1,8 @@
-Het 1e Fibonacci getal is: 1.
-Het 2e Fibonacci getal is: 1.
-Het 3e Fibonacci getal is: 2.
-Het 4e Fibonacci getal is: 3.
-Het 5e Fibonacci getal is: 5.
-Het 6e Fibonacci getal is: 8.
-Het 7e Fibonacci getal is: 13.
-Het 8e Fibonacci getal is: 21.
-Het 9e Fibonacci getal is: 34.
-Het 10e Fibonacci getal is: 55.
-Het 11e Fibonacci getal is: 89.
-Het 12e Fibonacci getal is: 144.
-Het 13e Fibonacci getal is: 233.
-Het 14e Fibonacci getal is: 377.
-Het 15e Fibonacci getal is: 610.
-Het 16e Fibonacci getal is: 987.
-Het 17e Fibonacci getal is: 1597.
-Het 18e Fibonacci getal is: 2584.
-Het 19e Fibonacci getal is: 4181.
-Het 20e Fibonacci getal is: 6765.
+Collatz-reeks: 1
+Collatz-reeks: 2, 1
+Collatz-reeks: 3, 10, 5, 16, 8, 4, 2, 1
+Collatz-reeks: 4, 2, 1
+Collatz-reeks: 5, 16, 8, 4, 2, 1
 ----------------------------------------
 python input without prompt: true
 tab name: Voorbeelden
@@ -27,12 +12,8 @@ output block size: 1
 show line numbers: false
 comparison: exact match
 <LANGUAGE code="nl">
-  <detect token="Het" />
-  <detect token="e Fibonacci getal is" />
+  <detect token="Collatz-reeks" />
 </LANGUAGE>
 <LANGUAGE code="en">
-  <detect token="Fibonacci number" />
-  <detect token="is" />
-  <fixed from="Het" to="Fibonacci number" detect="false" />
-  <fixed from="e Fibonacci getal is" to=" is" detect="false" />
+  <fixed from="Collatz-reeks" to="Collatz-sequence" detect="true" />
 </LANGUAGE>
