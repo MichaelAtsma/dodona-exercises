@@ -35,7 +35,7 @@
 
 # <b>Opdracht</b>
 
-Schrijf een programma dat de gebruiker om een positief geheel getal vraagt, en dan de volledige Collatz-reeks (ook wel <code>3n + 1</code>-reeks genoemd) afdrukt, beginnend bij dat getal en eindigend bij 1. <span class="invisible-text">Hello this is a test</span>
+Schrijf een programma dat de gebruiker om een positief geheel getal vraagt, en dan de volledige Collatz-reeks (ook wel <code>3n + 1</code>-reeks genoemd) afdrukt, beginnend bij dat getal en eindigend bij 1.
 
 <details markdown="1"><summary>Wat is de Collatz-reeks?</summary>  
 De Collatz-reeks is een reeks getallen waarbij elk volgend getal steeds volgens deze twee regels berekend wordt::  
