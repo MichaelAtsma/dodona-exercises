@@ -6,6 +6,9 @@ Schrijf een programma dat de gebruiker om een positief geheel getal vraagt, en d
 .invisible-text {
   color: transparent;
   font-size: 0.1em;
+  display: inline;
+  margin: 0;
+  padding: 0;
 }
 
 /* .invisible-text {
