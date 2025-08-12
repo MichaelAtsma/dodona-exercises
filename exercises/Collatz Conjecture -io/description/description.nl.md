@@ -2,13 +2,15 @@
 
 Schrijf een programma dat de gebruiker om een positief geheel getal vraagt, en dan de volledige Collatz-reeks (ook wel <code>3n + 1</code>-reeks genoemd) afdrukt, beginnend bij dat getal en eindigend bij 1.
 
-<details markdown="1"><summary>Wat is de Collatz Conjecture?</summary>  
-De Collatz Conjecture stelt dat je, voor elk positief geheel getal, steeds het volgende getal kunt berekenen volgens deze regels:  
+<details markdown="1"><summary>Wat is de Collatz-reeks?</summary>  
+De Collatz-reeks is een reeks getallen waarbij elk volgend getal steeds volgens deze twee regels berekend wordt::  
 
 1. **Is het getal even?** Deel het door 2.
 2. **Is het getal oneven?** Vermenigvuldig het met 3 en tel er 1 bij op.
 
-Herhaal deze stappen steeds opnieuw. Volgens de hypothese kom je uiteindelijk altijd bij het getal 1, ongeacht welk positief geheel getal je kiest.
+Herhaal deze stappen steeds opnieuw. 
+
+Het Vermoeden van Collatz is dat je uiteindelijk altijd bij het getal 1 uit komt, ongeacht welk positief geheel getal je mee begint.
 
 Hieronder zie je enkele voorbeelden:
 

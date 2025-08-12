@@ -2,15 +2,17 @@
 
 Write a program that asks the user for a positive integer, and then prints the complete Collatz sequence (also called the <code>3n + 1</code> sequence), starting from that number and ending at 1.
 
-<details markdown="1"><summary>What is the Collatz Conjecture?</summary>  
-The Collatz Conjecture states that for any positive integer, you can calculate the next number using the following rules:  
+<details markdown="1"><summary>What is the Collatz sequence?</summary>  
+The Collatz sequence is a sequence of numbers where each next number is calculated according to these two rules:  
 
-1. **If the number is even**, divide it by 2.
-2. **If the number is odd**, multiply it by 3 and add 1.
+1. **Is the number even?** Divide it by 2.
+2. **Is the number odd?** Multiply it by 3 and add 1.
 
-Repeat these steps over and over. According to the hypothesis, you will always eventually reach the number 1, no matter which positive integer you start with.
+Repeat these steps over and over.
 
-Here are some examples:
+The Collatz Conjecture states that you will always eventually reach the number 1, no matter which positive integer you start with.
+
+Below are some examples:
 
 <style>
   table {
