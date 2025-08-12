@@ -71,6 +71,16 @@ Hieronder zie je enkele voorbeelden:
 
 </details>  
 
+<style>
+.invisible-text {
+  color: transparent;
+}
+
+/* .invisible-text {
+  color: rgba(0, 0, 0, 0);
+} */
+</style>
+<span class="invisible-text">[insert your text here]</span>
 <br>  
 <br>  
 
