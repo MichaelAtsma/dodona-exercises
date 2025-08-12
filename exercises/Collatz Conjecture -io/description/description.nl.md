@@ -17,10 +17,9 @@
     margin: 0;
     padding: 0;
   }
-
-  /* .invisible-text {
-    color: rgba(0, 0, 0, 0);
-  } */
+  /* To use this, put any text like this: 
+  <span class="invisible-text">Your invisible text here</span> 
+  */
 
   table {
     margin: 0 auto;       /* centers table horizontally */
@@ -36,7 +35,7 @@
 
 # <b>Opdracht</b>
 
-Schrijf een programma dat de gebruiker om een positief geheel getal vraagt, en dan de volledige Collatz-reeks (ook wel <code>3n + 1</code>-reeks genoemd) afdrukt, beginnend bij dat getal en eindigend bij 1.
+Schrijf een programma dat de gebruiker om een positief geheel getal vraagt, en dan de volledige Collatz-reeks (ook wel <code>3n + 1</code>-reeks genoemd) afdrukt, beginnend bij dat getal en eindigend bij 1. <span class="invisible-text">Hello this is a test</span>
 
 <details markdown="1"><summary>Wat is de Collatz-reeks?</summary>  
 De Collatz-reeks is een reeks getallen waarbij elk volgend getal steeds volgens deze twee regels berekend wordt::  
