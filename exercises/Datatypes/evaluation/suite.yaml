@@ -1,0 +1,9 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.x"
+          return: 18
+        - expression: "submission.y"
+          return: 2.7
+        - expression: "submission.z"
+          return: "Ik schrijf code in Python!"
