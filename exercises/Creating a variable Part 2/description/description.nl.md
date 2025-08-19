@@ -33,7 +33,7 @@
   }
 </style>
 
-Je hebt net geleerd hoe je de computer het getal `5` kan laten onthouden in de variabele `x` door `x = 5` te typen. Natuurlijk kan het soms ook zijn dat je je variabele een andere naam wil geven.
+Je hebt net geleerd hoe je de computer het getal `5` kan laten onthouden in de variabele `x` door `x = 5` te typen. Natuurlijk kan het soms ook zijn dat je je variabele een andere naam wil geven, of er een andere waarde in wil opslaan.
 
 # <b>Opdracht</b>
 Maak een variabele `y` aan met de waarde `8`.
