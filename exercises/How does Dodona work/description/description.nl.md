@@ -34,5 +34,7 @@ Maar nadat je hebt ingediend (doe dit maar als je het nog niet gedaan hebt) zie 
 
 Je ziet in het Feedback tabblad dat je huidige indiening correct is! We zullen later in deze cursus kijken hoe je dit tabblad kan gebruiken om fouten uit je code te verbeteren (dit heet '<i>debuggen</i>') en hoe je direct in het platform vragen kan stellen aan de leerkracht.
 
+<br>
+
 # Sandbox gedeelte
 Hier zullen we ook later op terugkomen.
