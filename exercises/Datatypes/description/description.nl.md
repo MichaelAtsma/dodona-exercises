@@ -51,7 +51,7 @@ Belangrijk bij een <i>float</i> is dat er in heel veel landen een punt `.` gebru
 ## Strings
 <i>String</i> is een Engels woord voor <i>reeks</i>. In dit geval staat het voor een reeks van karakters (bijvoorbeeld letters). Dit is dus bijvoorbeeld een woord zoals `hallo`, een zin zoals `Python is een programmeertaal.`, of zelfs maar één letter zoals `L`. Maar ook leestekens zijn karakters, dus `@%!?*` is ook een <i>string</i>.
 
-Speciaal aan een <i>string</i> is dat we het altijd tussen aanhalingstekens `"` moeten zetten, anders weet de computer niet waar de <i>string</i> eindigt en een variabele (waar je iets in hebt opgeslagen) begint. In Python mag je ook een enkel aanhalingsteken `'` gebruiken. De voorbeelden die hier gegeven waren worden dus
+Speciaal aan een <i>string</i> is dat we het altijd tussen aanhalingstekens `"` moeten zetten, anders weet de computer niet waar de <i>string</i> eindigt en een variabele (waar je iets in hebt opgeslagen) begint. In Python mag je ook een enkel aanhalingsteken `'` gebruiken. De voorbeelden die hier gegeven waren worden dus:
 - `"hallo"` of `'hallo'`
 - `"Python is een programmeertaal."` of `'Python is een programmeertaal.'`
 - `"L"` of `'L'`
