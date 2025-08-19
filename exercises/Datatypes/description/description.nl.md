@@ -42,22 +42,24 @@ Je hebt gezien hoe je getallen kan opslaan in de computer door een <i>variabele<
 
 <details>
 <summary>Floats</summary>
-Een <i>float</i> is een <i>kommagetal</i>. Dit zijn dus getallen zoals <code>5,2</code>, <code>11,83</code>, <code>-9,125</code>, <code>2,0</code>, ...
+<p>Een <i>float</i> is een <i>kommagetal</i>. Dit zijn dus getallen zoals <code>5,2</code>, <code>11,83</code>, <code>-9,125</code>, <code>2,0</code>, ...</p>
 
-De naam komt in dit geval niet van het Engelse woord voor kommagetal (dat zou <i>decimal number</i> zijn), maar juist voor hoe dit soort getallen in de computer geïmplementeerd worden. Daar zullen we echter hier niet op focussen.
+<p>De naam komt in dit geval niet van het Engelse woord voor kommagetal (dat zou <i>decimal number</i> zijn), maar juist voor hoe dit soort getallen in de computer geïmplementeerd worden. Daar zullen we echter hier niet op focussen.</p>
 
-Belangrijk bij een <i>float</i> is dat er in heel veel landen een punt <code>.</code> gebruikt wordt voor kommagetallen, waaronder in Engelstalige landen. Aangezien programmeertalen in het Engels zijn, moeten we hier dus ook rekening mee houden. Het kommagetal <code>5,2</code> schrijven we dus als <code>5.2</code>. Dit heb je misschien al wel eerder gezien op je rekentoestel tijdens je lessen wiskunde.
+<p>Belangrijk bij een <i>float</i> is dat er in heel veel landen een punt <code>.</code> gebruikt wordt voor kommagetallen, waaronder in Engelstalige landen. Aangezien programmeertalen in het Engels zijn, moeten we hier dus ook rekening mee houden. Het kommagetal <code>5,2</code> schrijven we dus als <code>5.2</code>. Dit heb je misschien al wel eerder gezien op je rekentoestel tijdens je lessen wiskunde.</p>
 </details>
 
 <details>
 <summary>Strings</summary>
-<i>String</i> is een Engels woord voor <i>reeks</i>. In dit geval staat het voor een reeks van karakters (bijvoorbeeld letters). Dit is dus bijvoorbeeld een woord zoals <code>hallo</code>, een zin zoals <code>Python is een programmeertaal.</code>, of zelfs maar één letter zoals <code>L</code>. Maar ook leestekens zijn karakters, dus <code>@%!?*</code> is ook een <i>string</i>.
+<p><i>String</i> is een Engels woord voor <i>reeks</i>. In dit geval staat het voor een reeks van karakters (bijvoorbeeld letters). Dit is dus bijvoorbeeld een woord zoals <code>hallo</code>, een zin zoals <code>Python is een programmeertaal.</code>, of zelfs maar één letter zoals <code>L</code>. Maar ook leestekens zijn karakters, dus <code>@%!?*</code> is ook een <i>string</i>.</p>
 
-Speciaal aan een <i>string</i> is dat we het altijd tussen aanhalingstekens <code>"</code> moeten zetten, anders weet de computer niet waar de <i>string</i> eindigt en een variabele (waar je iets in hebt opgeslagen) begint. In Python mag je ook een enkel aanhalingsteken <code>'</code> gebruiken. De voorbeelden die hier gegeven waren worden dus:
-- <code>"hallo"</code> of <code>'hallo'</code>
-- <code>"Python is een programmeertaal."</code> of <code>'Python is een programmeertaal.'</code>
-- <code>"L"</code> of <code>'L'</code>
-- <code>"@%!?*"</code> of <code>'@%!?*'</code>
+<p>Speciaal aan een <i>string</i> is dat we het altijd tussen aanhalingstekens <code>"</code> moeten zetten, anders weet de computer niet waar de <i>string</i> eindigt en een variabele (waar je iets in hebt opgeslagen) begint. In Python mag je ook een enkel aanhalingsteken <code>'</code> gebruiken. De voorbeelden die hier gegeven waren worden dus:</p>
+<ul>
+  <li><code>"hallo"</code> of <code>'hallo'</code></li>
+  <li><code>"Python is een programmeertaal."</code> of <code>'Python is een programmeertaal.'</code></li>
+  <li><code>"L"</code> of <code>'L'</code></li>
+  <li><code>"@%!?*"</code> of <code>'@%!?*'</code></li>
+</ul>
 </details>
 
 <br>
