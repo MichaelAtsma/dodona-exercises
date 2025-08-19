@@ -1,0 +1,1 @@
+Maak een variabele `x` aan met de waarde `5`
