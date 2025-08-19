@@ -1,5 +1,5 @@
 - tab: "Tabblad 1"
   contexts:
     - testcases:
-        - stdin: "x"
-          stdout: 5
+        - expression: "x"
+          return: 5
