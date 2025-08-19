@@ -1,5 +1,5 @@
 - tab: "Tabblad 1"
   contexts:
     - testcases:
-        - expression: "eval('x')"
-          return: 5
+        - expression: "x == 5"
+          return: True
