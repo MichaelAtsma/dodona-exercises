@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "Een variabele maken (deel 3)"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "labels": [],
+  "internals": {
+    "token": "EcKWyAwR9AfN5F2T9r9YuIEja75A4DiqW3yxITH5vX7P6WaGrTwG4pJrYhIZ4Jrf",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

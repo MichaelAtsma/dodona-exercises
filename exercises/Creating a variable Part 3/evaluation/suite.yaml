@@ -1,0 +1,9 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.a"
+          return: 7
+        - expression: "submission.b"
+          return: 3
+        - expression: "submission.c"
+          return: 10
