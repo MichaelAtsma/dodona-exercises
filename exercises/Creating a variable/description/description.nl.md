@@ -41,3 +41,8 @@ Je kan dit doen door te schrijven `x = 5`. De computer zal het dan voor jou onth
 
 # <b>Opdracht</b>
 Maak een variabele `x` aan met de waarde `5`.
+
+<details>
+<summary>Oplossing</summary>
+Schrijf in het grijze vak hieronder op de eerste regel <code>x = 5</code>.
+</details>
