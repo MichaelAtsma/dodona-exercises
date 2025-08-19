@@ -37,33 +37,33 @@ Je hebt gezien hoe je getallen kan opslaan in de computer door een <i>variabele<
 
 <details>
 <summary>Integers</summary>
-<i>Integer</i> is het Engelse woord voor <i>geheel getal</i>. Dit zijn dus getallen zoals `1`, `2`, `35`, `-4`, `0`, ...
+<i>Integer</i> is het Engelse woord voor <i>geheel getal</i>. Dit zijn dus getallen zoals <code>1</code>, <code>2</code>, <code>35</code>, <code>-4</code>, <code>0</code>, ...
 </details>
 
 <details>
 <summary>Floats</summary>
-Een <i>float</i> is een <i>kommagetal</i>. Dit zijn dus getallen zoals `5,2`, `11,83`, `-9,125`, `2,0`, ...
+Een <i>float</i> is een <i>kommagetal</i>. Dit zijn dus getallen zoals <code>5,2</code>, <code>11,83</code>, <code>-9,125</code>, <code>2,0</code>, ...
 
 De naam komt in dit geval niet van het Engelse woord voor kommagetal (dat zou <i>decimal number</i> zijn), maar juist voor hoe dit soort getallen in de computer geïmplementeerd worden. Daar zullen we echter hier niet op focussen.
 
-Belangrijk bij een <i>float</i> is dat er in heel veel landen een punt `.` gebruikt wordt voor kommagetallen, waaronder in Engelstalige landen. Aangezien programmeren in het Engels is, moeten we hier dus ook rekening mee houden. Het kommagetal `5,2` schrijven we dus als `5.2`. Dit heb je misschien al wel eerder gezien op je rekentoestel tijdens je lessen wiskunde.
+Belangrijk bij een <i>float</i> is dat er in heel veel landen een punt <code>.</code> gebruikt wordt voor kommagetallen, waaronder in Engelstalige landen. Aangezien programmeertalen in het Engels zijn, moeten we hier dus ook rekening mee houden. Het kommagetal <code>5,2</code> schrijven we dus als <code>5.2</code>. Dit heb je misschien al wel eerder gezien op je rekentoestel tijdens je lessen wiskunde.
 </details>
 
 <details>
 <summary>Strings</summary>
-<i>String</i> is een Engels woord voor <i>reeks</i>. In dit geval staat het voor een reeks van karakters (bijvoorbeeld letters). Dit is dus bijvoorbeeld een woord zoals `hallo`, een zin zoals `Python is een programmeertaal.`, of zelfs maar één letter zoals `L`. Maar ook leestekens zijn karakters, dus `@%!?*` is ook een <i>string</i>.
+<i>String</i> is een Engels woord voor <i>reeks</i>. In dit geval staat het voor een reeks van karakters (bijvoorbeeld letters). Dit is dus bijvoorbeeld een woord zoals <code>hallo</code>, een zin zoals <code>Python is een programmeertaal.</code>, of zelfs maar één letter zoals <code>L</code>. Maar ook leestekens zijn karakters, dus <code>@%!?*</code> is ook een <i>string</i>.
 
-Speciaal aan een <i>string</i> is dat we het altijd tussen aanhalingstekens `"` moeten zetten, anders weet de computer niet waar de <i>string</i> eindigt en een variabele (waar je iets in hebt opgeslagen) begint. In Python mag je ook een enkel aanhalingsteken `'` gebruiken. De voorbeelden die hier gegeven waren worden dus:
-- `"hallo"` of `'hallo'`
-- `"Python is een programmeertaal."` of `'Python is een programmeertaal.'`
-- `"L"` of `'L'`
-- `"@%!?*"` of `'@%!?*'`
+Speciaal aan een <i>string</i> is dat we het altijd tussen aanhalingstekens <code>"</code> moeten zetten, anders weet de computer niet waar de <i>string</i> eindigt en een variabele (waar je iets in hebt opgeslagen) begint. In Python mag je ook een enkel aanhalingsteken <code>'</code> gebruiken. De voorbeelden die hier gegeven waren worden dus:
+- <code>"hallo"</code> of <code>'hallo'</code>
+- <code>"Python is een programmeertaal."</code> of <code>'Python is een programmeertaal.'</code>
+- <code>"L"</code> of <code>'L'</code>
+- <code>"@%!?*"</code> of <code>'@%!?*'</code>
 </details>
 
 <br>
 
 # <b>Opdracht</b>
 Maak 3 variabelen aan:
-1. Een variabele `x` waarin je de <i>integer</i> `18` in opslaat,
-2. Een variabele `y` waarin je de <i>float</i> `2,7` in opslaat (let op een punt in plaats van een komma),
-3. Een variabele `z` waarin je de <i>string</i> `Ik schrijf code Python!` in opslaat (let op de aanhalingstekens).
+1. Een variabele <code>x</code> waarin je de <i>integer</i> <code>18</code> in opslaat,
+2. Een variabele <code>y</code> waarin je de <i>float</i> <code>2,7</code> in opslaat (let op een punt in plaats van een komma),
+3. Een variabele <code>z</code> waarin je de <i>string</i> <code>Ik schrijf code Python!</code> in opslaat (let op de aanhalingstekens).
