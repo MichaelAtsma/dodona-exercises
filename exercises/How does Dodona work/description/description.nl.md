@@ -40,4 +40,6 @@ Je ziet in het Feedback tabblad dat je huidige indiening correct is! We zullen l
 <hr>
 
 # Sandbox gedeelte
-Hier zullen we ook later op terugkomen.
+Hier zullen we ook later op terugkomen. Het gaat hier om deze knop rechtsonder de:
+
+<img src="media/sandbox_knop.png" alt="Sandbox knop">
