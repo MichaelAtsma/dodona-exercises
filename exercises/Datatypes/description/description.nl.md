@@ -33,10 +33,7 @@
   }
 </style>
 
-Je hebt gezien hoe je getallen kan opslaan in de computer door een <i>variabele</i> te gebruiken. Getallen zijn echter niet de enige soorten gegevens die er bestaan. Python maakt onderscheid tussen heel wat soorten gegevens, en daarnaast kan je ook nog zelf een soort gegeven creëren. Daarom zullen we voor nu focussen op slechts 3 soorten:
-1. Integers
-2. Floats
-3. Strings
+Je hebt gezien hoe je getallen kan opslaan in de computer door een <i>variabele</i> te gebruiken. Getallen zijn echter niet de enige soorten gegevens die er bestaan. Python maakt onderscheid tussen heel wat soorten gegevens, en daarnaast kan je ook nog zelf een soort gegeven creëren. Daarom zullen we voor nu focussen op slechts 3 soorten (klik op de soort om uitleg erover te krijgen):
 
 <details>
 <summary>Integers</summary>
