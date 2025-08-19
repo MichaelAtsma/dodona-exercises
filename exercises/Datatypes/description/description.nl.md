@@ -49,14 +49,18 @@ De naam komt in dit geval niet van het Engelse woord voor kommagetal (dat zou <i
 Belangrijk bij een <i>float</i> is dat er in heel veel landen een punt `.` gebruikt wordt voor kommagetallen, waaronder in Engelstalige landen. Aangezien programmeren in het Engels is, moeten we hier dus ook rekening mee houden. Het kommagetal `5,2` schrijven we dus als `5.2`. Dit heb je misschien al wel eerder gezien op je rekentoestel tijdens je lessen wiskunde.
 
 ## Strings
-<i>String</i> is een Engels woord voor <i>reeks</i>. In dit geval staat het voor een reeks van karakters (bijvoorbeeld letters). Dit is dus bijvoorbeeld een woord zoals `"hallo"`, een zin zoals `"Python is een programmeertaal."`, of zelfs maar één letter zoals `"L"`. Maar ook leestekens zijn karakters, dus `"@%!?*"` is ook een <i>string</i>.
+<i>String</i> is een Engels woord voor <i>reeks</i>. In dit geval staat het voor een reeks van karakters (bijvoorbeeld letters). Dit is dus bijvoorbeeld een woord zoals `hallo`, een zin zoals `Python is een programmeertaal.`, of zelfs maar één letter zoals `L`. Maar ook leestekens zijn karakters, dus `@%!?*` is ook een <i>string</i>.
 
-Speciaal aan een <i>string</i> is dat we het altijd tussen aanhalingstekens `"` moeten zetten, anders weet de computer niet waar de <i>string</i> eindigt en een variabele (waar je iets in hebt opgeslagen) begint. In Python mag je ook een enkel aanhalingsteken `'` gebruiken.
+Speciaal aan een <i>string</i> is dat we het altijd tussen aanhalingstekens `"` moeten zetten, anders weet de computer niet waar de <i>string</i> eindigt en een variabele (waar je iets in hebt opgeslagen) begint. In Python mag je ook een enkel aanhalingsteken `'` gebruiken. De voorbeelden die hier gegeven waren worden dus
+- `"hallo"` of `'hallo'`
+- `"Python is een programmeertaal."` of `'Python is een programmeertaal.'`
+- `"L"` of `'L'`
+- `"@%!?*"` of `'@%!?*'`
 
 <br>
 
 # <b>Opdracht</b>
 Maak 3 variabelen aan:
 1. Een variabele `x` waarin je de <i>integer</i> `18` in opslaat,
-2. Een variabele `y` waarin je de <i>float</i> `2,7` in opslaat,
-3. Een variabele `z` waarin je de <i>string</i> `"Ik schrijf code Python!"` in opslaat.
+2. Een variabele `y` waarin je de <i>float</i> `2,7` in opslaat (let op een punt in plaats van een komma),
+3. Een variabele `z` waarin je de <i>string</i> `Ik schrijf code Python!` in opslaat (let op de aanhalingstekens).
