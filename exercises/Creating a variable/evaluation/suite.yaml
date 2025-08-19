@@ -1,4 +1,4 @@
-- tab: "Tabblad 1"
+- tab: "Test"
   contexts:
     - testcases:
         - expression: "submission.x"
