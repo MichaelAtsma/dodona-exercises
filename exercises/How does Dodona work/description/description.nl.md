@@ -3,6 +3,8 @@ Elke pagina van een Dodona opdracht bestaat uit 3 delen:
 2. Het gedeelte waar je code kan schrijven en indienen,
 3. Het "sandbox" gedeelte, waar je code kan schrijven en kan testen voordat je het indient.
 
+<br>
+
 # Uitleg gedeelte
 Hier wordt, zoals de naam zegt, altijd de opdracht uitgelegd. Je moet de tekst lezen om te weten wat er van je verwacht wordt. 
 
@@ -22,3 +24,10 @@ In het grijze vak onderaan de pagina schrijf je de code waar de opdracht om vraa
 
 <img src="media/indienen_knop.png" alt="Indienen knop">
 
+Merk op. Voordat je de oefening indient zie je 2 tabbladen:
+
+<img src="media/indienen_2tabbladen.png" alt="2 tabbladen: Indienen en Oplossingen">
+
+Maar nadat je hebt ingediend (doe dit maar als je het nog niet gedaan hebt) zie je een extra tabblad:
+
+<img src="media/indienen_3tabbladen.png" alt="3 tabbladen: Indienen, Oplossingen, en Feedback">
