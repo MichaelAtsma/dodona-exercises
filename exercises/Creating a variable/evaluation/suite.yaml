@@ -1,5 +1,5 @@
 - tab: "Tabblad 1"
   contexts:
     - testcases:
-        - expression: "x == 5"
-          return: True
+        - expression: "submission.x"
+          return: 5
