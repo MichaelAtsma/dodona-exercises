@@ -1,9 +1,9 @@
 import math
 
-center = (230, 110)
-radius = 40
+center = (270, 110)
+radius = 50
 startAngle = 180
-endAngle = 150
+endAngle = 180-22.62
 
 if startAngle < endAngle:
     startAngle, endAngle = endAngle, startAngle
