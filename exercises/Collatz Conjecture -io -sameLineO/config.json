@@ -1,8 +1,8 @@
 {
   "description": {
     "names": {
-      "en": "Collatz Conjecture",
-      "nl": "Vermoeden van Collatz"
+      "en": "Collatz Conjecture (output on 1 line)",
+      "nl": "Vermoeden van Collatz (uitvoer op 1 regel)"
     }
   },
   "evaluation": {
