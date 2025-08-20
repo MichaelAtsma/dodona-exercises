@@ -8,9 +8,12 @@ from evaluation_utils import EvaluationResult, Message
 def evaluate_test(context, secret_number):
     correct = secret_number == context.actual
     if correct:
-        display_text = "Goed zo! Je hebt het geheime getal gevonden."
+        display_text = -53
+        message = Message("Goed zo! Je hebt het geheime getal gevonden.")
     else:
-        display_text = "De waarde van het geheime getal kan je enkel krijgen door een vraag te stellen via Dodona."
+        display_text = "?"
+        message = Message("De waarde van het geheime getal kan je enkel krijgen door een vraag te stellen via Dodona.")
+
     return EvaluationResult(
       # Boolean of dat het resultaat juist is
       result = correct,
@@ -19,5 +22,5 @@ def evaluate_test(context, secret_number):
       # De eigenlijke waarde uit de oplossing om te tonen op Dodona
       dsl_actual = repr(context.actual),
       # Optionale lijst van berichten om te tonen op Dodona
-      messages = [Message("Test")]
+      messages = [message]
     )
