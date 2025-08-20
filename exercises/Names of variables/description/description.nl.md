@@ -20,7 +20,7 @@ diagonaal = 5
 
 Soms is één woord echter niet genoeg, denk bijvoorbeeld aan de rechthoekige driehoek hieronder:
 
-<svg width="280" height="140" style="display: block; margin: 0 auto;">
+<svg width="280" height="140" style="display: block; margin: 0 auto;" class="dark-invert">
   <!-- Side labels -->
   <!-- Background rectangles behind the text -->
   <rect x="118" y="110" width="20" height="20" fill="white"/>
