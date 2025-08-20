@@ -1,0 +1,43 @@
+Collatz-reeks:
+1
+
+Collatz-reeks:
+2
+1
+
+Collatz-reeks:
+3
+10
+5
+16
+8
+4
+2
+1
+
+Collatz-reeks:
+4
+2
+1
+
+Collatz-reeks:
+5
+16
+8
+4
+2
+1
+----------------------------------------
+python input without prompt: true
+tab name: Voorbeelden
+block count: multi
+input block size: 1
+output block size: ends with
+show line numbers: false
+comparison: exact match
+<LANGUAGE code="nl">
+  <detect token="Collatz-reeks" />
+</LANGUAGE>
+<LANGUAGE code="en">
+  <fixed from="Collatz-reeks" to="Collatz sequence" detect="true" />
+</LANGUAGE>
