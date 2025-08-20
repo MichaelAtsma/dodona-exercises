@@ -1,0 +1,9 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.diepte"
+          return: 6
+        - expression: "submission.lengte"
+          return: 50
+        - expression: "submission.breedte"
+          return: 10
