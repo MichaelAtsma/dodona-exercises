@@ -33,7 +33,7 @@
   }
 </style>
 
-test
+test 2
 
 # <b>Opdracht</b>
 1. Dien de code in die er al staat (niet schrikken, dit zal fout zijn).
