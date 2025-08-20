@@ -38,6 +38,7 @@ diagonaal = 5
 
 Soms is één woord echter niet genoeg, denk bijvoorbeeld aan de rechthoekige driehoek hieronder:
 
+<figure>
 <svg width="260" height="140" title="Rechthoekige driehoek met zijden van lengte 5 en 12, en schuine zijde van lengte 13.">
   <!-- Side labels -->
   <!-- Background rectangles behind the text -->
@@ -57,6 +58,7 @@ Soms is één woord echter niet genoeg, denk bijvoorbeeld aan de rechthoekige dr
   <!-- Arc for alpha angle -->
   <path d="M 220 110 A 50 50 0 0 1 224 91" fill="none" stroke="black" stroke-width="2"/>
 </svg>
+</figure>
 
 Het probleem is echter dat er in de naam van een variabele GEEN spatie mag staan. Dat betekent dat we de naam `schuine zijde` niet kunnen gebruiken. We kunnen dit oplossen door een <i>underscore</i> `_` te gebruiken in plaats van de spatie: `schuine_zijde`. Dit wordt <a href="https://en.wikipedia.org/wiki/Snake_case"><i>snake_case</i></a> genoemd.
 
