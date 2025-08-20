@@ -22,22 +22,17 @@ Soms is één woord echter niet genoeg, denk bijvoorbeeld aan de rechthoekige dr
 
 <svg width="280" height="140" style="display: block; margin: 0 auto;" class="dark-invert">
   <!-- Side labels -->
-  <!-- Background rectangles behind the text -->
-  <rect x="118" y="110" width="20" height="20" fill="white"/>
-  <rect x="8" y="50" width="13" height="20" fill="white"/>
-  <rect x="138" y="30" width="20" height="20" fill="white"/>
-  <!-- Text itself -->
   <text x="120" y="125" font-size="14" class="theme-text">12</text>
   <text x="10" y="65" font-size="14">5</text>
   <text x="140" y="45" font-size="14">13</text>
   <!-- Triangle -->
-  <polygon points="30,110 270,110 30,10" fill="white" stroke="black" stroke-width="2"/>
+  <polygon points="30,110 270,110 30,10" fill="#c5c5c5ff" stroke="#333" stroke-width="2"/>
   <!-- Right angle marker -->
-  <rect x="30" y="95" width="15" height="15" fill="none" stroke="black" stroke-width="2"/>
+  <rect x="30" y="95" width="15" height="15" fill="none" stroke="#333" stroke-width="2"/>
   <!-- Alpha angle label -->
   <text x="205" y="103" font-size="14" font-style="italic">&#945;</text>
   <!-- Arc for alpha angle -->
-  <path d="M 220 110 A 50 50 0 0 1 224 91" fill="none" stroke="black" stroke-width="2"/>
+  <path d="M 220 110 A 50 50 0 0 1 224 91" fill="none" stroke="#333" stroke-width="2"/>
 </svg>
 
 Het probleem is echter dat er in de naam van een variabele GEEN spatie mag staan. Dat betekent dat we de naam `schuine zijde` niet kunnen gebruiken. We kunnen dit oplossen door een <i>underscore</i> (lage streep: `_`) te gebruiken in plaats van de spatie: `schuine_zijde`. Dit wordt <a href="https://en.wikipedia.org/wiki/Snake_case"><i>snake_case</i></a> genoemd.
