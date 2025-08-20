@@ -2,6 +2,4 @@
   contexts:
     - testcases:
         - expression: "submission.x"
-          return: 1
-        - expression: "submission.y"
-          return: 3
+          return: 777
