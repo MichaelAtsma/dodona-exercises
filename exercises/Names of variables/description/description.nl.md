@@ -58,7 +58,7 @@ Soms is één woord echter niet genoeg, denk bijvoorbeeld aan de rechthoekige dr
   <path d="M 220 110 A 50 50 0 0 1 224 91" fill="none" stroke="black" stroke-width="2"/>
 </svg>
 
-Het probleem is echter dat er in de naam van een variabele GEEN spatie mag staan. Dat betekent dat we de naam `schuine zijde` niet kunnen gebruiken. We kunnen dit oplossen door een <i>underscore</i> `_` te gebruiken in plaats van de spatie: `schuine_zijde`. Dit wordt <a href="https://en.wikipedia.org/wiki/Snake_case"><i>snake_case</i></a> genoemd.
+Het probleem is echter dat er in de naam van een variabele GEEN spatie mag staan. Dat betekent dat we de naam `schuine zijde` niet kunnen gebruiken. We kunnen dit oplossen door een <i>underscore</i> (lage streep: `_`) te gebruiken in plaats van de spatie: `schuine_zijde`. Dit wordt <a href="https://en.wikipedia.org/wiki/Snake_case"><i>snake_case</i></a> genoemd.
 
 <details>
 <summary>Andere methode</summary>
