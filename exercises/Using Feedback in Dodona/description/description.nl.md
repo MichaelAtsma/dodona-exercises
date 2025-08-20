@@ -35,7 +35,7 @@
 
 Eerder hebben we het gehad over het Feedback tabblad in het indien-venster onderaan de opdracht. Hier kan je zien wat er goed of fout gaat met jouw code. Zie hieronder een voorbeeld:
 
-<img src="media/Fibonacci_Feedback_1juist_1fout.png" alt="Feedback tabblad">
+<img src="media/Feedback_1juist_1fout.png" alt="Feedback tabblad" alt-data="Feedback tabblad waarbij de waarde van x correct is maar de waarde van y niet correct." width="50%">
 
 Je ziet dat de waarde voor <code>x</code> correct is, maar dat de waarde voor <code>y</code> fout is. De leerling heeft <code>y = 2</code> geschreven terwijl er <code>y = 3</code> als antwoord werd verwacht.
 
