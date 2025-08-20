@@ -9,24 +9,6 @@
   });
 </script>
 
-<script>
-  /* Default: light theme */
-  .theme-text {
-    fill: black;
-    stroke: white;
-    stroke-width: 0.5;
-  }
-
-  /* Dark theme */
-  @media (prefers-color-scheme: dark) {
-    .theme-text {
-      fill: white;
-      stroke: black;
-      stroke-width: 0.5;
-    }
-  }
-</script>
-
 Je weet nu hoe je verschillende variabelen kan opslaan. Echter hebben we nu steeds variabelen-namen gebruikt die in de wiskunde veel gebruikt worden (`x`, `y`, ...). Wiskunde is vaak handgeschreven, en het is via een schets meestal duidelijk waar deze variabelen voor staan, waardoor het fijn is om korte namen te gebruiken. Bij het programmeren is dit echter compleet het tegenovergestelde. Als jij of iemand anders later jouw code terugleest, dan is het een mysterie wat `x` of `y` betekent. We gebruiken dus namen voor onze variabelen die duidelijk maken wat er in die variabele is opgeslagen.
 
 Stel je voor dat we het hebben over een rechthoek met breedte `4` en hoogte `3`. Dit zal een diagonaal geven van lengte `5` (reken dit maar na met de stelling van Pythagoras). We kunnen in onze code dan ook letterlijk de namen `breedte`, `lengte`, en `diagonaal` gebruiken voor de variabelen, zodat wanneer we dit later teruglezen het duidelijk zal zijn waar de `3`, `4`, en `5` betekenen. Dit zal er dus zo uit zien:
