@@ -38,27 +38,30 @@ diagonaal = 5
 
 Soms is één woord echter niet genoeg, denk bijvoorbeeld aan de rechthoekige driehoek hieronder:
 
-<a href="#" class="dodona-lightbox">
-  <svg id="my-svg" width="280" height="140">
-    <!-- Side labels -->
-    <!-- Background rectangles behind the text -->
-    <rect x="118" y="110" width="20" height="20" fill="white"/>
-    <rect x="8" y="50" width="13" height="20" fill="white"/>
-    <rect x="138" y="30" width="20" height="20" fill="white"/>
-    <!-- Text itself -->
-    <text x="120" y="125" font-size="14" class="theme-text">12</text>
-    <text x="10" y="65" font-size="14">5</text>
-    <text x="140" y="45" font-size="14">13</text>
-    <!-- Triangle -->
-    <polygon points="30,110 270,110 30,10" fill="white" stroke="black" stroke-width="2"/>
-    <!-- Right angle marker -->
-    <rect x="30" y="95" width="15" height="15" fill="none" stroke="black" stroke-width="2"/>
-    <!-- Alpha angle label -->
-    <text x="205" y="103" font-size="14" font-style="italic">&#945;</text>
-    <!-- Arc for alpha angle -->
-    <path d="M 220 110 A 50 50 0 0 1 224 91" fill="none" stroke="black" stroke-width="2"/>
-  </svg>
-</a>
+<figure>
+  <a href="#"
+     onclick="window.open('', 'popup', 'width=600,height=400').document.write(document.getElementById('my-svg').outerHTML); return false;">
+    <svg width="280" height="140">
+      <!-- Side labels -->
+      <!-- Background rectangles behind the text -->
+      <rect x="118" y="110" width="20" height="20" fill="white"/>
+      <rect x="8" y="50" width="13" height="20" fill="white"/>
+      <rect x="138" y="30" width="20" height="20" fill="white"/>
+      <!-- Text itself -->
+      <text x="120" y="125" font-size="14" class="theme-text">12</text>
+      <text x="10" y="65" font-size="14">5</text>
+      <text x="140" y="45" font-size="14">13</text>
+      <!-- Triangle -->
+      <polygon points="30,110 270,110 30,10" fill="white" stroke="black" stroke-width="2"/>
+      <!-- Right angle marker -->
+      <rect x="30" y="95" width="15" height="15" fill="none" stroke="black" stroke-width="2"/>
+      <!-- Alpha angle label -->
+      <text x="205" y="103" font-size="14" font-style="italic">&#945;</text>
+      <!-- Arc for alpha angle -->
+      <path d="M 220 110 A 50 50 0 0 1 224 91" fill="none" stroke="black" stroke-width="2"/>
+    </svg>
+  </a>
+</figure>
 
 <figure>
 <svg width="280" height="140" title="Rechthoekige driehoek met zijden van lengte 5 en 12, en schuine zijde van lengte 13.">
