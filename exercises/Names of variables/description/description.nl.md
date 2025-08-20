@@ -68,4 +68,4 @@ Een andere methode om dit probleem op te lossen is door gebruik van hoofdletters
 <br>
 
 # <b>Opdracht</b>
-Gegeven een zwembad met een `diepte` van `6`, een `lengte` van `50`, en een `breedte` van `10`. Maak 3 variabelen met de juiste naam en waarde.
+Gegeven een zwembad met een `diepte` van `6`, een `lengte` van `50`, en een `breedte` van `10`. Maak 3 variabelen met deze namen en waarden.
