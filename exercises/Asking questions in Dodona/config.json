@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "Vragen stellen in Dodona"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "labels": [],
+  "internals": {
+    "token": "jgXccgpy_yxhjX563YDeNSGbPBZIv3Rjr2f2VTIi8Y6FGwp74M_FqX75cD8f9qqX",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
