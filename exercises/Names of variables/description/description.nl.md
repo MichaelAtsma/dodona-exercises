@@ -40,7 +40,7 @@ Soms is één woord echter niet genoeg, denk bijvoorbeeld aan de rechthoekige dr
 
 <figure>
   <a href="#"
-     onclick="window.open('', 'popup', 'width=600,height=400').document.write(document.getElementById('my-svg').outerHTML); return false;">
+     onclick="window.open('', 'popup', 'width=1120,height=560').document.write(document.getElementById('my-svg').outerHTML); return false;">
     <svg width="280" height="140">
       <!-- Side labels -->
       <!-- Background rectangles behind the text -->
