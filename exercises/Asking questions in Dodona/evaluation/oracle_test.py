@@ -11,7 +11,7 @@ def evaluate_test(context, secret_number):
       # Boolean of dat het resultaat juist is
       result = secret_number == context.actual,
       # De "verwachte waarde" om te tonen op Dodona
-      dsl_expected = "De waarde van het geheime getal kan je enkel krijgen door een vraag te stellen via Dodona.",
+      dsl_expected = repr("De waarde van het geheime getal kan je enkel krijgen door een vraag te stellen via Dodona."),
       # De eigenlijke waarde uit de oplossing om te tonen op Dodona
       dsl_actual = repr(context.actual),
       # Optionale lijst van berichten om te tonen op Dodona
