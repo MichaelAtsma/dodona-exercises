@@ -37,23 +37,23 @@ Het kan wel eens voorkomen dat je vragen hebt wanneer je thuis de oefeningen maa
 
 Je klikt hiervoor eerst op de knop om je code te bekijken, en vervolgens op de knop om een vraag te stellen:
 
-<img src="media/locatie_vraag_stellen_knop.png" alt="Locatie van knop om vraag te stellen" width="60%" style="border: 2px solid black;">
+<img src="media/locatie_vraag_stellen_knop.png" alt="Locatie van knop om vraag te stellen" width="70%" style="border: 4px solid black;">
 
 Als je meerdere regels code hebt kan je ook een vraag stellen over een specifieke regel of gedeelte van een regel door het te selecteren. Er komt dan een extra knop tevoorschijn:
 
-<img src="media/specifieke_vraag_stellen_knop.png" alt="Knop om een specifieke vraag te stellen" width="25%" style="border: 2px solid black;">
+<img src="media/specifieke_vraag_stellen_knop.png" alt="Knop om een specifieke vraag te stellen" width="35%" style="border: 4px solid black;">
 
 Tot slot schrijf je je vraag. Zorg dat je een doordachte vraag stelt, en niet iets zoals <i>"ik snap het niet"</i> of <i>"wat moet ik doen"</i> want dat betekent meestal dat je de opdracht niet goed hebt gelezen. Hier een voorbeeld van de vraag die je in deze opdracht zal stellen:
 
-<img src="media/vraag_opstellen.png" alt="Een voorbeeld van een goede, specifieke vraag" width="60%" style="border: 2px solid black;">
+<img src="media/vraag_opstellen.png" alt="Een voorbeeld van een goede, specifieke vraag" width="70%" style="border: 4px solid black;">
 
 Vergeet niet op de <i>Vraag stellen</i> knop te klikken, anders wordt het niet verzonden. Wanneer je leerkracht gereageerd heeft dan zal je dit zien aan een notificatie rechtsbovenin de Dodona pagina:
 
-<img src="media/notificatie.png" alt="De notificatie dat er op je vraag is gereageerd" width="25%" style="border: 2px solid black;">
+<img src="media/notificatie.png" alt="De notificatie dat er op je vraag is gereageerd" width="35%" style="border: 4px solid black;">
 
 Door hier op te klikken zal je naar het antwoord op je vraag gaan:
 
-<img src="media/antwoord_verborgen.png" alt="Het antwoord op de vraag die je gesteld hebt" width="30%" style="border: 2px solid black;">
+<img src="media/antwoord_verborgen.png" alt="Het antwoord op de vraag die je gesteld hebt" width="40%" style="border: 4px solid black;">
 
 <br>
 
