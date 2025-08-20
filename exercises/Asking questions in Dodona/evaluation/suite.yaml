@@ -2,7 +2,7 @@
   contexts:
     - testcases:
         - expression: "submission.geheim_getal"
-          return:
+          return: !oracle
             oracle: "custom_check"
             value: -53
             file: "oracle_test.py"
