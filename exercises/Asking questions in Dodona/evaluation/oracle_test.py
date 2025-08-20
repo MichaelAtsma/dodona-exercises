@@ -1,6 +1,5 @@
 # We importeren wat hulpklassen uit TESTed.
 from evaluation_utils import EvaluationResult, Message
-from datetime import datetime
 
 # De orakelfunctie heeft altijd minstens één argument:
 # - de "context", een object met wat metadata (zie hieronder)
