@@ -1,0 +1,11 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.eerste_gehele_getal"
+          return: 4
+        - expression: "submission.tweede_gehele_getal"
+          return: -9
+        - expression: "submission.kommagetal"
+          return: 8.1
+        - expression: "submission.zin"
+          return: "Ik verbeter code in Python!"
