@@ -1,10 +1,12 @@
 - tab: "Test"
   contexts:
     - testcases:
+        - statement: "f = open(submission, 'r')"
+        - statement: "submission_content = f.read()"
         - expression: "submission.som"
           return: !oracle
             oracle: "custom_check"
             value: 10
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: [submission, submission.som]
+            arguments: [submission_content, submission.som]
