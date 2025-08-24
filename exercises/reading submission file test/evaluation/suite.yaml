@@ -1,8 +1,8 @@
 - tab: "Test"
   contexts:
     - testcases:
-        - statement: "a = 4"
-        - expression: "a"
+        - statement: "a = open('/home/runner/workdir/execution_0/submission.pyc', 'r')"
+        - expression: "3"
           return: !oracle
             oracle: "custom_check"
             value: 10
