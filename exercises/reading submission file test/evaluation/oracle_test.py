@@ -26,7 +26,7 @@ def evaluate_test(context):
       # De "verwachte waarde" om te tonen op Dodona
       dsl_expected = repr(display_text),
       # De eigenlijke waarde uit de oplossing om te tonen op Dodona
-      dsl_actual = repr(1),
+      dsl_actual = repr(context.actual),
       # Optionale lijst van berichten om te tonen op Dodona
       messages = mymessages
     )
