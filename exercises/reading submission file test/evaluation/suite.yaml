@@ -9,4 +9,4 @@
             value: 10
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: [10]
+            arguments: [10, 10]
