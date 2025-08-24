@@ -1,7 +1,8 @@
 - tab: "Test"
   contexts:
     - testcases:
-        - expression: "5"
+        - statement: "a = 4"
+        - expression: "a"
           return: !oracle
             oracle: "custom_check"
             value: 10
