@@ -33,7 +33,7 @@
   }
 </style>
 
-Lorum ipsum. Test 15...
+Lorum ipsum. Test 15.
 
 <br>
 
