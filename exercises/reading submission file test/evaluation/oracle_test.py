@@ -6,15 +6,16 @@ from evaluation_utils import EvaluationResult, Message
 # - de overige argumenten zijn die uit het testplan
 #   (de getallen 5 en 6 in dit geval)
 def evaluate_test(context, submission, som):
-    submission_file = open(submission, "r")
-    submission_content = submission_file.read()
-    correct = (("10" not in submission_content) and (som == 10))
+    correct = False
+    # submission_file = open(submission, "r")
+    # submission_content = submission_file.read()
+    # correct = (("10" not in submission_content) and (som == 10))
     if correct:
         display_text = 10
         message = Message("Goed zo! Je hebt het geheime getal gevonden.")
     else:
         display_text = "?"
-        message = Message("De waarde van het geheime getal kan je enkel krijgen door een vraag te stellen via Dodona.")
+        message = Message(submission)
 
     return EvaluationResult(
       # Boolean of dat het resultaat juist is
