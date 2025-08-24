@@ -15,10 +15,10 @@ def evaluate_test(context):
         display_text = 10
         mymessages.append(Message("Goed zo! Je hebt het geheime getal gevonden."))
     else:
-        display_text = "?"
+        display_text = submission_content
         # mymessages.append(Message("hoi"))
         # mymessages.append(Message(type(context.actual)))
-        mymessages.append(submission_content)
+        # mymessages.append(submission_content)
 
     return EvaluationResult(
       # Boolean of dat het resultaat juist is
