@@ -7,7 +7,7 @@ from evaluation_utils import EvaluationResult, Message
 #   (de getallen 5 en 6 in dit geval)
 def evaluate_test(context):
     correct = False
-    submission_file = open(context.actual, "r")
+    submission_file = open("/home/runner/workdir/execution_0/submission.pyc", "r")
     # submission_content = submission_file.read()
     # correct = (("10" not in submission_content) and (som == 10))
     mymessages = []
@@ -16,7 +16,8 @@ def evaluate_test(context):
         mymessages.append(Message("Goed zo! Je hebt het geheime getal gevonden."))
     else:
         display_text = "?"
-        mymessages.append(Message(type(context.actual)))
+        # mymessages.append(Message("hoi"))
+        # mymessages.append(Message(type(context.actual)))
         mymessages.append(Message(type(submission_file)))
 
     return EvaluationResult(
