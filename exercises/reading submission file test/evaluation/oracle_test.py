@@ -5,9 +5,10 @@ from evaluation_utils import EvaluationResult, Message
 # - de "context", een object met wat metadata (zie hieronder)
 # - de overige argumenten zijn die uit het testplan
 #   (de getallen 5 en 6 in dit geval)
-def evaluate_test(context, submissionfile, som):
-    submission = submissionfile.read()
-    correct = (("10" not in submission) and (som == 10))
+def evaluate_test(context, submission, som):
+    submission_file = open(submission, "r")
+    submission_content = submission_file.read()
+    correct = (("10" not in submission_content) and (som == 10))
     if correct:
         display_text = 10
         message = Message("Goed zo! Je hebt het geheime getal gevonden.")
