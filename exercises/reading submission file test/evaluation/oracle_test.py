@@ -9,10 +9,10 @@ import os
 def evaluate_test(context):
     correct = False
     submission_file_directory = context.execution_directory
-    submission_file_path = os.path.join(submission_file_directory, "submission.pyc")
-    submission_file = open(submission_file_path, "rb")
-    submission_content = submission_file.read()
-    submission_text = submission_content.decode("latin-1", errors="replace")
+    submission_file_path = os.path.join(submission_file_directory, "submission.py")
+    submission_file = open(submission_file_path, "r")
+    # submission_content = submission_file.read()
+    # submission_text = submission_content.decode("latin-1", errors="replace")
     # correct = (("10" not in submission_content) and (som == 10))
     mymessages = []
     if correct:
