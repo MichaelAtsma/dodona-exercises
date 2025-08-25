@@ -1,7 +1,6 @@
 # We importeren wat hulpklassen uit TESTed.
 from evaluation_utils import EvaluationResult, Message
 import os
-import pandas
 
 # De orakelfunctie heeft altijd minstens één argument:
 # - de "context", een object met wat metadata (zie hieronder)
@@ -11,8 +10,8 @@ def evaluate_test(context):
     correct = False
     submission_file_directory = context.execution_directory
     submission_file_path = os.path.join(submission_file_directory, "submission.pyc")
-    submission_file = open(submission_file_path, "rb")
-    # submission_content = submission_file.read()
+    submission_file = open(submission_file_path, "r")
+    submission_content = submission_file.readline()
     # correct = (("10" not in submission_content) and (som == 10))
     mymessages = []
     if correct:
