@@ -1,6 +1,7 @@
 # We importeren wat hulpklassen uit TESTed.
 from evaluation_utils import EvaluationResult, Message
 import os
+from bs4 import BeautifulSoup
 
 # De orakelfunctie heeft altijd minstens één argument:
 # - de "context", een object met wat metadata (zie hieronder)
@@ -21,7 +22,7 @@ def evaluate_test(context):
         display_text = "?" # submission_content
         # mymessages.append(Message("hoi"))
         # mymessages.append(Message(type(context.actual)))
-        mymessages.append(Message(submission_file))
+        # mymessages.append(Message(submission_file))
 
     return EvaluationResult(
       # Boolean of dat het resultaat juist is
