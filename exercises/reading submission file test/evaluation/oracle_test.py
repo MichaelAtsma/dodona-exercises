@@ -10,9 +10,10 @@ import sys
 #   (de getallen 5 en 6 in dit geval)
 def evaluate_test(context):
     correct = False
-    submission_file_directory = context.execution_directory
-    files = os.listdir("../resources")
-    files_as_text = "\n".join(files)
+    submission_file_directory = context.execution_directory # /home/runner/workdir/execution_0
+    # files = os.listdir("../resources") # contains: suite.yaml, oracle_test.py
+    files = os.listdir("../submission") # contains: 
+    
     # submission_file_path = os.path.join(submission_file_directory, "submission.py")
     # submission_file = open(submission_file_path, "r")
     # submission_content = submission_file.read()
