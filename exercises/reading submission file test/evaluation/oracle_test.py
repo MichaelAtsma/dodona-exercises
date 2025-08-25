@@ -1,8 +1,10 @@
 # We importeren wat hulpklassen uit TESTed.
 from evaluation_utils import EvaluationResult, Message
 import os
-import dis
-import sys
+
+def get_submission_code():
+    with open("..submission/source", 'r') as f:
+        return f.read()
 
 # De orakelfunctie heeft altijd minstens één argument:
 # - de "context", een object met wat metadata (zie hieronder)
@@ -10,15 +12,16 @@ import sys
 #   (de getallen 5 en 6 in dit geval)
 def evaluate_test(context):
     correct = False
-    submission_file_directory = context.execution_directory # /home/runner/workdir/execution_0
+    submission = get_submission_code()
+    # submission_file_directory = context.execution_directory # /home/runner/workdir/execution_0
     # files = os.listdir("..") # contains: resources, submission, execution_0
     # files = os.listdir("../resources") # contains: suite.yaml, oracle_test.py
-    files = os.listdir("../submission") # contains: source
-    submission_file_path = os.path.join("../submission", files[0])
+    # files = os.listdir("../submission") # contains: source
+    # submission_file_path = os.path.join("../submission", files[0])
     
-    # submission_file_path = os.path.join(submission_file_directory, "submission.py")
-    submission_file = open(submission_file_path, "r")
-    submission_content = submission_file.read()
+    # # submission_file_path = os.path.join(submission_file_directory, "submission.py")
+    # submission_file = open(submission_file_path, "r")
+    # submission_content = submission_file.read()
     # submission_text = submission_content.decode("latin-1", errors="replace")
     # correct = (("10" not in submission_content) and (som == 10))
     mymessages = []
@@ -29,9 +32,9 @@ def evaluate_test(context):
         display_text = "?" # submission_content
         # mymessages.append(Message("hoi"))
         # mymessages.append(Message(type(context.actual)))
-        for filename in files:
-            mymessages.append(Message(filename))
-        mymessages.append(Message(submission_content))
+        # for filename in files:
+        #     mymessages.append(Message(filename))
+        mymessages.append(Message(submission))
 
     return EvaluationResult(
       # Boolean of dat het resultaat juist is
