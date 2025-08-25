@@ -13,7 +13,7 @@ def evaluate_test(context):
     submission_file_directory = context.execution_directory
     files = os.listdir(submission_file_directory)
     files_as_text = "\n".join(files)
-    dir_up_path = os.path.join(os.path.realpath(sys.argv[0], '..'))
+    dir_up_path = os.path.join(os.path.realpath(sys.argv[0]), '..')
     # submission_file_path = os.path.join(submission_file_directory, "submission.py")
     # submission_file = open(submission_file_path, "r")
     # submission_content = submission_file.read()
