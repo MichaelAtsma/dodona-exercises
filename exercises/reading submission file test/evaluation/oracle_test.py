@@ -18,7 +18,7 @@ def evaluate_test(context):
     
     # submission_file_path = os.path.join(submission_file_directory, "submission.py")
     submission_file = open(submission_file_path, "r")
-    # submission_content = submission_file.read()
+    submission_content = submission_file.read()
     # submission_text = submission_content.decode("latin-1", errors="replace")
     # correct = (("10" not in submission_content) and (som == 10))
     mymessages = []
@@ -31,7 +31,7 @@ def evaluate_test(context):
         # mymessages.append(Message(type(context.actual)))
         for filename in files:
             mymessages.append(Message(filename))
-        mymessages.append(Message(submission_file_path))
+        mymessages.append(Message(submission_content))
 
     return EvaluationResult(
       # Boolean of dat het resultaat juist is
