@@ -19,7 +19,7 @@ def evaluate_test(context):
         display_text = "?" # submission_content
         # mymessages.append(Message("hoi"))
         # mymessages.append(Message(type(context.actual)))
-        mymessages.append(submission_file_path)
+        mymessages.append(Message(submission_file_path))
 
     return EvaluationResult(
       # Boolean of dat het resultaat juist is
