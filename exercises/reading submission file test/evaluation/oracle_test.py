@@ -8,7 +8,7 @@ from evaluation_utils import EvaluationResult, Message
 def evaluate_test(context):
     correct = False
     submission_file = open("/home/runner/workdir/execution_0/submission.pyc", "r")
-    # submission_content = submission_file.read()
+    submission_content = submission_file.read()
     # correct = (("10" not in submission_content) and (som == 10))
     mymessages = []
     if correct:
