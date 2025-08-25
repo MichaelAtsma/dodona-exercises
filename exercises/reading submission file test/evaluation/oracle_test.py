@@ -11,7 +11,7 @@ def evaluate_test(context):
     submission_file_directory = context.execution_directory
     submission_file_path = os.path.join(submission_file_directory, "submission.pyc")
     submission_file = open(submission_file_path, "rb")
-    submission_content = submission_file.read()
+    # submission_content = submission_file.read()
     # correct = (("10" not in submission_content) and (som == 10))
     mymessages = []
     if correct:
@@ -21,7 +21,7 @@ def evaluate_test(context):
         display_text = "?" # submission_content
         # mymessages.append(Message("hoi"))
         # mymessages.append(Message(type(context.actual)))
-        mymessages.append(Message(submission_content))
+        # mymessages.append(Message(submission_content))
 
     return EvaluationResult(
       # Boolean of dat het resultaat juist is
