@@ -1,6 +1,7 @@
 # We importeren wat hulpklassen uit TESTed.
 from evaluation_utils import EvaluationResult, Message
 import os
+import dis
 
 # De orakelfunctie heeft altijd minstens één argument:
 # - de "context", een object met wat metadata (zie hieronder)
@@ -9,8 +10,10 @@ import os
 def evaluate_test(context):
     correct = False
     submission_file_directory = context.execution_directory
-    submission_file_path = os.path.join(submission_file_directory, "submission.py")
-    submission_file = open(submission_file_path, "r")
+    files = os.listdir(submission_file_directory)
+    files_as_text = "\n".join(files)
+    # submission_file_path = os.path.join(submission_file_directory, "submission.py")
+    # submission_file = open(submission_file_path, "r")
     # submission_content = submission_file.read()
     # submission_text = submission_content.decode("latin-1", errors="replace")
     # correct = (("10" not in submission_content) and (som == 10))
@@ -22,7 +25,7 @@ def evaluate_test(context):
         display_text = "?" # submission_content
         # mymessages.append(Message("hoi"))
         # mymessages.append(Message(type(context.actual)))
-        mymessages.append(Message(submission_text))
+        mymessages.append(Message(files_as_text))
 
     return EvaluationResult(
       # Boolean of dat het resultaat juist is
