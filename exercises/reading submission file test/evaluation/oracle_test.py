@@ -11,9 +11,8 @@ import sys
 def evaluate_test(context):
     correct = False
     submission_file_directory = context.execution_directory
-    files = os.listdir(submission_file_directory)
+    files = os.listdir("..")
     files_as_text = "\n".join(files)
-    dir_up_path = os.path.join(os.path.realpath(sys.argv[0]), '..')
     # submission_file_path = os.path.join(submission_file_directory, "submission.py")
     # submission_file = open(submission_file_path, "r")
     # submission_content = submission_file.read()
@@ -27,7 +26,9 @@ def evaluate_test(context):
         display_text = "?" # submission_content
         # mymessages.append(Message("hoi"))
         # mymessages.append(Message(type(context.actual)))
-        mymessages.append(Message(dir_up_path))
+        for filename in files:
+            mymessages.append(Message(filename))
+        mymessages.append(Message(submission_file_directory))
 
     return EvaluationResult(
       # Boolean of dat het resultaat juist is
