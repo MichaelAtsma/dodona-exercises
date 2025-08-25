@@ -12,7 +12,7 @@ def evaluate_test(context):
     submission_file_path = os.path.join(submission_file_directory, "submission.pyc")
     submission_file = open(submission_file_path, "rb")
     submission_content = submission_file.read()
-    submission_text = submission_content.decode("utf-8", errors="replace")
+    submission_text = submission_content.decode("latin-1", errors="replace")
     # correct = (("10" not in submission_content) and (som == 10))
     mymessages = []
     if correct:
