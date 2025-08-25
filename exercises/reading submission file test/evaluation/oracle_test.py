@@ -11,7 +11,7 @@ import sys
 def evaluate_test(context):
     correct = False
     submission_file_directory = context.execution_directory
-    files = os.listdir("..")
+    files = os.listdir("../resources")
     files_as_text = "\n".join(files)
     # submission_file_path = os.path.join(submission_file_directory, "submission.py")
     # submission_file = open(submission_file_path, "r")
