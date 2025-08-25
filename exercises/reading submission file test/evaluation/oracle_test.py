@@ -3,7 +3,7 @@ from evaluation_utils import EvaluationResult, Message
 import os
 
 def get_submission_code():
-    with open("..submission/source", 'r') as f:
+    with open("../submission/source", 'r') as f:
         return f.read()
 
 # De orakelfunctie heeft altijd minstens één argument:
