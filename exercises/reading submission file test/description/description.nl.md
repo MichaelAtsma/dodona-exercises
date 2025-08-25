@@ -51,4 +51,4 @@ Nu weet de computer dus dat <code>som</code> gelijk is aan <code>10</code>, en k
 <br>
 
 # <b>Opdracht</b>
-Maak een variabele som aan die het resultaat van <code>5 + 5</code> opslaat.
+Maak een variabele <code>som</code> aan die het resultaat van <code>5 + 5</code> opslaat.
