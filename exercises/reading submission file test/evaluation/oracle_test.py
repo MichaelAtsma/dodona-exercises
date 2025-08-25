@@ -1,7 +1,7 @@
 # We importeren wat hulpklassen uit TESTed.
 from evaluation_utils import EvaluationResult, Message
 import os
-from bs4 import BeautifulSoup
+import pandas
 
 # De orakelfunctie heeft altijd minstens één argument:
 # - de "context", een object met wat metadata (zie hieronder)
