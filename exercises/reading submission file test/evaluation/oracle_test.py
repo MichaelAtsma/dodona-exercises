@@ -10,37 +10,22 @@ def get_submission_code():
 # - de "context", een object met wat metadata (zie hieronder)
 # - de overige argumenten zijn die uit het testplan
 #   (de getallen 5 en 6 in dit geval)
-def evaluate_test(context):
-    correct = False
+def evaluate_test(context, som):
     submission = get_submission_code()
-    # submission_file_directory = context.execution_directory # /home/runner/workdir/execution_0
-    # files = os.listdir("..") # contains: resources, submission, execution_0
-    # files = os.listdir("../resources") # contains: suite.yaml, oracle_test.py
-    # files = os.listdir("../submission") # contains: source
-    # submission_file_path = os.path.join("../submission", files[0])
-    
-    # # submission_file_path = os.path.join(submission_file_directory, "submission.py")
-    # submission_file = open(submission_file_path, "r")
-    # submission_content = submission_file.read()
-    # submission_text = submission_content.decode("latin-1", errors="replace")
-    # correct = (("10" not in submission_content) and (som == 10))
+    correct = (("10" not in submission) and ("+" in submission) and (som == 10))
     mymessages = []
     if correct:
-        display_text = 10
-        mymessages.append(Message("Goed zo! Je hebt het geheime getal gevonden."))
+        expected = 10
+        mymessages.append(Message("Goed zo! Je hebt de computer 10 laten berekenen."))
     else:
-        display_text = "?" # submission_content
-        # mymessages.append(Message("hoi"))
-        # mymessages.append(Message(type(context.actual)))
-        # for filename in files:
-        #     mymessages.append(Message(filename))
-        mymessages.append(Message(submission))
+        expected = 10
+        mymessages.append(Message("Je moet een optelling gebruiken om 10 te krijgen."))
 
     return EvaluationResult(
       # Boolean of dat het resultaat juist is
       result = correct,
       # De "verwachte waarde" om te tonen op Dodona
-      dsl_expected = repr(display_text),
+      dsl_expected = repr(expected),
       # De eigenlijke waarde uit de oplossing om te tonen op Dodona
       dsl_actual = repr(context.actual),
       # Optionale lijst van berichten om te tonen op Dodona
