@@ -10,9 +10,9 @@ def get_submission_code():
 # - de "context", een object met wat metadata (zie hieronder)
 # - de overige argumenten zijn die uit het testplan
 #   (de getallen 5 en 6 in dit geval)
-def evaluate_test(context, som):
+def evaluate_test(context):
     submission = get_submission_code()
-    correct = (("10" not in submission) and ("+" in submission) and (som == 10))
+    correct = ((str(context.expected) not in submission) and ("+" in submission) and (context.actual == context.expected))
     mymessages = []
     if correct:
         expected = 10

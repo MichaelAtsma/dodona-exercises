@@ -1,10 +1,10 @@
 - tab: "Test"
   contexts:
     - testcases:
-        - expression: "som"
+        - expression: "submission.som"
           return: !oracle
             oracle: "custom_check"
             value: 10
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: [submission.som]
+            arguments: []
