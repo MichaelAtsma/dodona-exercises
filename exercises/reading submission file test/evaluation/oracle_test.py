@@ -7,8 +7,9 @@ from evaluation_utils import EvaluationResult, Message
 #   (de getallen 5 en 6 in dit geval)
 def evaluate_test(context):
     correct = False
-    submission_file = open("/home/runner/workdir/execution_0/submission.pyc", "r")
-    submission_content = submission_file.read()
+    submission_file_path = context.execution_directory
+    # submission_file = open("/home/runner/workdir/execution_0/submission.pyc", "r")
+    # submission_content = submission_file.read()
     # correct = (("10" not in submission_content) and (som == 10))
     mymessages = []
     if correct:
@@ -18,7 +19,7 @@ def evaluate_test(context):
         display_text = "?" # submission_content
         # mymessages.append(Message("hoi"))
         # mymessages.append(Message(type(context.actual)))
-        # mymessages.append(submission_content)
+        mymessages.append(submission_file_path)
 
     return EvaluationResult(
       # Boolean of dat het resultaat juist is
