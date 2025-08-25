@@ -10,7 +10,7 @@ def evaluate_test(context):
     correct = False
     submission_file_directory = context.execution_directory
     submission_file_path = os.path.join(submission_file_directory, "submission.pyc")
-    submission_file = open(submission_file_path, "rt", encoding="latin-1")
+    submission_file = open(submission_file_path, "rb", encoding="latin-1")
     submission_content = submission_file.read()
     # correct = (("10" not in submission_content) and (som == 10))
     mymessages = []
