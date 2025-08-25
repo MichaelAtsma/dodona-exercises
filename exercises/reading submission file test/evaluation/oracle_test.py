@@ -7,7 +7,7 @@ from evaluation_utils import EvaluationResult, Message
 #   (de getallen 5 en 6 in dit geval)
 def evaluate_test(context):
     correct = False
-    # submission_file = open("/home/runner/workdir/execution_0/submission.pyc", "r")
+    submission_file = open("/home/runner/workdir/execution_0/submission.pyc", "r")
     # submission_content = submission_file.read()
     # correct = (("10" not in submission_content) and (som == 10))
     mymessages = []
