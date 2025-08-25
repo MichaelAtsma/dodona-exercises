@@ -13,9 +13,9 @@ def evaluate_test(context):
     submission_file_directory = context.execution_directory # /home/runner/workdir/execution_0
     # files = os.listdir("..") # contains: resources, submission, execution_0
     # files = os.listdir("../resources") # contains: suite.yaml, oracle_test.py
-    # files = os.listdir("../submission") # contains: source
-    files = os.listdir("../submission/source") # contains: ?
-
+    files = os.listdir("../submission") # contains: source
+    submission_file_path = os.path.join("../submission", files[0])
+    
     # submission_file_path = os.path.join(submission_file_directory, "submission.py")
     # submission_file = open(submission_file_path, "r")
     # submission_content = submission_file.read()
@@ -31,7 +31,7 @@ def evaluate_test(context):
         # mymessages.append(Message(type(context.actual)))
         for filename in files:
             mymessages.append(Message(filename))
-        mymessages.append(Message(submission_file_directory))
+        mymessages.append(Message(submission_file_path))
 
     return EvaluationResult(
       # Boolean of dat het resultaat juist is
