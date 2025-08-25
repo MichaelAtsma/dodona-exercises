@@ -42,12 +42,13 @@ We kunnen bijvoorbeeld schrijven:
 <pre><code>som = 5 + 5</code></pre>
 
 Wat gebeurt er hier?
-- Eerst rekent de computer 5 + 5 uit.
-- Het resultaat daarvan is 10.
-- Dat resultaat wordt opgeslagen in de variabele som.
-Nu weet de computer dus dat som gelijk is aan 10, en kan je dat later opnieuw gebruiken.
+1. Eerst rekent de computer <code>5 + 5</code> uit.
+2. Het resultaat daarvan is <code>10</code>.
+3. Dat resultaat wordt opgeslagen in de variabele som.
+
+Nu weet de computer dus dat <code>som</code> gelijk is aan <code>10</code>, en kan je dat later opnieuw gebruiken.
 
 <br>
 
 # <b>Opdracht</b>
-Maak een variabele som aan die het resultaat van 5 + 5 opslaat.
+Maak een variabele som aan die het resultaat van <code>5 + 5</code> opslaat.
