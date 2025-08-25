@@ -11,9 +11,11 @@ import sys
 def evaluate_test(context):
     correct = False
     submission_file_directory = context.execution_directory # /home/runner/workdir/execution_0
+    # files = os.listdir("..") # contains: resources, submission, execution_0
     # files = os.listdir("../resources") # contains: suite.yaml, oracle_test.py
-    files = os.listdir("../submission") # contains: 
-    
+    # files = os.listdir("../submission") # contains: source
+    files = os.listdir("../submission/source") # contains: ?
+
     # submission_file_path = os.path.join(submission_file_directory, "submission.py")
     # submission_file = open(submission_file_path, "r")
     # submission_content = submission_file.read()
