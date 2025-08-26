@@ -9,7 +9,7 @@
   });
 </script>
 
-Je hebt gezien dat je de naam van een variabele zelf kan kiezen, zodat deze ook informatie geeft over wat je in die variabele hebt opgeslagen. Soms is één woord echter niet genoeg (of duidelijk genoeg), denk bijvoorbeeld aan de rechthoekige driehoek hieronder:
+Je hebt gezien dat je de naam van een variabele zelf kan kiezen, zodat deze ook informatie geeft over wat je in die variabele hebt opgeslagen. Soms is één woord echter niet genoeg (of duidelijk genoeg), denk bijvoorbeeld aan de schuine zijde van de rechthoekige driehoek hieronder:
 
 <svg width="280" height="140" style="display: block; margin: 0 auto;" class="dark-invert">
   <!-- Side labels -->
