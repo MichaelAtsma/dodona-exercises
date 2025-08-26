@@ -37,7 +37,7 @@ We hebben eerder geleerd hoe we <i>strings</i> aan elkaar kunnen plakken door ze
 
 Maar wat gebeurt er als je probeert twee <i>strings</i> met elkaar te vermenigvuldigen? Bijvoorbeeld <code>"fiets" * "appel"</code>? Dat slaat natuurlijk nergens op! 
 
-Maar waar kan je strings dan wél mee vermenigvuldigen? Wat als je een <i>string</i> met een getal vermenigvuldigt? Als je bijvoorbeeld <code>"fiets" * 3</code> doet, dan is dat eigenlijk hetzelfde als wanneer je <code>"fiets" + "fiets" + "fiets"</code> zou doen (3 keer <code>"fiets"</code>). Je krijgt dus <code>"fietsfietsfiets"</code>: het woord "fiets" drie keer achter elkaar geplakt.
+Maar waar kan je strings dan wél mee vermenigvuldigen? Wat als je een <i>string</i> met een getal vermenigvuldigt? Als je bijvoorbeeld <code>"fiets" * 3</code> doet, dan is dat eigenlijk hetzelfde als wanneer je <code>"fiets" + "fiets" + "fiets"</code> zou doen (3 keer <code>fiets</code>). Je krijgt dus <code>"fietsfietsfiets"</code>: het woord <code>fiets</code> drie keer achter elkaar geplakt.
 
 We kunnen bijvoorbeeld schrijven:
 
