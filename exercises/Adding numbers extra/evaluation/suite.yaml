@@ -28,4 +28,4 @@
             value: "minstens één optelling en één aftrekking"
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["d"]
+            arguments: ["symbolcheck"]

@@ -13,13 +13,13 @@ def evaluate_test(context, var):
     for line in submission_as_lines:
         if var in line and str(context.expected) in line:
             answer_not_used = False
-        if var is "d" and "+" in line:
+        if var is "symbolcheck" and "+" in line:
             counters[0] += 1
-        if var is "d" and "-" in line:
+        if var is "symbolcheck" and "-" in line:
             counters[1] += 1 
 
     mymessages = []
-    if var is "d":
+    if var is "symbolcheck":
         correct = counters[0] >= 1 and counters[1] >= 1
         actual = f"{counters[0]}/{counters[1]}"
         if counters[0] < 1:
