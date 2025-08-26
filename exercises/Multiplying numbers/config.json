@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "Getallen vermenigvuldigen"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "labels": [],
+  "internals": {
+    "token": "W3_EskCdCDSwYrcQUejFEMZ-JqQjaRKqtguudm_Anmw9rDECDu6dus_p7C_ZrR7n",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
