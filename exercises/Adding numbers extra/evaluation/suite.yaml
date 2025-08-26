@@ -1,0 +1,31 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.a"
+          return: !oracle
+            oracle: "custom_check"
+            value: 9
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["a"]
+        - expression: "submission.b"
+          return: !oracle
+            oracle: "custom_check"
+            value: 15
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["b"]
+        - expression: "submission.c"
+          return: !oracle
+            oracle: "custom_check"
+            value: 20.7
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["c"]
+        - expression: "'aantal optellingen en aftrekkingen'"
+          return: !oracle
+            oracle: "custom_check"
+            value: "minstens één optelling en één aftrekking"
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["d"]
