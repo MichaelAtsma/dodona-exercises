@@ -1,3 +1,3 @@
-a = "appel"
-b = "broccoli"
-c = "Groente en fruit zijn gezond"
+a = "ap" + "pel"
+b = "brocc" + "oli"
+c = "Groente" + " en fruit " + "zijn gezond."
