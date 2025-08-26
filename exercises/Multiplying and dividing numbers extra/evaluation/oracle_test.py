@@ -55,7 +55,7 @@ def evaluate_test(context, var):
 
     return EvaluationResult(
       result = correct,
-      dsl_expected = context.expected,
-      dsl_actual = actual,
+      dsl_expected = repr(context.expected),
+      dsl_actual = repr(actual),
       messages = mymessages
     )
