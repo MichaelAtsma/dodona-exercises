@@ -1,0 +1,38 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.a"
+          return: !oracle
+            oracle: "custom_check"
+            value: 8
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["a"]
+        - expression: "submission.b"
+          return: !oracle
+            oracle: "custom_check"
+            value: 21
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["b"]
+        - expression: "submission.c"
+          return: !oracle
+            oracle: "custom_check"
+            value: 6.5
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["c"]
+        - expression: "submission.d"
+          return: !oracle
+            oracle: "custom_check"
+            value: 2.25
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["d"]
+        - expression: "'aantal vermenigvuldigingen en delingen'"
+          return: !oracle
+            oracle: "custom_check"
+            value: "minstens één vermenigvuldiging en één deling"
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["symbolcheck"]
