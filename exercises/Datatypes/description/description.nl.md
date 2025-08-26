@@ -51,7 +51,7 @@ Je hebt gezien hoe je getallen kan opslaan in de computer door een <i>variabele<
 
 <details>
 <summary>Strings</summary>
-<p><i>String</i> is een Engels woord voor <i>reeks</i>. In dit geval staat het voor een reeks van karakters (bijvoorbeeld letters). Dit is dus bijvoorbeeld een woord zoals <code>hallo</code>, een zin zoals <code>Python is een programmeertaal.</code>, of zelfs maar één letter zoals <code>L</code>. Maar ook leestekens zijn karakters, dus <code>@%!?*</code> is ook een <i>string</i>.</p>
+<p><i>String</i> is een Engels woord voor <i>reeks</i>. In dit geval staat het voor een reeks van karakters (bijvoorbeeld letters). Dit is dus bijvoorbeeld een woord zoals <code>hallo</code>, een zin zoals <code>Python is een programmeertaal.</code>, of zelfs maar één letter zoals <code>L</code>. Maar ook leestekens zijn karakters, dus <code>@%!?*</code> is ook een <i>string</i>. <i>Zelfs een spatie (<code> </code>) is een karakter!</i></p>
 
 <p>Speciaal aan een <i>string</i> is dat we het altijd tussen aanhalingstekens <code>"</code> moeten zetten, anders weet de computer niet waar de <i>string</i> eindigt en een variabele (waar je iets in hebt opgeslagen) begint. In Python mag je ook een enkel aanhalingsteken <code>'</code> gebruiken. De voorbeelden die hier gegeven waren worden dus:</p>
 <ul>
