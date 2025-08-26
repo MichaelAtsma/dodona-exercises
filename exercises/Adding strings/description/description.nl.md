@@ -46,7 +46,14 @@ Wat gebeurt er hier?
 2. Het resultaat is <code>"Hallowereld"</code>.
 3. Dat resultaat wordt opgeslagen in de variabele <code>zin</code>.
 
-Nu weet de computer dus dat <code>zin</code> gelijk is aan <code>"Hallowereld"</code>, en kun je dat later opnieuw gebruiken. <i>Merk op: er wordt geen spatie toegevoegd tussen de twee stukjes tekst, omdat de computer <b>exact</b> doet wat je zegt, en we hebben nergens gezegd dat er een spatie moet staan.</i>
+Nu weet de computer dus dat <code>zin</code> gelijk is aan <code>"Hallowereld"</code>, en kun je dat later opnieuw gebruiken.
+
+<hr>
+
+<h3>Opmerkingen</h3>
+
+1. <i>Er wordt geen spatie toegevoegd tussen de twee stukjes tekst, omdat de computer <b>exact</b> doet wat je zegt, en we hebben nergens gezegd dat er een spatie moet staan.</i>
+2. <i>Je kan geen strings van elkaar afhalen, zoals je dat met getallen zou doen. Als je bijvoorbeeld probeert <code>"Hallo" - "wereld"</code> te schrijven, dan slaat dat namelijk nergens op. Wat zou het immers betekenen om het woord "wereld" van het woord "Hallo" af te halen?</i>
 
 <br>
 <hr>
