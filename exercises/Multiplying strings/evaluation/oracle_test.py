@@ -19,8 +19,10 @@ def evaluate_test(context):
     else:
         if not checks[0]:
             mymessages.append(Message(f"Je mag de string {repr(context.expected)} niet gebruiken in je code."))
-        if not checks[1] or not checks[2]:
+        if not checks[1]:
             mymessages.append(Message("Je moet een vermenigvuldiging gebruiken."))
+        if not checks[2]:
+            mymessages.append(Message("Je mag enkel vermenigvuldigingen gebruiken, geen optellingen."))
         if not checks[3]:
             mymessages.append(Message(f"{repr(context.expected)} is een string. Je moet dus zeker een string gebruiken om dat te krijgen."))
         if not checks[4]:
