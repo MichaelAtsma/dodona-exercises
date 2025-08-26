@@ -14,13 +14,13 @@ def evaluate_test(context, var):
         if var in line and str(context.expected) in line:
             answer_not_used = False
         if var is "symbolcheck" and "*" in line:
-            counters[0] += 1
+            counters[0] += line.count("*")
         if var is "symbolcheck" and "/" in line:
-            counters[1] += 1
+            counters[1] += line.count("/")
         if var is "symbolcheck" and "+" in line:
-            counters[2] += 1
+            counters[2] += line.count("+")
         if var is "symbolcheck" and "-" in line:
-            counters[3] += 1
+            counters[3] += line.count("-")
 
     mymessages = []
     if var is "symbolcheck":
