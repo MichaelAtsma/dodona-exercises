@@ -68,4 +68,4 @@ Je hebt gezien hoe je getallen kan opslaan in de computer door een <i>variabele<
 Maak 3 variabelen aan:
 1. Een variabele <code>x</code> waarin je de <i>integer</i> <code>18</code> in opslaat,
 2. Een variabele <code>y</code> waarin je de <i>float</i> <code>2,7</code> in opslaat (let op een punt in plaats van een komma),
-3. Een variabele <code>z</code> waarin je de <i>string</i> <code>Ik schrijf code Python!</code> in opslaat (let op de aanhalingstekens).
+3. Een variabele <code>z</code> waarin je de <i>string</i> <code>Ik schrijf code in Python!</code> in opslaat (let op de aanhalingstekens).
