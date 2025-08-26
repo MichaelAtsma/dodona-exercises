@@ -1,5 +1,5 @@
 # We importeren wat hulpklassen uit TESTed.
-from evaluation_utils import EvaluationResult, Message
+from evaluation_utils import EvaluationResult, Message # type: ignore
 
 # De orakelfunctie heeft altijd minstens één argument:
 # - de "context", een object met wat metadata (zie hieronder)

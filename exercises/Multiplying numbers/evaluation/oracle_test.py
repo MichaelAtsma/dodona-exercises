@@ -1,4 +1,4 @@
-from evaluation_utils import EvaluationResult, Message
+from evaluation_utils import EvaluationResult, Message # type: ignore
 
 def get_submission_code():
     with open("../submission/source", 'r') as f:
