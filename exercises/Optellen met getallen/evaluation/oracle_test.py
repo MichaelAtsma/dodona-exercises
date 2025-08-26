@@ -19,7 +19,7 @@ def evaluate_test(context):
         mymessages.append(Message("Goed zo! Je hebt de computer 10 laten berekenen."))
     else:
         expected = 10
-        mymessages.append(Message("Je moet een optelling gebruiken om 10 te krijgen."))
+        mymessages.append(Message("Je moet 10 opslaan in de variabele zonder het getal 10 te gebruiken."))
 
     return EvaluationResult(
       # Boolean of dat het resultaat juist is
