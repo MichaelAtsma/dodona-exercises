@@ -40,9 +40,9 @@ Je kan dit trucje ook gebruiken om **andere getallen te maken**. Je hoeft het ge
 
 Bijvoorbeeld:
 
-<pre><code>a = 12 - 3</code></pre>
+<pre><code>x = 13 - 6</code></pre>
 
-Nu weet de computer dat `a` gelijk is aan `9`.
+Nu weet de computer dat `x` gelijk is aan `7`.
 
 ---
 
