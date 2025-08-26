@@ -46,7 +46,7 @@ Wat gebeurt er hier?
 2. Het resultaat daarvan is <code>3.0</code>.
 3. Dat resultaat wordt opgeslagen in de variabele <code>quotient</code>.
 
-Let op: bij delen krijg je meestal een getal met een <i>float</i> (kommagetal), zelfs als het resultaat een heel getal lijkt. In dit geval is het resultaat <code>3.0</code> en niet <code>3</code>. Hier zullen we later meer over leren.
+Let op: bij delen krijg je een <i>float</i> (kommagetal), zelfs als het resultaat een geheel getal (<i>integer</i>) is. In dit geval is het resultaat <code>3.0</code> en niet <code>3</code>. Hier zullen we later meer over leren.
 
 <br>
 <hr>
