@@ -40,7 +40,8 @@ def evaluate_test(context, var):
             if not checks[1]:
                 mymessages.append(Message(f"De waarde voor {var} is niet wat we verwachtten."))
             if not checks[2]:
-                mymessages.append(Message(f"{context.expected} is een {type(context.expected)}. Je moet dus dezelfde datatype gebruiken om dat te krijgen."))
+                types = {int: "integer (geheel getal)", float: "float (kommagetal)", str: "string (tekst)"}
+                mymessages.append(Message(f"{context.expected} is een {types[type(context.expected)]}. Je moet dus dezelfde datatype gebruiken om dat te krijgen."))
 
     return EvaluationResult(
       result = correct,
