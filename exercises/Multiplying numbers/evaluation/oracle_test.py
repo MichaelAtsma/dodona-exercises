@@ -8,6 +8,7 @@ def evaluate_test(context):
     submission = get_submission_code()
     checks = [(str(context.expected) not in submission), 
                ("*" in submission),
+               ("+" not in submission and "-" not in submission),
                (type(context.actual)) == (type(context.expected)),
                (context.actual == context.expected)]
     correct = all(checks)
@@ -21,8 +22,10 @@ def evaluate_test(context):
         if not checks[1]:
             mymessages.append(Message("Je moet een vermenigvuldiging gebruiken."))
         if not checks[2]:
-            mymessages.append(Message(f"{repr(context.expected)} is een geheel getal (integer). Je moet dus gehele getallen gebruiken om dat te krijgen."))
+            mymessages.append(Message("Je mag enkel vermenigvuldigingen gebruiken, geen optellingen of aftrekkingen."))
         if not checks[3]:
+            mymessages.append(Message(f"{repr(context.expected)} is een geheel getal (integer). Je moet dus gehele getallen gebruiken om dat te krijgen."))
+        if not checks[4]:
             mymessages.append(Message("De uitkomst is niet wat we verwachtten."))
 
     return EvaluationResult(
