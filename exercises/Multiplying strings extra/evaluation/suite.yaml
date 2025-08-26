@@ -1,0 +1,31 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.a"
+          return: !oracle
+            oracle: "custom_check"
+            value: "hoihoihoihoihoi"
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["a"]
+        - expression: "submission.b"
+          return: !oracle
+            oracle: "custom_check"
+            value: "banaanbanaan"
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["b"]
+        - expression: "submission.c"
+          return: !oracle
+            oracle: "custom_check"
+            value: "-----------"
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["c"]
+        - expression: "'aantal vermenigvuldigingen'"
+          return: !oracle
+            oracle: "custom_check"
+            value: "drie vermenigvuldigingen"
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["symbolcheck"]
