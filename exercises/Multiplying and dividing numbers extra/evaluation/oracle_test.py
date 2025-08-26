@@ -31,8 +31,10 @@ def evaluate_test(context, var):
         if counters[1] < 1:
             mymessages.append(Message(f"Je moet minstens één deling gebruiken."))
         if counters[2] > 0:
+            actual += f" en {counters[2]} +"
             mymessages.append(Message(f"Je mag geen optellingen gebruiken."))
         if counters[3] > 0:
+            actual += f" en {counters[3]} -"
             mymessages.append(Message(f"Je mag geen aftrekkingen gebruiken."))
     else:
         checks = [answer_not_used,
