@@ -35,7 +35,7 @@
 
 Een computer kan voor jou heel veel onthouden. Als je veel berekeningen moet doen, dan is het handig om tussenstappen op te slaan en dan met het resultaat verder te werken. Stel je voor dat je een doosje hebt waar je iets in kunt stoppen. Zo'n doosje noemen we een **variabele**. Je kunt er bijvoorbeeld een getal in stoppen, zodat je het later weer kunt gebruiken. In de wiskunde gebruiken we ook vaak variabelen, bijvoorbeeld de letter `x` om een onbekend getal aan te duiden.
 
-We kunnen bijvoorbeeld tegen de computer zeggen dat we een bepaald getal `x` hebben die gelijk is aan `5`. In dat geval is `x` de variabele, en we slaan het getal `5` op in die variabele.
+We kunnen bijvoorbeeld tegen de computer zeggen dat we een bepaald getal `x` hebben dat gelijk is aan `5`. In dat geval is `x` de variabele, en we slaan het getal `5` op in die variabele.
 
 Je kan dit doen door te schrijven `x = 5`. De computer zal het dan voor jou onthouden.
 
