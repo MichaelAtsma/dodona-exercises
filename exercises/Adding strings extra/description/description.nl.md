@@ -53,4 +53,4 @@ Maak de volgende variabelen aan, maar **zonder de volledige tekst rechtstreeks t
 
 * `a = "appel"`
 * `b = "broccoli"`
-* `c = "Groente en fruit zijn gezond"`
+* `c = "Groente en fruit zijn gezond."`

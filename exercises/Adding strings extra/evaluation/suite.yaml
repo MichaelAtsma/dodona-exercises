@@ -18,7 +18,7 @@
         - expression: "submission.c"
           return: !oracle
             oracle: "custom_check"
-            value: "Groente en fruit zijn gezond"
+            value: "Groente en fruit zijn gezond."
             file: "oracle_test.py"
             name: "evaluate_test"
             arguments: ["c"]
