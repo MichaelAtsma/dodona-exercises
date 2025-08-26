@@ -15,28 +15,25 @@ def evaluate_test(context, var):
     submission_as_lines = submission.splitlines()
     correct = True
     counters = [0, 0] # [pluses, minuses]
+
     for line in submission_as_lines:
-        if var is "a" and "a" in line and "9" in line:
-            correct = False
-        if var is "b" and "b" in line and "15" in line:
-            correct = False
-        if var is "c" and "c" in line and "20.7" in line:
+        if var in line and str(context.expected) in line:
             correct = False
         if var is "d" and "+" in line:
             counters[0] += 1
         if var is "d" and "-" in line:
-            counters[1] += 1
-    if var is "d" and (counters[0] < 1 or counters[1] < 1):
-        correct = False
-    mymessages = []
+            counters[1] += 1 
 
+    mymessages = []
     if var is "d":
+        correct = counters[0] >= 1 and counters[1] >= 1
         actual = f"{counters[0]} optelling(en) en {counters[1]} aftrekking(en) gebruikt."
         if counters[0] < 1:
             mymessages.append(Message(f"Je moet minstens één optelling gebruiken."))
         if counters[1] < 1:
             mymessages.append(Message(f"Je moet minstens één aftrekking gebruiken."))
     else:
+        correct = correct and (context.actual == context.expected)
         actual = context.actual
         if correct:
             mymessages.append(Message(f"Goed zo! Je hebt de computer {context.expected} laten berekenen."))
