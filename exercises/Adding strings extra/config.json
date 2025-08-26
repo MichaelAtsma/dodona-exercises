@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "Strings optellen (extra oefening)"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "labels": [],
+  "internals": {
+    "token": "UJsi_RRyVRz8wQZJ6WBySig7fxSXyFiCdPT5vFvJFiHI8pzibbp4QB8VPksNqQYc",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
