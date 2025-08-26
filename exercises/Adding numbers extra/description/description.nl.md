@@ -33,7 +33,7 @@
   }
 </style>
 
-We hebben gezien dat je met de computer berekeningen kan doen, en dat je het resultaat in een variabele kan bewaren.
+We hebben gezien dat je getallen bij elkaar kan optellen.
 Bijvoorbeeld: <code>som = 5 + 5</code> bewaart de waarde <code>10</code> in de variabele <code>som</code>.
 
 Je kan dit trucje ook gebruiken om **andere getallen te maken**. Je hoeft het getal niet rechtstreeks te schrijven, je kan het ook via een berekening bekomen.
