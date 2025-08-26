@@ -37,7 +37,9 @@ Een computer kan voor jou heel veel onthouden. Als je veel berekeningen moet doe
 
 We kunnen bijvoorbeeld tegen de computer zeggen dat we een bepaald getal `x` hebben dat gelijk is aan `5`. In dat geval is `x` de variabele, en we slaan het getal `5` op in die variabele.
 
-Je kan dit doen door te schrijven `x = 5`. De computer zal het dan voor jou onthouden.
+Je kan dit doen door te schrijven `x = 5`. De computer zal het dan voor jou onthouden. 
+
+<i>Merk op: je hoeft de spaties niet te schrijven, maar dit maakt het een beetje mooier/overzichtelijker. Je kan dus ook <code>x=5</code> schrijven.</i>
 
 # <b>Opdracht</b>
 Maak een variabele `x` aan met de waarde `5`.
