@@ -33,7 +33,7 @@
   }
 </style>
 
-We hebben gezien hoe je <code>"fiets" * 3</code> kan gebruiken om de string <code>fiets</code> 3 keer achter elkaar te plakken, waardoor je <code>"fietsfietsfiets"</code> krijgt.
+We hebben gezien hoe je <code>"fiets" * 3</code> kan gebruiken om de string <code>"fiets"</code> 3 keer achter elkaar te plakken, waardoor je <code>"fietsfietsfiets"</code> krijgt.
 
 Dit werkt echter ook met andere woorden of zinnen. Je hoeft het resultaat niet zelf te typen, je kan het laten uitrekenen door de computer.
 
