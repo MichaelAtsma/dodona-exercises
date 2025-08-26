@@ -42,7 +42,7 @@ Bijvoorbeeld:
 
 <pre><code>uitspraak = "Honden" + " " + "zijn" + " geweldig."</code></pre>
 
-Nu weet de computer dat `uitspraak` gelijk is aan `"Honden zijn geweldig."`.
+Nu weet de computer dat `uitspraak` gelijk is aan `"Honden zijn geweldig."`. <i>Merk op dat we gezien hebben dat wanneer je strings samenvoegt, de computer alles aan elkaar plakt. Als je spaties tussen de woorden wil, dan moet je die expliciet toevoegen. Je kan dit doen door een spatie tussen aanhalingstekens te plaatsen (<code>" "</code>) of door een spatie vóór of ná je woord toe te voegen binnen de aanhalingstekens (<code>" geweldig."</code>).</i>
 
 <br>
 <hr>
