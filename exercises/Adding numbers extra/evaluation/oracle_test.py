@@ -14,14 +14,14 @@ def evaluate_test(context, var):
         if var in line and str(context.expected) in line:
             answer_not_used = False
         if var is "symbolcheck" and "+" in line:
-            counters[0] += 1
+            counters[0] += line.count("+")
         if var is "symbolcheck" and "-" in line:
-            counters[1] += 1 
+            counters[1] += line.count("-")
 
     mymessages = []
     if var is "symbolcheck":
         correct = counters[0] >= 1 and counters[1] >= 1
-        actual = f"{counters[0]}/{counters[1]}"
+        actual = f"{counters[0]}+,{counters[1]}-"
         if counters[0] < 1:
             mymessages.append(Message(f"Je moet minstens één optelling gebruiken."))
         if counters[1] < 1:
