@@ -1,5 +1,7 @@
 - tab: "Test"
   contexts:
     - testcases:
+        - expression: "submission.inhoud_zwembad_in_kubieke_meter"
+          return: 3000
         - expression: "submission.inhoud_zwembad_in_liter"
           return: 3000000

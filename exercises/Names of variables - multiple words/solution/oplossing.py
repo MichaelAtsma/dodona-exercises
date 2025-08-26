@@ -1,1 +1,2 @@
+inhoud_zwembad_in_kubieke_meter = 3000
 inhoud_zwembad_in_liter = 3000000
