@@ -18,7 +18,7 @@
         - expression: "submission.c"
           return: !oracle
             oracle: "custom_check"
-            value: "-----------"
+            value: "???????????"
             file: "oracle_test.py"
             name: "evaluate_test"
             arguments: ["c"]

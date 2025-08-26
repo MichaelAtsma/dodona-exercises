@@ -53,4 +53,4 @@ Maak de volgende variabelen aan, maar **zonder de uitkomst rechtstreeks te typen
 
 * `a = "hoihoihoihoihoi"`
 * `b = "banaanbanaan"`
-* `c = "-----------"`
+* `c = "???????????"`
