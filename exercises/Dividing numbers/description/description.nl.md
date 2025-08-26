@@ -33,7 +33,7 @@
   }
 </style>
 
-Eerder heb je geleerd hoe je getallen bij elkaar kunt optellen en vermenigvuldigen met de computer. Maar de computer kan ook delen. <i>Voor een deling gebruiken we in programmeren een enkele schuine streep: <code>/</code>.</i>
+Eerder heb je geleerd hoe je getallen bij elkaar kunt optellen en vermenigvuldigen met de computer. Maar de computer kan ook delen. <i>Voor een deling gebruiken we in programmeren een schuine streep: <code>/</code>.</i>
 
 Stel dat je wilt weten hoeveel <code>15 / 5</code> is. Net als bij optellen en vermenigvuldigen, kun je dit aan de computer vragen. 
 
