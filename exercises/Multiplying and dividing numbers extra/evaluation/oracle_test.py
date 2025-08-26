@@ -7,7 +7,7 @@ def get_submission_code():
 def evaluate_test(context, var):
     submission = get_submission_code()
     submission_as_lines = submission.splitlines()
-    counters = [0, 0] # [multiplications, divisions]
+    counters = [0, 0, 0, 0] # [multiplications, divisions, additions, subtractions]
     answer_not_used = True
 
     for line in submission_as_lines:
@@ -16,16 +16,24 @@ def evaluate_test(context, var):
         if var is "symbolcheck" and "*" in line:
             counters[0] += 1
         if var is "symbolcheck" and "/" in line:
-            counters[1] += 1 
+            counters[1] += 1
+        if var is "symbolcheck" and "+" in line:
+            counters[2] += 1
+        if var is "symbolcheck" and "-" in line:
+            counters[3] += 1
 
     mymessages = []
     if var is "symbolcheck":
-        correct = counters[0] >= 1 and counters[1] >= 1
+        correct = counters[0] >= 1 and counters[1] >= 1 and counters[2] == 0 and counters[3] == 0
         actual = f"{counters[0]}/{counters[1]}"
         if counters[0] < 1:
             mymessages.append(Message(f"Je moet minstens één vermenigvuldiging gebruiken."))
         if counters[1] < 1:
             mymessages.append(Message(f"Je moet minstens één deling gebruiken."))
+        if counters[2] > 0:
+            mymessages.append(Message(f"Je mag geen optellingen gebruiken."))
+        if counters[3] > 0:
+            mymessages.append(Message(f"Je mag geen aftrekkingen gebruiken."))
     else:
         checks = [answer_not_used,
                   context.actual == context.expected,
