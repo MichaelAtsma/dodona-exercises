@@ -41,5 +41,8 @@ Je kan dit doen door te schrijven `x = 5`. De computer zal het dan voor jou onth
 
 <i>Merk op: je hoeft de spaties niet te schrijven, maar dit maakt het een beetje mooier/overzichtelijker. Je kan dus ook <code>x=5</code> schrijven.</i>
 
+<br>
+<hr>
+
 # <b>Opdracht</b>
 Maak een variabele `x` aan met de waarde `5`.

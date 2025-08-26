@@ -19,6 +19,7 @@ diagonaal = 5
 </code></pre>
 
 <br>
+<hr>
 
 # <b>Opdracht</b>
 Gegeven een zwembad met een `diepte` van `6`, een `lengte` van `50`, en een `breedte` van `10`. Maak 3 variabelen met deze namen en waarden.

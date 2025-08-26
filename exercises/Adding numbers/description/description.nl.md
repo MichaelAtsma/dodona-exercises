@@ -49,8 +49,7 @@ Wat gebeurt er hier?
 Nu weet de computer dus dat <code>som</code> gelijk is aan <code>10</code>, en kan je dat later opnieuw gebruiken.
 
 <br>
-
----
+<hr>
 
 # <b>Opdracht</b>
 Maak een variabele <code>som</code> aan die het resultaat van <code>5 + 5</code> opslaat.

@@ -41,6 +41,9 @@ Je ziet dat de waarde voor <code>x</code> correct is, maar dat de waarde voor <c
 
 <i>Let op het knopje rechtsboven in het Feedback tabblad. Hier kan je kiezen of je jouw output en de verwachte output naast elkaar of onder elkaar wil zetten. Het is meestal overzichtelijker om het naast elkaar te zetten (zoals in de afbeelding hierboven).</i>
 
+<br>
+<hr>
+
 # <b>Opdracht</b>
 1. Dien de code in die er al staat (niet schrikken, dit zal fout zijn).
 2. Bekijk het Feedback tabblad en onderzoek welke waarde voor `x` verwacht wordt door de evaluator.

@@ -56,6 +56,7 @@ Door hier op te klikken zal je naar het antwoord op je vraag gaan:
 <img src="media/antwoord_verborgen.png" alt="Het antwoord op de vraag die je gesteld hebt" width="40%" style="border: 4px solid black;">
 
 <br>
+<hr>
 
 # <b>Opdracht</b>
 1. Dien de code in die er al staat (niet schrikken, dit zal fout zijn).

@@ -35,6 +35,9 @@
 
 Je hebt zojuist geleerd hoe je verschillende waarden kan opslaan in verschillende variabelen (het getal `5` in de variabele `x` en het getal `8` in variabele `y`). Meestal moet je in je opdrachten echter meer dan één stap uitvoeren en dus ook meer dan één getal onthouden. Gelukkig kan de computer ook heel veel onthouden.
 
+<br>
+<hr>
+
 # <b>Opdracht</b>
 Maak drie variabelen aan:
 1. Een variabele `a` met de waarde `7`,

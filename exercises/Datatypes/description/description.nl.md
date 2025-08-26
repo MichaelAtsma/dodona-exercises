@@ -63,6 +63,7 @@ Je hebt gezien hoe je getallen kan opslaan in de computer door een <i>variabele<
 </details>
 
 <br>
+<hr>
 
 # <b>Opdracht</b>
 Maak 3 variabelen aan:

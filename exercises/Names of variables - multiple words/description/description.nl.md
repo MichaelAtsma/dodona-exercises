@@ -34,6 +34,7 @@ Een andere methode om dit probleem op te lossen is door gebruik van hoofdletters
 </details>
 
 <br>
+<hr>
 
 # <b>Opdracht</b>
 We nemen opnieuw het zwembad van de vorige opdracht, deze heeft een inhoud van 3 duizend kubieke meter, ofwel 3 miljoen liter (<i>reken dit maar na</i>). Maak twee variabelen aan:
