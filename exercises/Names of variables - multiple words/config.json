@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "Namen van variabelen: meerdere woorden"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "labels": [],
+  "internals": {
+    "token": "kgxfGzDTXQjiBs9WVxUcFR3BdZPSmNQckCFt4-xNTxQfaWaBH2GKZNCj_eMwNImU",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

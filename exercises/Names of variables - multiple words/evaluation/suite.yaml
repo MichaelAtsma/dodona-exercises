@@ -1,0 +1,5 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.inhoud_zwembad_in_liter"
+          return: 3000000
