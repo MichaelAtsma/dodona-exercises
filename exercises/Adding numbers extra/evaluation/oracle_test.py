@@ -36,7 +36,7 @@ def evaluate_test(context, var):
             mymessages.append(Message(f"Goed zo! Je hebt de computer {context.expected} laten berekenen."))
         else:
             if not checks[0]:
-                mymessages.append(Message(f"Je mag het getal {context.expected} niet zomaar opslaan in de variabele {var}."))
+                mymessages.append(Message(f"Je mag het getal {context.expected} niet gebruiken voor de variabele {var}."))
             if not checks[1]:
                 mymessages.append(Message(f"De waarde voor {var} is niet wat we verwachtten."))
             if not checks[2]:
