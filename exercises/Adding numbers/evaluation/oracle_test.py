@@ -7,7 +7,7 @@ def get_submission_code():
 def evaluate_test(context):
     submission = get_submission_code()
     checks = [(str(context.expected) not in submission), 
-               ("+" in submission),
+               ("+" in submission or "-" in submission),
                (context.actual == context.expected),
                (type(context.actual)) == (type(context.expected))]
     correct = all(checks)
@@ -19,7 +19,7 @@ def evaluate_test(context):
         if not checks[0]:
             mymessages.append(Message("Je mag het getal 10 niet gebruiken in je code."))
         if not checks[1]:
-            mymessages.append(Message("Je moet een optelling gebruiken."))
+            mymessages.append(Message("Je moet een optelling of aftrekking gebruiken."))
         if not checks[2]:
             mymessages.append(Message("10 is een geheel getal (integer). Je moet dus gehele getallen gebruiken om dat te krijgen."))
 
