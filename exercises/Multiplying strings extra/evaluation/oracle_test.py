@@ -56,17 +56,17 @@ def evaluate_test(context, var):
         correct = all(checks)
         actual = context.actual
         if correct:
-            mymessages.append(Message(f"Goed zo! Je hebt de computer {context.expected} laten berekenen."))
+            mymessages.append(Message(f"Goed zo! Je hebt de computer {repr(context.expected)} laten berekenen."))
         else:
             if not checks[0]:
-                mymessages.append(Message(f"Je mag het getal {context.expected} niet gebruiken voor de variabele {var}."))
+                mymessages.append(Message(f"Je mag het getal {repr(context.expected)} niet gebruiken voor de variabele {var}."))
             if not checks[1]:
                 mymessages.append(Message(f"De waarde voor {var} is niet wat we verwachtten."))
             if not checks[2]:
                 types = {int: "integer (geheel getal)", float: "float (kommagetal)", str: "string (tekst)"}
-                mymessages.append(Message(f"{context.expected} is een {types[type(context.expected)]}. Je moet dus dezelfde datatype gebruiken om dat te krijgen."))
+                mymessages.append(Message(f"{repr(context.expected)} is een {types[type(context.expected)]}. Je moet dus dezelfde datatype gebruiken om dat te krijgen."))
             if not checks[3]:
-                mymessages.append(Message(f"Merk op dat {repeated_word} {repetitions} keer herhaald wordt. Gebruik dus de juiste vermenigvuldiging."))
+                mymessages.append(Message(f"Merk op dat {repr(repeated_word)} {repetitions} keer herhaald wordt. Gebruik dus de juiste vermenigvuldiging."))
 
     return EvaluationResult(
       result = correct,
