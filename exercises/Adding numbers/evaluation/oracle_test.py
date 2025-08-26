@@ -8,8 +8,8 @@ def evaluate_test(context):
     submission = get_submission_code()
     checks = [(str(context.expected) not in submission), 
                ("+" in submission or "-" in submission),
-               (context.actual == context.expected),
-               (type(context.actual)) == (type(context.expected))]
+               (type(context.actual)) == (type(context.expected)),
+               (context.actual == context.expected)]
     correct = all(checks)
     
     mymessages = []
@@ -22,6 +22,8 @@ def evaluate_test(context):
             mymessages.append(Message("Je moet een optelling of aftrekking gebruiken."))
         if not checks[2]:
             mymessages.append(Message("10 is een geheel getal (integer). Je moet dus gehele getallen gebruiken om dat te krijgen."))
+        if not checks[3]:
+            mymessages.append(Message("De uitkomst is niet wat we verwachtten."))
 
     return EvaluationResult(
       result = correct,
