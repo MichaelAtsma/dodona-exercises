@@ -52,4 +52,4 @@ Maak de volgende variabelen aan, maar **zonder de getallen rechtstreeks te gebru
 
 * `a = 9`
 * `b = 15`
-* `c = 20,7`
+* `c = 20,5`
