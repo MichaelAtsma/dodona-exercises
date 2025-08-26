@@ -14,14 +14,14 @@ def evaluate_test(context):
     
     mymessages = []
     if correct:
-        mymessages.append(Message("Goed zo! Je hebt de computer 10 laten berekenen."))
+        mymessages.append(Message(f"Goed zo! Je hebt de computer {repr(context.expected)} laten berekenen."))
     else:
         if not checks[0]:
-            mymessages.append(Message("Je mag het getal 10 niet gebruiken in je code."))
+            mymessages.append(Message(f"Je mag het getal {repr(context.expected)} niet gebruiken in je code."))
         if not checks[1]:
             mymessages.append(Message("Je moet een optelling of aftrekking gebruiken."))
         if not checks[2]:
-            mymessages.append(Message("10 is een geheel getal (integer). Je moet dus gehele getallen gebruiken om dat te krijgen."))
+            mymessages.append(Message(f"{repr(context.expected)} is een geheel getal (integer). Je moet dus gehele getallen gebruiken om dat te krijgen."))
         if not checks[3]:
             mymessages.append(Message("De uitkomst is niet wat we verwachtten."))
 
