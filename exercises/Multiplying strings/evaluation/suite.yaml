@@ -1,0 +1,10 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.resultaat"
+          return: !oracle
+            oracle: "custom_check"
+            value: "fietsfietsfiets"
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: []

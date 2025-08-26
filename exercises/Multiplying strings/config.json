@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "Strings vermenigvuldigen"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "labels": [],
+  "internals": {
+    "token": "t6a-PP3R6-y__U9pbIEUsFIai5chYpYuWwf84Fdb72bQaqBU6-xCFZNeuJtK_-kt",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
