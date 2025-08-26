@@ -25,7 +25,7 @@ def evaluate_test(context, var):
     mymessages = []
     if var is "symbolcheck":
         correct = counters[0] >= 1 and counters[1] >= 1 and counters[2] == 0 and counters[3] == 0
-        actual = f"{counters[0]}/{counters[1]}"
+        actual = f"{counters[0]} * en {counters[1]} /"
         if counters[0] < 1:
             mymessages.append(Message(f"Je moet minstens één vermenigvuldiging gebruiken."))
         if counters[1] < 1:
@@ -53,7 +53,7 @@ def evaluate_test(context, var):
 
     return EvaluationResult(
       result = correct,
-      dsl_expected = repr(context.expected),
-      dsl_actual = repr(actual),
+      dsl_expected = context.expected,
+      dsl_actual = actual,
       messages = mymessages
     )
