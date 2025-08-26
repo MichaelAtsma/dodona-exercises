@@ -8,10 +8,11 @@ def evaluate_test(context, var):
     submission = get_submission_code()
     submission_as_lines = submission.splitlines()
     counters = [0, 0] # [pluses, minuses]
+    answer_not_used = True
 
     for line in submission_as_lines:
         if var in line and str(context.expected) in line:
-            answer_used = True
+            answer_not_used = False
         if var is "d" and "+" in line:
             counters[0] += 1
         if var is "d" and "-" in line:
@@ -26,7 +27,7 @@ def evaluate_test(context, var):
         if counters[1] < 1:
             mymessages.append(Message(f"Je moet minstens één aftrekking gebruiken."))
     else:
-        checks = [not answer_used,
+        checks = [answer_not_used,
                   context.actual == context.expected,
                   type(context.actual) == type(context.expected)]
         correct = all(checks)
