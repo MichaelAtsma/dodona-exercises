@@ -21,7 +21,7 @@ def evaluate_test(context, var):
     mymessages = []
     if var is "d":
         correct = counters[0] >= 1 and counters[1] >= 1
-        actual = f"{counters[0]} optelling(en) en {counters[1]} aftrekking(en) gebruikt."
+        actual = f"{counters[0]}/{counters[1]}"
         if counters[0] < 1:
             mymessages.append(Message(f"Je moet minstens één optelling gebruiken."))
         if counters[1] < 1:
