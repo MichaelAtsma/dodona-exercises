@@ -1,33 +1,31 @@
-# We importeren wat hulpklassen uit TESTed.
 from evaluation_utils import EvaluationResult, Message
-import os
 
 def get_submission_code():
     with open("../submission/source", 'r') as f:
         return f.read()
 
-# De orakelfunctie heeft altijd minstens één argument:
-# - de "context", een object met wat metadata (zie hieronder)
-# - de overige argumenten zijn die uit het testplan
-#   (de getallen 5 en 6 in dit geval)
 def evaluate_test(context):
     submission = get_submission_code()
-    correct = ((str(context.expected) not in submission) and ("+" in submission) and (context.actual == context.expected))
+    checks = [(str(context.expected) not in submission), 
+               ("+" in submission),
+               (context.actual == context.expected),
+               (type(context.actual)) == (type(context.expected))]
+    correct = all(checks)
+    
     mymessages = []
     if correct:
-        expected = 10
         mymessages.append(Message("Goed zo! Je hebt de computer 10 laten berekenen."))
     else:
-        expected = 10
-        mymessages.append(Message("Je moet 10 opslaan in de variabele zonder het getal 10 te gebruiken."))
+        if not checks[0]:
+            mymessages.append(Message("Je mag het getal 10 niet gebruiken in je code."))
+        if not checks[1]:
+            mymessages.append(Message("Je moet een optelling gebruiken."))
+        if not checks[2]:
+            mymessages.append(Message("10 is een geheel getal (integer). Je moet dus gehele getallen gebruiken om dat te krijgen."))
 
     return EvaluationResult(
-      # Boolean of dat het resultaat juist is
       result = correct,
-      # De "verwachte waarde" om te tonen op Dodona
-      dsl_expected = repr(expected),
-      # De eigenlijke waarde uit de oplossing om te tonen op Dodona
+      dsl_expected = repr(context.expected),
       dsl_actual = repr(context.actual),
-      # Optionale lijst van berichten om te tonen op Dodona
       messages = mymessages
     )
