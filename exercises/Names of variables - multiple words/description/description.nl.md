@@ -36,6 +36,6 @@ Een andere methode om dit probleem op te lossen is door gebruik van hoofdletters
 <br>
 
 # <b>Opdracht</b>
-We nemen opnieuw het zwembad van de vorige opdracht, deze heeft een inhoud van 3 duizend kubieke meter, ofwel 3 miljoen liter (<i>reken dit maar na</i>). Maak twee variabele aan:
+We nemen opnieuw het zwembad van de vorige opdracht, deze heeft een inhoud van 3 duizend kubieke meter, ofwel 3 miljoen liter (<i>reken dit maar na</i>). Maak twee variabelen aan:
 1. `inhoud zwembad in kubieke meter` en geef die de juiste waarde,
-2. en `inhoud zwembad in liter` en geef die de juiste waarde.
+2. `inhoud zwembad in liter` en geef die de juiste waarde.
