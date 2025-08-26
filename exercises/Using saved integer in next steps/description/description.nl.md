@@ -44,9 +44,9 @@ z = x + y</code></pre>
 Wat gebeurt er hier? Eigenlijk veel meer dan 3 dingen! Kijk maar:
 1. Het getal <code>10</code> wordt opgeslagen in de variabele <code>x</code>.
 2. Het getal <code>20</code> wordt opgeslagen in de variabele <code>y</code>.
-3. Op de derde regel ziet de computer dat hij de waarde van <code>x</code> en <code>y</code> bij elkaar moet optellen.
+3. Op de derde regel ziet de computer dat die de waarde van <code>x</code> en <code>y</code> bij elkaar moet optellen.
 4. De computer haalt de opgeslagen waarden van <code>x</code> (10) en <code>y</code> (20) op.
-5. Hij telt deze twee getallen bij elkaar op en krijgt <code>30</code> als uitkomst.
+5. Die telt deze twee getallen bij elkaar op en krijgt <code>30</code> als uitkomst.
 6. Dit resultaat (<code>30</code>) wordt opgeslagen in de variabele <code>z</code>.
 7. Nu kun je de waarde van <code>z</code> later in het programma opnieuw gebruiken.
 
