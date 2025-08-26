@@ -57,7 +57,7 @@ def evaluate_test(context, result_var, ingredient_vars):
         if not checks[4]:
             mymessages.append(Message(f"Je hebt {' en '.join(ingredients_not_used_enough)} niet gebruikt om {result_var} te maken."))
         if not checks[5]:
-            mymessages.append(Message(f"Je hebt de waarde van {' en '.join(values_used)} letterlijk overgenomen in je code om {result_var}. Dat mag niet. Gebruik de variabelen {' en '.join(ingredient_vars)} om tot het juiste resultaat te komen."))
+            mymessages.append(Message(f"Je hebt de waarde van {' en '.join(values_used)} letterlijk overgenomen in je code om {result_var} te berekenen. Dat mag niet. Gebruik de variabelen {' en '.join(ingredient_vars)} om tot het juiste resultaat te komen."))
 
     return EvaluationResult(
       result = correct,
