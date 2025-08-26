@@ -25,7 +25,7 @@
         - expression: "'aantal optellingen en aftrekkingen'"
           return: !oracle
             oracle: "custom_check"
-            value: "minstens drie optellingen"
+            value: "minstens vier optellingen"
             file: "oracle_test.py"
             name: "evaluate_test"
             arguments: ["d"]
