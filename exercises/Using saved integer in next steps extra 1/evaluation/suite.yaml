@@ -5,10 +5,10 @@
           return: 9
         - expression: "submission.b"
           return: 27
-        - expression: "submission.z"
+        - expression: "submission.c"
           return: !oracle
             oracle: "custom_check"
             value: 3.0
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["z", {"x": 9, "y": 27}]
+            arguments: ["c", {"a": 9, "b": 27}]
