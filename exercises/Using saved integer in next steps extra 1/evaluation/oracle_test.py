@@ -1,0 +1,67 @@
+from evaluation_utils import EvaluationResult, Message # type: ignore
+
+def get_submission_code():
+    with open("../submission/source", 'r') as f:
+        return f.read()
+
+def lines_containing_var(text, var):
+    return [line for line in text.splitlines() if var in line]
+
+def evaluate_test(context, result_var, ingredient_vars):
+    submission = get_submission_code()
+    checks = [(str(context.expected) not in submission), 
+               ("/" in submission),
+               (type(context.actual)) == (type(context.expected)),
+               (context.actual == context.expected)
+               ]
+
+    result_var_lines = lines_containing_var(submission, result_var)
+    ingredients_used_for_result = dict.fromkeys(ingredient_vars.keys(), 0)
+    values_used_count = dict.fromkeys(ingredient_vars.keys(), 0)
+    for result_line in result_var_lines:
+        for ingredient_var in ingredient_vars.keys():
+            if ingredient_var in result_line:
+                ingredients_used_for_result[ingredient_var] += 1
+            if str(ingredient_vars[ingredient_var]) in result_line:
+                values_used_count[ingredient_var] += 1
+
+    ingredients_used_correctly = True
+    ingredients_not_used_enough = []
+    for ingredient, usage in ingredients_used_for_result.items():
+        if usage < len(result_var_lines):
+            ingredients_used_correctly = False
+            ingredients_not_used_enough.append(ingredient)
+    checks += [ingredients_used_correctly]
+
+    values_not_used = True
+    values_used = []
+    for ingredient, usage in values_used_count.items():
+        if usage > 0:
+            values_not_used = False
+            values_used.append(ingredient)
+    checks += [values_not_used]
+
+    correct = all(checks)
+    mymessages = []
+    if correct:
+        mymessages.append(Message(f"Goed zo! Je hebt de computer {repr(context.expected)} laten berekenen op basis van {' en '.join(ingredient_vars)}."))
+    else:
+        if not checks[0]:
+            mymessages.append(Message(f"Je mag het getal {repr(context.expected)} niet gebruiken in je code."))
+        if not checks[1]:
+            mymessages.append(Message("Je moet een deling gebruiken."))
+        if not checks[2]:
+            mymessages.append(Message(f"{repr(context.expected)} is een kommagetal (float). Je moet dus getallen gebruiken om dat te krijgen."))
+        if not checks[3]:
+            mymessages.append(Message("De uitkomst is niet wat we verwachtten."))
+        if not checks[4]:
+            mymessages.append(Message(f"Je hebt {' en '.join(ingredients_not_used_enough)} niet gebruikt om {result_var} te maken."))
+        if not checks[5]:
+            mymessages.append(Message(f"Je hebt de waarde van {' en '.join(values_used)} letterlijk overgenomen in je code om {result_var} te berekenen. Dat mag niet. Gebruik de variabelen {' en '.join(ingredient_vars)} om tot het juiste resultaat te komen."))
+
+    return EvaluationResult(
+      result = correct,
+      dsl_expected = repr(context.expected),
+      dsl_actual = repr(context.actual),
+      messages = mymessages
+    )
