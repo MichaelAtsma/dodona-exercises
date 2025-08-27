@@ -49,8 +49,10 @@ def evaluate_test(context, result_var, ingredient_vars, operations):
         if not checks[0]:
             mymessages.append(Message(f"Je mag het getal {repr(context.expected)} niet gebruiken in je code."))
         if not checks[1]:
-            operations = {"+": "optelling", "*": "vermenigvuldiging", "/": "deling", "-": "aftrekking"}
-            mymessages.append(Message(f"Je moet een {operations[operation]} gebruiken."))
+            operation_map = {"+": "optelling", "*": "vermenigvuldiging", "/": "deling", "-": "aftrekking", "(": "open haakje", ")": "sluit haakje"}
+            for operation in operations:
+                if operation not in submission:
+                    mymessages.append(Message(f"Je moet een {operation_map[operation]} gebruiken."))
         if not checks[2]:
             mymessages.append(Message(f"{repr(context.expected)} is een geheel getal (integer). Je moet dus gehele getallen gebruiken om dat te krijgen."))
         if not checks[3]:
