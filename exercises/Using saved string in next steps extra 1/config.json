@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "Opgeslagen strings gebruiken in volgende stappen (extra oefening 1)"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "labels": [],
+  "internals": {
+    "token": "PdWtPcgy3AkqCa42u-Pi8tbE5HEk4BaDrbXKENNIeHJ7PsvctNhD9hMXSxf2ghiU",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

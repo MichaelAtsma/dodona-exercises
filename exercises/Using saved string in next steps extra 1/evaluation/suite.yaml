@@ -1,0 +1,16 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.a"
+          return: "cat"
+        - expression: "submission.b"
+          return: "dog"
+        - expression: "submission.c"
+          return: 4
+        - expression: "submission.d"
+          return: !oracle
+            oracle: "custom_check"
+            value: "dogdogdogdog"
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["d", {"b": "dog", "c": 4}, "*"]
