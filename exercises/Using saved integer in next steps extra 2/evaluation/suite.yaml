@@ -11,4 +11,4 @@
             value: 60
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["c", {"a": 5, "b": 12}, "/"]
+            arguments: ["c", {"a": 5, "b": 12}, "*"]
