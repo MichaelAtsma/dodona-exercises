@@ -2,15 +2,15 @@
   contexts:
     - testcases:
         - expression: "submission.a"
-          return: "cat"
+          return: "stoel"
         - expression: "submission.b"
-          return: "dog "
+          return: "poot "
         - expression: "submission.c"
           return: 4
         - expression: "submission.d"
           return: !oracle
             oracle: "custom_check"
-            value: "dog dog dog dog "
+            value: "poot poot poot poot "
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["d", {"b": "dog ", "c": 4}, "*"]
+            arguments: ["d", {"b": "poot ", "c": 4}, "*"]
