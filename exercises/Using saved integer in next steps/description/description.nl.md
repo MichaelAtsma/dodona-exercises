@@ -33,7 +33,7 @@
   }
 </style>
 
-Op dit moment kan je variabelen opslaan en rekenen met getallen (zowel <code>integers</code> als <code>floats</code>) en <code>strings</code>. Het is tijd om te ontdekken wat je met je opgeslagen variabelen kan doen!
+Op dit moment kan je variabelen opslaan en rekenen met getallen (zowel <i>integers</i> als <i>floats</i>) en <i>strings</i>. Het is tijd om te ontdekken wat je met je opgeslagen variabelen kan doen!
 
 Beschouw het onderstaande programma:
 
@@ -54,4 +54,4 @@ Wat gebeurt er hier? Eigenlijk veel meer dan 3 dingen! Kijk maar:
 <hr>
 
 # <b>Opdracht</b>
-Maak een variabele <code>z</code> aan die het resultaat van <code>x + y</code> opslaat, met <code>x = 10</code> en <code>y = 20</code>. update
+Maak een variabele <code>z</code> aan die het resultaat van <code>x + y</code> opslaat, met <code>x = 10</code> en <code>y = 20</code>.
