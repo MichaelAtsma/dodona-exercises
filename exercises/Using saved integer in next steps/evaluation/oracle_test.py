@@ -7,10 +7,10 @@ def get_submission_code():
 def lines_containing_var(text, var):
     return [line for line in text.splitlines() if var in line]
 
-def evaluate_test(context, result_var, ingredient_vars):
+def evaluate_test(context, result_var, ingredient_vars, operation):
     submission = get_submission_code()
     checks = [(str(context.expected) not in submission), 
-               ("+" in submission),
+               (operation in submission),
                (type(context.actual)) == (type(context.expected)),
                (context.actual == context.expected)
                ]
@@ -49,7 +49,8 @@ def evaluate_test(context, result_var, ingredient_vars):
         if not checks[0]:
             mymessages.append(Message(f"Je mag het getal {repr(context.expected)} niet gebruiken in je code."))
         if not checks[1]:
-            mymessages.append(Message("Je moet een optelling gebruiken."))
+            operations = {"+": "optelling", "*": "vermenigvuldiging", "/": "deling", "-": "aftrekking"}
+            mymessages.append(Message(f"Je moet een {operations[operation]} gebruiken."))
         if not checks[2]:
             mymessages.append(Message(f"{repr(context.expected)} is een geheel getal (integer). Je moet dus gehele getallen gebruiken om dat te krijgen."))
         if not checks[3]:

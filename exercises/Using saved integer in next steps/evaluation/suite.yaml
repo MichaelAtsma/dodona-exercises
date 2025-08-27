@@ -11,4 +11,4 @@
             value: 30
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["z", {"x": 10, "y": 20}]
+            arguments: ["z", {"x": 10, "y": 20}, "+"]
