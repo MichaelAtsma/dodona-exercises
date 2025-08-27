@@ -54,4 +54,4 @@ Wat gebeurt er hier? Eigenlijk veel meer dan 3 dingen! Kijk maar:
 <hr>
 
 # <b>Opdracht</b>
-Maak een variabele <code>z</code> aan die het resultaat van <code>x + y</code> opslaat, met <code>x = "hallo "</code> en <code>y = "wereld!"</code>.
+Maak een variabele <code>z</code> aan die het resultaat van <code>x + y</code> opslaat, met <code>x = "Hallo "</code> en <code>y = "wereld!"</code>.
