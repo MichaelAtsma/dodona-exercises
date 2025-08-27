@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "Opgeslagen getallen gebruiken in volgende stappen (extra oefening 2)"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "labels": [],
+  "internals": {
+    "token": "Vf-Dj_SG4_FXI3GIFFThmKeWkhYpR8AVTjcuqAiYkdVuBeI5gGBITqCNitpgQtAs",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
