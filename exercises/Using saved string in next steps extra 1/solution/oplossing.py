@@ -1,4 +1,4 @@
 a = "cat"
-b = "dog"
+b = "dog "
 c = 4
 d = b * c

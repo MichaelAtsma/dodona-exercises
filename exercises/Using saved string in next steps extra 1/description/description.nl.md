@@ -51,4 +51,4 @@ f = "tik tok tik tok tik tok "</code></pre>
 <hr>
 
 # <b>Opdracht</b>
-Gebruik variabelen <code>a = "cat"</code> en <code>b = "dog"</code> en <code>c = 4</code> om de <i>string</i> <code>"dogdogdogdog"</code> op te slaan in variabele <code>d</code>.
+Gebruik variabelen <code>a = "cat"</code> en <code>b = "dog "</code> en <code>c = 4</code> om de <i>string</i> <code>"dog dog dog dog "</code> op te slaan in variabele <code>d</code>.
