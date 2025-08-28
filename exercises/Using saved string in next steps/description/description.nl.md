@@ -42,7 +42,7 @@ y = "wereld!"
 z = x + y</code></pre>
 
 Wat gebeurt er hier? Eigenlijk veel meer dan 3 dingen! Kijk maar:
-1. De tekst <code>"Hallo "</code> wordt opgeslagen in de variabele <code>x</code>.
+1. De tekst <code>"Hallo "</code> wordt opgeslagen in de variabele <code>x</code>. <i>(Let op de spatie na <code>Hallo</code>!)</i>
 2. De tekst <code>"wereld!"</code> wordt opgeslagen in de variabele <code>y</code>.
 3. Op de derde regel ziet de computer dat die de waarde van <code>x</code> en <code>y</code> bij elkaar moet optellen.
 4. De computer haalt de opgeslagen waarden van <code>x</code> ("Hallo ") en <code>y</code> ("wereld!") op.
