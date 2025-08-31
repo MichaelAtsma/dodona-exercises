@@ -7,10 +7,10 @@ def get_submission_code():
 def lines_containing_var(text, var):
     return [line for line in text.splitlines() if var in line]
 
-def evaluate_test(context, result_var, ingredient_vars, operation, forbidden_symbols):
+def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols, forbidden_symbols):
     submission = get_submission_code()
     checks = [(str(context.expected) not in submission), 
-               (operation in submission),
+               (all(symbol in submission for symbol in mandatory_symbols)),
                (type(context.actual)) == (type(context.expected)),
                (context.actual == context.expected),
                (any(symbol in submission for symbol in forbidden_symbols))
@@ -50,8 +50,8 @@ def evaluate_test(context, result_var, ingredient_vars, operation, forbidden_sym
         if not checks[0]:
             mymessages.append(Message(f"Je mag het getal {repr(context.expected)} niet gebruiken in je code."))
         if not checks[1]:
-            operations = {"+": "optelling", "*": "vermenigvuldiging", "/": "deling", "-": "aftrekking", "{": "open accolade", "}": "sluit accolade"}
-            mymessages.append(Message(f"Je moet een {operations[operation]} gebruiken."))
+            symbols = {"+": "optelling", "*": "vermenigvuldiging", "/": "deling", "-": "aftrekking", "{": "open accolade", "}": "sluit accolade"}
+            mymessages.append(Message(f"Je moet een {' en '.join([symbols[symbol] for symbol in mandatory_symbols if symbol not in submission])} gebruiken."))
         if not checks[2]:
             mymessages.append(Message(f"{repr(context.expected)} is een geheel getal (integer). Je moet dus gehele getallen gebruiken om dat te krijgen."))
         if not checks[3]:
