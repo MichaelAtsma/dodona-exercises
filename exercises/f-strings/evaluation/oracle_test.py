@@ -48,7 +48,7 @@ def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols, forbi
         mymessages.append(Message(f"Goed zo! Je hebt de computer {repr(context.expected)} laten berekenen op basis van {' en '.join(ingredient_vars)}."))
     else:
         if not checks[0]:
-            mymessages.append(Message(f"Je mag het getal {repr(context.expected)} niet gebruiken in je code."))
+            mymessages.append(Message(f"Je mag de zin {repr(context.expected)} niet gebruiken in je code."))
         if not checks[1]:
             symbols = {"+": "optelling", "*": "vermenigvuldiging", "/": "deling", "-": "aftrekking", "{": "open accolade", "}": "sluit accolade"}
             mymessages.append(Message(f"Je moet een {' en '.join([symbols[symbol] for symbol in mandatory_symbols if symbol not in submission])} gebruiken."))
@@ -61,7 +61,7 @@ def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols, forbi
         if not checks[5]:
             mymessages.append(Message(f"Je hebt {' en '.join(ingredients_not_used_enough)} niet gebruikt om {result_var} te maken."))
         if not checks[6]:
-            mymessages.append(Message(f"Je hebt de waarde van {' en '.join(values_used)} letterlijk overgenomen in je code om {result_var} te berekenen. Dat mag niet. Gebruik de variabelen {' en '.join(ingredient_vars)} om tot het juiste resultaat te komen."))
+            mymessages.append(Message(f"Je hebt de waarde van {' en '.join(values_used)} letterlijk overgenomen in je code om {result_var} te berekenen. Dat mag niet. Gebruik de variabele(n) {' en '.join(ingredient_vars)} om tot het juiste resultaat te komen."))
 
     return EvaluationResult(
       result = correct,
