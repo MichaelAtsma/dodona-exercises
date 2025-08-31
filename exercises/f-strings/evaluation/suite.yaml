@@ -9,4 +9,4 @@
             value: "Wow, jij bent al 15 jaar oud!"
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["zin", {"leeftijd": 15}, ["f\"", "{", "}"], "+"]
+            arguments: ["zin", {"leeftijd": 15}, ["{", "}"], "+"]
