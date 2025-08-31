@@ -50,7 +50,7 @@ def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols, forbi
         if not checks[0]:
             mymessages.append(Message(f"Je mag de zin {repr(context.expected)} niet gebruiken in je code."))
         if not checks[1]:
-            symbols = {"+": "optelling", "*": "vermenigvuldiging", "/": "deling", "-": "aftrekking", "{": "open accolade", "}": "sluit accolade"}
+            symbols = {"+": "optelling", "*": "vermenigvuldiging", "/": "deling", "-": "aftrekking", "{": "open accolade", "}": "sluit accolade", "f\"": "f-string"}
             mymessages.append(Message(f"Je moet een {' en '.join([symbols[symbol] for symbol in mandatory_symbols if symbol not in submission])} gebruiken."))
         if not checks[2]:
             mymessages.append(Message(f"{repr(context.expected)} is een geheel getal (integer). Je moet dus gehele getallen gebruiken om dat te krijgen."))
