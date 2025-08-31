@@ -49,7 +49,7 @@ Wat gebeurt er hier?
 2. Op de tweede regel maakt de computer een <i>f-string</i>. Dat betekent dat alles tussen de accolades <code>{ }</code> vervangen wordt door de waarde van wat er staat, dus in dit geval de waarde van de variabele <code>leeftijd</code>.
 3. De tekst <code>"Wow, jij bent al {leeftijd} jaar oud!"</code> wordt dus <code>"Wow, jij bent al 15 jaar oud!"</code>.
 4. Deze volledige zin wordt opgeslagen in de variabele <code>zin</code>.
-5. Nu kun je de waarde van <code>zin</code> later in het
+5. Nu kun je de waarde van <code>zin</code> later in het programma opnieuw gebruiken.
 
 <br>
 <hr>
