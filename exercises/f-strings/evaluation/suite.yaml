@@ -1,0 +1,12 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.leeftijd"
+          return: 15
+        - expression: "submission.zin"
+          return: !oracle
+            oracle: "custom_check"
+            value: "Wow, jij bent al 15 jaar oud!"
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["zin", {"leeftijd": 15}, ["f\"", "{", "}"], "+"]
