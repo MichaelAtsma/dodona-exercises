@@ -41,4 +41,4 @@ In deze opdracht gebruik je hetzelfde principe op andere variabelen en zinnen.
 <hr>
 
 # <b>Opdracht</b>
-Maak een variabele <code>zin</code> aan die de naam <code>Robin</code> van de variabele <code>naam</code> invult in de zin <code>Hallo Sam, welkom op Dodona!</code>.
+Maak een variabele <code>zin</code> aan die de naam <code>Robin</code> van de variabele <code>naam</code> invult in de zin <code>Hallo Robin, welkom op Dodona!</code>.
