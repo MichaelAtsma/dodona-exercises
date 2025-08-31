@@ -6,7 +6,7 @@
         - expression: "submission.zin"
           return: !oracle
             oracle: "custom_check"
-            value: "Heb je echt 98% gehaald op je toets? Wat goed!"
+            value: "Heb je echt 98% behaald op je toets? Wat goed!"
             file: "oracle_test.py"
             name: "evaluate_test"
             arguments: ["zin", {"score": 98}, ["f\"", "{", "}"], ["+"]]
