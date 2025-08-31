@@ -35,16 +35,16 @@
 
 Je hebt geleerd hoe je verschillende soorten gegevens kan opslaan in <i>variabelen</i> en ze later kan gebruiken. Getallen kunnen gebruikt worden in een berekening, <i>strings</i> kunnen bij elkaar opgeteld worden, en je kan zelfs een <i>string</i> vermenigvuldigen met een <i>integer</i> (geheel getal) om die <i>string</i> een aantal keer aan zichzelf te plakken.
 
-Echter is het soms ook nuttig om een getal dat je had opgeslagen in een zin in te vullen. Als je bijvoorbeeld eerst om iemand hun leeftijd vraagt, en daarna dat wil gebruiken in een zin, dan moet je dat getal dus in de zin invullen. Dit kan je doen met <code>f-strings</code>.
+Echter is het soms ook nuttig om een getal dat je had opgeslagen in een zin in te vullen. Als je bijvoorbeeld eerst om iemand hun leeftijd vraagt, en daarna dat wil gebruiken in een zin, dan moet je dat getal dus in de zin invullen. Dit kan je doen met <i>f-strings</i>. Een <i>f-string</i> is eigenlijk een <i>string</i>, maar je kan accolades <code>{ }</code> gebruiken om bepaalde waarden in te vullen in de <i>string</i>.
 
-We zullen aan de hand van een voorbeeld uitleggen hoe een <i>f-string</i> werkt. Beschouw het onderstaande programma:
+We zullen aan de hand van een voorbeeld laten zien hoe een <i>f-string</i> werkt. Beschouw het onderstaande programma:
 
 <pre><code>leeftijd = 15
 zin = f"Wow, jij bent al {leeftijd} jaar oud!"</code></pre>
 
 Wat gebeurt er hier?
 1. De waarde <code>15</code> wordt opgeslagen in de variabele <code>leeftijd</code>.
-2. Op de tweede regel maakt de computer een zogenaamde <i>f-string</i>. Dat betekent dat alles tussen de accolades <code>{ }</code> vervangen wordt door de waarde van de variabele <code>leeftijd</code>.
+2. Op de tweede regel maakt de computer een <i>f-string</i>. Dat betekent dat alles tussen de accolades <code>{ }</code> vervangen wordt door de waarde van wat er staat, dus in dit geval de waarde van de variabele <code>leeftijd</code>.
 3. De tekst <code>"Wow, jij bent al {leeftijd} jaar oud!"</code> wordt dus <code>"Wow, jij bent al 15 jaar oud!"</code>.
 4. Deze volledige zin wordt opgeslagen in de variabele <code>zin</code>.
 5. Nu kun je de waarde van <code>zin</code> later in het
