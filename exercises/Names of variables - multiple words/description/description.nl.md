@@ -41,4 +41,4 @@ We nemen opnieuw het zwembad van de vorige opdracht, deze heeft een inhoud van 3
 1. `inhoud zwembad in kubieke meter` en geef die de juiste waarde,
 2. `inhoud zwembad in liter` en geef die de juiste waarde.
 
-<i>Gebruik <code>snake_case</code></i>
+<i>(Gebruik snake_case)</i>
