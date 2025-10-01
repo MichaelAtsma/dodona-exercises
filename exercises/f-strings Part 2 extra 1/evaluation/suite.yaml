@@ -1,0 +1,12 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.temperatuur"
+          return: 18.947
+        - expression: "submission.zin"
+          return: !oracle
+            oracle: "custom_check"
+            value: "De temperatuur is 18.95 graden Celsius."
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["zin", {"temperatuur": 18.95}, ["f\"", "{", "}", ":", ".2f"], ["+"]]
