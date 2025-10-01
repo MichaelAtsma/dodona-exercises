@@ -3,7 +3,7 @@
     - testcases:
         - expression: "submission.bedrag"
           return: 12.758
-        - statement: "from submission import zin"
+        - statement: "zin = submission.zin"
           expression: "zin"
           return: !oracle
             oracle: "custom_check"
