@@ -3,7 +3,8 @@
     - testcases:
         - expression: "submission.bedrag"
           return: 12.758
-        - expression: "submission.zin"
+        - statement: "from submission import zin"
+          expression: "zin"
           return: !oracle
             oracle: "custom_check"
             value: "Je moet €12.76 betalen."
