@@ -45,3 +45,9 @@ Wanneer het <i>Indienen</i> tabblad open staat, zie je rechtsonder het grijze va
 <img src="media/sandbox_knop.png" alt="Sandbox knop">
 
 Hier zullen we ook later op terugkomen. 
+
+<br>
+<hr>
+
+# <b>Opdracht</b>
+Ergens in deze tekst staat "doe dit ...". Voer uit wat daar staat.
