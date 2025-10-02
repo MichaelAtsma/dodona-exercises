@@ -1,0 +1,19 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.score_op_7"
+          return: 4
+        - expression: "submission.score_op_5"
+          return: !oracle 
+            oracle: "custom_check"
+            value: 2.857142857142857
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["score_op_5", {"score_op_7": 4}, ["/", "*", 5, 7], []]
+        - expression: "submission.zin"
+          return: !oracle
+            oracle: "custom_check"
+            value: "Je hebt een 2.9/5 gehaald voor je informatica toets."
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["zin", {"score_op_5": 2.9}, ["f\"", "{", "}", ":", ".1f"], ["+"]]

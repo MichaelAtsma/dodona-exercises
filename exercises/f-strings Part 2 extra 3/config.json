@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "f-strings (deel 2, extra oefening 3)"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "labels": [],
+  "internals": {
+    "token": "36_kZkyvWepFgzNsuAjfXfkcgN5cEDE2wgkGhV7ZJIsaBsWZpKzMB-GyhEN9phgN",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
