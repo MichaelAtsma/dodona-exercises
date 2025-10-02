@@ -12,7 +12,7 @@ def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols, forbi
     checks = [(str(context.expected) not in submission),
                (type(context.actual)) == (type(context.expected)),
                (context.actual == context.expected),
-               (not any(symbol in submission for symbol in forbidden_symbols))
+               (not any(str(symbol) in submission for symbol in forbidden_symbols))
                ]
 
     result_var_lines = lines_containing_var(submission, result_var)
