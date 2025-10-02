@@ -76,7 +76,7 @@ def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols, forbi
         if not checks[5]:
             mymessages.append(Message(f"Je hebt de waarde van {' en '.join(values_used)} letterlijk overgenomen in je code om {result_var} te berekenen. Dat mag niet. Gebruik de variabele(n) {' en '.join(ingredient_vars)} om tot het juiste resultaat te komen."))
         if not checks[6]:
-            symbols = {"+": "optelling", "*": "vermenigvuldiging", "/": "deling", "-": "aftrekking", "{": "open accolade", "}": "sluit accolade", "f\"": "f-string", ":": "dubbele punt", ".2f": "specificatie voor 2 decimalen"}
+            symbols = {"+": "optelling", "*": "vermenigvuldiging", "/": "deling", "-": "aftrekking", "{": "open accolade", "}": "sluit accolade", "f\"": "f-string", ":": "dubbele punt", ".2f": "specificatie voor 2 decimalen", 5: "het getal 5", 7: "het getal 7"}
             mymessages.append(Message(f"Je moet een {' en '.join([symbols[symbol] for symbol in mandatory_symbols_not_used_enough])} gebruiken om {result_var} te maken."))
 
     return EvaluationResult(
