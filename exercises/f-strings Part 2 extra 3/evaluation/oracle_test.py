@@ -26,7 +26,7 @@ def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols, forbi
             if str(ingredient_vars[ingredient_var]) in result_line:
                 values_used_count[ingredient_var] += 1
         for symbol in mandatory_symbols:
-            if symbol in result_line:
+            if str(symbol) in result_line:
                 mandatory_symbols_used[symbol] += 1
 
     ingredients_used_correctly = True
