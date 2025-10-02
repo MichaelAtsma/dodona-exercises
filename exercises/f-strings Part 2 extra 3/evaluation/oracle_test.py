@@ -12,6 +12,8 @@ def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols, forbi
     
     mymessages = []
 
+    mymessages.append(Message(f"Debug info: lines_containing_var = {lines_containing_var(submission, result_var)}"))
+
     checks = [(str(context.expected) not in submission),
                (type(context.actual)) == (type(context.expected)),
                (context.actual == context.expected),
