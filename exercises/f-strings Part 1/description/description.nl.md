@@ -37,7 +37,7 @@ Je hebt geleerd hoe je verschillende soorten gegevens kan opslaan in <i>variabel
 
 Echter is het soms ook nuttig om een getal of woord dat je had opgeslagen in een zin in te vullen. Als je bijvoorbeeld eerst om iemand hun leeftijd vraagt, en daarna dat wil gebruiken in een zin, dan moet je dat getal dus in de zin invullen. Dit kan je doen met <i>f-strings</i>. 
 
-Een <i>f-string</i> is eigenlijk een <i>string</i>, maar je kan accolades <code>{ }</code> gebruiken om bepaalde waarden in te vullen in de <i>string</i>. Als we deze soort <i>string</i> willen gebruiken, dan moeten we een <code>f</code> vóór het eerste aanhalingsteken <code>"</code> zetten, zodat de computer weet dat we de accolades willen vervangen.
+Een <i>f-string</i> is eigenlijk een <i>geformatteerde string</i>, waarin je kan accolades <code>{ }</code> gebruiken om bepaalde waarden in te vullen in de <i>string</i>. Als we deze soort <i>string</i> willen gebruiken, dan moeten we een <code>f</code> vóór het eerste aanhalingsteken <code>"</code> zetten, zodat de computer weet dat we de accolades willen vervangen.
 
 We zullen aan de hand van een voorbeeld laten zien hoe een <i>f-string</i> werkt. Beschouw het onderstaande programma:
 
