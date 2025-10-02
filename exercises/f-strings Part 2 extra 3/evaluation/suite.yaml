@@ -9,7 +9,7 @@
             value: 2.8571428571428568
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["score_op_5", {"score_op_7": 4}, ["/", "*", 5, 7], []]
+            arguments: ["score_op_5", {"score_op_7": 4}, ["/", "*", "5", "7"], []]
         - expression: "submission.zin"
           return: !oracle
             oracle: "custom_check"
