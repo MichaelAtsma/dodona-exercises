@@ -9,10 +9,10 @@
           return: 15
         - expression: "submission.leeftijd2"
           return: 16
-        - expression: "submission.zin"
+        - expression: "submission.begroeting"
           return: !oracle
             oracle: "custom_check"
             value: "Hallo Bilal en Fatiha, welkom op Dodona! Jullie zijn 15 en 16 jaar oud."
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["zin", {"naam1": "Bilal", "naam2": "Fatiha", "leeftijd1": 15, "leeftijd2": 16}, ["f\"", "{", "}"], ["+"]]
+            arguments: ["begroeting", {"naam1": "Bilal", "naam2": "Fatiha", "leeftijd1": 15, "leeftijd2": 16}, ["f\"", "{", "}"], ["+"]]
