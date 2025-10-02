@@ -5,7 +5,7 @@ def get_submission_code():
         return f.read()
 
 def lines_containing_var(text, var):
-    return [line for line in text.splitlines() if var in line]
+    return [line for line in text.splitlines() if (var in line or f"{var}=" in line or f"{var} =" in line)]
 
 def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols, forbidden_symbols):
     submission = get_submission_code()
@@ -61,7 +61,7 @@ def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols, forbi
             all_mandatory_symbols_used = False
             mandatory_symbols_not_used_enough.append(symbol)
     checks += [all_mandatory_symbols_used]
-    
+
     mymessages.append(Message(f"Debug info: mandatory_symbols_not_used_enough = {mandatory_symbols_not_used_enough}"))
 
     correct = all(checks)
