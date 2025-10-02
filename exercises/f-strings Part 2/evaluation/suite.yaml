@@ -1,0 +1,18 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.naam1"
+          return: "Bilal"
+        - expression: "submission.naam2"
+          return: "Fatiha"
+        - expression: "submission.leeftijd1"
+          return: 15
+        - expression: "submission.leeftijd2"
+          return: 16
+        - expression: "submission.zin"
+          return: !oracle
+            oracle: "custom_check"
+            value: "Hallo Bilal en Fatiha, welkom op Dodona! Jullie zijn 15 en 16 jaar oud."
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["zin", {"naam1": "Bilal", "naam2": "Fatiha", "leeftijd1": 15, "leeftijd2": 16}, ["f\"", "{", "}"], ["+"]]
