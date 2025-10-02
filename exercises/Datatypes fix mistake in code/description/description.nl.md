@@ -41,3 +41,5 @@ tweede_gehele_getal = 9
 kommagetal = 8,1
 zin = Ik verbeter code in python!
 </code></pre>
+
+<i>Let op: het is normaal dat je eerste indiening fout is. Je moet namelijk debuggen met behulp van de feedback.</i>
