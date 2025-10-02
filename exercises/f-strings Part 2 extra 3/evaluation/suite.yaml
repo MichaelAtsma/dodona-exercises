@@ -6,7 +6,7 @@
         - expression: "submission.score_op_5"
           return: !oracle 
             oracle: "custom_check"
-            value: 2.857142857142857
+            value: 2.8571428571428568
             file: "oracle_test.py"
             name: "evaluate_test"
             arguments: ["score_op_5", {"score_op_7": 4}, ["/", "*", 5, 7], []]
