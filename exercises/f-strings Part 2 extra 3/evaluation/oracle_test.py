@@ -9,6 +9,9 @@ def lines_containing_var(text, var):
 
 def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols, forbidden_symbols):
     submission = get_submission_code()
+    
+    mymessages = []
+
     checks = [(str(context.expected) not in submission),
                (type(context.actual)) == (type(context.expected)),
                (context.actual == context.expected),
@@ -28,6 +31,8 @@ def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols, forbi
         for symbol in mandatory_symbols:
             if str(symbol) in result_line:
                 mandatory_symbols_used[symbol] += 1
+    
+    mymessages.append(Message(f"Debug info: mandatory_symbols_used = {mandatory_symbols_used}"))
 
     ingredients_used_correctly = True
     ingredients_not_used_enough = []
@@ -37,6 +42,8 @@ def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols, forbi
             ingredients_not_used_enough.append(ingredient)
     checks += [ingredients_used_correctly]
 
+    mymessages.append(Message(f"Debug info: ingredients_not_used_enough = {ingredients_not_used_enough}"))
+
     values_not_used = True
     values_used = []
     for ingredient, usage in values_used_count.items():
@@ -44,6 +51,8 @@ def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols, forbi
             values_not_used = False
             values_used.append(ingredient)
     checks += [values_not_used]
+
+    mymessages.append(Message(f"Debug info: values_used = {values_used}"))
 
     all_mandatory_symbols_used = True
     mandatory_symbols_not_used_enough = []
@@ -54,7 +63,6 @@ def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols, forbi
     checks += [all_mandatory_symbols_used]
 
     correct = all(checks)
-    mymessages = []
     if correct:
         mymessages.append(Message(f"Goed zo! Je hebt de computer {repr(context.expected)} laten berekenen op basis van {' en '.join(ingredient_vars)} in een f-string."))
     else:
