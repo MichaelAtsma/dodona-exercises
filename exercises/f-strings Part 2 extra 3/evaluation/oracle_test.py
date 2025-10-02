@@ -61,6 +61,8 @@ def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols, forbi
             all_mandatory_symbols_used = False
             mandatory_symbols_not_used_enough.append(symbol)
     checks += [all_mandatory_symbols_used]
+    
+    mymessages.append(Message(f"Debug info: mandatory_symbols_not_used_enough = {mandatory_symbols_not_used_enough}"))
 
     correct = all(checks)
     if correct:
