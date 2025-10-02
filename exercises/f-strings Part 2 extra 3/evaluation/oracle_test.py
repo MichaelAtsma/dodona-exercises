@@ -5,7 +5,7 @@ def get_submission_code():
         return f.read()
 
 def lines_containing_var(text, var):
-    return [line for line in text.splitlines() if (var in line or f"{var}=" in line or f"{var} =" in line)]
+    return [line for line in text.splitlines() if (f"{var}=" in line or f"{var} =" in line)]
 
 def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols, forbidden_symbols):
     submission = get_submission_code()
