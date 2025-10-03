@@ -52,7 +52,7 @@ def NaamVanDeFunctie(invoer):
 ```
 
 - **def** betekent dat je een functie gaat maken, dit komt van een functie *definiëren*.
-- **NaamVanDeFunctie** is de naam die je zelf kiest. We gebruiken hier vaak <a href="https://en.wikipedia.org/wiki/Pascal_case"><i>Pascal case</i></a> (hetzelfde als camelCase, maar het eerste woord is ook met een hoofdletter).
+- **NaamVanDeFunctie** is de naam die je zelf kiest. We gebruiken hier vaak <a href="https://en.wikipedia.org/wiki/Pascal_case"><i>PascalCase</i></a> (hetzelfde als camelCase, maar het eerste woord is ook met een hoofdletter).
 - **invoer** is het stukje informatie dat je aan de functie geeft (zoals een getal of tekst). Je kan ook een functie maken die helemaal geen invoer nodig heeft, je laat dit dan gewoon leeg.
 - **return** geeft het antwoord terug aan jou.
 - **Merk op** dat sommige regels niet helemaal aan de linkerkant staan. Om aan Python te laten weten welke regels tot de functie behoren, moeten we die regels starten met een <kbd>Tab</kbd> (of 4 spaties).
