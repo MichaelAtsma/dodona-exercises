@@ -34,7 +34,8 @@ def evaluate_test(context, boilerplate):
     noLinesAdded = len(submission.splitlines()) > len(boilerplate.splitlines())
     checks.append(noLinesAdded)
     if not noLinesAdded:
-        mymessages = [Message("Je mag geen regels toevoegen. Je mag enkel één of meerdere '#' toevoegen.")]
+        mymessages = [Message("Je mag geen regels toevoegen. Je mag enkel één of meerdere '#' toevoegen."),
+                      Message(f"Het oorspronkelijke programma had {len(boilerplate.splitlines())} regels, maar jouw programma heeft {len(submission.splitlines())} regels.")]
 
     valueIsCorrect = context.expected == context.actual
     checks.append(valueIsCorrect)
