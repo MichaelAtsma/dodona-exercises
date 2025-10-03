@@ -11,6 +11,7 @@ def evaluate_test(context, boilerplate):
     submission = get_submission_code()
     
     checks = []
+    mymessages = [Message("Goed zo! Je hebt de opdracht correct uitgevoerd.")]
     
     allLinesHaveComment = all('#' in line for line in submission.splitlines() if str(context.expected) not in line)
     checks.append(allLinesHaveComment)
