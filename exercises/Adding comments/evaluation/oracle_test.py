@@ -31,14 +31,14 @@ def evaluate_test(context, boilerplate):
     if not boilerplateLinesIntact:
         mymessages = [Message("Zorg ervoor dat je de gegeven code niet aanpast. Je mag enkel een '#' toevoegen.")]
 
-    noLinesAdded = len(submission.splitlines()) <= len(boilerplate.splitlines())
-    checks.append(noLinesAdded)
-    if not noLinesAdded:
+    linesAdded = len(submission.splitlines()) > len(boilerplate.splitlines())
+    checks.append(not linesAdded)
+    if linesAdded:
         mymessages = [Message("Je mag geen regels toevoegen. Je mag enkel één of meerdere '#' toevoegen.")]
 
-    noLinesRemoved = len(submission.splitlines()) >= len(boilerplate.splitlines())
-    checks.append(noLinesRemoved)
-    if not noLinesRemoved:
+    linesRemoved = len(submission.splitlines()) < len(boilerplate.splitlines())
+    checks.append(not linesRemoved)
+    if linesRemoved:
         mymessages = [Message("Je mag geen regels verwijderen. Je mag enkel één of meerdere '#' toevoegen.")]
 
     valueIsCorrect = context.expected == context.actual
