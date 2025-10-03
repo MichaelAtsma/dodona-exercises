@@ -1,0 +1,8 @@
+>>> MijnFunctie(1)
+6
+>>> MijnFunctie(2)
+7
+>>> MijnFunctie(3)
+8
+>>> MijnFunctie(4)
+9
