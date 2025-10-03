@@ -44,7 +44,7 @@ def evaluate_test(context, boilerplate):
     valueIsCorrect = context.expected == context.actual
     checks.append(valueIsCorrect)
     if not valueIsCorrect:
-        mymessages = [Message(f"De waarde van 'a' is niet correct. Maak van de verkeerde regels commentaar met een '#'.")]
+        mymessages = [Message(f"De waarde van 'a' is niet correct. Zorg dat de verkeerde regels genegeerd worden door er een commentaar van te maken.")]
 
     correct = all(checks)
 
