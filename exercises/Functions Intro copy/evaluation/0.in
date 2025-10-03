@@ -6,3 +6,5 @@
 8
 >>> MijnFunctie(4)
 9
+>>> MijnFunctie(5)
+10
