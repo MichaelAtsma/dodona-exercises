@@ -22,7 +22,7 @@ def evaluate_test(context, boilerplate):
     if not boilerplateLinesIntact:
         mymessages.append(Message("Zorg ervoor dat je de gegeven code niet aanpast. Je mag enkel een '#' toevoegen."))
     
-    lastLineStillLastLine = boilerplate.splitlines()[-1].strip() not in submission.splitlines()[-1]
+    lastLineStillLastLine = boilerplate.splitlines()[-1].strip() in submission.splitlines()[-1]
     checks.append(lastLineStillLastLine)
     if not lastLineStillLastLine:
         mymessages.append(Message("Je mag niet de volgorde van de regels veranderen."))
@@ -31,6 +31,9 @@ def evaluate_test(context, boilerplate):
     checks.append(allLinesHaveComment)
     if not allLinesHaveComment:
         mymessages.append(Message("Zorg ervoor dat je commentaar toevoegt aan alle regels behalve de regel die de verwachte uitvoer bevat."))
+
+    valueIsCorrect = context.expected == context.actual
+    checks.append(valueIsCorrect)
 
     correct = all(checks)
 
