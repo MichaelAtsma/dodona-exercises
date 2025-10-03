@@ -1,0 +1,13 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "MijnFunctie(1)"
+          return: 6
+        - expression: "MijnFunctie(2)"
+          return: 7
+        - expression: "MijnFunctie(3)"
+          return: 8
+        - expression: "MijnFunctie(4)"
+          return: 9
+        - expression: "MijnFunctie(5)"
+          return: 10
