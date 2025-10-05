@@ -78,8 +78,8 @@ Maak een functie genaamd <function name="PlusTien"></function> die `10` optelt b
 
 <details><summary>Voorbeelden</summary>
 <ul>
-  <li><function name="PlusTien" inputs="3"></function> geeft `13` terug.</li>
-  <li><function name="PlusTien" inputs="7"></function> geeft `17` terug.</li>
-  <li><function name="PlusTien" inputs="20"></function> geeft `30` terug.</li>
+  <li><function name="PlusTien" inputs="3"></function> geeft <code>13</code> terug.</li>
+  <li><function name="PlusTien" inputs="7"></function> geeft <code>17</code> terug.</li>
+  <li><function name="PlusTien" inputs="20"></function> geeft <code>30</code> terug.</li>
 </ul>
 </details>
