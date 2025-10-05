@@ -7,6 +7,19 @@
     const modified = prependText + selection;
     e.clipboardData.setData("text/plain", modified);
   });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll("function").forEach(el => {
+      const name = el.getAttribute("name");
+      const inputs = el.getAttribute("inputs").split(",");
+      let html = `<span class="function">${name}</span><span class="functionseparators">(</span>`;
+      html += inputs.map((input, i) =>
+        `<span class="functioninput">${input.trim()}</span>${i < inputs.length - 1 ? '<span class="functionseparators">, </span>' : ''}`
+      ).join('');
+      html += `<span class="functionseparators">)</span>`;
+      el.outerHTML = `<code>${html}</code>`;
+    });
+  });
 </script>
 
 <style>
@@ -31,6 +44,10 @@
   td {
     white-space: nowrap;
   }
+
+  .function { color: #a17702ff; }
+  .functioninput { color: blue; }
+  .functionseparators { color: black; }
 </style>
 
 Je hebt net geleerd hoe je een functie creëert die 5 optelt bij de invoer en het resultaat teruggeeft met de volgende functie:
@@ -49,7 +66,7 @@ def Optellen(a, b):
   return resultaat
 ```
 
-Je kan deze functie gebruiken door twee getallen mee te geven, bijvoorbeeld: `Optellen(2, 3)`{:.language-python} geeft `5` terug. Of bijvoorbeeld `Optellen(9, 14)`{:.language-python} geeft `23` terug.
+Je kan deze functie gebruiken door twee getallen mee te geven, bijvoorbeeld: <function name="Optellen" inputs="2,3"></function> geeft `5` terug. Of bijvoorbeeld: <function name="Optellen" inputs="9,14"></function> geeft `23` terug.
 
 <br>
 <hr>
