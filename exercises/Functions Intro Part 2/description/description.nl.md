@@ -11,12 +11,16 @@
   document.addEventListener("DOMContentLoaded", function() {
     document.querySelectorAll("function").forEach(el => {
       const name = el.getAttribute("name");
-      const inputs = el.getAttribute("inputs").split(",");
-      let html = `<span class="function">${name}</span><span class="functionseparators">(</span>`;
-      html += inputs.map((input, i) =>
-        `<span class="functioninput">${input.trim()}</span>${i < inputs.length - 1 ? '<span class="functionseparators">, </span>' : ''}`
-      ).join('');
-      html += `<span class="functionseparators">)</span>`;
+      const inputsAttr = el.getAttribute("inputs");
+      let html = `<span class="function">${name}</span>`;
+      if (inputsAttr && inputsAttr.trim() !== "") {
+        const inputs = inputsAttr.split(",");
+        html += `<span class="functionseparators">(</span>`;
+        html += inputs.map((input, i) =>
+          `<span class="functioninput">${input.trim()}</span>${i < inputs.length - 1 ? '<span class="functionseparators">, </span>' : ''}`
+        ).join('');
+        html += `<span class="functionseparators">)</span>`;
+      }
       el.outerHTML = `<code>${html}</code>`;
     });
   });
@@ -72,4 +76,4 @@ Je kan deze functie gebruiken door twee getallen mee te geven, bijvoorbeeld: <fu
 <hr>
 
 # <b>Opdracht</b>
-Maak een functie genaamd <code>Optellen</code> die twee getallen als invoer neemt, ze bij elkaar optelt, en het resultaat als uitvoer geeft.
+Maak een functie genaamd <function name="Optellen"></function> die twee getallen als invoer neemt, ze bij elkaar optelt, en het resultaat als uitvoer geeft.

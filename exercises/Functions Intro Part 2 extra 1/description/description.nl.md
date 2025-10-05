@@ -11,12 +11,16 @@
   document.addEventListener("DOMContentLoaded", function() {
     document.querySelectorAll("function").forEach(el => {
       const name = el.getAttribute("name");
-      const inputs = el.getAttribute("inputs").split(",");
-      let html = `<span class="function">${name}</span><span class="functionseparators">(</span>`;
-      html += inputs.map((input, i) =>
-        `<span class="functioninput">${input.trim()}</span>${i < inputs.length - 1 ? '<span class="functionseparators">, </span>' : ''}`
-      ).join('');
-      html += `<span class="functionseparators">)</span>`;
+      const inputsAttr = el.getAttribute("inputs");
+      let html = `<span class="function">${name}</span>`;
+      if (inputsAttr && inputsAttr.trim() !== "") {
+        const inputs = inputsAttr.split(",");
+        html += `<span class="functionseparators">(</span>`;
+        html += inputs.map((input, i) =>
+          `<span class="functioninput">${input.trim()}</span>${i < inputs.length - 1 ? '<span class="functionseparators">, </span>' : ''}`
+        ).join('');
+        html += `<span class="functionseparators">)</span>`;
+      }
       el.outerHTML = `<code>${html}</code>`;
     });
   });
@@ -66,7 +70,7 @@ We kunnen echter ook andere operaties in de functie laten uitvoeren.
 <hr>
 
 # <b>Opdracht</b>
-Maak een functie genaamd <code><span class="function">Vermenigvuldigen</span></code> die twee getallen als invoer neemt, ze met elkaar vermenigvuldigt, en het resultaat als uitvoer geeft.
+Maak een functie genaamd <function name="Vermenigvuldigen"></function> die twee getallen als invoer neemt, ze met elkaar vermenigvuldigt, en het resultaat als uitvoer geeft.
 
 <details><summary>Hint</summary>
 Het symbool voor een vermenigvuldiging in Python is <code>*</code>.
