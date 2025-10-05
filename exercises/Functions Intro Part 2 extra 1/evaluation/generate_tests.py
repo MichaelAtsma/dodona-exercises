@@ -4,8 +4,8 @@ def copy_to_clipboard(text):
     pyperclip.copy(text)
 
 result = ""
-for i in range(50):
-    for j in range(50):
+for i in range(5):
+    for j in range(5):
         result += f">>> Vermenigvuldigen({i}, {j})\n"
         result += f"{i * j}\n"
 
