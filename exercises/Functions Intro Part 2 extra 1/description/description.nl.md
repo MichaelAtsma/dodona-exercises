@@ -53,12 +53,12 @@
 Je hebt net geleerd hoe je een functie maakt die twee getallen als invoer neemt, die twee getallen bij elkaar optelt, en het resultaat teruggeeft. Dat was de volgende functie:
 
 ```python
-def Optellen(a, b):
+def <function name="Optellen" inputs="a,b"></function>:
   resultaat = a + b
   return resultaat
 ```
 
-Hierbij geeft: <function name="Optellen" inputs="2,3"></function> als antwoord `5` terug. En <function name="Optellen" inputs="9,14"></function> geeft `23` terug.
+Hierbij geeft <function name="Optellen" inputs="2,3"></function> als antwoord `5` terug. En <function name="Optellen" inputs="9,14"></function> geeft `23` terug.
 
 We kunnen echter ook andere operaties in de functie laten uitvoeren.
 
