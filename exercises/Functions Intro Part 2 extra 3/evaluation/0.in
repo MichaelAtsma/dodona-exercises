@@ -1,0 +1,250 @@
+>>> SpecialeBewerking(0, 0, 0)
+0
+>>> SpecialeBewerking(0, 0, 1)
+0
+>>> SpecialeBewerking(0, 0, 2)
+0
+>>> SpecialeBewerking(0, 0, 3)
+0
+>>> SpecialeBewerking(0, 0, 4)
+0
+>>> SpecialeBewerking(0, 1, 0)
+0
+>>> SpecialeBewerking(0, 1, 1)
+1
+>>> SpecialeBewerking(0, 1, 2)
+2
+>>> SpecialeBewerking(0, 1, 3)
+3
+>>> SpecialeBewerking(0, 1, 4)
+4
+>>> SpecialeBewerking(0, 2, 0)
+0
+>>> SpecialeBewerking(0, 2, 1)
+2
+>>> SpecialeBewerking(0, 2, 2)
+4
+>>> SpecialeBewerking(0, 2, 3)
+6
+>>> SpecialeBewerking(0, 2, 4)
+8
+>>> SpecialeBewerking(0, 3, 0)
+0
+>>> SpecialeBewerking(0, 3, 1)
+3
+>>> SpecialeBewerking(0, 3, 2)
+6
+>>> SpecialeBewerking(0, 3, 3)
+9
+>>> SpecialeBewerking(0, 3, 4)
+12
+>>> SpecialeBewerking(0, 4, 0)
+0
+>>> SpecialeBewerking(0, 4, 1)
+4
+>>> SpecialeBewerking(0, 4, 2)
+8
+>>> SpecialeBewerking(0, 4, 3)
+12
+>>> SpecialeBewerking(0, 4, 4)
+16
+>>> SpecialeBewerking(1, 0, 0)
+0
+>>> SpecialeBewerking(1, 0, 1)
+1
+>>> SpecialeBewerking(1, 0, 2)
+2
+>>> SpecialeBewerking(1, 0, 3)
+3
+>>> SpecialeBewerking(1, 0, 4)
+4
+>>> SpecialeBewerking(1, 1, 0)
+0
+>>> SpecialeBewerking(1, 1, 1)
+2
+>>> SpecialeBewerking(1, 1, 2)
+4
+>>> SpecialeBewerking(1, 1, 3)
+6
+>>> SpecialeBewerking(1, 1, 4)
+8
+>>> SpecialeBewerking(1, 2, 0)
+0
+>>> SpecialeBewerking(1, 2, 1)
+3
+>>> SpecialeBewerking(1, 2, 2)
+6
+>>> SpecialeBewerking(1, 2, 3)
+9
+>>> SpecialeBewerking(1, 2, 4)
+12
+>>> SpecialeBewerking(1, 3, 0)
+0
+>>> SpecialeBewerking(1, 3, 1)
+4
+>>> SpecialeBewerking(1, 3, 2)
+8
+>>> SpecialeBewerking(1, 3, 3)
+12
+>>> SpecialeBewerking(1, 3, 4)
+16
+>>> SpecialeBewerking(1, 4, 0)
+0
+>>> SpecialeBewerking(1, 4, 1)
+5
+>>> SpecialeBewerking(1, 4, 2)
+10
+>>> SpecialeBewerking(1, 4, 3)
+15
+>>> SpecialeBewerking(1, 4, 4)
+20
+>>> SpecialeBewerking(2, 0, 0)
+0
+>>> SpecialeBewerking(2, 0, 1)
+2
+>>> SpecialeBewerking(2, 0, 2)
+4
+>>> SpecialeBewerking(2, 0, 3)
+6
+>>> SpecialeBewerking(2, 0, 4)
+8
+>>> SpecialeBewerking(2, 1, 0)
+0
+>>> SpecialeBewerking(2, 1, 1)
+3
+>>> SpecialeBewerking(2, 1, 2)
+6
+>>> SpecialeBewerking(2, 1, 3)
+9
+>>> SpecialeBewerking(2, 1, 4)
+12
+>>> SpecialeBewerking(2, 2, 0)
+0
+>>> SpecialeBewerking(2, 2, 1)
+4
+>>> SpecialeBewerking(2, 2, 2)
+8
+>>> SpecialeBewerking(2, 2, 3)
+12
+>>> SpecialeBewerking(2, 2, 4)
+16
+>>> SpecialeBewerking(2, 3, 0)
+0
+>>> SpecialeBewerking(2, 3, 1)
+5
+>>> SpecialeBewerking(2, 3, 2)
+10
+>>> SpecialeBewerking(2, 3, 3)
+15
+>>> SpecialeBewerking(2, 3, 4)
+20
+>>> SpecialeBewerking(2, 4, 0)
+0
+>>> SpecialeBewerking(2, 4, 1)
+6
+>>> SpecialeBewerking(2, 4, 2)
+12
+>>> SpecialeBewerking(2, 4, 3)
+18
+>>> SpecialeBewerking(2, 4, 4)
+24
+>>> SpecialeBewerking(3, 0, 0)
+0
+>>> SpecialeBewerking(3, 0, 1)
+3
+>>> SpecialeBewerking(3, 0, 2)
+6
+>>> SpecialeBewerking(3, 0, 3)
+9
+>>> SpecialeBewerking(3, 0, 4)
+12
+>>> SpecialeBewerking(3, 1, 0)
+0
+>>> SpecialeBewerking(3, 1, 1)
+4
+>>> SpecialeBewerking(3, 1, 2)
+8
+>>> SpecialeBewerking(3, 1, 3)
+12
+>>> SpecialeBewerking(3, 1, 4)
+16
+>>> SpecialeBewerking(3, 2, 0)
+0
+>>> SpecialeBewerking(3, 2, 1)
+5
+>>> SpecialeBewerking(3, 2, 2)
+10
+>>> SpecialeBewerking(3, 2, 3)
+15
+>>> SpecialeBewerking(3, 2, 4)
+20
+>>> SpecialeBewerking(3, 3, 0)
+0
+>>> SpecialeBewerking(3, 3, 1)
+6
+>>> SpecialeBewerking(3, 3, 2)
+12
+>>> SpecialeBewerking(3, 3, 3)
+18
+>>> SpecialeBewerking(3, 3, 4)
+24
+>>> SpecialeBewerking(3, 4, 0)
+0
+>>> SpecialeBewerking(3, 4, 1)
+7
+>>> SpecialeBewerking(3, 4, 2)
+14
+>>> SpecialeBewerking(3, 4, 3)
+21
+>>> SpecialeBewerking(3, 4, 4)
+28
+>>> SpecialeBewerking(4, 0, 0)
+0
+>>> SpecialeBewerking(4, 0, 1)
+4
+>>> SpecialeBewerking(4, 0, 2)
+8
+>>> SpecialeBewerking(4, 0, 3)
+12
+>>> SpecialeBewerking(4, 0, 4)
+16
+>>> SpecialeBewerking(4, 1, 0)
+0
+>>> SpecialeBewerking(4, 1, 1)
+5
+>>> SpecialeBewerking(4, 1, 2)
+10
+>>> SpecialeBewerking(4, 1, 3)
+15
+>>> SpecialeBewerking(4, 1, 4)
+20
+>>> SpecialeBewerking(4, 2, 0)
+0
+>>> SpecialeBewerking(4, 2, 1)
+6
+>>> SpecialeBewerking(4, 2, 2)
+12
+>>> SpecialeBewerking(4, 2, 3)
+18
+>>> SpecialeBewerking(4, 2, 4)
+24
+>>> SpecialeBewerking(4, 3, 0)
+0
+>>> SpecialeBewerking(4, 3, 1)
+7
+>>> SpecialeBewerking(4, 3, 2)
+14
+>>> SpecialeBewerking(4, 3, 3)
+21
+>>> SpecialeBewerking(4, 3, 4)
+28
+>>> SpecialeBewerking(4, 4, 0)
+0
+>>> SpecialeBewerking(4, 4, 1)
+8
+>>> SpecialeBewerking(4, 4, 2)
+16
+>>> SpecialeBewerking(4, 4, 3)
+24
+>>> SpecialeBewerking(4, 4, 4)
+32

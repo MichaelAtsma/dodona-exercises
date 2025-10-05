@@ -1,0 +1,5 @@
+--------------------------------------------------
+tab name: Test
+<LANGUAGE code="en">
+    <function from="SpecialeBewerking" to="SpecialOperation" />
+</LANGUAGE>
