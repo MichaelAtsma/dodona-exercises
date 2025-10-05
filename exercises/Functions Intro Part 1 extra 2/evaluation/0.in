@@ -1,0 +1,10 @@
+>>> MaalDrie(1)
+3
+>>> MaalDrie(2)
+6
+>>> MaalDrie(3)
+9
+>>> MaalDrie(4)
+12
+>>> PluMaalDriesTien(5)
+15
