@@ -47,7 +47,7 @@ In de wiskunde ken je misschien al functies, zoals `f(x) = x + 2`. Je stopt een 
 
 Een functie in Python maak je zo:
 
-```console?lang=python
+```python
 def NaamVanDeFunctie(invoer):
   # Hier komt de code die iets doet met de invoer
   return uitvoer
