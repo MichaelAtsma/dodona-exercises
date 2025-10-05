@@ -7,6 +7,30 @@
     const modified = prependText + selection;
     e.clipboardData.setData("text/plain", modified);
   });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll("function").forEach(el => {
+      const name = el.getAttribute("name");
+      const inputsAttr = el.getAttribute("inputs");
+      let html = `<span class="function">${name}</span>`;
+      if (inputsAttr && inputsAttr.trim() !== "") {
+        const inputs = inputsAttr.split(",");
+        html += `<span class="functionseparators">(</span>`;
+        html += inputs.map((input, i) => {
+          const trimmed = input.trim();
+          let typeClass = "functioninput-str"; // default to string
+          if (/^-?\d+$/.test(trimmed)) {
+            typeClass = "functioninput-int";
+          } else if (/^-?\d*\.\d+$/.test(trimmed)) {
+            typeClass = "functioninput-float";
+          }
+          return `<span class="${typeClass}">${trimmed}</span>${i < inputs.length - 1 ? '<span class="functionseparators">, </span>' : ''}`;
+        }).join('');
+        html += `<span class="functionseparators">)</span>`;
+      }
+      el.outerHTML = `<code>${html}</code>`;
+    });
+  });
 </script>
 
 <style>
@@ -31,6 +55,11 @@
   td {
     white-space: nowrap;
   }
+
+  .functioninput-int, .functioninput-float { color: red; }
+  .functioninput-str { color: green; }
+  .function { color: #a17702ff; }
+  .functionseparators { color: black; }
 </style>
 
 Je hebt net geleerd hoe je een functie creëert die 5 optelt bij de invoer en het resultaat teruggeeft met de volgende functie:
@@ -45,4 +74,4 @@ def PlusVijf(x):
 <hr>
 
 # <b>Opdracht</b>
-Maak een functie genaamd <code>PlusTien</code> die `10` optelt bij de invoer en het resultaat als uitvoer geeft.
+Maak een functie genaamd <function name="PlusTien"></function> die `10` optelt bij de invoer en het resultaat als uitvoer geeft.

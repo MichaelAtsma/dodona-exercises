@@ -7,6 +7,30 @@
     const modified = prependText + selection;
     e.clipboardData.setData("text/plain", modified);
   });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll("function").forEach(el => {
+      const name = el.getAttribute("name");
+      const inputsAttr = el.getAttribute("inputs");
+      let html = `<span class="function">${name}</span>`;
+      if (inputsAttr && inputsAttr.trim() !== "") {
+        const inputs = inputsAttr.split(",");
+        html += `<span class="functionseparators">(</span>`;
+        html += inputs.map((input, i) => {
+          const trimmed = input.trim();
+          let typeClass = "functioninput-str"; // default to string
+          if (/^-?\d+$/.test(trimmed)) {
+            typeClass = "functioninput-int";
+          } else if (/^-?\d*\.\d+$/.test(trimmed)) {
+            typeClass = "functioninput-float";
+          }
+          return `<span class="${typeClass}">${trimmed}</span>${i < inputs.length - 1 ? '<span class="functionseparators">, </span>' : ''}`;
+        }).join('');
+        html += `<span class="functionseparators">)</span>`;
+      }
+      el.outerHTML = `<code>${html}</code>`;
+    });
+  });
 </script>
 
 <style>
@@ -31,6 +55,11 @@
   td {
     white-space: nowrap;
   }
+
+  .functioninput-int, .functioninput-float { color: red; }
+  .functioninput-str { color: green; }
+  .function { color: #a17702ff; }
+  .functionseparators { color: black; }
 </style>
 
 <img src="media/FunctionMachine.gif" alt="Animatie van een machine waar iets ingestoken wordt en er iets anders uit komt nadat het verwerkt is" width="70%" style="border: 4px solid black;">
@@ -54,7 +83,7 @@ def NaamVanDeFunctie(invoer):
 ```
 
 - **<span style="color:blue;">def</span>** betekent dat je een functie gaat maken, dit komt van een functie *definiëren*.
-- **<span style="color:gold;">NaamVanDeFunctie</span>** is de naam die je zelf kiest. We gebruiken hier vaak <a href="https://en.wikipedia.org/wiki/Pascal_case"><i>PascalCase</i></a> (hetzelfde als camelCase, maar het eerste woord is ook met een hoofdletter).
+- **<function name="NaamVanDeFunctie"></function>** is de naam die je zelf kiest. We gebruiken hier vaak <a href="https://en.wikipedia.org/wiki/Pascal_case"><i>PascalCase</i></a> (hetzelfde als camelCase, maar het eerste woord is ook met een hoofdletter).
 - **<span style="color:blue;">invoer</span>** is het stukje informatie dat je aan de functie geeft (zoals een getal of tekst). Je kan ook een functie maken die helemaal geen invoer nodig heeft, je laat dit dan gewoon leeg.
 - **<span style="color:blue;">return</span>** geeft het antwoord terug aan jou. Je kiest hier zelf welke waarde je teruggeeft.
 - **Merk op** dat sommige regels niet helemaal aan de linkerkant staan. Om aan Python te laten weten welke regels tot de functie behoren, moeten we die regels starten met een <kbd>Tab</kbd> (of 4 spaties).
@@ -82,16 +111,10 @@ def VoorbeeldFunctie(x):
   return y
 ```
 
-Je kan de functie nu gebruiken door de naam te typen en de gewenste invoer tussen haakjes te zetten:
-
-```python
-VoorbeeldFunctie(3)
-```
-
-Dit geeft dus als resultaat `8` terug (want `3 + 5 = 8`).
+Je kan de functie nu gebruiken door de naam te typen en de gewenste invoer tussen haakjes te zetten. Bijvoorbeeld: <function name="VoorbeeldFunctie" inputs="3"></function> geeft als resultaat `8` terug (want `3 + 5 = 8`).
 
 <br>
 <hr>
 
 # <b>Opdracht</b>
-Maak een functie genaamd <code>MijnFunctie</code> die `5` optelt bij de invoer en het resultaat als uitvoer geeft.
+Maak een functie genaamd <function name="MijnFunctie"></function> die `5` optelt bij de invoer en het resultaat als uitvoer geeft.
