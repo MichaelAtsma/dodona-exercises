@@ -58,11 +58,7 @@ def Optellen(a, b):
   return resultaat
 ```
 
-Hierbij geeft:
-<function name="Optellen" inputs="2,3"></function>
-als antwoord `5` terug. En 
-<function name="Optellen" inputs="9,14"></function>
- geeft `23` terug.
+Hierbij geeft: <function name="Optellen" inputs="2,3"></function> als antwoord `5` terug. En <function name="Optellen" inputs="9,14"></function> geeft `23` terug.
 
 We kunnen echter ook andere operaties in de functie laten uitvoeren.
 
