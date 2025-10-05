@@ -92,9 +92,9 @@ def NaamVanDeFunctie(invoer):
 
 ## Waarom zijn functies handig?
 
-- Je kunt dezelfde code opnieuw gebruiken zonder alles opnieuw te schrijven.
+- Je kan dezelfde code opnieuw gebruiken zonder alles opnieuw te schrijven.
 - Je maakt je programma overzichtelijker.
-- Je kunt je eigen "machines" bouwen die precies doen wat jij wilt.
+- Je kan je eigen "machines" bouwen die precies doen wat jij wilt.
 
 Functies zijn dus superkrachtige hulpmiddelen in programmeren!
 
