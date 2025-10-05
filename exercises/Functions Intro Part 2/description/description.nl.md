@@ -16,9 +16,16 @@
       if (inputsAttr && inputsAttr.trim() !== "") {
         const inputs = inputsAttr.split(",");
         html += `<span class="functionseparators">(</span>`;
-        html += inputs.map((input, i) =>
-          `<span class="functioninput">${input.trim()}</span>${i < inputs.length - 1 ? '<span class="functionseparators">, </span>' : ''}`
-        ).join('');
+        html += inputs.map((input, i) => {
+          const trimmed = input.trim();
+          let typeClass = "functioninput-str"; // default to string
+          if (/^-?\d+$/.test(trimmed)) {
+            typeClass = "functioninput-int";
+          } else if (/^-?\d*\.\d+$/.test(trimmed)) {
+            typeClass = "functioninput-float";
+          }
+          return `<span class="${typeClass}">${trimmed}</span>${i < inputs.length - 1 ? '<span class="functionseparators">, </span>' : ''}`;
+        }).join('');
         html += `<span class="functionseparators">)</span>`;
       }
       el.outerHTML = `<code>${html}</code>`;
@@ -49,8 +56,9 @@
     white-space: nowrap;
   }
 
+  .functioninput-int, .functioninput-float { color: red; }
+  .functioninput-str { color: green; }
   .function { color: #a17702ff; }
-  .functioninput { color: blue; }
   .functionseparators { color: black; }
 </style>
 
