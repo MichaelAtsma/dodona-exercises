@@ -80,7 +80,7 @@ Maak een functie genaamd <function name="MaalDrie"></function> die de invoer met
 <ul>
   <li><function name="MaalDrie" inputs="2"></function> geeft <code>6</code> terug.</li>
   <li><function name="MaalDrie" inputs="7"></function> geeft <code>21</code> terug.</li>
-  <li><function name="PlusMaalDrieTien" inputs="20"></function> geeft <code>60</code> terug.</li>
+  <li><function name="MaalDrie" inputs="20"></function> geeft <code>60</code> terug.</li>
 </ul>
 </details>
 
