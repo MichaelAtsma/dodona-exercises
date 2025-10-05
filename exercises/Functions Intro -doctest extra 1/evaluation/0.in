@@ -1,0 +1,10 @@
+>>> PlusTien(1)
+11
+>>> PlusTien(2)
+12
+>>> PlusTien(3)
+13
+>>> PlusTien(4)
+14
+>>> PlusTien(5)
+15
