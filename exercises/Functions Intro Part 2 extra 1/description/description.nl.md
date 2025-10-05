@@ -35,6 +35,9 @@
   .function {
     color: #a17702ff;
   }
+  .input {
+    color: blue;
+  }
 </style>
 
 Je hebt net geleerd hoe je een functie maakt die twee getallen als invoer neemt, die twee getallen bij elkaar optelt, en het resultaat teruggeeft. Dat was de volgende functie:
@@ -45,7 +48,11 @@ def Optellen(a, b):
   return resultaat
 ```
 
-Hierbij geeft: <code><span class="function">Optellen</span>(2, 3)</code> als antwoord `5` terug. En <code><span class="function">Optellen</span>(9, 14)</code> geeft `23` terug.
+Hierbij geeft: 
+<code><span class="function">Optellen</span>(<span class="input">2</span>, <span class="input">3</span>)</code> 
+als antwoord `5` terug. En 
+<code><span class="function">Optellen</span>(<span class="input">9</span>, <span class="input">14</span>)</code>
+ geeft `23` terug.
 
 We kunnen echter ook andere operaties in de functie laten uitvoeren.
 
