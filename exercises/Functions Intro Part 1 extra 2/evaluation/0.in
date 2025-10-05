@@ -6,5 +6,5 @@
 9
 >>> MaalDrie(4)
 12
->>> PluMaalDriesTien(5)
+>>> MaalDrie(5)
 15
