@@ -66,7 +66,7 @@ We kunnen echter ook andere operaties in de functie laten uitvoeren.
 <hr>
 
 # <b>Opdracht</b>
-Maak een functie genaamd <code>Vermenigvuldigen</code> die twee getallen als invoer neemt, ze met elkaar vermenigvuldigt, en het resultaat als uitvoer geeft.
+Maak een functie genaamd <code><span class="function">Vermenigvuldigen</span></code> die twee getallen als invoer neemt, ze met elkaar vermenigvuldigt, en het resultaat als uitvoer geeft.
 
 <details><summary>Hint</summary>
 Het symbool voor een vermenigvuldiging in Python is <code>*</code>.
