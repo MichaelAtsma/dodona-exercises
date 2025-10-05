@@ -53,7 +53,7 @@
 Je hebt net geleerd hoe je een functie maakt die twee getallen als invoer neemt, die twee getallen bij elkaar optelt, en het resultaat teruggeeft. Dat was de volgende functie:
 
 ```python
-def <function name="Optellen" inputs="a,b"></function>:
+def Optellen(a, b):
   resultaat = a + b
   return resultaat
 ```
