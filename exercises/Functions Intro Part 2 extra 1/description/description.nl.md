@@ -7,6 +7,19 @@
     const modified = prependText + selection;
     e.clipboardData.setData("text/plain", modified);
   });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll("function").forEach(el => {
+      const name = el.getAttribute("name");
+      const inputs = el.getAttribute("inputs").split(",");
+      let html = `<span class="function">${name}</span><span class="normal">(</span>`;
+      html += inputs.map((input, i) =>
+        `<span class="input">${input.trim()}</span>${i < inputs.length - 1 ? '<span class="normal">, </span>' : ''}`
+      ).join('');
+      html += `<span class="normal">)</span>`;
+      el.outerHTML = `<code>${html}</code>`;
+    });
+  });
 </script>
 
 <style>
@@ -32,12 +45,9 @@
     white-space: nowrap;
   }
 
-  .function {
-    color: #a17702ff;
-  }
-  .input {
-    color: blue;
-  }
+  .function { color: #a17702ff; }
+  .input { color: blue; }
+  .functionseparators { color: black; }
 </style>
 
 Je hebt net geleerd hoe je een functie maakt die twee getallen als invoer neemt, die twee getallen bij elkaar optelt, en het resultaat teruggeeft. Dat was de volgende functie:
@@ -48,10 +58,10 @@ def Optellen(a, b):
   return resultaat
 ```
 
-Hierbij geeft: 
-<code><span class="function">Optellen</span>(<span class="input">2</span>, <span class="input">3</span>)</code> 
+Hierbij geeft:
+<function name="Optellen" inputs="2,3"></function>
 als antwoord `5` terug. En 
-<code><span class="function">Optellen</span>(<span class="input">9</span>, <span class="input">14</span>)</code>
+<function name="Optellen" inputs="9,14"></function>
  geeft `23` terug.
 
 We kunnen echter ook andere operaties in de functie laten uitvoeren.
