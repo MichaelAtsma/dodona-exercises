@@ -76,8 +76,10 @@ def PlusVijf(x):
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="PlusTien"></function> die `10` optelt bij de invoer en het resultaat als uitvoer geeft.
 
-<details markdown='1'><summary>Voorbeelden</summary>
-- <function name="PlusTien" inputs="3"></function> geeft `13` terug.
-- <function name="PlusTien" inputs="7"></function> geeft `17` terug.
-- <function name="PlusTien" inputs="20"></function> geeft `30` terug.
+<details><summary>Voorbeelden</summary>
+<ul>
+  <li><function name="PlusTien" inputs="3"></function> geeft `13` terug.</li>
+  <li><function name="PlusTien" inputs="7"></function> geeft `17` terug.</li>
+  <li><function name="PlusTien" inputs="20"></function> geeft `30` terug.</li>
+</ul>
 </details>
