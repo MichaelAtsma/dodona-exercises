@@ -1,0 +1,50 @@
+>>> Optellen(0, 0)
+0
+>>> Optellen(0, 1)
+1
+>>> Optellen(0, 2)
+2
+>>> Optellen(0, 3)
+3
+>>> Optellen(0, 4)
+4
+>>> Optellen(1, 0)
+1
+>>> Optellen(1, 1)
+2
+>>> Optellen(1, 2)
+3
+>>> Optellen(1, 3)
+4
+>>> Optellen(1, 4)
+5
+>>> Optellen(2, 0)
+2
+>>> Optellen(2, 1)
+3
+>>> Optellen(2, 2)
+4
+>>> Optellen(2, 3)
+5
+>>> Optellen(2, 4)
+6
+>>> Optellen(3, 0)
+3
+>>> Optellen(3, 1)
+4
+>>> Optellen(3, 2)
+5
+>>> Optellen(3, 3)
+6
+>>> Optellen(3, 4)
+7
+>>> Optellen(4, 0)
+4
+>>> Optellen(4, 1)
+5
+>>> Optellen(4, 2)
+6
+>>> Optellen(4, 3)
+7
+>>> Optellen(4, 4)
+8
