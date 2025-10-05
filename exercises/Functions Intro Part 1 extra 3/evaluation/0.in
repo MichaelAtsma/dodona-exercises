@@ -2,7 +2,7 @@
 0.5
 >>> Halveren(2)
 1.0
->>> MaHalverenalDrie(3)
+>>> Halveren(3)
 1.5
 >>> Halveren(4)
 2.0
