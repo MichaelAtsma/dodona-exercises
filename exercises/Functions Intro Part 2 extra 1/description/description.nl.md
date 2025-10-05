@@ -83,6 +83,3 @@ Maak een functie genaamd <function name="Vermenigvuldigen"></function> die twee 
 <details><summary>Hint</summary>
 Het symbool voor een vermenigvuldiging in Python is <code>*</code>.
 </details>
-
-
-<function name="testing1" inputs="2,3.5,'hallo'"></function>
