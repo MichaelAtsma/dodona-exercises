@@ -1,0 +1,10 @@
+>>> Halveren(1)
+0.5
+>>> Halveren(2)
+1
+>>> MaHalverenalDrie(3)
+1.5
+>>> Halveren(4)
+2
+>>> Halveren(5)
+2.5
