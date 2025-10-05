@@ -12,11 +12,11 @@
     document.querySelectorAll("function").forEach(el => {
       const name = el.getAttribute("name");
       const inputs = el.getAttribute("inputs").split(",");
-      let html = `<span class="function">${name}</span><span class="normal">(</span>`;
+      let html = `<span class="function">${name}</span><span class="functionseparators">(</span>`;
       html += inputs.map((input, i) =>
-        `<span class="input">${input.trim()}</span>${i < inputs.length - 1 ? '<span class="normal">, </span>' : ''}`
+        `<span class="functioninput">${input.trim()}</span>${i < inputs.length - 1 ? '<span class="functionseparators">, </span>' : ''}`
       ).join('');
-      html += `<span class="normal">)</span>`;
+      html += `<span class="functionseparators">)</span>`;
       el.outerHTML = `<code>${html}</code>`;
     });
   });
@@ -46,7 +46,7 @@
   }
 
   .function { color: #a17702ff; }
-  .input { color: blue; }
+  .functioninput { color: blue; }
   .functionseparators { color: black; }
 </style>
 
