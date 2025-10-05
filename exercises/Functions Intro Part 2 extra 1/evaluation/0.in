@@ -1,0 +1,50 @@
+>>> Vermenigvuldigen(0, 0)
+0
+>>> Vermenigvuldigen(0, 1)
+0
+>>> Vermenigvuldigen(0, 2)
+0
+>>> Vermenigvuldigen(0, 3)
+0
+>>> Vermenigvuldigen(0, 4)
+0
+>>> Vermenigvuldigen(1, 0)
+0
+>>> Vermenigvuldigen(1, 1)
+1
+>>> Vermenigvuldigen(1, 2)
+2
+>>> Vermenigvuldigen(1, 3)
+3
+>>> Vermenigvuldigen(1, 4)
+4
+>>> Vermenigvuldigen(2, 0)
+0
+>>> Vermenigvuldigen(2, 1)
+2
+>>> Vermenigvuldigen(2, 2)
+4
+>>> Vermenigvuldigen(2, 3)
+6
+>>> Vermenigvuldigen(2, 4)
+8
+>>> Vermenigvuldigen(3, 0)
+0
+>>> Vermenigvuldigen(3, 1)
+3
+>>> Vermenigvuldigen(3, 2)
+6
+>>> Vermenigvuldigen(3, 3)
+9
+>>> Vermenigvuldigen(3, 4)
+12
+>>> Vermenigvuldigen(4, 0)
+0
+>>> Vermenigvuldigen(4, 1)
+4
+>>> Vermenigvuldigen(4, 2)
+8
+>>> Vermenigvuldigen(4, 3)
+12
+>>> Vermenigvuldigen(4, 4)
+16
