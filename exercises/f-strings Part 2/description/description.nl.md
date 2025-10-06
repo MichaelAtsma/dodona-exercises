@@ -49,4 +49,4 @@ De variabele <code>begroeting</code> zal na het uitvoeren van deze code de volge
 <hr>
 
 # <b>Opdracht</b>
-Maak een variabele <code>begroeting</code> aan die de namen <code>Bilal</code> en <code>Fatiha</code> van de variabelen <code>naam1</code> en <code>naam2</code> en de leeftijden <code>15</code> en <code>16</code> van de variabelen <code>leeftijd1</code> en <code>leeftijd2</code> invult in de zin <code>Hallo Bilal en Fatiha, welkom op Dodona! Jullie zijn 15 en 16 jaar oud.</code>.
+Maak een variabele <code>begroeting</code> aan die de namen <code>Bilal</code> en <code>Fatiha</code> van de variabelen <code>naam1</code> en <code>naam2</code> en de leeftijden <code>15</code> en <code>16</code> van de variabelen <code>leeftijd1</code> en <code>leeftijd2</code> invult in de zin <code>Hallo Bilal en Fatiha, welkom op Dodona! Jullie zijn 15 en 16 jaar oud.</code>

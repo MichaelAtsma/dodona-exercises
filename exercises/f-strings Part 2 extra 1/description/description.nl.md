@@ -47,4 +47,4 @@ De variabele <code>begroeting</code> zal na het uitvoeren van deze code de volge
 <hr>
 
 # <b>Opdracht</b>
-Maak een variabele <code>kasticket</code> aan die de groenten <code>rode paprika</code> en <code>bloemkool</code> van de variabelen <code>groente1</code> en <code>groente2</code> en de bijhorden prijzen €<code>0.79</code> en €<code>1.99</code> van de variabelen <code>prijs1</code> en <code>prijs2</code> invult in de zin <code>Dankuwel voor uw aankoop! U betaalde voor de rode paprika €0.79 en voor de bloemkool €1.99.</code>.
+Maak een variabele <code>kasticket</code> aan die de groenten <code>rode paprika</code> en <code>bloemkool</code> van de variabelen <code>groente1</code> en <code>groente2</code> en de bijhorden prijzen €<code>0.79</code> en €<code>1.99</code> van de variabelen <code>prijs1</code> en <code>prijs2</code> invult in de zin <code>Dankuwel voor uw aankoop! U betaalde voor de rode paprika €0.79 en voor de bloemkool €1.99.</code>
