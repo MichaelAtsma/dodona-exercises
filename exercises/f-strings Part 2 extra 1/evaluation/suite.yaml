@@ -1,0 +1,18 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.groente1"
+          return: "rode paprika"
+        - expression: "submission.groente2"
+          return: "bloemkool"
+        - expression: "submission.prijs1"
+          return: 0.79
+        - expression: "submission.prijs2"
+          return: 1.99
+        - expression: "submission.kasticket"
+          return: !oracle
+            oracle: "custom_check"
+            value: "Dankuwel voor uw aankoop! U betaalde voor de rode paprika €0.79 en voor de bloemkool €1.99."
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["kasticket", {"groente1": "rode paprika", "groente2": "bloemkool", "prijs1": 0.79, "prijs2": 1.99}, ["f\"", "{", "}"], ["+"]]
