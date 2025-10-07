@@ -21,4 +21,4 @@
             value: "Dit is een zin"
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: []
+            arguments: [["Dit_is_een_zin"], ["_"]]
