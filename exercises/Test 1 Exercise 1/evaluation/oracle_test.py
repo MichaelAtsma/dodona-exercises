@@ -19,7 +19,8 @@ def evaluate_test(context, show_no_message_for_these_values=[], show_no_message_
             mymessages = [Message("Je hebt het juiste datatype gebruikt, maar de waarde is incorrect.")]
             expected = context.expected
     else:
-        expected = "Omdat dit een toets is wordt het verwachte antwoord hier niet getoond."
+        expected = ""
+        mymessages = [Message("Omdat dit een toets is wordt het verwachte antwoord hier niet getoond.")]
 
     return EvaluationResult(
       result = correct,
