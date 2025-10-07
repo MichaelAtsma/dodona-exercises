@@ -13,9 +13,9 @@ def evaluate_test(context, show_no_message_for_these_values=[], show_no_message_
     mymessages = []
     if correct:
         expected = context.expected
-    elif all(type(context.actual) == type(context.expected), 
-             context.actual not in show_no_message_for_these_values, 
-             not any(char in str(context.actual) for char in show_no_message_if_this_character_in_value)):
+    elif all([type(context.actual) == type(context.expected), 
+              context.actual not in show_no_message_for_these_values, 
+              not any(char in str(context.actual) for char in show_no_message_if_this_character_in_value)]):
             mymessages = [Message("Je hebt het juiste datatype gebruikt, maar de waarde is incorrect.")]
             expected = context.expected
     else:
