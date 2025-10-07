@@ -20,5 +20,5 @@
             oracle: "custom_check"
             value: "Dit is een zin"
             file: "oracle_test.py"
-            name: "evaluate_test_string"
+            name: "evaluate_test_str"
             arguments: []
