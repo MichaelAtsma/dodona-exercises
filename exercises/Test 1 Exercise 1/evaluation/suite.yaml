@@ -6,19 +6,19 @@
             oracle: "custom_check"
             value: 8
             file: "oracle_test.py"
-            name: "evaluate_test_int"
+            name: "evaluate_test"
             arguments: []
         - expression: "submission.kommagetal"
           return: !oracle 
             oracle: "custom_check"
             value: 6.1
             file: "oracle_test.py"
-            name: "evaluate_test_float"
+            name: "evaluate_test"
             arguments: []
         - expression: "submission.zin"
           return: !oracle
             oracle: "custom_check"
             value: "Dit is een zin"
             file: "oracle_test.py"
-            name: "evaluate_test_str"
+            name: "evaluate_test"
             arguments: []
