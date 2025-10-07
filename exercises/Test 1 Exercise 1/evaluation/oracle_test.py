@@ -19,7 +19,7 @@ def evaluate_test_int(context):
 
     return EvaluationResult(
       result = correct,
-      dsl_expected = expected,
+      dsl_expected = repr(expected),
       dsl_actual = repr(context.actual),
       messages = mymessages
     )
@@ -36,7 +36,7 @@ def evaluate_test_float(context):
 
     return EvaluationResult(
       result = correct,
-      dsl_expected = expected,
+      dsl_expected = repr(expected),
       dsl_actual = repr(context.actual),
       messages = mymessages
     )
@@ -53,7 +53,7 @@ def evaluate_test_str(context):
 
     return EvaluationResult(
       result = correct,
-      dsl_expected = expected,
+      dsl_expected = repr(expected),
       dsl_actual = repr(context.actual),
       messages = mymessages
     )
