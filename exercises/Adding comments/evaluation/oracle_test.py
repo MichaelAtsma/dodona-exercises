@@ -13,10 +13,16 @@ def evaluate_test(context, boilerplate):
     checks = []
     mymessages = [Message("Goed zo! Je hebt de opdracht correct uitgevoerd.")]
     
-    allLinesHaveComment = all('#' in line for line in submission.splitlines() if str(context.expected) not in line)
-    checks.append(allLinesHaveComment)
-    if not allLinesHaveComment:
-        mymessages = [Message("Zorg ervoor dat je commentaar toevoegt aan alle regels behalve de regel die de verwachte uitvoer bevat.")]
+    linesAfterExpectedHaveComment = True
+    expectedLineFound = False
+    for line in submission.splitlines():
+        if str(context.expected) in line:
+            expectedLineFound = True
+        elif expectedLineFound and '#' not in line:
+            linesAfterExpectedHaveComment = False
+    checks.append(linesAfterExpectedHaveComment)
+    if not linesAfterExpectedHaveComment:
+        mymessages = [Message("Zorg ervoor dat je commentaar toevoegt aan alle regels waar dat nodig is.")]
     
     lastLineStillLastLine = boilerplate.splitlines()[-1].strip() in submission.splitlines()[-1]
     checks.append(lastLineStillLastLine)
