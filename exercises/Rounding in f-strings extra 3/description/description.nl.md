@@ -43,7 +43,7 @@ In deze opdracht gebruik je hetzelfde principe op andere variabelen en zinnen.
 # <b>Opdracht</b>
 Je bent een leerkracht informaticawetenschappen en moet de scores van je leerlingen op een toets waar ze 7 punten op konden halen in Smartschool zetten op 5 punten.
 1. Maak een variabele <code>score op 7</code> aan met de waarde <code>4</code>*.
-2. Bereken de score op 5 punten en bewaar het resultaat in de variabele <i>score op 5</i>**.
+2. Bereken de score op 5 punten en bewaar het resultaat in de variabele <code>score op 5</code>**.
 3. Maak een variabele <code>zin</code> aan die de score op 5 van de variabele <code>score op 5</code> afgerond op 1 decimaal invult in de zin <code>Je hebt een XXX/5 gehaald voor je informatica toets.</code> (waarbij XXX dus automatisch ingevuld wordt door het juiste getal).
 
 <i>*Denk aan een variabele naam met meerdere woorden.</i>
