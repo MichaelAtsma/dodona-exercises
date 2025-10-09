@@ -44,8 +44,3 @@ In deze opdracht gebruik je hetzelfde principe op andere variabelen en zinnen.
 Maak een variabele <code>zin</code> aan die het cijfer <code>7.846</code> van de variabele <code>cijfer</code> invult in de zin <code>Je hebt een 7.8/10 gehaald voor je toets.</code>. 
 
 <i>Denk goed na over wat je aan de f-string moet veranderen zodat het getal wordt afgerond op 1 decimaal in plaats van 2.</i>
-
-
-
-
-testing
