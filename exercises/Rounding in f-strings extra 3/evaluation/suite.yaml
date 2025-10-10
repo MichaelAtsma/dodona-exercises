@@ -16,4 +16,4 @@
             value: "Je hebt een 2.9/5 gehaald voor je informatica toets."
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["zin", {"score_op_5": 2.9}, ["f\"", "{", "}", ":", ".1f"], ["+"]]
+            arguments: ["zin", {"score_op_5": 2.9}, {"f\"": "f-string", "{": "open accolade", "}": "sluit accolade", ":": "dubbele punt", ".1f": "specificatie voor 1 decimaal"}, ["+"]]

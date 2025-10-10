@@ -9,4 +9,4 @@
             value: "Heb je echt 98% behaald op je toets? Wat goed!"
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["zin", {"score": 98}, ["f\"", "{", "}"], ["+"]]
+            arguments: ["zin", {"score": 98}, {"f\"": "f-string", "{": "open accolade", "}": "sluit accolade"}, ["+"]]

@@ -15,4 +15,4 @@
             value: "Dankuwel voor uw aankoop! U betaalde voor de rode paprika €0.79 en voor de bloemkool €1.99."
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["kasticket", {"groente1": "rode paprika", "groente2": "bloemkool", "prijs1": 0.79, "prijs2": 1.99}, ["f\"", "{", "}"], ["+"]]
+            arguments: ["kasticket", {"groente1": "rode paprika", "groente2": "bloemkool", "prijs1": 0.79, "prijs2": 1.99}, {"f\"": "f-string", "{": "open accolade", "}": "sluit accolade"}, ["+"]]

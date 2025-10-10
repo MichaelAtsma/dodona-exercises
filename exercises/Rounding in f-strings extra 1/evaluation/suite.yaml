@@ -9,4 +9,4 @@
             value: "De temperatuur is 18.95 graden Celsius."
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["zin", {"temperatuur": 18.95}, ["f\"", "{", "}", ":", ".2f"], ["+"]]
+            arguments: ["zin", {"temperatuur": 18.95}, {"f\"": "f-string", "{": "open accolade", "}": "sluit accolade", ":": "dubbele punt", ".2f": "specificatie voor 2 decimalen"}, ["+"]]

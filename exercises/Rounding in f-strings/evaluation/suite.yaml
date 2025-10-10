@@ -9,4 +9,4 @@
             value: "Je moet €12.76 betalen."
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["zin", {"bedrag": 12.76}, ["f\"", "{", "}", ":", ".2f"], ["+"]]
+            arguments: ["zin", {"bedrag": 12.76}, {"f\"": "f-string", "{": "open accolade", "}": "sluit accolade", ":": "dubbele punt", ".2f": "specificatie voor 2 decimalen"}, ["+"]]

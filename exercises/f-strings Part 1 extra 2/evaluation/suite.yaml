@@ -9,4 +9,4 @@
             value: "Hallo Robin, welkom op Dodona!"
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["zin", {"naam": "Robin"}, ["f\"", "{", "}"], ["+"]]
+            arguments: ["zin", {"naam": "Robin"}, {"f\"": "f-string", "{": "open accolade", "}": "sluit accolade"}, ["+"]]

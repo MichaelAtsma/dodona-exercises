@@ -7,7 +7,7 @@ def get_submission_code():
 def lines_containing_var(text, var):
     return [line for line in text.splitlines() if var in line]
 
-def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols, forbidden_symbols):
+def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols_and_display_names, forbidden_symbols):
     submission = get_submission_code()
     checks = [(str(context.expected) not in submission),
                (type(context.actual)) == (type(context.expected)),
@@ -18,14 +18,14 @@ def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols, forbi
     result_var_lines = lines_containing_var(submission, result_var)
     ingredients_used_for_result = dict.fromkeys(ingredient_vars.keys(), 0)
     values_used_count = dict.fromkeys(ingredient_vars.keys(), 0)
-    mandatory_symbols_used = {symbol: 0 for symbol in mandatory_symbols}
+    mandatory_symbols_used = {symbol: 0 for symbol in mandatory_symbols_and_display_names.keys()}
     for result_line in result_var_lines:
         for ingredient_var in ingredient_vars.keys():
             if ingredient_var in result_line:
                 ingredients_used_for_result[ingredient_var] += 1
             if str(ingredient_vars[ingredient_var]) in result_line:
                 values_used_count[ingredient_var] += 1
-        for symbol in mandatory_symbols:
+        for symbol in mandatory_symbols_and_display_names.keys():
             if symbol == "f\"" or symbol == "f'":
                 if "f\"" in result_line or "f'" in result_line:
                     mandatory_symbols_used[symbol] += 1
@@ -79,8 +79,7 @@ def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols, forbi
         if not checks[5]:
             mymessages.append(Message(f"Je hebt de waarde van {' en '.join(values_used)} letterlijk overgenomen in je code om {result_var} te berekenen. Dat mag niet. Gebruik de variabele(n) {' en '.join(ingredient_vars)} om tot het juiste resultaat te komen."))
         if not checks[6]:
-            symbols = {"+": "optelling", "*": "vermenigvuldiging", "/": "deling", "-": "aftrekking", "{": "open accolade", "}": "sluit accolade", "f\"": "f-string", ":": "dubbele punt", ".2f": "specificatie voor 2 decimalen"}
-            mymessages.append(Message(f"Je moet een {' en '.join([symbols[symbol] for symbol in mandatory_symbols_not_used_enough])} gebruiken om {result_var} te maken."))
+            mymessages.append(Message(f"Je moet een {' en '.join([mandatory_symbols_and_display_names[symbol] for symbol in mandatory_symbols_not_used_enough])} gebruiken om {result_var} te maken."))
 
     return EvaluationResult(
       result = correct,
