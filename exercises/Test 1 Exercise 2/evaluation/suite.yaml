@@ -1,25 +1,37 @@
 - tab: "Test"
   contexts:
     - testcases:
-        - expression: "submission.geheel_getal"
+        - expression: "submission.getal1"
+          return: 5
+        - expression: "submission.getal2"
+          return: -9
+        - expression: "submission.woord"
+          return: "octopus"
+        - expression: "submission.som"
           return: !oracle
             oracle: "custom_check"
-            value: 8
+            value: -4
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: []
-        - expression: "submission.kommagetal"
-          return: !oracle 
-            oracle: "custom_check"
-            value: 6.1
-            file: "oracle_test.py"
-            name: "evaluate_test"
-            arguments: []
-        - expression: "submission.zin"
+            arguments: ["som", {"getal1": 5, "getal2": -9}, {"+": "sommatie"}, []]
+        - expression: "submission.product"
           return: !oracle
             oracle: "custom_check"
-            value: "Dit is een zin"
+            value: -45
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: [["Dit_is_een_zin"], ["_"]]
- 
+            arguments: ["product", {"getal1": 5, "getal2": -9}, {"*": "product"}, []]
+        - expression: "submission.quotient"
+          return: !oracle
+            oracle: "custom_check"
+            value: -0.5555555555555556
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["quotient", {"getal1": 5, "getal2": -9}, {"/": "quotient"}, []]
+        - expression: "submission.meerdere_woorden"
+          return: !oracle
+            oracle: "custom_check"
+            value: "octopusoctopusoctopusoctopusoctopus"
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["meerdere_woorden", {"getal1": 5, "woord": "octopus"}, {"*": "product"}, []]

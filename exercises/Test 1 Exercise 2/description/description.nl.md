@@ -35,5 +35,5 @@
 3. Maak een variabele <code>woord</code> die het woord <code>octopus</code> opslaat.
 4. Maak een variabele <code>som</code> die de som van <code>getal1</code> en <code>getal2</code> opslaat.
 5. Maak een variabele <code>product</code> die het product van <code>getal1</code> en <code>getal2</code> opslaat.
-6. Maak een variabele <code>meerdere_woorden</code> die <code>getal1</code> keer <code>woord</code> opslaat.
-7.  
+6. Maak een variabele <code>quotient</code> die het resultaat van <code>getal1</code> gedeeld door <code>getal2</code> opslaat.
+7. Maak een variabele <code>meerdere_woorden</code> die <code>getal1</code> keer <code>woord</code> opslaat.
