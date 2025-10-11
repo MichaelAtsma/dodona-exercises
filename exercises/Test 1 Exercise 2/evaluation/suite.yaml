@@ -1,0 +1,24 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.geheel_getal"
+          return: !oracle
+            oracle: "custom_check"
+            value: 8
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: []
+        - expression: "submission.kommagetal"
+          return: !oracle 
+            oracle: "custom_check"
+            value: 6.1
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: []
+        - expression: "submission.zin"
+          return: !oracle
+            oracle: "custom_check"
+            value: "Dit is een zin"
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: [["Dit_is_een_zin"], ["_"]]
