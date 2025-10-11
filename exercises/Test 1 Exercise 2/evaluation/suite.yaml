@@ -22,3 +22,4 @@
             file: "oracle_test.py"
             name: "evaluate_test"
             arguments: [["Dit_is_een_zin"], ["_"]]
+ 
