@@ -26,7 +26,7 @@ def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols_and_di
         for ingredient_var in ingredient_vars.keys():
             if ingredient_var in result_line:
                 ingredients_used_for_result[ingredient_var] += 1
-            if str(ingredient_vars[ingredient_var]) in result_line:
+            elif str(ingredient_vars[ingredient_var]) in result_line:
                 values_used_count[ingredient_var] += 1
         for symbol in mandatory_symbols_and_display_names.keys():
             if symbol == "f\"" or symbol == "f'":
