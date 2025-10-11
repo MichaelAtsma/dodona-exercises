@@ -1,7 +1,7 @@
 import os
 
-to_replace = "const modified = prependText + selection;"
-replacement = "const modified = selection.length > 20 ? prependText + selection : selection;"
+to_replace = "const modified = selection.length > 20 ? prependText + selection : selection;"
+replacement = "const modified = selection.length > 100 ? prependText + selection : selection;"
 filename_contains = "description"
 root_dir = "exercises"
 
