@@ -7,7 +7,7 @@ def get_submission_code():
 def lines_containing_var(text, var):
     return [line for line in text.splitlines() if var in line]
 
-def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols_and_display_names, forbidden_symbols):
+def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols_and_display_names, forbidden_symbols, feedback_shown=True):
     submission = get_submission_code()
     checks = {}
     checks["expected value not in code"] = str(context.expected) not in submission
@@ -62,7 +62,9 @@ def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols_and_di
     correct = all(checks.values())
     mymessages = []
     if correct:
-        mymessages.append(Message(f"Goed zo! Je hebt de computer {repr(context.expected)} laten berekenen op basis van {' en '.join(ingredient_vars)} in een f-string."))
+        mymessages.append(Message(f"Goed zo! Je hebt de computer {repr(context.expected)} laten berekenen op basis van {' en '.join(ingredient_vars)}."))
+        if not feedback_shown:
+            mymessages = []
     else:
         if not checks["expected value not in code"]:
             mymessages.append(Message(f"Je mag de zin {repr(context.expected)} niet gebruiken in je code."))
@@ -83,8 +85,9 @@ def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols_and_di
             mymessages.append(Message(f"Je hebt de waarde van {' en '.join(values_used)} letterlijk overgenomen in je code om {result_var} te berekenen. Dat mag niet. Gebruik de variabele(n) {' en '.join(ingredient_vars)} om tot het juiste resultaat te komen."))
         if not checks["mandatory symbols used"]:
             mymessages.append(Message(f"Je moet een {' en '.join([mandatory_symbols_and_display_names[symbol] for symbol in mandatory_symbols_not_used_enough])} gebruiken om {result_var} te maken."))
-
-        mymessages = [Message("Omdat dit een toets is, krijg je geen hints over wat er precies mis is. Probeer het nog eens!")]
+        
+        if not feedback_shown:
+            mymessages = [Message("Omdat dit een toets is, krijg je geen hints over wat er precies mis is. Probeer het nog eens!")]
 
     return EvaluationResult(
       result = correct,

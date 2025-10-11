@@ -13,25 +13,25 @@
             value: -4
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["som", {"getal1": 5, "getal2": -9}, {"+": "sommatie"}, []]
+            arguments: ["som", {"getal1": 5, "getal2": -9}, {"+": "sommatie"}, [], False]
         - expression: "submission.product"
           return: !oracle
             oracle: "custom_check"
             value: -45
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["product", {"getal1": 5, "getal2": -9}, {"*": "product"}, []]
+            arguments: ["product", {"getal1": 5, "getal2": -9}, {"*": "product"}, [], False]
         - expression: "submission.quotient"
           return: !oracle
             oracle: "custom_check"
             value: -0.5555555555555556
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["quotient", {"getal1": 5, "getal2": -9}, {"/": "quotient"}, []]
+            arguments: ["quotient", {"getal1": 5, "getal2": -9}, {"/": "quotient"}, [], False]
         - expression: "submission.meerdere_woorden"
           return: !oracle
             oracle: "custom_check"
             value: "octopusoctopusoctopusoctopusoctopus"
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["meerdere_woorden", {"getal1": 5, "woord": "octopus"}, {"*": "product"}, []]
+            arguments: ["meerdere_woorden", {"getal1": 5, "woord": "octopus"}, {"*": "product"}, [], False]
