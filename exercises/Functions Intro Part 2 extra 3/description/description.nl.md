@@ -89,5 +89,5 @@ Maak een functie genaamd <function name="SpecialeBewerking"></function> die <i><
 </details>
 
 <details><summary>Hint</summary>
-Net als in de wiskunde kunnen we de volgorde van bewerkingen forceren met haakjes <code>(...)</code>.
+Net als in de wiskunde kunnen we de volgorde van bewerkingen forceren met haakjes <code>(...)</code>. Het is natuurlijk ook mogelijk om meerdere regels code te schrijven in de functie, en dus je berekening met meerdere stappen te doen.
 </details>
