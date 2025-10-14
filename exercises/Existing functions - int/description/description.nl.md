@@ -64,9 +64,9 @@
   .functionseparators { color: black; }
 </style>
 
-Je hebt geleerd dat je functies kan maken die bij een bepaalde invoer een zekere uitvoer geven. In Python zitten al heel veel functies standaard verwerkt die je kan gebruiken. We bekijken er hier een aantal.
+Je hebt geleerd dat je functies kan maken die bij een bepaalde invoer een zekere uitvoer geven. In Python zitten al heel veel functies standaard verwerkt die je kan gebruiken. We zullen er een aantal bekijken.
 
-De eerste functie die we bekijken is de <function name="int"></function> functie. Deze functie probeert van alles wat je er in stopt een geheel getal (<i>integer</i>) te maken. Soms lukt dit, en soms niet. Hieronder wat voorbeelden:
+Hier bekijken we de <function name="int"></function> functie. Deze functie probeert van alles wat je er in stopt een geheel getal (<i>integer</i>) te maken. Soms lukt dit, en soms niet. Hieronder wat voorbeelden:
 
 <ul>
   <li><function name="int" inputs='"4"'></function> geeft als uitkomst het geheel getal <code>4</code> (in plaats van de <i>string</i> <code>"4"</code>).</li>
