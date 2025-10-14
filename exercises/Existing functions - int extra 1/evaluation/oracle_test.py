@@ -16,7 +16,8 @@ def evaluate_test_type_check(context, display_expected):
     if not correct_type:
         mymessages = [Message(f"Je hebt een {type_names[type(context.actual)]} gebruikt. Je moet een {type_names[type(context.expected)]} gebruiken.")]
     
-    correct_value = context.actual == context.expected
+    correct_value = str(context.actual) == str(context.expected)
+
     if not correct_value:
         mymessages.append(Message(f"De waarde is niet wat we verwachtten."))
     
