@@ -110,7 +110,7 @@ In een volledig programma zou dus het volgende kunnen voorkomen:
 b = int(a)
 </code></pre>
 
-Dit heeft als gevolg dat de waarde van <code>a</code> de <i>string</i> <code>"5"</code> is, en de waarde van <code>b</code> het <i>gehele getal (integer)</i> <code>5</code> is. <code>a</code> en <code>b</code> hebben dus verschillende soorten gegevens opgeslagen.
+Dit heeft als gevolg dat de waarde van <code>a</code> de <i>string</i> <code>"8"</code> is, en de waarde van <code>b</code> het <i>gehele getal (integer)</i> <code>8</code> is. <code>a</code> en <code>b</code> hebben dus verschillende soorten gegevens opgeslagen.
 
 <br>
 <hr>
