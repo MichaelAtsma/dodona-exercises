@@ -72,7 +72,7 @@ Hier bekijken we de <function name="str"></function> functie. Deze functie probe
   <li><function name="str" inputs='4'></function> geeft als uitkomst de tekst (<i>string</i>) <code>"4"</code> (in plaats van het gehele getal (<i>integer</i>) <code>4</code>).</li>
   <li><function name="str" inputs='5.2'></function> geeft als uitkomst de <i>string</i> <code>"5.2"</code> (in plaats van het kommagetal (<i>float</i>) <code>5.2</code>).</li>
   <li><function name="str" inputs='-9'></function> geeft als uitkomst de <i>string</i> <code>"-9"</code> (in plaats van het gehele getal (<i>integer</i>) <code>-9</code>).</li>
-  <li><function name="int" inputs='"11"'></function> geeft als uitkomst de <i>string</i> <code>"11"</code> (de uitvoer is dus hetzelfde als de invoer).</li>
+  <li><function name="str" inputs='"11"'></function> geeft als uitkomst de <i>string</i> <code>"11"</code> (de uitvoer is dus hetzelfde als de invoer).</li>
 </ul>
 
 In een volledig programma zou dus het volgende kunnen voorkomen:
