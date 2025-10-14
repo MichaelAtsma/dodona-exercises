@@ -13,14 +13,12 @@ def evaluate_test(context, var):
     for line in submission_as_lines:
         if var in line and str(context.expected) in line:
             answer_not_used = False
-        if var is "symbolcheck" and "+" in line:
-            counter += 1
 
     mymessages = []
     if var is "symbolcheck":
-        correct = counter >= 1
+        correct = submission.count("+") >= 4
         actual = counter
-        if counter < 4:
+        if not correct:
             mymessages.append(Message(f"Je moet minstens vier optellingen gebruiken."))
     else:
         checks = [answer_not_used,
