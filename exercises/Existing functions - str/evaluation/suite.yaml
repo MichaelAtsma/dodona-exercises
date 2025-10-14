@@ -1,0 +1,12 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.a"
+          return: 5
+        - expression: "submission.b"
+          return: !oracle 
+            oracle: "custom_check"
+            value: "5"
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["b", {"a": 5}, {"str": "de str functie"}, {'"': 'aanhalingstekens', "'": 'aanhalingstekens'}]
