@@ -1,12 +1,12 @@
 - tab: "Test"
   contexts:
     - testcases:
-        - expression: "submission.x"
+        - expression: "submission.a"
           return: "8"
-        - expression: "submission.y"
+        - expression: "submission.b"
           return: !oracle 
             oracle: "custom_check"
             value: 8
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["y", {"x": "8"}, {"int": "de functie die van de invoer een geheel getal maakt", "(": "haakje openen", ")": "haakje sluiten"}, ["8"]]
+            arguments: ["b", {"a": "8"}, {"int": "de functie die van de invoer een geheel getal maakt", "(": "haakje openen", ")": "haakje sluiten"}, ["8"]]
