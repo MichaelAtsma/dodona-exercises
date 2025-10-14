@@ -10,7 +10,7 @@ def lines_containing_var(text, var):
 def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols_and_display_names, forbidden_symbols):
     submission = get_submission_code()
     checks = {}
-    checks["expected value not in code"] = str(context.expected) not in submission
+    # checks["expected value not in code"] = str(context.expected) not in submission # disabled because it's allowed to use the string of the expected value here
     checks["correct type"] = (type(context.actual)) == (type(context.expected))
     if type(context.expected) == float:
         checks["correct value"] = abs(context.actual - context.expected) < 0.0000001
@@ -64,8 +64,8 @@ def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols_and_di
     if correct:
         mymessages.append(Message(f"Goed zo! Je hebt de computer {repr(context.expected)} laten berekenen op basis van {' en '.join(ingredient_vars)} in een f-string."))
     else:
-        if not checks["expected value not in code"]:
-            mymessages.append(Message(f"Je mag de zin {repr(context.expected)} niet gebruiken in je code."))
+        # if not checks["expected value not in code"]:
+        #     mymessages.append(Message(f"Je mag de zin {repr(context.expected)} niet gebruiken in je code."))
         if not checks["correct type"]:
             if isinstance(context.expected, float):
                 mymessages.append(Message(f"{repr(context.expected)} is een kommagetal (float). Je moet dus kommagetallen gebruiken om dat te krijgen."))
