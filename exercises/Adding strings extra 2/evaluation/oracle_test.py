@@ -23,7 +23,7 @@ def evaluate_test(context, var):
             expected = f"Je hebt {counter} optellingen gebruikt. Goed zo!"
         if not correct:
             mymessages.append(Message(f"Je moet minstens vier optellingen gebruiken."))
-            expected = "Je moet minstens vier optellingen gebruiken."
+            expected = 4
     else:
         expected = context.expected
         checks = [answer_not_used,
