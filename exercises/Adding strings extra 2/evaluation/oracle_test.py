@@ -18,9 +18,13 @@ def evaluate_test(context, var):
     if var is "symbolcheck":
         correct = submission.count("+") >= 4
         actual = counter
+        if correct:
+            expected = f"Je hebt {submission.count('+')} optellingen gebruikt. Goed zo!"
         if not correct:
             mymessages.append(Message(f"Je moet minstens vier optellingen gebruiken."))
+            expected = "Je moet minstens vier optellingen gebruiken."
     else:
+        expected = context.expected
         checks = [answer_not_used,
                   context.actual == context.expected,
                   type(context.actual) == type(context.expected)]
@@ -39,7 +43,7 @@ def evaluate_test(context, var):
 
     return EvaluationResult(
       result = correct,
-      dsl_expected = repr(context.expected),
+      dsl_expected = repr(expected),
       dsl_actual = repr(actual),
       messages = mymessages
     )
