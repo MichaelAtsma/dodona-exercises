@@ -70,7 +70,7 @@ def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols, forbi
         if not checks[2]:
             mymessages.append(Message("De uitkomst is niet wat we verwachtten."))
         if not checks[3]:
-            mymessages.append(Message(f"Je hebt {' en '.join([forbidden_symbols[symbol] for symbol in forbidden_symbols if symbol in submission])} gebruikt in je code. Dat mag niet."))
+            mymessages.append(Message(f"Je hebt {' en '.join([symbol for symbol in forbidden_symbols if symbol in submission])} gebruikt in je code. Dat mag niet."))
         if not checks[4]:
             mymessages.append(Message(f"Je hebt {' en '.join(ingredients_not_used_enough)} niet gebruikt om {result_var} te maken."))
         if not checks[5]:
