@@ -16,10 +16,11 @@ def evaluate_test(context, var):
 
     mymessages = []
     if var is "symbolcheck":
-        correct = submission.count("+") >= 4
+        counter = submission.count("+")
+        correct = counter >= 4
         actual = counter
         if correct:
-            expected = f"Je hebt {submission.count('+')} optellingen gebruikt. Goed zo!"
+            expected = f"Je hebt {counter} optellingen gebruikt. Goed zo!"
         if not correct:
             mymessages.append(Message(f"Je moet minstens vier optellingen gebruiken."))
             expected = "Je moet minstens vier optellingen gebruiken."
