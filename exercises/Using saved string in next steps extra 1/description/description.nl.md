@@ -33,7 +33,7 @@
   }
 </style>
 
-Je hebt net geleerd hoe je een variabele later in je code kan gebruiken om opgeslagen <i>strings</i> bij elkaar op te tellen. Natuurlijk kan je dit ook met andere <i>strings</i> of met een vermenigvuldiging doen. Bekijk onderstaand programma:
+Je hebt net geleerd hoe je een variabele later in je code kan gebruiken om opgeslagen teksten (<i>strings</i>) bij elkaar op te tellen. Natuurlijk kan je dit ook met andere <i>strings</i> of met een vermenigvuldiging doen. Bekijk onderstaand programma:
 
 <pre><code>a = "tik "
 b = "tok "

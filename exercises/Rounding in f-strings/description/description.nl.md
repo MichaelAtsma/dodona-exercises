@@ -35,7 +35,7 @@
 
 Je hebt geleerd dat je met een <i>f-string</i> de variabele <i>leeftijd</i> met de opgeslagen waarde van <code>15</code> kan gebruiken om van de <i>string</i> <code>"Wow, jij bent al {leeftijd} jaar oud!"</code> de ingevulde <i>string</i> <code>"Wow, jij bent al 15 jaar oud!"</code> te maken.
 
-Soms wil je nog meer met een getal doen voordat je het in de zin wil tonen, bijvoorbeeld wanneer je het over geld hebt en je wil afronden op centen (twee cijfers achter de komma). Dit kun je doen door de f-string zo te schrijven dat het bedrag automatisch wordt afgerond op twee decimalen.
+Soms wil je nog meer met een getal doen voordat je het in de zin wil tonen, bijvoorbeeld wanneer je het over geld hebt en je wil afronden op centen (twee cijfers achter de komma). Dit kun je doen door de <i>f-string</i> zo te schrijven dat het bedrag automatisch wordt afgerond op twee decimalen.
 
 Stel dat je een bedrag hebt berekend, bijvoorbeeld <code>bedrag = 12.758</code>. Je kunt het bedrag als volgt tonen:
 

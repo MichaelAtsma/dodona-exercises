@@ -33,7 +33,7 @@
   }
 </style>
 
-We hebben gezien hoe je <code>"fiets" * 3</code> kan gebruiken om de string <code>"fiets"</code> 3 keer achter elkaar te plakken, waardoor je <code>"fietsfietsfiets"</code> krijgt.
+We hebben gezien hoe je <code>"fiets" * 3</code> kan gebruiken om de <i>string</i> <code>"fiets"</code> 3 keer achter elkaar te plakken, waardoor je <code>"fietsfietsfiets"</code> krijgt.
 
 Dit werkt echter ook met andere woorden of zinnen. Je hoeft het resultaat niet zelf te typen, je kan het laten uitrekenen door de computer.
 
@@ -49,7 +49,7 @@ Nu weet de computer dat <code>katten</code> gelijk is aan <code>"katkat"</code> 
 
 # <b>Opdracht</b>
 
-Maak de volgende variabelen aan, maar **zonder de uitkomst rechtstreeks te typen**. Gebruik de vermenigvuldigings-operator `*` met een string en een getal:
+Maak de volgende variabelen aan, maar **zonder de uitkomst rechtstreeks te typen**. Gebruik de vermenigvuldigings-operator `*` met een tekst en een getal:
 
 * `a = "hoihoihoihoihoi"`
 * `b = "banaanbanaan"`

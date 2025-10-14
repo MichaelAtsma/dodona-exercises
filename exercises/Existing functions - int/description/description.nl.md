@@ -69,12 +69,12 @@ Je hebt geleerd dat je functies kan maken die bij een bepaalde invoer een zekere
 Hier bekijken we de <function name="int"></function> functie. Deze functie probeert van alles wat je er in stopt een geheel getal (<i>integer</i>) te maken. Soms lukt dit, en soms niet. Hieronder wat voorbeelden:
 
 <ul>
-  <li><function name="int" inputs='"4"'></function> geeft als uitkomst het geheel getal <code>4</code> (in plaats van de <i>string</i> <code>"4"</code>).</li>
+  <li><function name="int" inputs='"4"'></function> geeft als uitkomst het geheel getal <code>4</code> (in plaats van de <i>tekst</i> <code>"4"</code>).</li>
   <li><function name="int" inputs='5.2'></function> geeft als uitkomst het geheel getal <code>5</code> (in plaats van het <i>kommagetal</i> <code>5.2</code>).</li>
   <li><function name="int" inputs='9.9'></function> geeft als uitkomst het geheel getal <code>9</code> (in plaats van het <i>kommagetal</i> <code>9.9</code>).</li>
-  <li><function name="int" inputs='"hallo"'></function> geeft een error, omdat er van een <i>string</i> enkel een geheel getal gemaakt kan worden als de <i>string</i> alleen maar een geheel getal bevat.</li>
-  <li><function name="int" inputs='"7.4"'></function> geeft een error, omdat er van een <i>string</i> enkel een geheel getal gemaakt kan worden als de <i>string</i> alleen maar een geheel getal bevat.</li>
-  <li><function name="int" inputs='11'></function> geeft als uitkomst het geheel getal <code>11</code> (de uitvoer is dus hetzelfde als de invoer).</li>
+  <li><function name="int" inputs='"hallo"'></function> geeft een error, omdat er van een <i>tekst</i> enkel een geheel getal gemaakt kan worden als de <i>string</i> alleen maar een geheel getal bevat.</li>
+  <li><function name="int" inputs='"7.4"'></function> geeft een error, omdat er van een <i>tekst</i> enkel een geheel getal gemaakt kan worden als de <i>string</i> alleen maar een geheel getal bevat.</li>
+  <li><function name="int" inputs='11'></function> geeft als uitkomst het geheel getal <code>11</code> (de uitvoer is dus hetzelfde als de invoer, want de invoer was al een <i>integer</i>).</li>
 </ul>
 
 In een volledig programma zou dus het volgende kunnen voorkomen:

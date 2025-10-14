@@ -1,1 +1,1 @@
-zin = "Hallo" + "wereld"
+tekst = "Hallo" + "wereld"

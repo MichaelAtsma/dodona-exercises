@@ -39,14 +39,14 @@ Dit samenvoegen van tekst werkt een beetje zoals optellen bij getallen, maar in 
 
 We kunnen bijvoorbeeld schrijven:
 
-<pre><code>zin = "Hallo" + "wereld"</code></pre>
+<pre><code>tekst = "Hallo" + "wereld"</code></pre>
 
 Wat gebeurt er hier?
 1. De computer plakt <code>"Hallo"</code> en <code>"wereld"</code> direct achter elkaar.
 2. Het resultaat is <code>"Hallowereld"</code>.
-3. Dat resultaat wordt opgeslagen in de variabele <code>zin</code>.
+3. Dat resultaat wordt opgeslagen in de variabele <code>tekst</code>.
 
-Nu weet de computer dus dat <code>zin</code> gelijk is aan <code>"Hallowereld"</code>, en kun je dat later opnieuw gebruiken.
+Nu weet de computer dus dat <code>tekst</code> gelijk is aan <code>"Hallowereld"</code>, en kun je dat later opnieuw gebruiken.
 
 <hr>
 
@@ -59,4 +59,4 @@ Nu weet de computer dus dat <code>zin</code> gelijk is aan <code>"Hallowereld"</
 <hr>
 
 # <b>Opdracht</b>
-Maak een variabele <code>zin</code> aan die het resultaat van <code>"Hallo" + "wereld"</code> opslaat.
+Maak een variabele <code>tekst</code> aan die het resultaat van <code>"Hallo" + "wereld"</code> opslaat.

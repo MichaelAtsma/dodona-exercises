@@ -33,7 +33,7 @@
   }
 </style>
 
-Je hebt geleerd dat je met een <i>f-string</i> de variabele <i>leeftijd</i> met de opgeslagen waarde van <code>15</code> kan gebruiken om van de <i>string</i> <code>"Wow, jij bent al {leeftijd} jaar oud!"</code> de ingevulde <i>string</i> <code>"Wow, jij bent al 15 jaar oud!"</code> te maken.
+Je hebt geleerd dat je met een <i>f-string</i> de variabele <i>leeftijd</i> met de opgeslagen waarde van <code>15</code> kan gebruiken om van de tekst (<i>string</i> <code>) "Wow, jij bent al {leeftijd} jaar oud!"</code> de ingevulde <i>string</i> <code>"Wow, jij bent al 15 jaar oud!"</code> te maken.
 
 Je kan echter zo veel variabelen in je zin toevoegen als je maar wil!
 

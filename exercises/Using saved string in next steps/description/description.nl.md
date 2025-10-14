@@ -33,7 +33,7 @@
   }
 </style>
 
-Op dit moment kan je getallen die opgeslagen zijn in variabelen al gebruikt in volgende stappen. Je kan dit echter met elke soort variabele doen! Hier bekijken we het met <i>strings</i>.
+Op dit moment kan je getallen die opgeslagen zijn in variabelen al gebruikt in volgende stappen. Je kan dit echter met elke soort variabele doen! Hier bekijken we het met teksten (<i>strings</i>).
 
 Beschouw het onderstaande programma:
 

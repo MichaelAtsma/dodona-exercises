@@ -33,7 +33,7 @@
   }
 </style>
 
-Je hebt geleerd dat je de waarden van meerdere opgeslagen variabelen in een <i>f-string</i> kan invoegen om een <i>string</i> te maken. Bijvoorbeeld:
+Je hebt geleerd dat je de waarden van meerdere opgeslagen variabelen in een <i>f-string</i> kan invoegen om een normale <i>string</i> te maken. Bijvoorbeeld:
 
 <pre><code>naam1 = "Bilal"
 naam2 = "Fatiha"

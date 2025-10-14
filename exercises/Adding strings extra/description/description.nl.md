@@ -34,7 +34,7 @@
 </style>
 
 We hebben gezien dat je met de computer tekst (strings) kan samenvoegen, en dat je het resultaat in een variabele kan bewaren.
-Bijvoorbeeld: <code>zin = "Hallo" + "wereld"</code> bewaart de waarde <code>"Hallowereld"</code> in de variabele <code>zin</code>.
+Bijvoorbeeld: <code>tekst = "Hallo" + "wereld"</code> bewaart de waarde <code>"Hallowereld"</code> in de variabele <code>tekst</code>.
 
 Je kan dit trucje ook gebruiken om **andere woorden of zinnen te maken**. Je hoeft de volledige tekst niet rechtstreeks te schrijven, je kan ze ook via samenvoegen bekomen. <i>(Dit lijkt nu misschien minder handig, maar later zal duidelijker worden in welke gevallen dit juist wel handig is.)</i>
 
