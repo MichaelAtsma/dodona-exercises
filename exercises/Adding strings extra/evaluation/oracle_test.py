@@ -10,6 +10,7 @@ def evaluate_test(context, var):
     checks["answer_not_used"] = str(context.expected) not in submission
     checks["correct type"] = (type(context.actual)) == (type(context.expected))
     checks["correct value"] = context.actual == context.expected
+    checks["addition used"] = '+' in submission
 
     mymessages = []
     correct = all(checks.values())
@@ -24,6 +25,8 @@ def evaluate_test(context, var):
         if not checks["correct type"]:
             types = {int: "integer (geheel getal)", float: "float (kommagetal)", str: "string (tekst)"}
             mymessages.append(Message(f"{context.expected} is een {types[type(context.expected)]}. Je moet dus dezelfde datatype gebruiken om dat te krijgen."))
+        if not checks["addition used"]:
+            mymessages.append(Message(f"Je moet een optelling (+) gebruiken om {var} te berekenen."))
 
     return EvaluationResult(
       result = correct,
