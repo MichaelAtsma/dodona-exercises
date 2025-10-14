@@ -8,13 +8,19 @@ def lines_containing_var(text, var):
     return [line for line in text.splitlines() if (f"{var}=" in line or f"{var} =" in line)]
 
 def evaluate_test_type_check(context, display_expected):
-    correct = type(context.actual) == type(context.expected)
+    correct_type = type(context.actual) == type(context.expected)
 
     type_names = {int: "geheel getal (integer)", float: "kommagetal (float)", str: "tekst (string)"}
     mymessages = []
 
-    if not correct:
+    if not correct_type:
         mymessages = [Message(f"Je hebt een {type_names[type(context.actual)]} gebruikt. Je moet een {type_names[type(context.expected)]} gebruiken.")]
+    
+    correct_value = context.actual == context.expected
+    if not correct_value:
+        mymessages.append(Message(f"De waarde is niet wat we verwachtten."))
+    
+    correct = correct_type and correct_value
 
     return EvaluationResult(
       result = correct,
