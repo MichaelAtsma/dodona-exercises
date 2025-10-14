@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "Bestaande functies: int (oefening 2)"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "labels": [],
+  "internals": {
+    "token": "I9sa-y9GSREeNAYgAQ-fCXGArAr__FMQ6nMg3iiG9BFDtpasTsR-uxzQRpj9iu9W",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
