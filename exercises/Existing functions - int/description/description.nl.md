@@ -90,4 +90,4 @@ Dit heeft als gevolg dat de waarde van <code>a</code> de <i>string</i> <code>"8"
 
 # <b>Opdracht</b>
 1. Maak een variabele <code>a</code> aan met de waarde <code>"8"</code>.
-2. Maak een variabele <code>b</code> aan die de waarde van <code>a</code> omgezet naar een geheel getal.
+2. Maak een variabele <code>b</code> aan die de waarde van <code>a</code> omgezet naar een geheel getal opslaat.

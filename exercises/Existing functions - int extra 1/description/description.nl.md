@@ -71,4 +71,4 @@ Je hebt gezien dat de <function name="int"></function> functie van de invoer een
 
 # <b>Opdracht</b>
 1. Maak een variabele <code>a</code> aan die een <i>string</i> opslaat met een waarde die je zelf goed moet kiezen (zie stap 2).
-2. Maak een variabele <code>b</code> aan die de waarde van <code>a</code> omgezet naar een geheel getal. Zorg dat de waarde van <code>b</code> uitkomt op <code>3</code>. Kies de waarde van <code>a</code> dus correct.
+2. Maak een variabele <code>b</code> aan die de waarde van <code>a</code> omgezet naar een geheel getal opslaat. Zorg dat de waarde van <code>b</code> uitkomt op <code>3</code>. Kies de waarde van <code>a</code> dus correct.
