@@ -28,7 +28,10 @@
         }).join('');
         html += `<span class="functionseparators">)</span>`;
       }
-      el.outerHTML = `<code>${html}</code>`;
+      // el.outerHTML = `<code>${html}</code>`;
+      const codeEl = document.createElement("code");
+      codeEl.innerHTML = html;
+      el.replaceWith(codeEl);
     });
   });
 </script>
