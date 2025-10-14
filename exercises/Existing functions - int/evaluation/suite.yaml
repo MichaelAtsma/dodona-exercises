@@ -9,4 +9,4 @@
             value: 8
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["b", {"a": "8"}, {"int": "de functie die van de invoer een geheel getal maakt", "(": "haakje openen", ")": "haakje sluiten"}, []]
+            arguments: ["b", {"a": "8"}, {"int": "de int functie"}, []]
