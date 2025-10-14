@@ -7,7 +7,7 @@ def get_submission_code():
 def lines_containing_var(text, var):
     return [line for line in text.splitlines() if (f"{var}=" in line or f"{var} =" in line)]
 
-def evaluate_test_type_check(context, display_expected_success, display_expected_fail, expected_int_value):
+def evaluate_test_type_check(context, display_expected_on_fail, expected_int_value):
     correct_type = type(context.actual) == type(context.expected)
 
     type_names = {int: "geheel getal (integer)", float: "kommagetal (float)", str: "tekst (string)"}
@@ -24,9 +24,9 @@ def evaluate_test_type_check(context, display_expected_success, display_expected
     correct = correct_type and correct_value
 
     if correct:
-        display_expected = display_expected_success
+        display_expected = context.expected
     else:
-        display_expected = display_expected_fail
+        display_expected = display_expected_on_fail
 
     return EvaluationResult(
       result = correct,
