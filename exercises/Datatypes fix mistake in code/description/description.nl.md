@@ -34,12 +34,10 @@
 </style>
 
 # <b>Opdracht</b>
-Haal de fouten uit de code die al gegeven is, door je kennis te gebruiken over de soorten gegevens en over <i>debuggen</i> van je code.
+Haal de fouten uit de code die al gegeven is, door je kennis te gebruiken over de soorten gegevens (en misschien met behulp van <i>debuggen</i> van je code).
 
 <pre><code>eerste_gehele_getal = 4.0
-tweede_gehele_getal = 9
+tweede_gehele_getal = "-9"
 kommagetal = 8,1
-zin = Ik verbeter code in python!
+tekst = Ik verbeter code in Python!
 </code></pre>
-
-<i>Let op: het is normaal dat je eerste indiening fout is. Je moet namelijk debuggen met behulp van de feedback.</i>

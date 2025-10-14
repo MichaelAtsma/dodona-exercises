@@ -7,5 +7,5 @@
           return: -9
         - expression: "submission.kommagetal"
           return: 8.1
-        - expression: "submission.zin"
+        - expression: "submission.tekst"
           return: "Ik verbeter code in Python!"
