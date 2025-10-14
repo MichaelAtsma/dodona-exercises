@@ -24,7 +24,7 @@ def evaluate_test_type_check(context, display_expected_on_fail, expected_int_val
     correct = correct_type and correct_value
 
     if correct:
-        display_expected = context.expected
+        display_expected = context.actual
     else:
         display_expected = display_expected_on_fail
 
