@@ -1,31 +1,17 @@
 - tab: "Test"
   contexts:
     - testcases:
-        - expression: "submission.a"
+        - expression: "submission.resultaat"
           return: !oracle
             oracle: "custom_check"
-            value: "appel"
+            value: "Python"
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["a"]
-        - expression: "submission.b"
-          return: !oracle
-            oracle: "custom_check"
-            value: "broccoli"
-            file: "oracle_test.py"
-            name: "evaluate_test"
-            arguments: ["b"]
-        - expression: "submission.c"
-          return: !oracle
-            oracle: "custom_check"
-            value: "Groente en fruit zijn gezond."
-            file: "oracle_test.py"
-            name: "evaluate_test"
-            arguments: ["c"]
+            arguments: ["resultaat"]
         - expression: "'aantal optellingen en aftrekkingen'"
           return: !oracle
             oracle: "custom_check"
-            value: "minstens vier optellingen"
+            value: "minstens één optelling"
             file: "oracle_test.py"
             name: "evaluate_test"
             arguments: ["symbolcheck"]

@@ -49,8 +49,4 @@ Nu weet de computer dat `uitspraak` gelijk is aan `"Honden zijn geweldig."`. <i>
 
 # <b>Opdracht</b>
 
-Maak de volgende variabelen aan, maar **zonder de volledige tekst rechtstreeks te gebruiken**. Gebruik in totaal minstens 4 keer de plus `+` operatie om strings samen te voegen:
-
-* `a = "appel"`
-* `b = "broccoli"`
-* `c = "Groente en fruit zijn gezond."`
+Maak de variabelen <code>resultaat</code> aan, die de tekst <code>Python</code> opslaat, maar **zonder de volledige tekst <code>Python</code> rechtstreeks te gebruiken**. Gebruik dus de <code>+</code> operatie minstens één keer.
