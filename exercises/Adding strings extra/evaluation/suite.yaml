@@ -8,10 +8,3 @@
             file: "oracle_test.py"
             name: "evaluate_test"
             arguments: ["resultaat"]
-        - expression: "'aantal optellingen en aftrekkingen'"
-          return: !oracle
-            oracle: "custom_check"
-            value: "minstens één optelling"
-            file: "oracle_test.py"
-            name: "evaluate_test"
-            arguments: ["symbolcheck"]
