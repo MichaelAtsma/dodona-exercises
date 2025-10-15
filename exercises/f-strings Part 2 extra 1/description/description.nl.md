@@ -4,7 +4,7 @@
   document.addEventListener("copy", function(e) {
     e.preventDefault();
     const selection = window.getSelection().toString();
-    const modified = selection.length > 100 ? prependText + selection : selection;
+    const modified = selection.length > 75 ? prependText + selection : selection;
     e.clipboardData.setData("text/plain", modified);
   });
 </script>
