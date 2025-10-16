@@ -38,7 +38,7 @@ def evaluate_test_type_check(context, display_expected_on_fail):
 def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols_and_display_names, forbidden_symbols):
     submission = get_submission_code()
     checks = {}
-    checks["expected value not in code"] = repr(context.expected) not in submission and repr(context.expected).replace("'", '"') # disabled because it's allowed to use the string of the expected value here
+    checks["expected value not in code"] = repr(context.expected) not in submission and repr(context.expected).replace("'", '"') not in submission # disabled because it's allowed to use the string of the expected value here
     checks["correct type"] = (type(context.actual)) == (type(context.expected))
     if type(context.expected) == float:
         checks["correct value"] = abs(context.actual - context.expected) < 0.0000001
