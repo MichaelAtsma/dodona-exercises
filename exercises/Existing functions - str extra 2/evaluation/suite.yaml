@@ -1,0 +1,17 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.a"
+          return: !oracle 
+            oracle: "custom_check"
+            value: 215.9
+            file: "oracle_test.py"
+            name: "evaluate_test_type_check"
+            arguments: ["Denk na welke waarde a moet krijgen"]
+        - expression: "submission.b"
+          return: !oracle 
+            oracle: "custom_check"
+            value: "215.9"
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["b", {"a": 215.9}, {"str": "de str functie"}, []]
