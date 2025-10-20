@@ -78,7 +78,7 @@ We kunnen echter ook andere operaties in de functie laten uitvoeren.
 <hr>
 
 # <b>Opdracht</b>
-Maak een functie genaamd <function name="SpecialeBewerking"></function> die <i><b>drie</b></i> getallen als invoer neemt, het <b><i>eerste en tweede</i></b> getal bij elkaar optelet, deze uitkomst met het <b><i>derde</i></b> getal vermenigvuldigt, en het resultaat als uitvoer geeft.
+Maak een functie genaamd <function name="SpecialeBewerking"></function> die <i><b>drie</b></i> getallen als invoer neemt, het <b><i>eerste en tweede</i></b> getal bij elkaar optelt, deze uitkomst met het <b><i>derde</i></b> getal vermenigvuldigt, en het resultaat als uitvoer geeft.
 
 <details><summary>Voorbeelden</summary>
 <ul>
