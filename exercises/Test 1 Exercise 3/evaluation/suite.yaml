@@ -1,0 +1,14 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.inhoud"
+          return: 35
+        - expression: "submission.automerk"
+          return: "Toyota"
+        - expression: "submission.uitspraak"
+          return: !oracle
+            oracle: "custom_check"
+            value: "Er past 35 liter benzine in mijn Toyota."
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["uitspraak", {"inhoud": 35, "automerk": "Toyota"}, {"f\"": "f-string", "{": "open accolade", "}": "sluit accolade"}, ["+"], False]
