@@ -1,0 +1,12 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.score"
+          return: 6.66667
+        - expression: "submission.Felicitatie"
+          return: !oracle
+            oracle: "custom_check"
+            value: "Als je de oefeningen tot en met deze correct hebt, dan heb je al een 6.667/10 behaald voor je toets!"
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["Felicitatie", {"score": 6.66667}, {"f\"": "f-string", "{": "open accolade", "}": "sluit accolade", ".3f": "instructies voor afronding op 3 decimalen"}, ["+"], False]
