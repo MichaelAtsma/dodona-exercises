@@ -12,8 +12,12 @@ def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols_and_di
     checks = {}
     checks["expected value not in code"] = str(context.expected) not in submission
     checks["correct type"] = (type(context.actual)) == (type(context.expected))
+
+    expected = context.expected
     if type(context.expected) == float:
         checks["correct value"] = abs(context.actual - context.expected) < 0.0000001
+        if checks["correct value"]:
+            expected = context.actual
     else:
         checks["correct value"] = context.actual == context.expected
     checks["no forbidden symbols"] = not any(str(symbol) in submission for symbol in forbidden_symbols)
@@ -86,7 +90,7 @@ def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols_and_di
 
     return EvaluationResult(
       result = correct,
-      dsl_expected = repr(context.expected),
+      dsl_expected = repr(expected),
       dsl_actual = repr(context.actual),
       messages = mymessages
     )
