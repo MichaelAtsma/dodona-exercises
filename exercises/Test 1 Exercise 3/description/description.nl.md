@@ -30,4 +30,4 @@
 </style>
 
 # <b>Opdracht</b>
-Maak een variabele <code>uitspraak</code> aan die de inhoud van <code>35 liter</code> van de variabele <code>inhoud</code> en het automerk <code>Toyota</code> van de variabele <code>Toyota</code> invult in de zin <code>Er past 35 liter benzine in mijn Toyota.</code>.
+Maak een variabele <code>uitspraak</code> aan die de inhoud van <code>35</code> liter van de variabele <code>inhoud</code> en het automerk <code>Toyota</code> van de variabele <code>Toyota</code> invult in de zin <code>Er past 35 liter benzine in mijn Toyota.</code>.
