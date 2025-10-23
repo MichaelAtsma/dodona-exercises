@@ -3,6 +3,30 @@
     e.preventDefault();
     e.clipboardData.setData("text/plain", "");
   });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll("function").forEach(el => {
+      const name = el.getAttribute("name");
+      const inputsAttr = el.getAttribute("inputs");
+      let html = `<span class="function">${name}</span>`;
+      if (inputsAttr && inputsAttr.trim() !== "") {
+        const inputs = inputsAttr.split(",");
+        html += `<span class="functionseparators">(</span>`;
+        html += inputs.map((input, i) => {
+          const trimmed = input.trim();
+          let typeClass = "functioninput-str"; // default to string
+          if (/^-?\d+$/.test(trimmed)) {
+            typeClass = "functioninput-int";
+          } else if (/^-?\d*\.\d+$/.test(trimmed)) {
+            typeClass = "functioninput-float";
+          }
+          return `<span class="${typeClass}">${trimmed}</span>${i < inputs.length - 1 ? '<span class="functionseparators">, </span>' : ''}`;
+        }).join('');
+        html += `<span class="functionseparators">)</span>`;
+      }
+      el.outerHTML = `<code>${html}</code>`;
+    });
+  });
 </script>
 
 <style>
