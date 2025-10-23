@@ -14,4 +14,4 @@
             value: "215.9"
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["b", {"a": 215.9}, {"str": "de str functie"}, []]
+            arguments: ["b", {"a": 215.9}, {"str": "str functie"}, []]

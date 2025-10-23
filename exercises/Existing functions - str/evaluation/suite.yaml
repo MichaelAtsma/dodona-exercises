@@ -9,4 +9,4 @@
             value: "5"
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["b", {"a": 5}, {"str": "de str functie"}, {'"': 'aanhalingstekens', "'": 'aanhalingstekens'}]
+            arguments: ["b", {"a": 5}, {"str": "str functie"}, {'"': 'aanhalingstekens', "'": 'aanhalingstekens'}]

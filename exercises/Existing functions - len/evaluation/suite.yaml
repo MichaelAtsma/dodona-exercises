@@ -9,4 +9,4 @@
             value: 13
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["b", {"a": "Hallo wereld!"}, {"len": "de len functie"}, []]
+            arguments: ["b", {"a": "Hallo wereld!"}, {"len": "len functie"}, []]
