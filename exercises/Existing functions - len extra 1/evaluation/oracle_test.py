@@ -93,7 +93,7 @@ def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols_and_di
     correct = all(checks.values())
     mymessages = []
     if correct:
-        mymessages.append(Message(f"Goed zo! Je hebt de computer {repr(context.expected)} laten berekenen op basis van {' en '.join(ingredient_vars)} in de int functie."))
+        mymessages.append(Message(f"Goed zo! Je hebt de computer {repr(context.expected)} laten berekenen op basis van {' en '.join(ingredient_vars)} in de len functie."))
     else:
         if not checks["expected value not in code"]:
             mymessages.append(Message(f"Je mag de tekst {repr(context.expected)} niet gebruiken in je code."))
