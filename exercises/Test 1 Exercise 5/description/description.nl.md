@@ -69,8 +69,8 @@ De functie rekent dan de score om en geeft het resultaat terug.
 
 <details><summary>Voorbeelden</summary>
 <ul>
-  <li><function name="ToetsPunt" inputs="4,7,5"></function> geeft <code>2.857142857142857</code> terug (want <code>4</code> op <code>7</code> is gelijk aan <code>2.857142857142857</code> op <code>5</code>).</li>
   <li><function name="ToetsPunt" inputs="6,12,20"></function> geeft <code>10</code> terug (want <code>6</code> op <code>12</code> is gelijk aan <code>10</code> op <code>20</code>).</li>
   <li><function name="ToetsPunt" inputs="3,12,10"></function> geeft <code>2.5</code> terug (want <code>3</code> op <code>12</code> is gelijk aan <code>2.5</code> op <code>10</code>).</li>
+  <li><function name="ToetsPunt" inputs="4,7,5"></function> geeft <code>2.857142857142857</code> terug (want <code>4</code> op <code>7</code> is gelijk aan <code>2.857142857142857</code> op <code>5</code>).</li>
 </ul>
 </details>
