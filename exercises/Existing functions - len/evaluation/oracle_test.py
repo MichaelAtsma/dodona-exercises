@@ -7,7 +7,7 @@ def get_submission_code():
 def lines_containing_var(text, var):
     return [line for line in text.splitlines() if (f"{var}=" in line or f"{var} =" in line)]
 
-def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols_and_display_names, forbidden_symbols):
+def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols_and_display_names, forbidden_symbols_and_display_names):
     submission = get_submission_code()
     checks = {}
     # checks["expected value not in code"] = str(context.expected) not in submission # disabled because it's allowed to use the string of the expected value here
@@ -16,7 +16,7 @@ def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols_and_di
         checks["correct value"] = abs(context.actual - context.expected) < 0.0000001
     else:
         checks["correct value"] = context.actual == context.expected
-    checks["no forbidden symbols"] = not any(str(symbol) in submission for symbol in forbidden_symbols)
+    checks["no forbidden symbols"] = not any(str(symbol) in submission for symbol in forbidden_symbols_and_display_names.keys())
 
     result_var_lines = lines_containing_var(submission, result_var)
     ingredients_used_for_result = dict.fromkeys(ingredient_vars.keys(), 0)
@@ -76,7 +76,7 @@ def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols_and_di
         if not checks["correct value"]:
             mymessages.append(Message("De uitkomst is niet wat we verwachtten."))
         if not checks["no forbidden symbols"]:
-            mymessages.append(Message(f"Je hebt {' en '.join([symbol for symbol in forbidden_symbols if symbol in submission])} gebruikt in je code. Dat mag niet."))
+            mymessages.append(Message(f"Je hebt {' en '.join([forbidden_symbols_and_display_names[symbol] for symbol in forbidden_symbols_and_display_names.keys() if symbol in submission])} gebruikt in je code. Dat mag niet."))
         if not checks["ingredients used correctly"]:
             mymessages.append(Message(f"Je hebt {' en '.join(ingredients_not_used_enough)} niet gebruikt om {result_var} te maken."))
         if not checks["variables used instead of their values"]:
