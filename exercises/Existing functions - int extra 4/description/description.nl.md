@@ -72,5 +72,5 @@ We zullen hier eens opnieuw kijken naar de speciale gevallen van het omzetten va
 <hr>
 
 # <b>Opdracht</b>
-1. Maak een variabele <code>a</code> aan die een <i>float</i> opslaat met een waarde die je zelf goed moet kiezen (zie stap 2). Je mag echter NIET exact dezelfde waarde kiezen als die bij <code>b</code> verwacht wordt (zie het voorbeeld hierboven nog eens)
+1. Maak een variabele <code>a</code> aan die een <i>float</i> opslaat met een waarde die je zelf goed moet kiezen (zie stap 2). Je mag echter NIET exact dezelfde waarde kiezen als die bij <code>b</code> verwacht wordt (zie het voorbeeld hierboven nog eens).
 2. Maak een variabele <code>b</code> aan die de waarde van <code>a</code> omgezet naar een geheel getal opslaat. Zorg dat de waarde van <code>b</code> uitkomt op <code>11</code>. Kies de waarde van <code>a</code> dus correct.
