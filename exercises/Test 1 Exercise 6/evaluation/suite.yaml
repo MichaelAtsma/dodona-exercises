@@ -4,14 +4,21 @@
         - expression: "submission.a"
           return: !oracle 
             oracle: "custom_check"
-            value: 11.1
+            value: 15.1
             file: "oracle_test.py"
             name: "evaluate_test_type_check"
-            arguments: ["Denk na welke waarde a moet krijgen", 11]
+            arguments: ["Denk na welke waarde a moet krijgen", 15]
         - expression: "submission.b"
           return: !oracle 
             oracle: "custom_check"
-            value: 11
+            value: 15
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["b", {"a": "11"}, {"int": "de int functie"}, []]
+            arguments: ["b", {"a": 15}, {"int": "de int functie"}, [], False]
+        - expression: "submission.c"
+          return: !oracle 
+            oracle: "custom_check"
+            value: "15"
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["c", {"b": 15}, {"str": "de str functie"}, [], False]

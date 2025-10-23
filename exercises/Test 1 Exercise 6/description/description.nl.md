@@ -62,4 +62,5 @@
 
 # <b>Opdracht</b>
 1. Maak een variabele <code>a</code> aan die een <i>float</i> opslaat met een waarde die je zelf goed moet kiezen (zie stap 2). Je mag echter NIET exact dezelfde waarde kiezen als die bij <code>b</code> verwacht wordt.
-2. Maak een variabele <code>b</code> aan die de waarde van <code>a</code> omgezet naar een geheel getal opslaat. Zorg dat de waarde van <code>b</code> uitkomt op <code>11</code>. Kies de waarde van <code>a</code> dus correct.
+2. Maak een variabele <code>b</code> aan die de waarde van <code>a</code> omgezet naar een <i>integer</i> opslaat. Zorg dat de waarde van <code>b</code> uitkomt op <code>15</code>. Kies de waarde van <code>a</code> dus correct. Natuurlijk zonder de waarde van <code>a</code> opnieuw op te schrijven.
+3. Maak een variabele <code>c</code> aan die de waarde van <code>b</code> omgezet naar een <i>string</i> opslaat. Natuurlijk zonder de waarde van <code>a</code> of <code>b</code> opnieuw op te schrijven.
