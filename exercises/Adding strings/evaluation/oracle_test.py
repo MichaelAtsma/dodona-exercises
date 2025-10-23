@@ -17,7 +17,7 @@ def evaluate_test(context):
         mymessages.append(Message(f"Goed zo! Je hebt de computer {repr(context.expected)} laten berekenen."))
     else:
         if not checks[0]:
-            mymessages.append(Message(f"Je mag de zin {repr(context.expected)} niet gebruiken in je code."))
+            mymessages.append(Message(f"Je mag de tekst {repr(context.expected)} niet gebruiken in je code."))
         if not checks[1]:
             mymessages.append(Message("Je moet een optelling gebruiken."))
         if not checks[2]:

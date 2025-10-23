@@ -1,8 +1,8 @@
 import os
 
-to_replace = "const modified = selection.length > 100 ? prependText + selection : selection;"
-replacement = "const modified = selection.length > 75 ? prependText + selection : selection;"
-filename_contains = "description"
+to_replace = "Je mag de zin"
+replacement = "Je mag de tekst"
+filename_contains = "oracle_test"
 root_dir = "exercises"
 
 for dirpath, dirnames, filenames in os.walk(root_dir):

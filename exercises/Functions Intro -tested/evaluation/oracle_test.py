@@ -59,7 +59,7 @@ def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols, forbi
         mymessages.append(Message(f"Goed zo! Je hebt de computer {repr(context.expected)} laten berekenen op basis van {' en '.join(ingredient_vars)} in een f-string."))
     else:
         if not checks[0]:
-            mymessages.append(Message(f"Je mag de zin {repr(context.expected)} niet gebruiken in je code."))
+            mymessages.append(Message(f"Je mag de tekst {repr(context.expected)} niet gebruiken in je code."))
         if not checks[1]:
             if isinstance(context.expected, float):
                 mymessages.append(Message(f"{repr(context.expected)} is een kommagetal (float). Je moet dus kommagetallen gebruiken om dat te krijgen."))

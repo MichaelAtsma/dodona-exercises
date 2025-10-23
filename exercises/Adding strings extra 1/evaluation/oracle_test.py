@@ -19,7 +19,7 @@ def evaluate_test(context, var):
         mymessages.append(Message(f"Goed zo! Je hebt de computer {repr(context.expected)} laten berekenen."))
     else:
         if not checks["answer_not_used"]:
-            mymessages.append(Message(f"Je mag de zin {repr(context.expected)} niet gebruiken voor de variabele {var}."))
+            mymessages.append(Message(f"Je mag de tekst {repr(context.expected)} niet gebruiken voor de variabele {var}."))
         if not checks["correct value"]:
             mymessages.append(Message(f"De waarde voor {var} is niet wat we verwachtten."))
         if not checks["correct type"]:
