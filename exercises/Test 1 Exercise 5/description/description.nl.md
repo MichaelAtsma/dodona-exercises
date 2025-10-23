@@ -65,7 +65,7 @@ Maak een functie genaamd <function name="ToetsPunt"></function> die <i><b>drie</
   <li>Het maximaal aantal te behalen punten op de toets</li>
   <li>De maximale score waar het naar omgerekend moet worden</li>
 </ol>
-De functie rekent dan de score om en geeft het resultaat terug.<b><i>eerste en tweede</i></b> getal bij elkaar optelt, deze uitkomst met het <b><i>derde</i></b> getal vermenigvuldigt, en het resultaat als uitvoer geeft.
+De functie rekent dan de score om en geeft het resultaat terug.
 
 <details><summary>Voorbeelden</summary>
 <ul>
