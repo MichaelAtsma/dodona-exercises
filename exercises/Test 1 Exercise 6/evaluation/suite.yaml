@@ -7,7 +7,7 @@
             value: 15.1
             file: "oracle_test.py"
             name: "evaluate_test_type_check"
-            arguments: ["Denk na welke waarde a moet krijgen", 15]
+            arguments: ["Denk na welke waarde a moet krijgen", 15, False]
         - expression: "submission.b"
           return: !oracle 
             oracle: "custom_check"
