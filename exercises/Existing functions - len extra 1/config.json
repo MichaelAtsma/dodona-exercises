@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "Bestaande functies: len (oefening 1)"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "labels": [],
+  "internals": {
+    "token": "cmk4UuvG-RqFI5cjG_byViGZGX8z4KhcNGkJx8kbdGDBAekBFHprY2EfgW8GGGVn",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
