@@ -78,8 +78,8 @@ Een functie in Python maak je zo:
 
 ```python
 def NaamVanDeFunctie(invoer):
-  # Hier komt de code die iets doet met de invoer
-  return uitvoer
+    # Hier komt de code die iets doet met de invoer
+    return uitvoer
 ```
 
 - **<code><span style="color:blue;">def</span></code>** betekent dat je een functie gaat maken, dit komt van een functie *definiëren*.
@@ -107,8 +107,8 @@ Bekijk de functie die hieronder gemaakt is:
 
 ```python
 def VoorbeeldFunctie(x):
-  y = x + 5
-  return y
+    y = x + 5
+    return y
 ```
 
 Je kan de functie nu gebruiken door de naam te typen en de gewenste invoer tussen haakjes te zetten. Bijvoorbeeld: <function name="VoorbeeldFunctie" inputs="3"></function> geeft als resultaat `8` terug (want `3 + 5 = 8`).

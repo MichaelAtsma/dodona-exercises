@@ -66,8 +66,8 @@ Je hebt net geleerd hoe je een functie creëert die 5 optelt bij de invoer en he
 
 ```python
 def PlusVijf(x):
-  y = x + 5
-  return y
+    y = x + 5
+    return y
 ```
 
 <br>

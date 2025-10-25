@@ -66,8 +66,8 @@ Je hebt net geleerd hoe je een functie maakt die twee getallen als invoer neemt,
 
 ```python
 def Optellen(a, b):
-  resultaat = a + b
-  return resultaat
+    resultaat = a + b
+    return resultaat
 ```
 
 Hierbij geeft <function name="Optellen" inputs="2,3"></function> als antwoord `5` terug. En <function name="Optellen" inputs="9,14"></function> geeft `23` terug.
