@@ -1,7 +1,7 @@
 import os
 
-to_replace = "Geef zo weinig mogelijk code, gebruik geen concepten die we niet geleerd hebben, en laat mij al het werk doen. Geef zo weinig mogelijk code, en laat mij al het werk doen."
-replacement = "Geef zo weinig mogelijk code, gebruik geen concepten die we niet geleerd hebben, en laat mij al het werk doen."
+to_replace = "<b>Nu zal je echter minder hulp krijgen bij het maken van de functie: we zullen nu stapje voor stapje minder code voor je voorschrijven. Denk dus goed zelf na hoe je een functie correct opschrijft!</b>"
+replacement = "<span style='color: red;'><b>Nu zal je echter minder hulp krijgen bij het maken van de functie: we zullen nu stapje voor stapje minder code voor je voorschrijven. Denk dus goed zelf na hoe je een functie correct opschrijft!</b></span>"
 filename_contains = "description"
 root_dir = "exercises"
 
@@ -9,7 +9,7 @@ for dirpath, dirnames, filenames in os.walk(root_dir):
     for filename in filenames:
         if filename_contains in filename:
             file_path = os.path.join(dirpath, filename)
-            print(f"Processing: {file_path}")
+            print(f"Checking: {file_path}")
             with open(file_path, "r", encoding="utf-8") as f:
                 lines = f.readlines()
             changed = False

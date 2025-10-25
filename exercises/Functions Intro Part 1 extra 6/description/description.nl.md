@@ -70,7 +70,7 @@ def PlusVijf(x):
     return y
 ```
 
-Je hebt vervolgens een paar andere functies gemaakt. Nu zal je echter minder hulp krijgen bij het maken van de functie: we zullen nu stapje voor stapje minder code voor je voorschrijven. Denk dus goed zelf na hoe je een functie correct opschrijft!
+Je hebt vervolgens een paar andere functies gemaakt. <span style='color: red;'><b>Nu zal je echter minder hulp krijgen bij het maken van de functie: we zullen nu stapje voor stapje minder code voor je voorschrijven. Denk dus goed zelf na hoe je een functie correct opschrijft!</b></span>
 
 <br>
 <hr>
