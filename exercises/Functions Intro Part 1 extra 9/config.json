@@ -1,0 +1,15 @@
+{
+  "description": {
+    "names": {
+      "nl": "Introductie tot functies (deel 1, oefening 9)"
+    }
+  },
+  "evaluation": {
+    "pythia_judge": "doctest"
+  },
+  "labels": [],
+  "internals": {
+    "token": "YN3JYPaU6jiWjfdGTuHrZv4ZHtyzBMDTfq5mq4kuG24I8PK3Mim4Ur--dmx4SrKs",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

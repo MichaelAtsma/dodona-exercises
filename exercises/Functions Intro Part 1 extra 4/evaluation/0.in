@@ -1,0 +1,10 @@
+>>> MaalZeven(1)
+7
+>>> MaalZeven(2)
+14
+>>> MaalZeven(3)
+21
+>>> MaalZeven(4)
+28
+>>> MaalZeven(5)
+35

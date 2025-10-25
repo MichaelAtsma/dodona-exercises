@@ -1,0 +1,10 @@
+>>> PlusZes(1)
+7
+>>> PlusZes(2)
+8
+>>> PlusZes(3)
+9
+>>> PlusZes(4)
+10
+>>> PlusZes(5)
+11

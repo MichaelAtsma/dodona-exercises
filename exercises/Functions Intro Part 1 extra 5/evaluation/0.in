@@ -1,0 +1,10 @@
+>>> MaalTien(1)
+10
+>>> MaalTien(2)
+20
+>>> MaalTien(3)
+30
+>>> MaalTien(4)
+40
+>>> MaalTien(5)
+50

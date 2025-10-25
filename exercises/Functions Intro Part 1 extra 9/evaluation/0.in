@@ -1,0 +1,10 @@
+>>> Dubbel(1)
+2
+>>> Dubbel(2)
+4
+>>> Dubbel(3)
+6
+>>> Dubbel(4)
+8
+>>> Dubbel(5)
+10

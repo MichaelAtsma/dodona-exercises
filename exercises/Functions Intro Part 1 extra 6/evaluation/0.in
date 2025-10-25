@@ -1,0 +1,10 @@
+>>> MinAcht(1)
+-7
+>>> MinAcht(2)
+-6
+>>> MinAcht(3)
+-5
+>>> MinAcht(4)
+-4
+>>> MinAcht(5)
+-3
