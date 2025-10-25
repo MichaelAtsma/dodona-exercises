@@ -76,6 +76,8 @@ def PlusVijf(x):
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="Halveren"></function> die de invoer door `2` deelt en het resultaat als uitvoer geeft.
 
+<i>Je hoeft hier dus alleen de tweede regel aan te passen, de rest laat je staan zoals het is.</i>
+
 <details><summary>Voorbeelden</summary>
 <ul>
   <li><function name="Halveren" inputs="2"></function> geeft <code>1</code> terug.</li>

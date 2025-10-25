@@ -118,3 +118,5 @@ Je kan de functie nu gebruiken door de naam te typen en de gewenste invoer tusse
 
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="MijnFunctie"></function> die `5` optelt bij de invoer en het resultaat als uitvoer geeft.
+
+<i>Je hoeft hier dus alleen de tweede regel aan te passen, de rest laat je staan zoals het is.</i>
