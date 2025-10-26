@@ -79,3 +79,5 @@ Vervang de underscores in de code zodat de regel <code>a = 2</code> <b style="co
 
 if ____:
   a = 2</code></pre>
+
+De rest van de code mag je niet veranderen.
