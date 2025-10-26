@@ -20,6 +20,7 @@
   /* To use this, put any text like this: 
   <span class="invisible-text">Your invisible text here</span> 
   */
+  
   table {
     margin: 0 auto;       /* centers table horizontally */
     border-collapse: collapse !important;
@@ -27,13 +28,17 @@
     border-style: solid !important;
   }
   th {
-    border: 1px solid #444 !important;
+    padding: 6px 8px !important;
+    box-sizing: border-box;
+    border: 1px solid #8f8f8fff !important;
     border-style: solid !important;
     font-size: 1.2em !important;
     white-space: nowrap;
   }
   td {
-    border: 1px solid #444 !important;
+    padding: 6px 8px !important;
+    box-sizing: border-box;
+    border: 1px solid #8f8f8fff !important;
     border-style: solid !important;
     white-space: nowrap;
   }
