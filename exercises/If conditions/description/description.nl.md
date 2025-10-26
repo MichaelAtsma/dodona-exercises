@@ -126,4 +126,4 @@ Vervang de <b>underscores</b> (<code>____</code>) in de code zodat de regel <cod
 if ____:
   a = 2</code></pre>
 
-De rest van de code mag je niet veranderen. 
+De rest van de code mag je niet veranderen.
