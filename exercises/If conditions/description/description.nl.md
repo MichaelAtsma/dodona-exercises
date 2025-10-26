@@ -20,16 +20,27 @@
   /* To use this, put any text like this: 
   <span class="invisible-text">Your invisible text here</span> 
   */
-
   table {
     margin: 0 auto;       /* centers table horizontally */
+    border-collapse: collapse !important;
+    border: 1px solid #444 !important;
+    border-style: solid !important;
   }
   th {
+    border: 1px solid #444 !important;
+    border-style: solid !important;
     font-size: 1.2em !important;
     white-space: nowrap;
   }
   td {
+    border: 1px solid #444 !important;
+    border-style: solid !important;
     white-space: nowrap;
+  }
+
+  /* fallback: if borders are still removed by more specific rules, use outline on a class */
+  table.force-borders, table.force-borders th, table.force-borders td {
+    outline: 1px solid #444 !important;
   }
 </style>
 
