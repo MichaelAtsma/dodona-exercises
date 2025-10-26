@@ -36,7 +36,7 @@
     white-space: nowrap;
   }
   td {
-    padding: 0px 10px !important;
+    padding: 4px 10px !important;
     box-sizing: border-box;
     border: 1px solid #8f8f8fff !important;
     border-style: solid !important;
