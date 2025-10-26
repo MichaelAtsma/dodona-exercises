@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "Als (False)"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "labels": [],
+  "internals": {
+    "token": "EsDuQQYEnHt9AAKr7cMiIxWH3-zdXauX9ynG-gE8pq4D3Yd39CBeyimkjH4bcutd",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
