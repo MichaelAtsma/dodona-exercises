@@ -73,7 +73,7 @@ Wat gebeurt er hier?
 <hr>
 
 # <b>Opdracht</b>
-Vervang de underscores in de code zodat de regel <code>a = 2</code> <b style="color:red">niet</b> uitgevoerd wordt:
+Vervang de <b>underscores</b> (<code>____</code>) in de code zodat de regel <code>a = 2</code> <b style="color:red">niet</b> uitgevoerd wordt:
 
 <pre><code>a = 1
 
