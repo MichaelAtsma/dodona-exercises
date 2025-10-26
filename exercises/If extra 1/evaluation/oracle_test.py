@@ -8,7 +8,7 @@ def get_submission_code():
 def lines_containing_var(text, var):
     return [line for line in text.splitlines() if (f"{var}=" in line or f"{var} =" in line)]
 
-def evaluate_test(context, match_regex, correct_message_template):
+def evaluate_test(context, match_regex, correct_message_template, wrong_value_message_template):
     submission = get_submission_code()
     checks = {}
     checks["correct value"] = context.actual == context.expected
@@ -22,7 +22,7 @@ def evaluate_test(context, match_regex, correct_message_template):
         mymessages.append(Message(correct_message_template.format(m.group(1))))
     else:
         if not checks["correct value"]:
-            mymessages.append(Message(f"Helaas werd de regel onder de if-statement niet uitgevoerd. Kijk nog eens goed naar je voorwaarde."))
+            mymessages.append(Message(wrong_value_message_template.format(m.group(1))))
         if not checks["code matches regex"]:
             mymessages.append(Message(f"Je mag enkel de voorwaarde aanpassen. Zorg ervoor dat je de rest van de code niet wijzigt."))
         
