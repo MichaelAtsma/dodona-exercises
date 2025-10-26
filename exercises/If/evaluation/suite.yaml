@@ -1,0 +1,10 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.a"
+          return: !oracle 
+            oracle: "custom_check"
+            value: 2
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["a = 1\n\nif (.+):\n    a = 2"]
