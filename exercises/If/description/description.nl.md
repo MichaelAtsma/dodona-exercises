@@ -53,8 +53,8 @@ Wat gebeurt er hier?
 
 <ol>
   <li>De waarde 1 wordt opgeslagen in de variabele <code>a</code>.</li>
-  <li>De <code>if</code>-statement controleert de voorwaarde achter het woord if — hier kijken we of 5 groter is dan 3 met de vergelijking <code>></code>.</li>
-  <li>Omdat die vergelijking waar is, wordt de ingesprongen regel <code>a = 2</code> uitgevoerd.</li>
+  <li>De <code>if</code>-statement controleert de voorwaarde achter het woord if. In dit geval kijken we of 5 groter is dan 3 met de vergelijking <code>></code>.</li>
+  <li>Omdat die vergelijking waar (<code style="color:blue">True</code>) is, wordt de ingesprongen regel <code>a = 2</code> uitgevoerd.</li>
   <li>Na de <code>if</code> is de waarde van <code>a</code> dus 2.</li>
 </ol>
 
@@ -71,8 +71,8 @@ Wat gebeurt er hier?
 
 <ol>
   <li>De waarde 1 wordt opgeslagen in de variabele <code>a</code>.</li>
-  <li>De <code>if</code>-statement controleert de voorwaarde achter het woord if — hier kijken we of 5 groter is dan 10 met de vergelijking <code>></code>.</li>
-  <li>Omdat die vergelijking <b>niet</b> waar is, wordt de ingesprongen regel <code>a = 2</code> <b>niet</b> uitgevoerd.</li>
+  <li>De <code>if</code>-statement controleert de voorwaarde achter het woord if. In dit geval kijken we of 5 groter is dan 10 met de vergelijking <code>></code>.</li>
+  <li>Omdat die vergelijking <b>niet</b> waar (<code style="color:blue">False</code>) is, wordt de ingesprongen regel <code>a = 2</code> <b>niet</b> uitgevoerd.</li>
   <li>Na de <code>if</code> is de waarde van <code>a</code> dus nog steeds 1.</li>
 </ol>
 
