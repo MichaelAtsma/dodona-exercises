@@ -7,4 +7,4 @@
             value: 2
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["a = 1\n\nif (.+):\n    a = 2[\n 	]*", "Goed zo! Jouw voorwaarde van {} is waar (True), waardoor de regel onder de if-statement is uitgevoerd.", "Helaas! Jouw voorwaarde van {} is niet waar (False), waardoor de regel onder de if-statement niet is uitgevoerd."]
+            arguments: ["a = 1\n\nif (.+):\n    a = 2[\n 	]*", {}, "Goed zo! Jouw voorwaarde van {} is waar (True), waardoor de regel onder de if-statement is uitgevoerd.", "Helaas! Jouw voorwaarde van {} is niet waar (False), waardoor de regel onder de if-statement niet is uitgevoerd."]
