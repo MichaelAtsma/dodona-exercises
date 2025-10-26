@@ -33,13 +33,9 @@
   }
 </style>
 
-We hebben de computer al veel instructies laten uitvoeren. Die deed dan ook steeds precies alles wat we hadden gezegd. Soms wil je echter dat instructies enkel worden uitgevoerd als er aan een bepaalde voorwaarde wordt voldaan. Denk bijvoorbeeld aan: als iemand een resultaat van 50% of hoger heeft behaald dan wil je die feliciteren, terwijl als iemand lager dan 50% heeft behaald dan wil je troost aanbieden.
+Je hebt zojuist gezien hoe je met een <code>if</code>-statement een bepaald stukje code kan laten uitvoeren wanneer de voorwaarde waar (<code style="color:blue">True</code>) is. Zie hieronder nogmaals de voorbeelden die je bij die uitleg had gezien.
 
-Dat doet je met een <code>if</code>-statement.
-
-Een <code>if</code>-statement kijkt of iets waar (<code style='color:blue'>True</code>) of niet waar (<code style='color:blue'>False</code>) is. Als de voorwaarde waar is, dan voert Python de ingesprongen regels onder de <code>if</code> uit. Let op de inspringing: alles wat onder de <code>if</code> hoort moet één niveau ingesprongen zijn.
-
-Voorbeeld 1:
+<details><summary>Voorbeeld 1 (voorwaarde is <code style="color:blue">True</code>)</summary>
 
 <pre><code>a = 1
 
@@ -51,10 +47,9 @@ Wat gebeurt er hier?
 2. De <code>if</code>-statement controleert de voorwaarde achter het woord if — hier kijken we of 5 groter is dan 3 met de vergelijking <code>></code>.
 3. Omdat die vergelijking waar is, wordt de ingesprongen regel <code>a = 2</code> uitgevoerd.
 4. Na de <code>if</code> is de waarde van <code>a</code> dus 2.
+</details>
 
-<br>
-
-Voorbeeld 2:
+<details><summary>Voorbeeld 2 (voorwaarde is <code style="color:blue">False</code>)</summary>
 
 <pre><code>a = 1
 
@@ -66,6 +61,7 @@ Wat gebeurt er hier?
 2. De <code>if</code>-statement controleert de voorwaarde achter het woord if — hier kijken we of 5 groter is dan 10 met de vergelijking <code>></code>.
 3. Omdat die vergelijking <b>niet</b> waar is, wordt de ingesprongen regel <code>a = 2</code> <b>niet</b> uitgevoerd.
 4. Na de <code>if</code> is de waarde van <code>a</code> dus nog steeds 1.
+</details>
 
 <br>
 <hr>

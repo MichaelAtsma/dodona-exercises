@@ -39,7 +39,10 @@ Dat doet je met een <code>if</code>-statement.
 
 Een <code>if</code>-statement kijkt of iets waar (<code style='color:blue'>True</code>) of niet waar (<code style='color:blue'>False</code>) is. Als de voorwaarde waar is, dan voert Python de ingesprongen regels onder de <code>if</code> uit. Let op de inspringing: alles wat onder de <code>if</code> hoort moet één niveau ingesprongen zijn.
 
-Voorbeeld 1:
+<br>
+<hr>
+
+## <b>Voorbeeld 1:</b>
 
 <pre><code>a = 1
 
@@ -54,7 +57,7 @@ Wat gebeurt er hier?
 
 <br>
 
-Voorbeeld 2:
+## <b>Voorbeeld 2:</b>
 
 <pre><code>a = 1
 
