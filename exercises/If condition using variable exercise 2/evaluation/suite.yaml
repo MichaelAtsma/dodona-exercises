@@ -1,7 +1,7 @@
 - tab: "Test"
   contexts:
     - testcases:
-        - expression: "submission.a"
+        - expression: "submission.begroeting"
           return: !oracle 
             oracle: "custom_check"
             value: 2
