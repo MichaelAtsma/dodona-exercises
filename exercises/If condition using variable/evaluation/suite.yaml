@@ -1,0 +1,10 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.a"
+          return: !oracle 
+            oracle: "custom_check"
+            value: 2
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ['leeftijd = 15\n *\nif (.+) 16:\n    uitspraak = "Helaas, je mag nog geen bromfiets rijden in België."[\n 	]*', {"<": "kleiner dan", "leeftijd": "de variabele leeftijd"}, "Goed zo! Jouw voorwaarde van {} is wel waar (True), waardoor de regel onder de if-statement is uitgevoerd.", "Helaas! Jouw voorwaarde van {} is niet waar (False), waardoor de regel onder de if-statement niet is uitgevoerd."]
