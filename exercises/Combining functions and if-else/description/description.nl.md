@@ -72,6 +72,7 @@ def Optellen(a, b):
 ```
 
 Hierbij kan een gebruiker jouw functie gebruiken door een waarde voor <code>a</code> en <code>b</code> in te geven. Zo zullen ze bij de invoer <function name="Optellen" inputs="2,3"></function> als antwoord `5` terugkrijgen.
+
 </details>
 
 <details markdown="1"><summary>Voorbeeld if-else-statement</summary>
@@ -84,6 +85,7 @@ else:
     bericht = "Sorry, volgende keer beter."```
 
 Nadat dit programma wordt uitgevoerd zal het bericht <code>"Sorry, volgende keer beter."</code> zijn, omdat de <code>procent_op_toets_behaald</code> kleiner is dan 50.
+
 </details>
 
 <br>
