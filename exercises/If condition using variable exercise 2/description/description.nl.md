@@ -126,7 +126,7 @@ Uit de vergelijking <code>"hallo" < "wereld"</code> zal dus <code style="color:b
 <hr>
 
 # <b>Opdracht</b>
-Vervang de <b>underscores</b> (<code>____</code>) in de code zodat de regel <code>a = 2</code> <b style="color:red">niet</b> uitgevoerd wordt. Zorg dat je het symbool <code>==</code> en de variabele <code>begroeting</code> gebruikt.
+Vervang de <b>underscores</b> (<code>____</code>) in de code zodat de regel <code>begroeting = "Hallo!"</code> <b style="color:red">niet</b> uitgevoerd wordt. Zorg dat je het symbool <code>==</code> en de variabele <code>begroeting</code> gebruikt.
 
 <pre><code>begroeting = "hallo"
 
