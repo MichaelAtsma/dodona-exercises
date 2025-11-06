@@ -34,6 +34,8 @@ def evaluate_test(context, match_regex, mandatory_logical_operators_and_descript
         if not checks["mandatory logical operators used"]:
             missing_operators = [mandatory_logical_operators_and_descriptions[op] for op in operators_not_used]
             mymessages.append(Message(f"Je moet in je voorwaarde gebruikmaken van: {', '.join(missing_operators)}."))
+            if missing_operators == ["<"] and ">" in condition:
+                mymessages.append(Message(f"Sorry, je programma en je voorwaarde kloppen waarschijnlijk, maar je moet het symbool '<' gebruiken in plaats van '>', omdat ik geen tijd en/of zin heb om uit te zoeken hoe ik alle mogelijke vergelijkingsoperatoren kan toestaan."))
         if not checks["code matches regex"]:
             mymessages.append(Message(f"Je mag enkel de voorwaarde aanpassen. Zorg ervoor dat je de rest van de code niet wijzigt."))
         
