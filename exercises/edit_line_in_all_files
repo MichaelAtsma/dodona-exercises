@@ -1,7 +1,7 @@
 import os
 
-to_replace = "Gefeliciteerd dat je op je toets geslaagd bent!"
-replacement = "Gefeliciteerd, je bent geslaagd voor je toets!"
+to_replace = "Sorry, wat jammer dat je voor je toets gebuisd bent"
+replacement = "Sorry, volgende keer beter."
 filename_contains = "oplossing"
 root_dir = "exercises"
 
