@@ -18,9 +18,11 @@ def evaluate_test(context, match_regex, mandatory_logical_operators_and_descript
     checks["code matches regex"] = m is not None
 
     checks["mandatory logical operators used"] = True
+    operators_not_used = []
     for operator in mandatory_logical_operators_and_descriptions.keys():
         if operator not in condition:
             checks["mandatory logical operators used"] = False
+            operators_not_used.append(operator)
 
     correct = all(checks.values())
     mymessages = []
@@ -30,7 +32,7 @@ def evaluate_test(context, match_regex, mandatory_logical_operators_and_descript
         if not checks["correct value"]:
             mymessages.append(Message(wrong_value_message_template.format(condition)))
         if not checks["mandatory logical operators used"]:
-            missing_operators = [desc for op, desc in mandatory_logical_operators_and_descriptions.items() if op not in condition]
+            missing_operators = [mandatory_logical_operators_and_descriptions[op] for op in operators_not_used]
             mymessages.append(Message(f"Je moet in je voorwaarde gebruikmaken van: {', '.join(missing_operators)}."))
         if not checks["code matches regex"]:
             mymessages.append(Message(f"Je mag enkel de voorwaarde aanpassen. Zorg ervoor dat je de rest van de code niet wijzigt."))
