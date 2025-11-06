@@ -85,11 +85,13 @@ Wat gebeurt er hier?
 <hr>
 
 # <b>Opdracht</b>
-Vervang de <b>underscores</b> (<code>____</code>) in de code zodat de regel <code>a = 1</code> uitgevoerd wordt:
+Vervang de <b>underscores</b> (<code>____</code>) in de code zodat het bericht aan het einde van het programma <code>Gefeliciteerd dat je op je toets geslaagd bent!</code> is:
 
-<pre><code>if ____:
-    a = 1
+<pre><code>procent_op_toets_behaald = ___
+
+if procent_op_toets_behaald >= 50:
+    bericht = "Gefeliciteerd dat je op je toets geslaagd bent!"
 else:
-    a = 2</code></pre>
+    bericht = "Sorry, wat jammer dat je voor je toets gebuisd bent."</code></pre>
 
 De rest van de code mag je niet veranderen.

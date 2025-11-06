@@ -1,4 +1,6 @@
-if 2 < 10:
-    a = 1
+procent_op_toets_behaald = 80
+
+if procent_op_toets_behaald >= 50:
+    bericht = "Gefeliciteerd dat je op je toets geslaagd bent!"
 else:
-    a = 2
+    bericht = "Sorry, wat jammer dat je voor je toets gebuisd bent."
