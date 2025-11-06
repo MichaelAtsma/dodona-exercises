@@ -7,4 +7,4 @@
             value: "Helaas, je mag nog geen bromfiets rijden in België."
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ['uitspraak = ""  # deze regel mag je negeren.\nleeftijd = 15\n( *)\nif (.+):\n    uitspraak = "Helaas, je mag nog geen bromfiets rijden in België."[\n 	]*', {"<": "kleiner dan", "leeftijd": "de variabele leeftijd", "16": "de waarde 16"}, "Goed zo! Jouw voorwaarde van {} is wel waar (True), waardoor de regel onder de if-statement is uitgevoerd.", "Helaas! Jouw voorwaarde van {} is niet waar (False), waardoor de regel onder de if-statement niet is uitgevoerd."]
+            arguments: ['uitspraak = ""  # deze regel mag je negeren.\nleeftijd = 15\n\nif (.+):\n    uitspraak = "Helaas, je mag nog geen bromfiets rijden in België."[\n 	]*', {"<": "kleiner dan", "leeftijd": "de variabele leeftijd", "16": "de waarde 16"}, "Goed zo! Jouw voorwaarde van {} is wel waar (True), waardoor de regel onder de if-statement is uitgevoerd.", "Helaas! Jouw voorwaarde van {} is niet waar (False), waardoor de regel onder de if-statement niet is uitgevoerd."]
