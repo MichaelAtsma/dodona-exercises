@@ -2,6 +2,7 @@
   contexts:
     - testcases:
         - statement: "submission.uitspraak = ''"
+        - statement: "import submission"
         - expression: "submission.uitspraak"
           return: !oracle 
             oracle: "custom_check"
