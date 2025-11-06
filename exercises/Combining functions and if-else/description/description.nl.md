@@ -114,7 +114,7 @@ Zo ook krijgt iemand die <function name="MaalTweeOfMinTien" inputs="-3"></functi
 <hr>
 
 # <b>Opdracht</b>
-Maak een functie genaamd <function name="MaalTweeOfMinTien"></function> die <i><b>één</b></i> getal als invoer neemt, het verdubbelt als het positief (of 0) is, of er 10 van af haalt als het negatief is, en het resultaat als uitvoer geeft.
+Maak een functie genaamd <function name="MaalTweeOfMinTien"></function> die één getal als invoer neemt, het verdubbelt als het positief (of 0) is, of er 10 van af haalt als het negatief is, en het resultaat als uitvoer geeft.
 
 <details><summary>Voorbeelden</summary>
 <ul>
