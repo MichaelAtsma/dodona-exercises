@@ -8,13 +8,13 @@ def get_submission_code():
 def lines_containing_var(text, var):
     return [line for line in text.splitlines() if (f"{var}=" in line or f"{var} =" in line)]
 
-def evaluate_test(context, match_regex, value_of_score, correct_message_template, wrong_value_message_template):
+def evaluate_test(context, match_regex, condition, correct_message_template, wrong_value_message_template):
     submission = get_submission_code()
     checks = {}
     checks["correct value"] = context.actual == context.expected
 
     m = re.fullmatch(match_regex, submission)
-    condition = m.group(1) if m else ""
+    value_of_score = m.group(1) if m else ""
     checks["code matches regex"] = m is not None
 
     correct = all(checks.values())
