@@ -33,7 +33,7 @@
   }
 </style>
 
-<details><summary>Uitleg die je bij de vorige opdracht hebt gelezen</summary>
+<details markdown="1"><summary>Uitleg die je bij de vorige opdracht hebt gelezen</summary>
 
 Je hebt gezien dat je met een <i>if</i>-statement bepaalde regels code enkel onder een bepaalde voorwaarde kan laten uitvoeren. Eerder hadden we echter een voorbeeld gezien waarin je juist ook een actie wilde uitvoeren als de voorwaarde niet waar was. (<i>"Denk bijvoorbeeld aan: als iemand een resultaat van 50% of hoger heeft behaald dan wil je die feliciteren, terwijl als iemand lager dan 50% heeft behaald dan wil je troost aanbieden."</i>)
 
