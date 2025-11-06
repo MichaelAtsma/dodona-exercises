@@ -1,6 +1,7 @@
 - tab: "Test"
   contexts:
     - testcases:
+        - statement: "uitspraak = ''"
         - expression: "submission.a"
           return: !oracle 
             oracle: "custom_check"
