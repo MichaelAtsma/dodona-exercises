@@ -27,7 +27,6 @@ def evaluate_test(context, match_regex, mandatory_logical_operators_and_descript
     correct = all(checks.values())
     mymessages = []
     if correct:
-        # mymessages = [Message("test")]
         mymessages.append(Message(correct_message_template.format(condition)))
     else:
         if not checks["correct value"]:
