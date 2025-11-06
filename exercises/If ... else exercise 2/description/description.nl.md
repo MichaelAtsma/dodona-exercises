@@ -49,17 +49,17 @@ Een <code>if...else</code>-statement is hetzelfde als een <i>if</i>-statement, m
 <pre><code>procent_op_toets_behaald = 30
 
 if procent_op_toets_behaald >= 50:
-    bericht = "Gefeliciteerd dat je op je toets geslaagd bent!"
+    bericht = "Gefeliciteerd, je bent geslaagd voor je toets!"
 else:
-    bericht = "Sorry, wat jammer dat je voor je toets gebuisd bent."</code></pre>
+    bericht = "Sorry, volgende keer beter."</code></pre>
 
 Wat gebeurt er hier?
 
 <ol>
   <li>De waarde 30 wordt opgeslagen in de variabele <code>procent_op_toets_behaald</code>.</li>
   <li>De <code>if</code>-statement controleert de voorwaarde achter het woord if. In dit geval kijken we of <code>procent_op_toets_behaald</code> groter dan of gelijk aan 50 is met de vergelijking <code>>=</code>.</li>
-  <li>Omdat die vergelijking niet waar (<code style="color:blue">False</code>) is, wordt de ingesprongen regel die daaronder staat (<code>bericht = "Gefeliciteerd dat je op je toets geslaagd bent!"</code>) <b>niet</b> uitgevoerd, maar juist <b>wel</b> de ingesprongen regel die onder <code>else:</code> staat (<code>bericht = "Sorry, wat jammer dat je voor je toets gebuisd bent."</code>).</li>
-  <li>Na de <code>if...else</code> is de waarde van <code>bericht</code> dus <code>"Sorry, wat jammer dat je voor je toets gebuisd bent."</code>.</li>
+  <li>Omdat die vergelijking niet waar (<code style="color:blue">False</code>) is, wordt de ingesprongen regel die daaronder staat (<code>bericht = "Gefeliciteerd, je bent geslaagd voor je toets!"</code>) <b>niet</b> uitgevoerd, maar juist <b>wel</b> de ingesprongen regel die onder <code>else:</code> staat (<code>bericht = "Sorry, volgende keer beter."</code>).</li>
+  <li>Na de <code>if...else</code> is de waarde van <code>bericht</code> dus <code>"Sorry, volgende keer beter."</code>.</li>
 </ol>
 
 <br>
@@ -69,18 +69,18 @@ Wat gebeurt er hier?
 <pre><code>procent_op_toets_behaald = 80
 
 if procent_op_toets_behaald >= 50:
-    bericht = "Gefeliciteerd dat je op je toets geslaagd bent!"
+    bericht = "Gefeliciteerd, je bent geslaagd voor je toets!"
 else:
-    bericht = "Sorry, wat jammer dat je voor je toets gebuisd bent."</code></pre>
+    bericht = "Sorry, volgende keer beter."</code></pre>
 
 Wat gebeurt er hier?
 
 <ol>
   <li>De waarde 80 wordt opgeslagen in de variabele <code>procent_op_toets_behaald</code>.</li>
   <li>De <code>if</code>-statement controleert de voorwaarde achter het woord if. In dit geval kijken we of <code>procent_op_toets_behaald</code> groter dan of gelijk aan 50 is met de vergelijking <code>>=</code>.</li>
-  <li>Omdat die vergelijking wel waar (<code style="color:blue">True</code>) is, wordt de ingesprongen regel die daaronder staat (<code>bericht = "Gefeliciteerd dat je op je toets geslaagd bent!"</code>) <b>wel</b> uitgevoerd.</li>
-  <li> De ingesprongen regel die onder <code>else:</code> staat (<code>bericht = "Sorry, wat jammer dat je voor je toets gebuisd bent."</code>) wordt genegeerd, want de voorwaarde was <code style="color:blue">True</code>.</li>
-  <li>Na de <code>if...else</code> is de waarde van <code>bericht</code> dus <code>"Gefeliciteerd dat je op je toets geslaagd bent!"</code>.</li>
+  <li>Omdat die vergelijking wel waar (<code style="color:blue">True</code>) is, wordt de ingesprongen regel die daaronder staat (<code>bericht = "Gefeliciteerd, je bent geslaagd voor je toets!"</code>) <b>wel</b> uitgevoerd.</li>
+  <li> De ingesprongen regel die onder <code>else:</code> staat (<code>bericht = "Sorry, volgende keer beter."</code>) wordt genegeerd, want de voorwaarde was <code style="color:blue">True</code>.</li>
+  <li>Na de <code>if...else</code> is de waarde van <code>bericht</code> dus <code>"Gefeliciteerd, je bent geslaagd voor je toets!"</code>.</li>
 </ol>
 
 </details>

@@ -1,6 +1,6 @@
 procent_op_toets_behaald = 30
 
 if procent_op_toets_behaald >= 50:
-    bericht = "Gefeliciteerd dat je op je toets geslaagd bent!"
+    bericht = "Gefeliciteerd, je bent geslaagd voor je toets!"
 else:
-    bericht = "Sorry, wat jammer dat je voor je toets gebuisd bent."
+    bericht = "Sorry, volgende keer beter."

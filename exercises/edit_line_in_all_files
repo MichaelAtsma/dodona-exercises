@@ -1,8 +1,8 @@
 import os
 
-to_replace = "  a = 2"
-replacement = "    a = 2"
-filename_contains = "description"
+to_replace = "Gefeliciteerd dat je op je toets geslaagd bent!"
+replacement = "Gefeliciteerd, je bent geslaagd voor je toets!"
+filename_contains = "oplossing"
 root_dir = "exercises"
 
 for dirpath, dirnames, filenames in os.walk(root_dir):
