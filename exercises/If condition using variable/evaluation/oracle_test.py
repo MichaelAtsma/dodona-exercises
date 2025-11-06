@@ -32,7 +32,6 @@ def evaluate_test(context, match_regex, mandatory_logical_operators_and_descript
         if not checks["correct value"]:
             mymessages.append(Message(wrong_value_message_template.format(condition)))
         if not checks["mandatory logical operators used"]:
-            mymessages.append(Message(f"Debugging: je voorwaarde is: {condition}"))
             missing_operators = [mandatory_logical_operators_and_descriptions[op] for op in operators_not_used]
             mymessages.append(Message(f"Je moet in je voorwaarde gebruikmaken van: {', '.join(missing_operators)}."))
             if missing_operators == ["<"] and ">" in condition:
