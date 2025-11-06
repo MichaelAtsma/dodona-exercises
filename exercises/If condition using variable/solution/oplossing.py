@@ -1,3 +1,4 @@
+uitspraak = ""  # deze regel mag je negeren.
 leeftijd = 15
 
 if leeftijd < 16:
