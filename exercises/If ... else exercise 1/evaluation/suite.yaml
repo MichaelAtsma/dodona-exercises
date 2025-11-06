@@ -1,0 +1,10 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.bericht"
+          return: !oracle 
+            oracle: "custom_check"
+            value: "Sorry, wat jammer dat je voor je toets gebuisd bent."
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["procent_op_toets_behaald = (.+)\n\nif procent_op_toets_behaald >= 50:\n    bericht = \"Gefeliciteerd dat je op je toets geslaagd bent!\"\nelse:\n    bericht = \"Sorry, wat jammer dat je voor je toets gebuisd bent.\"[\n ]*", submission.procent_op_toets_behaald, "Goed zo! De voorwaarde {} is niet waar (False) als procent_op_toets_behaald {} is, waardoor de regel onder de else-statement is uitgevoerd.", "Helaas! De voorwaarde {} is waar (True) als procent_op_toets_behaald {} is, waardoor de regel onder de if-statement is uitgevoerd."]
