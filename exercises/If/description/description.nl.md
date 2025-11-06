@@ -47,7 +47,7 @@ Een <code>if</code>-statement kijkt of iets waar (<code style='color:blue'>True<
 <pre><code>a = 1
 
 if 5 > 3:
-  a = 2</code></pre>
+    a = 2</code></pre>
 
 Wat gebeurt er hier?
 
@@ -65,7 +65,7 @@ Wat gebeurt er hier?
 <pre><code>a = 1
 
 if 5 > 10:
-  a = 2</code></pre>
+    a = 2</code></pre>
 
 Wat gebeurt er hier?
 
@@ -85,6 +85,6 @@ Vervang de <b>underscores</b> (<code>____</code>) in de code zodat de regel <cod
 <pre><code>a = 1
 
 if ____:
-  a = 2</code></pre>
+    a = 2</code></pre>
 
 De rest van de code mag je niet veranderen.

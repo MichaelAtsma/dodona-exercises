@@ -1,7 +1,7 @@
 import os
 
-to_replace = "<b>Nu zal je echter minder hulp krijgen bij het maken van de functie: we zullen nu stapje voor stapje minder code voor je voorschrijven. Denk dus goed zelf na hoe je een functie correct opschrijft!</b>"
-replacement = "<span style='color: red;'><b>Nu zal je echter minder hulp krijgen bij het maken van de functie: we zullen nu stapje voor stapje minder code voor je voorschrijven. Denk dus goed zelf na hoe je een functie correct opschrijft!</b></span>"
+to_replace = "  a = 2"
+replacement = "    a = 2"
 filename_contains = "description"
 root_dir = "exercises"
 
