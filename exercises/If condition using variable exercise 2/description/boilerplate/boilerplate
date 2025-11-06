@@ -1,0 +1,4 @@
+begroeting = "hallo"
+
+if ____:
+    begroeting = "Hallo!"

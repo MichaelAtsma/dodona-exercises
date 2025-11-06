@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "Als voorwaarde met variabele (oefening 2)"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "labels": [],
+  "internals": {
+    "token": "zxx5fKeMZjZccIexv-CwGn24yVqauwQ7xwRqEPKMfYBMbgwuv2WVGruW-vE8gF85",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
