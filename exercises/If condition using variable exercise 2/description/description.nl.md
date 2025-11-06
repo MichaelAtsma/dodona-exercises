@@ -114,6 +114,8 @@ Wat gebeurt er hier?
 
 </details>
 
+<br>
+
 We hoeven echter niet altijd met getallen te werken. Soms werken we met <i>strings</i> (teksten). In dat geval zijn niet alle vergelijkingssymbolen zo voor de hand liggend. De vergelijkingssymbolen <code>==</code> en <code>!=</code> zijn nog wel makkelijk te begrijpen. We zullen hier niet verwachten dat je <code><</code>, <code><=</code>, <code>></code>, of <code>>=</code> kan gebruiken, maar wie toch die extra informatie wil kan dat hieronder lezen.
 
 <details><summary>Extra informatie (optioneel)</summary>
