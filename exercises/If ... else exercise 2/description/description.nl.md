@@ -33,6 +33,8 @@
   }
 </style>
 
+<details markdown="1"><summary>Uitleg die je bij de vorige opdracht hebt gelezen</summary>
+
 Je hebt gezien dat je met een <i>if</i>-statement bepaalde regels code enkel onder een bepaalde voorwaarde kan laten uitvoeren. Eerder hadden we echter een voorbeeld gezien waarin je juist ook een actie wilde uitvoeren als de voorwaarde niet waar was. (<i>"Denk bijvoorbeeld aan: als iemand een resultaat van 50% of hoger heeft behaald dan wil je die feliciteren, terwijl als iemand lager dan 50% heeft behaald dan wil je troost aanbieden."</i>)
 
 Dat doet je met een <code>if...else</code>-statement.
@@ -80,6 +82,8 @@ Wat gebeurt er hier?
   <li> De ingesprongen regel die onder <code>else:</code> staat (<code>bericht = "Sorry, wat jammer dat je voor je toets gebuisd bent."</code>) wordt genegeerd, want de voorwaarde was <code style="color:blue">True</code>.</li>
   <li>Na de <code>if...else</code> is de waarde van <code>bericht</code> dus <code>"Gefeliciteerd dat je op je toets geslaagd bent!"</code>.</li>
 </ol>
+
+</details>
 
 <br>
 <hr>
