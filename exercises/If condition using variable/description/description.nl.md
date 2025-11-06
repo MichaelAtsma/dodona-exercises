@@ -121,7 +121,7 @@ Wat gebeurt er hier?
 # <b>Opdracht</b>
 Vervang de <b>underscores</b> (<code>____</code>) in de code zodat de regel <code>uitspraak = "Helaas, je mag nog geen bromfiets rijden in België."</code> uitgevoerd wordt als de leeftijd minder is dan 16.
 
-<pre><code>uitspraak = "" # deze regel mag je negeren
+<pre><code>uitspraak = "" # deze regel mag je negeren.
 leeftijd = 15
 
 if ____:
