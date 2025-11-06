@@ -123,7 +123,7 @@ Vervang de <b>underscores</b> (<code>____</code>) in de code zodat de regel <cod
 
 <pre><code>leeftijd = 15
 
-if ____ 16:
+if ____:
     uitspraak = "Helaas, je mag nog geen bromfiets rijden in België."</code></pre>
 
 De rest van de code mag je niet veranderen.
