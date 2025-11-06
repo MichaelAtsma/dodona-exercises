@@ -117,7 +117,7 @@ Wat gebeurt er hier?
 We hoeven echter niet altijd met getallen te werken. Soms werken we met <i>strings</i> (teksten). In dat geval zijn niet alle vergelijkingssymbolen zo voor de hand liggend. De vergelijkingssymbolen <code>==</code> en <code>!=</code> zijn nog wel makkelijk te begrijpen. We zullen hier niet verwachten dat je <code><</code>, <code><=</code>, <code>></code>, of <code>>=</code> kan gebruiken, maar wie toch die extra informatie wil kan dat hieronder lezen.
 
 <details><summary>Extra informatie (optioneel)</summary>
-De ongelijkheidstekens <code><</code>, <code><=</code>, <code>></code>, of <code>>=</code> met betrekking tot <i>strings</i> werkt op basis van de volgorde van de letters in het alfabet (met nog wat extra uitbreidingen hierop).
+De ongelijkheidstekens <code><</code>, <code><=</code>, <code>></code>, of <code>>=</code> met betrekking tot <i>strings</i> werken op basis van de volgorde van de letters in het alfabet (met nog wat extra uitbreidingen hierop).
 
 Uit de vergelijking <code>"hallo" < "wereld"</code> zal dus <code style="color:blue">True</code> komen, omdat de <code>h</code> eerder in het alfabet voorkomt dan de <code>w</code>.
 </details>
