@@ -1,4 +1,4 @@
-uitspraak = "" # deze regel mag je negeren.
+uitspraak = ""  # deze regel mag je negeren.
 leeftijd = 15
 
 if ____:
