@@ -2,7 +2,7 @@
   contexts:
     - testcases:
         - statement: "submission.uitspraak = ''"
-          expression: "submission.uitspraak"
+        - expression: "submission.uitspraak"
           return: !oracle 
             oracle: "custom_check"
             value: "Helaas, je mag nog geen bromfiets rijden in België."
