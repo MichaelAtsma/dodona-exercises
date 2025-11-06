@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "Als voorwaarden (oefening 5)"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "labels": [],
+  "internals": {
+    "token": "nbcTvgKEhtzxrcEtuG9SPfCz4HgVIet7Xxmf7UKCXXvS8tT5gNAmVSiC_mf_zJq9",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
