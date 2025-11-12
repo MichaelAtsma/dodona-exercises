@@ -106,7 +106,7 @@ Je zal nu een aantal gelijkaardige functies maken waarbij je concepten combineer
 <hr>
 
 # <b>Opdracht</b>
-Maak een functie genaamd <function name="PositiefOfNegatief"></function> die één getal als invoer neemt, en een tekst teruggeeft afhankelijk van of dat getal positief (of 0) is, of negatief. Indien het positief (of 0) is moet de tekst <span color="green"><code>"Dit getal is positief"</code></span> zijn, en indien het negatief is moet de tekst <code>"Dit getal is negatief"</code> zijn.
+Maak een functie genaamd <function name="PositiefOfNegatief"></function> die één getal als invoer neemt, en een tekst teruggeeft afhankelijk van of dat getal positief (of 0) is, of negatief. Indien het positief (of 0) is moet de tekst <code>"Dit getal is positief"</code> zijn, en indien het negatief is moet de tekst <code>"Dit getal is negatief"</code> zijn.
 
 <details><summary>Voorbeelden</summary>
 <ul>
