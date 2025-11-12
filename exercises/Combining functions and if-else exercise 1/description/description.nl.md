@@ -100,7 +100,7 @@ Zo ook krijgt iemand die <function name="Grootste" inputs="1,-20"></function> ty
 
 </details>
 
-Je zal nu een aantal gelijkaardige functies maken.
+Je zal nu een aantal gelijkaardige functies maken waarbij je concepten combineert die je hiervoor geleerd hebt.
 
 <br>
 <hr>
