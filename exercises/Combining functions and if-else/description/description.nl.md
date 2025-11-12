@@ -75,6 +75,7 @@ Hierbij kan een gebruiker jouw functie gebruiken door een waarde voor <code>a</c
 </details>
 
 <details markdown="1"><summary>Voorbeeld if-else-statement</summary>
+
 ```python
 procent_op_toets_behaald = 30
 
