@@ -1,0 +1,202 @@
+>>> MaalTweeOfMinTien(-50)
+-60
+>>> MaalTweeOfMinTien(-49)
+-59
+>>> MaalTweeOfMinTien(-48)
+-58
+>>> MaalTweeOfMinTien(-47)
+-57
+>>> MaalTweeOfMinTien(-46)
+-56
+>>> MaalTweeOfMinTien(-45)
+-55
+>>> MaalTweeOfMinTien(-44)
+-54
+>>> MaalTweeOfMinTien(-43)
+-53
+>>> MaalTweeOfMinTien(-42)
+-52
+>>> MaalTweeOfMinTien(-41)
+-51
+>>> MaalTweeOfMinTien(-40)
+-50
+>>> MaalTweeOfMinTien(-39)
+-49
+>>> MaalTweeOfMinTien(-38)
+-48
+>>> MaalTweeOfMinTien(-37)
+-47
+>>> MaalTweeOfMinTien(-36)
+-46
+>>> MaalTweeOfMinTien(-35)
+-45
+>>> MaalTweeOfMinTien(-34)
+-44
+>>> MaalTweeOfMinTien(-33)
+-43
+>>> MaalTweeOfMinTien(-32)
+-42
+>>> MaalTweeOfMinTien(-31)
+-41
+>>> MaalTweeOfMinTien(-30)
+-40
+>>> MaalTweeOfMinTien(-29)
+-39
+>>> MaalTweeOfMinTien(-28)
+-38
+>>> MaalTweeOfMinTien(-27)
+-37
+>>> MaalTweeOfMinTien(-26)
+-36
+>>> MaalTweeOfMinTien(-25)
+-35
+>>> MaalTweeOfMinTien(-24)
+-34
+>>> MaalTweeOfMinTien(-23)
+-33
+>>> MaalTweeOfMinTien(-22)
+-32
+>>> MaalTweeOfMinTien(-21)
+-31
+>>> MaalTweeOfMinTien(-20)
+-30
+>>> MaalTweeOfMinTien(-19)
+-29
+>>> MaalTweeOfMinTien(-18)
+-28
+>>> MaalTweeOfMinTien(-17)
+-27
+>>> MaalTweeOfMinTien(-16)
+-26
+>>> MaalTweeOfMinTien(-15)
+-25
+>>> MaalTweeOfMinTien(-14)
+-24
+>>> MaalTweeOfMinTien(-13)
+-23
+>>> MaalTweeOfMinTien(-12)
+-22
+>>> MaalTweeOfMinTien(-11)
+-21
+>>> MaalTweeOfMinTien(-10)
+-20
+>>> MaalTweeOfMinTien(-9)
+-19
+>>> MaalTweeOfMinTien(-8)
+-18
+>>> MaalTweeOfMinTien(-7)
+-17
+>>> MaalTweeOfMinTien(-6)
+-16
+>>> MaalTweeOfMinTien(-5)
+-15
+>>> MaalTweeOfMinTien(-4)
+-14
+>>> MaalTweeOfMinTien(-3)
+-13
+>>> MaalTweeOfMinTien(-2)
+-12
+>>> MaalTweeOfMinTien(-1)
+-11
+>>> MaalTweeOfMinTien(0)
+0
+>>> MaalTweeOfMinTien(1)
+2
+>>> MaalTweeOfMinTien(2)
+4
+>>> MaalTweeOfMinTien(3)
+6
+>>> MaalTweeOfMinTien(4)
+8
+>>> MaalTweeOfMinTien(5)
+10
+>>> MaalTweeOfMinTien(6)
+12
+>>> MaalTweeOfMinTien(7)
+14
+>>> MaalTweeOfMinTien(8)
+16
+>>> MaalTweeOfMinTien(9)
+18
+>>> MaalTweeOfMinTien(10)
+20
+>>> MaalTweeOfMinTien(11)
+22
+>>> MaalTweeOfMinTien(12)
+24
+>>> MaalTweeOfMinTien(13)
+26
+>>> MaalTweeOfMinTien(14)
+28
+>>> MaalTweeOfMinTien(15)
+30
+>>> MaalTweeOfMinTien(16)
+32
+>>> MaalTweeOfMinTien(17)
+34
+>>> MaalTweeOfMinTien(18)
+36
+>>> MaalTweeOfMinTien(19)
+38
+>>> MaalTweeOfMinTien(20)
+40
+>>> MaalTweeOfMinTien(21)
+42
+>>> MaalTweeOfMinTien(22)
+44
+>>> MaalTweeOfMinTien(23)
+46
+>>> MaalTweeOfMinTien(24)
+48
+>>> MaalTweeOfMinTien(25)
+50
+>>> MaalTweeOfMinTien(26)
+52
+>>> MaalTweeOfMinTien(27)
+54
+>>> MaalTweeOfMinTien(28)
+56
+>>> MaalTweeOfMinTien(29)
+58
+>>> MaalTweeOfMinTien(30)
+60
+>>> MaalTweeOfMinTien(31)
+62
+>>> MaalTweeOfMinTien(32)
+64
+>>> MaalTweeOfMinTien(33)
+66
+>>> MaalTweeOfMinTien(34)
+68
+>>> MaalTweeOfMinTien(35)
+70
+>>> MaalTweeOfMinTien(36)
+72
+>>> MaalTweeOfMinTien(37)
+74
+>>> MaalTweeOfMinTien(38)
+76
+>>> MaalTweeOfMinTien(39)
+78
+>>> MaalTweeOfMinTien(40)
+80
+>>> MaalTweeOfMinTien(41)
+82
+>>> MaalTweeOfMinTien(42)
+84
+>>> MaalTweeOfMinTien(43)
+86
+>>> MaalTweeOfMinTien(44)
+88
+>>> MaalTweeOfMinTien(45)
+90
+>>> MaalTweeOfMinTien(46)
+92
+>>> MaalTweeOfMinTien(47)
+94
+>>> MaalTweeOfMinTien(48)
+96
+>>> MaalTweeOfMinTien(49)
+98
+>>> MaalTweeOfMinTien(50)
+100

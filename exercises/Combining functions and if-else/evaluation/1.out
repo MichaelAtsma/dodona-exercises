@@ -1,5 +1,5 @@
 --------------------------------------------------
-tab name: Examples
+tab name: Bulk test
 <LANGUAGE code="en">
     <function from="MaalTweeOfMinTien" to="TimesTwoOrMinusTen" />
 </LANGUAGE>
