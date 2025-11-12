@@ -1,0 +1,8 @@
+>>> PositiefOfNegatief(5)
+'Dit getal is positief'
+>>> PositiefOfNegatief(-9)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(0)
+'Dit getal is positief'
+>>> PositiefOfNegatief(-2.4)
+'Dit getal is negatief'

@@ -1,0 +1,402 @@
+>>> PositiefOfNegatief(-100)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-99)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-98)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-97)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-96)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-95)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-94)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-93)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-92)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-91)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-90)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-89)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-88)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-87)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-86)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-85)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-84)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-83)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-82)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-81)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-80)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-79)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-78)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-77)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-76)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-75)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-74)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-73)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-72)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-71)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-70)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-69)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-68)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-67)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-66)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-65)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-64)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-63)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-62)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-61)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-60)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-59)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-58)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-57)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-56)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-55)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-54)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-53)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-52)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-51)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-50)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-49)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-48)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-47)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-46)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-45)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-44)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-43)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-42)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-41)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-40)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-39)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-38)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-37)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-36)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-35)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-34)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-33)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-32)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-31)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-30)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-29)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-28)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-27)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-26)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-25)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-24)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-23)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-22)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-21)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-20)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-19)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-18)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-17)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-16)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-15)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-14)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-13)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-12)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-11)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-10)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-9)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-8)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-7)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-6)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-5)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-4)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-3)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-2)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(-1)
+'Dit getal is negatief'
+>>> PositiefOfNegatief(0)
+'Dit getal is positief'
+>>> PositiefOfNegatief(1)
+'Dit getal is positief'
+>>> PositiefOfNegatief(2)
+'Dit getal is positief'
+>>> PositiefOfNegatief(3)
+'Dit getal is positief'
+>>> PositiefOfNegatief(4)
+'Dit getal is positief'
+>>> PositiefOfNegatief(5)
+'Dit getal is positief'
+>>> PositiefOfNegatief(6)
+'Dit getal is positief'
+>>> PositiefOfNegatief(7)
+'Dit getal is positief'
+>>> PositiefOfNegatief(8)
+'Dit getal is positief'
+>>> PositiefOfNegatief(9)
+'Dit getal is positief'
+>>> PositiefOfNegatief(10)
+'Dit getal is positief'
+>>> PositiefOfNegatief(11)
+'Dit getal is positief'
+>>> PositiefOfNegatief(12)
+'Dit getal is positief'
+>>> PositiefOfNegatief(13)
+'Dit getal is positief'
+>>> PositiefOfNegatief(14)
+'Dit getal is positief'
+>>> PositiefOfNegatief(15)
+'Dit getal is positief'
+>>> PositiefOfNegatief(16)
+'Dit getal is positief'
+>>> PositiefOfNegatief(17)
+'Dit getal is positief'
+>>> PositiefOfNegatief(18)
+'Dit getal is positief'
+>>> PositiefOfNegatief(19)
+'Dit getal is positief'
+>>> PositiefOfNegatief(20)
+'Dit getal is positief'
+>>> PositiefOfNegatief(21)
+'Dit getal is positief'
+>>> PositiefOfNegatief(22)
+'Dit getal is positief'
+>>> PositiefOfNegatief(23)
+'Dit getal is positief'
+>>> PositiefOfNegatief(24)
+'Dit getal is positief'
+>>> PositiefOfNegatief(25)
+'Dit getal is positief'
+>>> PositiefOfNegatief(26)
+'Dit getal is positief'
+>>> PositiefOfNegatief(27)
+'Dit getal is positief'
+>>> PositiefOfNegatief(28)
+'Dit getal is positief'
+>>> PositiefOfNegatief(29)
+'Dit getal is positief'
+>>> PositiefOfNegatief(30)
+'Dit getal is positief'
+>>> PositiefOfNegatief(31)
+'Dit getal is positief'
+>>> PositiefOfNegatief(32)
+'Dit getal is positief'
+>>> PositiefOfNegatief(33)
+'Dit getal is positief'
+>>> PositiefOfNegatief(34)
+'Dit getal is positief'
+>>> PositiefOfNegatief(35)
+'Dit getal is positief'
+>>> PositiefOfNegatief(36)
+'Dit getal is positief'
+>>> PositiefOfNegatief(37)
+'Dit getal is positief'
+>>> PositiefOfNegatief(38)
+'Dit getal is positief'
+>>> PositiefOfNegatief(39)
+'Dit getal is positief'
+>>> PositiefOfNegatief(40)
+'Dit getal is positief'
+>>> PositiefOfNegatief(41)
+'Dit getal is positief'
+>>> PositiefOfNegatief(42)
+'Dit getal is positief'
+>>> PositiefOfNegatief(43)
+'Dit getal is positief'
+>>> PositiefOfNegatief(44)
+'Dit getal is positief'
+>>> PositiefOfNegatief(45)
+'Dit getal is positief'
+>>> PositiefOfNegatief(46)
+'Dit getal is positief'
+>>> PositiefOfNegatief(47)
+'Dit getal is positief'
+>>> PositiefOfNegatief(48)
+'Dit getal is positief'
+>>> PositiefOfNegatief(49)
+'Dit getal is positief'
+>>> PositiefOfNegatief(50)
+'Dit getal is positief'
+>>> PositiefOfNegatief(51)
+'Dit getal is positief'
+>>> PositiefOfNegatief(52)
+'Dit getal is positief'
+>>> PositiefOfNegatief(53)
+'Dit getal is positief'
+>>> PositiefOfNegatief(54)
+'Dit getal is positief'
+>>> PositiefOfNegatief(55)
+'Dit getal is positief'
+>>> PositiefOfNegatief(56)
+'Dit getal is positief'
+>>> PositiefOfNegatief(57)
+'Dit getal is positief'
+>>> PositiefOfNegatief(58)
+'Dit getal is positief'
+>>> PositiefOfNegatief(59)
+'Dit getal is positief'
+>>> PositiefOfNegatief(60)
+'Dit getal is positief'
+>>> PositiefOfNegatief(61)
+'Dit getal is positief'
+>>> PositiefOfNegatief(62)
+'Dit getal is positief'
+>>> PositiefOfNegatief(63)
+'Dit getal is positief'
+>>> PositiefOfNegatief(64)
+'Dit getal is positief'
+>>> PositiefOfNegatief(65)
+'Dit getal is positief'
+>>> PositiefOfNegatief(66)
+'Dit getal is positief'
+>>> PositiefOfNegatief(67)
+'Dit getal is positief'
+>>> PositiefOfNegatief(68)
+'Dit getal is positief'
+>>> PositiefOfNegatief(69)
+'Dit getal is positief'
+>>> PositiefOfNegatief(70)
+'Dit getal is positief'
+>>> PositiefOfNegatief(71)
+'Dit getal is positief'
+>>> PositiefOfNegatief(72)
+'Dit getal is positief'
+>>> PositiefOfNegatief(73)
+'Dit getal is positief'
+>>> PositiefOfNegatief(74)
+'Dit getal is positief'
+>>> PositiefOfNegatief(75)
+'Dit getal is positief'
+>>> PositiefOfNegatief(76)
+'Dit getal is positief'
+>>> PositiefOfNegatief(77)
+'Dit getal is positief'
+>>> PositiefOfNegatief(78)
+'Dit getal is positief'
+>>> PositiefOfNegatief(79)
+'Dit getal is positief'
+>>> PositiefOfNegatief(80)
+'Dit getal is positief'
+>>> PositiefOfNegatief(81)
+'Dit getal is positief'
+>>> PositiefOfNegatief(82)
+'Dit getal is positief'
+>>> PositiefOfNegatief(83)
+'Dit getal is positief'
+>>> PositiefOfNegatief(84)
+'Dit getal is positief'
+>>> PositiefOfNegatief(85)
+'Dit getal is positief'
+>>> PositiefOfNegatief(86)
+'Dit getal is positief'
+>>> PositiefOfNegatief(87)
+'Dit getal is positief'
+>>> PositiefOfNegatief(88)
+'Dit getal is positief'
+>>> PositiefOfNegatief(89)
+'Dit getal is positief'
+>>> PositiefOfNegatief(90)
+'Dit getal is positief'
+>>> PositiefOfNegatief(91)
+'Dit getal is positief'
+>>> PositiefOfNegatief(92)
+'Dit getal is positief'
+>>> PositiefOfNegatief(93)
+'Dit getal is positief'
+>>> PositiefOfNegatief(94)
+'Dit getal is positief'
+>>> PositiefOfNegatief(95)
+'Dit getal is positief'
+>>> PositiefOfNegatief(96)
+'Dit getal is positief'
+>>> PositiefOfNegatief(97)
+'Dit getal is positief'
+>>> PositiefOfNegatief(98)
+'Dit getal is positief'
+>>> PositiefOfNegatief(99)
+'Dit getal is positief'
+>>> PositiefOfNegatief(100)
+'Dit getal is positief'
