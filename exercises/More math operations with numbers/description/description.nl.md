@@ -107,7 +107,7 @@ Eerder heb je geleerd hoe je getallen bij elkaar kunt optellen, vermenigvuldigen
       <td><code>2</code></td>
     </tr>
     <tr>
-      <td>\[ % \]</td>
+      <td>\[ \% \]</td>
       <td>Rest (modulo)
         <br>
         <span class="sub-title-in-table">Dit is de rest die overblijft wanneer het tweede getal zo vaak als kan wordt afgetrokken van het eerste getal.</span>
