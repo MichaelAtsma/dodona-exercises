@@ -113,7 +113,7 @@ Eerder heb je geleerd hoe je getallen bij elkaar kunt optellen, vermenigvuldigen
       <td>\[ \% \]</td>
       <td>Rest (modulo)
         <br>
-        <span class="sub-title-in-table">Dit is de rest die overblijft wanneer het tweede getal zo vaak als kan wordt afgetrokken van het eerste getal.</span>
+        <span class="sub-title-in-table">Dit is de rest die overblijft wanneer het tweede getal zo vaak als kan wordt afgehaald van het eerste getal.</span>
       </td>
       <td><code>7 % 3</code></td>
       <td><code>1</code></td>
