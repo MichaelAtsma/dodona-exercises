@@ -1,0 +1,10 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.kwadraat"
+          return: !oracle
+            oracle: "custom_check"
+            value: 36
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["kwadraat", [6, 2], {"**": "machtsverheffing"}, {"*": "vermenigvuldiging", "/": "deling", "+": "optelling", "-": "aftrekking"}]
