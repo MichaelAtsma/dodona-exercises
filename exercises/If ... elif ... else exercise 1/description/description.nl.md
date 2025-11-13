@@ -33,6 +33,8 @@
   }
 </style>
 
+<details markdown="1"><summary>Uitleg die je bij de vorige opdracht hebt gelezen</summary>
+
 Je hebt gezien dat je met een <i>if...else</i>-statement een keuze kunnen maken tussen welke van twee gedeeltes code uitgevoerd zal worden, door middel van een bepaalde voorwaarde. (<i>"Bijvoorbeeld: als iemand een resultaat van 50% of hoger heeft behaald dan wil je die feliciteren, terwijl als iemand lager dan 50% heeft behaald dan wil je troost aanbieden."</i>)
 
 Soms zijn er echter meer dan twee opties waar je uit wil kiezen. Stel dat je bijvoorbeeld iemand met exact 50% juist een speciaal bericht wil aanbieden: "Oei, je hebt het echt op het nippertje gehaald, gefeliciteerd!"
@@ -120,6 +122,8 @@ Wat gebeurt er hier?
   <li>De ingesprongen regel die onder <code>else:</code> staat (<code>bericht = "Sorry, volgende keer beter."</code>) zal dus worden uitgevoerd.</li>
   <li>Na de <code>if...else</code> is de waarde van <code>bericht</code> dus <code>"Sorry, volgende keer beter."</code>.</li>
 </ol>
+
+</details>
 
 </details>
 
