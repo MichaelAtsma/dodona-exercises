@@ -7,4 +7,4 @@
             value: 32768
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["vijfdemacht", {}, {"8": "8", "5": "5", "**": "machtsverheffing"}, {"/": "deling", "+": "optelling", "-": "aftrekking"}]
+            arguments: ["vijfdemacht", {}, {"8": "8", "5": "5", "**": "machtsverheffing"}, {" * ": "vermenigvuldiging", "/": "deling", "+": "optelling", "-": "aftrekking"}]
