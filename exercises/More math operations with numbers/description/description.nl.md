@@ -94,14 +94,14 @@ Eerder heb je geleerd hoe je getallen bij elkaar kunt optellen, vermenigvuldigen
       <td><code>7 / 3</code></td>
       <td><code>2.3333333333333335</code>
         <br>
-        <span class="sub-title-in-table">De 5 op het einde komt door de manier waarop nummers in de computer worden opgeslagen</span>
+        <span class="sub-title-in-table">De 5 op het einde komt door de manier waarop nummers in de computer worden opgeslagen. Hier hoef je niet op te letten.</span>
       </td>
     </tr>
     <tr>
       <td>//</td>
       <td>Gehele deling
         <br>
-        <span class="sub-title-in-table">Dit is hoe vaak het tweede getal volledig in het eerste getal past</span>
+        <span class="sub-title-in-table">Dit is hoe vaak het tweede getal volledig in het eerste getal past.</span>
       </td>
       <td><code>7 // 3</code></td>
       <td><code>2</code></td>
@@ -110,7 +110,7 @@ Eerder heb je geleerd hoe je getallen bij elkaar kunt optellen, vermenigvuldigen
       <td>%</td>
       <td>Rest (modulo)
         <br>
-        <span class="sub-title-in-table">Dit is de rest die overblijft wanneer het tweede getal zo vaak als kan wordt afgetrokken van het eerste getal</span>
+        <span class="sub-title-in-table">Dit is de rest die overblijft wanneer het tweede getal zo vaak als kan wordt afgetrokken van het eerste getal.</span>
       </td>
       <td><code>7 % 3</code></td>
       <td><code>1</code></td>
