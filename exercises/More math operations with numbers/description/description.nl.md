@@ -71,25 +71,25 @@ Eerder heb je geleerd hoe je getallen bij elkaar kunt optellen, vermenigvuldigen
   </thead>
   <tbody>
     <tr>
-      <td>+</td>
+      <td>\[ + \]</td>
       <td>Optelling</td>
       <td><code>7 + 3</code></td>
       <td><code>10</code></td>
     </tr>
     <tr>
-      <td>-</td>
+      <td>\[ - \]</td>
       <td>Aftrekking</td>
       <td><code>7 - 3</code></td>
       <td><code>4</code></td>
     </tr>
     <tr>
-      <td>*</td>
+      <td>\[ * \]</td>
       <td>Vermenigvuldiging</td>
       <td><code>7 * 3</code></td>
       <td><code>21</code></td>
     </tr>
     <tr>
-      <td>/</td>
+      <td>\[ / \]</td>
       <td>Deling</td>
       <td><code>7 / 3</code></td>
       <td><code>2.3333333333333335</code>
@@ -98,7 +98,7 @@ Eerder heb je geleerd hoe je getallen bij elkaar kunt optellen, vermenigvuldigen
       </td>
     </tr>
     <tr>
-      <td>//</td>
+      <td>\[ // \]</td>
       <td>Gehele deling
         <br>
         <span class="sub-title-in-table">Dit is hoe vaak het tweede getal volledig in het eerste getal past.</span>
@@ -107,7 +107,7 @@ Eerder heb je geleerd hoe je getallen bij elkaar kunt optellen, vermenigvuldigen
       <td><code>2</code></td>
     </tr>
     <tr>
-      <td>%</td>
+      <td>\[ % \]</td>
       <td>Rest (modulo)
         <br>
         <span class="sub-title-in-table">Dit is de rest die overblijft wanneer het tweede getal zo vaak als kan wordt afgetrokken van het eerste getal.</span>
@@ -116,7 +116,7 @@ Eerder heb je geleerd hoe je getallen bij elkaar kunt optellen, vermenigvuldigen
       <td><code>1</code></td>
     </tr>
     <tr>
-      <td>**</td>
+      <td>\[ ** \]</td>
       <td>Macht (exponent)</td>
       <td><code>7 ** 3</code></td>
       <td><code>343</code></td>
