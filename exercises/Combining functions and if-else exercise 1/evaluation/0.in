@@ -5,4 +5,4 @@
 >>> HalverenOfPlusAcht(33)
 41
 >>> HalverenOfPlusAcht(-10)
-2
+-5.0
