@@ -44,7 +44,7 @@ De <code>elif</code> staat hier voor <i>else if</i>, ofwel <i>anders als</i>. Da
 <br>
 <hr>
 
-## <b>Voorbeeld 1:</b>
+<details markdown="1"><summary><b>Voorbeeld 1:</b></summary>
 
 ```python
 procent_op_toets_behaald = 80
@@ -67,7 +67,7 @@ Wat gebeurt er hier?
   <li>Na de <code>if...elif...else</code> is de waarde van <code>bericht</code> dus <code>"Gefeliciteerd, je bent geslaagd voor je toets!"</code>.</li>
 </ol>
 
-<br>
+<details>
 
 ## <b>Voorbeeld 2:</b>
 
@@ -96,7 +96,7 @@ Wat gebeurt er hier?
 
 <br>
 
-## <b>Voorbeeld 3:</b>
+<details markdown="1"><summary><b>Voorbeeld 3:</b></summary>
 
 ```python
 procent_op_toets_behaald = 30
@@ -120,6 +120,8 @@ Wat gebeurt er hier?
   <li>De ingesprongen regel die onder <code>else:</code> staat (<code>bericht = "Sorry, volgende keer beter."</code>) zal dus worden uitgevoerd.</li>
   <li>Na de <code>if...else</code> is de waarde van <code>bericht</code> dus <code>"Sorry, volgende keer beter."</code>.</li>
 </ol>
+
+<details>
 
 <br>
 <hr>
