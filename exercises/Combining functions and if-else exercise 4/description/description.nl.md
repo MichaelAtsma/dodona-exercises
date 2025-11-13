@@ -116,3 +116,7 @@ Maak een functie genaamd <function name="TeLangeTekst"></function> die één <i>
   <li><function name="TeLangeTekst" inputs='"abcdefghij"'></function> geeft de tekst <code>"Deze tekst is kort genoeg"</code> terug (want <code>abcdefghij</code> is 10 karakters en dat is minder dan of gelijk aan 10).</li>
 </ul>
 </details>
+
+<details><summary>Tip</summary>
+Herinner je dat we een functie hebben geleerd om de lengte van een tekst te bepalen.
+</details>
