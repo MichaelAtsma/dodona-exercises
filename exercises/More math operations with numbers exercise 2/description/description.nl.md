@@ -148,4 +148,4 @@ Eerder heb je geleerd hoe je getallen bij elkaar kunt optellen, vermenigvuldigen
 <hr>
 
 # <b>Opdracht</b>
-Maak een variabele <code>vijfdemacht</code> aan die het resultaat van <code>8</code> tot de vijfde macht opslaat.
+Maak een variabele <code>vijfdemacht</code> aan die het resultaat van <code>8</code> tot de vijfde macht opslaat. Gebruik hiervoor de gepaste wiskundige bewerking.

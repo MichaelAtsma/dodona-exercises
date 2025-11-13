@@ -148,4 +148,4 @@ Eerder heb je geleerd hoe je getallen bij elkaar kunt optellen, vermenigvuldigen
 <hr>
 
 # <b>Opdracht</b>
-Maak een variabele <code>kwadraat</code> aan die het resultaat van <code>6</code> tot de tweede macht opslaat.
+Maak een variabele <code>kwadraat</code> aan die het resultaat van <code>6</code> tot de tweede macht opslaat. Gebruik hiervoor de gepaste wiskundige bewerking.

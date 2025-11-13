@@ -148,4 +148,4 @@ Eerder heb je geleerd hoe je getallen bij elkaar kunt optellen, vermenigvuldigen
 <hr>
 
 # <b>Opdracht</b>
-Maak een variabele <code>resultaat</code> aan die het opslaat hoe vaak <code>4</code> volledig in <code>37</code> past.
+Maak een variabele <code>resultaat</code> aan die het opslaat hoe vaak <code>4</code> volledig in <code>37</code> past. Gebruik hiervoor de gepaste wiskundige bewerking.
