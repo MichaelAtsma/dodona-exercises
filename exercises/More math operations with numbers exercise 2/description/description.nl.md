@@ -46,10 +46,13 @@
     font-size: 0.8em !important;
     font-style: italic !important;
     white-space: normal !important;
-    overflow-wrap: anywhere !important;
-    word-wrap: break-word !important;
-    word-break: break-word !important;
-    hyphens: auto !important;
+    overflow-wrap: normal !important;
+    word-wrap: normal !important;
+    word-break: normal !important;
+    hyphens: none !important;
+    -webkit-hyphens: none !important;
+    -moz-hyphens: none !important;
+    -ms-hyphens: none !important;
   }
 
   /* fallback: if borders are still removed by more specific rules, use outline on a class */
