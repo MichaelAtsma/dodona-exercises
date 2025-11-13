@@ -7,4 +7,4 @@
             value: 36
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["kwadraat", [6, 2], {"**": "machtsverheffing"}, {"*": "vermenigvuldiging", "/": "deling", "+": "optelling", "-": "aftrekking"}]
+            arguments: ["kwadraat", {}, {"6": "6", "2": "2", "**": "machtsverheffing"}, {"*": "vermenigvuldiging", "/": "deling", "+": "optelling", "-": "aftrekking"}]
