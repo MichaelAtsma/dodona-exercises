@@ -131,7 +131,7 @@ Eerder heb je geleerd hoe je getallen bij elkaar kunt optellen, vermenigvuldigen
       <td><code>7.0</code></td>
     </tr>
     <tr>
-      <td>\[ ^3 \sqrt{\ \ } \]</td>
+      <td>\[ \sqrt[3]{\ \ } \]</td>
       <td>Derdemachtswortel
         <br>
         <span class="sub-title-in-table">Een cijfer tot de macht 1/3 is hetzelfde als de derdewortel</span></td>
