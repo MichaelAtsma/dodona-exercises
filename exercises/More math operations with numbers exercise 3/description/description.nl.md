@@ -61,6 +61,8 @@
   }
 </style>
 
+<details markdown="1"><summary>De uitleg die je bij de vorige oefening hebt gezien</summary>
+
 Eerder heb je geleerd hoe je getallen bij elkaar kunt optellen, vermenigvuldigen, en delen met de computer. Maar de computer kan nog een aantal andere wiskundige bewerkingen uitvoeren. Zie hieronder een lijst:
 
 <table>
@@ -143,6 +145,8 @@ Eerder heb je geleerd hoe je getallen bij elkaar kunt optellen, vermenigvuldigen
     </tr>
   </tbody>
 </table>
+
+</details>
 
 <br>
 <hr>
