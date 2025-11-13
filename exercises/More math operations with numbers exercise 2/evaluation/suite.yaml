@@ -1,0 +1,10 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.vijfdemacht"
+          return: !oracle
+            oracle: "custom_check"
+            value: 32768
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["vijfdemacht", {}, {"8": "8", "5": "5", "**": "machtsverheffing"}, {"/": "deling", "+": "optelling", "-": "aftrekking"}]

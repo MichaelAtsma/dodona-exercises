@@ -1,0 +1,1 @@
+vijfdemacht = 8 ** 5
