@@ -4,7 +4,7 @@
         - expression: "submission.resultaat"
           return: !oracle
             oracle: "custom_check"
-            value: 16
+            value: 16.0
             file: "oracle_test.py"
             name: "evaluate_test"
             arguments: ["resultaat", {}, {"256": "256", "**": "machtsverheffing"}, {" * ": "vermenigvuldiging", "+": "optelling", "-": "aftrekking", "//": "gehele deling", "%": "modulus"}]
