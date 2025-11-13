@@ -67,7 +67,7 @@ Wat gebeurt er hier?
   <li>Na de <code>if...elif...else</code> is de waarde van <code>bericht</code> dus <code>"Gefeliciteerd, je bent geslaagd voor je toets!"</code>.</li>
 </ol>
 
-<details>
+</details>
 
 ## <b>Voorbeeld 2:</b>
 
@@ -121,7 +121,7 @@ Wat gebeurt er hier?
   <li>Na de <code>if...else</code> is de waarde van <code>bericht</code> dus <code>"Sorry, volgende keer beter."</code>.</li>
 </ol>
 
-<details>
+</details>
 
 <br>
 <hr>
