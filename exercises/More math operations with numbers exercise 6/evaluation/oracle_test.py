@@ -66,7 +66,7 @@ def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols_and_di
     correct = all(checks.values())
     mymessages = []
     if correct:
-        mymessages.append(Message(f"Goed zo! Je hebt de computer {repr(context.expected)} laten berekenen op basis van de gevraagde wiskundige operatie."))
+        mymessages.append(Message(f"Goed zo! Je hebt de computer {repr(context.expected)} laten berekenen op basis van de gevraagde wiskundige operatie. (merk op dat de uitkomst niet exact 5.0 is, maar dat komt opnieuw door de manier waarop kommagetallen worden opgeslagen in de computer)"))
     else:
         if not checks["expected value not in code"]:
             mymessages.append(Message(f"Je mag de waarde {repr(context.expected)} niet gebruiken in je code."))
