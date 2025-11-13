@@ -1,0 +1,10 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.resultaat"
+          return: !oracle
+            oracle: "custom_check"
+            value: 8
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["resultaat", {}, {"372": "372", "13": "13", "%": "modulus"}, {" * ": "vermenigvuldiging", " / ": "deling", "+": "optelling", "-": "aftrekking", "**": "machtsverheffing", "//": "gehele deling"}]

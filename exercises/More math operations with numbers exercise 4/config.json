@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "Meer wiskundige bewerkingen met getallen (oefening 4)"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "labels": [],
+  "internals": {
+    "token": "Ai2XvBU4Cv9pBG3wb2FRnhWVmnNgA6MY4kwnQSKAtumKPJRCTNixDp4WhmjkFiBI",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
