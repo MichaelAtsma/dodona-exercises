@@ -39,7 +39,7 @@ Soms zijn er echter meer dan twee opties waar je uit wil kiezen. Stel dat je bij
 
 Dat doet je met een <code>if...elif...else</code>-statement.
 
-De <code>elif</code> staat hier voor <i>else if</i>, ofwel <i>anders als</i>. Dat wil zeggen: als er niet aan de eerste voorwaarde voldaan wordt, zal er gekeken worden naar een tweede voorwaarde. Verder werkt de <code>if...elif...else</code>-statement hetzelfde als een <i>if...else</i>-statement. 
+De <code>elif</code> staat hier voor <i>else if</i>, ofwel <i>anders als</i>. Dat wil zeggen: als er niet aan de eerste voorwaarde voldaan wordt, zal er gekeken worden naar een tweede voorwaarde. Verder werkt de <code>if...elif...else</code>-statement hetzelfde als een <code>if...else</code>-statement.
 
 <br>
 <hr>
