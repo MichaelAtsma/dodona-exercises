@@ -25,7 +25,7 @@ def evaluate_test(context, match_regex, condition, correct_message_template, wro
         if not checks["correct value"]:
             mymessages.append(Message(wrong_value_message_template.format(condition, value_of_score)))
         if not checks["code matches regex"]:
-            mymessages.append(Message(f"Je mag enkel de voorwaarde aanpassen. Zorg ervoor dat je de rest van de code niet wijzigt."))
+            mymessages.append(Message(f"Je mag enkel de underscores (____) aanpassen. Zorg ervoor dat je de rest van de code niet wijzigt."))
         
     return EvaluationResult(
       result = correct,
