@@ -1,0 +1,10 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.bericht"
+          return: !oracle 
+            oracle: "custom_check"
+            value: "Oei, je hebt het echt op het nippertje gehaald, gefeliciteerd!"
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["procent_op_toets_behaald = (.+)\n\nif procent_op_toets_behaald > 50:\n    bericht = \"Gefeliciteerd, je bent geslaagd voor je toets!\"\nelif procent_op_toets_behaald == 50:\n    bericht = \"Oei, je hebt het echt op het nippertje gehaald, gefeliciteerd!\"\nelse:\n    bericht = \"Sorry, volgende keer beter.\"[\n ]*", "procent_op_toets_behaald > 50", "procent_op_toets_behaald == 50", "Goed zo! De voorwaarde {} is niet waar (False) en de voorwaarde {} is waar (True) als procent_op_toets_behaald {} is, waardoor de regel onder de if-statement niet is uitgevoerd en die onder de elif-statement wel.", {"Gefeliciteerd, je bent geslaagd voor je toets!": "Helaas! De voorwaarde {1} is wel waar (True) als procent_op_toets_behaald {3} is, waardoor de regel onder de if-statement is uitgevoerd en de voorwaarde {2} dus helemaal niet bekeken wordt.", "Sorry, volgende keer beter.": "Helaas! De voorwaarde {1} is niet waar (False) en de voorwaarde {2} is ook niet waar (False) als procent_op_toets_behaald {3} is, waardoor de regel onder de else-statement is uitgevoerd."}]
