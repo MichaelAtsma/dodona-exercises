@@ -1,0 +1,5 @@
+--------------------------------------------------
+tab name: Examples
+<LANGUAGE code="en">
+    <function from="TeLangeTekst" to="TooLongText" />
+</LANGUAGE>

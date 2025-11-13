@@ -1,0 +1,200 @@
+>>> TeLangeTekst('gT?<VG_xWZrO>ij')
+'Deze tekst is te lang'
+>>> TeLangeTekst('embosom frustulum interlard')
+'Deze tekst is te lang'
+>>> TeLangeTekst('overplume cranking cleromancy')
+'Deze tekst is te lang'
+>>> TeLangeTekst('willowweed mentalization')
+'Deze tekst is te lang'
+>>> TeLangeTekst('brittle')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('outsumming')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('amethodical wangles parsonically')
+'Deze tekst is te lang'
+>>> TeLangeTekst('x!(<Lak#RH')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('h+r+#D_L')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('(k')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('O>AMMkP)#_?m+M?>S&')
+'Deze tekst is te lang'
+>>> TeLangeTekst('carrizo')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('commandoman')
+'Deze tekst is te lang'
+>>> TeLangeTekst('truncated')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('healthiness')
+'Deze tekst is te lang'
+>>> TeLangeTekst('whimperingly slackwittedness fishweed')
+'Deze tekst is te lang'
+>>> TeLangeTekst('<ygcv+k+C')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('berettas atonalistic ovular')
+'Deze tekst is te lang'
+>>> TeLangeTekst('premankind oleandrin scooted')
+'Deze tekst is te lang'
+>>> TeLangeTekst('oBd')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('thoria joyridden')
+'Deze tekst is te lang'
+>>> TeLangeTekst('fndD?<Q)WP$CJ+txc=m')
+'Deze tekst is te lang'
+>>> TeLangeTekst('C#kkmzQ')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('sloths beneficiate')
+'Deze tekst is te lang'
+>>> TeLangeTekst('overdaintily coxendix osmeterium')
+'Deze tekst is te lang'
+>>> TeLangeTekst('vOD<M[bnPaB')
+'Deze tekst is te lang'
+>>> TeLangeTekst('ojBK+NBzuGB<!qbj')
+'Deze tekst is te lang'
+>>> TeLangeTekst('bittium illation')
+'Deze tekst is te lang'
+>>> TeLangeTekst('epithelioid colletidae')
+'Deze tekst is te lang'
+>>> TeLangeTekst('<BXoF*R]?x_wHW%_xJmu')
+'Deze tekst is te lang'
+>>> TeLangeTekst('yC=r_qXA]')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('DiY')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('nonleaking')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('ventriloquize meteorical scenedesmus')
+'Deze tekst is te lang'
+>>> TeLangeTekst('G@AdZbIb!i(IG')
+'Deze tekst is te lang'
+>>> TeLangeTekst('kumari tetracoccus')
+'Deze tekst is te lang'
+>>> TeLangeTekst('PS$#>qSMLUY_j')
+'Deze tekst is te lang'
+>>> TeLangeTekst('subpreceptor hydatidinous')
+'Deze tekst is te lang'
+>>> TeLangeTekst('ferroprussic nonman')
+'Deze tekst is te lang'
+>>> TeLangeTekst('PyHnYMaA@')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('biguttate pycnocoma poacher')
+'Deze tekst is te lang'
+>>> TeLangeTekst('contentedly equips inflict')
+'Deze tekst is te lang'
+>>> TeLangeTekst('eNkI&B*IbQaFD')
+'Deze tekst is te lang'
+>>> TeLangeTekst('X,fG?KH')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('M=XIt)z<HbGI')
+'Deze tekst is te lang'
+>>> TeLangeTekst('s')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('thirdness looey')
+'Deze tekst is te lang'
+>>> TeLangeTekst('undersupply ammonify protomagnate')
+'Deze tekst is te lang'
+>>> TeLangeTekst('UYUFvJ>cNZD+&)$VDw')
+'Deze tekst is te lang'
+>>> TeLangeTekst('relume')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('calorigenic sonic affiliate')
+'Deze tekst is te lang'
+>>> TeLangeTekst('CBRYgRtg(')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('TIBbORcKUjdHNo+%A@')
+'Deze tekst is te lang'
+>>> TeLangeTekst('muggiest pustular loudishness')
+'Deze tekst is te lang'
+>>> TeLangeTekst('AU$gMRj-E&fTVEXflD')
+'Deze tekst is te lang'
+>>> TeLangeTekst('+K')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('mileposts uncontented indeterminableness')
+'Deze tekst is te lang'
+>>> TeLangeTekst('O>WRIC&@nqTmW.w)Kaah')
+'Deze tekst is te lang'
+>>> TeLangeTekst('bebotch misguessed')
+'Deze tekst is te lang'
+>>> TeLangeTekst('willi')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('WeH##iyu')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('autopolar cabinda')
+'Deze tekst is te lang'
+>>> TeLangeTekst('menthe')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('hat')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('boyos epistler drossed')
+'Deze tekst is te lang'
+>>> TeLangeTekst('interlaminated verticilliaceous joropo')
+'Deze tekst is te lang'
+>>> TeLangeTekst('mafurra abashedness')
+'Deze tekst is te lang'
+>>> TeLangeTekst('estoppal')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('.[[q[>')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('fivescore')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('z+E(B')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('>g(e<')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('PGCg!Bx-p[]h')
+'Deze tekst is te lang'
+>>> TeLangeTekst('hickway')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('keist unorganical cryptoproselyte')
+'Deze tekst is te lang'
+>>> TeLangeTekst('rSsDmA')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('outswim')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('km$yrRFVvF=@-utJM')
+'Deze tekst is te lang'
+>>> TeLangeTekst('WX#dPtA,Td%PsGFBhh-')
+'Deze tekst is te lang'
+>>> TeLangeTekst('yvInmP=JZ,]W)S*iH_')
+'Deze tekst is te lang'
+>>> TeLangeTekst('ajar')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('wintle antipapistic laborless')
+'Deze tekst is te lang'
+>>> TeLangeTekst('XGYor(Hn<[')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('AH_%!-')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('regula')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('triverbal')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('SaPUpl>SC.MWywB%')
+'Deze tekst is te lang'
+>>> TeLangeTekst('@,MO+$#?w#Ev)YxK')
+'Deze tekst is te lang'
+>>> TeLangeTekst('trochisci')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('c[GFWfHbm')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('postaortic opsonifying imperatival')
+'Deze tekst is te lang'
+>>> TeLangeTekst('FBwsun<Cz?W')
+'Deze tekst is te lang'
+>>> TeLangeTekst('abstricted habitual tasajillo')
+'Deze tekst is te lang'
+>>> TeLangeTekst('C[')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('mysticity')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('E')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('_Ron+YiAcusMKxcf')
+'Deze tekst is te lang'
+>>> TeLangeTekst('buboed lycopodium')
+'Deze tekst is te lang'
+>>> TeLangeTekst('japanesquery codictatorship')
+'Deze tekst is te lang'
+>>> TeLangeTekst('t')
+'Deze tekst is kort genoeg'

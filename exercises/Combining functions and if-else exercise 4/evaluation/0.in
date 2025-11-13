@@ -1,0 +1,8 @@
+>>> TeLangeTekst('Hallo')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('Hallo wereld')
+'Deze tekst is te lang'
+>>> TeLangeTekst('Dodona')
+'Deze tekst is kort genoeg'
+>>> TeLangeTekst('abcdefghij')
+'Deze tekst is kort genoeg'
