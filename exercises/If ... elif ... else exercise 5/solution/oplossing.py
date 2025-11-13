@@ -1,0 +1,8 @@
+groep_grootte = 7
+
+if groep_grootte > 10:
+    korting_procent = 20
+elif groep_grootte > 5:
+    korting_procent = 10
+else:
+    korting_procent = 0

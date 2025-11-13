@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "Als ... anders als ... anders (oefening 5)"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "labels": [],
+  "internals": {
+    "token": "PbJcNSBpJEQgxNjIEDeKGsC6Ug-BuJmmxUNU8qkEzvS-JqtQJ5ZNE6Vx8f2ZG5_e",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
