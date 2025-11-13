@@ -46,7 +46,7 @@ De <code>elif</code> staat hier voor <i>else if</i>, ofwel <i>anders als</i>. Da
 <br>
 <hr>
 
-<details markdown="1"><summary><b>Voorbeeld 1:</b></summary>
+<details markdown="1"><summary><b>Voorbeeld 1: de <code>if</code>-statement wordt uitgevoerd</b></summary>
 
 ```python
 procent_op_toets_behaald = 80
@@ -71,7 +71,7 @@ Wat gebeurt er hier?
 
 </details>
 
-<details markdown="1"><summary><b>Voorbeeld 2:</b></summary>
+<details markdown="1"><summary><b>Voorbeeld 2: de <code>elif</code>-statement wordt uitgevoerd</b></summary>
 
 ```python
 procent_op_toets_behaald = 50
@@ -98,7 +98,7 @@ Wat gebeurt er hier?
 
 </details>
 
-<details markdown="1"><summary><b>Voorbeeld 3:</b></summary>
+<details markdown="1"><summary><b>Voorbeeld 3: de <code>else</code>-statement wordt uitgevoerd</b></summary>
 
 ```python
 procent_op_toets_behaald = 30

@@ -41,10 +41,9 @@ Dat doet je met een <code>if...elif...else</code>-statement.
 
 De <code>elif</code> staat hier voor <i>else if</i>, ofwel <i>anders als</i>. Dat wil zeggen: als er niet aan de eerste voorwaarde voldaan wordt, zal er gekeken worden naar een tweede voorwaarde. Verder werkt de <code>if...elif...else</code>-statement hetzelfde als een <code>if...else</code>-statement.
 
-<br>
-<hr>
+Hieronder staan meerdere voorbeelden. Voorbeelden 1 en 3 zijn gelijkaardig aan wat je al kent van de <code>if...else</code>-statements. Voorbeeld 2 toont de nieuwe situatie met de <code>elif</code>-statement het beste.
 
-<details markdown="1"><summary><b>Voorbeeld 1:</b></summary>
+<details markdown="1"><summary><b>Voorbeeld 1: de <code>if</code>-statement wordt uitgevoerd</b></summary>
 
 ```python
 procent_op_toets_behaald = 80
@@ -69,7 +68,7 @@ Wat gebeurt er hier?
 
 </details>
 
-## <b>Voorbeeld 2:</b>
+<details markdown="1"><summary><b>Voorbeeld 2: de <code>elif</code>-statement wordt uitgevoerd</b></summary>
 
 ```python
 procent_op_toets_behaald = 50
@@ -94,9 +93,9 @@ Wat gebeurt er hier?
   <li>Na de <code>if...elif...else</code> is de waarde van <code>bericht</code> dus <code>"Oei, je hebt het echt op het nippertje gehaald, gefeliciteerd!"</code>.</li>
 </ol>
 
-<br>
+</details>
 
-<details markdown="1"><summary><b>Voorbeeld 3:</b></summary>
+<details markdown="1"><summary><b>Voorbeeld 3: de <code>else</code>-statement wordt uitgevoerd</b></summary>
 
 ```python
 procent_op_toets_behaald = 30
