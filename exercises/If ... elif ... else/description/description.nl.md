@@ -46,14 +46,16 @@ De <code>elif</code> staat hier voor <i>else if</i>, ofwel <i>anders als</i>. Da
 
 ## <b>Voorbeeld 1:</b>
 
-<pre><code>procent_op_toets_behaald = 80
+```python
+procent_op_toets_behaald = 80
 
 if procent_op_toets_behaald >= 50:
     bericht = "Gefeliciteerd, je bent geslaagd voor je toets!"
 elif procent_op_toets_behaald == 50:
     bericht = "Oei, je hebt het echt op het nippertje gehaald, gefeliciteerd!"
 else:
-    bericht = "Sorry, volgende keer beter."</code></pre>
+    bericht = "Sorry, volgende keer beter."
+```
 
 Wat gebeurt er hier?
 
@@ -69,14 +71,16 @@ Wat gebeurt er hier?
 
 ## <b>Voorbeeld 2:</b>
 
-<pre><code>procent_op_toets_behaald = 50
+```python
+procent_op_toets_behaald = 50
 
 if procent_op_toets_behaald > 50:
     bericht = "Gefeliciteerd, je bent geslaagd voor je toets!"
 elif procent_op_toets_behaald == 50:
     bericht = "Oei, je hebt het echt op het nippertje gehaald, gefeliciteerd!"
 else:
-    bericht = "Sorry, volgende keer beter."</code></pre>
+    bericht = "Sorry, volgende keer beter."
+```
 
 Wat gebeurt er hier?
 
@@ -94,14 +98,16 @@ Wat gebeurt er hier?
 
 ## <b>Voorbeeld 3:</b>
 
-<pre><code>procent_op_toets_behaald = 30
+```python
+procent_op_toets_behaald = 30
 
 if procent_op_toets_behaald > 50:
     bericht = "Gefeliciteerd, je bent geslaagd voor je toets!"
 elif procent_op_toets_behaald == 50:
     bericht = "Oei, je hebt het echt op het nippertje gehaald, gefeliciteerd!"
 else:
-    bericht = "Sorry, volgende keer beter."</code></pre>
+    bericht = "Sorry, volgende keer beter."
+```
 
 Wat gebeurt er hier?
 
@@ -121,13 +127,15 @@ Wat gebeurt er hier?
 # <b>Opdracht</b>
 Vervang de <b>underscores</b> (<code>____</code>) in de code zodat het bericht aan het einde van het programma <code>Gefeliciteerd, je bent geslaagd voor je toets!</code> is:
 
-<pre><code>procent_op_toets_behaald = ___
+```python
+procent_op_toets_behaald = ___
 
 if procent_op_toets_behaald > 50:
     bericht = "Gefeliciteerd, je bent geslaagd voor je toets!"
 elif procent_op_toets_behaald == 50:
     bericht = "Oei, je hebt het echt op het nippertje gehaald, gefeliciteerd!"
 else:
-    bericht = "Sorry, volgende keer beter."</code></pre>
+    bericht = "Sorry, volgende keer beter."
+```
 
 De rest van de code mag je niet veranderen.
