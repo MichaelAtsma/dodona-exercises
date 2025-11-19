@@ -1,0 +1,602 @@
+>>> TemperatuurBeschrijving(-5.0)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-4.9)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-4.8)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-4.7)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-4.6)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-4.5)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-4.4)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-4.3)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-4.2)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-4.1)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-4.0)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-3.9)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-3.8)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-3.7)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-3.6)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-3.5)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-3.4)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-3.3)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-3.2)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-3.1)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-3.0)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-2.9)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-2.8)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-2.7)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-2.6)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-2.5)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-2.4)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-2.3)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-2.2)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-2.1)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-2.0)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-1.9)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-1.8)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-1.7)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-1.6)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-1.5)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-1.4)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-1.3)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-1.2)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-1.1)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-1.0)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-0.9)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-0.8)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-0.7)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-0.6)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-0.5)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-0.4)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-0.3)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-0.2)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(-0.1)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(0.0)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(0.1)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(0.2)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(0.3)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(0.4)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(0.5)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(0.6)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(0.7)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(0.8)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(0.9)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(1.0)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(1.1)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(1.2)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(1.3)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(1.4)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(1.5)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(1.6)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(1.7)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(1.8)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(1.9)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(2.0)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(2.1)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(2.2)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(2.3)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(2.4)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(2.5)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(2.6)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(2.7)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(2.8)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(2.9)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(3.0)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(3.1)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(3.2)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(3.3)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(3.4)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(3.5)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(3.6)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(3.7)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(3.8)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(3.9)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(4.0)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(4.1)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(4.2)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(4.3)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(4.4)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(4.5)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(4.6)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(4.7)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(4.8)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(4.9)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(5.0)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(5.1)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(5.2)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(5.3)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(5.4)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(5.5)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(5.6)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(5.7)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(5.8)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(5.9)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(6.0)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(6.1)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(6.2)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(6.3)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(6.4)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(6.5)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(6.6)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(6.7)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(6.8)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(6.9)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(7.0)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(7.1)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(7.2)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(7.3)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(7.4)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(7.5)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(7.6)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(7.7)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(7.8)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(7.9)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(8.0)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(8.1)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(8.2)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(8.3)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(8.4)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(8.5)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(8.6)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(8.7)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(8.8)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(8.9)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(9.0)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(9.1)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(9.2)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(9.3)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(9.4)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(9.5)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(9.6)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(9.7)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(9.8)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(9.9)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(10.0)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(10.1)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(10.2)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(10.3)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(10.4)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(10.5)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(10.6)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(10.7)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(10.8)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(10.9)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(11.0)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(11.1)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(11.2)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(11.3)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(11.4)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(11.5)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(11.6)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(11.7)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(11.8)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(11.9)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(12.0)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(12.1)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(12.2)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(12.3)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(12.4)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(12.5)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(12.6)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(12.7)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(12.8)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(12.9)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(13.0)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(13.1)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(13.2)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(13.3)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(13.4)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(13.5)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(13.6)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(13.7)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(13.8)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(13.9)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(14.0)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(14.1)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(14.2)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(14.3)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(14.4)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(14.5)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(14.6)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(14.7)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(14.8)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(14.9)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(15.0)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(15.1)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(15.2)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(15.3)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(15.4)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(15.5)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(15.6)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(15.7)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(15.8)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(15.9)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(16.0)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(16.1)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(16.2)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(16.3)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(16.4)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(16.5)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(16.6)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(16.7)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(16.8)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(16.9)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(17.0)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(17.1)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(17.2)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(17.3)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(17.4)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(17.5)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(17.6)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(17.7)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(17.8)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(17.9)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(18.0)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(18.1)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(18.2)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(18.3)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(18.4)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(18.5)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(18.6)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(18.7)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(18.8)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(18.9)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(19.0)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(19.1)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(19.2)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(19.3)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(19.4)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(19.5)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(19.6)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(19.7)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(19.8)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(19.9)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(20.0)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(20.1)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(20.2)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(20.3)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(20.4)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(20.5)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(20.6)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(20.7)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(20.8)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(20.9)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(21.0)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(21.1)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(21.2)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(21.3)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(21.4)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(21.5)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(21.6)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(21.7)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(21.8)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(21.9)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(22.0)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(22.1)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(22.2)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(22.3)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(22.4)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(22.5)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(22.6)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(22.7)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(22.8)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(22.9)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(23.0)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(23.1)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(23.2)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(23.3)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(23.4)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(23.5)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(23.6)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(23.7)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(23.8)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(23.9)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(24.0)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(24.1)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(24.2)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(24.3)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(24.4)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(24.5)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(24.6)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(24.7)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(24.8)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(24.9)
+'Het is warm buiten.'
+>>> TemperatuurBeschrijving(25.0)
+'Het is warm buiten.'

@@ -1,0 +1,10 @@
+>>> TemperatuurBeschrijving(5)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(10)
+'Het is koud buiten.'
+>>> TemperatuurBeschrijving(15)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(18)
+'Het is gemiddeld buiten.'
+>>> TemperatuurBeschrijving(20)
+'Het is warm buiten.'

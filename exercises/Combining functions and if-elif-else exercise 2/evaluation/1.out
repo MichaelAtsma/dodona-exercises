@@ -1,0 +1,5 @@
+--------------------------------------------------
+tab name: Bulk test
+<LANGUAGE code="en">
+    <function from="TemperatuurBeschrijving" to="TemperatureDescription" />
+</LANGUAGE>
