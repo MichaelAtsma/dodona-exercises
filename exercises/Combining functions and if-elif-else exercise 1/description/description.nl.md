@@ -81,20 +81,24 @@ def PositiefOfNegatief(x):
   <thead>
     <tr>
       <th>Invoer</th>
+      <th>→</th>
       <th>Verwachte uitvoer</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><function name="PositiefOfNegatief" inputs="5"></function></td>
+      <td>→</td>
       <td><code>"Dit getal is positief"</code></td>
     </tr>
     <tr>
       <td><function name="PositiefOfNegatief" inputs="-3"></function></td>
+      <td>→</td>
       <td><code>"Dit getal is negatief"</code></td>
     </tr>
     <tr>
       <td><function name="PositiefOfNegatief" inputs="0"></function></td>
+      <td>→</td>
       <td><code>"Dit is het neutrale getal 0"</code></td>
     </tr>
   </tbody>
@@ -121,24 +125,29 @@ def Grootste(x, y):
   <thead>
     <tr>
       <th>Invoer</th>
+      <th>→</th>
       <th>Verwachte uitvoer</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><function name="Grootste" inputs="5,8"></function></td>
+      <td>→</td>
       <td><code>8</code></td>
     </tr>
     <tr>
       <td><function name="Grootste" inputs="1,-20"></function></td>
+      <td>→</td>
       <td><code>1</code></td>
     </tr>
     <tr>
       <td><function name="Grootste" inputs="100,7"></function></td>
+      <td>→</td>
       <td><code>100</code></td>
     </tr>
     <tr>
       <td><function name="Grootste" inputs="9,9"></function></td>
+      <td>→</td>
       <td><code>"De getallen zijn even groot."</code></td>
     </tr>
   </tbody>
@@ -160,24 +169,29 @@ Maak een functie genaamd <function name="Kleinste"></function> die twee getallen
   <thead>
     <tr>
       <th>Invoer</th>
+      <th>→</th>
       <th>Verwachte uitvoer</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><function name="Kleinste" inputs="5,8"></function></td>
+      <td>→</td>
       <td><code>5</code></td>
     </tr>
     <tr>
       <td><function name="Kleinste" inputs="1,-20"></function></td>
+      <td>→</td>
       <td><code>-20</code></td>
     </tr>
     <tr>
       <td><function name="Kleinste" inputs="100,7"></function></td>
+      <td>→</td>
       <td><code>7</code></td>
     </tr>
     <tr>
       <td><function name="Kleinste" inputs="9,9"></function></td>
+      <td>→</td>
       <td><code>"De getallen zijn even klein."</code></td>
     </tr>
   </tbody>
