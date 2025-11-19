@@ -1,0 +1,8 @@
+>>> Kleinste(5, 8)
+5
+>>> Kleinste(1, -20)
+-20
+>>> Kleinste(100, 7)
+7
+>>> Kleinste(9, 9)
+'De getallen zijn even klein.'
