@@ -129,7 +129,7 @@ def PositiefOfNegatief(x):
     return tekst
 ```
 
-<i>Let nog altijd goed op de inspringingen (spaties aan het begin van de regel).</i>
+<i>Let nog altijd goed op de inspringingen (spaties aan het begin van de regel). Deze moeten goed met elkaar overeenkomen en correct aangeven waar de instructie bij hoort.</i>
 
 Wanneer iemand deze functie gebruikt, kan die zelf kiezen welke waarde voor <code>x</code> die als invoer geeft. Als iemand bijvoorbeeld <code>5</code> als invoer geeft door <function name="PositiefOfNegatief" inputs="5"></function> te typen, dan krijgt die als resultaat <code>"Dit getal is positief"</code> terug.
 
