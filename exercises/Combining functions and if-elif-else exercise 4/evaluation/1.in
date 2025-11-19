@@ -1,0 +1,502 @@
+>>> Prijscategorie(0.0)
+'Goedkoop'
+>>> Prijscategorie(0.1)
+'Goedkoop'
+>>> Prijscategorie(0.2)
+'Goedkoop'
+>>> Prijscategorie(0.3)
+'Goedkoop'
+>>> Prijscategorie(0.4)
+'Goedkoop'
+>>> Prijscategorie(0.5)
+'Goedkoop'
+>>> Prijscategorie(0.6)
+'Goedkoop'
+>>> Prijscategorie(0.7)
+'Goedkoop'
+>>> Prijscategorie(0.8)
+'Goedkoop'
+>>> Prijscategorie(0.9)
+'Goedkoop'
+>>> Prijscategorie(1.0)
+'Goedkoop'
+>>> Prijscategorie(1.1)
+'Goedkoop'
+>>> Prijscategorie(1.2)
+'Goedkoop'
+>>> Prijscategorie(1.3)
+'Goedkoop'
+>>> Prijscategorie(1.4)
+'Goedkoop'
+>>> Prijscategorie(1.5)
+'Goedkoop'
+>>> Prijscategorie(1.6)
+'Goedkoop'
+>>> Prijscategorie(1.7)
+'Goedkoop'
+>>> Prijscategorie(1.8)
+'Goedkoop'
+>>> Prijscategorie(1.9)
+'Goedkoop'
+>>> Prijscategorie(2.0)
+'Goedkoop'
+>>> Prijscategorie(2.1)
+'Goedkoop'
+>>> Prijscategorie(2.2)
+'Goedkoop'
+>>> Prijscategorie(2.3)
+'Goedkoop'
+>>> Prijscategorie(2.4)
+'Goedkoop'
+>>> Prijscategorie(2.5)
+'Goedkoop'
+>>> Prijscategorie(2.6)
+'Goedkoop'
+>>> Prijscategorie(2.7)
+'Goedkoop'
+>>> Prijscategorie(2.8)
+'Goedkoop'
+>>> Prijscategorie(2.9)
+'Goedkoop'
+>>> Prijscategorie(3.0)
+'Goedkoop'
+>>> Prijscategorie(3.1)
+'Goedkoop'
+>>> Prijscategorie(3.2)
+'Goedkoop'
+>>> Prijscategorie(3.3)
+'Goedkoop'
+>>> Prijscategorie(3.4)
+'Goedkoop'
+>>> Prijscategorie(3.5)
+'Goedkoop'
+>>> Prijscategorie(3.6)
+'Goedkoop'
+>>> Prijscategorie(3.7)
+'Goedkoop'
+>>> Prijscategorie(3.8)
+'Goedkoop'
+>>> Prijscategorie(3.9)
+'Goedkoop'
+>>> Prijscategorie(4.0)
+'Goedkoop'
+>>> Prijscategorie(4.1)
+'Goedkoop'
+>>> Prijscategorie(4.2)
+'Goedkoop'
+>>> Prijscategorie(4.3)
+'Goedkoop'
+>>> Prijscategorie(4.4)
+'Goedkoop'
+>>> Prijscategorie(4.5)
+'Goedkoop'
+>>> Prijscategorie(4.6)
+'Goedkoop'
+>>> Prijscategorie(4.7)
+'Goedkoop'
+>>> Prijscategorie(4.8)
+'Goedkoop'
+>>> Prijscategorie(4.9)
+'Goedkoop'
+>>> Prijscategorie(5.0)
+'Normaal'
+>>> Prijscategorie(5.1)
+'Normaal'
+>>> Prijscategorie(5.2)
+'Normaal'
+>>> Prijscategorie(5.3)
+'Normaal'
+>>> Prijscategorie(5.4)
+'Normaal'
+>>> Prijscategorie(5.5)
+'Normaal'
+>>> Prijscategorie(5.6)
+'Normaal'
+>>> Prijscategorie(5.7)
+'Normaal'
+>>> Prijscategorie(5.8)
+'Normaal'
+>>> Prijscategorie(5.9)
+'Normaal'
+>>> Prijscategorie(6.0)
+'Normaal'
+>>> Prijscategorie(6.1)
+'Normaal'
+>>> Prijscategorie(6.2)
+'Normaal'
+>>> Prijscategorie(6.3)
+'Normaal'
+>>> Prijscategorie(6.4)
+'Normaal'
+>>> Prijscategorie(6.5)
+'Normaal'
+>>> Prijscategorie(6.6)
+'Normaal'
+>>> Prijscategorie(6.7)
+'Normaal'
+>>> Prijscategorie(6.8)
+'Normaal'
+>>> Prijscategorie(6.9)
+'Normaal'
+>>> Prijscategorie(7.0)
+'Normaal'
+>>> Prijscategorie(7.1)
+'Normaal'
+>>> Prijscategorie(7.2)
+'Normaal'
+>>> Prijscategorie(7.3)
+'Normaal'
+>>> Prijscategorie(7.4)
+'Normaal'
+>>> Prijscategorie(7.5)
+'Normaal'
+>>> Prijscategorie(7.6)
+'Normaal'
+>>> Prijscategorie(7.7)
+'Normaal'
+>>> Prijscategorie(7.8)
+'Normaal'
+>>> Prijscategorie(7.9)
+'Normaal'
+>>> Prijscategorie(8.0)
+'Normaal'
+>>> Prijscategorie(8.1)
+'Normaal'
+>>> Prijscategorie(8.2)
+'Normaal'
+>>> Prijscategorie(8.3)
+'Normaal'
+>>> Prijscategorie(8.4)
+'Normaal'
+>>> Prijscategorie(8.5)
+'Normaal'
+>>> Prijscategorie(8.6)
+'Normaal'
+>>> Prijscategorie(8.7)
+'Normaal'
+>>> Prijscategorie(8.8)
+'Normaal'
+>>> Prijscategorie(8.9)
+'Normaal'
+>>> Prijscategorie(9.0)
+'Normaal'
+>>> Prijscategorie(9.1)
+'Normaal'
+>>> Prijscategorie(9.2)
+'Normaal'
+>>> Prijscategorie(9.3)
+'Normaal'
+>>> Prijscategorie(9.4)
+'Normaal'
+>>> Prijscategorie(9.5)
+'Normaal'
+>>> Prijscategorie(9.6)
+'Normaal'
+>>> Prijscategorie(9.7)
+'Normaal'
+>>> Prijscategorie(9.8)
+'Normaal'
+>>> Prijscategorie(9.9)
+'Normaal'
+>>> Prijscategorie(10.0)
+'Normaal'
+>>> Prijscategorie(10.1)
+'Normaal'
+>>> Prijscategorie(10.2)
+'Normaal'
+>>> Prijscategorie(10.3)
+'Normaal'
+>>> Prijscategorie(10.4)
+'Normaal'
+>>> Prijscategorie(10.5)
+'Normaal'
+>>> Prijscategorie(10.6)
+'Normaal'
+>>> Prijscategorie(10.7)
+'Normaal'
+>>> Prijscategorie(10.8)
+'Normaal'
+>>> Prijscategorie(10.9)
+'Normaal'
+>>> Prijscategorie(11.0)
+'Normaal'
+>>> Prijscategorie(11.1)
+'Normaal'
+>>> Prijscategorie(11.2)
+'Normaal'
+>>> Prijscategorie(11.3)
+'Normaal'
+>>> Prijscategorie(11.4)
+'Normaal'
+>>> Prijscategorie(11.5)
+'Normaal'
+>>> Prijscategorie(11.6)
+'Normaal'
+>>> Prijscategorie(11.7)
+'Normaal'
+>>> Prijscategorie(11.8)
+'Normaal'
+>>> Prijscategorie(11.9)
+'Normaal'
+>>> Prijscategorie(12.0)
+'Normaal'
+>>> Prijscategorie(12.1)
+'Normaal'
+>>> Prijscategorie(12.2)
+'Normaal'
+>>> Prijscategorie(12.3)
+'Normaal'
+>>> Prijscategorie(12.4)
+'Normaal'
+>>> Prijscategorie(12.5)
+'Normaal'
+>>> Prijscategorie(12.6)
+'Normaal'
+>>> Prijscategorie(12.7)
+'Normaal'
+>>> Prijscategorie(12.8)
+'Normaal'
+>>> Prijscategorie(12.9)
+'Normaal'
+>>> Prijscategorie(13.0)
+'Normaal'
+>>> Prijscategorie(13.1)
+'Normaal'
+>>> Prijscategorie(13.2)
+'Normaal'
+>>> Prijscategorie(13.3)
+'Normaal'
+>>> Prijscategorie(13.4)
+'Normaal'
+>>> Prijscategorie(13.5)
+'Normaal'
+>>> Prijscategorie(13.6)
+'Normaal'
+>>> Prijscategorie(13.7)
+'Normaal'
+>>> Prijscategorie(13.8)
+'Normaal'
+>>> Prijscategorie(13.9)
+'Normaal'
+>>> Prijscategorie(14.0)
+'Normaal'
+>>> Prijscategorie(14.1)
+'Normaal'
+>>> Prijscategorie(14.2)
+'Normaal'
+>>> Prijscategorie(14.3)
+'Normaal'
+>>> Prijscategorie(14.4)
+'Normaal'
+>>> Prijscategorie(14.5)
+'Normaal'
+>>> Prijscategorie(14.6)
+'Normaal'
+>>> Prijscategorie(14.7)
+'Normaal'
+>>> Prijscategorie(14.8)
+'Normaal'
+>>> Prijscategorie(14.9)
+'Normaal'
+>>> Prijscategorie(15.0)
+'Normaal'
+>>> Prijscategorie(15.1)
+'Duur'
+>>> Prijscategorie(15.2)
+'Duur'
+>>> Prijscategorie(15.3)
+'Duur'
+>>> Prijscategorie(15.4)
+'Duur'
+>>> Prijscategorie(15.5)
+'Duur'
+>>> Prijscategorie(15.6)
+'Duur'
+>>> Prijscategorie(15.7)
+'Duur'
+>>> Prijscategorie(15.8)
+'Duur'
+>>> Prijscategorie(15.9)
+'Duur'
+>>> Prijscategorie(16.0)
+'Duur'
+>>> Prijscategorie(16.1)
+'Duur'
+>>> Prijscategorie(16.2)
+'Duur'
+>>> Prijscategorie(16.3)
+'Duur'
+>>> Prijscategorie(16.4)
+'Duur'
+>>> Prijscategorie(16.5)
+'Duur'
+>>> Prijscategorie(16.6)
+'Duur'
+>>> Prijscategorie(16.7)
+'Duur'
+>>> Prijscategorie(16.8)
+'Duur'
+>>> Prijscategorie(16.9)
+'Duur'
+>>> Prijscategorie(17.0)
+'Duur'
+>>> Prijscategorie(17.1)
+'Duur'
+>>> Prijscategorie(17.2)
+'Duur'
+>>> Prijscategorie(17.3)
+'Duur'
+>>> Prijscategorie(17.4)
+'Duur'
+>>> Prijscategorie(17.5)
+'Duur'
+>>> Prijscategorie(17.6)
+'Duur'
+>>> Prijscategorie(17.7)
+'Duur'
+>>> Prijscategorie(17.8)
+'Duur'
+>>> Prijscategorie(17.9)
+'Duur'
+>>> Prijscategorie(18.0)
+'Duur'
+>>> Prijscategorie(18.1)
+'Duur'
+>>> Prijscategorie(18.2)
+'Duur'
+>>> Prijscategorie(18.3)
+'Duur'
+>>> Prijscategorie(18.4)
+'Duur'
+>>> Prijscategorie(18.5)
+'Duur'
+>>> Prijscategorie(18.6)
+'Duur'
+>>> Prijscategorie(18.7)
+'Duur'
+>>> Prijscategorie(18.8)
+'Duur'
+>>> Prijscategorie(18.9)
+'Duur'
+>>> Prijscategorie(19.0)
+'Duur'
+>>> Prijscategorie(19.1)
+'Duur'
+>>> Prijscategorie(19.2)
+'Duur'
+>>> Prijscategorie(19.3)
+'Duur'
+>>> Prijscategorie(19.4)
+'Duur'
+>>> Prijscategorie(19.5)
+'Duur'
+>>> Prijscategorie(19.6)
+'Duur'
+>>> Prijscategorie(19.7)
+'Duur'
+>>> Prijscategorie(19.8)
+'Duur'
+>>> Prijscategorie(19.9)
+'Duur'
+>>> Prijscategorie(20.0)
+'Duur'
+>>> Prijscategorie(20.1)
+'Duur'
+>>> Prijscategorie(20.2)
+'Duur'
+>>> Prijscategorie(20.3)
+'Duur'
+>>> Prijscategorie(20.4)
+'Duur'
+>>> Prijscategorie(20.5)
+'Duur'
+>>> Prijscategorie(20.6)
+'Duur'
+>>> Prijscategorie(20.7)
+'Duur'
+>>> Prijscategorie(20.8)
+'Duur'
+>>> Prijscategorie(20.9)
+'Duur'
+>>> Prijscategorie(21.0)
+'Duur'
+>>> Prijscategorie(21.1)
+'Duur'
+>>> Prijscategorie(21.2)
+'Duur'
+>>> Prijscategorie(21.3)
+'Duur'
+>>> Prijscategorie(21.4)
+'Duur'
+>>> Prijscategorie(21.5)
+'Duur'
+>>> Prijscategorie(21.6)
+'Duur'
+>>> Prijscategorie(21.7)
+'Duur'
+>>> Prijscategorie(21.8)
+'Duur'
+>>> Prijscategorie(21.9)
+'Duur'
+>>> Prijscategorie(22.0)
+'Duur'
+>>> Prijscategorie(22.1)
+'Duur'
+>>> Prijscategorie(22.2)
+'Duur'
+>>> Prijscategorie(22.3)
+'Duur'
+>>> Prijscategorie(22.4)
+'Duur'
+>>> Prijscategorie(22.5)
+'Duur'
+>>> Prijscategorie(22.6)
+'Duur'
+>>> Prijscategorie(22.7)
+'Duur'
+>>> Prijscategorie(22.8)
+'Duur'
+>>> Prijscategorie(22.9)
+'Duur'
+>>> Prijscategorie(23.0)
+'Duur'
+>>> Prijscategorie(23.1)
+'Duur'
+>>> Prijscategorie(23.2)
+'Duur'
+>>> Prijscategorie(23.3)
+'Duur'
+>>> Prijscategorie(23.4)
+'Duur'
+>>> Prijscategorie(23.5)
+'Duur'
+>>> Prijscategorie(23.6)
+'Duur'
+>>> Prijscategorie(23.7)
+'Duur'
+>>> Prijscategorie(23.8)
+'Duur'
+>>> Prijscategorie(23.9)
+'Duur'
+>>> Prijscategorie(24.0)
+'Duur'
+>>> Prijscategorie(24.1)
+'Duur'
+>>> Prijscategorie(24.2)
+'Duur'
+>>> Prijscategorie(24.3)
+'Duur'
+>>> Prijscategorie(24.4)
+'Duur'
+>>> Prijscategorie(24.5)
+'Duur'
+>>> Prijscategorie(24.6)
+'Duur'
+>>> Prijscategorie(24.7)
+'Duur'
+>>> Prijscategorie(24.8)
+'Duur'
+>>> Prijscategorie(24.9)
+'Duur'
+>>> Prijscategorie(25.0)
+'Duur'
