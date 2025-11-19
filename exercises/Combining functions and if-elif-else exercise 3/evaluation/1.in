@@ -1,0 +1,502 @@
+>>> Leeftijdgroep(0.0)
+'Kind'
+>>> Leeftijdgroep(0.1)
+'Kind'
+>>> Leeftijdgroep(0.2)
+'Kind'
+>>> Leeftijdgroep(0.3)
+'Kind'
+>>> Leeftijdgroep(0.4)
+'Kind'
+>>> Leeftijdgroep(0.5)
+'Kind'
+>>> Leeftijdgroep(0.6)
+'Kind'
+>>> Leeftijdgroep(0.7)
+'Kind'
+>>> Leeftijdgroep(0.8)
+'Kind'
+>>> Leeftijdgroep(0.9)
+'Kind'
+>>> Leeftijdgroep(1.0)
+'Kind'
+>>> Leeftijdgroep(1.1)
+'Kind'
+>>> Leeftijdgroep(1.2)
+'Kind'
+>>> Leeftijdgroep(1.3)
+'Kind'
+>>> Leeftijdgroep(1.4)
+'Kind'
+>>> Leeftijdgroep(1.5)
+'Kind'
+>>> Leeftijdgroep(1.6)
+'Kind'
+>>> Leeftijdgroep(1.7)
+'Kind'
+>>> Leeftijdgroep(1.8)
+'Kind'
+>>> Leeftijdgroep(1.9)
+'Kind'
+>>> Leeftijdgroep(2.0)
+'Kind'
+>>> Leeftijdgroep(2.1)
+'Kind'
+>>> Leeftijdgroep(2.2)
+'Kind'
+>>> Leeftijdgroep(2.3)
+'Kind'
+>>> Leeftijdgroep(2.4)
+'Kind'
+>>> Leeftijdgroep(2.5)
+'Kind'
+>>> Leeftijdgroep(2.6)
+'Kind'
+>>> Leeftijdgroep(2.7)
+'Kind'
+>>> Leeftijdgroep(2.8)
+'Kind'
+>>> Leeftijdgroep(2.9)
+'Kind'
+>>> Leeftijdgroep(3.0)
+'Kind'
+>>> Leeftijdgroep(3.1)
+'Kind'
+>>> Leeftijdgroep(3.2)
+'Kind'
+>>> Leeftijdgroep(3.3)
+'Kind'
+>>> Leeftijdgroep(3.4)
+'Kind'
+>>> Leeftijdgroep(3.5)
+'Kind'
+>>> Leeftijdgroep(3.6)
+'Kind'
+>>> Leeftijdgroep(3.7)
+'Kind'
+>>> Leeftijdgroep(3.8)
+'Kind'
+>>> Leeftijdgroep(3.9)
+'Kind'
+>>> Leeftijdgroep(4.0)
+'Kind'
+>>> Leeftijdgroep(4.1)
+'Kind'
+>>> Leeftijdgroep(4.2)
+'Kind'
+>>> Leeftijdgroep(4.3)
+'Kind'
+>>> Leeftijdgroep(4.4)
+'Kind'
+>>> Leeftijdgroep(4.5)
+'Kind'
+>>> Leeftijdgroep(4.6)
+'Kind'
+>>> Leeftijdgroep(4.7)
+'Kind'
+>>> Leeftijdgroep(4.8)
+'Kind'
+>>> Leeftijdgroep(4.9)
+'Kind'
+>>> Leeftijdgroep(5.0)
+'Kind'
+>>> Leeftijdgroep(5.1)
+'Kind'
+>>> Leeftijdgroep(5.2)
+'Kind'
+>>> Leeftijdgroep(5.3)
+'Kind'
+>>> Leeftijdgroep(5.4)
+'Kind'
+>>> Leeftijdgroep(5.5)
+'Kind'
+>>> Leeftijdgroep(5.6)
+'Kind'
+>>> Leeftijdgroep(5.7)
+'Kind'
+>>> Leeftijdgroep(5.8)
+'Kind'
+>>> Leeftijdgroep(5.9)
+'Kind'
+>>> Leeftijdgroep(6.0)
+'Kind'
+>>> Leeftijdgroep(6.1)
+'Kind'
+>>> Leeftijdgroep(6.2)
+'Kind'
+>>> Leeftijdgroep(6.3)
+'Kind'
+>>> Leeftijdgroep(6.4)
+'Kind'
+>>> Leeftijdgroep(6.5)
+'Kind'
+>>> Leeftijdgroep(6.6)
+'Kind'
+>>> Leeftijdgroep(6.7)
+'Kind'
+>>> Leeftijdgroep(6.8)
+'Kind'
+>>> Leeftijdgroep(6.9)
+'Kind'
+>>> Leeftijdgroep(7.0)
+'Kind'
+>>> Leeftijdgroep(7.1)
+'Kind'
+>>> Leeftijdgroep(7.2)
+'Kind'
+>>> Leeftijdgroep(7.3)
+'Kind'
+>>> Leeftijdgroep(7.4)
+'Kind'
+>>> Leeftijdgroep(7.5)
+'Kind'
+>>> Leeftijdgroep(7.6)
+'Kind'
+>>> Leeftijdgroep(7.7)
+'Kind'
+>>> Leeftijdgroep(7.8)
+'Kind'
+>>> Leeftijdgroep(7.9)
+'Kind'
+>>> Leeftijdgroep(8.0)
+'Kind'
+>>> Leeftijdgroep(8.1)
+'Kind'
+>>> Leeftijdgroep(8.2)
+'Kind'
+>>> Leeftijdgroep(8.3)
+'Kind'
+>>> Leeftijdgroep(8.4)
+'Kind'
+>>> Leeftijdgroep(8.5)
+'Kind'
+>>> Leeftijdgroep(8.6)
+'Kind'
+>>> Leeftijdgroep(8.7)
+'Kind'
+>>> Leeftijdgroep(8.8)
+'Kind'
+>>> Leeftijdgroep(8.9)
+'Kind'
+>>> Leeftijdgroep(9.0)
+'Kind'
+>>> Leeftijdgroep(9.1)
+'Kind'
+>>> Leeftijdgroep(9.2)
+'Kind'
+>>> Leeftijdgroep(9.3)
+'Kind'
+>>> Leeftijdgroep(9.4)
+'Kind'
+>>> Leeftijdgroep(9.5)
+'Kind'
+>>> Leeftijdgroep(9.6)
+'Kind'
+>>> Leeftijdgroep(9.7)
+'Kind'
+>>> Leeftijdgroep(9.8)
+'Kind'
+>>> Leeftijdgroep(9.9)
+'Kind'
+>>> Leeftijdgroep(10.0)
+'Kind'
+>>> Leeftijdgroep(10.1)
+'Kind'
+>>> Leeftijdgroep(10.2)
+'Kind'
+>>> Leeftijdgroep(10.3)
+'Kind'
+>>> Leeftijdgroep(10.4)
+'Kind'
+>>> Leeftijdgroep(10.5)
+'Kind'
+>>> Leeftijdgroep(10.6)
+'Kind'
+>>> Leeftijdgroep(10.7)
+'Kind'
+>>> Leeftijdgroep(10.8)
+'Kind'
+>>> Leeftijdgroep(10.9)
+'Kind'
+>>> Leeftijdgroep(11.0)
+'Kind'
+>>> Leeftijdgroep(11.1)
+'Kind'
+>>> Leeftijdgroep(11.2)
+'Kind'
+>>> Leeftijdgroep(11.3)
+'Kind'
+>>> Leeftijdgroep(11.4)
+'Kind'
+>>> Leeftijdgroep(11.5)
+'Kind'
+>>> Leeftijdgroep(11.6)
+'Kind'
+>>> Leeftijdgroep(11.7)
+'Kind'
+>>> Leeftijdgroep(11.8)
+'Kind'
+>>> Leeftijdgroep(11.9)
+'Kind'
+>>> Leeftijdgroep(12.0)
+'Tiener'
+>>> Leeftijdgroep(12.1)
+'Tiener'
+>>> Leeftijdgroep(12.2)
+'Tiener'
+>>> Leeftijdgroep(12.3)
+'Tiener'
+>>> Leeftijdgroep(12.4)
+'Tiener'
+>>> Leeftijdgroep(12.5)
+'Tiener'
+>>> Leeftijdgroep(12.6)
+'Tiener'
+>>> Leeftijdgroep(12.7)
+'Tiener'
+>>> Leeftijdgroep(12.8)
+'Tiener'
+>>> Leeftijdgroep(12.9)
+'Tiener'
+>>> Leeftijdgroep(13.0)
+'Tiener'
+>>> Leeftijdgroep(13.1)
+'Tiener'
+>>> Leeftijdgroep(13.2)
+'Tiener'
+>>> Leeftijdgroep(13.3)
+'Tiener'
+>>> Leeftijdgroep(13.4)
+'Tiener'
+>>> Leeftijdgroep(13.5)
+'Tiener'
+>>> Leeftijdgroep(13.6)
+'Tiener'
+>>> Leeftijdgroep(13.7)
+'Tiener'
+>>> Leeftijdgroep(13.8)
+'Tiener'
+>>> Leeftijdgroep(13.9)
+'Tiener'
+>>> Leeftijdgroep(14.0)
+'Tiener'
+>>> Leeftijdgroep(14.1)
+'Tiener'
+>>> Leeftijdgroep(14.2)
+'Tiener'
+>>> Leeftijdgroep(14.3)
+'Tiener'
+>>> Leeftijdgroep(14.4)
+'Tiener'
+>>> Leeftijdgroep(14.5)
+'Tiener'
+>>> Leeftijdgroep(14.6)
+'Tiener'
+>>> Leeftijdgroep(14.7)
+'Tiener'
+>>> Leeftijdgroep(14.8)
+'Tiener'
+>>> Leeftijdgroep(14.9)
+'Tiener'
+>>> Leeftijdgroep(15.0)
+'Tiener'
+>>> Leeftijdgroep(15.1)
+'Tiener'
+>>> Leeftijdgroep(15.2)
+'Tiener'
+>>> Leeftijdgroep(15.3)
+'Tiener'
+>>> Leeftijdgroep(15.4)
+'Tiener'
+>>> Leeftijdgroep(15.5)
+'Tiener'
+>>> Leeftijdgroep(15.6)
+'Tiener'
+>>> Leeftijdgroep(15.7)
+'Tiener'
+>>> Leeftijdgroep(15.8)
+'Tiener'
+>>> Leeftijdgroep(15.9)
+'Tiener'
+>>> Leeftijdgroep(16.0)
+'Tiener'
+>>> Leeftijdgroep(16.1)
+'Tiener'
+>>> Leeftijdgroep(16.2)
+'Tiener'
+>>> Leeftijdgroep(16.3)
+'Tiener'
+>>> Leeftijdgroep(16.4)
+'Tiener'
+>>> Leeftijdgroep(16.5)
+'Tiener'
+>>> Leeftijdgroep(16.6)
+'Tiener'
+>>> Leeftijdgroep(16.7)
+'Tiener'
+>>> Leeftijdgroep(16.8)
+'Tiener'
+>>> Leeftijdgroep(16.9)
+'Tiener'
+>>> Leeftijdgroep(17.0)
+'Tiener'
+>>> Leeftijdgroep(17.1)
+'Tiener'
+>>> Leeftijdgroep(17.2)
+'Tiener'
+>>> Leeftijdgroep(17.3)
+'Tiener'
+>>> Leeftijdgroep(17.4)
+'Tiener'
+>>> Leeftijdgroep(17.5)
+'Tiener'
+>>> Leeftijdgroep(17.6)
+'Tiener'
+>>> Leeftijdgroep(17.7)
+'Tiener'
+>>> Leeftijdgroep(17.8)
+'Tiener'
+>>> Leeftijdgroep(17.9)
+'Tiener'
+>>> Leeftijdgroep(18.0)
+'Volwassene'
+>>> Leeftijdgroep(18.1)
+'Volwassene'
+>>> Leeftijdgroep(18.2)
+'Volwassene'
+>>> Leeftijdgroep(18.3)
+'Volwassene'
+>>> Leeftijdgroep(18.4)
+'Volwassene'
+>>> Leeftijdgroep(18.5)
+'Volwassene'
+>>> Leeftijdgroep(18.6)
+'Volwassene'
+>>> Leeftijdgroep(18.7)
+'Volwassene'
+>>> Leeftijdgroep(18.8)
+'Volwassene'
+>>> Leeftijdgroep(18.9)
+'Volwassene'
+>>> Leeftijdgroep(19.0)
+'Volwassene'
+>>> Leeftijdgroep(19.1)
+'Volwassene'
+>>> Leeftijdgroep(19.2)
+'Volwassene'
+>>> Leeftijdgroep(19.3)
+'Volwassene'
+>>> Leeftijdgroep(19.4)
+'Volwassene'
+>>> Leeftijdgroep(19.5)
+'Volwassene'
+>>> Leeftijdgroep(19.6)
+'Volwassene'
+>>> Leeftijdgroep(19.7)
+'Volwassene'
+>>> Leeftijdgroep(19.8)
+'Volwassene'
+>>> Leeftijdgroep(19.9)
+'Volwassene'
+>>> Leeftijdgroep(20.0)
+'Volwassene'
+>>> Leeftijdgroep(20.1)
+'Volwassene'
+>>> Leeftijdgroep(20.2)
+'Volwassene'
+>>> Leeftijdgroep(20.3)
+'Volwassene'
+>>> Leeftijdgroep(20.4)
+'Volwassene'
+>>> Leeftijdgroep(20.5)
+'Volwassene'
+>>> Leeftijdgroep(20.6)
+'Volwassene'
+>>> Leeftijdgroep(20.7)
+'Volwassene'
+>>> Leeftijdgroep(20.8)
+'Volwassene'
+>>> Leeftijdgroep(20.9)
+'Volwassene'
+>>> Leeftijdgroep(21.0)
+'Volwassene'
+>>> Leeftijdgroep(21.1)
+'Volwassene'
+>>> Leeftijdgroep(21.2)
+'Volwassene'
+>>> Leeftijdgroep(21.3)
+'Volwassene'
+>>> Leeftijdgroep(21.4)
+'Volwassene'
+>>> Leeftijdgroep(21.5)
+'Volwassene'
+>>> Leeftijdgroep(21.6)
+'Volwassene'
+>>> Leeftijdgroep(21.7)
+'Volwassene'
+>>> Leeftijdgroep(21.8)
+'Volwassene'
+>>> Leeftijdgroep(21.9)
+'Volwassene'
+>>> Leeftijdgroep(22.0)
+'Volwassene'
+>>> Leeftijdgroep(22.1)
+'Volwassene'
+>>> Leeftijdgroep(22.2)
+'Volwassene'
+>>> Leeftijdgroep(22.3)
+'Volwassene'
+>>> Leeftijdgroep(22.4)
+'Volwassene'
+>>> Leeftijdgroep(22.5)
+'Volwassene'
+>>> Leeftijdgroep(22.6)
+'Volwassene'
+>>> Leeftijdgroep(22.7)
+'Volwassene'
+>>> Leeftijdgroep(22.8)
+'Volwassene'
+>>> Leeftijdgroep(22.9)
+'Volwassene'
+>>> Leeftijdgroep(23.0)
+'Volwassene'
+>>> Leeftijdgroep(23.1)
+'Volwassene'
+>>> Leeftijdgroep(23.2)
+'Volwassene'
+>>> Leeftijdgroep(23.3)
+'Volwassene'
+>>> Leeftijdgroep(23.4)
+'Volwassene'
+>>> Leeftijdgroep(23.5)
+'Volwassene'
+>>> Leeftijdgroep(23.6)
+'Volwassene'
+>>> Leeftijdgroep(23.7)
+'Volwassene'
+>>> Leeftijdgroep(23.8)
+'Volwassene'
+>>> Leeftijdgroep(23.9)
+'Volwassene'
+>>> Leeftijdgroep(24.0)
+'Volwassene'
+>>> Leeftijdgroep(24.1)
+'Volwassene'
+>>> Leeftijdgroep(24.2)
+'Volwassene'
+>>> Leeftijdgroep(24.3)
+'Volwassene'
+>>> Leeftijdgroep(24.4)
+'Volwassene'
+>>> Leeftijdgroep(24.5)
+'Volwassene'
+>>> Leeftijdgroep(24.6)
+'Volwassene'
+>>> Leeftijdgroep(24.7)
+'Volwassene'
+>>> Leeftijdgroep(24.8)
+'Volwassene'
+>>> Leeftijdgroep(24.9)
+'Volwassene'
+>>> Leeftijdgroep(25.0)
+'Volwassene'
