@@ -168,9 +168,9 @@ def Grootste(x, y):
 
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="Leeftijdgroep"></function> die één getal als invoer neemt (de leeftijd), en dan een tekst teruggeeft die de leeftijdsgroep beschrijft:
-- Als de leeftijd 18 jaar of meer is, moet de functie de tekst <code>Volwassene</code> teruggeven.
-- Als de leeftijd onder 12 jaar is, moet de functie de tekst <code>Kind</code> teruggeven.
-- Als de leeftijd tussen de 12 (inclusief) en 18 jaar is, moet de functie de tekst <code>Tiener</code> teruggeven.
+- Als de leeftijd 18 jaar of meer is, moet de functie de tekst <code>"Volwassene"</code> teruggeven.
+- Als de leeftijd onder 12 jaar is, moet de functie de tekst <code>"Kind"</code> teruggeven.
+- Als de leeftijd tussen de 12 (inclusief) en 18 jaar is, moet de functie de tekst <code>"Tiener"</code> teruggeven.
 
 <details><summary>input-output verwachtingen</summary>
 <table>
@@ -185,42 +185,42 @@ Maak een functie genaamd <function name="Leeftijdgroep"></function> die één ge
     <tr>
       <td><function name="Leeftijdgroep" inputs="5"></function></td>
       <td style="text-align: center;">→</td>
-      <td><code>Kind</code></td>
+      <td><code>"Kind"</code></td>
     </tr>
     <tr>
       <td><function name="Leeftijdgroep" inputs="11.5"></function></td>
       <td style="text-align: center;">→</td>
-      <td><code>Kind</code></td>
+      <td><code>"Kind"</code></td>
     </tr>
     <tr>
       <td><function name="Leeftijdgroep" inputs="12"></function></td>
       <td style="text-align: center;">→</td>
-      <td><code>Tiener</code></td>
+      <td><code>"Tiener"</code></td>
     </tr>
     <tr>
       <td><function name="Leeftijdgroep" inputs="12.5"></function></td>
       <td style="text-align: center;">→</td>
-      <td><code>Tiener</code></td>
+      <td><code>"Tiener"</code></td>
     </tr>
     <tr>
       <td><function name="Leeftijdgroep" inputs="15"></function></td>
       <td style="text-align: center;">→</td>
-      <td><code>Tiener</code></td>
+      <td><code>"Tiener"</code></td>
     </tr>
     <tr>
       <td><function name="Leeftijdgroep" inputs="17.5"></function></td>
       <td style="text-align: center;">→</td>
-      <td><code>Tiener</code></td>
+      <td><code>"Tiener"</code></td>
     </tr>
     <tr>
       <td><function name="Leeftijdgroep" inputs="18"></function></td>
       <td style="text-align: center;">→</td>
-      <td><code>Volwassene</code></td>
+      <td><code>"Volwassene"</code></td>
     </tr>
     <tr>
       <td><function name="Leeftijdgroep" inputs="20"></function></td>
       <td style="text-align: center;">→</td>
-      <td><code>Volwassene</code></td>
+      <td><code>"Volwassene"</code></td>
     </tr>
   </tbody>
 </table>
