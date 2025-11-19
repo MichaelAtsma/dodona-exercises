@@ -170,7 +170,7 @@ def Grootste(x, y):
 Maak een functie genaamd <function name="Prijscategorie"></function> die één getal als invoer neemt (de prijs), en dan een tekst teruggeeft die de prijscategorie beschrijft:
 - Als de prijs minder dan 5 euro is, moet de functie de tekst <code>"Goedkoop"</code> teruggeven.
 - Als de prijs meer dan 15 euro is, moet de functie de tekst <code>"Duur"</code> teruggeven.
-- Als de prijs tussen 5 (inclusief) en 15 euro is, moet de functie de tekst <code>"Gemiddeld"</code> teruggeven.
+- Als de prijs tussen 5 (inclusief) en 15 (inclusief) euro is, moet de functie de tekst <code>"Normaal"</code> teruggeven.
 
 <details><summary>input-output verwachtingen</summary>
 <table>
