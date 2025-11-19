@@ -1,0 +1,6 @@
+--------------------------------------------------
+tab name: Examples
+<LANGUAGE code="en">
+    <function from="DagType" to="DayType" />
+    <fixed from="Weekdag" to="Week day" />
+</LANGUAGE>
