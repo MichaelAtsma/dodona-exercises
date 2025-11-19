@@ -169,8 +169,8 @@ def Grootste(x, y):
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="TemperatuurBeschrijving"></function> die één getal als invoer neemt (de temperatuur in graden Celcius), en dan een tekst teruggeeft die de temperatuur beschrijft:
 - Als de temperatuur boven 18 graden is, moet de functie de tekst <code>Het is warm buiten.</code> teruggeven.
-- Als de temperatuur boven 10 graden (en dus kleiner dan of gelijk aan 18 graden) is, moet de functie de tekst <code>Het is gemiddeld buiten.</code> teruggeven.
-- Als de temperatuur kleiner of gelijk aan 10 graden is, moet de functie de tekst <code>Het is koud buiten.</code> teruggeven.
+- Als de temperatuur onder 10 graden is, moet de functie de tekst <code>Het is koud buiten.</code> teruggeven.
+- Als de temperatuur van 10 tot en met 18 graden is, moet de functie de tekst <code>Het is gemiddeld buiten.</code> teruggeven.
 
 <details><summary>input-output verwachtingen</summary>
 <table>
@@ -190,7 +190,7 @@ Maak een functie genaamd <function name="TemperatuurBeschrijving"></function> di
     <tr>
       <td><function name="TemperatuurBeschrijving" inputs="10"></function></td>
       <td style="text-align: center;">→</td>
-      <td><code>Het is koud buiten.</code></td>
+      <td><code>Het is gemiddeld buiten.</code></td>
     </tr>
     <tr>
       <td><function name="TemperatuurBeschrijving" inputs="15"></function></td>

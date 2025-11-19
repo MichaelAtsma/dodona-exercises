@@ -299,7 +299,7 @@
 >>> TemperatuurBeschrijving(9.9)
 'Het is koud buiten.'
 >>> TemperatuurBeschrijving(10.0)
-'Het is koud buiten.'
+'Het is gemiddeld buiten.'
 >>> TemperatuurBeschrijving(10.1)
 'Het is gemiddeld buiten.'
 >>> TemperatuurBeschrijving(10.2)
