@@ -87,7 +87,7 @@ def PositiefOfNegatief(x):
     <tr>
       <th>Invoer</th>
       <th class="padding-column">→</th>
-      <th>Verwachte uitvoer</th>
+      <th>Verwachte returnwaarde</th>
     </tr>
   </thead>
   <tbody>
@@ -131,7 +131,7 @@ def Grootste(x, y):
     <tr>
       <th>Invoer</th>
       <th class="padding-column">→</th>
-      <th>Verwachte uitvoer</th>
+      <th>Verwachte returnwaarde</th>
     </tr>
   </thead>
   <tbody>
@@ -175,7 +175,7 @@ Maak een functie genaamd <function name="Kleinste"></function> die twee getallen
     <tr>
       <th>Invoer</th>
       <th class="padding-column">→</th>
-      <th>Verwachte uitvoer</th>
+      <th>Verwachte returnwaarde</th>
     </tr>
   </thead>
   <tbody>

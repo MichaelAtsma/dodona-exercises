@@ -1,7 +1,7 @@
 import os
 
-to_replace = "wordt afgetrokken van het eerste getal"
-replacement = "wordt afgehaald van het eerste getal"
+to_replace = "<th>Verwachte uitvoer</th>"
+replacement = "<th>Verwachte returnwaarde</th>"
 filename_contains = "description"
 root_dir = "exercises"
 
