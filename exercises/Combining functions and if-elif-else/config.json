@@ -1,0 +1,15 @@
+{
+  "description": {
+    "names": {
+      "nl": "Functies en if-elif-else combineren"
+    }
+  },
+  "evaluation": {
+    "pythia_judge": "doctest"
+  },
+  "labels": [],
+  "internals": {
+    "token": "TC2Agiq-NF95ypYqVJ8txxge2rYbWPhJpkA8jThViVb6uyEeu8mf2bkcHBW7GXtK",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
