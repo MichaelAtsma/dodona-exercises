@@ -13,14 +13,14 @@ def PositiefOfNegatief(x):
         tekst = "Dit is het neutrale getal 0"
     return tekst
 
-# X = [5,-3,0]
-X = range(-50, 51)
+X = [5,-3,0]
+# X = range(-50, 51)
 
 result = ""
 for args in itertools.product(X):
     result += f">>> PositiefOfNegatief({', '.join(map(str, args))})\n"
-    result += f"{PositiefOfNegatief(*args)}\n"
+    result += f"{repr(PositiefOfNegatief(*args))}\n"
 
-copy_to_clipboard(result)
+copy_to_clipboard(result.strip())
 print("Copied to clipboard:")
 print(result)

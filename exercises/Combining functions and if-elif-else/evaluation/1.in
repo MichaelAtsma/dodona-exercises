@@ -1,202 +1,202 @@
 >>> PositiefOfNegatief(-50)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-49)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-48)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-47)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-46)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-45)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-44)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-43)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-42)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-41)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-40)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-39)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-38)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-37)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-36)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-35)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-34)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-33)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-32)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-31)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-30)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-29)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-28)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-27)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-26)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-25)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-24)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-23)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-22)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-21)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-20)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-19)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-18)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-17)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-16)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-15)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-14)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-13)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-12)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-11)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-10)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-9)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-8)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-7)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-6)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-5)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-4)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-3)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-2)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(-1)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(0)
-Dit is het neutrale getal 0
+'Dit is het neutrale getal 0'
 >>> PositiefOfNegatief(1)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(2)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(3)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(4)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(5)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(6)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(7)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(8)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(9)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(10)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(11)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(12)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(13)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(14)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(15)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(16)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(17)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(18)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(19)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(20)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(21)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(22)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(23)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(24)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(25)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(26)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(27)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(28)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(29)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(30)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(31)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(32)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(33)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(34)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(35)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(36)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(37)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(38)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(39)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(40)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(41)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(42)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(43)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(44)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(45)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(46)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(47)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(48)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(49)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(50)
-Dit getal is positief
+'Dit getal is positief'

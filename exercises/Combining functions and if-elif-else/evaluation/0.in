@@ -1,6 +1,6 @@
 >>> PositiefOfNegatief(5)
-Dit getal is positief
+'Dit getal is positief'
 >>> PositiefOfNegatief(-3)
-Dit getal is negatief
+'Dit getal is negatief'
 >>> PositiefOfNegatief(0)
-Dit is het neutrale getal 0
+'Dit is het neutrale getal 0'
