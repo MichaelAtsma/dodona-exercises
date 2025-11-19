@@ -1,7 +1,8 @@
 def TemperatuurBeschrijving(temperatuur):
-    if temperatuur < 10:
-        return "Het is koud buiten."
-    elif temperatuur > 18:
-        return "Het is warm buiten."
+    if temperatuur > 18:
+        tekst = "Het is warm buiten."
+    elif temperatuur < 10:
+        tekst = "Het is koud buiten."
     else:
-        return "Het is gemiddeld buiten."
+        tekst = "Het is gemiddeld buiten."
+    return tekst
