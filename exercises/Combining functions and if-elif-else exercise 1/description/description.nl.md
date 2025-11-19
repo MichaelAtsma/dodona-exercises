@@ -56,6 +56,11 @@
     white-space: nowrap;
   }
 
+  th.padding-column {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .functioninput-int, .functioninput-float { color: red; }
   .functioninput-str { color: green; }
   .function { color: #a17702ff; }
@@ -81,7 +86,7 @@ def PositiefOfNegatief(x):
   <thead>
     <tr>
       <th>Invoer</th>
-      <th>   →   </th>
+      <th class="padding-column">→</th>
       <th>Verwachte uitvoer</th>
     </tr>
   </thead>
@@ -125,7 +130,7 @@ def Grootste(x, y):
   <thead>
     <tr>
       <th>Invoer</th>
-      <th>   →   </th>
+      <th class="padding-column">→</th>
       <th>Verwachte uitvoer</th>
     </tr>
   </thead>
@@ -169,7 +174,7 @@ Maak een functie genaamd <function name="Kleinste"></function> die twee getallen
   <thead>
     <tr>
       <th>Invoer</th>
-      <th style="width: 200px;"></th>
+      <th class="padding-column">→</th>
       <th>Verwachte uitvoer</th>
     </tr>
   </thead>
