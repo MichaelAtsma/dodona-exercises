@@ -141,7 +141,7 @@ Tot slot krijgt iemand die <function name="Grootste" inputs="12,12"></function> 
 <hr>
 
 # <b>Opdracht</b>
-Maak een functie genaamd <function name="Grootste"></function> die twee getallen als invoer neemt, en de grootste teruggeeft. Als de getallen even groot zijn, moet de functie de tekst <code>De getallen zijn even groot</code> teruggeven.
+Maak een functie genaamd <function name="Grootste"></function> die twee getallen als invoer neemt, en de grootste teruggeeft. Als de getallen even groot zijn, moet de functie de tekst <code>De getallen zijn even groot.</code> teruggeven.
 
 <details><summary>Voorbeelden</summary>
 <ul>
