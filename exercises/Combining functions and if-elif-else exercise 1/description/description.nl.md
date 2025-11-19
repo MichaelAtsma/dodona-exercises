@@ -169,7 +169,7 @@ Maak een functie genaamd <function name="Kleinste"></function> die twee getallen
   <thead>
     <tr>
       <th>Invoer</th>
-      <th>testing testing</th>
+      <th style="width: 200px;"></th>
       <th>Verwachte uitvoer</th>
     </tr>
   </thead>
