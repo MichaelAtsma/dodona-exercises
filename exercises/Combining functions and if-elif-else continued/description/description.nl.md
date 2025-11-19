@@ -115,7 +115,7 @@ Nadat dit programma wordt uitgevoerd zal het bericht <code>"Sorry, volgende keer
 
 We zullen nu de functies van de voorbeelden uitbreiden door er een <i>elif</i> aan toe te voegen. We zullen twee voorbeelden bekijken (deze oefening en de vorige oefening), en daarna zal je zelf de functie moeten schrijven.
 
-# <b>Voorbeeld 1: positief of negatief?</b>
+# <b>Voorbeeld 2: positief of negatief?</b>
 Deze functie, genaamd <function name="Grootste"></function> zal steeds twee getallen als invoer nemen. De functie geeft het grootste van de twee getallen terug, maar als ze even groot zijn geeft de functie de tekst <code>"De getallen zijn even groot."</code> terug. Hier is die functie:
 
 ```python
