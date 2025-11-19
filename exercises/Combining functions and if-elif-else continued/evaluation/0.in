@@ -1,0 +1,8 @@
+>>> Grootste(5, 8)
+8
+>>> Grootste(1, -20)
+1
+>>> Grootste(100, 7)
+100
+>>> Grootste(9, 9)
+'De getallen zijn even groot.'
