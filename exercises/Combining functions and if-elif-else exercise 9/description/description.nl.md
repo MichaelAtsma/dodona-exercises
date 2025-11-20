@@ -274,7 +274,7 @@ Gebruik de modulus-operator <code>%</code> om te controleren of een getal even o
 
 <br>
 
-<details markdown="1"><summary>Tip (meer detail dan die hierboven)</summary>
+<details markdown="1"><summary>Tip (meer detail dan hierboven)</summary>
 De modulus-operator <code>%</code> geeft de rest van een deling terug. Bijvoorbeeld:
 <div class="table-scroll">
 <table>
