@@ -18,8 +18,10 @@
         html += `<span class="functionseparators">(</span>`;
         html += inputs.map((input, i) => {
           const trimmed = input.trim();
-          let typeClass = "functioninput-str"; // default to string
-          if (/^-?\d+$/.test(trimmed)) {
+          let typeClass = "functioninput-default"; // default to default
+          if (/^["'].*["']$/.test(trimmed)) {
+            typeClass = "functioninput-str";
+          } else if (/^-?\d+$/.test(trimmed)) {
             typeClass = "functioninput-int";
           } else if (/^-?\d*\.\d+$/.test(trimmed)) {
             typeClass = "functioninput-float";
@@ -109,6 +111,7 @@
 
   .functioninput-int, .functioninput-float { color: red; }
   .functioninput-str { color: green; }
+  .functioninput-default { color: black; }
   .function { color: #a17702ff; }
   .functionseparators { color: black; }
 </style>
@@ -269,3 +272,7 @@ Maak een functie genaamd <function name="CijferBeschrijving"></function> die twe
 </table>
 </div>
 </details>
+
+Testing:
+
+<function name="CijferBeschrijving" inputs='x,2,"hallo"'></function>
