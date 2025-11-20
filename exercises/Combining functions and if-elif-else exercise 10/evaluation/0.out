@@ -1,0 +1,22 @@
+--------------------------------------------------
+tab name: Examples
+<LANGUAGE code="en">
+    <function from="Seizoen" to="Season" />
+    <fixed from="januari" to="January" />
+    <fixed from="februari" to="February" />
+    <fixed from="maart" to="March" />
+    <fixed from="april" to="April" />
+    <fixed from="mei" to="May" />
+    <fixed from="juni" to="June" />
+    <fixed from="juli" to="July" />
+    <fixed from="augustus" to="August" />
+    <fixed from="september" to="September" />
+    <fixed from="oktober" to="October" />
+    <fixed from="november" to="November" />
+    <fixed from="december" to="December" />
+    <fixed from="lunaris" to="Lunaris" />
+    <fixed from="Winter" to="Winter" />
+    <fixed from="Lente" to="Spring" />
+    <fixed from="Zomer" to="Summer" />
+    <fixed from="Herfst" to="Autumn" />
+</LANGUAGE>

@@ -1,0 +1,26 @@
+>>> Seizoen('januari')
+'Winter'
+>>> Seizoen('februari')
+'Winter'
+>>> Seizoen('maart')
+'Lente'
+>>> Seizoen('april')
+'Lente'
+>>> Seizoen('mei')
+'Lente'
+>>> Seizoen('juni')
+'Zomer'
+>>> Seizoen('juli')
+'Zomer'
+>>> Seizoen('augustus')
+'Zomer'
+>>> Seizoen('september')
+'Herfst'
+>>> Seizoen('oktober')
+'Herfst'
+>>> Seizoen('november')
+'Herfst'
+>>> Seizoen('december')
+'Winter'
+>>> Seizoen('lunaris')
+'Ongeldige maand'
