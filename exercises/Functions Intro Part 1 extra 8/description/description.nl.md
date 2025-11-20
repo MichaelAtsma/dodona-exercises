@@ -95,7 +95,7 @@ Je hebt vervolgens een paar andere functies gemaakt. <span style='color: red;'><
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="PlusZes"></function> die `6` bij de invoer optelt en het resultaat als uitvoer geeft.
 
-<details><summary>Voorbeelden</summary>
+<details markdown="1"><summary>Voorbeelden</summary>
 <ul>
   <li><function name="PlusZes" inputs="1"></function> geeft <code>7</code> terug.</li>
   <li><function name="PlusZes" inputs="8"></function> geeft <code>14</code> terug.</li>

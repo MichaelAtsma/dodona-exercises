@@ -134,7 +134,7 @@ Zo ook krijgt iemand die <function name="Grootste" inputs="1,-20"></function> ty
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="Grootste"></function> die twee getallen als invoer neemt, en de grootste teruggeeft (of eenderwelk indien ze even groot zijn).
 
-<details><summary>Voorbeelden</summary>
+<details markdown="1"><summary>Voorbeelden</summary>
 <ul>
   <li><function name="Grootste" inputs="5,8"></function> geeft <code>8</code> terug (want <code>8</code> is groter dan <code>5</code>).</li>
   <li><function name="Grootste" inputs="1,-20"></function> geeft <code>1</code> terug (want <code>1</code> is groter dan <code>-20</code>).</li>

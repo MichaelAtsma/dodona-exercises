@@ -52,12 +52,12 @@
 
 Je hebt gezien hoe je getallen kan opslaan in de computer door een <i>variabele</i> te gebruiken. Getallen zijn echter niet de enige soorten gegevens die er bestaan. Python maakt onderscheid tussen heel wat soorten gegevens, en daarnaast kan je ook nog zelf een soort gegeven creëren. Daarom zullen we voor nu focussen op slechts 3 soorten (klik op de soort om uitleg erover te krijgen):
 
-<details>
+<details markdown="1">
 <summary>Integers</summary>
 <i>Integer</i> is het Engelse woord voor <i>geheel getal</i>. Dit zijn dus getallen zoals <code>1</code>, <code>2</code>, <code>35</code>, <code>-4</code>, <code>0</code>, ...
 </details>
 
-<details>
+<details markdown="1">
 <summary>Floats</summary>
 <p>Een <i>float</i> is een <i>kommagetal</i>. Dit zijn dus getallen zoals <code>5,2</code>, <code>11,83</code>, <code>-9,125</code>, <code>2,0</code>, ...</p>
 
@@ -66,7 +66,7 @@ Je hebt gezien hoe je getallen kan opslaan in de computer door een <i>variabele<
 <p>Belangrijk bij een <i>float</i> is dat er in heel veel landen een punt <code>.</code> gebruikt wordt voor kommagetallen, waaronder in Engelstalige landen. Aangezien programmeertalen in het Engels zijn, moeten we hier dus ook rekening mee houden. Het kommagetal <code>5,2</code> schrijven we dus als <code>5.2</code>. Dit heb je misschien al wel eerder gezien op je rekentoestel tijdens je lessen wiskunde.</p>
 </details>
 
-<details>
+<details markdown="1">
 <summary>Strings</summary>
 <p><i>String</i> is een Engels woord voor <i>reeks</i>. In dit geval staat het voor een reeks van karakters (bijvoorbeeld letters). Dit is dus bijvoorbeeld een woord zoals <code>hallo</code>, een zin zoals <code>Python is een programmeertaal.</code>, of zelfs maar één letter zoals <code>L</code>. Maar ook leestekens zijn karakters, dus <code>@%!?*</code> is ook een <i>string</i>. <i>Zelfs een spatie (<code> </code>) is een karakter!</i> Omdat we normaalgezien een <i>string</i> gebruiken om een normale tekst te schrijven, zullen we in het Nederlands ook het woord <i>tekst</i> gebruiken in plaats van <i>string</i>.</p>
 

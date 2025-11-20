@@ -191,7 +191,7 @@ Maak een functie genaamd <function name="DagType"></function> die een <i>string<
 
 <i>Denk na in welke volgorde je de if-elif-else-statement kan zetten.</i>
 
-<details><summary>input-output verwachtingen</summary>
+<details markdown="1"><summary>input-output verwachtingen</summary>
 <table>
   <thead>
     <tr>

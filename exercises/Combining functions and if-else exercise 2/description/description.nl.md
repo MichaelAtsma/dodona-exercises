@@ -125,7 +125,7 @@ Je zal nu een aantal gelijkaardige functies maken waarbij je concepten combineer
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="Kleinste"></function> die twee getallen als invoer neemt, en de kleinste teruggeeft (of eenderwelk indien ze even klein zijn).
 
-<details><summary>Voorbeelden</summary>
+<details markdown="1"><summary>Voorbeelden</summary>
 <ul>
   <li><function name="Kleinste" inputs="5,8"></function> geeft <code>5</code> terug (want <code>5</code> is kleiner dan <code>8</code>).</li>
   <li><function name="Kleinste" inputs="1,-20"></function> geeft <code>-20</code> terug (want <code>-20</code> is kleiner dan <code>1</code>).</li>

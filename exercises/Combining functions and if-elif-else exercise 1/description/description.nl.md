@@ -186,7 +186,7 @@ def Grootste(x, y):
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="Kleinste"></function> die twee getallen als invoer neemt, en de kleinste teruggeeft. Als de getallen even klein zijn, moet de functie de tekst <code>De getallen zijn even klein.</code> teruggeven.
 
-<details><summary>input-output verwachtingen</summary>
+<details markdown="1"><summary>input-output verwachtingen</summary>
 <table>
   <thead>
     <tr>

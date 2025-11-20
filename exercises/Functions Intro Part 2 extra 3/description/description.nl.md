@@ -97,7 +97,7 @@ We kunnen echter ook andere operaties in de functie laten uitvoeren.
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="SpecialeBewerking"></function> die <i><b>drie</b></i> getallen als invoer neemt, het <b><i>eerste en tweede</i></b> getal bij elkaar optelt, deze uitkomst met het <b><i>derde</i></b> getal vermenigvuldigt, en het resultaat als uitvoer geeft.
 
-<details><summary>Voorbeelden</summary>
+<details markdown="1"><summary>Voorbeelden</summary>
 <ul>
   <li><function name="SpecialeBewerking" inputs="1,2,3"></function> geeft <code>9</code> terug (want <code>1 + 2 = 3</code> en <code>3 * 3 = 9</code>).</li>
   <li><function name="SpecialeBewerking" inputs="4,5,6"></function> geeft <code>54</code> terug (want <code>4 + 5 = 9</code> en <code>9 * 6 = 54</code>).</li>
@@ -105,6 +105,6 @@ Maak een functie genaamd <function name="SpecialeBewerking"></function> die <i><
 </ul>
 </details>
 
-<details><summary>Hint</summary>
+<details markdown="1"><summary>Hint</summary>
 Net als in de wiskunde kunnen we de volgorde van bewerkingen forceren met haakjes <code>(...)</code>. Het is natuurlijk ook mogelijk om meerdere regels code te schrijven in de functie, en dus je berekening met meerdere stappen te doen.
 </details>

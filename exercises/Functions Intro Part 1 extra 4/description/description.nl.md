@@ -95,7 +95,7 @@ Je hebt vervolgens een paar andere functies gemaakt. <span style='color: red;'><
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="MaalZeven"></function> die de invoer met `7` vermenigvuldigt en het resultaat als uitvoer geeft.
 
-<details><summary>Voorbeelden</summary>
+<details markdown="1"><summary>Voorbeelden</summary>
 <ul>
   <li><function name="MaalZeven" inputs="2"></function> geeft <code>14</code> terug.</li>
   <li><function name="MaalZeven" inputs="7"></function> geeft <code>49</code> terug.</li>

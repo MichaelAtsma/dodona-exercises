@@ -189,7 +189,7 @@ Maak een functie genaamd <function name="Prijscategorie"></function> die één g
 - Als de prijs meer dan 15 euro is, moet de functie de tekst <code>"Duur"</code> teruggeven.
 - Als de prijs tussen 5 (inclusief) en 15 (inclusief) euro is, moet de functie de tekst <code>"Normaal"</code> teruggeven.
 
-<details><summary>input-output verwachtingen</summary>
+<details markdown="1"><summary>input-output verwachtingen</summary>
 <table>
   <thead>
     <tr>

@@ -10,7 +10,7 @@ Elke pagina van een Dodona opdracht bestaat uit 3 delen:
 Hier wordt, zoals de naam zegt, altijd de opdracht uitgelegd. Je moet de tekst lezen om te weten wat er van je verwacht wordt. 
 
 Soms worden er voorbeelden gegeven van wat jouw programma zou moeten doen in verschillende gevallen, zodat je duidelijker kan zien wat de evaluator verwacht. Dat kan er zo uit zien:
-<details>
+<details markdown="1">
 <summary>Voorbeeld</summary>
 <h3><b>Invoer</b></h3>
 ```python

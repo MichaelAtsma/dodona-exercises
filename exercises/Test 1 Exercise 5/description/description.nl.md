@@ -84,7 +84,7 @@ Maak een functie genaamd <function name="ToetsPunt"></function> die <i><b>drie</
 </ol>
 De functie rekent dan de score om en geeft het resultaat terug.
 
-<details><summary>Voorbeelden</summary>
+<details markdown="1"><summary>Voorbeelden</summary>
 <ul>
   <li><function name="ToetsPunt" inputs="6,12,20"></function> geeft <code>10</code> terug (want <code>6</code> op <code>12</code> is gelijk aan <code>10</code> op <code>20</code>).</li>
   <li><function name="ToetsPunt" inputs="3,12,10"></function> geeft <code>2.5</code> terug (want <code>3</code> op <code>12</code> is gelijk aan <code>2.5</code> op <code>10</code>).</li>

@@ -68,7 +68,7 @@
 
 Je hebt zojuist gezien dat in de voorwaarde van je <code>if</code>-statement ook een variabele kan gebruiken om te bepalen of de regel(s) eronder wel of niet worden uitgevoerd. Dit deed je met de volgende code:
 
-<details><summary>Voorbeeld</summary>
+<details markdown="1"><summary>Voorbeeld</summary>
 ```python
 leeftijd = 15
 
@@ -87,7 +87,7 @@ Wat gebeurt er hier?
 
 </details>
 
-<details><summary>Vergelijkingssymbolen spiekbriefje</summary>
+<details markdown="1"><summary>Vergelijkingssymbolen spiekbriefje</summary>
 
 <table>
   <thead>
@@ -137,7 +137,7 @@ Wat gebeurt er hier?
 
 We hoeven echter niet altijd met getallen te werken. Soms werken we met <i>strings</i> (teksten). In dat geval zijn niet alle vergelijkingssymbolen zo voor de hand liggend. De vergelijkingssymbolen <code>==</code> en <code>!=</code> zijn nog wel makkelijk te begrijpen. We zullen hier niet verwachten dat je <code><</code>, <code><=</code>, <code>></code>, of <code>>=</code> kan gebruiken, maar wie toch die extra informatie wil kan dat hieronder lezen.
 
-<details><summary>Extra informatie (optioneel)</summary>
+<details markdown="1"><summary>Extra informatie (optioneel)</summary>
 De ongelijkheidstekens <code><</code>, <code><=</code>, <code>></code>, of <code>>=</code> met betrekking tot <i>strings</i> werken op basis van de volgorde van de letters in het alfabet (met nog wat extra uitbreidingen hierop).
 
 Uit de vergelijking <code>"hallo" < "wereld"</code> zal dus <code style="color:blue">True</code> komen, omdat de <code>h</code> eerder in het alfabet voorkomt dan de <code>w</code>.

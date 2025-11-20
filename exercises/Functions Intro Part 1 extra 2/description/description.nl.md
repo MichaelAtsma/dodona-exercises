@@ -93,7 +93,7 @@ def PlusVijf(x):
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="MaalDrie"></function> die de invoer met `3` vermenigvuldigt en het resultaat als uitvoer geeft.
 
-<details><summary>Voorbeelden</summary>
+<details markdown="1"><summary>Voorbeelden</summary>
 <ul>
   <li><function name="MaalDrie" inputs="2"></function> geeft <code>6</code> terug.</li>
   <li><function name="MaalDrie" inputs="7"></function> geeft <code>21</code> terug.</li>
@@ -101,6 +101,6 @@ Maak een functie genaamd <function name="MaalDrie"></function> die de invoer met
 </ul>
 </details>
 
-<details><summary>Hint</summary>
+<details markdown="1"><summary>Hint</summary>
 Het symbool voor een vermenigvuldiging in Python is <code>*</code>.
 </details>

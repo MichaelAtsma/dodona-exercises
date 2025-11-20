@@ -189,7 +189,7 @@ Maak een functie genaamd <function name="TemperatuurBeschrijving"></function> di
 - Als de temperatuur onder 10 graden is, moet de functie de tekst <code>"Het is koud buiten."</code> teruggeven.
 - Als de temperatuur van 10 tot en met 18 graden is, moet de functie de tekst <code>"Het is gemiddeld buiten."</code> teruggeven.
 
-<details><summary>input-output verwachtingen</summary>
+<details markdown="1"><summary>input-output verwachtingen</summary>
 <table>
   <thead>
     <tr>

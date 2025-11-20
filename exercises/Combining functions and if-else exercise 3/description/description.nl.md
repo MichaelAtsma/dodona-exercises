@@ -125,7 +125,7 @@ Je zal nu een aantal gelijkaardige functies maken waarbij je concepten combineer
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="PositiefOfNegatief"></function> die één getal als invoer neemt, en een tekst teruggeeft afhankelijk van of dat getal positief (of 0) is, of negatief. Indien het positief (of 0) is moet de tekst <code>"Dit getal is positief"</code> zijn, en indien het negatief is moet de tekst <code>"Dit getal is negatief"</code> zijn.
 
-<details><summary>Voorbeelden</summary>
+<details markdown="1"><summary>Voorbeelden</summary>
 <ul>
   <li><function name="PositiefOfNegatief" inputs="5"></function> geeft de tekst <code>"Dit getal is positief"</code> terug (want <code>5</code> is positief of 0).</li>
   <li><function name="PositiefOfNegatief" inputs="-9"></function> geeft de tekst <code>"Dit getal is negatief"</code> terug (want <code>-9</code> is negatief).</li>

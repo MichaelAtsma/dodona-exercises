@@ -95,7 +95,7 @@ Maak een functie genaamd <function name="PlusTien"></function> die `10` optelt b
 
 <i>Je hoeft hier dus alleen de tweede regel aan te passen, de rest laat je staan zoals het is.</i>
 
-<details><summary>Voorbeelden</summary>
+<details markdown="1"><summary>Voorbeelden</summary>
 <ul>
   <li><function name="PlusTien" inputs="3"></function> geeft <code>13</code> terug.</li>
   <li><function name="PlusTien" inputs="7"></function> geeft <code>17</code> terug.</li>

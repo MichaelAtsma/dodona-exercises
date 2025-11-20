@@ -97,7 +97,7 @@ We kunnen echter ook andere operaties in de functie laten uitvoeren.
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="Delen"></function> die twee getallen als invoer neemt, het <b><i>tweede</i></b> getal door het <b><i>eerste</i></b> getal deelt, en het resultaat als uitvoer geeft.
 
-<details><summary>Voorbeelden</summary>
+<details markdown="1"><summary>Voorbeelden</summary>
 <ul>
   <li><function name="Delen" inputs="5,15"></function> geeft <code>3.0</code> terug.</li>
   <li><function name="Delen" inputs="2,13"></function> geeft <code>6.5</code> terug.</li>
@@ -105,6 +105,6 @@ Maak een functie genaamd <function name="Delen"></function> die twee getallen al
 </ul>
 </details>
 
-<details><summary>Hint</summary>
+<details markdown="1"><summary>Hint</summary>
 Het symbool voor een deling in Python is <code>/</code>.
 </details>

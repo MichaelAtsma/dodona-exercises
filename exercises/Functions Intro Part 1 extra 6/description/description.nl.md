@@ -95,7 +95,7 @@ Je hebt vervolgens een paar andere functies gemaakt. <span style='color: red;'><
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="MinAcht"></function> die `8` van de invoer afhaalt en het resultaat als uitvoer geeft.
 
-<details><summary>Voorbeelden</summary>
+<details markdown="1"><summary>Voorbeelden</summary>
 <ul>
   <li><function name="MinAcht" inputs="2"></function> geeft <code>-7</code> terug.</li>
   <li><function name="MinAcht" inputs="7"></function> geeft <code>-1</code> terug.</li>

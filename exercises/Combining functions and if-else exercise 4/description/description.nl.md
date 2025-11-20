@@ -125,7 +125,7 @@ Je zal nu een aantal gelijkaardige functies maken waarbij je concepten combineer
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="TeLangeTekst"></function> die één <i>string</i> als invoer neemt, dan kijkt of die <i>string</i> langer is dan 10 karakter, en afhankelijk daarvan een tekst teruggeeft. Indien het langer dan 10 karakters is moet de tekst <code>"Deze tekst is te lang"</code> zijn, en indien het minder dan of gelijk aan 10 karakters is moet de tekst <code>"Deze tekst is kort genoeg"</code> zijn.
 
-<details><summary>Voorbeelden</summary>
+<details markdown="1"><summary>Voorbeelden</summary>
 <ul>
   <li><function name="TeLangeTekst" inputs='"Hallo"'></function> geeft de tekst <code>"Deze tekst is kort genoeg"</code> terug (want <code>Hallo</code> is 5 karakters en dat is minder dan 10).</li>
   <li><function name="TeLangeTekst" inputs='"Hallo wereld"'></function> geeft de tekst <code>"Deze tekst is te lang"</code> terug (want <code>Hallo wereld</code> is 12 karakters en dat is meer dan 10).</li>
@@ -134,6 +134,6 @@ Maak een functie genaamd <function name="TeLangeTekst"></function> die één <i>
 </ul>
 </details>
 
-<details><summary>Tip</summary>
+<details markdown="1"><summary>Tip</summary>
 Herinner je dat we een functie hebben geleerd om de lengte van een tekst te bepalen.
 </details>

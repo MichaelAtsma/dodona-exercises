@@ -160,7 +160,7 @@ En tot slot krijgt iemand die <function name="PositiefOfNegatief" inputs="0"></f
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="PositiefOfNegatief"></function> en een tekst als uitvoer teruggeeft die vertelt of het getal <i>positief</i>, <i>negatief</i>, of <i>het neutral getal 0</i> is.
 
-<details><summary>Voorbeelden</summary>
+<details markdown="1"><summary>Voorbeelden</summary>
 <ul>
   <li><function name="PositiefOfNegatief" inputs="5"></function> geeft <code>"Dit getal is positief"</code> terug.</li>
   <li><function name="PositiefOfNegatief" inputs="-3"></function> geeft <code>"Dit getal is negatief"</code> terug.</li>

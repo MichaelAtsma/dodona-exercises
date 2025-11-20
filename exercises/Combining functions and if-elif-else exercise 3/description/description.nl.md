@@ -189,7 +189,7 @@ Maak een functie genaamd <function name="Leeftijdgroep"></function> die één ge
 - Als de leeftijd onder 12 jaar is, moet de functie de tekst <code>"Kind"</code> teruggeven.
 - Als de leeftijd tussen de 12 (inclusief) en 18 jaar is, moet de functie de tekst <code>"Tiener"</code> teruggeven.
 
-<details><summary>input-output verwachtingen</summary>
+<details markdown="1"><summary>input-output verwachtingen</summary>
 <table>
   <thead>
     <tr>

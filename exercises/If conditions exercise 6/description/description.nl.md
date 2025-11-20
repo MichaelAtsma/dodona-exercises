@@ -68,7 +68,7 @@
 
 Je hebt zojuist gezien hoe je met een <code>if</code>-statement een bepaald stukje code wel kan laten uitvoeren wanneer de voorwaarde waar (<code style="color:blue">True</code>) is of juist niet kan laten uitvoeren wanneer de voorwaarde niet waar (<code style="color:blue">False</code>). Zie hieronder nogmaals de voorbeelden die je bij die uitleg had gezien.
 
-<details><summary>Voorbeeld 1 (voorwaarde is <code style="color:blue">True</code>)</summary>
+<details markdown="1"><summary>Voorbeeld 1 (voorwaarde is <code style="color:blue">True</code>)</summary>
 
 ```python
 a = 1
@@ -87,7 +87,7 @@ Wat gebeurt er hier?
 </ol>
 </details>
 
-<details><summary>Voorbeeld 2 (voorwaarde is <code style="color:blue">False</code>)</summary>
+<details markdown="1"><summary>Voorbeeld 2 (voorwaarde is <code style="color:blue">False</code>)</summary>
 
 ```python
 a = 1

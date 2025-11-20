@@ -97,7 +97,7 @@ We kunnen echter ook andere operaties in de functie laten uitvoeren.
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="Vermenigvuldigen"></function> die twee getallen als invoer neemt, ze met elkaar vermenigvuldigt, en het resultaat als uitvoer geeft.
 
-<details><summary>Voorbeelden</summary>
+<details markdown="1"><summary>Voorbeelden</summary>
 <ul>
   <li><function name="Vermenigvuldigen" inputs="2,6"></function> geeft <code>12</code> terug.</li>
   <li><function name="Vermenigvuldigen" inputs="7,5"></function> geeft <code>35</code> terug.</li>
@@ -105,6 +105,6 @@ Maak een functie genaamd <function name="Vermenigvuldigen"></function> die twee 
 </ul>
 </details>
 
-<details><summary>Hint</summary>
+<details markdown="1"><summary>Hint</summary>
 Het symbool voor een vermenigvuldiging in Python is <code>*</code>.
 </details>

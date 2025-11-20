@@ -95,7 +95,7 @@ Je hebt vervolgens een paar andere functies gemaakt. <span style='color: red;'><
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="Kwart"></function> die de invoer door `4` deelt en het resultaat als uitvoer geeft.
 
-<details><summary>Voorbeelden</summary>
+<details markdown="1"><summary>Voorbeelden</summary>
 <ul>
   <li><function name="Kwart" inputs="1"></function> geeft <code>0.25</code> terug.</li>
   <li><function name="Kwart" inputs="8"></function> geeft <code>2</code> terug.</li>

@@ -68,7 +68,7 @@
 
 Je hebt zojuist gezien dat je een <code>if</code>-statement met verschillende vergelijkingssymbolen wel of niet kan laten uitvoeren. 
 
-<details><summary>Vergelijkingssymbolen spiekbriefje</summary>
+<details markdown="1"><summary>Vergelijkingssymbolen spiekbriefje</summary>
 
 <table>
   <thead>

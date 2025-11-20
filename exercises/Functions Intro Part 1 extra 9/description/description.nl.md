@@ -95,7 +95,7 @@ Je hebt vervolgens een paar andere functies gemaakt. <span style='color: red;'><
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="Dubbel"></function> die de invoer met `2` vermenigvuldigt en het resultaat als uitvoer geeft.
 
-<details><summary>Voorbeelden</summary>
+<details markdown="1"><summary>Voorbeelden</summary>
 <ul>
   <li><function name="Dubbel" inputs="1"></function> geeft <code>2</code> terug.</li>
   <li><function name="Dubbel" inputs="8"></function> geeft <code>16</code> terug.</li>

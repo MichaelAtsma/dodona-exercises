@@ -95,7 +95,7 @@ Maak een functie genaamd <function name="Halveren"></function> die de invoer doo
 
 <i>Je hoeft hier dus alleen de tweede regel aan te passen, de rest laat je staan zoals het is.</i>
 
-<details><summary>Voorbeelden</summary>
+<details markdown="1"><summary>Voorbeelden</summary>
 <ul>
   <li><function name="Halveren" inputs="2"></function> geeft <code>1</code> terug.</li>
   <li><function name="Halveren" inputs="7"></function> geeft <code>3.5</code> terug.</li>
@@ -103,6 +103,6 @@ Maak een functie genaamd <function name="Halveren"></function> die de invoer doo
 </ul>
 </details>
 
-<details><summary>Hint</summary>
+<details markdown="1"><summary>Hint</summary>
 Het symbool voor een deling in Python is <code>/</code>.
 </details>

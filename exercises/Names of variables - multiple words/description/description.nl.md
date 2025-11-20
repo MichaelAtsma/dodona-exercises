@@ -45,7 +45,7 @@ Je hebt gezien dat je de naam van een variabele zelf kan kiezen, zodat deze ook 
 
 Het probleem is echter dat er in de naam van een variabele GEEN spatie mag staan. Dat betekent dat we de naam `schuine zijde` niet kunnen gebruiken. We kunnen dit oplossen door een <i>underscore</i> (lage streep: `_`) te gebruiken in plaats van de spatie: `schuine_zijde`. Dit wordt <a href="https://en.wikipedia.org/wiki/Snake_case"><i>snake_case</i></a> genoemd.
 
-<details>
+<details markdown="1">
 <summary>Andere methode</summary>
 Een andere methode om dit probleem op te lossen is door gebruik van hoofdletters bij elk nieuw woord. Dit wordt <a href="https://en.wikipedia.org/wiki/Camel_case"><i>camelCase</i></a> genoemd. We zouden dus de naam <code>schuineZijde</code> krijgen.
 </details>

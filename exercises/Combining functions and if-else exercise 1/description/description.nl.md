@@ -125,7 +125,7 @@ Je zal nu een aantal gelijkaardige functies maken waarbij je concepten combineer
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="HalverenOfPlusAcht"></function> die één getal als invoer neemt, het halveert als het kleiner is dan 10, of er 8 bij op telt als het groter of gelijk is aan 10, en het resultaat als uitvoer geeft.
 
-<details><summary>Voorbeelden</summary>
+<details markdown="1"><summary>Voorbeelden</summary>
 <ul>
   <li><function name="HalverenOfPlusAcht" inputs="5"></function> geeft <code>2.5</code> terug (want <code>5</code> is kleiner dan <code>10</code> en de helft van <code>5</code> is <code>2.5</code>).</li>
   <li><function name="HalverenOfPlusAcht" inputs="-40"></function> geeft <code>-20.0</code> terug (want <code>-40</code> is kleiner dan <code>10</code> en de helft van <code>-20</code> is <code>-10</code>). Merk op dat de uitvoer een <i>float</i> is: het resultaat van een deling is altijd een <i>float</i> in <i>Python</i>.</li>

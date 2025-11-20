@@ -189,7 +189,7 @@ Maak een functie genaamd <function name="ToegangMetNaam"></function> die een <i>
 - Helena heeft wel toegang, dus als de invoer <code>"Helena"</code> is, moet de functie de tekst <code>"Toegang verleend"</code> teruggeven.
 - Alle andere namen hebben geen toegang, dus in die gevallen moet de functie de tekst <code>"Toegang geweigerd"</code> teruggeven.
 
-<details><summary>input-output verwachtingen</summary>
+<details markdown="1"><summary>input-output verwachtingen</summary>
 <table>
   <thead>
     <tr>
