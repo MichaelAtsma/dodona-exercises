@@ -77,9 +77,11 @@ Hier bekijken we de <function name="len"></function> functie. Deze geeft je de l
 
 In een volledig programma zou dus het volgende kunnen voorkomen:
 
-<pre><code>a = "Hallo wereld!"
+```python
+a = "Hallo wereld!"
 b = len(a)
-</code></pre>
+
+```
 
 Dit heeft als gevolg dat de waarde van <code>a</code> de <i>string</i> <code>"Hallo wereld!"</code> is, en de waarde van <code>b</code> het <i>gehele getal (integer)</i> <code>13</code> is.
 

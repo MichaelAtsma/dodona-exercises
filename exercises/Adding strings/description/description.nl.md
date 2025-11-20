@@ -39,7 +39,9 @@ Dit samenvoegen van tekst werkt een beetje zoals optellen bij getallen, maar in 
 
 We kunnen bijvoorbeeld schrijven:
 
-<pre><code>tekst = "Hallo" + "wereld"</code></pre>
+```python
+tekst = "Hallo" + "wereld"
+```
 
 Wat gebeurt er hier?
 1. De computer plakt <code>"Hallo"</code> en <code>"wereld"</code> direct achter elkaar.

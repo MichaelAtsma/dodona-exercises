@@ -39,8 +39,10 @@ Soms wil je nog meer met een getal doen voordat je het in de zin wil tonen, bijv
 
 Stel dat je een bedrag hebt berekend, bijvoorbeeld <code>bedrag = 12.758</code>. Je kunt het bedrag als volgt tonen:
 
-<pre><code>bedrag = 12.758
-zin = f"Je moet €{bedrag:.2f} betalen."</code></pre>
+```python
+bedrag = 12.758
+zin = f"Je moet €{bedrag:.2f} betalen."
+```
 
 Wat gebeurt er hier?
 <ul>

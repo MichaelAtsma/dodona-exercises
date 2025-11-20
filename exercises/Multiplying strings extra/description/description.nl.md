@@ -39,8 +39,10 @@ Dit werkt echter ook met andere woorden of zinnen. Je hoeft het resultaat niet z
 
 Bijvoorbeeld:
 
-<pre><code>katten = "kat" * 2
-treinen = "trein" * 4</code></pre>
+```python
+katten = "kat" * 2
+treinen = "trein" * 4
+```
 
 Nu weet de computer dat <code>katten</code> gelijk is aan <code>"katkat"</code> en <code>treinen</code> gelijk is aan <code>"treintreintreintrein"</code>.
 

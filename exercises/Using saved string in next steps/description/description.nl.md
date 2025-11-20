@@ -37,9 +37,11 @@ Op dit moment kan je getallen die opgeslagen zijn in variabelen al gebruikt in v
 
 Beschouw het onderstaande programma:
 
-<pre><code>x = "Hallo "
+```python
+x = "Hallo "
 y = "wereld!"
-z = x + y</code></pre>
+z = x + y
+```
 
 Wat gebeurt er hier? Eigenlijk veel meer dan 3 dingen! Kijk maar:
 1. De tekst <code>"Hallo "</code> wordt opgeslagen in de variabele <code>x</code>. <i>(Let op de spatie na <code>Hallo</code>!)</i>

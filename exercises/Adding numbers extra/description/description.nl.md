@@ -40,7 +40,9 @@ Je kan dit trucje ook gebruiken om **andere getallen te maken**. Je hoeft het ge
 
 Bijvoorbeeld:
 
-<pre><code>x = 13 - 6</code></pre>
+```python
+x = 13 - 6
+```
 
 Nu weet de computer dat `x` gelijk is aan `7`.
 

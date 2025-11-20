@@ -33,8 +33,10 @@
 Gebruik de juiste datatypen (soorten gegevens) om de fouten uit de gegeven code te halen.
 
 <details><summary>Originele code</summary>
-<pre><code>geheel_getal = 8.0
+```python
+geheel_getal = 8.0
 kommagetal = 6,1
 zin = Dit is een zin
-</code></pre>
+
+```
 </details>

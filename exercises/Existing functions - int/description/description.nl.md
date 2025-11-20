@@ -79,9 +79,11 @@ Hier bekijken we de <function name="int"></function> functie. Deze functie probe
 
 In een volledig programma zou dus het volgende kunnen voorkomen:
 
-<pre><code>a = "8"
+```python
+a = "8"
 b = int(a)
-</code></pre>
+
+```
 
 Dit heeft als gevolg dat de waarde van <code>a</code> de <i>string</i> <code>"8"</code> is, en de waarde van <code>b</code> het <i>gehele getal (integer)</i> <code>8</code> is. <code>a</code> en <code>b</code> hebben dus verschillende soorten gegevens (datatypes) opgeslagen.
 

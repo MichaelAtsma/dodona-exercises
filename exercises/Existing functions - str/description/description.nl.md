@@ -77,9 +77,11 @@ Hier bekijken we de <function name="str"></function> functie. Deze functie probe
 
 In een volledig programma zou dus het volgende kunnen voorkomen:
 
-<pre><code>a = 5
+```python
+a = 5
 b = str(a)
-</code></pre>
+
+```
 
 Dit heeft als gevolg dat de waarde van <code>a</code> het gehele getal <code>5</code> is, en de waarde van <code>b</code> de <i>tekst (string)</i> <code>"5"</code> is. <code>a</code> en <code>b</code> hebben dus verschillende soorten gegevens (datatypes) opgeslagen.
 

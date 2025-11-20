@@ -52,10 +52,12 @@
 Je hebt zojuist gezien dat in de voorwaarde van je <code>if</code>-statement ook een variabele kan gebruiken om te bepalen of de regel(s) eronder wel of niet worden uitgevoerd. Dit deed je met de volgende code:
 
 <details><summary>Voorbeeld</summary>
-<pre><code>leeftijd = 15
+```python
+leeftijd = 15
 
 if leeftijd < 16:
-    uitspraak = "Helaas, je mag nog geen bromfiets rijden in België."</code></pre>
+    uitspraak = "Helaas, je mag nog geen bromfiets rijden in België."
+```
 
 Wat gebeurt er hier?
 
@@ -130,9 +132,11 @@ Uit de vergelijking <code>"hallo" < "wereld"</code> zal dus <code style="color:b
 # <b>Opdracht</b>
 Vervang de <b>underscores</b> (<code>____</code>) in de code zodat de regel <code>begroeting = "Hallo!"</code> <b style="color:red">niet</b> uitgevoerd wordt. Zorg dat je het symbool <code>==</code> en de variabele <code>begroeting</code> gebruikt.
 
-<pre><code>begroeting = "hallo"
+```python
+begroeting = "hallo"
 
 if ____:
-    begroeting = "Hallo!"</code></pre>
+    begroeting = "Hallo!"
+```
 
 De rest van de code mag je niet veranderen.

@@ -41,7 +41,9 @@ Maar waar kan je strings dan wél mee vermenigvuldigen? Wat als je een <i>tekst<
 
 We kunnen bijvoorbeeld schrijven:
 
-<pre><code>resultaat = "fiets" * 3</code></pre>
+```python
+resultaat = "fiets" * 3
+```
 
 Wat gebeurt er hier?
 1. De computer plakt het woord <code>"fiets"</code> drie keer achter elkaar.

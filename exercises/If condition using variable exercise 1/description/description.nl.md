@@ -52,10 +52,12 @@
 Je hebt zojuist gezien dat in de voorwaarde van je <code>if</code>-statement ook een variabele kan gebruiken om te bepalen of de regel(s) eronder wel of niet worden uitgevoerd. Dit deed je met de volgende code:
 
 <details><summary>Voorbeeld</summary>
-<pre><code>leeftijd = 15
+```python
+leeftijd = 15
 
 if leeftijd < 16:
-    uitspraak = "Helaas, je mag nog geen bromfiets rijden in België."</code></pre>
+    uitspraak = "Helaas, je mag nog geen bromfiets rijden in België."
+```
 
 Wat gebeurt er hier?
 
@@ -120,9 +122,11 @@ Wat gebeurt er hier?
 # <b>Opdracht</b>
 Vervang de <b>underscores</b> (<code>____</code>) in de code zodat de regel <code>a = 2</code> <b style="color:red">wel</b> uitgevoerd wordt. Zorg dat je het symbool <code>!=</code> en de variabele <code>a</code> gebruikt.
 
-<pre><code>a = 1
+```python
+a = 1
 
 if ____:
-    a = 2</code></pre>
+    a = 2
+```
 
 De rest van de code mag je niet veranderen.

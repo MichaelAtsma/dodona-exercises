@@ -13,10 +13,12 @@ Je weet nu hoe je verschillende variabelen kan opslaan. Echter hebben we nu stee
 
 Stel je voor dat we het hebben over een rechthoek met breedte `4` en hoogte `3`. Dit zal een diagonaal geven van lengte `5` (reken dit maar na met de stelling van Pythagoras). We kunnen in onze code dan ook letterlijk de namen `breedte`, `lengte`, en `diagonaal` gebruiken voor de variabelen, zodat wanneer we dit later teruglezen het duidelijk zal zijn waar de `3`, `4`, en `5` betekenen. Dit zal er dus zo uit zien:
 
-<pre><code>breedte = 4
+```python
+breedte = 4
 lengte = 3
 diagonaal = 5
-</code></pre>
+
+```
 
 <br>
 <hr>

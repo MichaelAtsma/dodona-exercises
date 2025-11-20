@@ -35,11 +35,13 @@
 
 Je hebt geleerd dat je de waarden van meerdere opgeslagen variabelen in een <i>f-string</i> kan invoegen om een normale <i>string</i> te maken. Bijvoorbeeld:
 
-<pre><code>naam1 = "Bilal"
+```python
+naam1 = "Bilal"
 naam2 = "Fatiha"
 leeftijd1 = 15
 leeftijd2 = 16
-begroeting = f"Hallo {naam1} en {naam2}, welkom op Dodona! Jullie zijn {leeftijd1} en {leeftijd2} jaar oud."</code></pre>
+begroeting = f"Hallo {naam1} en {naam2}, welkom op Dodona! Jullie zijn {leeftijd1} en {leeftijd2} jaar oud."
+```
 
 De variabele <code>begroeting</code> zal na het uitvoeren van deze code de volgende waarde hebben: <code>"Hallo Bilal en Fatiha, welkom op Dodona! Jullie zijn 15 en 16 jaar oud."</code>
 

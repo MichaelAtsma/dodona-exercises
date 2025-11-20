@@ -1,7 +1,7 @@
 import os
 
-to_replace = '<code style="color: green;">"'
-replacement = '<code>"'
+to_replace = '<pre><code>'
+replacement = '```python\n'
 filename_contains = "description"
 root_dir = "exercises"
 

@@ -101,10 +101,12 @@ Het heeft echter weinig zin om in je voorwaarde een vergelijking te maken tussen
 
 Bekijk de voorbeeldcode hieronder:
 
-<pre><code>leeftijd = 15
+```python
+leeftijd = 15
 
 if leeftijd < 16:
-    uitspraak = "Helaas, je mag nog geen bromfiets rijden in België."</code></pre>
+    uitspraak = "Helaas, je mag nog geen bromfiets rijden in België."
+```
 
 Wat gebeurt er hier?
 
@@ -121,10 +123,12 @@ Wat gebeurt er hier?
 # <b>Opdracht</b>
 Vervang de <b>underscores</b> (<code>____</code>) in de code zodat de regel <code>uitspraak = "Helaas, je mag nog geen bromfiets rijden in België."</code> uitgevoerd wordt als de leeftijd minder is dan 16.
 
-<pre><code>uitspraak = ""  # deze regel mag je negeren.
+```python
+uitspraak = ""  # deze regel mag je negeren.
 leeftijd = 15
 
 if ____:
-    uitspraak = "Helaas, je mag nog geen bromfiets rijden in België."</code></pre>
+    uitspraak = "Helaas, je mag nog geen bromfiets rijden in België."
+```
 
 De rest van de code mag je niet veranderen.

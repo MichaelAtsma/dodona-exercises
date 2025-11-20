@@ -39,7 +39,9 @@ Het werkt een beetje alsof je de computer een rekenmachine geeft. Je typt de som
 
 We kunnen bijvoorbeeld schrijven:
 
-<pre><code>som = 5 + 5</code></pre>
+```python
+som = 5 + 5
+```
 
 Wat gebeurt er hier?
 1. Eerst rekent de computer <code>5 + 5</code> uit.

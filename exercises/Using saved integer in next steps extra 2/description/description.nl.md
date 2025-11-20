@@ -35,16 +35,20 @@
 
 Je hebt net geleerd hoe je een variabele later in je code kan gebruiken om opgeslagen waarden bij elkaar op te tellen. Natuurlijk kan je dit ook met alle andere rekenoperaties doen. Bekijk onderstaand programma:
 
-<pre><code>a = 7
+```python
+a = 7
 b = 8
 c = a * b
 d = a - b
-e = a / b</code></pre>
+e = a / b
+```
 
 Dit resulteert in de volgende waarden:
-<pre><code>c = 56
+```python
+c = 56
 d = -1
-e = 0.875</code></pre>
+e = 0.875
+```
 
 <br>
 <hr>

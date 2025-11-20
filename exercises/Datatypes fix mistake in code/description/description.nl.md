@@ -36,8 +36,10 @@
 # <b>Opdracht</b>
 Haal de fouten uit de code die al gegeven is, door je kennis te gebruiken over de soorten gegevens (en misschien met behulp van <i>debuggen</i> van je code).
 
-<pre><code>eerste_gehele_getal = 4.0
+```python
+eerste_gehele_getal = 4.0
 tweede_gehele_getal = "-9"
 kommagetal = 8,1
 tekst = Ik verbeter code in Python!
-</code></pre>
+
+```

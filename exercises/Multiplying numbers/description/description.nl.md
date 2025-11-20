@@ -39,7 +39,9 @@ Stel dat je wilt weten hoeveel <code>5 * 5</code> is. Net als bij optellen, kun 
 
 We kunnen bijvoorbeeld schrijven:
 
-<pre><code>product = 5 * 5</code></pre>
+```python
+product = 5 * 5
+```
 
 Wat gebeurt er hier?
 1. De computer rekent <code>5 * 5</code> uit.

@@ -39,7 +39,9 @@ Stel dat je wilt weten hoeveel <code>15 / 5</code> is. Net als bij optellen en v
 
 We kunnen bijvoorbeeld schrijven:
 
-<pre><code>quotient = 15 / 5</code></pre>
+```python
+quotient = 15 / 5
+```
 
 Wat gebeurt er hier?
 1. De computer rekent <code>15 / 5</code> uit.

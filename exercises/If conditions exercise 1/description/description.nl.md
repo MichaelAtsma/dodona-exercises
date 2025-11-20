@@ -53,10 +53,12 @@ Je hebt zojuist gezien hoe je met een <code>if</code>-statement een bepaald stuk
 
 <details><summary>Voorbeeld 1 (voorwaarde is <code style="color:blue">True</code>)</summary>
 
-<pre><code>a = 1
+```python
+a = 1
 
 if 5 > 3:
-    a = 2</code></pre>
+    a = 2
+```
 
 Wat gebeurt er hier?
 
@@ -70,10 +72,12 @@ Wat gebeurt er hier?
 
 <details><summary>Voorbeeld 2 (voorwaarde is <code style="color:blue">False</code>)</summary>
 
-<pre><code>a = 1
+```python
+a = 1
 
 if 5 > 10:
-    a = 2</code></pre>
+    a = 2
+```
 
 Wat gebeurt er hier?
 
@@ -137,9 +141,11 @@ Je hebt bij deze uitleg enkel het vergelijkingssymbool <code>></code> gezien. Ma
 # <b>Opdracht</b>
 Vervang de <b>underscores</b> (<code>____</code>) in de code zodat de regel <code>a = 2</code> <b style="color:red">wel</b> uitgevoerd wordt. Zorg dat je het symbool <code>==</code> gebruikt.
 
-<pre><code>a = 1
+```python
+a = 1
 
 if ____:
-    a = 2</code></pre>
+    a = 2
+```
 
 De rest van de code mag je niet veranderen.

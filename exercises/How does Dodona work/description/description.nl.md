@@ -13,9 +13,13 @@ Soms worden er voorbeelden gegeven van wat jouw programma zou moeten doen in ver
 <details>
 <summary>Voorbeeld</summary>
 <h3><b>Invoer</b></h3>
-<pre><code>1+1</code></pre>
+```python
+1+1
+```
 <h3><b>Uitvoer</b></h3>
-<pre><code>2</code></pre>
+```python
+2
+```
 </details>
 
 <br>

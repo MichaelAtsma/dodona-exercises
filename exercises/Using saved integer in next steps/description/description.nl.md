@@ -37,9 +37,11 @@ Op dit moment kan je variabelen opslaan en rekenen met getallen (zowel <i>intege
 
 Beschouw het onderstaande programma:
 
-<pre><code>x = 10
+```python
+x = 10
 y = 20
-z = x + y</code></pre>
+z = x + y
+```
 
 Wat gebeurt er hier? Eigenlijk veel meer dan 3 dingen! Kijk maar:
 1. Het getal <code>10</code> wordt opgeslagen in de variabele <code>x</code>.

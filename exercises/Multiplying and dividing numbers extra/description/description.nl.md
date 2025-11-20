@@ -41,8 +41,10 @@ Je kan dit trucje ook gebruiken om **andere getallen te maken**. Je hoeft het ge
 
 Bijvoorbeeld:
 
-<pre><code>x = 7 * 4
-y = 18 / 2</code></pre>
+```python
+x = 7 * 4
+y = 18 / 2
+```
 
 Nu weet de computer dat <code>x</code> gelijk is aan <code>28</code> en <code>y</code> gelijk is aan <code>9.0</code>.
 

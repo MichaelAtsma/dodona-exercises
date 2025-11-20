@@ -41,8 +41,10 @@ Een <i>f-string</i> is eigenlijk een <i>geformatteerde string</i>, waarin je acc
 
 We zullen aan de hand van een voorbeeld laten zien hoe een <i>f-string</i> werkt. Beschouw het onderstaande programma:
 
-<pre><code>leeftijd = 15
-zin = f"Wow, jij bent al {leeftijd} jaar oud!"</code></pre>
+```python
+leeftijd = 15
+zin = f"Wow, jij bent al {leeftijd} jaar oud!"
+```
 
 Wat gebeurt er hier?
 1. De waarde <code>15</code> wordt opgeslagen in de variabele <code>leeftijd</code>.

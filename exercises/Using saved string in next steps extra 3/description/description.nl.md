@@ -51,17 +51,21 @@
 
 Je hebt net geleerd hoe je een variabele later in je code kan gebruiken om opgeslagen teksten (<i>strings</i>) bij elkaar op te tellen. Natuurlijk kan je dit ook met andere <i>strings</i> of met een vermenigvuldiging doen. Bekijk onderstaand programma:
 
-<pre><code>a = "tik "
+```python
+a = "tik "
 b = "tok "
 c = 3
 d = a + b
 e = a * c
-f = (a + b) * c</code></pre>
+f = (a + b) * c
+```
 
 Dit resulteert in de volgende waarden:
-<pre><code>d = "tik tok "
+```python
+d = "tik tok "
 e = "tik tik tik "
-f = "tik tok tik tok tik tok "</code></pre>
+f = "tik tok tik tok tik tok "
+```
 
 <br>
 <hr>

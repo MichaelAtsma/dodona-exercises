@@ -44,10 +44,12 @@ Een <code>if</code>-statement kijkt of iets waar (<code style='color:blue'>True<
 
 ## <b>Voorbeeld 1:</b>
 
-<pre><code>a = 1
+```python
+a = 1
 
 if 5 > 3:
-    a = 2</code></pre>
+    a = 2
+```
 
 Wat gebeurt er hier?
 
@@ -62,10 +64,12 @@ Wat gebeurt er hier?
 
 ## <b>Voorbeeld 2:</b>
 
-<pre><code>a = 1
+```python
+a = 1
 
 if 5 > 10:
-    a = 2</code></pre>
+    a = 2
+```
 
 Wat gebeurt er hier?
 
@@ -82,9 +86,11 @@ Wat gebeurt er hier?
 # <b>Opdracht</b>
 Vervang de <b>underscores</b> (<code>____</code>) in de code zodat de regel <code>a = 2</code> <b>wel</b> uitgevoerd wordt:
 
-<pre><code>a = 1
+```python
+a = 1
 
 if ____:
-    a = 2</code></pre>
+    a = 2
+```
 
 De rest van de code mag je niet veranderen.
