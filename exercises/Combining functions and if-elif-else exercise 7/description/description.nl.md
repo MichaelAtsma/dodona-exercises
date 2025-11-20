@@ -63,7 +63,7 @@
   */
   table {
     max-width: 100%;
-    display: block;
+    /* display: block; */
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     margin: 0 auto;       /* centers table horizontally */
