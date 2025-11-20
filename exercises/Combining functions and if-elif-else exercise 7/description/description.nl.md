@@ -52,25 +52,26 @@
 
 <style>
   .invisible-text {
+    /* To use this, put any text like this: 
+    <span class="invisible-text">Your invisible text here</span> 
+    */
     color: transparent;
     font-size: 0.1em;
     display: inline;
     margin: 0;
     padding: 0;
   }
-  /* To use this, put any text like this: 
-  <span class="invisible-text">Your invisible text here</span> 
-  */
+
   table {
     display: table;
     margin: 0 auto;       /* centers table horizontally */
     border-collapse: collapse !important;
     border: 1px solid #444 !important;
     border-style: solid !important;
-    /* Removed overflow-x: auto from table */
-    /* Removed -webkit-overflow-scrolling: touch from table */
   }
   .table-scroll {
+    /* Enables horizontal scrolling for tables wider than the screen.
+    To enable, wrap your table in a <div class="table-scroll"> */
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
@@ -81,6 +82,10 @@
     border-style: solid !important;
     font-size: 1.2em !important;
     white-space: nowrap;
+  }
+  th.padding-column {
+    padding-left: 20px;
+    padding-right: 20px;
   }
   td {
     padding: 4px 10px !important;
@@ -100,11 +105,6 @@
     -webkit-hyphens: none !important;
     -moz-hyphens: none !important;
     -ms-hyphens: none !important;
-  }
-
-  th.padding-column {
-    padding-left: 20px;
-    padding-right: 20px;
   }
 
   .functioninput-int, .functioninput-float { color: red; }
