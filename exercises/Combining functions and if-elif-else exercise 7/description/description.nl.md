@@ -67,6 +67,10 @@
     border-collapse: collapse !important;
     border: 1px solid #444 !important;
     border-style: solid !important;
+    /* Removed overflow-x: auto from table */
+    /* Removed -webkit-overflow-scrolling: touch from table */
+  }
+  .table-scroll {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
@@ -120,10 +124,11 @@ def PositiefOfNegatief(x):
     elif x < 0:
         tekst = "Dit getal is negatief"
     else:
-        tekst = "Dit is het neutrale getal 0"
-    return tekst
 ```
+
 <details markdown="1"><summary>input-output verwachtingen</summary>
+
+<div class="table-scroll">
 <table>
   <thead>
     <tr>
@@ -150,6 +155,7 @@ def PositiefOfNegatief(x):
     </tr>
   </tbody>
 </table>
+</div>
 </details>
 </details>
 
@@ -217,13 +223,14 @@ Maak een functie genaamd <function name="CijferBeschrijving"></function> die twe
 <i>Denk na in welke volgorde je de if-elif-else-statement kan zetten.</i>
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
+
+<div class="table-scroll">
 <table>
   <thead>
     <tr>
       <th>Invoer</th>
       <th class="padding-column">→</th>
       <th>Verwachte returnwaarde</th>
-      <th class="padding-column"></th>
       <th>Reden</th>
     </tr>
   </thead>
@@ -232,37 +239,33 @@ Maak een functie genaamd <function name="CijferBeschrijving"></function> die twe
       <td><function name="CijferBeschrijving" inputs='2,7'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Onvoldoende"</code></td>
-      <td></td>
       <td>Want 2 op 7 is minder dan 50%</td>
     </tr>
     <tr>
       <td><function name="CijferBeschrijving" inputs='6,12'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Voldoende"</code></td>
-      <td></td>
       <td>Want 6 op 12 is precies 50%</td>
     </tr>
     <tr>
       <td><function name="CijferBeschrijving" inputs='15,20'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Voldoende"</code></td>
-      <td></td>
       <td>Want 15 op 20 is tussen 50% en 90%</td>
     </tr>
     <tr>
       <td><function name="CijferBeschrijving" inputs='9,10'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Uitstekend"</code></td>
-      <td></td>
       <td>Want 9 op 10 is 90% of hoger</td>
     </tr>
     <tr>
       <td><function name="CijferBeschrijving" inputs='3,3'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Uitstekend"</code></td>
-      <td></td>
       <td>Want 3 op 3 is hoger dan 90%</td>
     </tr>
   </tbody>
 </table>
+</div>
 </details>
