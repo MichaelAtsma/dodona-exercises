@@ -269,7 +269,7 @@ Maak een functie genaamd <function name="EvenOfOneven"></function> die één get
 </div>
 </details>
 
-<details markdown="1"><summary>Tip voor even/oneven</summary>
+<details markdown="1"><summary>Tip (hoe check je even/oneven?)</summary>
 Gebruik de modulus-operator <code>%</code> om te controleren of een getal even of oneven is. Een getal is even als er bij deling door 2 een rest van 0 is, anders is het oneven.
 
 <br>
