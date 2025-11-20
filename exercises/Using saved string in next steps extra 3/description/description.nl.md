@@ -13,10 +13,12 @@
     document.querySelectorAll('code').forEach(function(codeElem) {
       // Replace all "string" or 'string' with a green span, unless already wrapped in a span
       codeElem.innerHTML = codeElem.innerHTML.replace(
-        /(["'])(?!<span[^>]*>)(.*?)(?!<\/span>)(\1)/g,
-        function(match, quote, content) {
-          return '<span style="color: green;">' + quote + content + quote + '</span>';
-        }
+        /(["'])(?!<span[^>]*>)([^"'<]*?)(?!<\/span>)(\1)/g,
+          function(match, quote, content) {
+            // Only wrap if not already inside a <span>
+            if (/<span[^>]*>.*<\/span>/.test(match)) return match;
+            return '<span style="color: green;">' + quote + content + quote + '</span>';
+          }
       );
     });
   }
