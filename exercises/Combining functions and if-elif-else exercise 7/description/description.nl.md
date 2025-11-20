@@ -20,7 +20,7 @@
           const trimmed = input.trim();
           let typeClass = "functioninput-default"; // default to default
           if (/^["'].*["']$/.test(trimmed)) {
-            typeClass = "functioninput-str";
+            typeClass = "string";
           } else if (/^-?\d+$/.test(trimmed)) {
             typeClass = "functioninput-int";
           } else if (/^-?\d*\.\d+$/.test(trimmed)) {
@@ -44,7 +44,7 @@
             function(match, quote, content) {
               // Only wrap if not already inside a <span>
               if (/<span[^>]*>.*<\/span>/.test(match)) return match;
-              return '<span style="color: green;">' + quote + content + quote + '</span>';
+              return '<span class="string">' + quote + content + quote + '</span>';
             }
         );
       });
@@ -114,13 +114,13 @@
     .functioninput-default { color: white; }
     .functionseparators { color: white; }
     .function-name { color: #daaa28ff; }
-    .functioninput-str { color: #2596be; }
+    .string { color: #52d1c1; }
   }
   @media (prefers-color-scheme: light) {
     .functioninput-default { color: black; }
     .functionseparators { color: black; }
     .function-name { color: #a17702ff; }
-    .functioninput-str { color: green; }
+    .string { color: green; }
   }
 </style>
 
