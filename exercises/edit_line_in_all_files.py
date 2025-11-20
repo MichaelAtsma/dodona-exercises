@@ -1,7 +1,7 @@
 import os
 
-to_replace = "<th>Verwachte uitvoer</th>"
-replacement = "<th>Verwachte returnwaarde</th>"
+to_replace = '<code style="color: green;">"'
+replacement = '<code>"'
 filename_contains = "description"
 root_dir = "exercises"
 

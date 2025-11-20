@@ -205,7 +205,7 @@ Maak een functie genaamd <function name="ToegangMetNaam"></function> die een <i>
     <tr>
       <td><function name="ToegangMetNaam" inputs='"Ali El Amrani"'></function></td>
       <td style="text-align: center;">→</td>
-      <td><code style="color: green;">"Toegang geweigerd"</code></td>
+      <td><code>"Toegang geweigerd"</code></td>
     </tr>
   </tbody>
 </table>

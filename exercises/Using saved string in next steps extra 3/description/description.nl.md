@@ -11,11 +11,11 @@
   // Function to wrap strings in <code> elements with a green span
   function highlightStringsInCode() {
     document.querySelectorAll('code').forEach(function(codeElem) {
-      // Replace all "string" or 'string' with a green span
+      // Replace all "string" or 'string' with a green span, unless already wrapped in a span
       codeElem.innerHTML = codeElem.innerHTML.replace(
-        /(["'])(.*?)(\1)/g,
+        /(["'])(?!<span[^>]*>)(.*?)(?!<\/span>)(\1)/g,
         function(match, quote, content) {
-          return quote + '<span style="color: green;">' + content + '</span>' + quote;
+          return '<span style="color: green;">' + quote + content + quote + '</span>';
         }
       );
     });
