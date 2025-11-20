@@ -1,0 +1,22 @@
+--------------------------------------------------
+tab name: Ongeldige maanden
+<LANGUAGE code="en">
+    <function from="Seizoen" to="Season" />
+    <fixed from="Januari" to="January" />
+    <fixed from="Februari" to="February" />
+    <fixed from="Maart" to="March" />
+    <fixed from="April" to="April" />
+    <fixed from="Mei" to="May" />
+    <fixed from="Juni" to="June" />
+    <fixed from="Juli" to="July" />
+    <fixed from="Augustus" to="August" />
+    <fixed from="September" to="September" />
+    <fixed from="Oktober" to="October" />
+    <fixed from="November" to="November" />
+    <fixed from="December" to="December" />
+    <fixed from="Winter" to="Winter" />
+    <fixed from="Lente" to="Spring" />
+    <fixed from="Zomer" to="Summer" />
+    <fixed from="Herfst" to="Autumn" />
+    <fixed from="Ongeldige maand" to="Invalid month" />
+</LANGUAGE>
