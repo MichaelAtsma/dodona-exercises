@@ -1,4 +1,4 @@
-def Leeftijdgroep(leeftijd):
+def Leeftijdsgroep(leeftijd):
     if leeftijd >= 18:
         tekst = "Volwassene"
     elif leeftijd < 12:

@@ -1,16 +1,16 @@
->>> Leeftijdgroep(5)
+>>> Leeftijdsgroep(5)
 'Kind'
->>> Leeftijdgroep(11.5)
+>>> Leeftijdsgroep(11.5)
 'Kind'
->>> Leeftijdgroep(12)
+>>> Leeftijdsgroep(12)
 'Tiener'
->>> Leeftijdgroep(12.5)
+>>> Leeftijdsgroep(12.5)
 'Tiener'
->>> Leeftijdgroep(15)
+>>> Leeftijdsgroep(15)
 'Tiener'
->>> Leeftijdgroep(17.5)
+>>> Leeftijdsgroep(17.5)
 'Tiener'
->>> Leeftijdgroep(18)
+>>> Leeftijdsgroep(18)
 'Volwassene'
->>> Leeftijdgroep(20)
+>>> Leeftijdsgroep(20)
 'Volwassene'

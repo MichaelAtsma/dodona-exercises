@@ -2,16 +2,16 @@ import os
 import re
 
 # Pattern or literal to replace
-use_regex_for_to_replace = True
-to_replace = r"""<table>.*</table>"""
+use_regex_for_to_replace = False
+to_replace = r"""Leeftijdgroep"""
 
 # Replacement (can contain backreferences like r"\1" when use_regex is True)
-use_regex_for_replacement = True
-replacement = r"""<div class="table-scroll">\n\g<0>\n</div>"""
+use_regex_for_replacement = False
+replacement = r"""Leeftijdsgroep"""
 
 
-filename_contains = "description"
-directory_contains = "More math operations with numbers"
+filename_contains = ""
+directory_contains = "Combining functions and if-elif-else exercise 3"
 directory_does_not_contain = ""
 root_dir = "exercises"
 
