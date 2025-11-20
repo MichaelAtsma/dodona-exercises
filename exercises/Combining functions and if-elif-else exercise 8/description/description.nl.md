@@ -264,6 +264,6 @@ Maak een functie genaamd <function name="SterkWachtwoord"></function> die één 
 </div>
 </details>
 
-<details markdown="1"><summary>input-output verwachtingen</summary>Tip</summary>
+<details markdown="1"><summary>Tip</summary>
 Herinner je nog de functie die we kunnen gebruiken om de lengte van een string te bepalen?
 </details>
