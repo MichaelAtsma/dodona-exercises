@@ -18,7 +18,7 @@ X = ["Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zond
 
 result = ""
 for args in itertools.product(X):
-    result += f">>> DagType({', '.join(map(str, args))})\n"
+    result += f">>> DagType({', '.join(map(repr, args))})\n"
     result += f"{repr(DagType(*args))}\n"
 
 copy_to_clipboard(result.strip())

@@ -1,14 +1,14 @@
->>> Prijscategorie(3)
-'Goedkoop'
->>> Prijscategorie(4.99)
-'Goedkoop'
->>> Prijscategorie(5)
-'Normaal'
->>> Prijscategorie(11)
-'Normaal'
->>> Prijscategorie(15)
-'Normaal'
->>> Prijscategorie(15.01)
-'Duur'
->>> Prijscategorie(20)
-'Duur'
+>>> DagType('Maandag')
+'Weekdag'
+>>> DagType('Dinsdag')
+'Weekdag'
+>>> DagType('Woensdag')
+'Weekdag'
+>>> DagType('Donderdag')
+'Weekdag'
+>>> DagType('Vrijdag')
+'Weekdag'
+>>> DagType('Zaterdag')
+'Weekend'
+>>> DagType('Zondag')
+'Weekend'
