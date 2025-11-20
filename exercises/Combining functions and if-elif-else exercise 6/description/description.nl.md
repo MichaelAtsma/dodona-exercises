@@ -185,37 +185,37 @@ Maak een functie genaamd <function name="DagType"></function> die een <i>string<
   </thead>
   <tbody>
     <tr>
-      <td><function name="DagType" inputs="Maandag"></function></td>
+      <td><function name="DagType" inputs='"Maandag"'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Weekdag"</code></td>
     </tr>
     <tr>
-      <td><function name="DagType" inputs="Dinsdag"></function></td>
+      <td><function name="DagType" inputs='"Dinsdag"'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Weekdag"</code></td>
     </tr>
     <tr>
-      <td><function name="DagType" inputs="Woensdag"></function></td>
+      <td><function name="DagType" inputs='"Woensdag"'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Weekdag"</code></td>
     </tr>
     <tr>
-      <td><function name="DagType" inputs="Donderdag"></function></td>
+      <td><function name="DagType" inputs='"Donderdag"'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Weekdag"</code></td>
     </tr>
     <tr>
-      <td><function name="DagType" inputs="Vrijdag"></function></td>
+      <td><function name="DagType" inputs='"Vrijdag"'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Weekdag"</code></td>
     </tr>
     <tr>
-      <td><function name="DagType" inputs="Zaterdag"></function></td>
+      <td><function name="DagType" inputs='"Zaterdag"'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Weekend"</code></td>
     </tr>
     <tr>
-      <td><function name="DagType" inputs="Zondag"></function></td>
+      <td><function name="DagType" inputs='"Zondag"'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Weekend"</code></td>
     </tr>
