@@ -34,7 +34,6 @@ Stel je voor dat we het hebben over een rechthoek met breedte `4` en hoogte `3`.
 breedte = 4
 lengte = 3
 diagonaal = 5
-
 ```
 
 <br>
