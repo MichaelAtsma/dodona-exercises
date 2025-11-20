@@ -5,19 +5,28 @@ def copy_to_clipboard(text):
     pyperclip.copy(text)
 
 def Seizoen(maand):
-    if maand in ["december", "januari", "februari"]:
+    if maand in ["December", "Januari", "Februari"]:
         return "Winter"
-    elif maand in ["maart", "april", "mei"]:
+    elif maand in ["Maart", "April", "Mei"]:
         return "Lente"
-    elif maand in ["juni", "juli", "augustus"]:
+    elif maand in ["Juni", "Juli", "Augustus"]:
         return "Zomer"
-    elif maand in ["september", "oktober", "november"]:
+    elif maand in ["September", "Oktober", "November"]:
         return "Herfst"
     else:
         return "Ongeldige maand"
 
-X = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december", "lunaris"]
-# X = range(-50, 201)
+X = ["Januari", "Februari", "Maart", "April", "Mei", "Juni", "Juli", "Augustus", "September", "Oktober", "November", "December", "Lunaris"]
+X = [
+    "Aurelius", "Brumara", "Cerulus", "Demeris", "Elenor", "Feyruar", "Glimber",
+    "Hespera", "Ivril", "Jorvember", "Kestrel", "Myrtil", "Norvar", "Ociero",
+    "Pyrune", "Quillis", "Rosmara", "Soltember", "Thalor", "Umbria", "Vesperis",
+    "Wythen", "Xandor", "Yulian", "Zepharis", "Arcton", "Bellune", "Corvella",
+    "Dagent", "Eldrim", "Florisca", "Galdon", "Helion", "Iskren", "Jasmir",
+    "Kylendar", "Lormont", "Moren", "Nivalis", "Orell", "Paelun", "Quarim",
+    "Rivent", "Silaris", "Tormes", "Ulmar", "Valeris", "Wynthal", "Xylander",
+    "Zephyria"
+]
 
 result = ""
 for args in itertools.product(X):

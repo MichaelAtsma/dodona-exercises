@@ -1,26 +1,26 @@
->>> Seizoen('januari')
+>>> Seizoen('Januari')
 'Winter'
->>> Seizoen('februari')
+>>> Seizoen('Februari')
 'Winter'
->>> Seizoen('maart')
+>>> Seizoen('Maart')
 'Lente'
->>> Seizoen('april')
+>>> Seizoen('April')
 'Lente'
->>> Seizoen('mei')
+>>> Seizoen('Mei')
 'Lente'
->>> Seizoen('juni')
+>>> Seizoen('Juni')
 'Zomer'
->>> Seizoen('juli')
+>>> Seizoen('Juli')
 'Zomer'
->>> Seizoen('augustus')
+>>> Seizoen('Augustus')
 'Zomer'
->>> Seizoen('september')
+>>> Seizoen('September')
 'Herfst'
->>> Seizoen('oktober')
+>>> Seizoen('Oktober')
 'Herfst'
->>> Seizoen('november')
+>>> Seizoen('November')
 'Herfst'
->>> Seizoen('december')
+>>> Seizoen('December')
 'Winter'
->>> Seizoen('lunaris')
+>>> Seizoen('Lunaris')
 'Ongeldige maand'

@@ -1,27 +1,27 @@
 def Seizoen(maand):
-    if maand == "januari":
+    if maand == "Januari":
         seizoen = "Winter"
-    elif maand == "februari":
+    elif maand == "Februari":
         seizoen = "Winter"
-    elif maand == "maart":
+    elif maand == "Maart":
         seizoen = "Lente"
-    elif maand == "april":
+    elif maand == "April":
         seizoen = "Lente"
-    elif maand == "mei":
+    elif maand == "Mei":
         seizoen = "Lente"
-    elif maand == "juni":
+    elif maand == "Juni":
         seizoen = "Zomer"
-    elif maand == "juli":
+    elif maand == "Juli":
         seizoen = "Zomer"
-    elif maand == "augustus":
+    elif maand == "Augustus":
         seizoen = "Zomer"
-    elif maand == "september":
+    elif maand == "September":
         seizoen = "Herfst"
-    elif maand == "oktober":
+    elif maand == "Oktober":
         seizoen = "Herfst"
-    elif maand == "november":
+    elif maand == "November":
         seizoen = "Herfst"
-    elif maand == "december":
+    elif maand == "December":
         seizoen = "Winter"
     else:
         seizoen = "Ongeldige maand"

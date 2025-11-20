@@ -228,10 +228,10 @@ def Grootste(x, y):
 
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="Seizoen"></function> die één <i>string</i> als invoer neemt (de maand), en dan een <i>string</i> teruggeeft die het seizoen aangeeft:
-- Als het "december", "januari", of "februari" is, geef dan de tekst <code>"Winter"</code> terug.
-- Als het "maart", "april", of "mei" is, geef dan de tekst <code>"Lente"</code> terug.
-- Als het "juni", "juli", of "augustus" is, geef dan de tekst <code>"Zomer"</code> terug.
-- Als het "september", "oktober", of "november" is, geef dan de tekst <code>"Herfst"</code> terug.
+- Als het "December", "Januari", of "Februari" is, geef dan de tekst <code>"Winter"</code> terug.
+- Als het "Maart", "April", of "Mei" is, geef dan de tekst <code>"Lente"</code> terug.
+- Als het "Juni", "Juli", of "Augustus" is, geef dan de tekst <code>"Zomer"</code> terug.
+- Als het "September", "Oktober", of "November" is, geef dan de tekst <code>"Herfst"</code> terug.
 - Als het geen geldige maand is, geef dan de tekst <code>"Ongeldige maand"</code> terug.
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
@@ -247,67 +247,67 @@ Maak een functie genaamd <function name="Seizoen"></function> die één <i>strin
   </thead>
   <tbody>
     <tr>
-      <td><function name="Seizoen" inputs='"januari"'></function></td>
+      <td><function name="Seizoen" inputs='"Januari"'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Winter"</code></td>
     </tr>
     <tr>
-      <td><function name="Seizoen" inputs='"februari"'></function></td>
+      <td><function name="Seizoen" inputs='"Februari"'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Winter"</code></td>
     </tr>
     <tr>
-      <td><function name="Seizoen" inputs='"maart"'></function></td>
+      <td><function name="Seizoen" inputs='"Maart"'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Lente"</code></td>
     </tr>
     <tr>
-      <td><function name="Seizoen" inputs='"april"'></function></td>
+      <td><function name="Seizoen" inputs='"April"'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Lente"</code></td>
     </tr>
     <tr>
-      <td><function name="Seizoen" inputs='"mei"'></function></td>
+      <td><function name="Seizoen" inputs='"Mei"'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Lente"</code></td>
     </tr>
     <tr>
-      <td><function name="Seizoen" inputs='"juni"'></function></td>
+      <td><function name="Seizoen" inputs='"Juni"'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Zomer"</code></td>
     </tr>
     <tr>
-      <td><function name="Seizoen" inputs='"juli"'></function></td>
+      <td><function name="Seizoen" inputs='"Juli"'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Zomer"</code></td>
     </tr>
     <tr>
-      <td><function name="Seizoen" inputs='"augustus"'></function></td>
+      <td><function name="Seizoen" inputs='"Augustus"'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Zomer"</code></td>
     </tr>
     <tr>
-      <td><function name="Seizoen" inputs='"september"'></function></td>
+      <td><function name="Seizoen" inputs='"September"'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Herfst"</code></td>
     </tr>
     <tr>
-      <td><function name="Seizoen" inputs='"oktober"'></function></td>
+      <td><function name="Seizoen" inputs='"Oktober"'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Herfst"</code></td>
     </tr>
     <tr>
-      <td><function name="Seizoen" inputs='"november"'></function></td>
+      <td><function name="Seizoen" inputs='"November"'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Herfst"</code></td>
     </tr>
     <tr>
-      <td><function name="Seizoen" inputs='"december"'></function></td>
+      <td><function name="Seizoen" inputs='"December"'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Winter"</code></td>
     </tr>
     <tr>
-      <td><function name="Seizoen" inputs='"lunaris"'></function></td>
+      <td><function name="Seizoen" inputs='"Lunaris"'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Ongeldige maand"</code></td>
     </tr>
