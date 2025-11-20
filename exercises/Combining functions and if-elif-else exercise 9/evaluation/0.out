@@ -1,0 +1,8 @@
+--------------------------------------------------
+tab name: Examples
+<LANGUAGE code="en">
+    <function from="EvenOfOneven" to="EvenOrOdd" />
+    <fixed from="Geen positief getal" to="Not a positive number" />
+    <fixed from="Even" to="Even" />
+    <fixed from="Oneven" to="Odd" />
+</LANGUAGE>

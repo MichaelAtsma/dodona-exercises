@@ -1,0 +1,8 @@
+>>> EvenOfOneven(5)
+'Oneven'
+>>> EvenOfOneven(12)
+'Even'
+>>> EvenOfOneven(-7)
+'Geen positief getal'
+>>> EvenOfOneven(0)
+'Geen positief getal'

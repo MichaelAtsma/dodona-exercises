@@ -1,0 +1,502 @@
+>>> EvenOfOneven(-50)
+'Geen positief getal'
+>>> EvenOfOneven(-49)
+'Geen positief getal'
+>>> EvenOfOneven(-48)
+'Geen positief getal'
+>>> EvenOfOneven(-47)
+'Geen positief getal'
+>>> EvenOfOneven(-46)
+'Geen positief getal'
+>>> EvenOfOneven(-45)
+'Geen positief getal'
+>>> EvenOfOneven(-44)
+'Geen positief getal'
+>>> EvenOfOneven(-43)
+'Geen positief getal'
+>>> EvenOfOneven(-42)
+'Geen positief getal'
+>>> EvenOfOneven(-41)
+'Geen positief getal'
+>>> EvenOfOneven(-40)
+'Geen positief getal'
+>>> EvenOfOneven(-39)
+'Geen positief getal'
+>>> EvenOfOneven(-38)
+'Geen positief getal'
+>>> EvenOfOneven(-37)
+'Geen positief getal'
+>>> EvenOfOneven(-36)
+'Geen positief getal'
+>>> EvenOfOneven(-35)
+'Geen positief getal'
+>>> EvenOfOneven(-34)
+'Geen positief getal'
+>>> EvenOfOneven(-33)
+'Geen positief getal'
+>>> EvenOfOneven(-32)
+'Geen positief getal'
+>>> EvenOfOneven(-31)
+'Geen positief getal'
+>>> EvenOfOneven(-30)
+'Geen positief getal'
+>>> EvenOfOneven(-29)
+'Geen positief getal'
+>>> EvenOfOneven(-28)
+'Geen positief getal'
+>>> EvenOfOneven(-27)
+'Geen positief getal'
+>>> EvenOfOneven(-26)
+'Geen positief getal'
+>>> EvenOfOneven(-25)
+'Geen positief getal'
+>>> EvenOfOneven(-24)
+'Geen positief getal'
+>>> EvenOfOneven(-23)
+'Geen positief getal'
+>>> EvenOfOneven(-22)
+'Geen positief getal'
+>>> EvenOfOneven(-21)
+'Geen positief getal'
+>>> EvenOfOneven(-20)
+'Geen positief getal'
+>>> EvenOfOneven(-19)
+'Geen positief getal'
+>>> EvenOfOneven(-18)
+'Geen positief getal'
+>>> EvenOfOneven(-17)
+'Geen positief getal'
+>>> EvenOfOneven(-16)
+'Geen positief getal'
+>>> EvenOfOneven(-15)
+'Geen positief getal'
+>>> EvenOfOneven(-14)
+'Geen positief getal'
+>>> EvenOfOneven(-13)
+'Geen positief getal'
+>>> EvenOfOneven(-12)
+'Geen positief getal'
+>>> EvenOfOneven(-11)
+'Geen positief getal'
+>>> EvenOfOneven(-10)
+'Geen positief getal'
+>>> EvenOfOneven(-9)
+'Geen positief getal'
+>>> EvenOfOneven(-8)
+'Geen positief getal'
+>>> EvenOfOneven(-7)
+'Geen positief getal'
+>>> EvenOfOneven(-6)
+'Geen positief getal'
+>>> EvenOfOneven(-5)
+'Geen positief getal'
+>>> EvenOfOneven(-4)
+'Geen positief getal'
+>>> EvenOfOneven(-3)
+'Geen positief getal'
+>>> EvenOfOneven(-2)
+'Geen positief getal'
+>>> EvenOfOneven(-1)
+'Geen positief getal'
+>>> EvenOfOneven(0)
+'Geen positief getal'
+>>> EvenOfOneven(1)
+'Oneven'
+>>> EvenOfOneven(2)
+'Even'
+>>> EvenOfOneven(3)
+'Oneven'
+>>> EvenOfOneven(4)
+'Even'
+>>> EvenOfOneven(5)
+'Oneven'
+>>> EvenOfOneven(6)
+'Even'
+>>> EvenOfOneven(7)
+'Oneven'
+>>> EvenOfOneven(8)
+'Even'
+>>> EvenOfOneven(9)
+'Oneven'
+>>> EvenOfOneven(10)
+'Even'
+>>> EvenOfOneven(11)
+'Oneven'
+>>> EvenOfOneven(12)
+'Even'
+>>> EvenOfOneven(13)
+'Oneven'
+>>> EvenOfOneven(14)
+'Even'
+>>> EvenOfOneven(15)
+'Oneven'
+>>> EvenOfOneven(16)
+'Even'
+>>> EvenOfOneven(17)
+'Oneven'
+>>> EvenOfOneven(18)
+'Even'
+>>> EvenOfOneven(19)
+'Oneven'
+>>> EvenOfOneven(20)
+'Even'
+>>> EvenOfOneven(21)
+'Oneven'
+>>> EvenOfOneven(22)
+'Even'
+>>> EvenOfOneven(23)
+'Oneven'
+>>> EvenOfOneven(24)
+'Even'
+>>> EvenOfOneven(25)
+'Oneven'
+>>> EvenOfOneven(26)
+'Even'
+>>> EvenOfOneven(27)
+'Oneven'
+>>> EvenOfOneven(28)
+'Even'
+>>> EvenOfOneven(29)
+'Oneven'
+>>> EvenOfOneven(30)
+'Even'
+>>> EvenOfOneven(31)
+'Oneven'
+>>> EvenOfOneven(32)
+'Even'
+>>> EvenOfOneven(33)
+'Oneven'
+>>> EvenOfOneven(34)
+'Even'
+>>> EvenOfOneven(35)
+'Oneven'
+>>> EvenOfOneven(36)
+'Even'
+>>> EvenOfOneven(37)
+'Oneven'
+>>> EvenOfOneven(38)
+'Even'
+>>> EvenOfOneven(39)
+'Oneven'
+>>> EvenOfOneven(40)
+'Even'
+>>> EvenOfOneven(41)
+'Oneven'
+>>> EvenOfOneven(42)
+'Even'
+>>> EvenOfOneven(43)
+'Oneven'
+>>> EvenOfOneven(44)
+'Even'
+>>> EvenOfOneven(45)
+'Oneven'
+>>> EvenOfOneven(46)
+'Even'
+>>> EvenOfOneven(47)
+'Oneven'
+>>> EvenOfOneven(48)
+'Even'
+>>> EvenOfOneven(49)
+'Oneven'
+>>> EvenOfOneven(50)
+'Even'
+>>> EvenOfOneven(51)
+'Oneven'
+>>> EvenOfOneven(52)
+'Even'
+>>> EvenOfOneven(53)
+'Oneven'
+>>> EvenOfOneven(54)
+'Even'
+>>> EvenOfOneven(55)
+'Oneven'
+>>> EvenOfOneven(56)
+'Even'
+>>> EvenOfOneven(57)
+'Oneven'
+>>> EvenOfOneven(58)
+'Even'
+>>> EvenOfOneven(59)
+'Oneven'
+>>> EvenOfOneven(60)
+'Even'
+>>> EvenOfOneven(61)
+'Oneven'
+>>> EvenOfOneven(62)
+'Even'
+>>> EvenOfOneven(63)
+'Oneven'
+>>> EvenOfOneven(64)
+'Even'
+>>> EvenOfOneven(65)
+'Oneven'
+>>> EvenOfOneven(66)
+'Even'
+>>> EvenOfOneven(67)
+'Oneven'
+>>> EvenOfOneven(68)
+'Even'
+>>> EvenOfOneven(69)
+'Oneven'
+>>> EvenOfOneven(70)
+'Even'
+>>> EvenOfOneven(71)
+'Oneven'
+>>> EvenOfOneven(72)
+'Even'
+>>> EvenOfOneven(73)
+'Oneven'
+>>> EvenOfOneven(74)
+'Even'
+>>> EvenOfOneven(75)
+'Oneven'
+>>> EvenOfOneven(76)
+'Even'
+>>> EvenOfOneven(77)
+'Oneven'
+>>> EvenOfOneven(78)
+'Even'
+>>> EvenOfOneven(79)
+'Oneven'
+>>> EvenOfOneven(80)
+'Even'
+>>> EvenOfOneven(81)
+'Oneven'
+>>> EvenOfOneven(82)
+'Even'
+>>> EvenOfOneven(83)
+'Oneven'
+>>> EvenOfOneven(84)
+'Even'
+>>> EvenOfOneven(85)
+'Oneven'
+>>> EvenOfOneven(86)
+'Even'
+>>> EvenOfOneven(87)
+'Oneven'
+>>> EvenOfOneven(88)
+'Even'
+>>> EvenOfOneven(89)
+'Oneven'
+>>> EvenOfOneven(90)
+'Even'
+>>> EvenOfOneven(91)
+'Oneven'
+>>> EvenOfOneven(92)
+'Even'
+>>> EvenOfOneven(93)
+'Oneven'
+>>> EvenOfOneven(94)
+'Even'
+>>> EvenOfOneven(95)
+'Oneven'
+>>> EvenOfOneven(96)
+'Even'
+>>> EvenOfOneven(97)
+'Oneven'
+>>> EvenOfOneven(98)
+'Even'
+>>> EvenOfOneven(99)
+'Oneven'
+>>> EvenOfOneven(100)
+'Even'
+>>> EvenOfOneven(101)
+'Oneven'
+>>> EvenOfOneven(102)
+'Even'
+>>> EvenOfOneven(103)
+'Oneven'
+>>> EvenOfOneven(104)
+'Even'
+>>> EvenOfOneven(105)
+'Oneven'
+>>> EvenOfOneven(106)
+'Even'
+>>> EvenOfOneven(107)
+'Oneven'
+>>> EvenOfOneven(108)
+'Even'
+>>> EvenOfOneven(109)
+'Oneven'
+>>> EvenOfOneven(110)
+'Even'
+>>> EvenOfOneven(111)
+'Oneven'
+>>> EvenOfOneven(112)
+'Even'
+>>> EvenOfOneven(113)
+'Oneven'
+>>> EvenOfOneven(114)
+'Even'
+>>> EvenOfOneven(115)
+'Oneven'
+>>> EvenOfOneven(116)
+'Even'
+>>> EvenOfOneven(117)
+'Oneven'
+>>> EvenOfOneven(118)
+'Even'
+>>> EvenOfOneven(119)
+'Oneven'
+>>> EvenOfOneven(120)
+'Even'
+>>> EvenOfOneven(121)
+'Oneven'
+>>> EvenOfOneven(122)
+'Even'
+>>> EvenOfOneven(123)
+'Oneven'
+>>> EvenOfOneven(124)
+'Even'
+>>> EvenOfOneven(125)
+'Oneven'
+>>> EvenOfOneven(126)
+'Even'
+>>> EvenOfOneven(127)
+'Oneven'
+>>> EvenOfOneven(128)
+'Even'
+>>> EvenOfOneven(129)
+'Oneven'
+>>> EvenOfOneven(130)
+'Even'
+>>> EvenOfOneven(131)
+'Oneven'
+>>> EvenOfOneven(132)
+'Even'
+>>> EvenOfOneven(133)
+'Oneven'
+>>> EvenOfOneven(134)
+'Even'
+>>> EvenOfOneven(135)
+'Oneven'
+>>> EvenOfOneven(136)
+'Even'
+>>> EvenOfOneven(137)
+'Oneven'
+>>> EvenOfOneven(138)
+'Even'
+>>> EvenOfOneven(139)
+'Oneven'
+>>> EvenOfOneven(140)
+'Even'
+>>> EvenOfOneven(141)
+'Oneven'
+>>> EvenOfOneven(142)
+'Even'
+>>> EvenOfOneven(143)
+'Oneven'
+>>> EvenOfOneven(144)
+'Even'
+>>> EvenOfOneven(145)
+'Oneven'
+>>> EvenOfOneven(146)
+'Even'
+>>> EvenOfOneven(147)
+'Oneven'
+>>> EvenOfOneven(148)
+'Even'
+>>> EvenOfOneven(149)
+'Oneven'
+>>> EvenOfOneven(150)
+'Even'
+>>> EvenOfOneven(151)
+'Oneven'
+>>> EvenOfOneven(152)
+'Even'
+>>> EvenOfOneven(153)
+'Oneven'
+>>> EvenOfOneven(154)
+'Even'
+>>> EvenOfOneven(155)
+'Oneven'
+>>> EvenOfOneven(156)
+'Even'
+>>> EvenOfOneven(157)
+'Oneven'
+>>> EvenOfOneven(158)
+'Even'
+>>> EvenOfOneven(159)
+'Oneven'
+>>> EvenOfOneven(160)
+'Even'
+>>> EvenOfOneven(161)
+'Oneven'
+>>> EvenOfOneven(162)
+'Even'
+>>> EvenOfOneven(163)
+'Oneven'
+>>> EvenOfOneven(164)
+'Even'
+>>> EvenOfOneven(165)
+'Oneven'
+>>> EvenOfOneven(166)
+'Even'
+>>> EvenOfOneven(167)
+'Oneven'
+>>> EvenOfOneven(168)
+'Even'
+>>> EvenOfOneven(169)
+'Oneven'
+>>> EvenOfOneven(170)
+'Even'
+>>> EvenOfOneven(171)
+'Oneven'
+>>> EvenOfOneven(172)
+'Even'
+>>> EvenOfOneven(173)
+'Oneven'
+>>> EvenOfOneven(174)
+'Even'
+>>> EvenOfOneven(175)
+'Oneven'
+>>> EvenOfOneven(176)
+'Even'
+>>> EvenOfOneven(177)
+'Oneven'
+>>> EvenOfOneven(178)
+'Even'
+>>> EvenOfOneven(179)
+'Oneven'
+>>> EvenOfOneven(180)
+'Even'
+>>> EvenOfOneven(181)
+'Oneven'
+>>> EvenOfOneven(182)
+'Even'
+>>> EvenOfOneven(183)
+'Oneven'
+>>> EvenOfOneven(184)
+'Even'
+>>> EvenOfOneven(185)
+'Oneven'
+>>> EvenOfOneven(186)
+'Even'
+>>> EvenOfOneven(187)
+'Oneven'
+>>> EvenOfOneven(188)
+'Even'
+>>> EvenOfOneven(189)
+'Oneven'
+>>> EvenOfOneven(190)
+'Even'
+>>> EvenOfOneven(191)
+'Oneven'
+>>> EvenOfOneven(192)
+'Even'
+>>> EvenOfOneven(193)
+'Oneven'
+>>> EvenOfOneven(194)
+'Even'
+>>> EvenOfOneven(195)
+'Oneven'
+>>> EvenOfOneven(196)
+'Even'
+>>> EvenOfOneven(197)
+'Oneven'
+>>> EvenOfOneven(198)
+'Even'
+>>> EvenOfOneven(199)
+'Oneven'
+>>> EvenOfOneven(200)
+'Even'
