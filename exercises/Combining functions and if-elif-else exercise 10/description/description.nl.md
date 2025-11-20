@@ -228,10 +228,10 @@ def Grootste(x, y):
 
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="Seizoen"></function> die één <i>string</i> als invoer neemt (de maand), en dan een <i>string</i> teruggeeft die het seizoen aangeeft:
-- Als het "December", "Januari", of "Februari" is, geef dan de tekst <code>"Winter"</code> terug.
-- Als het "Maart", "April", of "Mei" is, geef dan de tekst <code>"Lente"</code> terug.
-- Als het "Juni", "Juli", of "Augustus" is, geef dan de tekst <code>"Zomer"</code> terug.
-- Als het "September", "Oktober", of "November" is, geef dan de tekst <code>"Herfst"</code> terug.
+- Als het <code>"December"</code>, <code>"Januari"</code>, of <code>"Februari"</code> is, geef dan de tekst <code>"Winter"</code> terug.
+- Als het <code>"Maart"</code>, <code>"April"</code>, of <code>"Mei"</code> is, geef dan de tekst <code>"Lente"</code> terug.
+- Als het <code>"Juni"</code>, <code>"Juli"</code>, of <code>"Augustus"</code> is, geef dan de tekst <code>"Zomer"</code> terug.
+- Als het <code>"September"</code>, <code>"Oktober"</code>, of <code>"November"</code> is, geef dan de tekst <code>"Herfst"</code> terug.
 - Als het geen geldige maand is, geef dan de tekst <code>"Ongeldige maand"</code> terug.
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
