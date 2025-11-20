@@ -64,13 +64,36 @@
 
   table {
     margin: 0 auto;       /* centers table horizontally */
+    border-collapse: collapse !important;
+    border: 1px solid #444 !important;
+    border-style: solid !important;
   }
   th {
+    padding: 0px 10px !important;
+    box-sizing: border-box;
+    border: 1px solid #8f8f8fff !important;
+    border-style: solid !important;
     font-size: 1.2em !important;
     white-space: nowrap;
   }
   td {
+    padding: 4px 10px !important;
+    box-sizing: border-box;
+    border: 1px solid #8f8f8fff !important;
+    border-style: solid !important;
     white-space: nowrap;
+  }
+  .sub-title-in-table {
+    font-size: 0.8em !important;
+    font-style: italic !important;
+    white-space: normal !important;
+    overflow-wrap: normal !important;
+    word-wrap: normal !important;
+    word-break: normal !important;
+    hyphens: none !important;
+    -webkit-hyphens: none !important;
+    -moz-hyphens: none !important;
+    -ms-hyphens: none !important;
   }
 
   th.padding-column {
