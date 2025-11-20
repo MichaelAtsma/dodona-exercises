@@ -110,16 +110,17 @@
   }
 
   .functioninput-int, .functioninput-float { color: red; }
-  .functioninput-str { color: green; }
   @media (prefers-color-scheme: dark) {
     .functioninput-default { color: white; }
     .functionseparators { color: white; }
     .function-name { color: #daaa28ff; }
+  .functioninput-str { color: #2596be; }
   }
   @media (prefers-color-scheme: light) {
     .functioninput-default { color: black; }
     .functionseparators { color: black; }
     .function-name { color: #a17702ff; }
+  .functioninput-str { color: green; }
   }
 </style>
 
