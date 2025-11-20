@@ -19,8 +19,6 @@ for dirpath, dirnames, filenames in os.walk(root_dir):
     for filename in filenames:
         if filename_contains in filename and directory_contains in dirpath and ((directory_does_not_contain not in dirpath) or directory_does_not_contain == ""):
             file_path = os.path.join(dirpath, filename)
-            if directory_does_not_contain in file_path:
-                print("\n\n\n\n", dirpath, "\n", dirnames, "\n", filenames, "\n\n\n\n")
             print(f"Checking: {file_path}")
             with open(file_path, "r", encoding="utf-8") as f:
                 content = f.read()
