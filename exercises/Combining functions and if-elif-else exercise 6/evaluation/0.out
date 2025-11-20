@@ -4,6 +4,3 @@ tab name: Examples
     <function from="DagType" to="DayType" />
     <fixed from="Weekdag" to="Week day" />
 </LANGUAGE>
-<LANGUAGE code="nl">
-    <fixed from="Examples" to="Voorbeelden" />
-</LANGUAGE>
