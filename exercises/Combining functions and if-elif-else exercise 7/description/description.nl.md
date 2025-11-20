@@ -62,14 +62,13 @@
   <span class="invisible-text">Your invisible text here</span> 
   */
   table {
-    max-width: 100%;
-    /* display: block; */
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    display: table;
     margin: 0 auto;       /* centers table horizontally */
     border-collapse: collapse !important;
     border: 1px solid #444 !important;
     border-style: solid !important;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
   th {
     padding: 0px 10px !important;
