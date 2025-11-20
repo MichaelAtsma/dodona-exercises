@@ -281,7 +281,3 @@ Maak een functie genaamd <function name="CijferBeschrijving"></function> die twe
 </table>
 </div>
 </details>
-
-Testing:
-
-<function name="CijferBeschrijving" inputs='x,2,"hallo"'></function>
