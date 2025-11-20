@@ -109,18 +109,19 @@
     -ms-hyphens: none !important;
   }
 
-  .functioninput-int, .functioninput-float { color: red; }
   @media (prefers-color-scheme: dark) {
     .functioninput-default { color: white; }
     .functionseparators { color: white; }
     .function-name { color: #daaa28ff; }
     .string { color: #52d1c1; }
+    .functioninput-int, .functioninput-float { color: #feb1bf; }
   }
   @media (prefers-color-scheme: light) {
     .functioninput-default { color: black; }
     .functionseparators { color: black; }
     .function-name { color: #a17702ff; }
     .string { color: green; }
+    .functioninput-int, .functioninput-float { color: red; }
   }
 </style>
 
