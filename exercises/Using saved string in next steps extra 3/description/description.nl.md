@@ -7,6 +7,8 @@
     const modified = selection.length > 75 ? prependText + selection : selection;
     e.clipboardData.setData("text/plain", modified);
   });
+
+
 </script>
 
 <style>
@@ -51,4 +53,4 @@ f = "tik tok tik tok tik tok "</code></pre>
 <hr>
 
 # <b>Opdracht</b>
-Gebruik variabelen <code>a = "stoel"</code> en <code>b = "poot "</code> en <code>c = 4</code> om de <i>string</i> <code>"stoelpoot stoelpoot stoelpoot stoelpoot "</code> op te slaan in variabele <code>d</code>.
+Gebruik variabelen <code>a = <span style="color: green;">"stoel"</span></code> en <code>b = "poot "</code> en <code>c = 4</code> om de <i>string</i> <code>"stoelpoot stoelpoot stoelpoot stoelpoot "</code> op te slaan in variabele <code>d</code>.
