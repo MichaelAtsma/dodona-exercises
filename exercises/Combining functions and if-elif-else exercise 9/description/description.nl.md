@@ -272,10 +272,19 @@ Maak een functie genaamd <function name="EvenOfOneven"></function> die één get
 <details markdown="1"><summary>Tip voor even/oneven</summary>
 Gebruik de modulus-operator <code>%</code> om te controleren of een getal even of oneven is. Een getal is even als er bij deling door 2 een rest van 0 is, anders is het oneven.
 
+<br>
+
 <details markdown="1"><summary>Tip (meer detail dan die hierboven)</summary>
 De modulus-operator <code>%</code> geeft de rest van een deling terug. Bijvoorbeeld:
 <div class="table-scroll">
 <table>
+  <thead>
+    <tr>
+      <th>Expressie</th>
+      <th class="padding-column">→</th>
+      <th>Uitkomst</th>
+      <th>Uitleg</th>
+    </tr>
   <tbody>
     <tr>
       <td><code>10 % 2</code></td>
@@ -298,6 +307,8 @@ De modulus-operator <code>%</code> geeft de rest van een deling terug. Bijvoorbe
   </tbody>
 </table>
 </div>
+
+<br>
 
 <details markdown="1"><summary>Tip (zo goed als de oplossing verklapt)</summary>
 We moeten kijken of een getal <code>x</code> even is. Dat kan je doen door te controleren of <code>x % 2</code> gelijk is aan 0:
