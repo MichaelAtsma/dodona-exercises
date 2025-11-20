@@ -198,6 +198,7 @@ Maak een functie genaamd <function name="CijferBeschrijving"></function> die twe
       <th>Invoer</th>
       <th class="padding-column">→</th>
       <th>Verwachte returnwaarde</th>
+      <th>Reden</th>
     </tr>
   </thead>
   <tbody>
@@ -205,26 +206,31 @@ Maak een functie genaamd <function name="CijferBeschrijving"></function> die twe
       <td><function name="CijferBeschrijving" inputs='2,7'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Onvoldoende"</code></td>
+      <td>Want 2 op 7 is minder dan 50%</td>
     </tr>
     <tr>
       <td><function name="CijferBeschrijving" inputs='6,12'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Voldoende"</code></td>
+      <td>Want 6 op 12 is precies 50%</td>
     </tr>
     <tr>
       <td><function name="CijferBeschrijving" inputs='15,20'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Voldoende"</code></td>
+      <td>Want 15 op 20 is tussen 50% en 90%</td>
     </tr>
     <tr>
       <td><function name="CijferBeschrijving" inputs='9,10'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Uitstekend"</code></td>
+      <td>Want 9 op 10 is 90% of hoger</td>
     </tr>
     <tr>
       <td><function name="CijferBeschrijving" inputs='3,3'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Uitstekend"</code></td>
+      <td>Want 3 op 3 is hoger dan 90%</td>
     </tr>
   </tbody>
 </table>
