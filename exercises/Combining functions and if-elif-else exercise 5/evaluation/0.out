@@ -1,0 +1,7 @@
+--------------------------------------------------
+tab name: Examples
+<LANGUAGE code="en">
+    <function from="ToegangMetNaam" to="AccessWithName" />
+    <fixed from="Toegang verleend" to="Access granted" />
+    <fixed from="Toegang geweigerd" to="Access denied" />
+</LANGUAGE>

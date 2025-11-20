@@ -1,0 +1,10 @@
+>>> ToegangMetNaam('Ali')
+'Toegang verleend'
+>>> ToegangMetNaam('Helena')
+'Toegang verleend'
+>>> ToegangMetNaam('Jasmina')
+'Toegang geweigerd'
+>>> ToegangMetNaam('Jos')
+'Toegang geweigerd'
+>>> ToegangMetNaam('Ali El Amrani')
+'Toegang geweigerd'
