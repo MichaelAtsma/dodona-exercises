@@ -8,7 +8,19 @@
     e.clipboardData.setData("text/plain", modified);
   });
 
-
+  // Function to wrap strings in <code> elements with a green span
+  function highlightStringsInCode() {
+    document.querySelectorAll('code').forEach(function(codeElem) {
+      // Replace all "string" or 'string' with a green span
+      codeElem.innerHTML = codeElem.innerHTML.replace(
+        /(["'])(.*?)(\1)/g,
+        function(match, quote, content) {
+          return quote + '<span style="color: green;">' + content + '</span>' + quote;
+        }
+      );
+    });
+  }
+  document.addEventListener("DOMContentLoaded", highlightStringsInCode);
 </script>
 
 <style>
