@@ -129,6 +129,7 @@
 
 Eerder heb je geleerd hoe je getallen bij elkaar kunt optellen, vermenigvuldigen, en delen met de computer. Maar de computer kan nog een aantal andere wiskundige bewerkingen uitvoeren. Zie hieronder een lijst:
 
+<div class="table-scroll">
 <table>
   <thead>
     <tr>
@@ -209,6 +210,7 @@ Eerder heb je geleerd hoe je getallen bij elkaar kunt optellen, vermenigvuldigen
     </tr>
   </tbody>
 </table>
+</div>
 
 </details>
 
