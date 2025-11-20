@@ -1,0 +1,6 @@
+>>> SterkWachtwoord('kort')
+'Wachtwoord te kort'
+>>> SterkWachtwoord('precies8')
+'Wachtwoord oké'
+>>> SterkWachtwoord('eenlangwachtwoord')
+'Wachtwoord sterk'

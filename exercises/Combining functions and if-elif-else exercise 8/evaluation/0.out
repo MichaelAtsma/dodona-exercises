@@ -1,0 +1,8 @@
+--------------------------------------------------
+tab name: Examples
+<LANGUAGE code="en">
+    <function from="SterkWachtwoord" to="StrongPassword" />
+    <fixed from="Wachtwoord te kort" to="Password too short" />
+    <fixed from="Wachtwoord oké" to="Password okay" />
+    <fixed from="Wachtwoord sterk" to="Strong password" />
+</LANGUAGE>

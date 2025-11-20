@@ -1,0 +1,200 @@
+>>> SterkWachtwoord('eTn-@wvV[IDq#lE')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('mattoid')
+'Wachtwoord te kort'
+>>> SterkWachtwoord('squab')
+'Wachtwoord te kort'
+>>> SterkWachtwoord('lisuarte')
+'Wachtwoord oké'
+>>> SterkWachtwoord('reoffset taisch')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('THv-WyC!LJJ*s_J>')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('@L[wn$')
+'Wachtwoord te kort'
+>>> SterkWachtwoord('iVNCxLvFyA!M]Ck(%O')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('rpQQ?*x')
+'Wachtwoord te kort'
+>>> SterkWachtwoord('overgreed dicynodon')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('=ku')
+'Wachtwoord te kort'
+>>> SterkWachtwoord('lOzFryIugXaedz')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('LxkcnVICaFtK!')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('acciaccature creaze firebreak')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('kelpware legumen chalkstone')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('ungoddess')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('Elq(afd%-')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('i->?&CkoNudr[VZ<nPX+')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('lacepiece refashions unexpiable')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('#bCz!qDHyl$+(=hVGsfQ')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('explosion triseriate')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('w+')
+'Wachtwoord te kort'
+>>> SterkWachtwoord(']DBD=')
+'Wachtwoord te kort'
+>>> SterkWachtwoord('v,.uBF.zY!i')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('mentionable smeuse')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('dbW')
+'Wachtwoord te kort'
+>>> SterkWachtwoord('antigovernmentally benzalazine')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('deception playgoing uncoat')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('unversatilely skintling rearanging')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('#CfL)R]b')
+'Wachtwoord oké'
+>>> SterkWachtwoord('peiktha superimposure')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('s!')
+'Wachtwoord te kort'
+>>> SterkWachtwoord('v[LW-RGL>!*!pqC')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('upstarts curatives condylomatous')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('darwinistic')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('vz_cGV$QwmY.vbitZObm')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('frailty deterioration oughtlins')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('gambolled anhydrosis')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('grouze extispicious')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('[ATxwQ&U&kKt&B@s')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('sP>kG,>Txs@zvhCFA)d')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('overkilled')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('GKeazl')
+'Wachtwoord te kort'
+>>> SterkWachtwoord('OEtKdN)a<h')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('F(>irilhiQ&r')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('jactitation tubilingual fimicolous')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('SLq)fo')
+'Wachtwoord te kort'
+>>> SterkWachtwoord('ticker dipleurogenesis coropo')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('uIxndYu?==#(')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('noninternationally')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('enclaving villate singlesticker')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('ronnel overcompensated bantamize')
+'Wachtwoord sterk'
+>>> SterkWachtwoord(']Up<@')
+'Wachtwoord te kort'
+>>> SterkWachtwoord('exploitationist coroutine monopectinate')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('e')
+'Wachtwoord te kort'
+>>> SterkWachtwoord('tinkler')
+'Wachtwoord te kort'
+>>> SterkWachtwoord('entitatively')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('v#hZeHfdtpl$lrJH-')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('IF-c&lOShjX')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('sxsW,$=U#Fc(%%G![')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('unfistulous wedder wholesales')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('E')
+'Wachtwoord te kort'
+>>> SterkWachtwoord('uNj*U?y&MN(lBQ&')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('scapulectomy pareunia unsubduably')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('privation subpartnership unproportionedness')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('desultorily procomment')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('s%')
+'Wachtwoord te kort'
+>>> SterkWachtwoord('lew')
+'Wachtwoord te kort'
+>>> SterkWachtwoord('(@C=v?OuBN')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('$<c[rXw[@sV>[iAAbz')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('americanoid ostiaries')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('Qg=+YKE]ho$D-P>m#$j)')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('hScaazR')
+'Wachtwoord te kort'
+>>> SterkWachtwoord('jCYPFW=H@$qLKaoV')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('BNaVfPexfYUc*Z-o')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('.JF$U&FyoOjKU$OU')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('wQU.]radaTVDAhB*.r')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('e')
+'Wachtwoord te kort'
+>>> SterkWachtwoord('q(,*tCmb')
+'Wachtwoord oké'
+>>> SterkWachtwoord('snoutiest babblers autotuberculin')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('decimation snipperado')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('micrified minimiser smoodger')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('sluttish')
+'Wachtwoord oké'
+>>> SterkWachtwoord('K@#OGERH?lr')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('HfduhzYs]CDs(Em')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('gulf')
+'Wachtwoord te kort'
+>>> SterkWachtwoord('tDOtIg<<=Ls_pflXxW(N')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('nonelectric')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('fqd')
+'Wachtwoord te kort'
+>>> SterkWachtwoord('H.av')
+'Wachtwoord te kort'
+>>> SterkWachtwoord('amidoxy')
+'Wachtwoord te kort'
+>>> SterkWachtwoord('qijGj!CiW')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('&Ii')
+'Wachtwoord te kort'
+>>> SterkWachtwoord('?&uclGD-[R&Ua')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('NTF>hLnNJ_')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('[IF')
+'Wachtwoord te kort'
+>>> SterkWachtwoord('rapeseeds chronology frags')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('-NRsZJLTuc]%sI>k')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('#D&Ls$&<SLq)H')
+'Wachtwoord sterk'
+>>> SterkWachtwoord('eYo?px[D*A$a=')
+'Wachtwoord sterk'
