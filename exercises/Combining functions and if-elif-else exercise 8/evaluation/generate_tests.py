@@ -9,11 +9,12 @@ def copy_to_clipboard(text):
 def SterkWachtwoord(wachtwoord):
     lengte = len(wachtwoord)
     if lengte < 8:
-        return "Wachtwoord te kort"
+        tekst = "Wachtwoord te kort"
     elif lengte == 8:
-        return "Wachtwoord oké"
+        tekst = "Wachtwoord oké"
     else:
-        return "Wachtwoord sterk"
+        tekst = "Wachtwoord sterk"
+    return tekst
 
 def GenerateRandomString():
     return ''.join(random.choices('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%&*()-_=+[],.<>?', k=random.randint(1, 20)))
