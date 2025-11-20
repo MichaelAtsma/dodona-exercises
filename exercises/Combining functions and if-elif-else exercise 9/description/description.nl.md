@@ -285,6 +285,7 @@ De modulus-operator <code>%</code> geeft de rest van een deling terug. Bijvoorbe
       <th>Uitkomst</th>
       <th>Uitleg</th>
     </tr>
+  </thead>
   <tbody>
     <tr>
       <td><code>10 % 2</code></td>
