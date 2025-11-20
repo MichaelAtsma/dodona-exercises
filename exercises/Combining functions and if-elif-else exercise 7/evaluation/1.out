@@ -1,0 +1,8 @@
+--------------------------------------------------
+tab name: Examples
+<LANGUAGE code="en">
+    <function from="CijferBeschrijving" to="GradeDescription" />
+    <fixed from="Onvoldoende" to="Fail" />
+    <fixed from="Voldoende" to="Pass" />
+    <fixed from="Uitstekend" to="Excellent" />
+</LANGUAGE>

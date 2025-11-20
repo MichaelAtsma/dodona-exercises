@@ -1,0 +1,10 @@
+>>> CijferBeschrijving(2, 7)
+'Onvoldoende'
+>>> CijferBeschrijving(6, 12)
+'Voldoende'
+>>> CijferBeschrijving(15, 20)
+'Voldoende'
+>>> CijferBeschrijving(9, 10)
+'Uitstekend'
+>>> CijferBeschrijving(3, 3)
+'Uitstekend'
