@@ -114,13 +114,13 @@
     .functioninput-default { color: white; }
     .functionseparators { color: white; }
     .function-name { color: #daaa28ff; }
-  .functioninput-str { color: #2596be; }
+    .functioninput-str { color: #2596be; }
   }
   @media (prefers-color-scheme: light) {
     .functioninput-default { color: black; }
     .functionseparators { color: black; }
     .function-name { color: #a17702ff; }
-  .functioninput-str { color: green; }
+    .functioninput-str { color: green; }
   }
 </style>
 
