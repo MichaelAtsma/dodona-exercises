@@ -174,8 +174,8 @@ Maak een functie genaamd <function name="HalverenOfPlusAcht"></function> die Ã©Ã
 <details markdown="1"><summary>Voorbeelden</summary>
 <ul>
   <li><function name="HalverenOfPlusAcht" inputs="5"></function> geeft <code>2.5</code> terug (want <code>5</code> is kleiner dan <code>10</code> en de helft van <code>5</code> is <code>2.5</code>).</li>
-  <li><function name="HalverenOfPlusAcht" inputs="-40"></function> geeft <code>-20.0</code> terug (want <code>-40</code> is kleiner dan <code>10</code> en de helft van <code>-20</code> is <code>-10</code>). Merk op dat de uitvoer een <i>float</i> is: het resultaat van een deling is altijd een <i>float</i> in <i>Python</i>.</li>
+  <li><function name="HalverenOfPlusAcht" inputs="-40"></function> geeft <code>-20.0</code> terug (want <code>-40</code> is kleiner dan <code>10</code> en de helft van <code>-40</code> is <code>-20</code>). Merk op dat de uitvoer een <i>float</i> is: het resultaat van een deling is altijd een <i>float</i> in <i>Python</i>.</li>
   <li><function name="HalverenOfPlusAcht" inputs="33"></function> geeft <code>41</code> terug (want <code>33</code> is groter dan (of gelijk aan) <code>10</code> en <code>33 + 8 = 41</code>).</li>
-  <li><function name="HalverenOfPlusAcht" inputs="10"></function> geeft <code>2</code> terug (want <code>10</code> is (groter dan of) gelijk aan <code>10</code> en <code>10 + 8 = 18</code>).</li>
+  <li><function name="HalverenOfPlusAcht" inputs="10"></function> geeft <code>18</code> terug (want <code>10</code> is (groter dan of) gelijk aan <code>10</code> en <code>10 + 8 = 18</code>).</li>
 </ul>
 </details>
