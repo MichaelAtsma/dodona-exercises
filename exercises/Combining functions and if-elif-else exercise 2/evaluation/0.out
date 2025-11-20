@@ -2,4 +2,7 @@
 tab name: Examples
 <LANGUAGE code="en">
     <function from="TemperatuurBeschrijving" to="TemperatureDescription" />
+    <fixed from="Het is koud buiten." to="It is cold outside." />
+    <fixed from="Het is warm buiten." to="It is warm outside." />
+    <fixed from="Het is gemiddeld buiten." to="It is average outside." />
 </LANGUAGE>

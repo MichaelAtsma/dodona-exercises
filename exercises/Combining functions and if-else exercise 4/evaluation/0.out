@@ -2,4 +2,6 @@
 tab name: Examples
 <LANGUAGE code="en">
     <function from="TeLangeTekst" to="TooLongText" />
+    <fixed from="Deze tekst is kort genoeg" to="This text is short enough" />
+    <fixed from="Deze tekst is te lang" to="This text is too long" />
 </LANGUAGE>

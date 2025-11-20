@@ -2,4 +2,7 @@
 tab name: Examples
 <LANGUAGE code="en">
     <function from="Leeftijdgroep" to="AgeGroup" />
+    <fixed from="Kind" to="Child" />
+    <fixed from="Tiener" to="Teenager" />
+    <fixed from="Volwassene" to="Adult" />
 </LANGUAGE>

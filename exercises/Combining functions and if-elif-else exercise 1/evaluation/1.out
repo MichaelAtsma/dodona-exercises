@@ -2,4 +2,5 @@
 tab name: Bulk test
 <LANGUAGE code="en">
     <function from="Kleinste" to="Smallest" />
+    <fixed from="De getallen zijn even klein." to="The numbers are equally small." />
 </LANGUAGE>

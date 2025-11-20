@@ -2,4 +2,7 @@
 tab name: Bulk test
 <LANGUAGE code="en">
     <function from="PositiefOfNegatief" to="PositiveOrNegative" />
+    <fixed from="Dit getal is positief" to="This number is positive" />
+    <fixed from="Dit getal is negatief" to="This number is negative" />
+    <fixed from="Dit is het neutrale getal 0" to="This is the neutral number 0" />
 </LANGUAGE>

@@ -2,4 +2,7 @@
 tab name: Examples
 <LANGUAGE code="en">
     <function from="Prijscategorie" to="PriceCategory" />
+    <fixed from="Goedkoop" to="Cheap" />
+    <fixed from="Normaal" to="Normal" />
+    <fixed from="Duur" to="Expensive" />
 </LANGUAGE>

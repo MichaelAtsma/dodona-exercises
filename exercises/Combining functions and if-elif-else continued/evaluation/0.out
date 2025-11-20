@@ -2,4 +2,5 @@
 tab name: Examples
 <LANGUAGE code="en">
     <function from="Grootste" to="Largest" />
+    <fixed from="De getallen zijn even groot." to="The numbers are equally large." />
 </LANGUAGE>
