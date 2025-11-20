@@ -183,27 +183,27 @@ Maak een functie genaamd <function name="ToegangMetNaam"></function> die een <i>
   </thead>
   <tbody>
     <tr>
-      <td><function name="ToegangMetNaam" inputs="Ali"></function></td>
+      <td><function name="ToegangMetNaam" inputs='"Ali"'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Toegang verleend"</code></td>
     </tr>
     <tr>
-      <td><function name="ToegangMetNaam" inputs="Helena"></function></td>
+      <td><function name="ToegangMetNaam" inputs='"Helena"'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Toegang verleend"</code></td>
     </tr>
     <tr>
-      <td><function name="ToegangMetNaam" inputs="Jasmina"></function></td>
+      <td><function name="ToegangMetNaam" inputs='"Jasmina"'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Toegang geweigerd"</code></td>
     </tr>
     <tr>
-      <td><function name="ToegangMetNaam" inputs="Jos"></function></td>
+      <td><function name="ToegangMetNaam" inputs='"Jos"'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Toegang geweigerd"</code></td>
     </tr>
     <tr>
-      <td><function name="ToegangMetNaam" inputs="Ali El Amrani"></function></td>
+      <td><function name="ToegangMetNaam" inputs='"Ali El Amrani"'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Toegang geweigerd"</code></td>
     </tr>
