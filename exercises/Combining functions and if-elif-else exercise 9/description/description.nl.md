@@ -269,6 +269,43 @@ Maak een functie genaamd <function name="EvenOfOneven"></function> die één get
 </div>
 </details>
 
-<details markdown="1"><summary>Tip</summary>
+<details markdown="1"><summary>Tip voor even/oneven</summary>
 Gebruik de modulus-operator <code>%</code> om te controleren of een getal even of oneven is. Een getal is even als er bij deling door 2 een rest van 0 is, anders is het oneven.
+
+<details markdown="1"><summary>Tip (meer detail dan die hierboven)</summary>
+De modulus-operator <code>%</code> geeft de rest van een deling terug. Bijvoorbeeld:
+<div class="table-scroll">
+<table>
+  <tbody>
+    <tr>
+      <td><code>10 % 2</code></td>
+      <td style="text-align: center;">→</td>
+      <td><code>0</code></td>
+      <td>Want 10 gedeeld door 2 is 5, met een rest van <b>0</b></td>
+    </tr>
+    <tr>
+      <td><code>7 % 2</code></td>
+      <td style="text-align: center;">→</td>
+      <td><code>1</code></td>
+      <td>Want 7 gedeeld door 2 is 3, met een rest van <b>1</b></td>
+    </tr>
+    <tr>
+      <td><code>23 % 4</code></td>
+      <td style="text-align: center;">→</td>
+      <td><code>3</code></td>
+      <td>Want 23 gedeeld door 4 is 5, met een rest van <b>3</b></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<details markdown="1"><summary>Tip (zo goed als de oplossing verklapt)</summary>
+We moeten kijken of een getal <code>x</code> even is. Dat kan je doen door te controleren of <code>x % 2</code> gelijk is aan 0:
+```python
+x % 2 == 0
+```
+Als dat waar is, dan is <code>x</code> even. Als dat niet waar is, dan is <code>x</code> oneven.
+
+</details>
+</details>
 </details>
