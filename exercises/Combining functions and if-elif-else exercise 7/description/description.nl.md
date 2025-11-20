@@ -12,7 +12,7 @@
     document.querySelectorAll("function").forEach(el => {
       const name = el.getAttribute("name");
       const inputsAttr = el.getAttribute("inputs");
-      let html = `<span class="function">${name}</span>`;
+      let html = `<span class="function-name">${name}</span>`;
       if (inputsAttr && inputsAttr.trim() !== "") {
         const inputs = inputsAttr.split(",");
         html += `<span class="functionseparators">(</span>`;
@@ -111,9 +111,16 @@
 
   .functioninput-int, .functioninput-float { color: red; }
   .functioninput-str { color: green; }
-  .functioninput-default { color: black; }
-  .function { color: #a17702ff; }
-  .functionseparators { color: black; }
+  @media (prefers-color-scheme: dark) {
+    .functioninput-default { color: white; }
+    .functionseparators { color: white; }
+    .function-name { color: #daaa28ff; }
+  }
+  @media (prefers-color-scheme: light) {
+    .functioninput-default { color: black; }
+    .functionseparators { color: black; }
+    .function-name { color: #a17702ff; }
+  }
 </style>
 
 Je hebt geleerd hoe je functies maakt met een <i>if-elif-else</i>-statement. Zie hieronder nog eens twee voorbeelden:
