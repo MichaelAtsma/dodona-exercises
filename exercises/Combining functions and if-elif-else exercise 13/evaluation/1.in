@@ -1,0 +1,200 @@
+>>> BatterijStatus(1)
+'Waarschuwing: batterij bijna leeg, u moet binnenkort opladen!'
+>>> BatterijStatus(2)
+'Waarschuwing: batterij bijna leeg, u moet binnenkort opladen!'
+>>> BatterijStatus(3)
+'Waarschuwing: batterij bijna leeg, u moet binnenkort opladen!'
+>>> BatterijStatus(4)
+'Waarschuwing: batterij bijna leeg, u moet binnenkort opladen!'
+>>> BatterijStatus(5)
+'Waarschuwing: batterij bijna leeg, u moet binnenkort opladen!'
+>>> BatterijStatus(6)
+'Waarschuwing: batterij bijna leeg, u moet binnenkort opladen!'
+>>> BatterijStatus(7)
+'Waarschuwing: batterij bijna leeg, u moet binnenkort opladen!'
+>>> BatterijStatus(8)
+'Waarschuwing: batterij bijna leeg, u moet binnenkort opladen!'
+>>> BatterijStatus(9)
+'Waarschuwing: batterij bijna leeg, u moet binnenkort opladen!'
+>>> BatterijStatus(10)
+'Waarschuwing: batterij bijna leeg, u moet binnenkort opladen!'
+>>> BatterijStatus(11)
+'Waarschuwing: batterij bijna leeg, u moet binnenkort opladen!'
+>>> BatterijStatus(12)
+'Waarschuwing: batterij bijna leeg, u moet binnenkort opladen!'
+>>> BatterijStatus(13)
+'Waarschuwing: batterij bijna leeg, u moet binnenkort opladen!'
+>>> BatterijStatus(14)
+'Waarschuwing: batterij bijna leeg, u moet binnenkort opladen!'
+>>> BatterijStatus(15)
+'Waarschuwing: batterij bijna leeg, u moet binnenkort opladen!'
+>>> BatterijStatus(16)
+'Waarschuwing: batterij bijna leeg, u moet binnenkort opladen!'
+>>> BatterijStatus(17)
+'Waarschuwing: batterij bijna leeg, u moet binnenkort opladen!'
+>>> BatterijStatus(18)
+'Waarschuwing: batterij bijna leeg, u moet binnenkort opladen!'
+>>> BatterijStatus(19)
+'Waarschuwing: batterij bijna leeg, u moet binnenkort opladen!'
+>>> BatterijStatus(20)
+'Batterijstatus is goed.'
+>>> BatterijStatus(21)
+'Batterijstatus is goed.'
+>>> BatterijStatus(22)
+'Batterijstatus is goed.'
+>>> BatterijStatus(23)
+'Batterijstatus is goed.'
+>>> BatterijStatus(24)
+'Batterijstatus is goed.'
+>>> BatterijStatus(25)
+'Batterijstatus is goed.'
+>>> BatterijStatus(26)
+'Batterijstatus is goed.'
+>>> BatterijStatus(27)
+'Batterijstatus is goed.'
+>>> BatterijStatus(28)
+'Batterijstatus is goed.'
+>>> BatterijStatus(29)
+'Batterijstatus is goed.'
+>>> BatterijStatus(30)
+'Batterijstatus is goed.'
+>>> BatterijStatus(31)
+'Batterijstatus is goed.'
+>>> BatterijStatus(32)
+'Batterijstatus is goed.'
+>>> BatterijStatus(33)
+'Batterijstatus is goed.'
+>>> BatterijStatus(34)
+'Batterijstatus is goed.'
+>>> BatterijStatus(35)
+'Batterijstatus is goed.'
+>>> BatterijStatus(36)
+'Batterijstatus is goed.'
+>>> BatterijStatus(37)
+'Batterijstatus is goed.'
+>>> BatterijStatus(38)
+'Batterijstatus is goed.'
+>>> BatterijStatus(39)
+'Batterijstatus is goed.'
+>>> BatterijStatus(40)
+'Batterijstatus is goed.'
+>>> BatterijStatus(41)
+'Batterijstatus is goed.'
+>>> BatterijStatus(42)
+'Batterijstatus is goed.'
+>>> BatterijStatus(43)
+'Batterijstatus is goed.'
+>>> BatterijStatus(44)
+'Batterijstatus is goed.'
+>>> BatterijStatus(45)
+'Batterijstatus is goed.'
+>>> BatterijStatus(46)
+'Batterijstatus is goed.'
+>>> BatterijStatus(47)
+'Batterijstatus is goed.'
+>>> BatterijStatus(48)
+'Batterijstatus is goed.'
+>>> BatterijStatus(49)
+'Batterijstatus is goed.'
+>>> BatterijStatus(50)
+'Batterijstatus is goed.'
+>>> BatterijStatus(51)
+'Batterijstatus is goed.'
+>>> BatterijStatus(52)
+'Batterijstatus is goed.'
+>>> BatterijStatus(53)
+'Batterijstatus is goed.'
+>>> BatterijStatus(54)
+'Batterijstatus is goed.'
+>>> BatterijStatus(55)
+'Batterijstatus is goed.'
+>>> BatterijStatus(56)
+'Batterijstatus is goed.'
+>>> BatterijStatus(57)
+'Batterijstatus is goed.'
+>>> BatterijStatus(58)
+'Batterijstatus is goed.'
+>>> BatterijStatus(59)
+'Batterijstatus is goed.'
+>>> BatterijStatus(60)
+'Batterijstatus is goed.'
+>>> BatterijStatus(61)
+'Batterijstatus is goed.'
+>>> BatterijStatus(62)
+'Batterijstatus is goed.'
+>>> BatterijStatus(63)
+'Batterijstatus is goed.'
+>>> BatterijStatus(64)
+'Batterijstatus is goed.'
+>>> BatterijStatus(65)
+'Batterijstatus is goed.'
+>>> BatterijStatus(66)
+'Batterijstatus is goed.'
+>>> BatterijStatus(67)
+'Batterijstatus is goed.'
+>>> BatterijStatus(68)
+'Batterijstatus is goed.'
+>>> BatterijStatus(69)
+'Batterijstatus is goed.'
+>>> BatterijStatus(70)
+'Batterijstatus is goed.'
+>>> BatterijStatus(71)
+'Batterijstatus is goed.'
+>>> BatterijStatus(72)
+'Batterijstatus is goed.'
+>>> BatterijStatus(73)
+'Batterijstatus is goed.'
+>>> BatterijStatus(74)
+'Batterijstatus is goed.'
+>>> BatterijStatus(75)
+'Batterijstatus is goed.'
+>>> BatterijStatus(76)
+'Batterijstatus is goed.'
+>>> BatterijStatus(77)
+'Batterijstatus is goed.'
+>>> BatterijStatus(78)
+'Batterijstatus is goed.'
+>>> BatterijStatus(79)
+'Batterijstatus is goed.'
+>>> BatterijStatus(80)
+'Batterijstatus is goed.'
+>>> BatterijStatus(81)
+'Batterij bijna vol!'
+>>> BatterijStatus(82)
+'Batterij bijna vol!'
+>>> BatterijStatus(83)
+'Batterij bijna vol!'
+>>> BatterijStatus(84)
+'Batterij bijna vol!'
+>>> BatterijStatus(85)
+'Batterij bijna vol!'
+>>> BatterijStatus(86)
+'Batterij bijna vol!'
+>>> BatterijStatus(87)
+'Batterij bijna vol!'
+>>> BatterijStatus(88)
+'Batterij bijna vol!'
+>>> BatterijStatus(89)
+'Batterij bijna vol!'
+>>> BatterijStatus(90)
+'Batterij bijna vol!'
+>>> BatterijStatus(91)
+'Batterij bijna vol!'
+>>> BatterijStatus(92)
+'Batterij bijna vol!'
+>>> BatterijStatus(93)
+'Batterij bijna vol!'
+>>> BatterijStatus(94)
+'Batterij bijna vol!'
+>>> BatterijStatus(95)
+'Batterij bijna vol!'
+>>> BatterijStatus(96)
+'Batterij bijna vol!'
+>>> BatterijStatus(97)
+'Batterij bijna vol!'
+>>> BatterijStatus(98)
+'Batterij bijna vol!'
+>>> BatterijStatus(99)
+'Batterij bijna vol!'
+>>> BatterijStatus(100)
+'Batterij bijna vol!'

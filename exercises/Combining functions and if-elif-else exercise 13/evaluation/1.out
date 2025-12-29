@@ -1,0 +1,8 @@
+--------------------------------------------------
+tab name: Bulk test
+<LANGUAGE code="en">
+    <function from="BatterijStatus" to="BatteryStatus" />
+    <fixed from="Waarschuwing: batterij bijna leeg, u moet binnenkort opladen!" to="Warning: battery almost empty, you need to charge soon!" />
+    <fixed from="Batterij bijna vol!" to="Battery almost full!" />
+    <fixed from="Batterijstatus is goed." to="Battery status is good." />
+</LANGUAGE>
