@@ -226,7 +226,7 @@ def Grootste(x, y):
 
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="DagType"></function> die een <i>string</i> als invoer neemt (de dag), en dan een tekst teruggeeft die beschrijft welk soort dag van de week het is:
-- Als het <code>"Maandag"</code>, <code>"Dinsdag"</code>, <code>"Woensdag"</code>, <code>"Donderdag"</code>, of <code>"Vrijdag"</code> is,moet de functie de tekst <code>"Weekdag"</code> teruggeven.
+- Als het <code>"Maandag"</code>, <code>"Dinsdag"</code>, <code>"Woensdag"</code>, <code>"Donderdag"</code>, of <code>"Vrijdag"</code> is, moet de functie de tekst <code>"Weekdag"</code> teruggeven.
 - Als het <code>"Zaterdag"</code> of <code>"Zondag"</code> is, moet de functie de tekst <code>"Weekend"</code> teruggeven.
 - Je mag ervan uitgaan dat de invoer altijd een geldige dag van de week is.
 
