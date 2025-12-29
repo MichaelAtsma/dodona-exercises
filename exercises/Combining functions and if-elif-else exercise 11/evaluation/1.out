@@ -1,0 +1,8 @@
+--------------------------------------------------
+tab name: Bulk test
+<LANGUAGE code="en">
+    <function from="LangsteWoord" to="LongestWord" />
+    <fixed from="is het langste woord" to="is the longest word" />
+    <fixed from=" en " to=" and " />
+    <fixed from="zijn even lang" to="are equally long" />
+</LANGUAGE>

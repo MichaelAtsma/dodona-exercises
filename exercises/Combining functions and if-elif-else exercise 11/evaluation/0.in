@@ -1,0 +1,6 @@
+>>> LangsteWoord('programmeren', 'Python')
+'programmeren is het langste woord.'
+>>> LangsteWoord('deur', 'octopus')
+'octopus is het langste woord.'
+>>> LangsteWoord('sleutel', 'kikkers')
+'sleutel en kikkers zijn even lang.'

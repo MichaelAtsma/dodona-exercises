@@ -1,0 +1,200 @@
+>>> LangsteWoord('orlewise', 'estheses')
+'orlewise en estheses zijn even lang.'
+>>> LangsteWoord('stopboard', 'dumaist')
+'stopboard is het langste woord.'
+>>> LangsteWoord('superradical', 'pulmonectomies')
+'pulmonectomies is het langste woord.'
+>>> LangsteWoord('centrifugalisation', 'caratch')
+'centrifugalisation is het langste woord.'
+>>> LangsteWoord('perididymis', 'supramechanical')
+'supramechanical is het langste woord.'
+>>> LangsteWoord('scension', 'reconvenire')
+'reconvenire is het langste woord.'
+>>> LangsteWoord('undifferenced', 'yechs')
+'undifferenced is het langste woord.'
+>>> LangsteWoord('isogenies', 'blacklisting')
+'blacklisting is het langste woord.'
+>>> LangsteWoord('ohoy', 'yachtist')
+'yachtist is het langste woord.'
+>>> LangsteWoord('revamped', 'sheminith')
+'sheminith is het langste woord.'
+>>> LangsteWoord('plesiosaurus', 'cartopper')
+'plesiosaurus is het langste woord.'
+>>> LangsteWoord('lithiate', 'pitchily')
+'lithiate en pitchily zijn even lang.'
+>>> LangsteWoord('supplanter', 'engrails')
+'supplanter is het langste woord.'
+>>> LangsteWoord('enamelless', 'hastifly')
+'enamelless is het langste woord.'
+>>> LangsteWoord('neuralgiac', 'reefier')
+'neuralgiac is het langste woord.'
+>>> LangsteWoord('granadillo', 'disruption')
+'granadillo en disruption zijn even lang.'
+>>> LangsteWoord('appeases', 'seiches')
+'appeases is het langste woord.'
+>>> LangsteWoord('sentimentalizing', 'looks')
+'sentimentalizing is het langste woord.'
+>>> LangsteWoord('hierarchising', 'unspiritedly')
+'hierarchising is het langste woord.'
+>>> LangsteWoord('steamboat', 'unsoil')
+'steamboat is het langste woord.'
+>>> LangsteWoord('onomatomania', 'hackleback')
+'onomatomania is het langste woord.'
+>>> LangsteWoord('reattribute', 'sebait')
+'reattribute is het langste woord.'
+>>> LangsteWoord('plock', 'annularity')
+'annularity is het langste woord.'
+>>> LangsteWoord('raspberrylike', 'heterolysis')
+'raspberrylike is het langste woord.'
+>>> LangsteWoord('boffins', 'unfastens')
+'unfastens is het langste woord.'
+>>> LangsteWoord('osamin', 'dramatists')
+'dramatists is het langste woord.'
+>>> LangsteWoord('stoneworker', 'proustite')
+'stoneworker is het langste woord.'
+>>> LangsteWoord('empurpling', 'heteromallous')
+'heteromallous is het langste woord.'
+>>> LangsteWoord('blackfisher', 'sanguinolency')
+'sanguinolency is het langste woord.'
+>>> LangsteWoord('gibraltar', 'musicographer')
+'musicographer is het langste woord.'
+>>> LangsteWoord('staxis', 'faintest')
+'faintest is het langste woord.'
+>>> LangsteWoord('lumpen', 'gwine')
+'lumpen is het langste woord.'
+>>> LangsteWoord('placket', 'trashless')
+'trashless is het langste woord.'
+>>> LangsteWoord('zeuglodon', 'rehboc')
+'zeuglodon is het langste woord.'
+>>> LangsteWoord('episcopes', 'decachord')
+'episcopes en decachord zijn even lang.'
+>>> LangsteWoord('belast', 'psychotically')
+'psychotically is het langste woord.'
+>>> LangsteWoord('foxberry', 'peripheric')
+'peripheric is het langste woord.'
+>>> LangsteWoord('nonexhaustive', 'outfreeman')
+'nonexhaustive is het langste woord.'
+>>> LangsteWoord('postulates', 'nonmarketability')
+'nonmarketability is het langste woord.'
+>>> LangsteWoord('baiera', 'structive')
+'structive is het langste woord.'
+>>> LangsteWoord('unedged', 'snouts')
+'unedged is het langste woord.'
+>>> LangsteWoord('somler', 'protoma')
+'protoma is het langste woord.'
+>>> LangsteWoord('unveiledly', 'anacardic')
+'unveiledly is het langste woord.'
+>>> LangsteWoord('commonsensical', 'recrystallizing')
+'recrystallizing is het langste woord.'
+>>> LangsteWoord('kidneyroot', 'platanes')
+'kidneyroot is het langste woord.'
+>>> LangsteWoord('syphiliphobia', 'outvoices')
+'syphiliphobia is het langste woord.'
+>>> LangsteWoord('whitherso', 'doable')
+'whitherso is het langste woord.'
+>>> LangsteWoord('irresolvedly', 'pleuric')
+'irresolvedly is het langste woord.'
+>>> LangsteWoord('untriumphable', 'dioptases')
+'untriumphable is het langste woord.'
+>>> LangsteWoord('reavows', 'tubba')
+'reavows is het langste woord.'
+>>> LangsteWoord('quanted', 'stereotropism')
+'stereotropism is het langste woord.'
+>>> LangsteWoord('defiled', 'candytuft')
+'candytuft is het langste woord.'
+>>> LangsteWoord('aphrite', 'wynkernel')
+'wynkernel is het langste woord.'
+>>> LangsteWoord('palaeeudyptes', 'endomorph')
+'palaeeudyptes is het langste woord.'
+>>> LangsteWoord('foreschooling', 'clerkish')
+'foreschooling is het langste woord.'
+>>> LangsteWoord('acrimoniousness', 'antihumbuggist')
+'acrimoniousness is het langste woord.'
+>>> LangsteWoord('lengthening', 'dislikeable')
+'lengthening en dislikeable zijn even lang.'
+>>> LangsteWoord('radicalize', 'arcocentrous')
+'arcocentrous is het langste woord.'
+>>> LangsteWoord('xanthochroic', 'phanerosis')
+'xanthochroic is het langste woord.'
+>>> LangsteWoord('pariahism', 'sandboy')
+'pariahism is het langste woord.'
+>>> LangsteWoord('infratemporal', 'intraoral')
+'infratemporal is het langste woord.'
+>>> LangsteWoord('verste', 'tachyglossal')
+'tachyglossal is het langste woord.'
+>>> LangsteWoord('autopsy', 'medicostatistic')
+'medicostatistic is het langste woord.'
+>>> LangsteWoord('pollocks', 'vaulty')
+'pollocks is het langste woord.'
+>>> LangsteWoord('clambake', 'pellagras')
+'pellagras is het langste woord.'
+>>> LangsteWoord('cryptogamical', 'chace')
+'cryptogamical is het langste woord.'
+>>> LangsteWoord('braies', 'adultress')
+'adultress is het langste woord.'
+>>> LangsteWoord('matched', 'ruinating')
+'ruinating is het langste woord.'
+>>> LangsteWoord('varyings', 'willowiest')
+'willowiest is het langste woord.'
+>>> LangsteWoord('mysticized', 'outissuing')
+'mysticized en outissuing zijn even lang.'
+>>> LangsteWoord('trivets', 'countersecurity')
+'countersecurity is het langste woord.'
+>>> LangsteWoord('supergroups', 'tuberculatospinous')
+'tuberculatospinous is het langste woord.'
+>>> LangsteWoord('enforcing', 'sliddery')
+'enforcing is het langste woord.'
+>>> LangsteWoord('probeer', 'cisgangetic')
+'cisgangetic is het langste woord.'
+>>> LangsteWoord('affenpinscher', 'osteitic')
+'affenpinscher is het langste woord.'
+>>> LangsteWoord('flannelmouth', 'cheesemaker')
+'flannelmouth is het langste woord.'
+>>> LangsteWoord('gunz', 'puddly')
+'puddly is het langste woord.'
+>>> LangsteWoord('incitant', 'guardianly')
+'guardianly is het langste woord.'
+>>> LangsteWoord('unarrogated', 'filesmith')
+'unarrogated is het langste woord.'
+>>> LangsteWoord('gracilis', 'stonepecker')
+'stonepecker is het langste woord.'
+>>> LangsteWoord('slipperlike', 'myotalpinae')
+'slipperlike en myotalpinae zijn even lang.'
+>>> LangsteWoord('mariner', 'minervan')
+'minervan is het langste woord.'
+>>> LangsteWoord('hydriad', 'furniture')
+'furniture is het langste woord.'
+>>> LangsteWoord('inflatedness', 'ebenaceae')
+'inflatedness is het langste woord.'
+>>> LangsteWoord('pickadils', 'neoplatonic')
+'neoplatonic is het langste woord.'
+>>> LangsteWoord('overemotionalizing', 'synthesizer')
+'overemotionalizing is het langste woord.'
+>>> LangsteWoord('entryway', 'hamantashen')
+'hamantashen is het langste woord.'
+>>> LangsteWoord('satanisms', 'labefied')
+'satanisms is het langste woord.'
+>>> LangsteWoord('cosiness', 'congruousness')
+'congruousness is het langste woord.'
+>>> LangsteWoord('gnathobasic', 'deoxygenize')
+'gnathobasic en deoxygenize zijn even lang.'
+>>> LangsteWoord('alligatorfishes', 'pedagogue')
+'alligatorfishes is het langste woord.'
+>>> LangsteWoord('postforms', 'langite')
+'postforms is het langste woord.'
+>>> LangsteWoord('conchol', 'butterpaste')
+'butterpaste is het langste woord.'
+>>> LangsteWoord('convinces', 'slommack')
+'convinces is het langste woord.'
+>>> LangsteWoord('genecology', 'raid')
+'genecology is het langste woord.'
+>>> LangsteWoord('sphenobasilic', 'misbehaver')
+'sphenobasilic is het langste woord.'
+>>> LangsteWoord('unforgetfulness', 'rachillae')
+'unforgetfulness is het langste woord.'
+>>> LangsteWoord('actable', 'reenumerated')
+'reenumerated is het langste woord.'
+>>> LangsteWoord('delineated', 'noninfectiously')
+'noninfectiously is het langste woord.'
+>>> LangsteWoord('defang', 'subpreceptorate')
+'subpreceptorate is het langste woord.'
