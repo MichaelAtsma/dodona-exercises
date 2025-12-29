@@ -1,0 +1,288 @@
+>>> SnelheidsBord(10, 10)
+'Rijd voorzichtig alstublieft.'
+>>> SnelheidsBord(10, 20)
+'Dankuwel.'
+>>> SnelheidsBord(10, 30)
+'Dankuwel.'
+>>> SnelheidsBord(10, 40)
+'Dankuwel.'
+>>> SnelheidsBord(10, 50)
+'Dankuwel.'
+>>> SnelheidsBord(10, 60)
+'Dankuwel.'
+>>> SnelheidsBord(10, 70)
+'Dankuwel.'
+>>> SnelheidsBord(10, 80)
+'Dankuwel.'
+>>> SnelheidsBord(10, 90)
+'Dankuwel.'
+>>> SnelheidsBord(10, 100)
+'Dankuwel.'
+>>> SnelheidsBord(10, 110)
+'Dankuwel.'
+>>> SnelheidsBord(10, 120)
+'Dankuwel.'
+>>> SnelheidsBord(20, 10)
+'U rijdt te snel!'
+>>> SnelheidsBord(20, 20)
+'Rijd voorzichtig alstublieft.'
+>>> SnelheidsBord(20, 30)
+'Dankuwel.'
+>>> SnelheidsBord(20, 40)
+'Dankuwel.'
+>>> SnelheidsBord(20, 50)
+'Dankuwel.'
+>>> SnelheidsBord(20, 60)
+'Dankuwel.'
+>>> SnelheidsBord(20, 70)
+'Dankuwel.'
+>>> SnelheidsBord(20, 80)
+'Dankuwel.'
+>>> SnelheidsBord(20, 90)
+'Dankuwel.'
+>>> SnelheidsBord(20, 100)
+'Dankuwel.'
+>>> SnelheidsBord(20, 110)
+'Dankuwel.'
+>>> SnelheidsBord(20, 120)
+'Dankuwel.'
+>>> SnelheidsBord(30, 10)
+'U rijdt te snel!'
+>>> SnelheidsBord(30, 20)
+'U rijdt te snel!'
+>>> SnelheidsBord(30, 30)
+'Rijd voorzichtig alstublieft.'
+>>> SnelheidsBord(30, 40)
+'Dankuwel.'
+>>> SnelheidsBord(30, 50)
+'Dankuwel.'
+>>> SnelheidsBord(30, 60)
+'Dankuwel.'
+>>> SnelheidsBord(30, 70)
+'Dankuwel.'
+>>> SnelheidsBord(30, 80)
+'Dankuwel.'
+>>> SnelheidsBord(30, 90)
+'Dankuwel.'
+>>> SnelheidsBord(30, 100)
+'Dankuwel.'
+>>> SnelheidsBord(30, 110)
+'Dankuwel.'
+>>> SnelheidsBord(30, 120)
+'Dankuwel.'
+>>> SnelheidsBord(40, 10)
+'U rijdt te snel!'
+>>> SnelheidsBord(40, 20)
+'U rijdt te snel!'
+>>> SnelheidsBord(40, 30)
+'U rijdt te snel!'
+>>> SnelheidsBord(40, 40)
+'Rijd voorzichtig alstublieft.'
+>>> SnelheidsBord(40, 50)
+'Dankuwel.'
+>>> SnelheidsBord(40, 60)
+'Dankuwel.'
+>>> SnelheidsBord(40, 70)
+'Dankuwel.'
+>>> SnelheidsBord(40, 80)
+'Dankuwel.'
+>>> SnelheidsBord(40, 90)
+'Dankuwel.'
+>>> SnelheidsBord(40, 100)
+'Dankuwel.'
+>>> SnelheidsBord(40, 110)
+'Dankuwel.'
+>>> SnelheidsBord(40, 120)
+'Dankuwel.'
+>>> SnelheidsBord(50, 10)
+'U rijdt te snel!'
+>>> SnelheidsBord(50, 20)
+'U rijdt te snel!'
+>>> SnelheidsBord(50, 30)
+'U rijdt te snel!'
+>>> SnelheidsBord(50, 40)
+'U rijdt te snel!'
+>>> SnelheidsBord(50, 50)
+'Rijd voorzichtig alstublieft.'
+>>> SnelheidsBord(50, 60)
+'Dankuwel.'
+>>> SnelheidsBord(50, 70)
+'Dankuwel.'
+>>> SnelheidsBord(50, 80)
+'Dankuwel.'
+>>> SnelheidsBord(50, 90)
+'Dankuwel.'
+>>> SnelheidsBord(50, 100)
+'Dankuwel.'
+>>> SnelheidsBord(50, 110)
+'Dankuwel.'
+>>> SnelheidsBord(50, 120)
+'Dankuwel.'
+>>> SnelheidsBord(60, 10)
+'U rijdt te snel!'
+>>> SnelheidsBord(60, 20)
+'U rijdt te snel!'
+>>> SnelheidsBord(60, 30)
+'U rijdt te snel!'
+>>> SnelheidsBord(60, 40)
+'U rijdt te snel!'
+>>> SnelheidsBord(60, 50)
+'U rijdt te snel!'
+>>> SnelheidsBord(60, 60)
+'Rijd voorzichtig alstublieft.'
+>>> SnelheidsBord(60, 70)
+'Dankuwel.'
+>>> SnelheidsBord(60, 80)
+'Dankuwel.'
+>>> SnelheidsBord(60, 90)
+'Dankuwel.'
+>>> SnelheidsBord(60, 100)
+'Dankuwel.'
+>>> SnelheidsBord(60, 110)
+'Dankuwel.'
+>>> SnelheidsBord(60, 120)
+'Dankuwel.'
+>>> SnelheidsBord(70, 10)
+'U rijdt te snel!'
+>>> SnelheidsBord(70, 20)
+'U rijdt te snel!'
+>>> SnelheidsBord(70, 30)
+'U rijdt te snel!'
+>>> SnelheidsBord(70, 40)
+'U rijdt te snel!'
+>>> SnelheidsBord(70, 50)
+'U rijdt te snel!'
+>>> SnelheidsBord(70, 60)
+'U rijdt te snel!'
+>>> SnelheidsBord(70, 70)
+'Rijd voorzichtig alstublieft.'
+>>> SnelheidsBord(70, 80)
+'Dankuwel.'
+>>> SnelheidsBord(70, 90)
+'Dankuwel.'
+>>> SnelheidsBord(70, 100)
+'Dankuwel.'
+>>> SnelheidsBord(70, 110)
+'Dankuwel.'
+>>> SnelheidsBord(70, 120)
+'Dankuwel.'
+>>> SnelheidsBord(80, 10)
+'U rijdt te snel!'
+>>> SnelheidsBord(80, 20)
+'U rijdt te snel!'
+>>> SnelheidsBord(80, 30)
+'U rijdt te snel!'
+>>> SnelheidsBord(80, 40)
+'U rijdt te snel!'
+>>> SnelheidsBord(80, 50)
+'U rijdt te snel!'
+>>> SnelheidsBord(80, 60)
+'U rijdt te snel!'
+>>> SnelheidsBord(80, 70)
+'U rijdt te snel!'
+>>> SnelheidsBord(80, 80)
+'Rijd voorzichtig alstublieft.'
+>>> SnelheidsBord(80, 90)
+'Dankuwel.'
+>>> SnelheidsBord(80, 100)
+'Dankuwel.'
+>>> SnelheidsBord(80, 110)
+'Dankuwel.'
+>>> SnelheidsBord(80, 120)
+'Dankuwel.'
+>>> SnelheidsBord(90, 10)
+'U rijdt te snel!'
+>>> SnelheidsBord(90, 20)
+'U rijdt te snel!'
+>>> SnelheidsBord(90, 30)
+'U rijdt te snel!'
+>>> SnelheidsBord(90, 40)
+'U rijdt te snel!'
+>>> SnelheidsBord(90, 50)
+'U rijdt te snel!'
+>>> SnelheidsBord(90, 60)
+'U rijdt te snel!'
+>>> SnelheidsBord(90, 70)
+'U rijdt te snel!'
+>>> SnelheidsBord(90, 80)
+'U rijdt te snel!'
+>>> SnelheidsBord(90, 90)
+'Rijd voorzichtig alstublieft.'
+>>> SnelheidsBord(90, 100)
+'Dankuwel.'
+>>> SnelheidsBord(90, 110)
+'Dankuwel.'
+>>> SnelheidsBord(90, 120)
+'Dankuwel.'
+>>> SnelheidsBord(100, 10)
+'U rijdt te snel!'
+>>> SnelheidsBord(100, 20)
+'U rijdt te snel!'
+>>> SnelheidsBord(100, 30)
+'U rijdt te snel!'
+>>> SnelheidsBord(100, 40)
+'U rijdt te snel!'
+>>> SnelheidsBord(100, 50)
+'U rijdt te snel!'
+>>> SnelheidsBord(100, 60)
+'U rijdt te snel!'
+>>> SnelheidsBord(100, 70)
+'U rijdt te snel!'
+>>> SnelheidsBord(100, 80)
+'U rijdt te snel!'
+>>> SnelheidsBord(100, 90)
+'U rijdt te snel!'
+>>> SnelheidsBord(100, 100)
+'Rijd voorzichtig alstublieft.'
+>>> SnelheidsBord(100, 110)
+'Dankuwel.'
+>>> SnelheidsBord(100, 120)
+'Dankuwel.'
+>>> SnelheidsBord(110, 10)
+'U rijdt te snel!'
+>>> SnelheidsBord(110, 20)
+'U rijdt te snel!'
+>>> SnelheidsBord(110, 30)
+'U rijdt te snel!'
+>>> SnelheidsBord(110, 40)
+'U rijdt te snel!'
+>>> SnelheidsBord(110, 50)
+'U rijdt te snel!'
+>>> SnelheidsBord(110, 60)
+'U rijdt te snel!'
+>>> SnelheidsBord(110, 70)
+'U rijdt te snel!'
+>>> SnelheidsBord(110, 80)
+'U rijdt te snel!'
+>>> SnelheidsBord(110, 90)
+'U rijdt te snel!'
+>>> SnelheidsBord(110, 100)
+'U rijdt te snel!'
+>>> SnelheidsBord(110, 110)
+'Rijd voorzichtig alstublieft.'
+>>> SnelheidsBord(110, 120)
+'Dankuwel.'
+>>> SnelheidsBord(120, 10)
+'U rijdt te snel!'
+>>> SnelheidsBord(120, 20)
+'U rijdt te snel!'
+>>> SnelheidsBord(120, 30)
+'U rijdt te snel!'
+>>> SnelheidsBord(120, 40)
+'U rijdt te snel!'
+>>> SnelheidsBord(120, 50)
+'U rijdt te snel!'
+>>> SnelheidsBord(120, 60)
+'U rijdt te snel!'
+>>> SnelheidsBord(120, 70)
+'U rijdt te snel!'
+>>> SnelheidsBord(120, 80)
+'U rijdt te snel!'
+>>> SnelheidsBord(120, 90)
+'U rijdt te snel!'
+>>> SnelheidsBord(120, 100)
+'U rijdt te snel!'
+>>> SnelheidsBord(120, 110)
+'U rijdt te snel!'
+>>> SnelheidsBord(120, 120)
+'Rijd voorzichtig alstublieft.'

@@ -1,0 +1,6 @@
+>>> SnelheidsBord(40, 30)
+'U rijdt te snel!'
+>>> SnelheidsBord(45, 50)
+'Dankuwel.'
+>>> SnelheidsBord(120, 120)
+'Rijd voorzichtig alstublieft.'

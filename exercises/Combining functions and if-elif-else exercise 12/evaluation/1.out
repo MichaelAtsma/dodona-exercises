@@ -1,0 +1,8 @@
+--------------------------------------------------
+tab name: Bulk test
+<LANGUAGE code="en">
+    <function from="SnelheidsBord" to="SpeedSign" />
+    <fixed from="U rijdt te snel!" to="You are driving too fast!" />
+    <fixed from="Dankuwel." to="Thank you." />
+    <fixed from="Rijd voorzichtig alstublieft." to="Please drive carefully." />
+</LANGUAGE>
