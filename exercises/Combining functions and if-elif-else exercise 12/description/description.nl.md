@@ -227,7 +227,7 @@ def Grootste(x, y):
 <hr>
 
 # <b>Opdracht</b>
-Maak een functie genaamd <function name="SnelheidsBord"></function> die twee getallen (de gemeten snelheid en de toegestane snelheid) als invoer neemt, en dan een bericht aan de bestuurder teruggeeft.
+Maak een functie genaamd <function name="SnelheidsBord"></function> die twee getallen (<i>integers</i> of <i>floats</i>) als invoer neemt (de gemeten snelheid en de toegestane snelheid), en dan een bericht aan de bestuurder teruggeeft.
 - Als de gemeten snelheid hoger is dan de toegestane snelheid: <code>"U rijdt te snel!"</code>
 - Als de gemeten snelheid lager is dan de toegestane snelheid: <code>"Dankuwel."</code>
 - Als de gemeten snelheid gelijk is aan de toegestane snelheid: <code>"Rijd voorzichtig alstublieft."</code>
