@@ -228,12 +228,12 @@ def Grootste(x, y):
 
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="KlasGrootte"></function> die één getal (<i>integer</i>) als invoer neemt (het aantal leerlingen in een klas) als invoer neemt, en dan een bericht aan de gebruiker teruggeeft.
-- Als er minder dan 0 leerlingen in de klas zijn: <code>"Dit is geen valide invoer."</code>
-- Als er 0 leerlingen in de klas zijn: <code>"De klas is leeg."</code>
-- Als er 1 tot en met 15 leerlingen in de klas zijn: <code>"Dit is een kleine klas."</code>
-- Als er 16 tot en met 20 leerlingen in de klas zijn: <code>"Dit is een gemiddelde klas."</code>
-- Als er 21 tot en met 24 leerlingen in de klas zijn: <code>"Dit is een grote klas."</code>
-- Als er meer dan 24 leerlingen in de klas zijn: <code>"Dit zijn te veel leerlingen voor één klas."</code>
+- Als er een negatief getal gegeven wordt: <code>"Dit is geen valide invoer."</code>
+- Als er <code>0</code> leerlingen in de klas zijn: <code>"De klas is leeg."</code>
+- Als er <code>1</code> tot en met <code>15</code> leerlingen in de klas zijn: <code>"Dit is een kleine klas."</code>
+- Als er <code>16</code> tot en met <code>20</code> leerlingen in de klas zijn: <code>"Dit is een gemiddelde klas."</code>
+- Als er <code>21</code> tot en met <code>24</code> leerlingen in de klas zijn: <code>"Dit is een grote klas."</code>
+- Als er meer dan <code>24</code> leerlingen in de klas zijn: <code>"Dit zijn te veel leerlingen voor één klas."</code>
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
 
