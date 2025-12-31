@@ -227,7 +227,7 @@ def Grootste(x, y):
 <hr>
 
 # <b>Opdracht</b>
-Maak een functie genaamd <function name="RegenVoorspelling"></function> die één getal (<i>integer</i> of <i>float</i>) als invoer neemt (voorspeld aantal regen in mm) als invoer neemt, en dan een bericht aan de gebruiker teruggeeft.
+Maak een functie genaamd <function name="RegenVoorspelling"></function> die één getal (<i>integer</i> of <i>float</i>) als invoer neemt (voorspeld aantal regen in mm), en dan een bericht aan de gebruiker teruggeeft.
 - Als er 0 mm regen wordt voorspeld: <code>"Het blijft droog vandaag."</code>
 - Als er tussen 0 en 5 mm regen wordt voorspeld (exclusief 0 en inclusief 5): <code>"Er wordt vandaag lichte regen verwacht."</code>
 - Als er tussen 5 en 10 mm regen wordt voorspeld (exclusief 5 en inclusief 10): <code>"Er wordt vandaag matige regen verwacht."</code>

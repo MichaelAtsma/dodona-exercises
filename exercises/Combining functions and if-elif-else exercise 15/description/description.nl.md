@@ -227,7 +227,7 @@ def Grootste(x, y):
 <hr>
 
 # <b>Opdracht</b>
-Maak een functie genaamd <function name="KlasGrootte"></function> die één getal (<i>integer</i>) als invoer neemt (het aantal leerlingen in een klas) als invoer neemt, en dan een bericht aan de gebruiker teruggeeft.
+Maak een functie genaamd <function name="KlasGrootte"></function> die één getal (<i>integer</i>) als invoer neemt (het aantal leerlingen in een klas), en dan een bericht aan de gebruiker teruggeeft.
 - Als er een negatief getal gegeven wordt: <code>"Dit is geen valide invoer."</code>
 - Als er <code>0</code> leerlingen in de klas zijn: <code>"De klas is leeg."</code>
 - Als er <code>1</code> tot en met <code>15</code> leerlingen in de klas zijn: <code>"Dit is een kleine klas."</code>
