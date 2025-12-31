@@ -1,0 +1,14 @@
+>>> RegenVoorspelling(0)
+'Het blijft droog vandaag.'
+>>> RegenVoorspelling(3)
+'Er wordt vandaag lichte regen verwacht.'
+>>> RegenVoorspelling(5.1)
+'Er wordt vandaag matige regen verwacht.'
+>>> RegenVoorspelling(8.4)
+'Er wordt vandaag matige regen verwacht.'
+>>> RegenVoorspelling(10)
+'Er wordt vandaag matige regen verwacht.'
+>>> RegenVoorspelling(10.1)
+'Er wordt vandaag zware regen verwacht.'
+>>> RegenVoorspelling(23)
+'Er wordt vandaag zware regen verwacht.'

@@ -1,0 +1,15 @@
+{
+  "description": {
+    "names": {
+      "nl": "Functies en if-elif-else combineren (oefening 14)"
+    }
+  },
+  "evaluation": {
+    "pythia_judge": "doctest"
+  },
+  "labels": [],
+  "internals": {
+    "token": "N3njsHBcIQAw8igGsGiYbPvEmdmaphh_ITnKEcIgdFc-Tprk8mAPhXZHmdJ8TEbU",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

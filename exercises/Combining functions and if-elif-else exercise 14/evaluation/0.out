@@ -1,0 +1,9 @@
+--------------------------------------------------
+tab name: Voorbeelden
+<LANGUAGE code="en">
+    <function from="RegenVoorspelling" to="RainPrediction" />
+    <fixed from="Het blijft droog vandaag." to="It will remain dry today." />
+    <fixed from="Er wordt vandaag lichte regen verwacht." to="Light rain is expected today." />
+    <fixed from="Er wordt vandaag matige regen verwacht." to="Moderate rain is expected today." />
+    <fixed from="Er wordt vandaag zware regen verwacht." to="Heavy rain is expected today." />
+</LANGUAGE>
