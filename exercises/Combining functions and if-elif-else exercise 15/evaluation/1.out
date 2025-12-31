@@ -1,0 +1,11 @@
+--------------------------------------------------
+tab name: Bulk test
+<LANGUAGE code="en">
+    <function from="KlasGrootte" to="ClassSize" />
+    <fixed from="Dit is geen valide invoer." to="This is not a valid input." />
+    <fixed from="De klas is leeg." to="The class is empty." />
+    <fixed from="Dit is een kleine klas." to="This is a small class." />
+    <fixed from="Dit is een gemiddelde klas." to="This is an average class." />
+    <fixed from="Dit is een grote klas." to="This is a large class." />
+    <fixed from="Dit zijn te veel leerlingen voor één klas." to="There are too many students for one class." />
+</LANGUAGE>

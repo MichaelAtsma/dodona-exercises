@@ -1,0 +1,14 @@
+>>> KlasGrootte(-5)
+'Dit is geen valide invoer.'
+>>> KlasGrootte(0)
+'De klas is leeg.'
+>>> KlasGrootte(5)
+'Dit is een kleine klas.'
+>>> KlasGrootte(15)
+'Dit is een kleine klas.'
+>>> KlasGrootte(18)
+'Dit is een gemiddelde klas.'
+>>> KlasGrootte(21)
+'Dit is een grote klas.'
+>>> KlasGrootte(27)
+'Dit zijn te veel leerlingen voor één klas.'

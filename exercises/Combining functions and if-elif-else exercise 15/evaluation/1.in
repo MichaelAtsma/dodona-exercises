@@ -1,0 +1,102 @@
+>>> KlasGrootte(-20)
+'Dit is geen valide invoer.'
+>>> KlasGrootte(-19)
+'Dit is geen valide invoer.'
+>>> KlasGrootte(-18)
+'Dit is geen valide invoer.'
+>>> KlasGrootte(-17)
+'Dit is geen valide invoer.'
+>>> KlasGrootte(-16)
+'Dit is geen valide invoer.'
+>>> KlasGrootte(-15)
+'Dit is geen valide invoer.'
+>>> KlasGrootte(-14)
+'Dit is geen valide invoer.'
+>>> KlasGrootte(-13)
+'Dit is geen valide invoer.'
+>>> KlasGrootte(-12)
+'Dit is geen valide invoer.'
+>>> KlasGrootte(-11)
+'Dit is geen valide invoer.'
+>>> KlasGrootte(-10)
+'Dit is geen valide invoer.'
+>>> KlasGrootte(-9)
+'Dit is geen valide invoer.'
+>>> KlasGrootte(-8)
+'Dit is geen valide invoer.'
+>>> KlasGrootte(-7)
+'Dit is geen valide invoer.'
+>>> KlasGrootte(-6)
+'Dit is geen valide invoer.'
+>>> KlasGrootte(-5)
+'Dit is geen valide invoer.'
+>>> KlasGrootte(-4)
+'Dit is geen valide invoer.'
+>>> KlasGrootte(-3)
+'Dit is geen valide invoer.'
+>>> KlasGrootte(-2)
+'Dit is geen valide invoer.'
+>>> KlasGrootte(-1)
+'Dit is geen valide invoer.'
+>>> KlasGrootte(0)
+'De klas is leeg.'
+>>> KlasGrootte(1)
+'Dit is een kleine klas.'
+>>> KlasGrootte(2)
+'Dit is een kleine klas.'
+>>> KlasGrootte(3)
+'Dit is een kleine klas.'
+>>> KlasGrootte(4)
+'Dit is een kleine klas.'
+>>> KlasGrootte(5)
+'Dit is een kleine klas.'
+>>> KlasGrootte(6)
+'Dit is een kleine klas.'
+>>> KlasGrootte(7)
+'Dit is een kleine klas.'
+>>> KlasGrootte(8)
+'Dit is een kleine klas.'
+>>> KlasGrootte(9)
+'Dit is een kleine klas.'
+>>> KlasGrootte(10)
+'Dit is een kleine klas.'
+>>> KlasGrootte(11)
+'Dit is een kleine klas.'
+>>> KlasGrootte(12)
+'Dit is een kleine klas.'
+>>> KlasGrootte(13)
+'Dit is een kleine klas.'
+>>> KlasGrootte(14)
+'Dit is een kleine klas.'
+>>> KlasGrootte(15)
+'Dit is een kleine klas.'
+>>> KlasGrootte(16)
+'Dit is een gemiddelde klas.'
+>>> KlasGrootte(17)
+'Dit is een gemiddelde klas.'
+>>> KlasGrootte(18)
+'Dit is een gemiddelde klas.'
+>>> KlasGrootte(19)
+'Dit is een gemiddelde klas.'
+>>> KlasGrootte(20)
+'Dit is een gemiddelde klas.'
+>>> KlasGrootte(21)
+'Dit is een grote klas.'
+>>> KlasGrootte(22)
+'Dit is een grote klas.'
+>>> KlasGrootte(23)
+'Dit is een grote klas.'
+>>> KlasGrootte(24)
+'Dit is een grote klas.'
+>>> KlasGrootte(25)
+'Dit zijn te veel leerlingen voor één klas.'
+>>> KlasGrootte(26)
+'Dit zijn te veel leerlingen voor één klas.'
+>>> KlasGrootte(27)
+'Dit zijn te veel leerlingen voor één klas.'
+>>> KlasGrootte(28)
+'Dit zijn te veel leerlingen voor één klas.'
+>>> KlasGrootte(29)
+'Dit zijn te veel leerlingen voor één klas.'
+>>> KlasGrootte(30)
+'Dit zijn te veel leerlingen voor één klas.'
