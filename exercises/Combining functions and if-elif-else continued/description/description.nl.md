@@ -206,11 +206,43 @@ Tot slot krijgt iemand die <function name="Grootste" inputs="12,12"></function> 
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="Grootste"></function> die twee getallen als invoer neemt, en de grootste teruggeeft. Als de getallen even groot zijn, moet de functie de tekst <code>De getallen zijn even groot.</code> teruggeven.
 
-<details markdown="1"><summary>Voorbeelden</summary>
-<ul>
-  <li><function name="Grootste" inputs="5,8"></function> geeft <code>8</code> terug (want <code>8</code> is groter dan <code>5</code>).</li>
-  <li><function name="Grootste" inputs="1,-20"></function> geeft <code>1</code> terug (want <code>1</code> is groter dan <code>-20</code>).</li>
-  <li><function name="Grootste" inputs="100,7"></function> geeft <code>100</code> terug (want <code>100</code> is groter dan <code>7</code>).</li>
-  <li><function name="Grootste" inputs="9,9"></function> geeft <code>"De getallen zijn even groot."</code> terug (want <code>9</code> en <code>9</code> zijn even groot).</li>
-</ul>
+<details markdown="1"><summary>input-output verwachtingen</summary>
+
+<table>
+  <thead>
+    <tr>
+      <th>Invoer</th>
+      <th class="padding-column">→</th>
+      <th>Verwachte returnwaarde</th>
+      <th>Reden</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><function name="Grootste" inputs="5,8"></function></td>
+      <td style="text-align: center;">→</td>
+      <td><code>8</code></td>
+      <td>Want <code>8</code> is groter dan <code>5</code>.</td>
+    </tr>
+    <tr>
+      <td><function name="Grootste" inputs="1,-20"></function></td>
+      <td style="text-align: center;">→</td>
+      <td><code>1</code></td>
+      <td>Want <code>1</code> is groter dan <code>-20</code>.</td>
+    </tr>
+    <tr>
+      <td><function name="Grootste" inputs="100,7"></function></td>
+      <td style="text-align: center;">→</td>
+      <td><code>100</code></td>
+      <td>Want <code>100</code> is groter dan <code>7</code>.</td>
+    </tr>
+    <tr>
+      <td><function name="Grootste" inputs="9,9"></function></td>
+      <td style="text-align: center;">→</td>
+      <td><code>"De getallen zijn even groot."</code></td>
+      <td>Want <code>9</code> en <code>9</code> zijn even groot.</td>
+    </tr>
+  </tbody>
+</table>
+
 </details>

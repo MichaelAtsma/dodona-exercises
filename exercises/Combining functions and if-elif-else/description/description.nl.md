@@ -206,10 +206,34 @@ En tot slot krijgt iemand die <function name="PositiefOfNegatief" inputs="0"></f
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="PositiefOfNegatief"></function> en een tekst als uitvoer teruggeeft die vertelt of het getal <i>positief</i>, <i>negatief</i>, of <i>het neutral getal 0</i> is.
 
-<details markdown="1"><summary>Voorbeelden</summary>
-<ul>
-  <li><function name="PositiefOfNegatief" inputs="5"></function> geeft <code>"Dit getal is positief"</code> terug.</li>
-  <li><function name="PositiefOfNegatief" inputs="-3"></function> geeft <code>"Dit getal is negatief"</code> terug.</li>
-  <li><function name="PositiefOfNegatief" inputs="0"></function> geeft <code>"Dit is het neutrale getal 0"</code> terug.</li>
-</ul>
+<details markdown="1"><summary>input-output verwachtingen</summary>
+
+<div class="table-scroll">
+<table>
+  <thead>
+    <tr>
+      <th>Invoer</th>
+      <th class="padding-column">→</th>
+      <th>Verwachte returnwaarde</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><function name="PositiefOfNegatief" inputs="5"></function></td>
+      <td style="text-align: center;">→</td>
+      <td><code>"Dit getal is positief"</code></td>
+    </tr>
+    <tr>
+      <td><function name="PositiefOfNegatief" inputs="-3"></function></td>
+      <td style="text-align: center;">→</td>
+      <td><code>"Dit getal is negatief"</code></td>
+    </tr>
+    <tr>
+      <td><function name="PositiefOfNegatief" inputs="0"></function></td>
+      <td style="text-align: center;">→</td>
+      <td><code>"Dit is het neutrale getal 0"</code></td>
+    </tr>
+  </tbody>
+</table>
+</div>
 </details>
