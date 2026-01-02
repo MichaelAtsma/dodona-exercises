@@ -139,6 +139,7 @@ def PositiefOfNegatief(x):
         tekst = "Dit is het neutrale getal 0"
     return tekst
 ```
+
 <details markdown="1"><summary>input-output verwachtingen</summary>
 <table>
   <thead>
