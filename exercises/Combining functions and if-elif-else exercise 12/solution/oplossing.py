@@ -1,7 +1,9 @@
 def SnelheidsBord(gemeten_snelheid, toegestane_snelheid):
     if gemeten_snelheid > toegestane_snelheid:
-        return "U rijdt te snel!"
+        bericht = "U rijdt te snel!"
     elif gemeten_snelheid < toegestane_snelheid:
-        return "Dankuwel."
+        bericht = "Dankuwel."
     else:
-        return "Rijd voorzichtig alstublieft."
+        bericht = "Rijd voorzichtig alstublieft."
+        
+    return bericht

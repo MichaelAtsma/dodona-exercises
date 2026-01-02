@@ -6,13 +6,15 @@ def copy_to_clipboard(text):
 
 def RegenVoorspelling(mm_regen):
     if mm_regen == 0:
-        return "Het blijft droog vandaag."
+        voorspelling = "Het blijft droog vandaag."
     elif mm_regen <= 5:
-        return "Er wordt vandaag lichte regen verwacht."
+        voorspelling = "Er wordt vandaag lichte regen verwacht."
     elif mm_regen <= 10:
-        return "Er wordt vandaag matige regen verwacht."
+        voorspelling = "Er wordt vandaag matige regen verwacht."
     else:
-        return "Er wordt vandaag zware regen verwacht."
+        voorspelling = "Er wordt vandaag zware regen verwacht."
+        
+    return voorspelling
 
 X = [0, 3, 5.1, 8.4, 10, 10.1, 23]
 X = [x / 10 for x in range(0, 151)]

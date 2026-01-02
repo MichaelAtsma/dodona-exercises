@@ -6,11 +6,13 @@ def copy_to_clipboard(text):
 
 def BatterijStatus(batterijpercentage):
     if batterijpercentage < 20:
-        return "Waarschuwing: batterij bijna leeg, u moet binnenkort opladen!"
+        status = "Waarschuwing: batterij bijna leeg, u moet binnenkort opladen!"
     elif batterijpercentage > 80:
-        return "Batterij bijna vol!"
+        status = "Batterij bijna vol!"
     else:
-        return "Batterijstatus is goed."
+        status = "Batterijstatus is goed."
+        
+    return status
 
 X = [10, 20, 50, 80, 90]
 X = range(1, 101)

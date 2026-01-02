@@ -6,17 +6,19 @@ def copy_to_clipboard(text):
 
 def KlasGrootte(aantal_leerlingen):
     if aantal_leerlingen < 0:
-        return "Dit is geen valide invoer."
+        conclusie = "Dit is geen valide invoer."
     elif aantal_leerlingen == 0:
-        return "De klas is leeg."
+        conclusie = "De klas is leeg."
     elif aantal_leerlingen <= 15:
-        return "Dit is een kleine klas."
+        conclusie = "Dit is een kleine klas."
     elif aantal_leerlingen <= 20:
-        return "Dit is een gemiddelde klas."
+        conclusie = "Dit is een gemiddelde klas."
     elif aantal_leerlingen <= 24:
-        return "Dit is een grote klas."
+        conclusie = "Dit is een grote klas."
     else:
-        return "Dit zijn te veel leerlingen voor één klas."
+        conclusie = "Dit zijn te veel leerlingen voor één klas."
+        
+    return conclusie
 
 X = [-5, 0, 5, 15, 18, 21, 27]
 X = range(-20, 31)
