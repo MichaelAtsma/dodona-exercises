@@ -229,21 +229,25 @@ def Grootste(x, y):
 In de wiskunde wordt de discriminant gebruikt om te bepalen hoeveel nulwaarden een kwadratische functie heeft. 
 
 Wanneer de functie gegeven wordt door:
-\[ ax^2 + bx + c \]
+$$
+ax^2 + bx + c
+$$
 
 dan wordt de discriminant berekend met de formule:
-\[ D = b^2 - 4ac \]
+$$
+D = b^2 - 4ac
+$$
 
-De waarde van de discriminant \( D \) bepaalt het aantal nulwaarden van de functie als volgt:
-- Als \( D \) positief is: De functie heeft twee verschillende reële nulwaarden.
-- Als \( D \) nul is: De functie heeft precies één reële nulwaarde (ook wel een dubbele nulwaarde genoemd).
-- Als \( D \) negatief is: De functie heeft geen reële nulwaarden.
+De waarde van de discriminant $$D$$ bepaalt het aantal nulwaarden van de functie als volgt:
+- Als $$D$$ positief is: De functie heeft twee verschillende reële nulwaarden.
+- Als $$D$$ nul is: De functie heeft precies één reële nulwaarde (ook wel een dubbele nulwaarde genoemd).
+- Als $$D$$ negatief is: De functie heeft geen reële nulwaarden.
 
 <br>
 <hr>
 
 # <b>Opdracht</b>
-Maak een functie genaamd <function name="AantalNulwaarden"></function> die drie getallen (<i>floats</i> of <i>integers</i>) als invoer neemt (\(a\), \(b\), en \(c\)), en dan een bericht teruggeeft die aangeeft hoeveel nulwaarden de functie heeft.
+Maak een functie genaamd <function name="AantalNulwaarden"></function> die drie getallen (<i>floats</i> of <i>integers</i>) als invoer neemt ($$a$$, $$b$$, en $$c$$), en dan een bericht teruggeeft die aangeeft hoeveel nulwaarden de functie heeft.
 - Als de functie twee verschillende reële nulwaarden heeft: <code>"De functie heeft twee verschillende reële nulwaarden."</code>
 - Als de functie precies één reële nulwaarde heeft: <code>"De functie heeft precies één reële nulwaarde."</code>
 - Als de functie geen reële nulwaarden heeft: <code>"De functie heeft geen reële nulwaarden."</code>
@@ -265,19 +269,19 @@ Maak een functie genaamd <function name="AantalNulwaarden"></function> die drie 
       <td><function name="AantalNulwaarden" inputs='1,2,3'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"De functie heeft geen reële nulwaarden."</code></td>
-      <td>\[D = 2^2 - 4 \cdot 1 \cdot 3 = 4 - 12 = -8\]</td>
+      <td>$$D = 2^2 - 4 \cdot 1 \cdot 3 = 4 - 12 = -8$$</td>
     </tr>
     <tr>
       <td><function name="AantalNulwaarden" inputs='2,-12,18'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"De functie heeft precies één reële nulwaarde."</code></td>
-      <td>\[D = (-12)^2 - 4 \cdot 2 \cdot 18 = 144 - 144 = 0\]</td>
+      <td>$$D = (-12)^2 - 4 \cdot 2 \cdot 18 = 144 - 144 = 0$$</td>
     </tr>
     <tr>
       <td><function name="AantalNulwaarden" inputs='3,10,7.2'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"De functie heeft twee verschillende reële nulwaarden."</code></td>
-      <td>\[D = 10^2 - 4 \cdot 3 \cdot 7.2 = 100 - 86.4 = 13.6\]</td>
+      <td>$$D = 10^2 - 4 \cdot 3 \cdot 7.2 = 100 - 86.4 = 13.6$$</td>
     </tr>
   </tbody>
 </table>
