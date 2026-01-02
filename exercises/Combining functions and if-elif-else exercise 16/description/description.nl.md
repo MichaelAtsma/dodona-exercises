@@ -353,6 +353,7 @@ if x % 1 != 0:
 </details>
 </details>
 </details>
+</details>
 
 <details markdown="1"><summary>Tip (hoe maak je de antwoordzin?)</summary>
 Je kunt de antwoordzin maken door het getal en de bijbehorende tekst samen te voegen in een <i>string</i>. Gebruik hiervoor een <i>f-string</i> of zet het gegeven getal om naar eens <i>string</i> en tel <i>strings</i> bij elkaar op.
