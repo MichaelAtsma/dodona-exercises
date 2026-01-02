@@ -136,6 +136,8 @@ def PositiefOfNegatief(x):
     elif x < 0:
         tekst = "Dit getal is negatief"
     else:
+        tekst = "Dit is het neutrale getal 0"
+    return tekst
 ```
 
 <details markdown="1"><summary>input-output verwachtingen</summary>

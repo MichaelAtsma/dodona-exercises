@@ -3,15 +3,35 @@ import re
 
 # Pattern or literal to replace
 use_regex_for_to_replace = False
-to_replace = r"""Leeftijdgroep"""
+to_replace = r"""<details markdown="1"><summary><b>Voorbeeld 1: positief of negatief?</b></summary>
+
+```python
+def PositiefOfNegatief(x):
+    if x > 0:
+        tekst = "Dit getal is positief"
+    elif x < 0:
+        tekst = "Dit getal is negatief"
+    else:
+```"""
 
 # Replacement (can contain backreferences like r"\1" when use_regex is True)
 use_regex_for_replacement = False
-replacement = r"""Leeftijdsgroep"""
+replacement = r"""<details markdown="1"><summary><b>Voorbeeld 1: positief of negatief?</b></summary>
+
+```python
+def PositiefOfNegatief(x):
+    if x > 0:
+        tekst = "Dit getal is positief"
+    elif x < 0:
+        tekst = "Dit getal is negatief"
+    else:
+        tekst = "Dit is het neutrale getal 0"
+    return tekst
+```"""
 
 
-filename_contains = ""
-directory_contains = "Combining functions and if-elif-else exercise 3"
+filename_contains = "description"
+directory_contains = "Combining functions and if-elif-else exercise"
 directory_does_not_contain = ""
 root_dir = "exercises"
 
