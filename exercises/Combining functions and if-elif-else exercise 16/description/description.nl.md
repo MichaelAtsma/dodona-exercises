@@ -310,6 +310,7 @@ De modulus-operator <code>%</code> geeft de rest van een deling terug. Bijvoorbe
 
 <details markdown="1"><summary>Tip (zo goed als de oplossing verklapt)</summary>
 We moeten kijken of een getal <code>x</code> even is. Dat kan je doen door te controleren of <code>x % 2</code> gelijk is aan 0:
+
 ```python
 x % 2 == 0
 ```
@@ -331,8 +332,7 @@ Je kunt controleren of een getal een kommagetal is door te kijken of het getal z
 <details markdown="1"><summary>Tip (zo goed als de oplossing verklapt)</summary>
 
 ```python
-if x != int(x):
-    # x is een kommagetal
+x != int(x)
 ```
 </details>
 </details>
@@ -347,8 +347,7 @@ Om te controleren of een getal een kommagetal is kan je kijken of het getal gede
 <details markdown="1"><summary>Tip (zo goed als de oplossing verklapt)</summary>
 
 ```python
-if x % 1 != 0:
-    # x is een kommagetal
+x % 1 != 0
 ```
 </details>
 </details>
