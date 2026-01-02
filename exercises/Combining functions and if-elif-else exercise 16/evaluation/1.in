@@ -1,0 +1,180 @@
+>>> EvenOnevenOfKomma(11.878)
+'11.878 is kommagetal.'
+>>> EvenOnevenOfKomma(12.57)
+'12.57 is kommagetal.'
+>>> EvenOnevenOfKomma(13)
+'13 is een oneven geheel getal.'
+>>> EvenOnevenOfKomma(14)
+'14 is een even geheel getal.'
+>>> EvenOnevenOfKomma(15.9525)
+'15.9525 is kommagetal.'
+>>> EvenOnevenOfKomma(16.2)
+'16.2 is kommagetal.'
+>>> EvenOnevenOfKomma(17.4504)
+'17.4504 is kommagetal.'
+>>> EvenOnevenOfKomma(18)
+'18 is een even geheel getal.'
+>>> EvenOnevenOfKomma(19.62323)
+'19.62323 is kommagetal.'
+>>> EvenOnevenOfKomma(20)
+'20 is een even geheel getal.'
+>>> EvenOnevenOfKomma(21.2313798)
+'21.2313798 is kommagetal.'
+>>> EvenOnevenOfKomma(22)
+'22 is een even geheel getal.'
+>>> EvenOnevenOfKomma(23)
+'23 is een oneven geheel getal.'
+>>> EvenOnevenOfKomma(24.368)
+'24.368 is kommagetal.'
+>>> EvenOnevenOfKomma(25)
+'25 is een oneven geheel getal.'
+>>> EvenOnevenOfKomma(26)
+'26 is een even geheel getal.'
+>>> EvenOnevenOfKomma(27.358533)
+'27.358533 is kommagetal.'
+>>> EvenOnevenOfKomma(28)
+'28 is een even geheel getal.'
+>>> EvenOnevenOfKomma(29.79522)
+'29.79522 is kommagetal.'
+>>> EvenOnevenOfKomma(30)
+'30 is een even geheel getal.'
+>>> EvenOnevenOfKomma(31)
+'31 is een oneven geheel getal.'
+>>> EvenOnevenOfKomma(32)
+'32 is een even geheel getal.'
+>>> EvenOnevenOfKomma(33)
+'33 is een oneven geheel getal.'
+>>> EvenOnevenOfKomma(34.54)
+'34.54 is kommagetal.'
+>>> EvenOnevenOfKomma(35.02748)
+'35.02748 is kommagetal.'
+>>> EvenOnevenOfKomma(36.701402)
+'36.701402 is kommagetal.'
+>>> EvenOnevenOfKomma(37)
+'37 is een oneven geheel getal.'
+>>> EvenOnevenOfKomma(38)
+'38 is een even geheel getal.'
+>>> EvenOnevenOfKomma(39.4)
+'39.4 is kommagetal.'
+>>> EvenOnevenOfKomma(40.7588242)
+'40.7588242 is kommagetal.'
+>>> EvenOnevenOfKomma(41.6249848)
+'41.6249848 is kommagetal.'
+>>> EvenOnevenOfKomma(42)
+'42 is een even geheel getal.'
+>>> EvenOnevenOfKomma(43)
+'43 is een oneven geheel getal.'
+>>> EvenOnevenOfKomma(44)
+'44 is een even geheel getal.'
+>>> EvenOnevenOfKomma(45)
+'45 is een oneven geheel getal.'
+>>> EvenOnevenOfKomma(47.0)
+'47.0 is een oneven geheel getal.'
+>>> EvenOnevenOfKomma(47.6126)
+'47.6126 is kommagetal.'
+>>> EvenOnevenOfKomma(48.307)
+'48.307 is kommagetal.'
+>>> EvenOnevenOfKomma(49)
+'49 is een oneven geheel getal.'
+>>> EvenOnevenOfKomma(50)
+'50 is een even geheel getal.'
+>>> EvenOnevenOfKomma(51.23145)
+'51.23145 is kommagetal.'
+>>> EvenOnevenOfKomma(52.51)
+'52.51 is kommagetal.'
+>>> EvenOnevenOfKomma(53.4)
+'53.4 is kommagetal.'
+>>> EvenOnevenOfKomma(54.9944957)
+'54.9944957 is kommagetal.'
+>>> EvenOnevenOfKomma(55)
+'55 is een oneven geheel getal.'
+>>> EvenOnevenOfKomma(56.5626)
+'56.5626 is kommagetal.'
+>>> EvenOnevenOfKomma(57)
+'57 is een oneven geheel getal.'
+>>> EvenOnevenOfKomma(58.7647061)
+'58.7647061 is kommagetal.'
+>>> EvenOnevenOfKomma(59)
+'59 is een oneven geheel getal.'
+>>> EvenOnevenOfKomma(60)
+'60 is een even geheel getal.'
+>>> EvenOnevenOfKomma(61.828001)
+'61.828001 is kommagetal.'
+>>> EvenOnevenOfKomma(62.21264)
+'62.21264 is kommagetal.'
+>>> EvenOnevenOfKomma(63)
+'63 is een oneven geheel getal.'
+>>> EvenOnevenOfKomma(64)
+'64 is een even geheel getal.'
+>>> EvenOnevenOfKomma(65.64834)
+'65.64834 is kommagetal.'
+>>> EvenOnevenOfKomma(66.16681)
+'66.16681 is kommagetal.'
+>>> EvenOnevenOfKomma(67)
+'67 is een oneven geheel getal.'
+>>> EvenOnevenOfKomma(68)
+'68 is een even geheel getal.'
+>>> EvenOnevenOfKomma(69.191)
+'69.191 is kommagetal.'
+>>> EvenOnevenOfKomma(70.3)
+'70.3 is kommagetal.'
+>>> EvenOnevenOfKomma(71)
+'71 is een oneven geheel getal.'
+>>> EvenOnevenOfKomma(72.6)
+'72.6 is kommagetal.'
+>>> EvenOnevenOfKomma(73)
+'73 is een oneven geheel getal.'
+>>> EvenOnevenOfKomma(74.2)
+'74.2 is kommagetal.'
+>>> EvenOnevenOfKomma(75)
+'75 is een oneven geheel getal.'
+>>> EvenOnevenOfKomma(76.385041)
+'76.385041 is kommagetal.'
+>>> EvenOnevenOfKomma(77.0911)
+'77.0911 is kommagetal.'
+>>> EvenOnevenOfKomma(78.1)
+'78.1 is kommagetal.'
+>>> EvenOnevenOfKomma(79)
+'79 is een oneven geheel getal.'
+>>> EvenOnevenOfKomma(80)
+'80 is een even geheel getal.'
+>>> EvenOnevenOfKomma(81.9422)
+'81.9422 is kommagetal.'
+>>> EvenOnevenOfKomma(82.34)
+'82.34 is kommagetal.'
+>>> EvenOnevenOfKomma(83.2)
+'83.2 is kommagetal.'
+>>> EvenOnevenOfKomma(84)
+'84 is een even geheel getal.'
+>>> EvenOnevenOfKomma(85.91131)
+'85.91131 is kommagetal.'
+>>> EvenOnevenOfKomma(86)
+'86 is een even geheel getal.'
+>>> EvenOnevenOfKomma(87)
+'87 is een oneven geheel getal.'
+>>> EvenOnevenOfKomma(88)
+'88 is een even geheel getal.'
+>>> EvenOnevenOfKomma(89.5169561)
+'89.5169561 is kommagetal.'
+>>> EvenOnevenOfKomma(90)
+'90 is een even geheel getal.'
+>>> EvenOnevenOfKomma(91.01508)
+'91.01508 is kommagetal.'
+>>> EvenOnevenOfKomma(92.9586)
+'92.9586 is kommagetal.'
+>>> EvenOnevenOfKomma(93)
+'93 is een oneven geheel getal.'
+>>> EvenOnevenOfKomma(94.9677)
+'94.9677 is kommagetal.'
+>>> EvenOnevenOfKomma(95)
+'95 is een oneven geheel getal.'
+>>> EvenOnevenOfKomma(96.0096306)
+'96.0096306 is kommagetal.'
+>>> EvenOnevenOfKomma(97.633)
+'97.633 is kommagetal.'
+>>> EvenOnevenOfKomma(98)
+'98 is een even geheel getal.'
+>>> EvenOnevenOfKomma(99)
+'99 is een oneven geheel getal.'
+>>> EvenOnevenOfKomma(100.437827)
+'100.437827 is kommagetal.'

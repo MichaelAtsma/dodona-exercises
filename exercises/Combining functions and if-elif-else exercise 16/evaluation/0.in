@@ -1,0 +1,6 @@
+>>> EvenOnevenOfKomma(5)
+'5 is een oneven geheel getal.'
+>>> EvenOnevenOfKomma(8)
+'8 is een even geheel getal.'
+>>> EvenOnevenOfKomma(9.3)
+'9.3 is kommagetal.'

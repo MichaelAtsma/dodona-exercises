@@ -1,0 +1,8 @@
+--------------------------------------------------
+tab name: Bulk test
+<LANGUAGE code="en">
+    <function from="EvenOnevenOfKomma" to="EvenOddOrDecimal" />
+    <fixed from="is een oneven geheel getal." to="is an odd integer." />
+    <fixed from="is een even geheel getal." to="is an even integer." />
+    <fixed from="is een kommagetal." to="is a decimal number." />
+</LANGUAGE>
