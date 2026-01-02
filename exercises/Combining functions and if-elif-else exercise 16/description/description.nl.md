@@ -331,6 +331,9 @@ Je kunt controleren of een getal een kommagetal is door te kijken of het getal z
 ```python
 x != int(x)
 ```
+
+Als dat waar is, dan is <code>x</code> een kommagetal. Als dat niet waar is, dan is <code>x</code> een geheel getal.
+
 </details>
 </details>
 </details>
@@ -394,6 +397,9 @@ De modulus-operator <code>%</code> geeft de rest van een deling terug. Bijvoorbe
 ```python
 x % 1 != 0
 ```
+
+Als dat waar is, dan is <code>x</code> een kommagetal. Als dat niet waar is, dan is <code>x</code> een geheel getal.
+
 </details>
 </details>
 </details>
