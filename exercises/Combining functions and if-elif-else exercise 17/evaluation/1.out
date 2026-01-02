@@ -1,0 +1,9 @@
+--------------------------------------------------
+tab name: Bulk test
+<LANGUAGE code="en">
+    <function from="FilmDuur" to="MovieDuration" />
+    <fixed from="Lange film." to="Long movie." />
+    <fixed from="Normale film" to="Normal movie." />
+    <fixed from="Korte film." to="Short movie." />
+    <fixed from="Hele korte film." to="Very short movie." />
+</LANGUAGE>

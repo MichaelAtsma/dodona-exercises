@@ -1,0 +1,360 @@
+>>> FilmDuur(0, 0)
+'Hele korte film.'
+>>> FilmDuur(0, 1)
+'Hele korte film.'
+>>> FilmDuur(0, 2)
+'Hele korte film.'
+>>> FilmDuur(0, 3)
+'Hele korte film.'
+>>> FilmDuur(0, 4)
+'Hele korte film.'
+>>> FilmDuur(0, 5)
+'Hele korte film.'
+>>> FilmDuur(0, 6)
+'Hele korte film.'
+>>> FilmDuur(0, 7)
+'Hele korte film.'
+>>> FilmDuur(0, 8)
+'Hele korte film.'
+>>> FilmDuur(0, 9)
+'Hele korte film.'
+>>> FilmDuur(0, 10)
+'Hele korte film.'
+>>> FilmDuur(0, 11)
+'Hele korte film.'
+>>> FilmDuur(0, 12)
+'Hele korte film.'
+>>> FilmDuur(0, 13)
+'Hele korte film.'
+>>> FilmDuur(0, 14)
+'Hele korte film.'
+>>> FilmDuur(0, 15)
+'Hele korte film.'
+>>> FilmDuur(0, 16)
+'Hele korte film.'
+>>> FilmDuur(0, 17)
+'Hele korte film.'
+>>> FilmDuur(0, 18)
+'Hele korte film.'
+>>> FilmDuur(0, 19)
+'Hele korte film.'
+>>> FilmDuur(0, 20)
+'Hele korte film.'
+>>> FilmDuur(0, 21)
+'Hele korte film.'
+>>> FilmDuur(0, 22)
+'Hele korte film.'
+>>> FilmDuur(0, 23)
+'Hele korte film.'
+>>> FilmDuur(0, 24)
+'Hele korte film.'
+>>> FilmDuur(0, 25)
+'Hele korte film.'
+>>> FilmDuur(0, 26)
+'Hele korte film.'
+>>> FilmDuur(0, 27)
+'Hele korte film.'
+>>> FilmDuur(0, 28)
+'Hele korte film.'
+>>> FilmDuur(0, 29)
+'Hele korte film.'
+>>> FilmDuur(0, 30)
+'Hele korte film.'
+>>> FilmDuur(0, 31)
+'Hele korte film.'
+>>> FilmDuur(0, 32)
+'Hele korte film.'
+>>> FilmDuur(0, 33)
+'Hele korte film.'
+>>> FilmDuur(0, 34)
+'Hele korte film.'
+>>> FilmDuur(0, 35)
+'Hele korte film.'
+>>> FilmDuur(0, 36)
+'Hele korte film.'
+>>> FilmDuur(0, 37)
+'Hele korte film.'
+>>> FilmDuur(0, 38)
+'Hele korte film.'
+>>> FilmDuur(0, 39)
+'Hele korte film.'
+>>> FilmDuur(0, 40)
+'Hele korte film.'
+>>> FilmDuur(0, 41)
+'Hele korte film.'
+>>> FilmDuur(0, 42)
+'Hele korte film.'
+>>> FilmDuur(0, 43)
+'Hele korte film.'
+>>> FilmDuur(0, 44)
+'Hele korte film.'
+>>> FilmDuur(0, 45)
+'Hele korte film.'
+>>> FilmDuur(0, 46)
+'Hele korte film.'
+>>> FilmDuur(0, 47)
+'Hele korte film.'
+>>> FilmDuur(0, 48)
+'Hele korte film.'
+>>> FilmDuur(0, 49)
+'Hele korte film.'
+>>> FilmDuur(0, 50)
+'Hele korte film.'
+>>> FilmDuur(0, 51)
+'Hele korte film.'
+>>> FilmDuur(0, 52)
+'Hele korte film.'
+>>> FilmDuur(0, 53)
+'Hele korte film.'
+>>> FilmDuur(0, 54)
+'Hele korte film.'
+>>> FilmDuur(0, 55)
+'Hele korte film.'
+>>> FilmDuur(0, 56)
+'Hele korte film.'
+>>> FilmDuur(0, 57)
+'Hele korte film.'
+>>> FilmDuur(0, 58)
+'Hele korte film.'
+>>> FilmDuur(0, 59)
+'Hele korte film.'
+>>> FilmDuur(1, 0)
+'Korte film.'
+>>> FilmDuur(1, 1)
+'Korte film.'
+>>> FilmDuur(1, 2)
+'Korte film.'
+>>> FilmDuur(1, 3)
+'Korte film.'
+>>> FilmDuur(1, 4)
+'Korte film.'
+>>> FilmDuur(1, 5)
+'Korte film.'
+>>> FilmDuur(1, 6)
+'Korte film.'
+>>> FilmDuur(1, 7)
+'Korte film.'
+>>> FilmDuur(1, 8)
+'Korte film.'
+>>> FilmDuur(1, 9)
+'Korte film.'
+>>> FilmDuur(1, 10)
+'Korte film.'
+>>> FilmDuur(1, 11)
+'Korte film.'
+>>> FilmDuur(1, 12)
+'Korte film.'
+>>> FilmDuur(1, 13)
+'Korte film.'
+>>> FilmDuur(1, 14)
+'Korte film.'
+>>> FilmDuur(1, 15)
+'Korte film.'
+>>> FilmDuur(1, 16)
+'Korte film.'
+>>> FilmDuur(1, 17)
+'Korte film.'
+>>> FilmDuur(1, 18)
+'Korte film.'
+>>> FilmDuur(1, 19)
+'Korte film.'
+>>> FilmDuur(1, 20)
+'Korte film.'
+>>> FilmDuur(1, 21)
+'Normale film.'
+>>> FilmDuur(1, 22)
+'Normale film.'
+>>> FilmDuur(1, 23)
+'Normale film.'
+>>> FilmDuur(1, 24)
+'Normale film.'
+>>> FilmDuur(1, 25)
+'Normale film.'
+>>> FilmDuur(1, 26)
+'Normale film.'
+>>> FilmDuur(1, 27)
+'Normale film.'
+>>> FilmDuur(1, 28)
+'Normale film.'
+>>> FilmDuur(1, 29)
+'Normale film.'
+>>> FilmDuur(1, 30)
+'Normale film.'
+>>> FilmDuur(1, 31)
+'Normale film.'
+>>> FilmDuur(1, 32)
+'Normale film.'
+>>> FilmDuur(1, 33)
+'Normale film.'
+>>> FilmDuur(1, 34)
+'Normale film.'
+>>> FilmDuur(1, 35)
+'Normale film.'
+>>> FilmDuur(1, 36)
+'Normale film.'
+>>> FilmDuur(1, 37)
+'Normale film.'
+>>> FilmDuur(1, 38)
+'Normale film.'
+>>> FilmDuur(1, 39)
+'Normale film.'
+>>> FilmDuur(1, 40)
+'Normale film.'
+>>> FilmDuur(1, 41)
+'Normale film.'
+>>> FilmDuur(1, 42)
+'Normale film.'
+>>> FilmDuur(1, 43)
+'Normale film.'
+>>> FilmDuur(1, 44)
+'Normale film.'
+>>> FilmDuur(1, 45)
+'Normale film.'
+>>> FilmDuur(1, 46)
+'Normale film.'
+>>> FilmDuur(1, 47)
+'Normale film.'
+>>> FilmDuur(1, 48)
+'Normale film.'
+>>> FilmDuur(1, 49)
+'Normale film.'
+>>> FilmDuur(1, 50)
+'Normale film.'
+>>> FilmDuur(1, 51)
+'Normale film.'
+>>> FilmDuur(1, 52)
+'Normale film.'
+>>> FilmDuur(1, 53)
+'Normale film.'
+>>> FilmDuur(1, 54)
+'Normale film.'
+>>> FilmDuur(1, 55)
+'Normale film.'
+>>> FilmDuur(1, 56)
+'Normale film.'
+>>> FilmDuur(1, 57)
+'Normale film.'
+>>> FilmDuur(1, 58)
+'Normale film.'
+>>> FilmDuur(1, 59)
+'Normale film.'
+>>> FilmDuur(2, 0)
+'Lange film.'
+>>> FilmDuur(2, 1)
+'Lange film.'
+>>> FilmDuur(2, 2)
+'Lange film.'
+>>> FilmDuur(2, 3)
+'Lange film.'
+>>> FilmDuur(2, 4)
+'Lange film.'
+>>> FilmDuur(2, 5)
+'Lange film.'
+>>> FilmDuur(2, 6)
+'Lange film.'
+>>> FilmDuur(2, 7)
+'Lange film.'
+>>> FilmDuur(2, 8)
+'Lange film.'
+>>> FilmDuur(2, 9)
+'Lange film.'
+>>> FilmDuur(2, 10)
+'Lange film.'
+>>> FilmDuur(2, 11)
+'Lange film.'
+>>> FilmDuur(2, 12)
+'Lange film.'
+>>> FilmDuur(2, 13)
+'Lange film.'
+>>> FilmDuur(2, 14)
+'Lange film.'
+>>> FilmDuur(2, 15)
+'Lange film.'
+>>> FilmDuur(2, 16)
+'Lange film.'
+>>> FilmDuur(2, 17)
+'Lange film.'
+>>> FilmDuur(2, 18)
+'Lange film.'
+>>> FilmDuur(2, 19)
+'Lange film.'
+>>> FilmDuur(2, 20)
+'Lange film.'
+>>> FilmDuur(2, 21)
+'Lange film.'
+>>> FilmDuur(2, 22)
+'Lange film.'
+>>> FilmDuur(2, 23)
+'Lange film.'
+>>> FilmDuur(2, 24)
+'Lange film.'
+>>> FilmDuur(2, 25)
+'Lange film.'
+>>> FilmDuur(2, 26)
+'Lange film.'
+>>> FilmDuur(2, 27)
+'Lange film.'
+>>> FilmDuur(2, 28)
+'Lange film.'
+>>> FilmDuur(2, 29)
+'Lange film.'
+>>> FilmDuur(2, 30)
+'Lange film.'
+>>> FilmDuur(2, 31)
+'Lange film.'
+>>> FilmDuur(2, 32)
+'Lange film.'
+>>> FilmDuur(2, 33)
+'Lange film.'
+>>> FilmDuur(2, 34)
+'Lange film.'
+>>> FilmDuur(2, 35)
+'Lange film.'
+>>> FilmDuur(2, 36)
+'Lange film.'
+>>> FilmDuur(2, 37)
+'Lange film.'
+>>> FilmDuur(2, 38)
+'Lange film.'
+>>> FilmDuur(2, 39)
+'Lange film.'
+>>> FilmDuur(2, 40)
+'Lange film.'
+>>> FilmDuur(2, 41)
+'Lange film.'
+>>> FilmDuur(2, 42)
+'Lange film.'
+>>> FilmDuur(2, 43)
+'Lange film.'
+>>> FilmDuur(2, 44)
+'Lange film.'
+>>> FilmDuur(2, 45)
+'Lange film.'
+>>> FilmDuur(2, 46)
+'Lange film.'
+>>> FilmDuur(2, 47)
+'Lange film.'
+>>> FilmDuur(2, 48)
+'Lange film.'
+>>> FilmDuur(2, 49)
+'Lange film.'
+>>> FilmDuur(2, 50)
+'Lange film.'
+>>> FilmDuur(2, 51)
+'Lange film.'
+>>> FilmDuur(2, 52)
+'Lange film.'
+>>> FilmDuur(2, 53)
+'Lange film.'
+>>> FilmDuur(2, 54)
+'Lange film.'
+>>> FilmDuur(2, 55)
+'Lange film.'
+>>> FilmDuur(2, 56)
+'Lange film.'
+>>> FilmDuur(2, 57)
+'Lange film.'
+>>> FilmDuur(2, 58)
+'Lange film.'
+>>> FilmDuur(2, 59)
+'Lange film.'
