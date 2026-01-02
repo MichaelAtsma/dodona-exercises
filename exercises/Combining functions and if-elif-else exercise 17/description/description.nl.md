@@ -229,8 +229,8 @@ def Grootste(x, y):
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="FilmDuur"></function> die twee (positieve) getallen (<i>integer</i>) als invoer neemt (het aantal uren en minuten dat een film duurt), en dan aan de gebruiker vertelt of het een (hele) korte, normale, of lange film is.
 - Als de film minder dan 1 uur duurt: <code>"Hele korte film."</code>
-- Als de film tussen 1 uur en 1:20 duurt (inclusief één uur, exclusief anderhalf uur): <code>"Korte film."</code>
-- Als de film tussen 1:20 uur en 2 uur duurt (inclusief anderhalf uur, exclusief twee uur): <code>"Normale film."</code>
+- Als de film tussen 1 uur en 1:20 duurt (inclusief 1 uur, exclusief 1:20): <code>"Korte film."</code>
+- Als de film tussen 1:20 uur en 2 uur duurt (inclusief 1:20, exclusief 2 uur): <code>"Normale film."</code>
 - Als de film 2 uur of langer duurt: <code>"Lange film."</code>
 
 <i>Denk goed na in welke volgorde je de checks het beste kan doen.</i>
