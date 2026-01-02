@@ -269,8 +269,6 @@ Maak een functie genaamd <function name="EvenOnevenOfKomma"></function> die éé
 <details markdown="1"><summary>Tip (hoe check je even/oneven?)</summary>
 Gebruik de modulus-operator <code>%</code> om te controleren of een getal even of oneven is. Een getal is even als er bij deling door 2 een rest van 0 is, anders is het oneven.
 
-<br>
-
 <details markdown="1"><summary>Tip (meer detail dan hierboven)</summary>
 De modulus-operator <code>%</code> geeft de rest van een deling terug. Bijvoorbeeld:
 <div class="table-scroll">
@@ -321,10 +319,9 @@ Als dat waar is, dan is <code>x</code> even. Als dat niet waar is, dan is <code>
 </details>
 
 <details markdown="1"><summary>Tip (hoe check je of een getal een kommagetal is?)</summary>
+
 <details markdown="1"><summary>Manier 1</summary>
 Herinner je dat je een functie geleerd hebt die van een float een integer maakt: <function name="int" inputs="x"></function>. Deze functie verwijdert het kommagedeelte van een getal.
-
-<br>
 
 <details markdown="1"><summary>Tip (meer detail dan hierboven)</summary>
 Je kunt controleren of een getal een kommagetal is door te kijken of het getal zelf ongelijk is aan zijn geheel getal versie.
@@ -344,6 +341,54 @@ Je kunt de modulus-operator <code>%</code> gebruiken.
 <details markdown="1"><summary>Tip (meer detail dan hierboven)</summary>
 Om te controleren of een getal een kommagetal is kan je kijken of het getal gedeeld door 1 een rest heeft. Als dat zo is, dan is het een kommagetal.
 
+De modulus-operator <code>%</code> geeft de rest van een deling terug. Bijvoorbeeld:
+<div class="table-scroll">
+<table>
+  <thead>
+    <tr>
+      <th>Expressie</th>
+      <th class="padding-column">→</th>
+      <th>Uitkomst</th>
+      <th>Uitleg</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>1 % 1</code></td>
+      <td style="text-align: center;">→</td>
+      <td><code>0</code></td>
+      <td>Want 1 gedeeld door 1 is 1, met een rest van <b>0</b></td>
+    </tr>
+    <tr>
+      <td><code>6 % 1</code></td>
+      <td style="text-align: center;">→</td>
+      <td><code>0</code></td>
+      <td>Want 6 gedeeld door 1 is 6, met een rest van <b>0</b></td>
+    </tr>
+    <tr>
+      <td><code>2.3 % 1</code></td>
+      <td style="text-align: center;">→</td>
+      <td><code>0.3</code></td>
+      <td>Want 2.3 gedeeld door 1 is 2, met een rest van <b>0.3</b></td>
+    </tr>
+    <tr>
+      <td><code>4.982 % 1</code></td>
+      <td style="text-align: center;">→</td>
+      <td><code>0.982</code></td>
+      <td>Want 4.982 gedeeld door 1 is 4, met een rest van <b>0.982</b></td>
+    </tr>
+    <tr>
+      <td><code>5.0 % 1</code></td>
+      <td style="text-align: center;">→</td>
+      <td><code>0.0</code></td>
+      <td>Want 5.0 gedeeld door 1 is 5, met een rest van <b>0.0</b></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<br>
+
 <details markdown="1"><summary>Tip (zo goed als de oplossing verklapt)</summary>
 
 ```python
@@ -357,13 +402,13 @@ x % 1 != 0
 <details markdown="1"><summary>Tip (hoe maak je de antwoordzin?)</summary>
 Je kunt de antwoordzin maken door het getal en de bijbehorende tekst samen te voegen in een <i>string</i>. Gebruik hiervoor een <i>f-string</i> of zet het gegeven getal om naar een <i>string</i> en tel <i>strings</i> bij elkaar op.
 
-<details markdown="1"><summary>Tip (manier 1 zo goed als verklapt)</summary>
+<details markdown="1"><summary>Tip (manier 1 zo goed als de oplossing verklapt)</summary>
 
 ```python
 f"{getal} is een even geheel getal."
 ```
 </details>
-<details markdown="1"><summary>Tip (manier 2 zo goed als verklapt)</summary>
+<details markdown="1"><summary>Tip (manier 2 zo goed als de oplossing verklapt)</summary>
 
 ```python
 str(getal) + " is een even geheel getal."
