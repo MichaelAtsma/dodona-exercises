@@ -228,9 +228,11 @@ def Grootste(x, y):
 # <b>Uitleg discriminant</b>
 In de wiskunde wordt de discriminant gebruikt om te bepalen hoeveel nulwaarden een kwadratische functie heeft. 
 
-Wanneer de functie gegeven wordt door: $$ax^2 + bx + c$$
+Wanneer de functie gegeven wordt door: $$ax^2 + bx + c$$ dan wordt de discriminant berekend met de formule: 
 
-dan wordt de discriminant berekend met de formule: $$D = b^2 - 4ac$$
+$$
+D = b^2 - 4ac
+$$
 
 De waarde van de discriminant $$D$$ bepaalt het aantal nulwaarden van de functie als volgt:
 - Als $$D$$ positief is: De functie heeft twee verschillende reële nulwaarden.
