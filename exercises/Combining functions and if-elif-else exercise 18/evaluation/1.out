@@ -1,0 +1,8 @@
+--------------------------------------------------
+tab name: Bulk test
+<LANGUAGE code="en">
+    <function from="AantalNulwaarden" to="NumberOfRoots" />
+    <fixed from="De functie heeft geen reële nulwaarden." to="The function has no real roots." />
+    <fixed from="De functie heeft precies één reële nulwaarde." to="The function has exactly one real root." />
+    <fixed from="De functie heeft twee verschillende reële nulwaarden." to="The function has two distinct real roots." />
+</LANGUAGE>

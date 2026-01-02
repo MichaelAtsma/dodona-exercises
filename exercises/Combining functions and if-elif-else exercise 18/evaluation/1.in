@@ -1,0 +1,400 @@
+>>> AantalNulwaarden(0.9, -3.3, 5.2)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(-1.7, 17, -42.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(1.1, -11, 27.5)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(5.9, -59, 147.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(3.8, -38, 95)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(-4.7, -1, -11.3)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(-0.4, 1, 16.8)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(9.1, 1.4, 8.6)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(4.2, -9.2, 1.7)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(4, 31.9, 19.8)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(7.4, -74, 185)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(5.1, -51, 127.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(-4.4, 44, -110)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(0.3, -3.4, 9.9)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(-1.1, -7.2, 14.3)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(-0.4, 4, -10)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(2.7, 1.2, 2.2)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(0.9, 1.9, -1.5)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(0.5, -5, 12.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(-4.2, 42, -105)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(9.7, -3.6, 1.3)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(0.9, 0.6, 4.1)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(-4, 40, -100)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(-2.8, 28, -70)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(7.7, -0.2, -5.5)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(8.3, -83, 207.5)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(3.9, -17.3, 12.3)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(-1.7, 0.3, -7.5)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(4.6, 1.9, 1.9)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(4.5, -7.2, 5.6)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(-3.8, 8.8, -8.1)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(8.4, -84, 210)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(1.8, 2.5, 15.5)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(0.8, 3.3, 9.4)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(-3.3, 33, -82.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(-0.7, 7, -17.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(10, -5, 6.9)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(2.7, -7.1, 2.2)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(2.3, -23, 57.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(-1.8, -0.1, -10)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(-3.1, 31, -77.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(-4.3, 9.1, 11.9)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(-0.6, -3.6, -12)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(-4.5, 45, -112.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(1.8, -3.3, 13.4)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(9.3, 6.9, 7)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(-5, -6.3, -2.9)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(2.7, -1.6, 11.7)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(6.5, -65, 162.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(2.5, -25, 62.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(-1.8, -11.1, -17.4)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(3.5, 18.6, 20)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(0.9, -9, 22.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(-4.8, 48, -120)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(2.6, -26, 65)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(-2.5, -1.8, -11.3)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(-3.3, 3.8, 20)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(9.7, 15, 7.9)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(-5, 0.3, 11.6)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(7.5, -75, 187.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(-3.7, 37, -92.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(0.1, 2.4, 19.5)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(4.6, -46, 115)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(5.4, 8.9, -3.3)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(5.1, 9.3, -2)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(6.5, -6.3, 9.6)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(3.3, -14.6, 12.5)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(-2.9, -17.3, -8.4)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(3.6, 1.2, 0.6)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(-2.6, 26, -65)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(0.5, -2.3, 3.9)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(5.3, -53, 132.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(8.1, -11.1, 8.7)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(5.8, -6.6, 9.8)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(-4.6, 46, -115)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(3.2, 10.4, 4.7)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(3.5, -7.8, -5.7)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(4.8, 4.9, -3.2)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(0.5, -4.3, 11.2)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(4.2, -13.7, 5)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(9.8, 50.4, 16.4)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(5.9, 4, 7.8)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(-1.5, -1.5, -19.2)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(3, -17.5, 10.9)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(8.8, 9.8, -5.1)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(5.4, -2.2, -9.7)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(-0.9, 9, -22.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(-1, 6.6, -20)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(9.5, 38.8, 15.1)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(3, -8.3, 16.2)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(8.5, -16.4, 3.6)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(6.7, -24.9, 8.3)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(-2.2, 4.6, 17.6)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(8.9, -10.7, 9.5)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(0.6, 4.6, -1.4)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(3.8, -9.5, 5)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(-5, 7.3, 17.1)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(4.3, -1.8, -5.4)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(-0.5, 6.8, -5.1)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(6.4, -64, 160)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(-1.5, 15, -37.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(9.2, -19.9, 18.1)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(1.9, -19, 47.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(-2.9, 29, -72.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(4.1, 0, 6.8)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(8.4, 3.7, 2.2)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(3.4, -0.4, 2.6)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(4.1, -4, 1.6)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(-1.5, -7.5, -4.4)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(9.5, -95, 237.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(6.6, -16.3, 3.3)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(-1.2, 0.3, -1.7)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(4, -32.4, 16.9)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(6.1, -61, 152.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(-3.7, 9.9, -11.8)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(-0.2, 2, -5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(3, -30, 75)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(2.8, -28, 70)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(7.2, -2.7, 2.6)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(3.2, -32, 80)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(7.2, 2.1, 13.1)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(-0.6, 0.9, -1.4)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(-4.2, 0.6, -2.3)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(-1, 10, -25)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(-2, 3.3, -1.6)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(8.7, -87, 217.5)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(3.7, -13.8, 10.3)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(4.4, -44, 110)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(-0.6, -1.1, -15.5)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(1, -5.3, 18.5)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(-2.4, -3.6, 5.2)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(4, -5, 4.8)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(-4.1, 41, -102.5)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(-3.6, 6.8, 19.7)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(7.2, -72, 180)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(-3.4, 2.8, 0.9)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(-2.3, 23, -57.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(4, -40, 100)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(6.9, 3, 5.3)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(-4.6, -7.7, 6.2)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(8.4, 8.9, 4.4)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(7.4, 10.1, 3.6)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(-4.5, 6.8, -9.2)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(-2, 4.1, -11.2)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(-2.7, 27, -67.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(3.3, -33, 82.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(2.5, 17, 10.5)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(1.7, -17, 42.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(3.5, -35, 87.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(5.4, 0.7, 8.7)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(6.6, -6.1, -9.7)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(1.5, 0.8, 12.4)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(1.8, -18, 45)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(5.7, -4.9, -5.5)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(3.7, -37, 92.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(3.6, -36, 90)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(10, -32.2, 8.5)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(7.8, 5.7, 6.1)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(-0.7, -1.6, -12.1)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(8.1, -81, 202.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(0.6, -6, 15)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(0.2, -7.3, 19.2)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(5.4, -16.4, 4.1)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(-1.1, -5.8, 3.3)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(9.7, 9.2, 2.2)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(3, 14.8, 19.5)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(-4.3, 43, -107.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(5.2, -52, 130)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(9.4, 31.4, 7.6)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(1.1, -6.5, -9.9)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(1.6, 10.1, 14.5)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(6.2, -6.5, 9.5)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(4.5, -45, 112.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(3.8, 3.4, 6)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(6.6, -1.2, 7.4)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(2.3, -2.6, 4.4)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(7.3, 2.2, -8.2)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(-1.6, 16, -40)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(7.6, -76, 190)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(1.4, 6.2, 16.5)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(-4.9, 49, -122.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(7.8, -78, 195)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(7.3, -7.5, 0.2)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(-3.5, 35, -87.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(2, 7.6, 2.2)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(3.3, 3.5, 15.4)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(9.7, -0.3, 15.2)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(9.3, -93, 232.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(9.2, -92, 230)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(4.1, -31.2, 16.2)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(4.3, 6.5, 9.5)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(7.2, 8.1, -7)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(9.1, -91, 227.5)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(-1.8, -10.8, -5.9)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(1.1, 6, 13.8)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(7, -21.2, 5.4)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(5.9, 18.5, 4.8)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(0.1, 4.6, 15.5)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(5.5, -15.8, 3.9)
+'De functie heeft twee verschillende reële nulwaarden.'
+>>> AantalNulwaarden(7.7, -3, 0.8)
+'De functie heeft geen reële nulwaarden.'

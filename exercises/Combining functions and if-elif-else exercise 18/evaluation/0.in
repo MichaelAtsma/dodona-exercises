@@ -1,0 +1,6 @@
+>>> AantalNulwaarden(1, 2, 3)
+'De functie heeft geen reële nulwaarden.'
+>>> AantalNulwaarden(2, -12, 18)
+'De functie heeft precies één reële nulwaarde.'
+>>> AantalNulwaarden(3, 10, 7.2)
+'De functie heeft twee verschillende reële nulwaarden.'
