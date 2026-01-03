@@ -37,7 +37,7 @@
 >>> BatterijStatus(19)
 'Waarschuwing: batterij bijna leeg, u moet binnenkort opladen!'
 >>> BatterijStatus(20)
-'Batterijstatus is goed.'
+'Waarschuwing: batterij bijna leeg, u moet binnenkort opladen!'
 >>> BatterijStatus(21)
 'Batterijstatus is goed.'
 >>> BatterijStatus(22)
@@ -157,7 +157,7 @@
 >>> BatterijStatus(79)
 'Batterijstatus is goed.'
 >>> BatterijStatus(80)
-'Batterijstatus is goed.'
+'Batterij bijna vol!'
 >>> BatterijStatus(81)
 'Batterij bijna vol!'
 >>> BatterijStatus(82)

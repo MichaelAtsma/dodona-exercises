@@ -1,10 +1,10 @@
 >>> BatterijStatus(10)
 'Waarschuwing: batterij bijna leeg, u moet binnenkort opladen!'
 >>> BatterijStatus(20)
-'Batterijstatus is goed.'
+'Waarschuwing: batterij bijna leeg, u moet binnenkort opladen!'
 >>> BatterijStatus(50)
 'Batterijstatus is goed.'
 >>> BatterijStatus(80)
-'Batterijstatus is goed.'
+'Batterij bijna vol!'
 >>> BatterijStatus(90)
 'Batterij bijna vol!'
