@@ -5,7 +5,7 @@
 >>> FilmDuur(1, 10)
 'Korte film.'
 >>> FilmDuur(1, 20)
-'Korte film.'
+'Normale film.'
 >>> FilmDuur(1, 30)
 'Normale film.'
 >>> FilmDuur(2, 0)

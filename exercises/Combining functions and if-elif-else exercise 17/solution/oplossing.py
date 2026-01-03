@@ -3,7 +3,7 @@ def FilmDuur(uren, minuten):
         conclusie = "Lange film."
     elif uren == 0:
         conclusie = "Hele korte film."
-    elif minuten <= 20:
+    elif minuten < 20:
         conclusie = "Korte film."
     else:
         conclusie = "Normale film."

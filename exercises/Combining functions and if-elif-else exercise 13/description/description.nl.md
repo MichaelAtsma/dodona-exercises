@@ -230,9 +230,9 @@ def Grootste(x, y):
 
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="BatterijStatus"></function> die één getal (<i>integer</i>) als invoer neemt (het huidige batterijpercentage), en dan een bericht aan de gebruiker teruggeeft.
-- Als het batterijpercentage lager is dan 20: <code>"Waarschuwing: batterij bijna leeg, u moet binnenkort opladen!"</code>
+- Als het batterijpercentage 20 of lager is: <code>"Waarschuwing: batterij bijna leeg, u moet binnenkort opladen!"</code>
 - Als het batterijpercentage tussen 20 en 80 ligt (exclusief 20 en 80): <code>"Batterijstatus is goed."</code>
-- Als het batterijpercentage hoger is dan 80: <code>"Batterij bijna vol!"</code>
+- Als het batterijpercentage 80 of hoger is: <code>"Batterij bijna vol!"</code>
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
 
