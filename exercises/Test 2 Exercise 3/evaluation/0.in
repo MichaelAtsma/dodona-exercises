@@ -1,0 +1,10 @@
+>>> KlasUitslag(7, 22)
+'Minder dan de helft van de klas is geslaagd is geslaagd.'
+>>> KlasUitslag(9, 18)
+'Een voldoende aantal leerlingen is geslaagd voor het examen.'
+>>> KlasUitslag(13, 19)
+'Een voldoende aantal leerlingen is geslaagd voor het examen.'
+>>> KlasUitslag(16, 20)
+'Een voldoende aantal leerlingen is geslaagd voor het examen.'
+>>> KlasUitslag(20, 21)
+'Wow, wat een sterke klas zijn jullie!'
