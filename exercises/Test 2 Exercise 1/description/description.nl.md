@@ -13,10 +13,10 @@
     e.clipboardData.setData("text/plain", "You are not allowed to copy text from this page.");
   });
 
-  document.addEventListener("paste", function(e) {
+  window.addEventListener("paste", function(e) {
     e.preventDefault();
     document.execCommand('insertText', false, copiedText);
-  });
+  }, true);
 
   document.addEventListener("DOMContentLoaded", function() {
     document.querySelectorAll("function").forEach(el => {
