@@ -1,0 +1,10 @@
+>>> TweetValidatie('hoi')
+'Te korte tweet.'
+>>> TweetValidatie('Hallo')
+'Te korte tweet.'
+>>> TweetValidatie('POV: je leerkracht is cringe met taalgebruik')
+'Geldige tweet.'
+>>> TweetValidatie('Dit is een tweet die precies 280 tekens bevat. Zou je niet denken hè? Heb jij het aantal tekens geteld? Let op dat de spaties ook mee doen! We zijn nu ongeveer op de helft. Voeg jij wel eens wat woorden toe aan je verslagen zodat je het minimum aantal woorden behaalt? We zijn er!')
+'Geldige tweet.'
+>>> TweetValidatie('Dit is een tweet die meer dan 280 tekens bevat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.')
+'Te lange tweet.'

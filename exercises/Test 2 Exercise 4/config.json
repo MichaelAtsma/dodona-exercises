@@ -1,0 +1,15 @@
+{
+  "description": {
+    "names": {
+      "nl": "Tussentijdse toets 2 oefening 4"
+    }
+  },
+  "evaluation": {
+    "pythia_judge": "doctest"
+  },
+  "labels": [],
+  "internals": {
+    "token": "K4MKfvSky4hhE9Va832GgsM64Kq7CkxUFmVi6w-UxqPu5S46_xPi2xzF9jcWx9H-",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

@@ -1,0 +1,10 @@
+--------------------------------------------------
+tab name: Voorbeelden
+<LANGUAGE code="en">
+    <function from="TweetValidatie" to="TweetValidation" />
+    <fixed from="hoi" to="hi" />
+    <fixed from="Hallo" to="Hello" />
+    <fixed from="POV: je leerkracht is cringe met taalgebruik" to="POV: your teacher is cringe with language use" />
+    <fixed from="Dit is een tweet die precies 280 tekens bevat. Zou je niet denken hè? Heb jij het aantal tekens geteld? Let op dat de spaties ook mee doen! We zijn nu ongeveer op de helft. Voeg jij wel eens wat woorden toe aan je verslagen zodat je het minimum aantal woorden behaalt? We zijn er!" to="This is a tweet that contains exactly 280 characters. You would not think so, right? Did you count the number of characters? Note that spaces also count! We are now about halfway. Have you ever added some redundant words to your essays to meet the minimum word count? Here we are!" />
+    <fixed from="Dit is een tweet die meer dan 280 tekens bevat." to="This is a tweet that contains more than 280 characters." />
+</LANGUAGE>
