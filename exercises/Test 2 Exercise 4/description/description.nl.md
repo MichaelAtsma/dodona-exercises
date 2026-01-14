@@ -168,7 +168,7 @@ Maak een functie genaamd <function name="TweetValidatie"></function> die één t
       <td><code>"Geldige tweet."</code></td>
     </tr>
     <tr>
-      <td style='white-space:normal'><function name="TweetValidatie" inputs='"Dit is een tweet die meer dan 280 tekens bevat. Lorum ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."'></function></td>
+      <td style='white-space:normal'><function name="TweetValidatie" inputs='"Dit is een tweet die meer dan 280 tekens bevat. Lorem ipsum dolor sit amet\, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam\, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident\, sunt in culpa qui officia deserunt mollit anim id est laborum."'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Te lange tweet."</code></td>
     </tr>
