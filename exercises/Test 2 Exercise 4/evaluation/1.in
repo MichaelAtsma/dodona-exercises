@@ -1,0 +1,398 @@
+>>> InkomstenBelasting(640.9)
+'Je moet 10% belasting betalen. Dat is dus €64.09.'
+>>> InkomstenBelasting(1402.5)
+'Je moet 10% belasting betalen. Dat is dus €140.25.'
+>>> InkomstenBelasting(1817.6)
+'Je moet 10% belasting betalen. Dat is dus €181.76.'
+>>> InkomstenBelasting(2286.5)
+'Je moet 10% belasting betalen. Dat is dus €228.65.'
+>>> InkomstenBelasting(2811.2)
+'Je moet 10% belasting betalen. Dat is dus €281.12.'
+>>> InkomstenBelasting(3021.2)
+'Je moet 10% belasting betalen. Dat is dus €302.12.'
+>>> InkomstenBelasting(3839.8)
+'Je moet 10% belasting betalen. Dat is dus €383.98.'
+>>> InkomstenBelasting(4105.2)
+'Je moet 10% belasting betalen. Dat is dus €410.52.'
+>>> InkomstenBelasting(4517.4)
+'Je moet 10% belasting betalen. Dat is dus €451.74.'
+>>> InkomstenBelasting(5242.9)
+'Je moet 10% belasting betalen. Dat is dus €524.29.'
+>>> InkomstenBelasting(5515.0)
+'Je moet 10% belasting betalen. Dat is dus €551.5.'
+>>> InkomstenBelasting(6078.3)
+'Je moet 10% belasting betalen. Dat is dus €607.83.'
+>>> InkomstenBelasting(6558.5)
+'Je moet 10% belasting betalen. Dat is dus €655.85.'
+>>> InkomstenBelasting(7317.4)
+'Je moet 10% belasting betalen. Dat is dus €731.74.'
+>>> InkomstenBelasting(7580.9)
+'Je moet 10% belasting betalen. Dat is dus €758.09.'
+>>> InkomstenBelasting(8212.1)
+'Je moet 10% belasting betalen. Dat is dus €821.21.'
+>>> InkomstenBelasting(8788.9)
+'Je moet 10% belasting betalen. Dat is dus €878.89.'
+>>> InkomstenBelasting(9208.9)
+'Je moet 10% belasting betalen. Dat is dus €920.89.'
+>>> InkomstenBelasting(9657.9)
+'Je moet 10% belasting betalen. Dat is dus €965.79.'
+>>> InkomstenBelasting(10399.55)
+'Je moet 20% belasting betalen. Dat is dus €2079.91.'
+>>> InkomstenBelasting(10855.75)
+'Je moet 20% belasting betalen. Dat is dus €2171.15.'
+>>> InkomstenBelasting(11032.8)
+'Je moet 20% belasting betalen. Dat is dus €2206.56.'
+>>> InkomstenBelasting(11614.0)
+'Je moet 20% belasting betalen. Dat is dus €2322.8.'
+>>> InkomstenBelasting(12063.15)
+'Je moet 20% belasting betalen. Dat is dus €2412.63.'
+>>> InkomstenBelasting(12551.3)
+'Je moet 20% belasting betalen. Dat is dus €2510.26.'
+>>> InkomstenBelasting(13289.4)
+'Je moet 20% belasting betalen. Dat is dus €2657.88.'
+>>> InkomstenBelasting(13641.15)
+'Je moet 20% belasting betalen. Dat is dus €2728.23.'
+>>> InkomstenBelasting(14196.15)
+'Je moet 20% belasting betalen. Dat is dus €2839.23.'
+>>> InkomstenBelasting(14669.2)
+'Je moet 20% belasting betalen. Dat is dus €2933.84.'
+>>> InkomstenBelasting(15362.75)
+'Je moet 20% belasting betalen. Dat is dus €3072.55.'
+>>> InkomstenBelasting(15687.75)
+'Je moet 20% belasting betalen. Dat is dus €3137.55.'
+>>> InkomstenBelasting(16153.35)
+'Je moet 20% belasting betalen. Dat is dus €3230.67.'
+>>> InkomstenBelasting(16845.55)
+'Je moet 20% belasting betalen. Dat is dus €3369.11.'
+>>> InkomstenBelasting(17031.05)
+'Je moet 20% belasting betalen. Dat is dus €3406.21.'
+>>> InkomstenBelasting(17592.8)
+'Je moet 20% belasting betalen. Dat is dus €3518.56.'
+>>> InkomstenBelasting(18025.8)
+'Je moet 20% belasting betalen. Dat is dus €3605.16.'
+>>> InkomstenBelasting(18529.05)
+'Je moet 20% belasting betalen. Dat is dus €3705.81.'
+>>> InkomstenBelasting(19365.1)
+'Je moet 20% belasting betalen. Dat is dus €3873.02.'
+>>> InkomstenBelasting(19704.8)
+'Je moet 20% belasting betalen. Dat is dus €3940.96.'
+>>> InkomstenBelasting(20314.5)
+'Je moet 20% belasting betalen. Dat is dus €4062.9.'
+>>> InkomstenBelasting(20512.95)
+'Je moet 20% belasting betalen. Dat is dus €4102.59.'
+>>> InkomstenBelasting(21051.95)
+'Je moet 20% belasting betalen. Dat is dus €4210.39.'
+>>> InkomstenBelasting(21626.55)
+'Je moet 20% belasting betalen. Dat is dus €4325.31.'
+>>> InkomstenBelasting(22363.5)
+'Je moet 20% belasting betalen. Dat is dus €4472.7.'
+>>> InkomstenBelasting(22807.1)
+'Je moet 20% belasting betalen. Dat is dus €4561.42.'
+>>> InkomstenBelasting(23076.3)
+'Je moet 20% belasting betalen. Dat is dus €4615.26.'
+>>> InkomstenBelasting(23849.3)
+'Je moet 20% belasting betalen. Dat is dus €4769.86.'
+>>> InkomstenBelasting(24220.85)
+'Je moet 20% belasting betalen. Dat is dus €4844.17.'
+>>> InkomstenBelasting(24835.05)
+'Je moet 20% belasting betalen. Dat is dus €4967.01.'
+>>> InkomstenBelasting(25380.0)
+'Je moet 20% belasting betalen. Dat is dus €5076.0.'
+>>> InkomstenBelasting(25641.7)
+'Je moet 20% belasting betalen. Dat is dus €5128.34.'
+>>> InkomstenBelasting(26187.95)
+'Je moet 20% belasting betalen. Dat is dus €5237.59.'
+>>> InkomstenBelasting(26693.0)
+'Je moet 20% belasting betalen. Dat is dus €5338.6.'
+>>> InkomstenBelasting(27037.85)
+'Je moet 20% belasting betalen. Dat is dus €5407.57.'
+>>> InkomstenBelasting(27836.7)
+'Je moet 20% belasting betalen. Dat is dus €5567.34.'
+>>> InkomstenBelasting(28227.8)
+'Je moet 20% belasting betalen. Dat is dus €5645.56.'
+>>> InkomstenBelasting(28710.7)
+'Je moet 20% belasting betalen. Dat is dus €5742.14.'
+>>> InkomstenBelasting(29261.6)
+'Je moet 20% belasting betalen. Dat is dus €5852.32.'
+>>> InkomstenBelasting(29791.35)
+'Je moet 20% belasting betalen. Dat is dus €5958.27.'
+>>> InkomstenBelasting(30340.85)
+'Je moet 20% belasting betalen. Dat is dus €6068.17.'
+>>> InkomstenBelasting(30761.5)
+'Je moet 20% belasting betalen. Dat is dus €6152.3.'
+>>> InkomstenBelasting(31019.55)
+'Je moet 20% belasting betalen. Dat is dus €6203.91.'
+>>> InkomstenBelasting(31780.0)
+'Je moet 20% belasting betalen. Dat is dus €6356.0.'
+>>> InkomstenBelasting(32357.35)
+'Je moet 20% belasting betalen. Dat is dus €6471.47.'
+>>> InkomstenBelasting(32556.55)
+'Je moet 20% belasting betalen. Dat is dus €6511.31.'
+>>> InkomstenBelasting(33271.45)
+'Je moet 20% belasting betalen. Dat is dus €6654.29.'
+>>> InkomstenBelasting(33897.95)
+'Je moet 20% belasting betalen. Dat is dus €6779.59.'
+>>> InkomstenBelasting(34337.35)
+'Je moet 20% belasting betalen. Dat is dus €6867.47.'
+>>> InkomstenBelasting(34786.2)
+'Je moet 20% belasting betalen. Dat is dus €6957.24.'
+>>> InkomstenBelasting(35087.2)
+'Je moet 20% belasting betalen. Dat is dus €7017.44.'
+>>> InkomstenBelasting(35838.95)
+'Je moet 20% belasting betalen. Dat is dus €7167.79.'
+>>> InkomstenBelasting(36398.4)
+'Je moet 20% belasting betalen. Dat is dus €7279.68.'
+>>> InkomstenBelasting(36739.85)
+'Je moet 20% belasting betalen. Dat is dus €7347.97.'
+>>> InkomstenBelasting(37394.65)
+'Je moet 20% belasting betalen. Dat is dus €7478.93.'
+>>> InkomstenBelasting(37659.1)
+'Je moet 20% belasting betalen. Dat is dus €7531.82.'
+>>> InkomstenBelasting(38384.6)
+'Je moet 20% belasting betalen. Dat is dus €7676.92.'
+>>> InkomstenBelasting(38716.5)
+'Je moet 20% belasting betalen. Dat is dus €7743.3.'
+>>> InkomstenBelasting(39030.0)
+'Je moet 20% belasting betalen. Dat is dus €7806.0.'
+>>> InkomstenBelasting(39508.4)
+'Je moet 20% belasting betalen. Dat is dus €7901.68.'
+>>> InkomstenBelasting(40004.1)
+'Je moet 20% belasting betalen. Dat is dus €8000.82.'
+>>> InkomstenBelasting(40784.35)
+'Je moet 20% belasting betalen. Dat is dus €8156.87.'
+>>> InkomstenBelasting(41144.7)
+'Je moet 20% belasting betalen. Dat is dus €8228.94.'
+>>> InkomstenBelasting(41663.9)
+'Je moet 20% belasting betalen. Dat is dus €8332.78.'
+>>> InkomstenBelasting(42099.75)
+'Je moet 20% belasting betalen. Dat is dus €8419.95.'
+>>> InkomstenBelasting(42569.2)
+'Je moet 20% belasting betalen. Dat is dus €8513.84.'
+>>> InkomstenBelasting(43350.7)
+'Je moet 20% belasting betalen. Dat is dus €8670.14.'
+>>> InkomstenBelasting(43868.5)
+'Je moet 20% belasting betalen. Dat is dus €8773.7.'
+>>> InkomstenBelasting(44176.35)
+'Je moet 20% belasting betalen. Dat is dus €8835.27.'
+>>> InkomstenBelasting(44812.9)
+'Je moet 20% belasting betalen. Dat is dus €8962.58.'
+>>> InkomstenBelasting(45055.9)
+'Je moet 20% belasting betalen. Dat is dus €9011.18.'
+>>> InkomstenBelasting(45659.7)
+'Je moet 20% belasting betalen. Dat is dus €9131.94.'
+>>> InkomstenBelasting(46135.6)
+'Je moet 20% belasting betalen. Dat is dus €9227.12.'
+>>> InkomstenBelasting(46817.6)
+'Je moet 20% belasting betalen. Dat is dus €9363.52.'
+>>> InkomstenBelasting(47098.4)
+'Je moet 20% belasting betalen. Dat is dus €9419.68.'
+>>> InkomstenBelasting(47660.85)
+'Je moet 20% belasting betalen. Dat is dus €9532.17.'
+>>> InkomstenBelasting(48192.85)
+'Je moet 20% belasting betalen. Dat is dus €9638.57.'
+>>> InkomstenBelasting(48638.8)
+'Je moet 20% belasting betalen. Dat is dus €9727.76.'
+>>> InkomstenBelasting(49013.35)
+'Je moet 20% belasting betalen. Dat is dus €9802.67.'
+>>> InkomstenBelasting(49526.2)
+'Je moet 20% belasting betalen. Dat is dus €9905.24.'
+>>> InkomstenBelasting(50208.75)
+'Je moet 40% belasting betalen. Dat is dus €20083.5.'
+>>> InkomstenBelasting(50566.0)
+'Je moet 40% belasting betalen. Dat is dus €20226.4.'
+>>> InkomstenBelasting(51268.9)
+'Je moet 40% belasting betalen. Dat is dus €20507.56.'
+>>> InkomstenBelasting(51717.7)
+'Je moet 40% belasting betalen. Dat is dus €20687.08.'
+>>> InkomstenBelasting(52221.35)
+'Je moet 40% belasting betalen. Dat is dus €20888.54.'
+>>> InkomstenBelasting(52739.35)
+'Je moet 40% belasting betalen. Dat is dus €21095.74.'
+>>> InkomstenBelasting(53029.2)
+'Je moet 40% belasting betalen. Dat is dus €21211.68.'
+>>> InkomstenBelasting(53725.0)
+'Je moet 40% belasting betalen. Dat is dus €21490.0.'
+>>> InkomstenBelasting(54153.95)
+'Je moet 40% belasting betalen. Dat is dus €21661.58.'
+>>> InkomstenBelasting(54853.4)
+'Je moet 40% belasting betalen. Dat is dus €21941.36.'
+>>> InkomstenBelasting(55249.3)
+'Je moet 40% belasting betalen. Dat is dus €22099.72.'
+>>> InkomstenBelasting(55827.95)
+'Je moet 40% belasting betalen. Dat is dus €22331.18.'
+>>> InkomstenBelasting(56289.35)
+'Je moet 40% belasting betalen. Dat is dus €22515.74.'
+>>> InkomstenBelasting(56596.45)
+'Je moet 40% belasting betalen. Dat is dus €22638.58.'
+>>> InkomstenBelasting(57084.3)
+'Je moet 40% belasting betalen. Dat is dus €22833.72.'
+>>> InkomstenBelasting(57753.45)
+'Je moet 40% belasting betalen. Dat is dus €23101.38.'
+>>> InkomstenBelasting(58267.25)
+'Je moet 40% belasting betalen. Dat is dus €23306.9.'
+>>> InkomstenBelasting(58882.65)
+'Je moet 40% belasting betalen. Dat is dus €23553.06.'
+>>> InkomstenBelasting(59321.7)
+'Je moet 40% belasting betalen. Dat is dus €23728.68.'
+>>> InkomstenBelasting(59765.35)
+'Je moet 40% belasting betalen. Dat is dus €23906.14.'
+>>> InkomstenBelasting(60022.7)
+'Je moet 40% belasting betalen. Dat is dus €24009.08.'
+>>> InkomstenBelasting(60863.9)
+'Je moet 40% belasting betalen. Dat is dus €24345.56.'
+>>> InkomstenBelasting(61108.95)
+'Je moet 40% belasting betalen. Dat is dus €24443.58.'
+>>> InkomstenBelasting(61887.7)
+'Je moet 40% belasting betalen. Dat is dus €24755.08.'
+>>> InkomstenBelasting(62014.65)
+'Je moet 40% belasting betalen. Dat is dus €24805.86.'
+>>> InkomstenBelasting(62868.9)
+'Je moet 40% belasting betalen. Dat is dus €25147.56.'
+>>> InkomstenBelasting(63125.9)
+'Je moet 40% belasting betalen. Dat is dus €25250.36.'
+>>> InkomstenBelasting(63510.7)
+'Je moet 40% belasting betalen. Dat is dus €25404.28.'
+>>> InkomstenBelasting(64087.5)
+'Je moet 40% belasting betalen. Dat is dus €25635.0.'
+>>> InkomstenBelasting(64654.35)
+'Je moet 40% belasting betalen. Dat is dus €25861.74.'
+>>> InkomstenBelasting(65080.55)
+'Je moet 40% belasting betalen. Dat is dus €26032.22.'
+>>> InkomstenBelasting(65830.65)
+'Je moet 40% belasting betalen. Dat is dus €26332.26.'
+>>> InkomstenBelasting(66019.25)
+'Je moet 40% belasting betalen. Dat is dus €26407.7.'
+>>> InkomstenBelasting(66538.2)
+'Je moet 40% belasting betalen. Dat is dus €26615.28.'
+>>> InkomstenBelasting(67171.95)
+'Je moet 40% belasting betalen. Dat is dus €26868.78.'
+>>> InkomstenBelasting(67825.2)
+'Je moet 40% belasting betalen. Dat is dus €27130.08.'
+>>> InkomstenBelasting(68353.45)
+'Je moet 40% belasting betalen. Dat is dus €27341.38.'
+>>> InkomstenBelasting(68780.0)
+'Je moet 40% belasting betalen. Dat is dus €27512.0.'
+>>> InkomstenBelasting(69040.0)
+'Je moet 40% belasting betalen. Dat is dus €27616.0.'
+>>> InkomstenBelasting(69722.5)
+'Je moet 40% belasting betalen. Dat is dus €27889.0.'
+>>> InkomstenBelasting(70191.0)
+'Je moet 40% belasting betalen. Dat is dus €28076.4.'
+>>> InkomstenBelasting(70619.95)
+'Je moet 40% belasting betalen. Dat is dus €28247.98.'
+>>> InkomstenBelasting(71064.25)
+'Je moet 40% belasting betalen. Dat is dus €28425.7.'
+>>> InkomstenBelasting(71823.5)
+'Je moet 40% belasting betalen. Dat is dus €28729.4.'
+>>> InkomstenBelasting(72314.45)
+'Je moet 40% belasting betalen. Dat is dus €28925.78.'
+>>> InkomstenBelasting(72680.5)
+'Je moet 40% belasting betalen. Dat is dus €29072.2.'
+>>> InkomstenBelasting(73326.45)
+'Je moet 40% belasting betalen. Dat is dus €29330.58.'
+>>> InkomstenBelasting(73626.45)
+'Je moet 40% belasting betalen. Dat is dus €29450.58.'
+>>> InkomstenBelasting(74245.9)
+'Je moet 40% belasting betalen. Dat is dus €29698.36.'
+>>> InkomstenBelasting(74755.0)
+'Je moet 40% belasting betalen. Dat is dus €29902.0.'
+>>> InkomstenBelasting(75170.45)
+'Je moet 40% belasting betalen. Dat is dus €30068.18.'
+>>> InkomstenBelasting(75648.5)
+'Je moet 40% belasting betalen. Dat is dus €30259.4.'
+>>> InkomstenBelasting(76247.45)
+'Je moet 40% belasting betalen. Dat is dus €30498.98.'
+>>> InkomstenBelasting(76669.75)
+'Je moet 40% belasting betalen. Dat is dus €30667.9.'
+>>> InkomstenBelasting(77013.45)
+'Je moet 40% belasting betalen. Dat is dus €30805.38.'
+>>> InkomstenBelasting(77854.9)
+'Je moet 40% belasting betalen. Dat is dus €31141.96.'
+>>> InkomstenBelasting(78218.15)
+'Je moet 40% belasting betalen. Dat is dus €31287.26.'
+>>> InkomstenBelasting(78737.5)
+'Je moet 40% belasting betalen. Dat is dus €31495.0.'
+>>> InkomstenBelasting(79199.15)
+'Je moet 40% belasting betalen. Dat is dus €31679.66.'
+>>> InkomstenBelasting(79860.0)
+'Je moet 40% belasting betalen. Dat is dus €31944.0.'
+>>> InkomstenBelasting(80244.75)
+'Je moet 40% belasting betalen. Dat is dus €32097.9.'
+>>> InkomstenBelasting(80738.95)
+'Je moet 40% belasting betalen. Dat is dus €32295.58.'
+>>> InkomstenBelasting(81216.95)
+'Je moet 40% belasting betalen. Dat is dus €32486.78.'
+>>> InkomstenBelasting(81757.7)
+'Je moet 40% belasting betalen. Dat is dus €32703.08.'
+>>> InkomstenBelasting(82231.7)
+'Je moet 40% belasting betalen. Dat is dus €32892.68.'
+>>> InkomstenBelasting(82881.95)
+'Je moet 40% belasting betalen. Dat is dus €33152.78.'
+>>> InkomstenBelasting(83183.9)
+'Je moet 40% belasting betalen. Dat is dus €33273.56.'
+>>> InkomstenBelasting(83807.0)
+'Je moet 40% belasting betalen. Dat is dus €33522.8.'
+>>> InkomstenBelasting(84245.8)
+'Je moet 40% belasting betalen. Dat is dus €33698.32.'
+>>> InkomstenBelasting(84763.9)
+'Je moet 40% belasting betalen. Dat is dus €33905.56.'
+>>> InkomstenBelasting(85305.55)
+'Je moet 40% belasting betalen. Dat is dus €34122.22.'
+>>> InkomstenBelasting(85638.5)
+'Je moet 40% belasting betalen. Dat is dus €34255.4.'
+>>> InkomstenBelasting(86185.15)
+'Je moet 40% belasting betalen. Dat is dus €34474.06.'
+>>> InkomstenBelasting(86790.9)
+'Je moet 40% belasting betalen. Dat is dus €34716.36.'
+>>> InkomstenBelasting(87062.45)
+'Je moet 40% belasting betalen. Dat is dus €34824.98.'
+>>> InkomstenBelasting(87541.2)
+'Je moet 40% belasting betalen. Dat is dus €35016.48.'
+>>> InkomstenBelasting(88218.2)
+'Je moet 40% belasting betalen. Dat is dus €35287.28.'
+>>> InkomstenBelasting(88676.45)
+'Je moet 40% belasting betalen. Dat is dus €35470.58.'
+>>> InkomstenBelasting(89324.45)
+'Je moet 40% belasting betalen. Dat is dus €35729.78.'
+>>> InkomstenBelasting(89720.9)
+'Je moet 40% belasting betalen. Dat is dus €35888.36.'
+>>> InkomstenBelasting(90124.2)
+'Je moet 40% belasting betalen. Dat is dus €36049.68.'
+>>> InkomstenBelasting(90841.8)
+'Je moet 40% belasting betalen. Dat is dus €36336.72.'
+>>> InkomstenBelasting(91256.2)
+'Je moet 40% belasting betalen. Dat is dus €36502.48.'
+>>> InkomstenBelasting(91675.25)
+'Je moet 40% belasting betalen. Dat is dus €36670.1.'
+>>> InkomstenBelasting(92194.2)
+'Je moet 40% belasting betalen. Dat is dus €36877.68.'
+>>> InkomstenBelasting(92685.45)
+'Je moet 40% belasting betalen. Dat is dus €37074.18.'
+>>> InkomstenBelasting(93029.45)
+'Je moet 40% belasting betalen. Dat is dus €37211.78.'
+>>> InkomstenBelasting(93547.05)
+'Je moet 40% belasting betalen. Dat is dus €37418.82.'
+>>> InkomstenBelasting(94212.75)
+'Je moet 40% belasting betalen. Dat is dus €37685.1.'
+>>> InkomstenBelasting(94512.75)
+'Je moet 40% belasting betalen. Dat is dus €37805.1.'
+>>> InkomstenBelasting(95209.0)
+'Je moet 40% belasting betalen. Dat is dus €38083.6.'
+>>> InkomstenBelasting(95683.05)
+'Je moet 40% belasting betalen. Dat is dus €38273.22.'
+>>> InkomstenBelasting(96033.3)
+'Je moet 40% belasting betalen. Dat is dus €38413.32.'
+>>> InkomstenBelasting(96753.25)
+'Je moet 40% belasting betalen. Dat is dus €38701.3.'
+>>> InkomstenBelasting(97399.65)
+'Je moet 40% belasting betalen. Dat is dus €38959.86.'
+>>> InkomstenBelasting(97530.55)
+'Je moet 40% belasting betalen. Dat is dus €39012.22.'
+>>> InkomstenBelasting(98086.8)
+'Je moet 40% belasting betalen. Dat is dus €39234.72.'
+>>> InkomstenBelasting(98736.7)
+'Je moet 40% belasting betalen. Dat is dus €39494.68.'
+>>> InkomstenBelasting(99299.45)
+'Je moet 40% belasting betalen. Dat is dus €39719.78.'
+>>> InkomstenBelasting(99756.8)
+'Je moet 40% belasting betalen. Dat is dus €39902.72.'

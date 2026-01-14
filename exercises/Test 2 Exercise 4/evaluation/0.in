@@ -1,0 +1,10 @@
+>>> InkomstenBelasting(5832)
+'Je moet 10% belasting betalen. Dat is dus €583.2.'
+>>> InkomstenBelasting(10000)
+'Je moet 20% belasting betalen. Dat is dus €2000.0.'
+>>> InkomstenBelasting(31893)
+'Je moet 20% belasting betalen. Dat is dus €6378.6.'
+>>> InkomstenBelasting(50000)
+'Je moet 20% belasting betalen. Dat is dus €10000.0.'
+>>> InkomstenBelasting(62530.45)
+'Je moet 40% belasting betalen. Dat is dus €25012.18.'

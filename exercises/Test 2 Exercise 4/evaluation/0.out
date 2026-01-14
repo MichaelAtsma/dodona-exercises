@@ -1,0 +1,7 @@
+--------------------------------------------------
+tab name: Voorbeelden
+<LANGUAGE code="en">
+    <function from="InkomstenBelasting" to="IncomeTax" />
+    <fixed from="Je moet" to="You have to pay" />
+    <fixed from="belasting betalen. Dat is dus" to="tax. So that is" />
+</LANGUAGE>
