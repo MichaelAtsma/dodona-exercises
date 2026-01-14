@@ -158,7 +158,7 @@ Maak een functie genaamd <function name="KlasUitslag"></function> die twee getal
       <td><function name="KlasUitslag" inputs='9, 18'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>"Een voldoende aantal leerlingen is geslaagd voor het examen."</code></td>
-      <td>9 is exact 50% van 18</td>
+      <td>9 is exact 50% van 18.</td>
     </tr>
     <tr>
       <td><function name="KlasUitslag" inputs='13, 19'></function></td>
