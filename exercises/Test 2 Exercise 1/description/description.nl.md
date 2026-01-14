@@ -13,10 +13,19 @@
     e.clipboardData.setData("text/plain", "You are not allowed to copy text from this page.");
   });
 
-  window.addEventListener("paste", function(e) {
-    e.preventDefault();
-    document.execCommand('insertText', false, copiedText);
-  }, true);
+  try {
+    const targetDoc = window.parent ? window.parent.document : document;
+    targetDoc.addEventListener("paste", function(e) {
+      e.preventDefault();
+      document.execCommand('insertText', false, copiedText);
+    }, true);
+  } catch (e) {
+    // fall-back for when we can't access the parent document
+    document.addEventListener("paste", function(e) {
+      e.preventDefault();
+      document.execCommand('insertText', false, copiedText);
+    }, true);
+  }
 
   document.addEventListener("DOMContentLoaded", function() {
     document.querySelectorAll("function").forEach(el => {
