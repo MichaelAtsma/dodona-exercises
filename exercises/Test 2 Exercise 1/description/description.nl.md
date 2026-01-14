@@ -1,31 +1,15 @@
 <script>
-  let copiedText = "";
+  let copyMessage = "";
 
   document.addEventListener("copy", function(e) {
     e.preventDefault();
-    copiedText = window.getSelection().toString();
-    e.clipboardData.setData("text/plain", "You are not allowed to copy text from this page.");
+    e.clipboardData.setData("text/plain", copyMessage);
   });
 
   document.addEventListener("cut", function(e) {
     e.preventDefault();
-    copiedText = window.getSelection().toString();
-    e.clipboardData.setData("text/plain", "You are not allowed to copy text from this page.");
+    e.clipboardData.setData("text/plain", copyMessage);
   });
-
-  try {
-    const targetDoc = window.parent ? window.parent.document : document;
-    targetDoc.addEventListener("paste", function(e) {
-      e.preventDefault();
-      document.execCommand('insertText', false, copiedText);
-    }, true);
-  } catch (e) {
-    // fall-back for when we can't access the parent document
-    document.addEventListener("paste", function(e) {
-      e.preventDefault();
-      document.execCommand('insertText', false, copiedText);
-    }, true);
-  }
 
   document.addEventListener("DOMContentLoaded", function() {
     document.querySelectorAll("function").forEach(el => {
