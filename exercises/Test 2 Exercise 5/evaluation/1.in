@@ -1,0 +1,200 @@
+>>> WedstrijdUitslag(1, 1, 'Eritrea', 'Heard Island and McDonald Islands')
+'Gelijkspel!'
+>>> WedstrijdUitslag(8, 33, 'Sierra Leone', 'Puerto Rico')
+'Puerto Rico heeft gewonnen!'
+>>> WedstrijdUitslag(2, 2, 'Baku', 'Chieti')
+'Gelijkspel!'
+>>> WedstrijdUitslag(28, 1, 'Faroe Islands', 'Kiribati')
+'Faroe Islands heeft gewonnen!'
+>>> WedstrijdUitslag(38, 18, 'Türkiye', 'Uruguay')
+'Türkiye heeft gewonnen!'
+>>> WedstrijdUitslag(6, 6, 'Apalachicola', 'Lincoln')
+'Gelijkspel!'
+>>> WedstrijdUitslag(28, 23, 'Dexterously', 'Spiffy')
+'Dexterously heeft gewonnen!'
+>>> WedstrijdUitslag(34, 34, 'Sclerogenous', 'Bedarkens')
+'Gelijkspel!'
+>>> WedstrijdUitslag(27, 24, 'Portsmouth', 'Kenosha')
+'Portsmouth heeft gewonnen!'
+>>> WedstrijdUitslag(35, 16, 'Castletown', 'Boulder')
+'Castletown heeft gewonnen!'
+>>> WedstrijdUitslag(20, 40, 'Toulouse', 'Pueblo')
+'Pueblo heeft gewonnen!'
+>>> WedstrijdUitslag(40, 33, 'Grand Island', 'Vientiane')
+'Grand Island heeft gewonnen!'
+>>> WedstrijdUitslag(22, 1, 'Saint Vincent and the Grenadines', 'Togo')
+'Saint Vincent and the Grenadines heeft gewonnen!'
+>>> WedstrijdUitslag(22, 28, 'Novitiates', 'Siphosome')
+'Siphosome heeft gewonnen!'
+>>> WedstrijdUitslag(2, 6, 'Karyotin', 'Zoidiophilous')
+'Zoidiophilous heeft gewonnen!'
+>>> WedstrijdUitslag(32, 3, 'French Guiana', 'New Caledonia')
+'French Guiana heeft gewonnen!'
+>>> WedstrijdUitslag(0, 7, 'Uruguay', 'Denmark')
+'Denmark heeft gewonnen!'
+>>> WedstrijdUitslag(15, 11, 'Port Townsend', 'Lowell')
+'Port Townsend heeft gewonnen!'
+>>> WedstrijdUitslag(37, 27, 'Solomon Islands', 'Papua New Guinea')
+'Solomon Islands heeft gewonnen!'
+>>> WedstrijdUitslag(7, 0, 'Medenagan', 'Autolysate')
+'Medenagan heeft gewonnen!'
+>>> WedstrijdUitslag(39, 39, 'White Plains', 'Aurora')
+'Gelijkspel!'
+>>> WedstrijdUitslag(6, 6, 'Fiddleneck', 'Circumnavigate')
+'Gelijkspel!'
+>>> WedstrijdUitslag(2, 2, 'Pacific Grove', 'Salinas')
+'Gelijkspel!'
+>>> WedstrijdUitslag(37, 11, 'Braunschweig', 'Almaty')
+'Braunschweig heeft gewonnen!'
+>>> WedstrijdUitslag(5, 28, 'Toulon', 'Prague')
+'Prague heeft gewonnen!'
+>>> WedstrijdUitslag(1, 27, 'Tuvalu', 'Georgia')
+'Georgia heeft gewonnen!'
+>>> WedstrijdUitslag(26, 26, 'Santa Maria', 'Monrovia')
+'Gelijkspel!'
+>>> WedstrijdUitslag(32, 32, 'Pugenello', 'Unmanifest')
+'Gelijkspel!'
+>>> WedstrijdUitslag(38, 38, 'Hearthward', 'Voice')
+'Gelijkspel!'
+>>> WedstrijdUitslag(19, 37, 'Afghanistan', 'Fiji')
+'Fiji heeft gewonnen!'
+>>> WedstrijdUitslag(27, 38, 'Grenada', 'Falkland Islands (Malvinas)')
+'Falkland Islands (Malvinas) heeft gewonnen!'
+>>> WedstrijdUitslag(24, 33, 'Saint Lucia', 'Puerto Rico')
+'Puerto Rico heeft gewonnen!'
+>>> WedstrijdUitslag(39, 40, 'Daugavpils', 'Garland')
+'Garland heeft gewonnen!'
+>>> WedstrijdUitslag(27, 27, 'Nos', 'Antecedes')
+'Gelijkspel!'
+>>> WedstrijdUitslag(13, 6, 'Forsung', 'Antiempiricism')
+'Forsung heeft gewonnen!'
+>>> WedstrijdUitslag(13, 13, 'Renoir', 'Armariolum')
+'Gelijkspel!'
+>>> WedstrijdUitslag(30, 16, 'Convokes', 'Binaurally')
+'Convokes heeft gewonnen!'
+>>> WedstrijdUitslag(28, 24, 'Doulocracy', 'Cholochrome')
+'Doulocracy heeft gewonnen!'
+>>> WedstrijdUitslag(36, 7, 'Iraq', 'United States Minor Outlying Islands')
+'Iraq heeft gewonnen!'
+>>> WedstrijdUitslag(4, 29, 'Puerto Rico', 'Liechtenstein')
+'Liechtenstein heeft gewonnen!'
+>>> WedstrijdUitslag(32, 24, 'Holy See (Vatican City State)', 'Saint Barthélemy')
+'Holy See (Vatican City State) heeft gewonnen!'
+>>> WedstrijdUitslag(1, 32, 'Brazil', 'Marshall Islands')
+'Marshall Islands heeft gewonnen!'
+>>> WedstrijdUitslag(3, 3, 'Sainte-Maxime', 'Alaró')
+'Gelijkspel!'
+>>> WedstrijdUitslag(28, 28, 'Carmel-by-the-Sea', 'Yakima')
+'Gelijkspel!'
+>>> WedstrijdUitslag(14, 14, 'American Samoa', 'Romania')
+'Gelijkspel!'
+>>> WedstrijdUitslag(21, 21, 'Türkiye', 'Panama')
+'Gelijkspel!'
+>>> WedstrijdUitslag(5, 17, 'Uganda', 'Nigeria')
+'Nigeria heeft gewonnen!'
+>>> WedstrijdUitslag(30, 28, 'Georgetown', 'Beach Haven')
+'Georgetown heeft gewonnen!'
+>>> WedstrijdUitslag(39, 0, 'Unlionized', 'Rooster')
+'Unlionized heeft gewonnen!'
+>>> WedstrijdUitslag(38, 31, 'Niue', 'Libya')
+'Niue heeft gewonnen!'
+>>> WedstrijdUitslag(15, 15, 'Nonmoderate', 'Ethic')
+'Gelijkspel!'
+>>> WedstrijdUitslag(23, 28, 'Puerto Cortés', 'Two Harbors')
+'Two Harbors heeft gewonnen!'
+>>> WedstrijdUitslag(14, 0, "St. John's", 'Denia')
+"St. John's heeft gewonnen!"
+>>> WedstrijdUitslag(40, 11, 'Isle of Man', 'Austria')
+'Isle of Man heeft gewonnen!'
+>>> WedstrijdUitslag(36, 9, 'Viet Nam', 'Djibouti')
+'Viet Nam heeft gewonnen!'
+>>> WedstrijdUitslag(17, 17, 'Apomorphine', 'Cocoach')
+'Gelijkspel!'
+>>> WedstrijdUitslag(32, 19, 'Blois', 'Krabi')
+'Blois heeft gewonnen!'
+>>> WedstrijdUitslag(34, 30, 'Egypt', 'Christmas Island')
+'Egypt heeft gewonnen!'
+>>> WedstrijdUitslag(35, 0, 'Maldonado', 'Cusco')
+'Maldonado heeft gewonnen!'
+>>> WedstrijdUitslag(11, 37, 'Rachianesthesia', 'Dishevel')
+'Dishevel heeft gewonnen!'
+>>> WedstrijdUitslag(31, 8, 'Nonsimulative', 'Chauffeurship')
+'Nonsimulative heeft gewonnen!'
+>>> WedstrijdUitslag(2, 17, 'Atlantic Beach', 'Navarre')
+'Navarre heeft gewonnen!'
+>>> WedstrijdUitslag(11, 12, 'Korea, Republic of', 'Congo')
+'Congo heeft gewonnen!'
+>>> WedstrijdUitslag(26, 32, 'Malaysia', 'Saint Lucia')
+'Saint Lucia heeft gewonnen!'
+>>> WedstrijdUitslag(3, 3, 'Townist', 'Undrossiness')
+'Gelijkspel!'
+>>> WedstrijdUitslag(10, 10, 'Münster', 'Sea Island')
+'Gelijkspel!'
+>>> WedstrijdUitslag(18, 32, 'Tanzania, United Republic of', 'Guadeloupe')
+'Guadeloupe heeft gewonnen!'
+>>> WedstrijdUitslag(14, 26, 'Niger', 'Luxembourg')
+'Luxembourg heeft gewonnen!'
+>>> WedstrijdUitslag(3, 31, 'Habited', 'Unmeaningful')
+'Unmeaningful heeft gewonnen!'
+>>> WedstrijdUitslag(14, 24, 'Rungless', 'Puns')
+'Puns heeft gewonnen!'
+>>> WedstrijdUitslag(25, 37, 'Notorious', 'Shutouts')
+'Shutouts heeft gewonnen!'
+>>> WedstrijdUitslag(18, 31, 'Hexanedione', 'Imprecating')
+'Imprecating heeft gewonnen!'
+>>> WedstrijdUitslag(36, 17, 'Nepal', 'Myanmar')
+'Nepal heeft gewonnen!'
+>>> WedstrijdUitslag(13, 13, 'Key Largo', 'Casablanca')
+'Gelijkspel!'
+>>> WedstrijdUitslag(28, 28, 'Lanthopine', 'Sarcosporidian')
+'Gelijkspel!'
+>>> WedstrijdUitslag(8, 16, 'Belarus', 'Egypt')
+'Egypt heeft gewonnen!'
+>>> WedstrijdUitslag(9, 9, 'Choreographical', 'Resoluteness')
+'Gelijkspel!'
+>>> WedstrijdUitslag(29, 38, 'Caswell Beach', 'Tórshavn')
+'Tórshavn heeft gewonnen!'
+>>> WedstrijdUitslag(22, 22, 'Magistracies', 'Cakra')
+'Gelijkspel!'
+>>> WedstrijdUitslag(38, 36, 'Amapala', 'Negril')
+'Amapala heeft gewonnen!'
+>>> WedstrijdUitslag(9, 31, 'Memphis', 'Capitola')
+'Capitola heeft gewonnen!'
+>>> WedstrijdUitslag(10, 34, 'Klagenfurt', 'Bridgetown')
+'Bridgetown heeft gewonnen!'
+>>> WedstrijdUitslag(16, 10, 'Angioclast', 'Bespatterer')
+'Angioclast heeft gewonnen!'
+>>> WedstrijdUitslag(14, 17, 'Point Lookout', 'Karachi')
+'Karachi heeft gewonnen!'
+>>> WedstrijdUitslag(9, 9, 'Metadiorite', 'Bedamn')
+'Gelijkspel!'
+>>> WedstrijdUitslag(33, 16, 'Menton', 'Saint Petersburg')
+'Menton heeft gewonnen!'
+>>> WedstrijdUitslag(39, 2, 'Frumentum', 'Lotus')
+'Frumentum heeft gewonnen!'
+>>> WedstrijdUitslag(30, 2, 'Williams', 'Duisburg')
+'Williams heeft gewonnen!'
+>>> WedstrijdUitslag(15, 13, 'Monobasicity', 'Hollooing')
+'Monobasicity heeft gewonnen!'
+>>> WedstrijdUitslag(21, 14, 'Heard Island and McDonald Islands', 'Wallis and Futuna')
+'Heard Island and McDonald Islands heeft gewonnen!'
+>>> WedstrijdUitslag(16, 23, 'Birmingham', 'Tbilisi')
+'Tbilisi heeft gewonnen!'
+>>> WedstrijdUitslag(21, 16, 'Reporterism', 'Autopsic')
+'Reporterism heeft gewonnen!'
+>>> WedstrijdUitslag(3, 3, 'Portugal', 'Cocos (Keeling) Islands')
+'Gelijkspel!'
+>>> WedstrijdUitslag(21, 18, 'Providence', 'Ascona')
+'Providence heeft gewonnen!'
+>>> WedstrijdUitslag(7, 0, 'Mauritania', 'Burundi')
+'Mauritania heeft gewonnen!'
+>>> WedstrijdUitslag(34, 12, 'Hamilton', 'Bangalore')
+'Hamilton heeft gewonnen!'
+>>> WedstrijdUitslag(11, 9, 'Somalia', 'British Indian Ocean Territory')
+'Somalia heeft gewonnen!'
+>>> WedstrijdUitslag(18, 7, 'Bilati', 'Monophoic')
+'Bilati heeft gewonnen!'
+>>> WedstrijdUitslag(21, 21, 'Darien', 'Palmetto')
+'Gelijkspel!'
+>>> WedstrijdUitslag(29, 25, 'Hot Springs', 'Crans-Montana')
+'Hot Springs heeft gewonnen!'

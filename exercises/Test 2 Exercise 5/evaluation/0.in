@@ -1,0 +1,6 @@
+>>> WedstrijdUitslag(15, 13, 'Mooncatchers', 'Wall City')
+'Mooncatchers heeft gewonnen!'
+>>> WedstrijdUitslag(1, 7, 'Brazilië', 'Duitsland')
+'Duitsland heeft gewonnen!'
+>>> WedstrijdUitslag(2, 2, 'Red Panthers', 'Spanje')
+'Gelijkspel!'

@@ -1,0 +1,7 @@
+--------------------------------------------------
+tab name: Voorbeelden
+<LANGUAGE code="en">
+    <function from="WedstrijdUitslag" to="MatchResult" />
+    <fixed from="heeft gewonnen!" to="has won!" />
+    <fixed from="Gelijkspel!" to="Draw!" />
+</LANGUAGE>
