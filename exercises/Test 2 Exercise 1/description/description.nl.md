@@ -129,7 +129,7 @@
 </style>
 
 # <b>Opdracht</b>
-Maak een functie genaamd <function name="BoekDikte"></function> die één getal (<i>integers</i>) als invoer neemt (het aantal pagina's van een boek), en dan een bericht teruggeeft die aangeeft hoe dik dat boek is.
+Maak een functie genaamd <function name="BoekDikte"></function> die één getal (<i>integer</i>) als invoer neemt (het aantal pagina's van een boek), en dan een bericht teruggeeft die aangeeft hoe dik dat boek is.
 - Als het boek minder dan 150 pagina's heeft: <code>"Dit is een dun boek."</code>
 - Als het boek tussen de 150 en 300 pagina's heeft (inclusief 150 en 300): <code>"Dit is een normaal boek."</code>
 - Als het boek meer dan 300 pagina's heeft: <code>"Dit is een dik boek."</code>
