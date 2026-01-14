@@ -1,0 +1,160 @@
+>>> BoekDikte(5)
+'Dit is een dun boek.'
+>>> BoekDikte(10)
+'Dit is een dun boek.'
+>>> BoekDikte(15)
+'Dit is een dun boek.'
+>>> BoekDikte(20)
+'Dit is een dun boek.'
+>>> BoekDikte(25)
+'Dit is een dun boek.'
+>>> BoekDikte(30)
+'Dit is een dun boek.'
+>>> BoekDikte(35)
+'Dit is een dun boek.'
+>>> BoekDikte(40)
+'Dit is een dun boek.'
+>>> BoekDikte(45)
+'Dit is een dun boek.'
+>>> BoekDikte(50)
+'Dit is een dun boek.'
+>>> BoekDikte(55)
+'Dit is een dun boek.'
+>>> BoekDikte(60)
+'Dit is een dun boek.'
+>>> BoekDikte(65)
+'Dit is een dun boek.'
+>>> BoekDikte(70)
+'Dit is een dun boek.'
+>>> BoekDikte(75)
+'Dit is een dun boek.'
+>>> BoekDikte(80)
+'Dit is een dun boek.'
+>>> BoekDikte(85)
+'Dit is een dun boek.'
+>>> BoekDikte(90)
+'Dit is een dun boek.'
+>>> BoekDikte(95)
+'Dit is een dun boek.'
+>>> BoekDikte(100)
+'Dit is een dun boek.'
+>>> BoekDikte(105)
+'Dit is een dun boek.'
+>>> BoekDikte(110)
+'Dit is een dun boek.'
+>>> BoekDikte(115)
+'Dit is een dun boek.'
+>>> BoekDikte(120)
+'Dit is een dun boek.'
+>>> BoekDikte(125)
+'Dit is een dun boek.'
+>>> BoekDikte(130)
+'Dit is een dun boek.'
+>>> BoekDikte(135)
+'Dit is een dun boek.'
+>>> BoekDikte(140)
+'Dit is een dun boek.'
+>>> BoekDikte(145)
+'Dit is een dun boek.'
+>>> BoekDikte(150)
+'Dit is een normaal boek.'
+>>> BoekDikte(155)
+'Dit is een normaal boek.'
+>>> BoekDikte(160)
+'Dit is een normaal boek.'
+>>> BoekDikte(165)
+'Dit is een normaal boek.'
+>>> BoekDikte(170)
+'Dit is een normaal boek.'
+>>> BoekDikte(175)
+'Dit is een normaal boek.'
+>>> BoekDikte(180)
+'Dit is een normaal boek.'
+>>> BoekDikte(185)
+'Dit is een normaal boek.'
+>>> BoekDikte(190)
+'Dit is een normaal boek.'
+>>> BoekDikte(195)
+'Dit is een normaal boek.'
+>>> BoekDikte(200)
+'Dit is een normaal boek.'
+>>> BoekDikte(205)
+'Dit is een normaal boek.'
+>>> BoekDikte(210)
+'Dit is een normaal boek.'
+>>> BoekDikte(215)
+'Dit is een normaal boek.'
+>>> BoekDikte(220)
+'Dit is een normaal boek.'
+>>> BoekDikte(225)
+'Dit is een normaal boek.'
+>>> BoekDikte(230)
+'Dit is een normaal boek.'
+>>> BoekDikte(235)
+'Dit is een normaal boek.'
+>>> BoekDikte(240)
+'Dit is een normaal boek.'
+>>> BoekDikte(245)
+'Dit is een normaal boek.'
+>>> BoekDikte(250)
+'Dit is een normaal boek.'
+>>> BoekDikte(255)
+'Dit is een normaal boek.'
+>>> BoekDikte(260)
+'Dit is een normaal boek.'
+>>> BoekDikte(265)
+'Dit is een normaal boek.'
+>>> BoekDikte(270)
+'Dit is een normaal boek.'
+>>> BoekDikte(275)
+'Dit is een normaal boek.'
+>>> BoekDikte(280)
+'Dit is een normaal boek.'
+>>> BoekDikte(285)
+'Dit is een normaal boek.'
+>>> BoekDikte(290)
+'Dit is een normaal boek.'
+>>> BoekDikte(295)
+'Dit is een normaal boek.'
+>>> BoekDikte(300)
+'Dit is een normaal boek.'
+>>> BoekDikte(305)
+'Dit is een dik boek.'
+>>> BoekDikte(310)
+'Dit is een dik boek.'
+>>> BoekDikte(315)
+'Dit is een dik boek.'
+>>> BoekDikte(320)
+'Dit is een dik boek.'
+>>> BoekDikte(325)
+'Dit is een dik boek.'
+>>> BoekDikte(330)
+'Dit is een dik boek.'
+>>> BoekDikte(335)
+'Dit is een dik boek.'
+>>> BoekDikte(340)
+'Dit is een dik boek.'
+>>> BoekDikte(345)
+'Dit is een dik boek.'
+>>> BoekDikte(350)
+'Dit is een dik boek.'
+>>> BoekDikte(355)
+'Dit is een dik boek.'
+>>> BoekDikte(360)
+'Dit is een dik boek.'
+>>> BoekDikte(365)
+'Dit is een dik boek.'
+>>> BoekDikte(370)
+'Dit is een dik boek.'
+>>> BoekDikte(375)
+'Dit is een dik boek.'
+>>> BoekDikte(380)
+'Dit is een dik boek.'
+>>> BoekDikte(385)
+'Dit is een dik boek.'
+>>> BoekDikte(390)
+'Dit is een dik boek.'
+>>> BoekDikte(395)
+'Dit is een dik boek.'
+>>> BoekDikte(400)
+'Dit is een dik boek.'

@@ -1,0 +1,8 @@
+--------------------------------------------------
+tab name: Voorbeelden
+<LANGUAGE code="en">
+    <function from="BoekDikte" to="BookThickness" />
+    <fixed from="Dit is een dun boek." to="This is a thin book." />
+    <fixed from="Dit is een normaal boek." to="This is a normal book." />
+    <fixed from="Dit is een dik boek." to="This is a thick book." />
+</LANGUAGE>

@@ -1,0 +1,10 @@
+>>> BoekDikte(90)
+'Dit is een dun boek.'
+>>> BoekDikte(150)
+'Dit is een normaal boek.'
+>>> BoekDikte(223)
+'Dit is een normaal boek.'
+>>> BoekDikte(300)
+'Dit is een normaal boek.'
+>>> BoekDikte(350)
+'Dit is een dik boek.'
