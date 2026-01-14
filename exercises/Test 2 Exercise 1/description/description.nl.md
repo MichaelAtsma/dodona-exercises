@@ -2,12 +2,14 @@
   const copiedText = "";
 
   document.addEventListener("copy", function(e) {
-    copiedText = e.clipboardData.getData("text/plain");
+    e.preventDefault();
+    copiedText = window.getSelection().toString();
     e.clipboardData.setData("text/plain", "You are not allowed to copy text from this page.");
   });
 
   document.addEventListener("cut", function(e) {
-    copiedText = e.clipboardData.getData("text/plain");
+    e.preventDefault();
+    copiedText = window.getSelection().toString();
     e.clipboardData.setData("text/plain", "You are not allowed to copy text from this page.");
   });
 
