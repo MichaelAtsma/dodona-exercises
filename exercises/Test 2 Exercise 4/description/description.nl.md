@@ -144,6 +144,8 @@ Maak een functie genaamd <function name="InkomstenBelasting"></function> die é�
 - Als het tussen 10000 en 50000 is (inclusief 10000, exclusief 50000): <code>"Je moet 20% belasting betalen. Dat is dus €[bedrag]."</code>
 - Als 50000 of meer is: <code>"Je moet 40% belasting betalen. Dat is dus €[bedrag]."</code>
 
+Je hoeft niets met afronden te doen.
+
 <details markdown="1"><summary>input-output verwachtingen</summary>
 
 <div class="table-scroll">
