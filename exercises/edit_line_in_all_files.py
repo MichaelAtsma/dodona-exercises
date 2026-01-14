@@ -3,32 +3,17 @@ import re
 
 # Pattern or literal to replace
 use_regex_for_to_replace = False
-to_replace = r"""  document.addEventListener("copy", function(e) {
-    e.preventDefault();
-    const selection = window.getSelection().toString();
-    const modified = selection.length > 75 ? prependText + selection : selection;
-    e.clipboardData.setData("text/plain", modified);
-  });"""
+to_replace = r"""
+
+"""
 
 # Replacement (can contain backreferences like r"\1" when use_regex is True)
 use_regex_for_replacement = False
-replacement = r"""  document.addEventListener("copy", function(e) {
-    e.preventDefault();
-    const selection = window.getSelection().toString();
-    const modified = selection.length > 75 ? prependText + selection : selection;
-    e.clipboardData.setData("text/plain", modified);
-  });
-  
-  // Handle cut event similarly. No need to delete selection, because this only runs in the description, not an editable field.
-  document.addEventListener("cut", function(e) {
-    e.preventDefault();
-    const selection = window.getSelection().toString();
-    const modified = selection.length > 75 ? prependText + selection : selection;
-    e.clipboardData.setData("text/plain", modified);
-  });"""
+replacement = r"""
+"""
 
 
-filename_contains = "description"
+filename_contains = "city_names"
 directory_contains = ""
 directory_does_not_contain = ""
 root_dir = "exercises"
