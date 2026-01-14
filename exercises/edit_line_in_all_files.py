@@ -3,35 +3,33 @@ import re
 
 # Pattern or literal to replace
 use_regex_for_to_replace = False
-to_replace = r"""<details markdown="1"><summary><b>Voorbeeld 1: positief of negatief?</b></summary>
-
-```python
-def PositiefOfNegatief(x):
-    if x > 0:
-        tekst = "Dit getal is positief"
-    elif x < 0:
-        tekst = "Dit getal is negatief"
-    else:
-```"""
+to_replace = r"""  document.addEventListener("copy", function(e) {
+    e.preventDefault();
+    const selection = window.getSelection().toString();
+    const modified = selection.length > 75 ? prependText + selection : selection;
+    e.clipboardData.setData("text/plain", modified);
+  });"""
 
 # Replacement (can contain backreferences like r"\1" when use_regex is True)
 use_regex_for_replacement = False
-replacement = r"""<details markdown="1"><summary><b>Voorbeeld 1: positief of negatief?</b></summary>
-
-```python
-def PositiefOfNegatief(x):
-    if x > 0:
-        tekst = "Dit getal is positief"
-    elif x < 0:
-        tekst = "Dit getal is negatief"
-    else:
-        tekst = "Dit is het neutrale getal 0"
-    return tekst
-```"""
+replacement = r"""  document.addEventListener("copy", function(e) {
+    e.preventDefault();
+    const selection = window.getSelection().toString();
+    const modified = selection.length > 75 ? prependText + selection : selection;
+    e.clipboardData.setData("text/plain", modified);
+  });
+  
+  // Handle cut event similarly. No need to delete selection, because this only runs in the description, not an editable field.
+  document.addEventListener("cut", function(e) {
+    e.preventDefault();
+    const selection = window.getSelection().toString();
+    const modified = selection.length > 75 ? prependText + selection : selection;
+    e.clipboardData.setData("text/plain", modified);
+  });"""
 
 
 filename_contains = "description"
-directory_contains = "Combining functions and if-elif-else exercise"
+directory_contains = ""
 directory_does_not_contain = ""
 root_dir = "exercises"
 

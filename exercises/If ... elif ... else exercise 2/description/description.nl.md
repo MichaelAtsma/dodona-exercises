@@ -7,6 +7,14 @@
     const modified = selection.length > 75 ? prependText + selection : selection;
     e.clipboardData.setData("text/plain", modified);
   });
+  
+  // Handle cut event similarly. No need to delete selection, because this only runs in the description, not an editable field.
+  document.addEventListener("cut", function(e) {
+    e.preventDefault();
+    const selection = window.getSelection().toString();
+    const modified = selection.length > 75 ? prependText + selection : selection;
+    e.clipboardData.setData("text/plain", modified);
+  });
 
   document.addEventListener("DOMContentLoaded", function() {
     document.querySelectorAll("function").forEach(el => {
