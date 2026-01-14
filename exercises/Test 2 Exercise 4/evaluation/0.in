@@ -5,6 +5,6 @@
 >>> InkomstenBelasting(31893)
 'Je moet 20% belasting betalen. Dat is dus €6378.6.'
 >>> InkomstenBelasting(50000)
-'Je moet 20% belasting betalen. Dat is dus €10000.0.'
+'Je moet 40% belasting betalen. Dat is dus €20000.0.'
 >>> InkomstenBelasting(62530.45)
 'Je moet 40% belasting betalen. Dat is dus €25012.18.'
