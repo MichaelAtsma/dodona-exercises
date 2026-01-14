@@ -1,5 +1,5 @@
 <script>
-  const copiedText = "";
+  let copiedText = "";
 
   document.addEventListener("copy", function(e) {
     e.preventDefault();
