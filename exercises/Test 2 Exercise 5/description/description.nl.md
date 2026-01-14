@@ -129,9 +129,10 @@
 </style>
 
 # <b>Opdracht</b>
-Maak een functie genaamd <function name="WedstrijdUitslag"></function> die vier variabele als invoer neemt:
+Maak een functie genaamd <function name="WedstrijdUitslag"></function> die vier variabelen als invoer neemt:
 - twee getallen (<i>integers</i>)  --> de score van team A en team B
 - twee teksten (<i>strings</i>) --> de naam van team A en team B
+
 De functie moet dan een bericht teruggeven die aangeeft welk team gewonnen heeft.
 - Als één van de twee teams meer punten heeft gescoord dan het andere team: <code>"[team naam] heeft gewonnen!"</code>
 - Als het gelijk is: <code>"Gelijkspel!"</code>
