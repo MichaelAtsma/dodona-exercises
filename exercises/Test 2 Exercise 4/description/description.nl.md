@@ -192,4 +192,4 @@ Maak een functie genaamd <function name="InkomstenBelasting"></function> die Ã©Ã
 </div>
 </details>
 
-<i>*Let op: de berekening van de belasting is voor deze opdracht vereenvoudigd. Dit is niet hoe het normaal berekend wordt.</i>
+<i>*Opmerking: de berekening van de belasting is voor deze opdracht vereenvoudigd. Dit is niet hoe het in het echt berekend wordt.</i>
