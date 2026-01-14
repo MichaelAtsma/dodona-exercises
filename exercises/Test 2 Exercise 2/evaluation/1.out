@@ -1,0 +1,9 @@
+--------------------------------------------------
+tab name: Bulk test
+<LANGUAGE code="en">
+    <function from="DagDeel" to="DayPart" />
+    <fixed from="Nacht." to="Night." />
+    <fixed from="Ochtend." to="Morning." />
+    <fixed from="Middag." to="Afternoon." />
+    <fixed from="Avond." to="Evening." />
+</LANGUAGE>

@@ -1,0 +1,14 @@
+>>> DagDeel(3)
+'Nacht.'
+>>> DagDeel(6)
+'Ochtend.'
+>>> DagDeel(10)
+'Ochtend.'
+>>> DagDeel(12)
+'Middag.'
+>>> DagDeel(15.5)
+'Middag.'
+>>> DagDeel(18)
+'Avond.'
+>>> DagDeel(20)
+'Avond.'

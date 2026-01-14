@@ -1,0 +1,240 @@
+>>> DagDeel(0.0)
+'Nacht.'
+>>> DagDeel(0.2)
+'Nacht.'
+>>> DagDeel(0.4)
+'Nacht.'
+>>> DagDeel(0.6)
+'Nacht.'
+>>> DagDeel(0.8)
+'Nacht.'
+>>> DagDeel(1.0)
+'Nacht.'
+>>> DagDeel(1.2)
+'Nacht.'
+>>> DagDeel(1.4)
+'Nacht.'
+>>> DagDeel(1.6)
+'Nacht.'
+>>> DagDeel(1.8)
+'Nacht.'
+>>> DagDeel(2.0)
+'Nacht.'
+>>> DagDeel(2.2)
+'Nacht.'
+>>> DagDeel(2.4)
+'Nacht.'
+>>> DagDeel(2.6)
+'Nacht.'
+>>> DagDeel(2.8)
+'Nacht.'
+>>> DagDeel(3.0)
+'Nacht.'
+>>> DagDeel(3.2)
+'Nacht.'
+>>> DagDeel(3.4)
+'Nacht.'
+>>> DagDeel(3.6)
+'Nacht.'
+>>> DagDeel(3.8)
+'Nacht.'
+>>> DagDeel(4.0)
+'Nacht.'
+>>> DagDeel(4.2)
+'Nacht.'
+>>> DagDeel(4.4)
+'Nacht.'
+>>> DagDeel(4.6)
+'Nacht.'
+>>> DagDeel(4.8)
+'Nacht.'
+>>> DagDeel(5.0)
+'Nacht.'
+>>> DagDeel(5.2)
+'Nacht.'
+>>> DagDeel(5.4)
+'Nacht.'
+>>> DagDeel(5.6)
+'Nacht.'
+>>> DagDeel(5.8)
+'Nacht.'
+>>> DagDeel(6.0)
+'Ochtend.'
+>>> DagDeel(6.2)
+'Ochtend.'
+>>> DagDeel(6.4)
+'Ochtend.'
+>>> DagDeel(6.6)
+'Ochtend.'
+>>> DagDeel(6.8)
+'Ochtend.'
+>>> DagDeel(7.0)
+'Ochtend.'
+>>> DagDeel(7.2)
+'Ochtend.'
+>>> DagDeel(7.4)
+'Ochtend.'
+>>> DagDeel(7.6)
+'Ochtend.'
+>>> DagDeel(7.8)
+'Ochtend.'
+>>> DagDeel(8.0)
+'Ochtend.'
+>>> DagDeel(8.2)
+'Ochtend.'
+>>> DagDeel(8.4)
+'Ochtend.'
+>>> DagDeel(8.6)
+'Ochtend.'
+>>> DagDeel(8.8)
+'Ochtend.'
+>>> DagDeel(9.0)
+'Ochtend.'
+>>> DagDeel(9.2)
+'Ochtend.'
+>>> DagDeel(9.4)
+'Ochtend.'
+>>> DagDeel(9.6)
+'Ochtend.'
+>>> DagDeel(9.8)
+'Ochtend.'
+>>> DagDeel(10.0)
+'Ochtend.'
+>>> DagDeel(10.2)
+'Ochtend.'
+>>> DagDeel(10.4)
+'Ochtend.'
+>>> DagDeel(10.6)
+'Ochtend.'
+>>> DagDeel(10.8)
+'Ochtend.'
+>>> DagDeel(11.0)
+'Ochtend.'
+>>> DagDeel(11.2)
+'Ochtend.'
+>>> DagDeel(11.4)
+'Ochtend.'
+>>> DagDeel(11.6)
+'Ochtend.'
+>>> DagDeel(11.8)
+'Ochtend.'
+>>> DagDeel(12.0)
+'Middag.'
+>>> DagDeel(12.2)
+'Middag.'
+>>> DagDeel(12.4)
+'Middag.'
+>>> DagDeel(12.6)
+'Middag.'
+>>> DagDeel(12.8)
+'Middag.'
+>>> DagDeel(13.0)
+'Middag.'
+>>> DagDeel(13.2)
+'Middag.'
+>>> DagDeel(13.4)
+'Middag.'
+>>> DagDeel(13.6)
+'Middag.'
+>>> DagDeel(13.8)
+'Middag.'
+>>> DagDeel(14.0)
+'Middag.'
+>>> DagDeel(14.2)
+'Middag.'
+>>> DagDeel(14.4)
+'Middag.'
+>>> DagDeel(14.6)
+'Middag.'
+>>> DagDeel(14.8)
+'Middag.'
+>>> DagDeel(15.0)
+'Middag.'
+>>> DagDeel(15.2)
+'Middag.'
+>>> DagDeel(15.4)
+'Middag.'
+>>> DagDeel(15.6)
+'Middag.'
+>>> DagDeel(15.8)
+'Middag.'
+>>> DagDeel(16.0)
+'Middag.'
+>>> DagDeel(16.2)
+'Middag.'
+>>> DagDeel(16.4)
+'Middag.'
+>>> DagDeel(16.6)
+'Middag.'
+>>> DagDeel(16.8)
+'Middag.'
+>>> DagDeel(17.0)
+'Middag.'
+>>> DagDeel(17.2)
+'Middag.'
+>>> DagDeel(17.4)
+'Middag.'
+>>> DagDeel(17.6)
+'Middag.'
+>>> DagDeel(17.8)
+'Middag.'
+>>> DagDeel(18.0)
+'Avond.'
+>>> DagDeel(18.2)
+'Avond.'
+>>> DagDeel(18.4)
+'Avond.'
+>>> DagDeel(18.6)
+'Avond.'
+>>> DagDeel(18.8)
+'Avond.'
+>>> DagDeel(19.0)
+'Avond.'
+>>> DagDeel(19.2)
+'Avond.'
+>>> DagDeel(19.4)
+'Avond.'
+>>> DagDeel(19.6)
+'Avond.'
+>>> DagDeel(19.8)
+'Avond.'
+>>> DagDeel(20.0)
+'Avond.'
+>>> DagDeel(20.2)
+'Avond.'
+>>> DagDeel(20.4)
+'Avond.'
+>>> DagDeel(20.6)
+'Avond.'
+>>> DagDeel(20.8)
+'Avond.'
+>>> DagDeel(21.0)
+'Avond.'
+>>> DagDeel(21.2)
+'Avond.'
+>>> DagDeel(21.4)
+'Avond.'
+>>> DagDeel(21.6)
+'Avond.'
+>>> DagDeel(21.8)
+'Avond.'
+>>> DagDeel(22.0)
+'Avond.'
+>>> DagDeel(22.2)
+'Avond.'
+>>> DagDeel(22.4)
+'Avond.'
+>>> DagDeel(22.6)
+'Avond.'
+>>> DagDeel(22.8)
+'Avond.'
+>>> DagDeel(23.0)
+'Avond.'
+>>> DagDeel(23.2)
+'Avond.'
+>>> DagDeel(23.4)
+'Avond.'
+>>> DagDeel(23.6)
+'Avond.'
+>>> DagDeel(23.8)
+'Avond.'
