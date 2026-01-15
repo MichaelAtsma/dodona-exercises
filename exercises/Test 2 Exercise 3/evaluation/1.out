@@ -2,7 +2,7 @@
 tab name: Bulk test
 <LANGUAGE code="en">
     <function from="KlasUitslag" to="ClassResult" />
-    <fixed from="Minder dan de helft van de klas is geslaagd is geslaagd." to="Less than half of the class passed." />
+    <fixed from="Minder dan de helft van de klas is geslaagd voor het examen." to="Less than half of the class passed." />
     <fixed from="Een voldoende aantal leerlingen is geslaagd voor het examen." to="A sufficient number of students passed the exam." />
     <fixed from="Wow, wat een sterke klas zijn jullie!" to="Wow, what a strong class you are!" />
 </LANGUAGE>

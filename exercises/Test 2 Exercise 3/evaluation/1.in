@@ -1,19 +1,19 @@
 >>> KlasUitslag(0, 15)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(1, 15)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(2, 15)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(3, 15)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(4, 15)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(5, 15)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(6, 15)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(7, 15)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(8, 15)
 'Een voldoende aantal leerlingen is geslaagd voor het examen.'
 >>> KlasUitslag(9, 15)
@@ -29,21 +29,21 @@
 >>> KlasUitslag(14, 15)
 'Wow, wat een sterke klas zijn jullie!'
 >>> KlasUitslag(0, 16)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(1, 16)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(2, 16)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(3, 16)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(4, 16)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(5, 16)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(6, 16)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(7, 16)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(8, 16)
 'Een voldoende aantal leerlingen is geslaagd voor het examen.'
 >>> KlasUitslag(9, 16)
@@ -61,23 +61,23 @@
 >>> KlasUitslag(15, 16)
 'Wow, wat een sterke klas zijn jullie!'
 >>> KlasUitslag(0, 17)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(1, 17)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(2, 17)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(3, 17)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(4, 17)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(5, 17)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(6, 17)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(7, 17)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(8, 17)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(9, 17)
 'Een voldoende aantal leerlingen is geslaagd voor het examen.'
 >>> KlasUitslag(10, 17)
@@ -95,23 +95,23 @@
 >>> KlasUitslag(16, 17)
 'Wow, wat een sterke klas zijn jullie!'
 >>> KlasUitslag(0, 18)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(1, 18)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(2, 18)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(3, 18)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(4, 18)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(5, 18)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(6, 18)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(7, 18)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(8, 18)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(9, 18)
 'Een voldoende aantal leerlingen is geslaagd voor het examen.'
 >>> KlasUitslag(10, 18)
@@ -131,25 +131,25 @@
 >>> KlasUitslag(17, 18)
 'Wow, wat een sterke klas zijn jullie!'
 >>> KlasUitslag(0, 19)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(1, 19)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(2, 19)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(3, 19)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(4, 19)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(5, 19)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(6, 19)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(7, 19)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(8, 19)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(9, 19)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(10, 19)
 'Een voldoende aantal leerlingen is geslaagd voor het examen.'
 >>> KlasUitslag(11, 19)
@@ -169,25 +169,25 @@
 >>> KlasUitslag(18, 19)
 'Wow, wat een sterke klas zijn jullie!'
 >>> KlasUitslag(0, 20)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(1, 20)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(2, 20)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(3, 20)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(4, 20)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(5, 20)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(6, 20)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(7, 20)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(8, 20)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(9, 20)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(10, 20)
 'Een voldoende aantal leerlingen is geslaagd voor het examen.'
 >>> KlasUitslag(11, 20)
@@ -209,27 +209,27 @@
 >>> KlasUitslag(19, 20)
 'Wow, wat een sterke klas zijn jullie!'
 >>> KlasUitslag(0, 21)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(1, 21)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(2, 21)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(3, 21)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(4, 21)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(5, 21)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(6, 21)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(7, 21)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(8, 21)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(9, 21)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(10, 21)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(11, 21)
 'Een voldoende aantal leerlingen is geslaagd voor het examen.'
 >>> KlasUitslag(12, 21)
@@ -251,27 +251,27 @@
 >>> KlasUitslag(20, 21)
 'Wow, wat een sterke klas zijn jullie!'
 >>> KlasUitslag(0, 22)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(1, 22)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(2, 22)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(3, 22)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(4, 22)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(5, 22)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(6, 22)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(7, 22)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(8, 22)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(9, 22)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(10, 22)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(11, 22)
 'Een voldoende aantal leerlingen is geslaagd voor het examen.'
 >>> KlasUitslag(12, 22)
@@ -295,29 +295,29 @@
 >>> KlasUitslag(21, 22)
 'Wow, wat een sterke klas zijn jullie!'
 >>> KlasUitslag(0, 23)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(1, 23)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(2, 23)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(3, 23)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(4, 23)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(5, 23)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(6, 23)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(7, 23)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(8, 23)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(9, 23)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(10, 23)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(11, 23)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(12, 23)
 'Een voldoende aantal leerlingen is geslaagd voor het examen.'
 >>> KlasUitslag(13, 23)
@@ -341,29 +341,29 @@
 >>> KlasUitslag(22, 23)
 'Wow, wat een sterke klas zijn jullie!'
 >>> KlasUitslag(0, 24)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(1, 24)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(2, 24)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(3, 24)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(4, 24)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(5, 24)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(6, 24)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(7, 24)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(8, 24)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(9, 24)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(10, 24)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(11, 24)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(12, 24)
 'Een voldoende aantal leerlingen is geslaagd voor het examen.'
 >>> KlasUitslag(13, 24)

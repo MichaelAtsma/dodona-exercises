@@ -3,20 +3,17 @@ import re
 
 # Pattern or literal to replace
 use_regex_for_to_replace = False
-to_replace = r"""
-
-"""
+to_replace = r"""is geslaagd is geslaagd"""
 
 # Replacement (can contain backreferences like r"\1" when use_regex is True)
 use_regex_for_replacement = False
-replacement = r"""
-"""
+replacement = r"""is geslaagd voor het examen"""
 
 
-filename_contains = "city_names"
+filename_contains = ""
 directory_contains = ""
 directory_does_not_contain = ""
-root_dir = "exercises"
+root_dir = "exercises/Test 2 Exercise 3"
 
 for dirpath, dirnames, filenames in os.walk(root_dir):
     for filename in filenames:

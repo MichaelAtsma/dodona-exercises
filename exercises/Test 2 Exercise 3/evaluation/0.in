@@ -1,5 +1,5 @@
 >>> KlasUitslag(7, 22)
-'Minder dan de helft van de klas is geslaagd is geslaagd.'
+'Minder dan de helft van de klas is geslaagd voor het examen.'
 >>> KlasUitslag(9, 18)
 'Een voldoende aantal leerlingen is geslaagd voor het examen.'
 >>> KlasUitslag(13, 19)

@@ -130,7 +130,7 @@
 
 # <b>Opdracht</b>
 Maak een functie genaamd <function name="KlasUitslag"></function> die twee getallen (<i>integers</i>) als invoer neemt (het aantal leerlingen van de klas die geslaagd zijn voor hun examen, en het totaal aantal leerlingen in de klas), en dan een bericht teruggeeft die aangeeft hoe goed de klas het gedaan heeft.
-- Als minder dan 50% van de leerlingen geslaagd is: <code>"Minder dan de helft van de klas is geslaagd is geslaagd."</code>
+- Als minder dan 50% van de leerlingen geslaagd is: <code>"Minder dan de helft van de klas is geslaagd voor het examen."</code>
 - Als er tussen de 50% en 80% van de leerlingen geslaagd is (inclusief 50% en 80%): <code>"Een voldoende aantal leerlingen is geslaagd voor het examen."</code>
 - Als 80% of meer van de leerlingen geslaagd is: <code>"Wow, wat een sterke klas zijn jullie!"</code>
 
@@ -151,7 +151,7 @@ Maak een functie genaamd <function name="KlasUitslag"></function> die twee getal
     <tr>
       <td><function name="KlasUitslag" inputs='7, 22'></function></td>
       <td style="text-align: center;">→</td>
-      <td><code>"Minder dan de helft van de klas is geslaagd is geslaagd."</code></td>
+      <td><code>"Minder dan de helft van de klas is geslaagd voor het examen."</code></td>
       <td>7 is ongeveer 32% van 22, dus minder dan 50%.</td>
     </tr>
     <tr>
