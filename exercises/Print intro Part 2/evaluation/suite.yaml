@@ -7,4 +7,4 @@
             oracle: "custom_check"
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["print\\((.+)\\)[\\n \\t]*", {}, "Goed zo! De code print {} als output.", "Helaas! De code print {} als output in plaats van {}."]
+            arguments: ["[\\n \\t]*print\\((.+)\\)[\\n \\t]*", {}, "Goed zo! De code print {} als output.", "Helaas! De code print {} als output in plaats van {}."]
