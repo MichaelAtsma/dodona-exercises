@@ -35,7 +35,7 @@ def evaluate_test(context, match_regex, mandatory_logical_operators_and_descript
             missing_operators = [desc for op, desc in mandatory_logical_operators_and_descriptions.items() if op not in student_contribution]
             mymessages.append(Message(f"Je moet in je voorwaarde gebruikmaken van: {', '.join(missing_operators)}."))
         if not checks["code matches regex"]:
-            mymessages.append(Message(f"Je mag enkel de voorwaarde aanpassen. Zorg ervoor dat je de rest van de code niet wijzigt."))
+            mymessages.append(Message(f"Je mag enkel iets tussen de haakjes schrijven. Zorg ervoor dat je de rest van de code niet wijzigt."))
         if not checks["student contribution type is not string"]:
             mymessages.append(Message(f"Hoewel de uitkomst misschien correct is, moet je een getal printen, dan heb je dus geen aanhalingstekens nodig."))
         
