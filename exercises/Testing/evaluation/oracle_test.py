@@ -1,13 +1,13 @@
 from evaluation_utils import EvaluationResult, Message # type: ignore
 import re
+import os
 
 def get_submission_code():
     with open("../submission/source", 'r') as f:
         return f.read()
 
 def get_boilerplate():
-    with open("../description/boilerplate/boilerplate", 'r') as f:
-        return f.read()
+    return os.listdir("../")
 
 def lines_containing_var(text, var):
     return [line for line in text.splitlines() if (f"{var}=" in line or f"{var} =" in line)]
