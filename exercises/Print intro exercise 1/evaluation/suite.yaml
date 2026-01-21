@@ -1,0 +1,10 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - stdin: ""
+          stdout: 
+            data: 19.5
+            oracle: "custom_check"
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["[\\n \\t]*a[ ]*=[ ]*(.+)\\n[\\n \\t]*print\\(a\\)[\\n \\t]*", {}, {}, "Goed zo! De code print {} als output.", "Helaas! De code print {} als output in plaats van {}."]
