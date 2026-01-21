@@ -7,32 +7,35 @@ def get_submission_code():
         return f.read()
 
 def get_boilerplate():
-    # pass # it is impossible to access the boilerplate file from here
+    pass # it is impossible to access the boilerplate file from here
     # with open("../judge/.editorconfig", 'r') as f:
     #     return f.read()
-    return os.path.abspath("../")
+    # return os.path.abspath("../") # cannot access higher than /mnt/
 
 # The directory structure is as follows:
-# - workdir/
-#   - common/
-#     - values.pyc
-#     - execution_0.py
-#     - submission.py
-#     - submission.pyc
-#     - evaluation_utils.py
-#     - values.py
-#     - evaluation_utils.pyc
-#     - execution_0.pyc
-#   - execution_0/
-# - submissionID/
-#   - submission/
-#     - source    (the student's code)
-#   - resources/
-#     - suite.yaml
-#     - oracle_test.py
-#   - judge/
-#     - tested/   (a lot of stuff I don't need)
-#     - .editorconfig  
+# /       (cannot access higher than this folder)
+# - bin/ and a bunch of other system folders
+# - mnt/
+#   - workdir/
+#     - common/
+#       - values.pyc
+#       - execution_0.py
+#       - submission.py
+#       - submission.pyc
+#       - evaluation_utils.py
+#       - values.py
+#       - evaluation_utils.pyc
+#       - execution_0.pyc
+#     - execution_0/
+#   - submissionID(probably)/
+#     - submission/
+#       - source    (the student's submitted code)
+#     - resources/
+#       - suite.yaml
+#       - oracle_test.py
+#     - judge/
+#       - tested/   (a lot of stuff I don't need)
+#       - .editorconfig  (not useful file)
 
 
 
