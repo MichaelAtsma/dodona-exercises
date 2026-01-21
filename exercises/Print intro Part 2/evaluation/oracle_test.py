@@ -34,7 +34,7 @@ def evaluate_test(context, match_regex, mandatory_texts_and_descriptions, forbid
     correct = all(checks.values())
     mymessages = []
     if correct:
-        mymessages.append(Message(correct_message_template.format(student_contribution)))
+        mymessages.append(Message(correct_message_template.format(context.actual.strip())))
     else:
         if not checks["correct value"]:
             mymessages.append(Message(wrong_value_message_template.format(repr(context.actual.strip()), repr(context.expected.strip()))))

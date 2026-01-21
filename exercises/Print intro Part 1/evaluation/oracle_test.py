@@ -36,10 +36,10 @@ def evaluate_test(context, match_regex, mandatory_texts_and_descriptions, forbid
     correct = all(checks.values())
     mymessages = []
     if correct:
-        mymessages.append(Message(correct_message_template.format(student_contribution)))
+        mymessages.append(Message(correct_message_template.format(context.actual.strip())))
     else:
         if not checks["correct value"]:
-            mymessages.append(Message(wrong_value_message_template.format(student_contribution, context.expected.strip())))
+            mymessages.append(Message(wrong_value_message_template.format(context.actual.strip(), context.expected.strip())))
         if not checks["mandatory texts used"]:
             mymessages.append(Message(f"Je moet gebruik maken van: {', '.join(missing_texts_and_descriptions.values())}."))
         if not checks["forbidden text not used"]:
