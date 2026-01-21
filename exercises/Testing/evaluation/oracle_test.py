@@ -7,7 +7,7 @@ def get_submission_code():
         return f.read()
 
 def get_boilerplate():
-    return os.listdir("../resources/")
+    return os.listdir("../submission/")
 
 def lines_containing_var(text, var):
     return [line for line in text.splitlines() if (f"{var}=" in line or f"{var} =" in line)]
