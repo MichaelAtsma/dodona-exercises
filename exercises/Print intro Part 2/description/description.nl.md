@@ -133,7 +133,7 @@
   }
 </style>
 
-Je hebt zojuist gezien hoe je iets op het scherm kunt laten verschijnen met de <function name="print" inputs=" "></function> functie. In deze opdracht test je het nogmaals uit.
+Je hebt zojuist gezien hoe je iets op het scherm kunt laten verschijnen met de <function name="print" inputs=" "></function> functie. In deze opdracht test je het nogmaals uit met een ander voorbeeld.
 
 <br>
 
