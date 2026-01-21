@@ -28,7 +28,7 @@ def evaluate_test(context, match_regex, mandatory_logical_operators_and_descript
         mymessages.append(Message(correct_message_template.format(student_contribution)))
     else:
         if not checks["correct value"]:
-            mymessages.append(Message(wrong_value_message_template.format(student_contribution, context.expected.tim())))
+            mymessages.append(Message(wrong_value_message_template.format(student_contribution, context.expected.strip())))
         if not checks["mandatory logical operators used"]:
             missing_operators = [desc for op, desc in mandatory_logical_operators_and_descriptions.items() if op not in student_contribution]
             mymessages.append(Message(f"Je moet in je voorwaarde gebruikmaken van: {', '.join(missing_operators)}."))
