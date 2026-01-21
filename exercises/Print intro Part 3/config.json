@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "Print - vervolg 2"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "labels": [],
+  "internals": {
+    "token": "49SHGwGpEukhwV7zgteH9p7JcUgu8DHEaHVF7da6j8fqWHRKjgGSK9pCWXSX38U3",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
