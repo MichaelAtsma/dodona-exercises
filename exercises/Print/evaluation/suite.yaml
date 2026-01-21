@@ -3,7 +3,7 @@
     - testcases:
         - stdin: ""
           stdout: 
-            data: 42
+            data: "42"
             oracle: "custom_check"
             file: "oracle_test.py"
             name: "evaluate_test"
