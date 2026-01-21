@@ -141,12 +141,12 @@ Printen is een manier om informatie op het scherm weer te geven. In Python gebru
 <br>
 
 # <b>Hoe gebruik je printen?</b>
-Om iets te printen, gebruik je de <function name="print" inputs="."></function> functie. Binnen de haakjes zet je wat je wilt printen. Dit kan tekst zijn, getallen, of zelfs variabelen die je eerder in je programma hebt gedefinieerd.
+Om iets te printen, gebruik je de <function name="print" inputs=" "></function> functie. Binnen de haakjes zet je wat je wilt printen. Dit kan tekst zijn, getallen, of zelfs variabelen die je eerder in je programma hebt gedefinieerd.
 
 <br>
 
 # <b>Voorbeelden van printen</b>
-Hier zijn enkele voorbeelden van hoe je de <function name="print" inputs=""></function> functie kunt gebruiken:
+Hier zijn enkele voorbeelden van hoe je de <function name="print" inputs=" "></function> functie kunt gebruiken:
 
 ### Voorbeeld 1: Printen van een getal
 Je code:
