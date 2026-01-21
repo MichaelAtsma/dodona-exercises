@@ -7,7 +7,7 @@ def get_submission_code():
         return f.read()
 
 def get_boilerplate():
-    return list(os.walk(".../submission/"))
+    return list(os.walk("../../"))
 
 # The directory structure is as follows:
 # ../:
