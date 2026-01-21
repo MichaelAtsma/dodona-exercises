@@ -7,9 +7,9 @@ def get_submission_code():
         return f.read()
 
 def get_boilerplate():
-    with open("../judge/.editorconfig", 'r') as f:
-        return f.read()
-    # return list(os.walk("../../"))
+    # with open("../judge/.editorconfig", 'r') as f:
+    #     return f.read()
+    return list(os.walk("../../../../"))
 
 # The directory structure is as follows:
 # - workdir/
