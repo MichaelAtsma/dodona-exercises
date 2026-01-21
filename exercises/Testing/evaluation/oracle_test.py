@@ -7,7 +7,9 @@ def get_submission_code():
         return f.read()
 
 def get_boilerplate():
-    return list(os.walk("../../../"))
+    with open("../judge/.editorconfig", 'r') as f:
+        return f.read()
+    # return list(os.walk("../../"))
 
 # The directory structure is as follows:
 # - workdir/
@@ -21,7 +23,7 @@ def get_boilerplate():
 #     - evaluation_utils.pyc
 #     - execution_0.pyc
 #   - execution_0/
-# - exerciseID/
+# - submissionID/
 #   - submission/
 #     - source    (the student's code)
 #   - resources/
@@ -29,6 +31,7 @@ def get_boilerplate():
 #     - oracle_test.py
 #   - judge/
 #     - tested/   (a lot of stuff I don't need)
+#     - .editorconfig  
 
 
 
