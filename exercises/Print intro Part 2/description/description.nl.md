@@ -155,8 +155,7 @@ Om iets te printen, gebruik je de <function name="print" inputs=" "></function> 
 # <b>Voorbeelden van printen</b>
 Hier zijn enkele voorbeelden van hoe je de <function name="print" inputs=" "></function> functie kunt gebruiken:
 
-<details markdown="1"><summary>Voorbeeld 1: Printen van een getal</summary>
-
+### Voorbeeld 1: Printen van een getal
 Je code:
 ```python
 print(42)
@@ -167,8 +166,6 @@ Op het scherm zie je:
 ```
 42
 ```
-
-</details>
 
 <br>
 
