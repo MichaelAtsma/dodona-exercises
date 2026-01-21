@@ -132,7 +132,7 @@
 Maak een functie genaamd <function name="KlasUitslag"></function> die twee getallen (<i>integers</i>) als invoer neemt (het aantal leerlingen van de klas die geslaagd zijn voor hun examen, en het totaal aantal leerlingen in de klas), en dan een bericht teruggeeft die aangeeft hoe goed de klas het gedaan heeft.
 - Als minder dan 50% van de leerlingen geslaagd is: <code>"Minder dan de helft van de klas is geslaagd voor het examen."</code>
 - Als er tussen de 50% en 80% van de leerlingen geslaagd is (inclusief 50% en 80%): <code>"Een voldoende aantal leerlingen is geslaagd voor het examen."</code>
-- Als 80% of meer van de leerlingen geslaagd is: <code>"Wow, wat een sterke klas zijn jullie!"</code>
+- Als meer dan 80% van de leerlingen geslaagd is: <code>"Wow, wat een sterke klas zijn jullie!"</code>
 
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
