@@ -136,17 +136,17 @@
 We hebben tot nu steeds programma's geschreven die bepaalde taken uitvoeren, zoals het berekenen van een som of het opslaan van gegevens. Maar al die berekeningen gebeurden eigenlijk achter de schermen. Hoe kunnen we de resultaten van deze taken zien? Dat is waar printen om de hoek komt kijken!
 
 # <b>Wat is printen?</b>
-Printen is een manier om informatie op het scherm weer te geven. In Python gebruiken we de functie <function name="print" inputs=""></function> om tekst of andere gegevens naar het scherm te sturen. Dit is handig om iets aan de gebruiker te vertellen of vragen, of om te zien wat er in je programma gebeurt, vooral tijdens het debuggen. 
+Printen is een manier om informatie op het scherm weer te geven. In Python gebruiken we de functie <function name="print" inputs=" "></function> om tekst of andere gegevens naar het scherm te sturen. Dit is handig om iets aan de gebruiker te vertellen of vragen, of om te zien wat er in je programma gebeurt, vooral tijdens het debuggen. 
 
 <br>
 
 # <b>Hoe gebruik je printen?</b>
-Om iets te printen, gebruik je de <function name="print" inputs=""></function> functie. Binnen de haakjes zet je wat je wilt printen. Dit kan tekst zijn, getallen, of zelfs variabelen die je eerder in je programma hebt gedefinieerd.
+Om iets te printen, gebruik je de <function name="print" inputs=" "></function> functie. Binnen de haakjes zet je wat je wilt printen. Dit kan tekst zijn, getallen, of zelfs variabelen die je eerder in je programma hebt gedefinieerd.
 
 <br>
 
 # <b>Voorbeelden van printen</b>
-Hier zijn enkele voorbeelden van hoe je de <function name="print" inputs=""></function> functie kunt gebruiken:
+Hier zijn enkele voorbeelden van hoe je de <function name="print" inputs=" "></function> functie kunt gebruiken:
 
 ### Voorbeeld 1: Printen van een getal
 Je code:
@@ -196,7 +196,7 @@ Op het scherm zie je:
 <hr>
 
 # <b>Opdracht</b>
-Zet tussen de haakjes iets zodat het getal 42 geprint wordt als je de code uitvoert.
+Zet tussen de haakjes iets zodat het getal <code>42</code> geprint wordt als je de code uitvoert.
 
 ```python
 print()
