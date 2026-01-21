@@ -36,7 +36,7 @@ def evaluate_test(context, match_regex, mandatory_logical_operators_and_descript
             mymessages.append(Message(f"Je mag enkel iets tussen de haakjes schrijven. Zorg ervoor dat je de rest van de code niet wijzigt."))
         
     return EvaluationResult(
-      result = False,
+      result = correct,
       dsl_expected = repr(context.expected.strip()),
       dsl_actual = repr(context.actual.strip()),
       messages = mymessages
