@@ -7,4 +7,4 @@
             oracle: "custom_check"
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["[\\n \\t]*a = 10\\n[\\n \\t]*print\\((.+)\\)[\\n \\t]*", {"a": "een variabele"}, {"10": "de waarde 10"}, "Goed zo! De code print {} als output.", "Helaas! De code print {} als output in plaats van {}."]
+            arguments: ["[\\n \\t]*a[ ]*=[ ]*10\\n[\\n \\t]*print\\((.+)\\)[\\n \\t]*", {"a": "een variabele"}, {"10": "de waarde 10"}, "Goed zo! De code print {} als output.", "Helaas! De code print {} als output in plaats van {}."]
