@@ -7,16 +7,29 @@ def get_submission_code():
         return f.read()
 
 def get_boilerplate():
-    return list(os.walk("../../"))
+    return list(os.walk("../../../"))
 
 # The directory structure is as follows:
-# ../:
+# - workdir/
+#   - common/
+#     - values.pyc
+#     - execution_0.py
+#     - submission.py
+#     - submission.pyc
+#     - evaluation_utils.py
+#     - values.py
+#     - evaluation_utils.pyc
+#     - execution_0.pyc
+#   - execution_0/
+# - exerciseID/
 #   - submission/
 #     - source    (the student's code)
 #   - resources/
 #     - suite.yaml
 #     - oracle_test.py
 #   - judge/
+#     - tested/   (a lot of stuff I don't need)
+
 
 
 
