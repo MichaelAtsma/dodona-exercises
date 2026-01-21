@@ -3,17 +3,17 @@ import re
 
 # Pattern or literal to replace
 use_regex_for_to_replace = False
-to_replace = r"""is geslaagd is geslaagd"""
+to_replace = r"""if (inputsAttr && inputsAttr.trim() !== "") {"""
 
 # Replacement (can contain backreferences like r"\1" when use_regex is True)
 use_regex_for_replacement = False
-replacement = r"""is geslaagd voor het examen"""
+replacement = r"""if (inputsAttr) {  // Put only a space in the inputs attribute if you want the function to appear with brackets but no inputs"""
 
 
-filename_contains = ""
+filename_contains = "description"
 directory_contains = ""
 directory_does_not_contain = ""
-root_dir = "exercises/Test 2 Exercise 3"
+root_dir = "exercises"
 
 for dirpath, dirnames, filenames in os.walk(root_dir):
     for filename in filenames:
