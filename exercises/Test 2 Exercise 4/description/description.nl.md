@@ -16,7 +16,7 @@
       const name = el.getAttribute("name");
       const inputsAttr = el.getAttribute("inputs");
       let html = `<span class="function-name">${name}</span>`;
-      if (inputsAttr && inputsAttr.trim() !== "") {
+      if (inputsAttr) {  // Put only a space in the inputs attribute if you want the function to appear with brackets but no inputs
         const inputs = inputsAttr.split(","); // Needs to be fixed, because now I can't escape commas in strings. But needs to be changed everywhere.
         html += `<span class="functionseparators">(</span>`;
         html += inputs.map((input, i) => {
