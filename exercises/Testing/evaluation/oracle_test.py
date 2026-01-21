@@ -7,9 +7,10 @@ def get_submission_code():
         return f.read()
 
 def get_boilerplate():
+    # pass # it is impossible to access the boilerplate file from here
     # with open("../judge/.editorconfig", 'r') as f:
     #     return f.read()
-    return list(os.walk("../../../../"))
+    return os.path.abspath(__file__)
 
 # The directory structure is as follows:
 # - workdir/
