@@ -7,7 +7,18 @@ def get_submission_code():
         return f.read()
 
 def get_boilerplate():
-    return os.listdir("../submission/")
+    return list(os.walk("../submission/"))
+
+# The directory structure is as follows:
+# ../:
+#   - submission/
+#     - source/
+#   - resources/
+#     - suite.yaml
+#     - oracle_test.py
+#   - judge/
+
+
 
 def lines_containing_var(text, var):
     return [line for line in text.splitlines() if (f"{var}=" in line or f"{var} =" in line)]

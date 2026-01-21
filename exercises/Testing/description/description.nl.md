@@ -135,4 +135,4 @@
 
 Deze opdracht dient enkel voor testendoeleinden.
 
-Test index (om te controleren of Dodona versie geupdated is): 3
+Test index (om te controleren of Dodona versie geupdated is): 4
