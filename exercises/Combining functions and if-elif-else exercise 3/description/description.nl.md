@@ -148,6 +148,7 @@ def PositiefOfNegatief(x):
     return tekst
 ```
 <details markdown="1"><summary>input-output verwachtingen</summary>
+<div class="table-scroll">
 <table>
   <thead>
     <tr>
@@ -174,6 +175,7 @@ def PositiefOfNegatief(x):
     </tr>
   </tbody>
 </table>
+</div>
 </details>
 </details>
 
@@ -192,6 +194,7 @@ def Grootste(x, y):
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
 
+<div class="table-scroll">
 <table>
   <thead>
     <tr>
@@ -223,6 +226,7 @@ def Grootste(x, y):
     </tr>
   </tbody>
 </table>
+</div>
 
 </details>
 </details>
@@ -239,6 +243,7 @@ Maak een functie genaamd <function name="Leeftijdsgroep"></function> die één g
 - Als de leeftijd tussen de 12 (inclusief) en 18 jaar is, moet de functie de tekst <code>"Tiener"</code> teruggeven.
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
+<div class="table-scroll">
 <table>
   <thead>
     <tr>
@@ -290,4 +295,5 @@ Maak een functie genaamd <function name="Leeftijdsgroep"></function> die één g
     </tr>
   </tbody>
 </table>
+</div>
 </details>

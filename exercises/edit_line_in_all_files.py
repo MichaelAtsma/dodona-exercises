@@ -2,18 +2,18 @@ import os
 import re
 
 # Pattern or literal to replace
-use_regex_for_to_replace = False
-to_replace = r"""if (inputsAttr && inputsAttr.trim() !== "") {"""
+use_regex_for_to_replace = True
+to_replace = r"""(?<!<div class="table-scroll">\n)<table>(.*?)</table>"""
 
 # Replacement (can contain backreferences like r"\1" when use_regex is True)
-use_regex_for_replacement = False
-replacement = r"""if (inputsAttr) {  // Put only a space in the inputs attribute if you want the function to appear with brackets but no inputs"""
+use_regex_for_replacement = True
+replacement = r"""<div class="table-scroll">\n<table>\1</table>\n</div>"""
 
 
 filename_contains = "description"
 directory_contains = ""
 directory_does_not_contain = ""
-root_dir = "exercises"
+root_dir = "dodona-exercises/exercises"
 
 for dirpath, dirnames, filenames in os.walk(root_dir):
     for filename in filenames:

@@ -196,6 +196,7 @@ def Grootste(x, y):
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
 
+<div class="table-scroll">
 <table>
   <thead>
     <tr>
@@ -227,6 +228,7 @@ def Grootste(x, y):
     </tr>
   </tbody>
 </table>
+</div>
 
 </details>
 </details>

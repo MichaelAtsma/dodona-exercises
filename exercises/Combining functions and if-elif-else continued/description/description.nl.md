@@ -216,6 +216,7 @@ Maak een functie genaamd <function name="Grootste"></function> die twee getallen
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
 
+<div class="table-scroll">
 <table>
   <thead>
     <tr>
@@ -252,5 +253,6 @@ Maak een functie genaamd <function name="Grootste"></function> die twee getallen
     </tr>
   </tbody>
 </table>
+</div>
 
 </details>

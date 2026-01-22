@@ -177,6 +177,7 @@ Wat gebeurt er hier?
 
 Je hebt bij deze uitleg enkel het vergelijkingssymbool <code>></code> gezien. Maar natuurlijk zijn er ook andere symbolen waarmee je dingen kan vergelijken:
 
+<div class="table-scroll">
 <table>
   <thead>
     <tr>
@@ -218,6 +219,7 @@ Je hebt bij deze uitleg enkel het vergelijkingssymbool <code>></code> gezien. Ma
     </tr>
   </tbody>
 </table>
+</div>
 
 <br>
 <hr>

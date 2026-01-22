@@ -137,6 +137,7 @@ Je hebt zojuist gezien dat je een <code>if</code>-statement met verschillende ve
 
 <details markdown="1"><summary>Vergelijkingssymbolen spiekbriefje</summary>
 
+<div class="table-scroll">
 <table>
   <thead>
     <tr>
@@ -178,6 +179,7 @@ Je hebt zojuist gezien dat je een <code>if</code>-statement met verschillende ve
     </tr>
   </tbody>
 </table>
+</div>
 
 </details>
 

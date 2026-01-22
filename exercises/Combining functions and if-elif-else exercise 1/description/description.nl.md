@@ -148,6 +148,7 @@ def PositiefOfNegatief(x):
     return tekst
 ```
 <details markdown="1"><summary>input-output verwachtingen</summary>
+<div class="table-scroll">
 <table>
   <thead>
     <tr>
@@ -174,6 +175,7 @@ def PositiefOfNegatief(x):
     </tr>
   </tbody>
 </table>
+</div>
 </details>
 </details>
 
@@ -192,6 +194,7 @@ def Grootste(x, y):
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
 
+<div class="table-scroll">
 <table>
   <thead>
     <tr>
@@ -223,6 +226,7 @@ def Grootste(x, y):
     </tr>
   </tbody>
 </table>
+</div>
 
 </details>
 </details>
@@ -236,6 +240,7 @@ def Grootste(x, y):
 Maak een functie genaamd <function name="Kleinste"></function> die twee getallen als invoer neemt, en de kleinste teruggeeft. Als de getallen even klein zijn, moet de functie de tekst <code>De getallen zijn even klein.</code> teruggeven.
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
+<div class="table-scroll">
 <table>
   <thead>
     <tr>
@@ -267,4 +272,5 @@ Maak een functie genaamd <function name="Kleinste"></function> die twee getallen
     </tr>
   </tbody>
 </table>
+</div>
 </details>

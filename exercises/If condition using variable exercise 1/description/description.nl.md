@@ -156,6 +156,7 @@ Wat gebeurt er hier?
 
 <details markdown="1"><summary>Vergelijkingssymbolen spiekbriefje</summary>
 
+<div class="table-scroll">
 <table>
   <thead>
     <tr>
@@ -197,6 +198,7 @@ Wat gebeurt er hier?
     </tr>
   </tbody>
 </table>
+</div>
 
 </details>
 

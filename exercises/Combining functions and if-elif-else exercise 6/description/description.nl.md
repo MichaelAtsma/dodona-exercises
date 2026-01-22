@@ -149,6 +149,7 @@ def PositiefOfNegatief(x):
 ```
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
+<div class="table-scroll">
 <table>
   <thead>
     <tr>
@@ -175,6 +176,7 @@ def PositiefOfNegatief(x):
     </tr>
   </tbody>
 </table>
+</div>
 </details>
 </details>
 
@@ -193,6 +195,7 @@ def Grootste(x, y):
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
 
+<div class="table-scroll">
 <table>
   <thead>
     <tr>
@@ -224,6 +227,7 @@ def Grootste(x, y):
     </tr>
   </tbody>
 </table>
+</div>
 
 </details>
 </details>
@@ -242,6 +246,7 @@ Maak een functie genaamd <function name="DagType"></function> die een <i>string<
 <i>Denk na in welke volgorde je de if-elif-else-statement kan zetten.</i>
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
+<div class="table-scroll">
 <table>
   <thead>
     <tr>
@@ -288,4 +293,5 @@ Maak een functie genaamd <function name="DagType"></function> die een <i>string<
     </tr>
   </tbody>
 </table>
+</div>
 </details>

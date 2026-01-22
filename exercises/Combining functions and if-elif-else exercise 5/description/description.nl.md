@@ -148,6 +148,7 @@ def PositiefOfNegatief(x):
     return tekst
 ```
 <details markdown="1"><summary>input-output verwachtingen</summary>
+<div class="table-scroll">
 <table>
   <thead>
     <tr>
@@ -174,6 +175,7 @@ def PositiefOfNegatief(x):
     </tr>
   </tbody>
 </table>
+</div>
 </details>
 </details>
 
@@ -192,6 +194,7 @@ def Grootste(x, y):
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
 
+<div class="table-scroll">
 <table>
   <thead>
     <tr>
@@ -223,6 +226,7 @@ def Grootste(x, y):
     </tr>
   </tbody>
 </table>
+</div>
 
 </details>
 </details>
@@ -239,6 +243,7 @@ Maak een functie genaamd <function name="ToegangMetNaam"></function> die een <i>
 - Alle andere namen hebben geen toegang, dus in die gevallen moet de functie de tekst <code>"Toegang geweigerd"</code> teruggeven.
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
+<div class="table-scroll">
 <table>
   <thead>
     <tr>
@@ -275,4 +280,5 @@ Maak een functie genaamd <function name="ToegangMetNaam"></function> die een <i>
     </tr>
   </tbody>
 </table>
+</div>
 </details>
