@@ -82,12 +82,12 @@ def evaluate_test(context, match_regex, mandatory_logical_operators_and_descript
     for line in get_ast_translator_code().splitlines():
         mymessages.append(Message(line))
     
-    expected = "testingline1" + chr(10) + "testingline2" + chr(10) + "testingline3"
+    expected = "testingline1\ntestingline2\ntestingline3"
     actual = "testingline1testingline2"
 
     return EvaluationResult(
       result = correct,
-      dsl_expected = expected,
+      dsl_expected = Message(expected),
       dsl_actual = actual,
       messages = mymessages
     )
