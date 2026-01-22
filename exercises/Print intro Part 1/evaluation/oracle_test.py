@@ -51,7 +51,7 @@ def evaluate_test(context, match_regex, mandatory_texts_and_descriptions, forbid
         
     return EvaluationResult(
       result = correct,
-      dsl_expected = context.expected,
-      dsl_actual = context.actual,
+      dsl_expected = "", # empty string seems to default to correctly displayed expected and actual values
+      dsl_actual = "", # empty string seems to default to correctly displayed expected and actual values
       messages = mymessages
     )
