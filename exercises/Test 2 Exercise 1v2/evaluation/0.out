@@ -1,0 +1,8 @@
+--------------------------------------------------
+tab name: Voorbeelden
+<LANGUAGE code="en">
+    <function from="BetoogLengte" to="EssayLength" />
+    <fixed from="Dit is een kort betoog." to="This is a short essay." />
+    <fixed from="Dit is een normaal betoog." to="This is a normal essay." />
+    <fixed from="Dit is een lang betoog." to="This is a long essay." />
+</LANGUAGE>

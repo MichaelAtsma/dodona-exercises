@@ -1,0 +1,220 @@
+>>> BetoogLengte(10)
+'Dit is een kort betoog.'
+>>> BetoogLengte(20)
+'Dit is een kort betoog.'
+>>> BetoogLengte(30)
+'Dit is een kort betoog.'
+>>> BetoogLengte(40)
+'Dit is een kort betoog.'
+>>> BetoogLengte(50)
+'Dit is een kort betoog.'
+>>> BetoogLengte(60)
+'Dit is een kort betoog.'
+>>> BetoogLengte(70)
+'Dit is een kort betoog.'
+>>> BetoogLengte(80)
+'Dit is een kort betoog.'
+>>> BetoogLengte(90)
+'Dit is een kort betoog.'
+>>> BetoogLengte(100)
+'Dit is een kort betoog.'
+>>> BetoogLengte(110)
+'Dit is een kort betoog.'
+>>> BetoogLengte(120)
+'Dit is een kort betoog.'
+>>> BetoogLengte(130)
+'Dit is een kort betoog.'
+>>> BetoogLengte(140)
+'Dit is een kort betoog.'
+>>> BetoogLengte(150)
+'Dit is een kort betoog.'
+>>> BetoogLengte(160)
+'Dit is een kort betoog.'
+>>> BetoogLengte(170)
+'Dit is een kort betoog.'
+>>> BetoogLengte(180)
+'Dit is een kort betoog.'
+>>> BetoogLengte(190)
+'Dit is een kort betoog.'
+>>> BetoogLengte(200)
+'Dit is een kort betoog.'
+>>> BetoogLengte(210)
+'Dit is een kort betoog.'
+>>> BetoogLengte(220)
+'Dit is een kort betoog.'
+>>> BetoogLengte(230)
+'Dit is een kort betoog.'
+>>> BetoogLengte(240)
+'Dit is een kort betoog.'
+>>> BetoogLengte(250)
+'Dit is een kort betoog.'
+>>> BetoogLengte(260)
+'Dit is een kort betoog.'
+>>> BetoogLengte(270)
+'Dit is een kort betoog.'
+>>> BetoogLengte(280)
+'Dit is een kort betoog.'
+>>> BetoogLengte(290)
+'Dit is een kort betoog.'
+>>> BetoogLengte(300)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(310)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(320)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(330)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(340)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(350)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(360)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(370)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(380)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(390)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(400)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(410)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(420)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(430)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(440)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(450)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(460)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(470)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(480)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(490)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(500)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(510)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(520)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(530)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(540)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(550)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(560)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(570)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(580)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(590)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(600)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(610)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(620)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(630)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(640)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(650)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(660)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(670)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(680)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(690)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(700)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(710)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(720)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(730)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(740)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(750)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(760)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(770)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(780)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(790)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(800)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(810)
+'Dit is een lang betoog.'
+>>> BetoogLengte(820)
+'Dit is een lang betoog.'
+>>> BetoogLengte(830)
+'Dit is een lang betoog.'
+>>> BetoogLengte(840)
+'Dit is een lang betoog.'
+>>> BetoogLengte(850)
+'Dit is een lang betoog.'
+>>> BetoogLengte(860)
+'Dit is een lang betoog.'
+>>> BetoogLengte(870)
+'Dit is een lang betoog.'
+>>> BetoogLengte(880)
+'Dit is een lang betoog.'
+>>> BetoogLengte(890)
+'Dit is een lang betoog.'
+>>> BetoogLengte(900)
+'Dit is een lang betoog.'
+>>> BetoogLengte(910)
+'Dit is een lang betoog.'
+>>> BetoogLengte(920)
+'Dit is een lang betoog.'
+>>> BetoogLengte(930)
+'Dit is een lang betoog.'
+>>> BetoogLengte(940)
+'Dit is een lang betoog.'
+>>> BetoogLengte(950)
+'Dit is een lang betoog.'
+>>> BetoogLengte(960)
+'Dit is een lang betoog.'
+>>> BetoogLengte(970)
+'Dit is een lang betoog.'
+>>> BetoogLengte(980)
+'Dit is een lang betoog.'
+>>> BetoogLengte(990)
+'Dit is een lang betoog.'
+>>> BetoogLengte(1000)
+'Dit is een lang betoog.'
+>>> BetoogLengte(1010)
+'Dit is een lang betoog.'
+>>> BetoogLengte(1020)
+'Dit is een lang betoog.'
+>>> BetoogLengte(1030)
+'Dit is een lang betoog.'
+>>> BetoogLengte(1040)
+'Dit is een lang betoog.'
+>>> BetoogLengte(1050)
+'Dit is een lang betoog.'
+>>> BetoogLengte(1060)
+'Dit is een lang betoog.'
+>>> BetoogLengte(1070)
+'Dit is een lang betoog.'
+>>> BetoogLengte(1080)
+'Dit is een lang betoog.'
+>>> BetoogLengte(1090)
+'Dit is een lang betoog.'
+>>> BetoogLengte(1100)
+'Dit is een lang betoog.'

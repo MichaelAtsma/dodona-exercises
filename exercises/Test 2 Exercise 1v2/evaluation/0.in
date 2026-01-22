@@ -1,0 +1,10 @@
+>>> BetoogLengte(90)
+'Dit is een kort betoog.'
+>>> BetoogLengte(300)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(593)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(800)
+'Dit is een normaal betoog.'
+>>> BetoogLengte(1050)
+'Dit is een lang betoog.'
