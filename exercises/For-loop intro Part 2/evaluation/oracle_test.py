@@ -33,7 +33,6 @@ def evaluate_test(context, match_regex, mandatory_texts_and_descriptions, forbid
             checks["forbidden text not used"] = False
             used_forbidden_texts_and_descriptions[forbidden_text] = forbidden_texts_and_descriptions[forbidden_text]
     
-    # count repetitions in expected and actual
     expected_repetitions = len(context.expected.splitlines())
     actual_repetitions = len(context.actual.splitlines())
 
@@ -52,12 +51,6 @@ def evaluate_test(context, match_regex, mandatory_texts_and_descriptions, forbid
             mymessages.append(Message(f"Je mag enkel iets tussen de haakjes schrijven. Zorg ervoor dat je de rest van de code niet wijzigt."))
         if not checks["student contribution type is not string"]:
             mymessages.append(Message(f"Je hebt een getal nodig in de range-functie, geen tekst."))
-
-    mymessages.append(Message(f"group 1: {m.group(1) if m else 'no match'}"))
-    mymessages.append(Message(f"group 2: {m.group(2) if m else 'no match'}"))
-    # mymessages.append(Message(f"group 3: {m.group(3) if m else 'no match'}"))
-
-    # I will add feedback about mismatched group 1 and group 3 if the above proves to work
 
     return EvaluationResult(
       result = correct,
