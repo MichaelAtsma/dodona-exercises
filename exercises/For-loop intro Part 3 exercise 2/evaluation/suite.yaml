@@ -1,0 +1,10 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - stdin: ""
+          stdout: 
+            data: "0 in het kwadraat is 0\n1 in het kwadraat is 1\n2 in het kwadraat is 4\n3 in het kwadraat is 9\n4 in het kwadraat is 16"
+            oracle: "custom_check"
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["[\\n \\t]*for[ ]+[a-zA-Z_]+[a-zA-Z0-9_]*[ ]+in[ ]+range\\(5\\)[ ]*:[ ]*\\n[ \\t]+y[ ]*=[ ]*(.*)[\\n \\t]*[ \\t]+print\\(f\"{i} in het kwadraat is {y}\"\\)[\\n \\t]*", {"i": "het huidige herhalingsnummer", "*": "een machtsverheffing"}, {}, "Goed zo! Je hebt {} juiste berekeningen gedaan door maar 1 berekening te schrijven.", "Helaas! De uitkomst is niet juist."]

@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "For-lus intro (deel 3, oefening 2)"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "labels": [],
+  "internals": {
+    "token": "HHK54BDaRYxTHytJbRk5UR5bB_EPXR66Z3M8NNkgWB46V96fQZYBd5SSf4VzrZaX",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
