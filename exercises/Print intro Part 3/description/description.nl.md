@@ -205,6 +205,8 @@ Op het scherm zie je:
 # <b>Opdracht</b>
 Zet tussen de haakjes iets zodat de tekst <code>10</code> geprint wordt als je de code uitvoert.
 
+<i>Herinner: als je iets hebt opgeslagen in een variabele, dan is het niet goed programmeren om die waarde nog eens letterlijk te typen.</i>
+
 ```python
 a = 10
 print()
