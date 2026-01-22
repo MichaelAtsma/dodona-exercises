@@ -145,6 +145,7 @@ f = (a + b) * c
 ```
 
 Dit resulteert in de volgende waarden:
+
 ```python
 d = "tik tok "
 e = "tik tik tik "

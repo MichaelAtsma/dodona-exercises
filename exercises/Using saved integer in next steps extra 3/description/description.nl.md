@@ -144,6 +144,7 @@ e = a / b
 ```
 
 Dit resulteert in de volgende waarden:
+
 ```python
 c = 56
 d = -1

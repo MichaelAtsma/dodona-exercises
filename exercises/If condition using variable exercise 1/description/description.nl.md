@@ -136,6 +136,7 @@
 Je hebt zojuist gezien dat in de voorwaarde van je <code>if</code>-statement ook een variabele kan gebruiken om te bepalen of de regel(s) eronder wel of niet worden uitgevoerd. Dit deed je met de volgende code:
 
 <details markdown="1"><summary>Voorbeeld</summary>
+
 ```python
 leeftijd = 15
 

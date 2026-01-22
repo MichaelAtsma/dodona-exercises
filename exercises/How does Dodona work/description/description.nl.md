@@ -13,10 +13,12 @@ Soms worden er voorbeelden gegeven van wat jouw programma zou moeten doen in ver
 <details markdown="1">
 <summary>Voorbeeld</summary>
 <h3><b>Invoer</b></h3>
+
 ```python
 1+1
 ```
 <h3><b>Uitvoer</b></h3>
+
 ```python
 2
 ```

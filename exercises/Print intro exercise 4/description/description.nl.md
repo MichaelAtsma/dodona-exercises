@@ -155,6 +155,7 @@ Hier zijn enkele voorbeelden van hoe je de <function name="print" inputs=" "></f
 
 ### Voorbeeld 1: Printen van een getal
 Je code:
+
 ```python
 print(42)
 ```

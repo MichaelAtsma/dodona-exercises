@@ -3,11 +3,11 @@ import re
 
 # Pattern or literal to replace
 use_regex_for_to_replace = True
-to_replace = r"""(?<!<div class="table-scroll">\n)<table>(.*?)</table>"""
+to_replace = r"""([^\n])\n```python"""
 
 # Replacement (can contain backreferences like r"\1" when use_regex is True)
 use_regex_for_replacement = True
-replacement = r"""<div class="table-scroll">\n<table>\1</table>\n</div>"""
+replacement = r"""\1\n\n```python"""
 
 
 filename_contains = "description"

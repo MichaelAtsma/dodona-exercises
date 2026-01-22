@@ -136,6 +136,7 @@
 Je hebt geleerd hoe je functies maakt, en je hebt geleerd hoe je een <i>if-else</i>-statement maakt. Zie hieronder nog eens van elk een voorbeeld en uitleg.
 
 <details markdown="1"><summary>Voorbeeld functie</summary>
+
 ```python
 def Optellen(a, b):
     resultaat = a + b

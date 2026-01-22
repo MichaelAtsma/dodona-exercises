@@ -335,6 +335,7 @@ Je kan meerdere <i>elif</i>-statements gebruiken om te controleren welke maand h
 
 <details markdown="1"><summary>Tip (meer detail dan hierboven)</summary>
 Bijvoorbeeld:
+
 ```python
 if a == 1:
     # doe iets

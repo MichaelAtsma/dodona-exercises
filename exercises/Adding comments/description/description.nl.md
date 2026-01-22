@@ -138,6 +138,7 @@
 Een commentaar is een stukje tekst in je code dat door de computer wordt genegeerd. Je gebruikt het bijvoorbeeld om uit te leggen wat je code doet. In Python begin je een commentaar met een `#`.
 
 **Voorbeeld:**
+
 ```python
 a = 1
 # a = 2

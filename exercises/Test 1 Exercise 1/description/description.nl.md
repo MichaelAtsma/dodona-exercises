@@ -50,10 +50,11 @@
 Gebruik de juiste datatypen (soorten gegevens) om de fouten uit de gegeven code te halen.
 
 <details markdown="1"><summary>Originele code</summary>
+
 ```python
 geheel_getal = 8.0
 kommagetal = 6,1
 zin = Dit is een zin
-
 ```
+
 </details>
