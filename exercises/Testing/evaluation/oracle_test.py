@@ -81,10 +81,13 @@ def evaluate_test(context, match_regex, mandatory_logical_operators_and_descript
     mymessages.append(Message("Hieronder de file ast_translator.py voor je referentie:"))
     for line in get_ast_translator_code().splitlines():
         mymessages.append(Message(line))
+    
+    expected = "testingline1\ntestingline2\ntestingline3"
+    actual = "testingline1\ntestingline2"
 
     return EvaluationResult(
       result = correct,
-      dsl_expected = context.expected,
-      dsl_actual = context.actual,
+      dsl_expected = expected,
+      dsl_actual = actual,
       messages = mymessages
     )
