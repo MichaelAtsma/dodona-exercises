@@ -1,3 +1,3 @@
 def Optellen(a, b):
-  resultaat = a + b
-  return resultaat
+    resultaat = a + b
+    return resultaat

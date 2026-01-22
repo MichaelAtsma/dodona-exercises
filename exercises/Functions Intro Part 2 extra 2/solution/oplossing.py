@@ -1,3 +1,3 @@
 def Delen(a, b):
-  resultaat = b / a
-  return resultaat
+    resultaat = b / a
+    return resultaat
