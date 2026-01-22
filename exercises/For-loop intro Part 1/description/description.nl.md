@@ -192,22 +192,22 @@ Wat gebeurt hier?
 Op het scherm zie je dus verschijnen:
 
 ```
-Hallo, wereld!
-Hallo, wereld!
-Hallo, wereld!
-Hallo, wereld!
-Hallo, wereld!
+Hallo wereld!
+Hallo wereld!
+Hallo wereld!
+Hallo wereld!
+Hallo wereld!
 ```
 
 <br>
 <hr>
 
 # <b>Opdracht</b>
-Vervang de underscores met een getal om de tekst <code>Hallo, wereld!</code> vijf keer af te drukken.
+Vervang de underscores met een getal om de tekst <code>Hallo wereld!</code> vijf keer af te drukken.
 
 ```python
 for i in range(____):
-    print("Hallo, wereld!")
+    print("Hallo wereld!")
 ```
 
 <i>(Vervang enkel de underscores, laat de rest van de code zoals het is.)</i>
