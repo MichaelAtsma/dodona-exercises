@@ -203,7 +203,7 @@ Hallo wereld!
 <hr>
 
 # <b>Opdracht</b>
-Vervang de underscores met een getal om de tekst <code>Hallo wereld!</code> vijf keer af te drukken.
+Vervang de underscores met een getal om de tekst <code class="string">Hallo wereld!</code> vijf keer af te drukken.
 
 ```python
 for i in range(____):
