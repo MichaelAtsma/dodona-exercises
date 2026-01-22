@@ -172,20 +172,20 @@ Laten we eens een echt voorbeeld bekijken:
 
 ```python
 for i in range(5):
-    print("Hallo, wereld!")
+    print("Hallo wereld!")
 ```
 
 Wat gebeurt hier?
 
 <ul>
   <li><function name="range" inputs="5"></function> genereert de getallen <code>0</code>, <code>1</code>, <code>2</code>, <code>3</code>, en <code>4</code>.</li>
-  <li>In het begin krijgt <i>i</i> de waarde <code>0</code>.</li>
-  <li>De code binnen de lus, <function name="print" inputs='"Hallo, wereld!"'></function>, wordt uitgevoerd, waardoor <code class="string">Hallo, wereld!</code> op het scherm verschijnt.</li>
-  <li>Daarna krijgt <i>i</i> de volgende waarde, namelijk <code>1</code>.</li>
-  <li>De code binnen de lus, <function name="print" inputs='"Hallo, wereld!"'></function>, wordt uitgevoerd, waardoor <code class="string">Hallo, wereld!</code> op het scherm verschijnt. (voor de tweede keer dus)</li>
+  <li>In het begin krijgt <code>i</code> de waarde <code>0</code>.</li>
+  <li>De code binnen de lus, <function name="print" inputs='"Hallo wereld!"'></function>, wordt uitgevoerd, waardoor <code class="string">Hallo wereld!</code> op het scherm verschijnt.</li>
+  <li>Daarna krijgt <code>i</code> de volgende waarde, namelijk <code>1</code>.</li>
+  <li>De code binnen de lus, <function name="print" inputs='"Hallo wereld!"'></function>, wordt uitgevoerd, waardoor <code class="string">Hallo wereld!</code> op het scherm verschijnt. (voor de tweede keer dus)</li>
   <li>...</li>
-  <li>Als laatste krijgt <i>i</i> de waarde <code>4</code>.</li>
-  <li>De code binnen de lus, <function name="print" inputs='"Hallo, wereld!"'></function>, wordt uitgevoerd, waardoor <code class="string">Hallo, wereld!</code> op het scherm verschijnt. (voor de vijfde keer dus)</li>
+  <li>Als laatste krijgt <code>i</code> de waarde <code>4</code>.</li>
+  <li>De code binnen de lus, <function name="print" inputs='"Hallo wereld!"'></function>, wordt uitgevoerd, waardoor <code class="string">Hallo wereld!</code> op het scherm verschijnt. (voor de vijfde keer dus)</li>
   <li>Nu zijn er geen getallen meer in de reeks die door <function name="range" inputs="5"></function> is gegenereerd, dus stopt de lus.</li>
 </ul>
 
