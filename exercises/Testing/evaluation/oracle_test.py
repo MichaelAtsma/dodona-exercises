@@ -38,7 +38,9 @@ def get_boilerplate():
 #       - .editorconfig  (not useful file)
 
 
-
+def get_ast_translator_code():
+    with open("../judge/tested/dsl/ast_translator.py", 'r') as f:
+        return f.read()
 
 def lines_containing_var(text, var):
     return [line for line in text.splitlines() if (f"{var}=" in line or f"{var} =" in line)]
@@ -73,7 +75,11 @@ def evaluate_test(context, match_regex, mandatory_logical_operators_and_descript
             mymessages.append(Message(f"Je mag enkel de voorwaarde aanpassen. Zorg ervoor dat je de rest van de code niet wijzigt."))
         if not checks["student contribution type is not string"]:
             mymessages.append(Message(f"Hoewel de uitkomst misschien correct is, moet je een getal printen, dan heb je dus geen aanhalingstekens nodig."))
-        
+    
+    mymessages.append(Message("Hieronder de file ast_translator.py voor je referentie:"))
+    for line in get_ast_translator_code().splitlines():
+        mymessages.append(Message(line))
+
     return EvaluationResult(
       result = correct,
       dsl_expected = context.expected,
