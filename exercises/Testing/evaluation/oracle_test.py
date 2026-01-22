@@ -82,7 +82,9 @@ def evaluate_test(context, match_regex, mandatory_logical_operators_and_descript
     for line in get_ast_translator_code().splitlines():
         mymessages.append(Message(line))
     
-    expected = "testingline1\\ntestingline2\\ntestingline3"
+    expected = """testingline1
+    testingline2
+    testingline3"""
     actual = "testingline1testingline2"
 
     return EvaluationResult(
