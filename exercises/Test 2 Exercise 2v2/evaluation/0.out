@@ -1,0 +1,9 @@
+--------------------------------------------------
+tab name: Voorbeelden
+<LANGUAGE code="en">
+    <function from="RacePrestatie" to="RacePerformance" />
+    <fixed from="Elite." to="Elite." />
+    <fixed from="Wave 1: snelle lopers." to="Wave 1: fast runners." />
+    <fixed from="Wave 2: gemiddelde lopers." to="Wave 2: average runners." />
+    <fixed from="Wave 3: overige lopers." to="Wave 3: other runners." />
+</LANGUAGE>

@@ -1,0 +1,14 @@
+>>> RacePrestatie(1)
+'Elite.'
+>>> RacePrestatie(1.25)
+'Wave 1: snelle lopers.'
+>>> RacePrestatie(1.5)
+'Wave 1: snelle lopers.'
+>>> RacePrestatie(1.75)
+'Wave 2: gemiddelde lopers.'
+>>> RacePrestatie(2)
+'Wave 2: gemiddelde lopers.'
+>>> RacePrestatie(2.25)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.5)
+'Wave 3: overige lopers.'

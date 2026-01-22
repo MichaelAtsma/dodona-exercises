@@ -1,0 +1,240 @@
+>>> RacePrestatie(0.0)
+'Elite.'
+>>> RacePrestatie(0.025)
+'Elite.'
+>>> RacePrestatie(0.05)
+'Elite.'
+>>> RacePrestatie(0.075)
+'Elite.'
+>>> RacePrestatie(0.1)
+'Elite.'
+>>> RacePrestatie(0.125)
+'Elite.'
+>>> RacePrestatie(0.15)
+'Elite.'
+>>> RacePrestatie(0.175)
+'Elite.'
+>>> RacePrestatie(0.2)
+'Elite.'
+>>> RacePrestatie(0.225)
+'Elite.'
+>>> RacePrestatie(0.25)
+'Elite.'
+>>> RacePrestatie(0.275)
+'Elite.'
+>>> RacePrestatie(0.3)
+'Elite.'
+>>> RacePrestatie(0.325)
+'Elite.'
+>>> RacePrestatie(0.35)
+'Elite.'
+>>> RacePrestatie(0.375)
+'Elite.'
+>>> RacePrestatie(0.4)
+'Elite.'
+>>> RacePrestatie(0.425)
+'Elite.'
+>>> RacePrestatie(0.45)
+'Elite.'
+>>> RacePrestatie(0.475)
+'Elite.'
+>>> RacePrestatie(0.5)
+'Elite.'
+>>> RacePrestatie(0.525)
+'Elite.'
+>>> RacePrestatie(0.55)
+'Elite.'
+>>> RacePrestatie(0.575)
+'Elite.'
+>>> RacePrestatie(0.6)
+'Elite.'
+>>> RacePrestatie(0.625)
+'Elite.'
+>>> RacePrestatie(0.65)
+'Elite.'
+>>> RacePrestatie(0.675)
+'Elite.'
+>>> RacePrestatie(0.7)
+'Elite.'
+>>> RacePrestatie(0.725)
+'Elite.'
+>>> RacePrestatie(0.75)
+'Elite.'
+>>> RacePrestatie(0.775)
+'Elite.'
+>>> RacePrestatie(0.8)
+'Elite.'
+>>> RacePrestatie(0.825)
+'Elite.'
+>>> RacePrestatie(0.85)
+'Elite.'
+>>> RacePrestatie(0.875)
+'Elite.'
+>>> RacePrestatie(0.9)
+'Elite.'
+>>> RacePrestatie(0.925)
+'Elite.'
+>>> RacePrestatie(0.95)
+'Elite.'
+>>> RacePrestatie(0.975)
+'Elite.'
+>>> RacePrestatie(1.0)
+'Elite.'
+>>> RacePrestatie(1.025)
+'Elite.'
+>>> RacePrestatie(1.05)
+'Elite.'
+>>> RacePrestatie(1.075)
+'Elite.'
+>>> RacePrestatie(1.1)
+'Elite.'
+>>> RacePrestatie(1.125)
+'Elite.'
+>>> RacePrestatie(1.15)
+'Elite.'
+>>> RacePrestatie(1.175)
+'Elite.'
+>>> RacePrestatie(1.2)
+'Elite.'
+>>> RacePrestatie(1.225)
+'Elite.'
+>>> RacePrestatie(1.25)
+'Wave 1: snelle lopers.'
+>>> RacePrestatie(1.275)
+'Wave 1: snelle lopers.'
+>>> RacePrestatie(1.3)
+'Wave 1: snelle lopers.'
+>>> RacePrestatie(1.325)
+'Wave 1: snelle lopers.'
+>>> RacePrestatie(1.35)
+'Wave 1: snelle lopers.'
+>>> RacePrestatie(1.375)
+'Wave 1: snelle lopers.'
+>>> RacePrestatie(1.4)
+'Wave 1: snelle lopers.'
+>>> RacePrestatie(1.425)
+'Wave 1: snelle lopers.'
+>>> RacePrestatie(1.45)
+'Wave 1: snelle lopers.'
+>>> RacePrestatie(1.475)
+'Wave 1: snelle lopers.'
+>>> RacePrestatie(1.5)
+'Wave 1: snelle lopers.'
+>>> RacePrestatie(1.525)
+'Wave 1: snelle lopers.'
+>>> RacePrestatie(1.55)
+'Wave 1: snelle lopers.'
+>>> RacePrestatie(1.575)
+'Wave 1: snelle lopers.'
+>>> RacePrestatie(1.6)
+'Wave 1: snelle lopers.'
+>>> RacePrestatie(1.625)
+'Wave 1: snelle lopers.'
+>>> RacePrestatie(1.65)
+'Wave 1: snelle lopers.'
+>>> RacePrestatie(1.675)
+'Wave 1: snelle lopers.'
+>>> RacePrestatie(1.7)
+'Wave 1: snelle lopers.'
+>>> RacePrestatie(1.725)
+'Wave 1: snelle lopers.'
+>>> RacePrestatie(1.75)
+'Wave 2: gemiddelde lopers.'
+>>> RacePrestatie(1.775)
+'Wave 2: gemiddelde lopers.'
+>>> RacePrestatie(1.8)
+'Wave 2: gemiddelde lopers.'
+>>> RacePrestatie(1.825)
+'Wave 2: gemiddelde lopers.'
+>>> RacePrestatie(1.85)
+'Wave 2: gemiddelde lopers.'
+>>> RacePrestatie(1.875)
+'Wave 2: gemiddelde lopers.'
+>>> RacePrestatie(1.9)
+'Wave 2: gemiddelde lopers.'
+>>> RacePrestatie(1.925)
+'Wave 2: gemiddelde lopers.'
+>>> RacePrestatie(1.95)
+'Wave 2: gemiddelde lopers.'
+>>> RacePrestatie(1.975)
+'Wave 2: gemiddelde lopers.'
+>>> RacePrestatie(2.0)
+'Wave 2: gemiddelde lopers.'
+>>> RacePrestatie(2.025)
+'Wave 2: gemiddelde lopers.'
+>>> RacePrestatie(2.05)
+'Wave 2: gemiddelde lopers.'
+>>> RacePrestatie(2.075)
+'Wave 2: gemiddelde lopers.'
+>>> RacePrestatie(2.1)
+'Wave 2: gemiddelde lopers.'
+>>> RacePrestatie(2.125)
+'Wave 2: gemiddelde lopers.'
+>>> RacePrestatie(2.15)
+'Wave 2: gemiddelde lopers.'
+>>> RacePrestatie(2.175)
+'Wave 2: gemiddelde lopers.'
+>>> RacePrestatie(2.2)
+'Wave 2: gemiddelde lopers.'
+>>> RacePrestatie(2.225)
+'Wave 2: gemiddelde lopers.'
+>>> RacePrestatie(2.25)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.275)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.3)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.325)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.35)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.375)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.4)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.425)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.45)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.475)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.5)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.525)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.55)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.575)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.6)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.625)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.65)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.675)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.7)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.725)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.75)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.775)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.8)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.825)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.85)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.875)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.9)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.925)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.95)
+'Wave 3: overige lopers.'
+>>> RacePrestatie(2.975)
+'Wave 3: overige lopers.'
