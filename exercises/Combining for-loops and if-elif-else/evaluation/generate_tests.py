@@ -9,7 +9,7 @@ def EvenOfOneven(n):
     else:
         return f"{n} is een oneven getal."
 
-result = "\n".join([EvenOfOneven(i) for i in range(301)])
+result = "\\n".join([EvenOfOneven(i) for i in range(301)])
 
 copy_to_clipboard(result)
 print("Copied to clipboard:")
