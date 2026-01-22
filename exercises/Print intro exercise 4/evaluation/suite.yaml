@@ -1,0 +1,5 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - stdin: ""
+          stdout: "Hallo wereld!\nHallo wereld!\nHallo wereld!\nHallo wereld!\nHallo wereld!\nHallo wereld!\nHallo wereld!\nHallo wereld!\nHallo wereld!\nHallo wereld!"

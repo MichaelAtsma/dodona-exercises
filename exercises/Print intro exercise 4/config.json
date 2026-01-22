@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "Print (oefening 4)"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "labels": [],
+  "internals": {
+    "token": "zr8JXPY3mjFXACBEwNxSM6zczg24tJvmQpSvQHCJXb5V39-UTPpyiWKBmuXeZru3",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
