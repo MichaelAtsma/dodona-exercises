@@ -1,0 +1,10 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - stdin: ""
+          stdout: 
+            data: "Hallo wereld!\nHallo wereld!\nHallo wereld!\nHallo wereld!\nHallo wereld!"
+            oracle: "custom_check"
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["[\\n \\t]*for[ ]+[a-zA-Z]+[ ]+in[ ]+range\\((.+)\\)[ ]*:[ ]*[\\n \\t]*[ \\t]+print\\(\"Hallo wereld!\"\\)[\\n \\t]*", {"5": "het aantal keer dat je wil dat de print-functie herhaald wordt"}, {}, "Goed zo! De print-functie heeft zich {} keer herhaald.", "Helaas! De print-functie heeft zich {} keer herhaald in plaats van {} keer."]
