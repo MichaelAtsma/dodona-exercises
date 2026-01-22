@@ -55,7 +55,7 @@ def evaluate_test(context, match_regex, mandatory_texts_and_descriptions, forbid
         
     return EvaluationResult(
       result = correct,
-      dsl_expected = context.expected,
-      dsl_actual = context.actual,
+      dsl_expected = repr(context.expected),
+      dsl_actual = repr(context.actual),
       messages = mymessages
     )
