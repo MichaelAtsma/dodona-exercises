@@ -55,7 +55,7 @@ def evaluate_test(context, match_regex, mandatory_texts_and_descriptions, forbid
 
     mymessages.append(Message(f"group 1: {m.group(1) if m else 'no match'}"))
     mymessages.append(Message(f"group 2: {m.group(2) if m else 'no match'}"))
-    mymessages.append(Message(f"group 3: {m.group(3) if m else 'no match'}"))
+    # mymessages.append(Message(f"group 3: {m.group(3) if m else 'no match'}"))
 
     # I will add feedback about mismatched group 1 and group 3 if the above proves to work
 
