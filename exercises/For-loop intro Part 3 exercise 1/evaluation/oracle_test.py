@@ -42,7 +42,7 @@ def evaluate_test(context, match_regex, mandatory_texts_and_descriptions, forbid
         mymessages.append(Message(correct_message_template.format(actual_repetitions)))
     else:
         if not checks["correct value"]:
-            mymessages.append(Message(wrong_value_message_template.format(actual_repetitions, expected_repetitions)))
+            mymessages.append(Message(wrong_value_message_template))
         if not checks["mandatory texts used"]:
             mymessages.append(Message(f"Je moet gebruik maken van: {', '.join(missing_texts_and_descriptions.values())}."))
         if not checks["forbidden text not used"]:

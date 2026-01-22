@@ -7,4 +7,4 @@
             oracle: "custom_check"
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["[\\n \\t]*for[ ]+[a-zA-Z_]+[a-zA-Z0-9_]*[ ]+in[ ]+range\\(5\\)[ ]*:[ ]*\\n[ \\t]+echte_herhalingsnummer[ ]*=[ ]*(.*)[\\n \\t]*[ \\t]+print\\(f\"Dit is herhaling nummer {echte_herhalingsnummer}\"\\)[\\n \\t]*", {"i": "het huidige herhalingsnummer", "+": "een optelling"}, {}, "Goed zo! De print-functie heeft zich {} keer herhaald.", "Helaas! De print-functie heeft zich {} keer herhaald in plaats van {} keer."]
+            arguments: ["[\\n \\t]*for[ ]+[a-zA-Z_]+[a-zA-Z0-9_]*[ ]+in[ ]+range\\(5\\)[ ]*:[ ]*\\n[ \\t]+echte_herhalingsnummer[ ]*=[ ]*(.*)[\\n \\t]*[ \\t]+print\\(f\"Dit is herhaling nummer {echte_herhalingsnummer}\"\\)[\\n \\t]*", {"i": "het huidige herhalingsnummer", "+": "een optelling"}, {}, "Goed zo! Je hebt {} juiste berekeningen gedaan door maar 1 berekening te schrijven.", "Helaas! De uitkomst is niet juist."]
