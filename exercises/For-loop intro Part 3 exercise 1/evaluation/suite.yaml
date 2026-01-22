@@ -1,0 +1,10 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - stdin: ""
+          stdout: 
+            data: "Dit is herhaling nummer 5\nDit is herhaling nummer 6\nDit is herhaling nummer 7\nDit is herhaling nummer 8\nDit is herhaling nummer 9"
+            oracle: "custom_check"
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["[\\n \\t]*for[ ]+[a-zA-Z_]+[a-zA-Z0-9_]*[ ]+in[ ]+range\\(5\\)[ ]*:[ ]*\\n[ \\t]+echte_herhalingsnummer[ ]*=[ ]*(.*)[\\n \\t]*[ \\t]+print\\(f\"Dit is herhaling nummer {echte_herhalingsnummer}\"\\)[\\n \\t]*", {"i": "het huidige herhalingsnummer", "+": "een optelling"}, {}, "Goed zo! De print-functie heeft zich {} keer herhaald.", "Helaas! De print-functie heeft zich {} keer herhaald in plaats van {} keer."]
