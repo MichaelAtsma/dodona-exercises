@@ -48,7 +48,7 @@ def evaluate_test(context, match_regex, mandatory_texts_and_descriptions, forbid
         if not checks["forbidden text not used"]:
             mymessages.append(Message(f"Je mag geen gebruik maken van: {', '.join(used_forbidden_texts_and_descriptions.values())}."))
         if not checks["code matches regex"]:
-            mymessages.append(Message(f"Je mag enkel iets tussen de haakjes schrijven. Zorg ervoor dat je de rest van de code niet wijzigt."))
+            mymessages.append(Message(f"Je mag enkel de underscores vervangen. Zorg ervoor dat je de rest van de code niet wijzigt."))
         if not checks["student contribution type is not string"]:
             mymessages.append(Message(f"Je hebt een getal nodig in de range-functie, geen tekst."))
 
