@@ -1,0 +1,5 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - stdin: ""
+          stdout: "Eerste regel\nTweede regel"
