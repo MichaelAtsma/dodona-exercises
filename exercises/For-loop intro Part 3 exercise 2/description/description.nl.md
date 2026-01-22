@@ -237,7 +237,7 @@ for i in range(5):
 
 Wat gebeurt hier?
 <ul>
-  <li><function name="range" inputs="5"></function> genereert de getallen 0, 1, 2, 3, en 4.</li>
+  <li><function name="range" inputs="5"></function> genereert de getallen <code>0</code>, <code>1</code>, <code>2</code>, <code>3</code>, en <code>4</code>.</li>
   <li>In het begin krijgt <code>i</code> de waarde <code>0</code>.</li>
   <li>We berekenen <code>echte_herhalingsnummer</code> als <code>i + 1</code>, wat dus <code>0 + 1 = 1</code> is.</li>
   <li>Dan wordt <function name="print" inputs='f"Dit is herhaling nummer {echte_herhalingsnummer}"'></function> uitgevoerd, waardoor <code class="string">Dit is herhaling nummer 1</code> op het scherm verschijnt.</li>
