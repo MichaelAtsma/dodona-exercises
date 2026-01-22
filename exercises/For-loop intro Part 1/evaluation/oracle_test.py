@@ -53,15 +53,15 @@ def evaluate_test(context, match_regex, mandatory_texts_and_descriptions, forbid
         if not checks["student contribution type is not string"]:
             mymessages.append(Message(f"Je hebt een getal nodig in de range-functie, geen tekst."))
     
-    mymessages.append(Message(""))  # empty line for better readability
-    mymessages.append(Message(f"Je code gaf de volgende uitkomst:"))
-    for line in context.actual.splitlines():
-        mymessages.append(Message(line))
+    # mymessages.append(Message(""))  # empty line for better readability
+    # mymessages.append(Message(f"Je code gaf de volgende uitkomst:"))
+    # for line in context.actual.splitlines():
+    #     mymessages.append(Message(line))
 
-    mymessages.append(Message(""))  # empty line for better readability
-    mymessages.append(Message(f"Verwachte uitkomst:"))
-    for line in context.expected.splitlines():
-        mymessages.append(Message(line))
+    # mymessages.append(Message(""))  # empty line for better readability
+    # mymessages.append(Message(f"Verwachte uitkomst:"))
+    # for line in context.expected.splitlines():
+    #     mymessages.append(Message(line))
 
     return EvaluationResult(
       result = correct,
