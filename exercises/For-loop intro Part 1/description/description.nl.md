@@ -137,6 +137,8 @@
 # <b>Welk probleem heb je bij de vorige oefening opgemerkt?</b>
 Je hebt net een oefening gedaan waarbij je 10 keer dezelfde tekst op het scherm moest laten verschijnen. Dit heb je gedaan met de print-functie. Maar wat als je diezelfde tekst 100 keer of zelfs 1000 keer op het scherm wilt laten verschijnen? Zou je dan echt 100 of 1000 keer dezelfde regel code moeten schrijven? Dat zou heel veel werk zijn en bovendien zou het je code onoverzichtelijk maken. Gelukkig is er een eenvoudigere manier om dit te doen, namelijk door code te herhalen met een lus (loop).
 
+<br>
+
 # <b>Wat is een lus?</b>
 Een lus is een programmeerconstructie waarmee je een stuk code meerdere keren kunt herhalen zonder dat je die code telkens opnieuw hoeft te schrijven. In Python zijn er twee soorten lussen:
 
@@ -144,6 +146,8 @@ Een lus is een programmeerconstructie waarmee je een stuk code meerdere keren ku
 - de <b><i>while</i>-lus</b>. 
 
 We zullen eerst de <i>for</i>-lus bekijken. 
+
+<br>
 
 # <b>De <i>for</i>-lus</b>
 Een <i>for</i>-lus heeft de volgende structuur:
@@ -154,9 +158,15 @@ for variabele in range(aantal_herhalingen):
 ```
 
 Wat betekent elk onderdeel in die eerste regel?
-- <span style="color:blue">for</span>: Dit is het sleutelwoord dat aangeeft dat we een lus gaan starten.
-- <span style="color:blue">variabele</span>: Dit is een tijdelijke naam die we geven aan het huidige herhalingsnummer. Je kunt deze naam zelf kiezen, maar vaak wordt <code>i</code> gebruikt.
-- <span style="color:blue">in range(aantal_herhalingen)</span>: Dit deel geeft aan hoeveel keer de lus moet worden herhaald. De functie <function name="range" inputs=" "></function> genereert een reeks getallen van 0 TOT <code>aantal_herhalingen</code> (dus niet <i>tot en met</i>).
+
+<ul>
+  <li><span style="color:blue">for</span>: Dit is het sleutelwoord dat aangeeft dat we een lus gaan starten.</li>
+  <li><span style="color:blue">variabele</span>: Dit is een tijdelijke naam die we geven aan het huidige herhalingsnummer. Je kunt deze naam zelf kiezen, maar vaak wordt <code>i</code> gebruikt.</li>
+  <li><span style="color:blue">in range(aantal_herhalingen)</span>: Dit deel geeft aan hoeveel keer de lus moet worden herhaald. De functie <function name="range" inputs=" "></function> genereert een reeks getallen van <code>0</code> <i>tot</i> <code>aantal_herhalingen</code> (dus niet <i>tot en met</i>).</li>
+</ul>
+
+<br>
+<br>
 
 Laten we eens een echt voorbeeld bekijken:
 
@@ -166,15 +176,28 @@ for i in range(5):
 ```
 
 Wat gebeurt hier?
-- <function name="range" inputs="5"></function> genereert de getallen <code>0</code>, <code>1</code>, <code>2</code>, <code>3</code>, en <code>4</code>.
-- In het begin krijgt <i>i</i> de waarde <code>0</code>.
-- De code binnen de lus, <function name="print" inputs='"Hallo, wereld!"'></function>, wordt uitgevoerd, waardoor <code class="string">Hallo, wereld!</code> op het scherm verschijnt.
-- Daarna krijgt <i>i</i> de volgende waarde, namelijk <code>1</code>.
-- De code binnen de lus, <function name="print" inputs='"Hallo, wereld!"'></function>, wordt uitgevoerd, waardoor <code class="string">Hallo, wereld!</code> op het scherm verschijnt. (voor de tweede keer dus)
-- ...
-- Als laatste krijgt <i>i</i> de waarde <code>4</code>.
-- De code binnen de lus, <function name="print" inputs='"Hallo, wereld!"'></function>, wordt uitgevoerd, waardoor <code class="string">Hallo, wereld!</code> op het scherm verschijnt. (voor de vijfde keer dus)
-- Nu zijn er geen getallen meer in de reeks die door <function name="range" inputs="5"></function> is gegenereerd, dus stopt de lus.
+
+<ul>
+  <li><function name="range" inputs="5"></function> genereert de getallen <code>0</code>, <code>1</code>, <code>2</code>, <code>3</code>, en <code>4</code>.</li>
+  <li>In het begin krijgt <i>i</i> de waarde <code>0</code>.</li>
+  <li>De code binnen de lus, <function name="print" inputs='"Hallo, wereld!"'></function>, wordt uitgevoerd, waardoor <code class="string">Hallo, wereld!</code> op het scherm verschijnt.</li>
+  <li>Daarna krijgt <i>i</i> de volgende waarde, namelijk <code>1</code>.</li>
+  <li>De code binnen de lus, <function name="print" inputs='"Hallo, wereld!"'></function>, wordt uitgevoerd, waardoor <code class="string">Hallo, wereld!</code> op het scherm verschijnt. (voor de tweede keer dus)</li>
+  <li>...</li>
+  <li>Als laatste krijgt <i>i</i> de waarde <code>4</code>.</li>
+  <li>De code binnen de lus, <function name="print" inputs='"Hallo, wereld!"'></function>, wordt uitgevoerd, waardoor <code class="string">Hallo, wereld!</code> op het scherm verschijnt. (voor de vijfde keer dus)</li>
+  <li>Nu zijn er geen getallen meer in de reeks die door <function name="range" inputs="5"></function> is gegenereerd, dus stopt de lus.</li>
+</ul>
+
+Op het scherm zie je dus verschijnen:
+
+```
+Hallo, wereld!
+Hallo, wereld!
+Hallo, wereld!
+Hallo, wereld!
+Hallo, wereld!
+```
 
 <br>
 <hr>
