@@ -227,6 +227,8 @@ Dit is herhaling nummer 4
 
 </details>
 
+<br>
+
 Je kan echter nog veel meer berekeningen doen met de variabele in de lus. We kunnen er bijvoorbeeld voor zorgen dat we niet vanaf <code>0</code> tellen, maar vanaf <code>1</code>, zoals in dit voorbeeld:
 
 ```python
