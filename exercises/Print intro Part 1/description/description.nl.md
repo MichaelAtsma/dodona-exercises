@@ -167,13 +167,13 @@ Op het scherm zie je:
 Je code:
 
 ```python
-print("Hallo, wereld!")
+print("Hallo wereld!")
 ```
 
 Op het scherm zie je:
 
 ```
-Hallo, wereld!
+Hallo wereld!
 ```
 
 <br>
