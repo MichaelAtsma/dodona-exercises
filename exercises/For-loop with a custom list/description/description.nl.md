@@ -182,6 +182,7 @@ Hallo wereld!
 </details>
 
 <br>
+<hr>
 
 In plaats van <function name="range" inputs="5"></function> kunnen we ook een zelfgemaakte <i>lijst</i> gebruiken in een <i>for</i>-lus. De lus zal dan voor elk element in de lijst één keer herhalen, waarbij de variabele telkens de waarde van het huidige element aanneemt. Bijvoorbeeld:
 
