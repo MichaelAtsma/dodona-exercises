@@ -8,7 +8,7 @@ def get_submission_code():
 def lines_containing_var(text, var):
     return [line for line in text.splitlines() if (f"{var}=" in line or f"{var} =" in line)]
 
-def evaluate_test(context, match_regex):
+def evaluate_test(context, match_regex, wrong_answer_messages):
     submission = get_submission_code()
     checks = {}
     checks["correct value"] = context.actual == context.expected
@@ -22,11 +22,11 @@ def evaluate_test(context, match_regex):
     correct = all(checks.values())
     mymessages = []
     if not checks["correct value"]:
-        mymessages.append(Message("De output van je programma is niet correct."))
+        mymessages.append(Message(wrong_answer_messages["correct value"]))
     if not checks["code matches regex"]:
-        mymessages.append(Message("Je gebruikt niet de juiste structuur in je code. Zorg ervoor dat je een for-lus gebruikt."))
+        mymessages.append(Message(wrong_answer_messages["code matches regex"]))
     if not checks["does not have too many print statements"]:
-        mymessages.append(Message("Je gebruikt te veel print-statements. Zorg dat je de for-lus gebruikt in plaats van letterlijk elke regel te printen."))
+        mymessages.append(Message(wrong_answer_messages["does not have too many print statements"]))
 
     return EvaluationResult(
       result = correct,

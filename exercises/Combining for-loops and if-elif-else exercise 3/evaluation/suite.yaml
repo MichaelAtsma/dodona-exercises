@@ -7,4 +7,4 @@
             oracle: "custom_check"
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["[\\n \\t]*for [a-zA-Z_]+[a-zA-Z0-9_]* in range\\(.+\\):([\\n  \\t]+[ \\t]+.*)+"]
+            arguments: ["[\\n \\t]*for [a-zA-Z_]+[a-zA-Z0-9_]* in range\\(.+\\):([\\n  \\t]+[ \\t]+.*)+", {"correct value": "De output van je programma is niet correct.", "code matches regex": "Je gebruikt niet de juiste structuur in je code. Zorg ervoor dat je een for-lus gebruikt.", "does not have too many print statements": "Je gebruikt te veel print-statements. Zorg dat je de for-lus gebruikt in plaats van letterlijk elke regel te printen."}]
