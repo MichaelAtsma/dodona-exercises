@@ -133,7 +133,7 @@
   }
 </style>
 
-We hebben drie datatypen (soorten gegevens) gezien: <i>integer</i> (geheel getal), <i>float</i> (kommagetal), en <i>string</i> (tekst). Maar wat nou als je meerdere gegevens van deze types wil opslaan? Bijvoorbeeld een lijst van leeftijden (gehele getallen), of een lijst van prijzen (kommagetallen), of een lijst van namen (teksten)? Hiervoor gebruiken we <b>lijsten</b>.
+We hebben drie <i>datatypen</i> (soorten gegevens) gezien: <i>integer</i> (geheel getal), <i>float</i> (kommagetal), en <i>string</i> (tekst). Maar wat nou als je meerdere gegevens van deze types wil opslaan? Bijvoorbeeld een lijst van leeftijden (gehele getallen), of een lijst van prijzen (kommagetallen), of een lijst van namen (teksten)? Hiervoor gebruiken we <b>lijsten</b>.
 
 Een lijst maak je door meerdere waarden tussen vierkante haken <code>[ ]</code> te plaatsen, gescheiden door komma's. Bijvoorbeeld:
 
