@@ -1,0 +1,10 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - stdin: ""
+          stdout: 
+            data: "0 eindigt niet op 4.\n1 eindigt niet op 4.\n2 eindigt niet op 4.\n3 eindigt niet op 4.\n4 eindigt op 4.\n5 eindigt niet op 4.\n6 eindigt niet op 4.\n7 eindigt niet op 4.\n8 eindigt niet op 4.\n9 eindigt niet op 4.\n10 eindigt niet op 4.\n11 eindigt niet op 4.\n12 eindigt niet op 4.\n13 eindigt niet op 4.\n14 eindigt op 4.\n15 eindigt niet op 4.\n16 eindigt niet op 4.\n17 eindigt niet op 4.\n18 eindigt niet op 4.\n19 eindigt niet op 4.\n20 eindigt niet op 4.\n21 eindigt niet op 4.\n22 eindigt niet op 4.\n23 eindigt niet op 4.\n24 eindigt op 4.\n25 eindigt niet op 4.\n26 eindigt niet op 4.\n27 eindigt niet op 4.\n28 eindigt niet op 4.\n29 eindigt niet op 4.\n30 eindigt niet op 4.\n31 eindigt niet op 4.\n32 eindigt niet op 4.\n33 eindigt niet op 4.\n34 eindigt op 4.\n35 eindigt niet op 4.\n36 eindigt niet op 4.\n37 eindigt niet op 4.\n38 eindigt niet op 4.\n39 eindigt niet op 4.\n40 eindigt niet op 4.\n41 eindigt niet op 4.\n42 eindigt niet op 4.\n43 eindigt niet op 4.\n44 eindigt op 4.\n45 eindigt niet op 4.\n46 eindigt niet op 4.\n47 eindigt niet op 4.\n48 eindigt niet op 4.\n49 eindigt niet op 4.\n50 eindigt niet op 4."
+            oracle: "custom_check"
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["[\\n \\t]*for [a-zA-Z_]+[a-zA-Z0-9_]* in range\\(.+\\):([\\n  \\t]+[ \\t]+.*)+", 5, {"correct value": "De output van je programma is niet correct.", "code matches regex": "Je gebruikt niet de juiste structuur in je code. Zorg ervoor dat je een for-lus gebruikt.", "does not have too many print statements": "Je gebruikt te veel print-statements. Zorg dat je de for-lus gebruikt in plaats van letterlijk elke regel te printen."}]
