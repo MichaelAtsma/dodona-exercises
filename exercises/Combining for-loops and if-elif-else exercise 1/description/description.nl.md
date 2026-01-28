@@ -379,6 +379,7 @@ Je kan ook het getal omzetten naar een <i>string</i> en dan controleren of de <i
       <td><code style="color:blue">True</code></td>
       <td><code>"3"</code> komt voor in <code>"33"</code>, dus de uitdrukking is waar.</td>
     </tr>
+  </tbody>
 </table>
 </div>
 
