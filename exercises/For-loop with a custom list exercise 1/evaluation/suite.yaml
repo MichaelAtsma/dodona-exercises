@@ -1,0 +1,10 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - stdin: ""
+          stdout: 
+            data: "5\n19\n12\n2000\n104\n"
+            oracle: "custom_check"
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["[\\n \\t]*for[ ]+([a-zA-Z_]+[a-zA-Z0-9_]*)[ ]+in[ ]+(.*)[ ]*:[ ]*[\\n \\t]*[ \\t]+print\\([ ]*\\1[ ]*\\)[\\n \\t]*", {"5": "de getallen die je moet printen", "19": "de getallen die je moet printen", "12": "de getallen die je moet printen", "2000": "de getallen die je moet printen", "104": "de getallen die je moet printen", "[": "een lijst", "]": "een lijst"}, {}, "Goed zo, je hebt de juiste getallen geprint!", "De geprinte getallen zijn niet correct. Zorg ervoor dat je de verwachte getallen in de lijst zet."]
