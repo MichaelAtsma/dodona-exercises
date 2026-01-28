@@ -1,0 +1,5 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.boodschappenlijst"
+          return: ["appels", "brood", "kaas", "eieren", "melk", "broccoli"]

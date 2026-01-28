@@ -1,0 +1,1 @@
+boodschappenlijst = ["appels", "brood", "kaas", "eieren", "melk", "broccoli"]

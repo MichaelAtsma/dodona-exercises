@@ -1,0 +1,5 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.getallen"
+          return: [64, 1024, 512, 256]
