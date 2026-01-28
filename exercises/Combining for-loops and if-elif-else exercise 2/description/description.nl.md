@@ -207,6 +207,8 @@ Schrijf met een <i>for</i>-lus en een <i>if-(elif)-else</i>-constructie een prog
 
 <details markdown="1"><summary>Tip: hoe check je of er een 3 in het getal zit?</summary>
 
+<br>
+
 <details markdown="1"><summary>Wiskundige manier</summary>
 
 De getallen die we bekijken hebben 3 cijfers: een honderdtal, een tiental, en een eenheid. Bijvoorbeeld, in het getal <code>243</code> is het honderdtal <code>2</code>, het tiental <code>4</code>, en de eenheid <code>3</code>. We kunnen deze cijfers afzonderlijk bekijken door gebruik te maken van gehele delingen (<code>//</code>) en de modulo-operator (<code>%</code>).
@@ -350,7 +352,7 @@ Waar kan je het honderdtal van een getal vinden? Je kan dit doen door het getal 
 
 <details markdown="1"><summary>Programmeer-taal manier (korter, maar gebruikt iets wat je nog niet kent)</summary>
 
-Je kan ook het getal omzetten naar een <i>string</i> en dan controleren of de <i>substring</i> <code>"3"</code> voorkomt in deze stringrepresentatie van het getal met het <code style="color:blue">in</code>-sleutelwoord.
+Je kan ook controleren of de <i>substring</i> <code>"3"</code> voorkomt in deze stringrepresentatie van het getal met het <code style="color:blue">in</code>-sleutelwoord.
 
 <div class="table-scroll">
 <table>
@@ -384,6 +386,8 @@ Je kan ook het getal omzetten naar een <i>string</i> en dan controleren of de <i
   </tbody>
 </table>
 </div>
+
+Zoals je in de voorbeelden ziet, werkt dit echter niet met <i>integers</i> (of <i>floats</i>), enkel met <i>strings</i> (en ook andere datatypen die je nog niet kent). Hier wordt niet verder op in gegaan, want dit is niet de bedoeling van deze oefening. Als je het wil gebruiken, moet je dus zelf bedenken hoe je dat in je programma verwerkt. Zo lang je het correct gebruikt, wordt je code goedgekeurd.
 
 </details> <!-- End Programmeer-taal manier -->
 
