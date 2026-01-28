@@ -1,0 +1,2 @@
+for naam in ____:
+    print(naam)

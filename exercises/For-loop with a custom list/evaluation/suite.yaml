@@ -1,0 +1,10 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - stdin: ""
+          stdout: 
+            data: "Alice\nBob\nCharlie\n"
+            oracle: "custom_check"
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["[\\n \\t]*for[ ]+([a-zA-Z_]+[a-zA-Z0-9_]*)[ ]+in[ ]+(.*)[ ]*:[ ]*[\\n \\t]*[ \\t]+print\\([ ]*\\1[ ]*\\)[\\n \\t]*", {"Alice": "de namen die je moet printen", "Bob": "de namen die je moet printen", "Charlie": "de namen die je moet printen", "[": "een lijst", "]": "een lijst"}, {}, "Goed zo, je hebt de juiste namen geprint!", "De geprinte namen zijn niet correct. Zorg ervoor dat je de verwachte namen in de lijst zet."]
