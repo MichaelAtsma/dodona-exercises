@@ -203,6 +203,8 @@ Schrijf met een <i>for</i>-lus en een <i>if-(elif)-else</i>-constructie een prog
 500 bevat geen 3.
 ```
 
+<br>
+
 <details markdown="1"><summary>Tip: hoe check je of er een 3 in het getal zit?</summary>
 
 <details markdown="1"><summary>Wiskundige manier</summary>
