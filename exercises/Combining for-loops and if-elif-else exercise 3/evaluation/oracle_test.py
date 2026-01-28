@@ -8,7 +8,7 @@ def get_submission_code():
 def lines_containing_var(text, var):
     return [line for line in text.splitlines() if (f"{var}=" in line or f"{var} =" in line)]
 
-def evaluate_test(context, match_regex, wrong_answer_messages):
+def evaluate_test(context, match_regex, number_of_print_statements_allowed, wrong_answer_messages):
     submission = get_submission_code()
     checks = {}
     checks["correct value"] = context.actual == context.expected
@@ -17,7 +17,7 @@ def evaluate_test(context, match_regex, wrong_answer_messages):
     student_contribution = m.group(1) if m else ""
     checks["code matches regex"] = m is not None
 
-    checks["does not have too many print statements"] = submission.count("print(") <= 50
+    checks["does not have too many print statements"] = submission.count("print(") <= number_of_print_statements_allowed
 
     correct = all(checks.values())
     mymessages = []
