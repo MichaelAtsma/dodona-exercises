@@ -47,7 +47,7 @@ def evaluate_test(context, match_regex, mandatory_texts_and_descriptions, forbid
         if not checks["code matches regex"]:
             mymessages.append(Message(f"Je mag enkel de underscores vervangen. Zorg ervoor dat je de rest van de code niet wijzigt."))
         if not checks["student contribution type is not string"]:
-            mymessages.append(Message(f"Hoewel de uitkomst misschien correct is, moet je getallen printen, dan heb je dus geen aanhalingstekens nodig."))
+            mymessages.append(Message(f"Hoewel de uitkomst misschien correct is, moet je getallen printen. Dan heb je dus geen aanhalingstekens nodig."))
         
 
     return EvaluationResult(
