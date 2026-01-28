@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "For-lus en if-elif-else combineren (oefening 1)"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "labels": [],
+  "internals": {
+    "token": "TsqNzaPpRqU4275EJEBXeHxDnWJZZ72DsW26wZS-CVQGCsp4vAZCHTzzs8grr_pB",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
