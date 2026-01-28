@@ -152,11 +152,11 @@ namen = ["Alice", "Bob", "Charlie"]
 # <b>Opdracht</b>
 Maak een variabele <code>boodschappenlijst</code> aan waarin je een lijst met de volgende <i>teksten</i> opslaat:
 
-<ol>
+<ul>
   <li>appels</li>
   <li>brood</li>
   <li>kaas</li>
   <li>eieren</li>
   <li>melk</li>
   <li>broccoli</li>
-</ol>
+</ul>
