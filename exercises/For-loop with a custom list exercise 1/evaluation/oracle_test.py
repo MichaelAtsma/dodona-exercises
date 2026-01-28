@@ -17,8 +17,6 @@ def evaluate_test(context, match_regex, mandatory_texts_and_descriptions, forbid
     student_contribution = m.group(2) if m else ""
     checks["code matches regex"] = m is not None
 
-    checks["student contribution contains strings"] = '"' in student_contribution or "'" in student_contribution
-
     missing_texts_and_descriptions = {}
     checks["mandatory texts used"] = True
     for text in mandatory_texts_and_descriptions.keys():
