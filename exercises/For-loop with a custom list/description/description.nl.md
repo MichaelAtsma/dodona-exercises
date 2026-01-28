@@ -191,6 +191,7 @@ for naam in ["Alice", "Bob", "Charlie"]:
     print(naam)
 ```
 
+
 Wat gebeurt hier?
 <ul>
   <li>In het begin krijgt <code>naam</code> de waarde <code>"Alice"</code>.</li>
