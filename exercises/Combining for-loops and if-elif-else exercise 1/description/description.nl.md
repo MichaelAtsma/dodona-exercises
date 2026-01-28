@@ -251,7 +251,7 @@ Waar kan je de eenheid van een getal vinden? Je kan dit doen door het getal modu
 </table>
 </div>
 
-</details>
+</details> <!-- End Eenheden -->
 
 <details markdown="1"><summary>Tientallen</summary>
 Waar kan je het tiental van een getal vinden? Je kan dit doen door het getal eerst door 10 te delen (met gehele deling <code>//</code>) en daarna modulo <code>10</code> te nemen.
@@ -295,7 +295,7 @@ Waar kan je het tiental van een getal vinden? Je kan dit doen door het getal eer
 </table>
 </div>
 
-</details>
+</details> <!-- End Tientallen -->
 
 <details markdown="1"><summary>Honderdtallen</summary>
 
@@ -342,10 +342,11 @@ Waar kan je het honderdtal van een getal vinden? Je kan dit doen door het getal 
 </table>
 </div>
 
-</details>
-</details>
+</details> <!-- End Honderdtallen -->
 
-<details markdown="1"><summary>Programmeer-taal manier</summary>
+</details> <!-- End Wiskundige manier -->
+
+<details markdown="1"><summary>Programmeer-taal manier (korter, maar gebruikt iets wat je nog niet kent)</summary>
 
 Je kan ook het getal omzetten naar een <i>string</i> en dan controleren of de <i>substring</i> <code>"3"</code> voorkomt in deze stringrepresentatie van het getal met het <code style="color:blue">in</code>-sleutelwoord.
 
@@ -381,5 +382,6 @@ Je kan ook het getal omzetten naar een <i>string</i> en dan controleren of de <i
 </table>
 </div>
 
-</details>
-</details>
+</details> <!-- End Programmeer-taal manier -->
+
+</details> <!-- End Tip -->
