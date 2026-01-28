@@ -1,0 +1,9 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.leeftijden"
+          return: [12, 15, 18, 20]
+        - expression: "submission.prijzen"
+          return: [2.75, 3.95, 4.19]
+        - expression: "submission.namen"
+          return: ["Alice", "Bob", "Charlie"]

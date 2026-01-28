@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "Lijsten"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "labels": [],
+  "internals": {
+    "token": "gd8mU73b83mwQRJYACtSNN2WXFT8YDra9uI7gMXk_qim9g-kJGZw64yxXuT2MV8k",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
