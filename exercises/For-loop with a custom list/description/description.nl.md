@@ -148,7 +148,7 @@ namen = ["Alice", "Bob", "Charlie"]
 
 </details>
 
-<details markdown="1"><summary>Voorbeeld van combinatie van een <i>for</i>-lus</summary>
+<details markdown="1"><summary>Herhaling voorbeeld van een <i>for</i>-lus</summary>
 
 ```python
 for i in range(5):
