@@ -1,0 +1,15 @@
+{
+  "description": {
+    "names": {
+      "nl": "Functies en for-lussen (en if-elif-else) combineren (oefening 1)"
+    }
+  },
+  "evaluation": {
+    "pythia_judge": "doctest"
+  },
+  "labels": [],
+  "internals": {
+    "token": "P4grKdpdEzVQTvZ2xMHRpBG33ek28m__yJRJMyxHzPKBku5A_eM-7RwZHA33dG3f",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
