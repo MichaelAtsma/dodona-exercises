@@ -188,7 +188,6 @@ Maak een functie genaamd <function name="EvenOnevenOverzicht"></function> die é
       <td style="text-align: center;">→</td>
       <td><pre><code>0 is even.<br>1 is oneven.<br>2 is even.<br>3 is oneven.</code></pre></td>
     </tr>
-    </tr>
     <tr>
       <td><function name="EvenOnevenOverzicht" inputs="11"></function></td>
       <td style="text-align: center;">→</td>
