@@ -147,7 +147,7 @@ Hierbij kan een gebruiker jouw functie gebruiken door een waarde voor <code>x</c
 
 </details> <!-- end functie voorbeeld -->
 
-<details markdown="1"><summary><b>Voorbeeld van een for-lus</b></summary>
+<details markdown="1"><summary>Voorbeeld van een for-lus</summary>
 
 Je kan echter nog veel meer berekeningen doen met de variabele in de lus. We kunnen er bijvoorbeeld voor zorgen dat we niet vanaf <code>0</code> tellen, maar vanaf <code>1</code>, zoals in dit voorbeeld:
 
@@ -184,39 +184,36 @@ Je ziet dus op het scherm:
 <br>
 <hr>
 
-We zullen nu de functies met een <i>for</i>-lus combineren.
+We zullen nu de functie met een <i>for</i>-lus combineren.
+
+<br>
 
 # <b>Voorbeeld</b>
-Deze functie, genaamd <function name="PrintTot"></function> zal steeds één getal als invoer nemen. Vervolgens drukt het op het scherm elk getal van 0 <i>tot</i> dat getal af. Hier is die functie:
+Deze functie, genaamd <function name="BegroetVaak"></function> zal steeds één getal als invoer nemen. Vervolgens drukt het op het scherm exact zo vaak de zin <code class="string">Hallo wereld!</code> af. Hier is die functie:
 
 ```python
-def PrintTot(n):
+def BegroetVaak(n):
     for i in range(n):
-        print(i)
+        print("Hallo wereld!")
 ```
 
-Wanneer iemand deze functie gebruikt, kan die zelf kiezen welke waarde voor <code>n</code> die als invoer geeft. Als iemand bijvoorbeeld <code>4</code> als invoer geeft door <function name="PrintTot" inputs="4"></function> te typen, dan krijgt die het volgende op het scherm te zien:
+Wanneer iemand deze functie gebruikt, kan die zelf kiezen welke waarde voor <code>n</code> die als invoer geeft. Als iemand bijvoorbeeld <code>4</code> als invoer geeft door <function name="BegroetVaak" inputs="3"></function> te typen, dan krijgt die het volgende op het scherm te zien:
 
 ```
-0
-1
-2
-3
+Hallo wereld!
+Hallo wereld!
+Hallo wereld!
 ```
-
-Zo ook krijgt iemand die <function name="PrintTot" inputs="10"></function> typt het volgende op het scherm te zien:
+Zo ook krijgt iemand die <function name="BegroetVaak" inputs="7"></function> typt het volgende op het scherm te zien:
 
 ```
-0
-1
-2
-3
-4
-5
-6
-7
-8
-9
+Hallo wereld!
+Hallo wereld!
+Hallo wereld!
+Hallo wereld!
+Hallo wereld!
+Hallo wereld!
+Hallo wereld!
 ```
 
 <br>
@@ -238,9 +235,9 @@ Maak een functie genaamd <function name="PrintTot"></function> die een getal als
   </thead>
   <tbody>
     <tr>
-      <td><function name="PrintTot" inputs="5"></function></td>
+      <td><function name="PrintTot" inputs="4"></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code>0<br>1<br>2<br>3<br>4</code></pre></td>
+      <td><pre><code>0<br>1<br>2<br>3</code></pre></td>
     </tr>
     <tr>
       <td><function name="PrintTot" inputs="10"></function></td>

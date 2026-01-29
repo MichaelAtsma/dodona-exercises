@@ -1,9 +1,8 @@
->>> PrintTot(5)
+>>> PrintTot(4)
 0
 1
 2
 3
-4
 >>> PrintTot(10)
 0
 1

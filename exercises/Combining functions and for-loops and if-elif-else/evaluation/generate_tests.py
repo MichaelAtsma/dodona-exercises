@@ -12,7 +12,7 @@ def PrintTot(n):
 
 function_effect = "prints"
 
-X = [5, 10, 0]
+X = [4, 10, 0]
 # X = range(-50, 51)
 
 result = ""
