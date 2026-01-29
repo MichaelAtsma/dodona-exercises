@@ -186,12 +186,12 @@ Maak een functie genaamd <function name="Echo"></function> die twee waarden als 
     <tr>
       <td><function name="Echo" inputs='"Hallo wereld!", 4'></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code class="string">Hallo wereld!<br>Hallo wereld!<br>Hallo wereld!<br>Hallo wereld!</code></pre></td>
+      <td><pre><code>Hallo wereld!<br>Hallo wereld!<br>Hallo wereld!<br>Hallo wereld!</code></pre></td>
     </tr>
     <tr>
       <td><function name="Echo" inputs='"Python is leuk!", 7'></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code class="string">Python is leuk!<br>Python is leuk!<br>Python is leuk!<br>Python is leuk!<br>Python is leuk!<br>Python is leuk!<br>Python is leuk!</code></pre></td>
+      <td><pre><code>Python is leuk!<br>Python is leuk!<br>Python is leuk!<br>Python is leuk!<br>Python is leuk!<br>Python is leuk!<br>Python is leuk!</code></pre></td>
     </tr>
     <tr>
       <td><function name="Echo" inputs='"Ik houd niet van programmeren", 0'></function></td>
