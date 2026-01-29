@@ -1,5 +1,5 @@
 --------------------------------------------------
-tab name: Examples
+tab name: Voorbeelden
 <LANGUAGE code="en">
     <function from="BegroetVaak" to="GreetOften" />
     <fixed from="Hallo wereld!" to="Hello world!" />
