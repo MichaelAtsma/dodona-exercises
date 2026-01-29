@@ -11,9 +11,9 @@ Python is leuk!
 Python is leuk!
 Python is leuk!
 Python is leuk!
->>> Echo('Ik houd niet van programmeren', 0)
 >>> Echo(' ', 4)
  
  
  
  
+>>> Echo('Ik houd niet van programmeren', 0)
