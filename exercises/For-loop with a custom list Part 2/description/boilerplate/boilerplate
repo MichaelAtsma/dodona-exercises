@@ -1,0 +1,4 @@
+steden = ____
+
+for stad in steden:
+    print(stad)

@@ -1,0 +1,10 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - stdin: ""
+          stdout: 
+            data: "Brussel\nGent\nAntwerpen\n"
+            oracle: "custom_check"
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["[\\n \\t]*([a-zA-Z_]+[a-zA-Z0-9_]*)[ ]*=[ ]*(.*)[ \\t]*[\\n]+[\\n \\t]*for[ ]+([a-zA-Z_]+[a-zA-Z0-9_]*)[ ]+in[ ]+\\1[ ]*:[ ]*[\\n \\t]*[ \\t]+print\\([ ]*\\2[ ]*\\)[\\n \\t]*", {"Brussel": "de steden die je moet printen", "Gent": "de steden die je moet printen", "Antwerpen": "de steden die je moet printen", "[": "een lijst", "]": "een lijst"}, {}, "Goed zo, je hebt de juiste steden geprint!", "De geprinte steden zijn niet correct. Zorg ervoor dat je de verwachte steden in de lijst zet."]
