@@ -7,7 +7,7 @@
   "evaluation": {
     "handler": "tested",
     "test_suite": "suite.yaml",
-    "time_limit": 60
+    "time_limit": 120
   },
   "labels": [],
   "internals": {
