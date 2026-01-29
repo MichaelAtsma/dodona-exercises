@@ -1,0 +1,10 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - stdin: ""
+          stdout: 
+            data: "5\n10\n15\n20\n21.095\n42.195\n"
+            oracle: "custom_check"
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["[\\n \\t]*hardloop_afstanden[ ]*=[ ]*(.*)[ \\t]*[\\n]+[\\n \\t]*for[ ]+([a-zA-Z_]+[a-zA-Z0-9_]*)[ ]+in[ ]+(.*)[ ]*:[ ]*[\\n \\t]*[ \\t]+print\\([ ]*\\2[ ]*\\)[\\n \\t]*", "hardloop_afstanden", {"5": "de afstanden die je moet printen", "10": "de afstanden die je moet printen", "15": "de afstanden die je moet printen", "20": "de afstanden die je moet printen", "21.095": "de afstanden die je moet printen", "42.195": "de afstanden die je moet printen", "[": "een lijst", "]": "een lijst"}, {}, "Goed zo, je hebt de juiste afstanden geprint!", "De geprinte afstanden zijn niet correct. Zorg ervoor dat je de verwachte afstanden in de lijst zet."]

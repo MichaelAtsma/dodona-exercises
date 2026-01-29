@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "For-lus met een eigen lijst - vervolg (oefening 1)"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "labels": [],
+  "internals": {
+    "token": "8-fR7_h7tAQS4zcEwtPQBJ-hYwYtmj3hPE-2cMQ_2CnS2HmmAqhz7PeMtV9TJfcy",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
