@@ -11,18 +11,22 @@ def BegroetVaak(aantal_keer):
     return result_lines.strip()
 
 function_effect = "prints"
+function = BegroetVaak
 
 X = [4, 10, 0]
-X = range(0, 100)
+# X = range(0, 100)
 
 result = ""
-function = BegroetVaak
+in_out = "out"
 for args in itertools.product(X):
-    result += f">>> {function.__name__}({', '.join(map(str, args))})\n"
+    if in_out == "in":
+        result += f">>> {function.__name__}({', '.join(map(str, args))})\n"
+        continue
+    
     if function_effect == "returns":
-        result += f"{repr(function(*args))}\n"
+        result += f"{repr(function(*args))}\n\n"
     else:
-        result += f"{function(*args)}\n"
+        result += f"{function(*args)}\n\n"
 
 copy_to_clipboard(result.strip())
 print("Copied to clipboard:")
