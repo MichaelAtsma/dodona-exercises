@@ -31,7 +31,7 @@ def evaluate_test(context, match_regex, mandatory_texts_and_descriptions, forbid
             checks["forbidden text not used"] = False
             used_forbidden_texts_and_descriptions[forbidden_text] = forbidden_texts_and_descriptions[forbidden_text]
 
-    checks["student contribution type is not string"] = '"' not in student_contribution and "'" not in student_contribution
+    checks["student contribution type contains strings"] = '"' in student_contribution or "'" in student_contribution
 
     correct = all(checks.values())
     mymessages = []
@@ -46,8 +46,8 @@ def evaluate_test(context, match_regex, mandatory_texts_and_descriptions, forbid
             mymessages.append(Message(f"Je mag geen gebruik maken van: {', '.join(set(used_forbidden_texts_and_descriptions.values()))}."))
         if not checks["code matches regex"]:
             mymessages.append(Message(f"Je mag enkel de underscores vervangen. Zorg ervoor dat je de rest van de code niet wijzigt."))
-        if not checks["student contribution type is not string"]:
-            mymessages.append(Message(f"Hoewel de uitkomst misschien correct is, moet je getallen printen. Dan heb je dus geen aanhalingstekens nodig."))
+        if not checks["student contribution type contains strings"]:
+            mymessages.append(Message(f"Vergeet niet dat steden een tekst zijn. Zorg dus dat je dat correct noteert."))
         
 
     return EvaluationResult(
