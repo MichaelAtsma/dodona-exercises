@@ -1,0 +1,10 @@
+--------------------------------------------------
+tab name: Bulk test
+used output channel: stdout
+<LANGUAGE code="en">
+    <function from="RegelsSchrijven" to="WriteLines" />
+    <fixed from="Regel nummer" to="Line number" />
+    <fixed from="is nog niet afgedrukt" to="is not yet printed" />
+    <fixed from="is al afgedrukt" to="has already been printed" />
+    <fixed from="Dit is regel nummer" to="This is line number" />
+</LANGUAGE>

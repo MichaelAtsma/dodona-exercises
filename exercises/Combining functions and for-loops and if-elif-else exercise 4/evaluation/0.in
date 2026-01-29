@@ -1,0 +1,18 @@
+>>> RegelsSchrijven(4, 2)
+Regel nummer 2 is nog niet afgedrukt.
+Dit is regel nummer 2.
+Regel nummer 2 is al afgedrukt.
+Regel nummer 2 is al afgedrukt.
+>>> RegelsSchrijven(11, 5)
+Regel nummer 5 is nog niet afgedrukt.
+Regel nummer 5 is nog niet afgedrukt.
+Regel nummer 5 is nog niet afgedrukt.
+Regel nummer 5 is nog niet afgedrukt.
+Dit is regel nummer 5.
+Regel nummer 5 is al afgedrukt.
+Regel nummer 5 is al afgedrukt.
+Regel nummer 5 is al afgedrukt.
+Regel nummer 5 is al afgedrukt.
+Regel nummer 5 is al afgedrukt.
+Regel nummer 5 is al afgedrukt.
+>>> RegelsSchrijven(0, 20)
