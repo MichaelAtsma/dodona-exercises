@@ -1,0 +1,8 @@
+--------------------------------------------------
+tab name: Voorbeelden
+used output channel: stdout
+<LANGUAGE code="en">
+    <function from="EvenOnevenOverzicht" to="EvenOddOverview" />
+    <fixed from="is oneven" to="is odd" />
+    <fixed from="is even" to="is even" />
+</LANGUAGE>

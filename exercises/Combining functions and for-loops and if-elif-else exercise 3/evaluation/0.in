@@ -1,0 +1,18 @@
+>>> EvenOnevenOverzicht(4)
+0 is even.
+1 is oneven.
+2 is even.
+3 is oneven.
+>>> EvenOnevenOverzicht(11)
+0 is even.
+1 is oneven.
+2 is even.
+3 is oneven.
+4 is even.
+5 is oneven.
+6 is even.
+7 is oneven.
+8 is even.
+9 is oneven.
+10 is even.
+>>> EvenOnevenOverzicht(0)
