@@ -13,7 +13,7 @@ def BegroetVaak(aantal_keer):
 function_effect = "prints"
 function = BegroetVaak
 
-X = [4, 10, 0]
+X = [4, 7, 0]
 # X = range(0, 100)
 
 result = ""
