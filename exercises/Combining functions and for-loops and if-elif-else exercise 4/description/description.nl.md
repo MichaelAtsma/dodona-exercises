@@ -191,7 +191,7 @@ Maak een functie genaamd <function name="RegelsSchrijven"></function> die twee g
     <tr>
       <td><function name="RegelsSchrijven" inputs="11, 5"></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code>Regel nummer 5 is nog niet afgedrukt.<br>Dit is regel nummer 5.<br>Regel nummer 5 is al afgedrukt.<br>Regel nummer 5 is al afgedrukt.<br>Regel nummer 5 is al afgedrukt.<br>Regel nummer 5 is al afgedrukt.<br>Regel nummer 5 is al afgedrukt.<br>Regel nummer 5 is al afgedrukt.<br>Regel nummer 5 is al afgedrukt.<br>Regel nummer 5 is al afgedrukt.<br>Regel nummer 5 is al afgedrukt.</code></pre></td>
+      <td><pre><code>Regel nummer 5 is nog niet afgedrukt.<br>Regel nummer 5 is nog niet afgedrukt.<br>Regel nummer 5 is nog niet afgedrukt.<br>Regel nummer 5 is nog niet afgedrukt.<br>Dit is regel nummer 5.<br>Regel nummer 5 is al afgedrukt.<br>Regel nummer 5 is al afgedrukt.<br>Regel nummer 5 is al afgedrukt.<br>Regel nummer 5 is al afgedrukt.<br>Regel nummer 5 is al afgedrukt.<br>Regel nummer 5 is al afgedrukt.</code></pre></td>
     </tr>
     <tr>
       <td><function name="RegelsSchrijven" inputs="0, 20"></function></td>
