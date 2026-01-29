@@ -17,7 +17,7 @@ def evaluate_test(context, match_regex, list_variable_name, mandatory_texts_and_
     student_contribution = m.group(1) if m else ""
     checks["code matches regex"] = m is not None
 
-    checks["list variable name used correctly"] = m.group(3) == list_variable_name
+    checks["list variable name used correctly"] = m.group(3) == list_variable_name if m else True
 
     missing_texts_and_descriptions = {}
     checks["mandatory texts used"] = True

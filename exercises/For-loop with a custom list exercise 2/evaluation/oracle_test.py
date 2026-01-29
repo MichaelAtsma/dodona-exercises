@@ -16,7 +16,7 @@ def evaluate_test(context, match_regex, mandatory_texts_and_descriptions, forbid
     m = re.fullmatch(match_regex, submission)
     student_contribution = m.group(2) if m else ""
     checks["code matches regex"] = m is not None
-    checks["variable name correctly used again"] = m.group(1) == m.group(3) if m else False
+    checks["variable name correctly used again"] = m.group(1) == m.group(3) if m else True
 
     missing_texts_and_descriptions = {}
     checks["mandatory texts used"] = True
