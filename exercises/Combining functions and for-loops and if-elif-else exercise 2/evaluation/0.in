@@ -1,0 +1,18 @@
+>>> Echo('Hallo wereld!', 4)
+Hallo wereld!
+Hallo wereld!
+Hallo wereld!
+Hallo wereld!
+>>> Echo('Python is leuk!', 7)
+Python is leuk!
+Python is leuk!
+Python is leuk!
+Python is leuk!
+Python is leuk!
+Python is leuk!
+Python is leuk!
+>>> Echo('Ik houd niet van programmeren', 0)
+>>> Echo('', 4)
+
+
+
