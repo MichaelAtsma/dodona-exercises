@@ -179,7 +179,7 @@ Maak een functie genaamd <function name="PrintTot"></function> die een getal als
     <tr>
       <th>Invoer</th>
       <th class="padding-column">→</th>
-      <th>Verwachte uitkomst op het scherm</th>
+      <th>Verwachte afdruk op het scherm</th>
     </tr>
   </thead>
   <tbody>

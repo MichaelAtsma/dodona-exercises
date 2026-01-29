@@ -230,7 +230,7 @@ Maak een functie genaamd <function name="BegroetVaak"></function> die een getal 
     <tr>
       <th>Invoer</th>
       <th class="padding-column">→</th>
-      <th>Verwachte uitkomst op het scherm</th>
+      <th>Verwachte afdruk op het scherm</th>
     </tr>
   </thead>
   <tbody>
