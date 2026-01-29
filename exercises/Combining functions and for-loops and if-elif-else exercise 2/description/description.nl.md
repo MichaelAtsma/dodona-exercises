@@ -199,9 +199,9 @@ Maak een functie genaamd <function name="Echo"></function> die twee waarden als 
       <td><pre><code></code></pre></td>
     </tr>
     <tr>
-      <td><function name="Echo" inputs='" ", 4'></function></td>
+      <td><function name="Echo" inputs='".", 4'></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code> <br> <br> <br> </code></pre></td>
+      <td><pre><code>.<br>.<br>.<br>.</code></pre></td>
     </tr>
   </tbody>
 </table>

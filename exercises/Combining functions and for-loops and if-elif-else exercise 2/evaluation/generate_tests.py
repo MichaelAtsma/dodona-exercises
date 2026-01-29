@@ -34,7 +34,7 @@ def GenerateRandomIntegers(n=50, low=0, high=150):
 function = Echo
 function_effect = "prints"
 
-X = [("Hallo wereld!", 4), ("Python is leuk!", 7), ("Ik houd niet van programmeren", 0), (" ", 4)]
+X = [("Hallo wereld!", 4), ("Python is leuk!", 7), ("Ik houd niet van programmeren", 0), (".", 4)]
 # bulk_test_length = 100
 # X_strings = GenerateRandomStringsAndPhrases(bulk_test_length)
 # X_numbers = GenerateRandomIntegers(n=bulk_test_length, low=0, high=150)
