@@ -10,18 +10,20 @@ def PrintTot(n):
         result_lines += f"{i}\n"
     return result_lines.strip()
 
+
+function = PrintTot
 function_effect = "prints"
 
 X = [4, 10, 0]
-# X = range(-50, 51)
+X = range(0, 100)
 
 result = ""
 for args in itertools.product(X):
-    result += f">>> PrintTot({', '.join(map(str, args))})\n"
+    result += f">>> {function.__name__}({', '.join(map(str, args))})\n"
     if function_effect == "returns":
-        result += f"{repr(PrintTot(*args))}\n"
+        result += f"{repr(function(*args))}\n"
     else:
-        result += f"{PrintTot(*args)}\n"
+        result += f"{function(*args)}\n"
 
 copy_to_clipboard(result.strip())
 print("Copied to clipboard:")
