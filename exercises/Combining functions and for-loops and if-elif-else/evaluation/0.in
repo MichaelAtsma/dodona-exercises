@@ -1,3 +1,14 @@
 >>> BegroetVaak(4)
+Hallo wereld!
+Hallo wereld!
+Hallo wereld!
+Hallo wereld!
 >>> BegroetVaak(7)
+Hallo wereld!
+Hallo wereld!
+Hallo wereld!
+Hallo wereld!
+Hallo wereld!
+Hallo wereld!
+Hallo wereld!
 >>> BegroetVaak(0)

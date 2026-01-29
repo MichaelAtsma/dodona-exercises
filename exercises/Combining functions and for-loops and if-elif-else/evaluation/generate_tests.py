@@ -17,16 +17,12 @@ X = [4, 7, 0]
 # X = range(0, 100)
 
 result = ""
-in_out = "out"
 for args in itertools.product(X):
-    if in_out == "in":
-        result += f">>> {function.__name__}({', '.join(map(str, args))})\n"
-        continue
-    
+    result += f">>> {function.__name__}({', '.join(map(str, args))})\n"
     if function_effect == "returns":
-        result += f"{repr(function(*args))}\n\n"
+        result += f"{repr(function(*args))}\n"
     else:
-        result += f"{function(*args)}\n\n"
+        result += f"{function(*args)}\n"
 
 copy_to_clipboard(result.strip())
 print("Copied to clipboard:")

@@ -1,23 +1,6 @@
-Hallo wereld!
-Hallo wereld!
-Hallo wereld!
-Hallo wereld!
-
-Hallo wereld!
-Hallo wereld!
-Hallo wereld!
-Hallo wereld!
-Hallo wereld!
-Hallo wereld!
-Hallo wereld!
 --------------------------------------------------
-python input without prompt: true
 tab name: Voorbeelden
-block count: multi
-input block size: 1
-output block size: ends with
-show line numbers: true
-comparison: exact match
+used output channel: stdout
 <LANGUAGE code="en">
     <function from="BegroetVaak" to="GreetOften" />
     <fixed from="Hallo wereld!" to="Hello world!" />
