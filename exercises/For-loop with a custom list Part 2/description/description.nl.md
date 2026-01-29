@@ -163,6 +163,9 @@ Charlie
 
 </details>
 
+<br>
+<hr>
+
 Het kan echter zo zijn dat we de lijst die we nu in de <i>for</i>-lus willen gebruiken al eerder hebben aangemaakt, of zelfs van iemand anders krijgen. We zullen dit principe nu eens bekijken. Bijvoorbeeld:
 
 ```python
