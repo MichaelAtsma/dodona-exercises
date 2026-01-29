@@ -1,0 +1,7 @@
+--------------------------------------------------
+tab name: Bulk test
+used output channel: stdout
+<LANGUAGE code="en">
+    <function from="BegroetVaak" to="GreetOften" />
+    <fixed from="Hallo wereld!" to="Hello world!" />
+</LANGUAGE>

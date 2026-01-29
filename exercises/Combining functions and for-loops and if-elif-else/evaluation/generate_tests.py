@@ -14,7 +14,7 @@ function_effect = "prints"
 function = BegroetVaak
 
 X = [4, 7, 0]
-# X = range(0, 100)
+X = range(0, 100)
 
 result = ""
 for args in itertools.product(X):
