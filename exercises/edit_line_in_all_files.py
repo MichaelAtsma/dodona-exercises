@@ -2,12 +2,12 @@ import os
 import re
 
 # Pattern or literal to replace
-use_regex_for_to_replace = True
-to_replace = r"""([^\n])\n```python"""
+use_regex_for_to_replace = False
+to_replace = r"""altidj"""
 
 # Replacement (can contain backreferences like r"\1" when use_regex is True)
-use_regex_for_replacement = True
-replacement = r"""\1\n\n```python"""
+use_regex_for_replacement = False
+replacement = r"""altijd"""
 
 
 filename_contains = "description"

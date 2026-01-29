@@ -138,7 +138,7 @@ We hebben in de vorige oefeningen geleerd hoe we een <i>for</i>-lus kunnen gebru
 <details markdown="1"><summary>Herhaling informatie over lijsten</summary>
 We hebben drie <i>datatypen</i> (soorten gegevens) gezien: <i>integer</i> (geheel getal), <i>float</i> (kommagetal), en <i>string</i> (tekst). Maar wat nou als je meerdere gegevens van deze types wil opslaan? Bijvoorbeeld een lijst van leeftijden (gehele getallen), of een lijst van prijzen (kommagetallen), of een lijst van namen (teksten)? Hiervoor gebruiken we <b>lijsten</b>.
 
-Een lijst maak je door meerdere waarden tussen vierkante haken <code>[ ]</code> te plaatsen, gescheiden door komma's. De volgorde van de elementen in de lijst zal altidj blijven zoals je ze hebt ingevoerd. Bijvoorbeeld:
+Een lijst maak je door meerdere waarden tussen vierkante haken <code>[ ]</code> te plaatsen, gescheiden door komma's. De volgorde van de elementen in de lijst zal altijd blijven zoals je ze hebt ingevoerd. Bijvoorbeeld:
 
 ```python
 leeftijden = [12, 15, 18, 20]
