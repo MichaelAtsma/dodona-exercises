@@ -4,10 +4,10 @@ import itertools
 def copy_to_clipboard(text):
     pyperclip.copy(text)
 
-def PrintTot(n):
+def BegroetVaak(aantal_keer):
     result_lines = ""
-    for i in range(n):
-        result_lines += f"{i}\n"
+    for _ in range(aantal_keer):
+        result_lines += "Hallo wereld!\n"
     return result_lines.strip()
 
 function_effect = "prints"
@@ -16,12 +16,13 @@ X = [4, 10, 0]
 # X = range(-50, 51)
 
 result = ""
+function = BegroetVaak
 for args in itertools.product(X):
-    result += f">>> PrintTot({', '.join(map(str, args))})\n"
+    result += f">>> {function.__name__}({', '.join(map(str, args))})\n"
     if function_effect == "returns":
-        result += f"{repr(PrintTot(*args))}\n"
+        result += f"{repr(function(*args))}\n"
     else:
-        result += f"{PrintTot(*args)}\n"
+        result += f"{function(*args)}\n"
 
 copy_to_clipboard(result.strip())
 print("Copied to clipboard:")

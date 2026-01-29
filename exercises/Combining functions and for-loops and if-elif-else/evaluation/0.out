@@ -1,5 +1,6 @@
 --------------------------------------------------
 tab name: Examples
 <LANGUAGE code="en">
-    <function from="PrintTot" to="PrintTo" />
+    <function from="BegroetVaak" to="GreetOften" />
+    <fixed from="Hallo wereld!" to="Hello world!" />
 </LANGUAGE>
