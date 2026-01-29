@@ -212,7 +212,7 @@ En tot slot krijgt iemand die <function name="PositiefOfNegatief" inputs="0"></f
 <hr>
 
 # <b>Opdracht</b>
-Maak een functie genaamd <function name="PositiefOfNegatief"></function> en een tekst als uitvoer teruggeeft die vertelt of het getal <i>positief</i>, <i>negatief</i>, of <i>het neutral getal 0</i> is.
+Maak een functie genaamd <function name="PositiefOfNegatief"></function> die een tekst als uitvoer teruggeeft die vertelt of het getal <i>positief</i>, <i>negatief</i>, of <i>het neutral getal 0</i> is.
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
 
