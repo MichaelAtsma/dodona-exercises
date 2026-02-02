@@ -30,7 +30,7 @@ def evaluate_test(context, match_regex, number_of_print_statements_allowed, wron
 
     return EvaluationResult(
       result = correct,
-      dsl_expected = "", # empty string seems to default to correct display
-      dsl_actual = "", # empty string seems to default to correct display
+      readable_expected = context.expected, # empty string seems to default to correct display
+      readable_actual = context.actual, # empty string seems to default to correct display
       messages = mymessages
     )
