@@ -9,7 +9,7 @@ to_replace = r"""document.addEventListener("DOMContentLoaded", function() {
       const inputsAttr = el.getAttribute("inputs");
       let html = `<span class="function-name">${name}</span>`;
       if (inputsAttr) {  // Put only a space in the inputs attribute if you want the function to appear with brackets but no inputs
-        const inputs = inputsAttr.split(","); // Needs to be fixed, because now I can't escape commas in strings. But needs to be changed everywhere.
+        const inputs = inputsAttr.split(",");
         html += `<span class="functionseparators">(</span>`;
         html += inputs.map((input, i) => {
           const trimmed = input.trim();
@@ -163,7 +163,7 @@ replacement = r"""function splitInputsTopLevel(inputText) {
 filename_contains = "description"
 directory_contains = ""
 directory_does_not_contain = ""
-root_dir = "dodona-exercises/exercises/Test 2 Exercise 4"
+root_dir = "dodona-exercises/exercises"
 
 for dirpath, dirnames, filenames in os.walk(root_dir):
     for filename in filenames:

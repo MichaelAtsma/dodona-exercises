@@ -11,16 +11,77 @@
     e.clipboardData.setData("text/plain", copyMessage);
   });
 
+  function splitInputsTopLevel(inputText) {
+    const parts = [];
+    let current = "";
+    let inQuote = false;
+    let quoteChar = "";
+    let bracketDepth = 0;
+    let escapeComma = false;
+
+    for (let i = 0; i < inputText.length; i++) {
+      const ch = inputText[i];
+
+      if (escapeComma) {
+        current += ch;
+        escapeComma = false;
+        continue;
+      }
+
+      if (ch === "\\" && inputText[i + 1] === ",") {
+        current += ch;
+        escapeComma = true;
+        continue;
+      }
+
+      if ((ch === '"' || ch === "'") && inputText[i - 1] !== "\\") {
+        if (!inQuote) {
+          inQuote = true;
+          quoteChar = ch;
+        } else if (quoteChar === ch) {
+          inQuote = false;
+          quoteChar = "";
+        }
+        current += ch;
+        continue;
+      }
+
+      if (!inQuote) {
+        if (ch === "[" || ch === "(" || ch === "{") bracketDepth++;
+        if (ch === "]" || ch === ")" || ch === "}") bracketDepth = Math.max(0, bracketDepth - 1);
+        if (ch === "," && bracketDepth === 0) {
+          parts.push(current.trim());
+          current = "";
+          continue;
+        }
+      }
+
+      current += ch;
+    }
+
+    if (current.trim().length > 0) parts.push(current.trim());
+    return parts;
+  }
+
   document.addEventListener("DOMContentLoaded", function() {
     document.querySelectorAll("function").forEach(el => {
       const name = el.getAttribute("name");
       const inputsAttr = el.getAttribute("inputs");
       let html = `<span class="function-name">${name}</span>`;
       if (inputsAttr) {  // Put only a space in the inputs attribute if you want the function to appear with brackets but no inputs
-        const inputs = inputsAttr.split(",");
+        const inputs = splitInputsTopLevel(inputsAttr);
         html += `<span class="functionseparators">(</span>`;
-        html += inputs.map((input, i) => {
-          const trimmed = input.trim();
+        const formatValue = (value) => {
+          const trimmed = value.trim();
+          if (/^\[.*\]$/.test(trimmed)) {
+            const inner = trimmed.slice(1, -1).trim();
+            const items = inner.length ? splitInputsTopLevel(inner) : [];
+            const renderedItems = items.map((item, idx) => {
+              return `${formatValue(item)}${idx < items.length - 1 ? '<span class="functionseparators">, </span>' : ''}`;
+            }).join('');
+            return `<span class="functionseparators">[</span>${renderedItems}<span class="functionseparators">]</span>`;
+          }
+
           let typeClass = "functioninput-default"; // default to default
           if (/^["'].*["']$/.test(trimmed)) {
             typeClass = "string";
@@ -29,7 +90,12 @@
           } else if (/^-?\d*\.\d+$/.test(trimmed)) {
             typeClass = "functioninput-float";
           }
-          return `<span class="${typeClass}">${trimmed}</span>${i < inputs.length - 1 ? '<span class="functionseparators">, </span>' : ''}`;
+          const renderedValue = typeClass === "string" ? trimmed.replace(/\\,/g, ",") : trimmed;
+          return `<span class="${typeClass}">${renderedValue}</span>`;
+        };
+
+        html += inputs.map((input, i) => {
+          return `${formatValue(input)}${i < inputs.length - 1 ? '<span class="functionseparators">, </span>' : ''}`;
         }).join('');
         html += `<span class="functionseparators">)</span>`;
       }
