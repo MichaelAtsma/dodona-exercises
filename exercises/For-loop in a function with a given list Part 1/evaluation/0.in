@@ -1,0 +1,16 @@
+>>> PrintAllesInDeLijst(['appels', 'broccoli', 'citroenen', 'druiven'])
+appels
+broccoli
+citroenen
+druiven
+>>> PrintAllesInDeLijst([9, 2, 18])
+9
+2
+18
+>>> PrintAllesInDeLijst([70, 'Voldoende', 40, 'Onvoldoende', 100, 'Perfect'])
+70
+Voldoende
+40
+Onvoldoende
+100
+Perfect
