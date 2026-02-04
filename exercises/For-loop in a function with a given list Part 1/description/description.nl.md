@@ -63,8 +63,17 @@
       if (inputsAttr) {  // Put only a space in the inputs attribute if you want the function to appear with brackets but no inputs
         const inputs = splitInputsTopLevel(inputsAttr);
         html += `<span class="functionseparators">(</span>`;
-        html += inputs.map((input, i) => {
-          const trimmed = input.trim();
+        const formatValue = (value) => {
+          const trimmed = value.trim();
+          if (/^\[.*\]$/.test(trimmed)) {
+            const inner = trimmed.slice(1, -1).trim();
+            const items = inner.length ? splitInputsTopLevel(inner) : [];
+            const renderedItems = items.map((item, idx) => {
+              return `${formatValue(item)}${idx < items.length - 1 ? '<span class="functionseparators">, </span>' : ''}`;
+            }).join('');
+            return `<span class="functionseparators">[</span>${renderedItems}<span class="functionseparators">]</span>`;
+          }
+
           let typeClass = "functioninput-default"; // default to default
           if (/^["'].*["']$/.test(trimmed)) {
             typeClass = "string";
@@ -73,7 +82,11 @@
           } else if (/^-?\d*\.\d+$/.test(trimmed)) {
             typeClass = "functioninput-float";
           }
-          return `<span class="${typeClass}">${trimmed}</span>${i < inputs.length - 1 ? '<span class="functionseparators">, </span>' : ''}`;
+          return `<span class="${typeClass}">${trimmed}</span>`;
+        };
+
+        html += inputs.map((input, i) => {
+          return `${formatValue(input)}${i < inputs.length - 1 ? '<span class="functionseparators">, </span>' : ''}`;
         }).join('');
         html += `<span class="functionseparators">)</span>`;
       }
