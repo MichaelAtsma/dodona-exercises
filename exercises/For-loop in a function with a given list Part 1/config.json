@@ -5,8 +5,7 @@
     }
   },
   "evaluation": {
-    "handler": "tested",
-    "test_suite": "suite.yaml"
+    "pythia_judge": "doctest"
   },
   "labels": [],
   "internals": {
