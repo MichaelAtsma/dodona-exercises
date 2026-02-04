@@ -16,13 +16,52 @@
     e.clipboardData.setData("text/plain", modified);
   });
 
+  function splitInputsTopLevel(inputText) {
+    const parts = [];
+    let current = "";
+    let inQuote = false;
+    let quoteChar = "";
+    let bracketDepth = 0;
+
+    for (let i = 0; i < inputText.length; i++) {
+      const ch = inputText[i];
+
+      if ((ch === '"' || ch === "'") && inputText[i - 1] !== "\\") {
+        if (!inQuote) {
+          inQuote = true;
+          quoteChar = ch;
+        } else if (quoteChar === ch) {
+          inQuote = false;
+          quoteChar = "";
+        }
+        current += ch;
+        continue;
+      }
+
+      if (!inQuote) {
+        if (ch === "[" || ch === "(" || ch === "{") bracketDepth++;
+        if (ch === "]" || ch === ")" || ch === "}") bracketDepth = Math.max(0, bracketDepth - 1);
+        if (ch === "," && bracketDepth === 0) {
+          parts.push(current.trim());
+          current = "";
+          continue;
+        }
+      }
+
+      current += ch;
+    }
+
+    if (current.trim().length > 0) parts.push(current.trim());
+    return parts;
+  }
+
   document.addEventListener("DOMContentLoaded", function() {
     document.querySelectorAll("function").forEach(el => {
       const name = el.getAttribute("name");
       const inputsAttr = el.getAttribute("inputs");
       let html = `<span class="function-name">${name}</span>`;
       if (inputsAttr) {  // Put only a space in the inputs attribute if you want the function to appear with brackets but no inputs
-        const inputs = inputsAttr.split(",");
+        const inputs = splitInputsTopLevel(inputsAttr);
         html += `<span class="functionseparators">(</span>`;
         html += inputs.map((input, i) => {
           const trimmed = input.trim();
@@ -265,12 +304,7 @@ Vervang de underscores zodat elk element van de gegeven lijst op een nieuwe rege
       <td><pre><code>9<br>2<br>18</code></pre></td>
     </tr>
     <tr>
-      <td>
-
-```python
-PrintAllesInDeLijst([70, "Voldoende", 40, "Onvoldoende", 100, "Perfect"])
-``` 
-</td>
+      <td><function name="PrintAllesInDeLijst" inputs='[70, "Voldoende", 40, "Onvoldoende", 100, "Perfect"]'></function></td>
       <td style="text-align: center;">→</td>
       <td><pre><code>70<br>Voldoende<br>40<br>Onvoldoende<br>100<br>Perfect</code></pre></td>
     </tr>
