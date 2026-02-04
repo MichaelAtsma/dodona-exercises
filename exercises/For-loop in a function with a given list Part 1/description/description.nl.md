@@ -22,9 +22,22 @@
     let inQuote = false;
     let quoteChar = "";
     let bracketDepth = 0;
+    let escapeComma = false;
 
     for (let i = 0; i < inputText.length; i++) {
       const ch = inputText[i];
+
+      if (escapeComma) {
+        current += ch;
+        escapeComma = false;
+        continue;
+      }
+
+      if (ch === "\\" && inputText[i + 1] === ",") {
+        current += ch;
+        escapeComma = true;
+        continue;
+      }
 
       if ((ch === '"' || ch === "'") && inputText[i - 1] !== "\\") {
         if (!inQuote) {
@@ -82,7 +95,8 @@
           } else if (/^-?\d*\.\d+$/.test(trimmed)) {
             typeClass = "functioninput-float";
           }
-          return `<span class="${typeClass}">${trimmed}</span>`;
+          const renderedValue = typeClass === "string" ? trimmed.replace(/\\,/g, ",") : trimmed;
+          return `<span class="${typeClass}">${renderedValue}</span>`;
         };
 
         html += inputs.map((input, i) => {
@@ -317,7 +331,7 @@ Vervang de underscores zodat elk element van de gegeven lijst op een nieuwe rege
       <td><pre><code>9<br>2<br>18</code></pre></td>
     </tr>
     <tr>
-      <td><function name="PrintAllesInDeLijst" inputs='[70, "Voldoende", 40, "Onvoldoende", 100, "Perfect"]'></function></td>
+      <td><function name="PrintAllesInDeLijst" inputs='[70, "Vold\,oende", 40, "Onvoldoende", 100, "Perfect"]'></function></td>
       <td style="text-align: center;">→</td>
       <td><pre><code>70<br>Voldoende<br>40<br>Onvoldoende<br>100<br>Perfect</code></pre></td>
     </tr>
