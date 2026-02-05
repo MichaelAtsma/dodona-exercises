@@ -3,15 +3,15 @@ import re
 
 # Pattern or literal to replace
 use_regex_for_to_replace = False
-to_replace = r"""is groter dan 5"""
+to_replace = r"""Als iemand bijvoorbeeld <code>4</code> als invoer geeft door <function name="BegroetVaak" inputs="3"></function> te typen"""
 
 # Replacement (can contain backreferences like r"\1" when use_regex is True)
 use_regex_for_replacement = False
-replacement = r"""is groter dan 5."""
+replacement = r"""Als iemand bijvoorbeeld <code>3</code> als invoer geeft door <function name="BegroetVaak" inputs="3"></function> te typen"""
 
 
-filename_contains = ""
-directory_contains = "For-loop in a function with a given list Part 2"
+filename_contains = "description"
+directory_contains = ""
 directory_does_not_contain = ""
 root_dir = "dodona-exercises/exercises"
 

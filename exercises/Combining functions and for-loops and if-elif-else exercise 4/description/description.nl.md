@@ -210,13 +210,14 @@ def BegroetVaak(aantal_keer):
         print("Hallo wereld!")
 ```
 
-Wanneer iemand deze functie gebruikt, kan die zelf kiezen welke waarde voor <code>aantal_keer</code> die als invoer geeft. Als iemand bijvoorbeeld <code>4</code> als invoer geeft door <function name="BegroetVaak" inputs="3"></function> te typen, dan krijgt die het volgende op het scherm te zien:
+Wanneer iemand deze functie gebruikt, kan die zelf kiezen welke waarde voor <code>aantal_keer</code> die als invoer geeft. Als iemand bijvoorbeeld <code>3</code> als invoer geeft door <function name="BegroetVaak" inputs="3"></function> te typen, dan krijgt die het volgende op het scherm te zien:
 
 ```
 Hallo wereld!
 Hallo wereld!
 Hallo wereld!
 ```
+
 Zo ook krijgt iemand die <function name="BegroetVaak" inputs="7"></function> typt het volgende op het scherm te zien:
 
 ```
