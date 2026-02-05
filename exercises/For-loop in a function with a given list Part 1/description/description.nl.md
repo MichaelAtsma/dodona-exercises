@@ -295,7 +295,8 @@ Hierbij is <code>de_lijst</code> de naam die we hebben gegeven aan de invoerlijs
 
 Als iemand deze functie aanroept met een lijst, zoals <function name="PrintAllesInDeLijst" inputs='["appels", "broccoli", "citroenen", "druiven"]'></function>, dan zal het volgende op het scherm verschijnen:
 
-```appels
+```
+appels
 broccoli
 citroenen
 druiven
