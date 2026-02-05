@@ -1,0 +1,200 @@
+>>> VerwelkomIedereen(['Ahmed', 'Alice', 'Amina', 'Andreas', 'Aristote', 'Arthus', 'Audrey', 'Augustin', 'Axel', 'Ayman', 'Aïcha', 'Capucine', 'Charline', 'Coraline', 'Dani', 'Elene', 'Elisa', 'Elodie', 'Emilia', 'Ernest', 'Florian', 'Félix', 'Gabin', 'Gaspard', 'Gaston', 'Grégoire', 'Guillaume', 'Harold', 'Hiba', 'Inès', 'Isaac', 'Ismael', 'Jade', 'Jasper', 'Jean', 'Jeanne', 'Jialue', 'Johanne', 'Jop', 'Joseph', 'Jules', 'Julien', 'Juliette', 'Klea', 'Lara', 'Lars', 'Lilly-Rose', 'Lucien', 'Luka', 'Malia', 'Margaryta', 'Margaux', 'Margot', 'Marie', 'Mathieu', 'Matisse', 'Matéo', 'Maximilien', 'Maé', 'Nathan', 'Noah', 'Noemie', 'Noor', 'Nora', 'Oscar', 'Paulin', 'Philip', 'Quinten', 'Quirine', 'Rafael', 'Rocco', 'Romain', 'Rosalie', 'Sacha', 'Saniya', 'Sem', 'Solenne', 'Soléa', 'Taisiya', 'Theo', 'Thibault', 'Thomas', 'Tobias', 'Victor', 'Victoria', 'Wenceslas', 'Wided', 'William', 'Xenophanes', 'Zayon'])
+Welkom Ahmed!
+Welkom Alice!
+Welkom Amina!
+Welkom Andreas!
+Welkom Aristote!
+Welkom Arthus!
+Welkom Audrey!
+Welkom Augustin!
+Welkom Axel!
+Welkom Ayman!
+Welkom Aïcha!
+Welkom Capucine!
+Welkom Charline!
+Welkom Coraline!
+Welkom Dani!
+Welkom Elene!
+Welkom Elisa!
+Welkom Elodie!
+Welkom Emilia!
+Welkom Ernest!
+Welkom Florian!
+Welkom Félix!
+Welkom Gabin!
+Welkom Gaspard!
+Welkom Gaston!
+Welkom Grégoire!
+Welkom Guillaume!
+Welkom Harold!
+Welkom Hiba!
+Welkom Inès!
+Welkom Isaac!
+Welkom Ismael!
+Welkom Jade!
+Welkom Jasper!
+Welkom Jean!
+Welkom Jeanne!
+Welkom Jialue!
+Welkom Johanne!
+Welkom Jop!
+Welkom Joseph!
+Welkom Jules!
+Welkom Julien!
+Welkom Juliette!
+Welkom Klea!
+Welkom Lara!
+Welkom Lars!
+Welkom Lilly-Rose!
+Welkom Lucien!
+Welkom Luka!
+Welkom Malia!
+Welkom Margaryta!
+Welkom Margaux!
+Welkom Margot!
+Welkom Marie!
+Welkom Mathieu!
+Welkom Matisse!
+Welkom Matéo!
+Welkom Maximilien!
+Welkom Maé!
+Welkom Nathan!
+Welkom Noah!
+Welkom Noemie!
+Welkom Noor!
+Welkom Nora!
+Welkom Oscar!
+Welkom Paulin!
+Welkom Philip!
+Welkom Quinten!
+Welkom Quirine!
+Welkom Rafael!
+Welkom Rocco!
+Welkom Romain!
+Welkom Rosalie!
+Welkom Sacha!
+Welkom Saniya!
+Welkom Sem!
+Welkom Solenne!
+Welkom Soléa!
+Welkom Taisiya!
+Welkom Theo!
+Welkom Thibault!
+Welkom Thomas!
+Welkom Tobias!
+Welkom Victor!
+Welkom Victoria!
+Welkom Wenceslas!
+Welkom Wided!
+Welkom William!
+Welkom Xenophanes!
+Welkom Zayon!
+>>> VerwelkomIedereen(['Félix', 'Victor', 'Victoria', 'Julien'])
+Welkom Félix!
+Welkom Victor!
+Welkom Victoria!
+Welkom Julien!
+>>> VerwelkomIedereen(['Margot', 'Coraline', 'Noah'])
+Welkom Margot!
+Welkom Coraline!
+Welkom Noah!
+>>> VerwelkomIedereen(['Jean', 'Zayon', 'Augustin', 'Matéo'])
+Welkom Jean!
+Welkom Zayon!
+Welkom Augustin!
+Welkom Matéo!
+>>> VerwelkomIedereen(['Jop', 'Grégoire', 'Elene'])
+Welkom Jop!
+Welkom Grégoire!
+Welkom Elene!
+>>> VerwelkomIedereen(['Sem', 'Thibault', 'Axel'])
+Welkom Sem!
+Welkom Thibault!
+Welkom Axel!
+>>> VerwelkomIedereen(['Mathieu', 'Rosalie', 'Elisa', 'Philip'])
+Welkom Mathieu!
+Welkom Rosalie!
+Welkom Elisa!
+Welkom Philip!
+>>> VerwelkomIedereen(['Charline', 'Jeanne', 'Nathan', 'Nora', 'Marie'])
+Welkom Charline!
+Welkom Jeanne!
+Welkom Nathan!
+Welkom Nora!
+Welkom Marie!
+>>> VerwelkomIedereen(['Ahmed', 'Ernest', 'Juliette', 'Tobias', 'Johanne', 'Harold'])
+Welkom Ahmed!
+Welkom Ernest!
+Welkom Juliette!
+Welkom Tobias!
+Welkom Johanne!
+Welkom Harold!
+>>> VerwelkomIedereen(['Gabin', 'Sacha', 'Saniya', 'Maximilien', 'Noemie', 'Maé', 'Quinten'])
+Welkom Gabin!
+Welkom Sacha!
+Welkom Saniya!
+Welkom Maximilien!
+Welkom Noemie!
+Welkom Maé!
+Welkom Quinten!
+>>> VerwelkomIedereen(['Dani', 'Wided', 'Xenophanes', 'Jade', 'Florian', 'Lara'])
+Welkom Dani!
+Welkom Wided!
+Welkom Xenophanes!
+Welkom Jade!
+Welkom Florian!
+Welkom Lara!
+>>> VerwelkomIedereen(['Andreas', 'Luka', 'Arthus', 'Guillaume', 'Jasper', 'Thomas'])
+Welkom Andreas!
+Welkom Luka!
+Welkom Arthus!
+Welkom Guillaume!
+Welkom Jasper!
+Welkom Thomas!
+>>> VerwelkomIedereen(['Matisse', 'Noor', 'Ayman', 'William', 'Lars', 'Margaux'])
+Welkom Matisse!
+Welkom Noor!
+Welkom Ayman!
+Welkom William!
+Welkom Lars!
+Welkom Margaux!
+>>> VerwelkomIedereen(['Romain', 'Alice', 'Isaac', 'Theo'])
+Welkom Romain!
+Welkom Alice!
+Welkom Isaac!
+Welkom Theo!
+>>> VerwelkomIedereen(['Soléa', 'Paulin', 'Emilia', 'Lucien', 'Inès', 'Malia', 'Elodie'])
+Welkom Soléa!
+Welkom Paulin!
+Welkom Emilia!
+Welkom Lucien!
+Welkom Inès!
+Welkom Malia!
+Welkom Elodie!
+>>> VerwelkomIedereen(['Aïcha', 'Hiba', 'Jules', 'Audrey', 'Jialue'])
+Welkom Aïcha!
+Welkom Hiba!
+Welkom Jules!
+Welkom Audrey!
+Welkom Jialue!
+>>> VerwelkomIedereen(['Ismael', 'Klea', 'Capucine'])
+Welkom Ismael!
+Welkom Klea!
+Welkom Capucine!
+>>> VerwelkomIedereen(['Quirine', 'Margaryta', 'Lilly-Rose', 'Rocco', 'Oscar', 'Solenne', 'Gaspard'])
+Welkom Quirine!
+Welkom Margaryta!
+Welkom Lilly-Rose!
+Welkom Rocco!
+Welkom Oscar!
+Welkom Solenne!
+Welkom Gaspard!
+>>> VerwelkomIedereen(['Rafael', 'Aristote', 'Taisiya', 'Wenceslas'])
+Welkom Rafael!
+Welkom Aristote!
+Welkom Taisiya!
+Welkom Wenceslas!
+>>> VerwelkomIedereen(['Gaston', 'Amina', 'Joseph'])
+Welkom Gaston!
+Welkom Amina!
+Welkom Joseph!

@@ -1,0 +1,7 @@
+--------------------------------------------------
+tab name: Voorbeelden
+used output channel: stdout
+<LANGUAGE code="en">
+    <function from="VerwelkomIedereen" to="WelcomeEveryone" />
+    <fixed from="Welkom" to="Welcome" />
+</LANGUAGE>

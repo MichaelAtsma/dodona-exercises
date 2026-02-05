@@ -1,0 +1,32 @@
+>>> VerwelkomIedereen(['Ahmed', 'Bryan', 'Charlie', 'Dustin'])
+Welkom Ahmed!
+Welkom Bryan!
+Welkom Charlie!
+Welkom Dustin!
+>>> VerwelkomIedereen(['Elodie', 'Fiona', 'George'])
+Welkom Elodie!
+Welkom Fiona!
+Welkom George!
+>>> VerwelkomIedereen(['Hiba', 'Inès', 'Jialue', 'Karim', 'Lara'])
+Welkom Hiba!
+Welkom Inès!
+Welkom Jialue!
+Welkom Karim!
+Welkom Lara!
+>>> VerwelkomIedereen(['Max', 'Noemie', 'Oscar', 'Paulin', 'Quirine'])
+Welkom Max!
+Welkom Noemie!
+Welkom Oscar!
+Welkom Paulin!
+Welkom Quirine!
+>>> VerwelkomIedereen(['Rocco', 'Saniya', 'Thibault', 'Uma', 'Victoria'])
+Welkom Rocco!
+Welkom Saniya!
+Welkom Thibault!
+Welkom Uma!
+Welkom Victoria!
+>>> VerwelkomIedereen(['Wassil', 'Xenophanes', 'Yanis', 'Zayon'])
+Welkom Wassil!
+Welkom Xenophanes!
+Welkom Yanis!
+Welkom Zayon!
