@@ -1,0 +1,21 @@
+>>> Dubbels([5, 3, -7, 42, -91, 28])
+Het dubbele van 5 is 10
+Het dubbele van 3 is 6
+Het dubbele van -7 is -14
+Het dubbele van 42 is 84
+Het dubbele van -91 is -182
+Het dubbele van 28 is 56
+>>> Dubbels([1, 2, 4, 8, 16, 32])
+Het dubbele van 1 is 2
+Het dubbele van 2 is 4
+Het dubbele van 4 is 8
+Het dubbele van 8 is 16
+Het dubbele van 16 is 32
+Het dubbele van 32 is 64
+>>> Dubbels([5, 4, 3, 2, 1, 0])
+Het dubbele van 5 is 10
+Het dubbele van 4 is 8
+Het dubbele van 3 is 6
+Het dubbele van 2 is 4
+Het dubbele van 1 is 2
+Het dubbele van 0 is 0

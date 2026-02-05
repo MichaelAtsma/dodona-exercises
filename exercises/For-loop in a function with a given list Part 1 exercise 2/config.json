@@ -1,0 +1,15 @@
+{
+  "description": {
+    "names": {
+      "nl": "For-lus in een functie met een gegeven lijst (oefening 2)"
+    }
+  },
+  "evaluation": {
+    "pythia_judge": "doctest"
+  },
+  "labels": [],
+  "internals": {
+    "token": "FVrRVvaDWJtFpS7xXx59SK_8QgqtfferDqcPZzpqyhvzdYYvqj-qbxMkkMejemq-",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

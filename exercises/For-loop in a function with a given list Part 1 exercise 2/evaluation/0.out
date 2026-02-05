@@ -1,0 +1,8 @@
+--------------------------------------------------
+tab name: Voorbeelden
+used output channel: stdout
+<LANGUAGE code="en">
+    <function from="Dubbels" to="Doubles" />
+    <fixed from="Het dubbele van" to="The double of" />
+    <fixed from="is" to="doubled is" />
+</LANGUAGE>
