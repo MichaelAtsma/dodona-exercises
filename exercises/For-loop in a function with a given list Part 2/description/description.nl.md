@@ -311,7 +311,7 @@ druiven
 <br>
 <hr>
 
-We zullen nu zien dat we in de functie ook nog een <i>if</i>-constructie kunnen gebruiken binnen de <i>for</i>-lus om bepaalde acties uit te voeren op basis van de waarden in de lijst. Bijvoorbeeld, we kunnen een functie maken die alleen de getallen afdrukt die groter zijn dan 5 uit een gegeven lijst van getallen:
+We zullen nu zien dat we in de functie ook nog een <i>if</i>-constructie kunnen gebruiken binnen de <i>for</i>-lus om bepaalde acties uit te voeren op basis van de waarden in de lijst. Bijvoorbeeld, we kunnen een functie maken die van de gegeven lijst alleen de getallen afdrukt die groter zijn dan 5:
 
 ```python
 def PrintGroterDan5(getallen):
