@@ -312,7 +312,7 @@ druiven
 <hr>
 
 # <b>Opdracht</b>
-Maak een functie genaamd <function name="VerwelkomIedereen"></function> die een lijst als invoer neemt. Deze lijst bevat namen van mensen. De functie moet elke naam in de lijst gebruiken om een welkomstbericht af te drukken op het scherm in de volgende vorm: <code class="string">Welkom [naam]!</code>, waarbij <code class="string">[naam]</code> wordt vervangen door de daadwerkelijke naam uit de lijst. Zie onderstaande input-output verwachtingen voor voorbeelden.
+Maak een functie genaamd <function name="VerwelkomIedereen"></function> die een lijst als invoer neemt. Deze lijst bevat namen van mensen. De functie moet iedereen in de gegeven lijst op een aparte regel verwelkomen met het volgende bericht: <code class="string">Welkom [naam]!</code>, waarbij <code class="string">[naam]</code> wordt vervangen door de daadwerkelijke naam uit de lijst. Zie onderstaande input-output verwachtingen voor voorbeelden.
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
 
