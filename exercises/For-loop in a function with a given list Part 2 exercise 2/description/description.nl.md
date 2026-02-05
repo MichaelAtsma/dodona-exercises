@@ -243,7 +243,7 @@ Waarom?
 <hr>
 
 # <b>Opdracht</b>
-Maak een functie genaamd <function name="PrintVoldoendes"></function> die een lijst als invoer neemt. Deze lijst bevat percentages (<i>floats</i>) van 0 tot en met 100. De functie moet elk getal in de lijst controleren en alleen die getallen afdrukken die voldoende zijn (50% of hoger). Voor elkee voldoende, moet de functie op het scherm afdrukken: <code class="string">[getal]% is een voldoende.</code>, waarbij <code class="string">[getal]</code> vervangen wordt door het daadwerkelijke getal uit de lijst.
+Maak een functie genaamd <function name="PrintVoldoendes"></function> die een lijst als invoer neemt. Deze lijst bevat percentages (<i>floats</i>) van 0 tot en met 100. De functie moet elk getal in de lijst controleren en alleen die getallen afdrukken die voldoende zijn (50% of hoger). Voor elke voldoende moet de functie op het scherm afdrukken: <code class="string">[getal]% is een voldoende.</code>, waarbij <code class="string">[getal]</code> vervangen wordt door het daadwerkelijke getal uit de lijst.
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
 
