@@ -317,7 +317,7 @@ We zullen nu zien dat we in de functie ook nog een <i>if</i>-constructie kunnen 
 def PrintGroterDan5(getallen):
     for getal in getallen:
         if getal > 5:
-            print(f"{getal} is groter dan 5")
+            print(f"{getal} is groter dan 5.")
 ```
 
 Merk op dat er géén <code>elif</code> of <code>else</code> is in deze <i>if</i>-constructie. Dit betekent dat als het getal niet groter is dan 5, er niets gebeurt en de lus gewoon doorgaat naar het volgende getal in de lijst.
@@ -325,8 +325,8 @@ Merk op dat er géén <code>elif</code> of <code>else</code> is in deze <i>if</i
 Als iemand deze functie aanroept met een lijst zoals <function name="PrintGroterDan5" inputs='[3, 7, 2, 9, 4]'></function>, dan zal het volgende op het scherm verschijnen:
 
 ```
-7 is groter dan 5
-9 is groter dan 5
+7 is groter dan 5.
+9 is groter dan 5.
 ```
 
 Waarom?
@@ -336,9 +336,9 @@ Waarom?
   <li>De functie <function name="PrintGroterDan5"></function> wordt aangeroepen met de lijst <code>[3, 7, 2, 9, 4]</code>.</li>
   <li>De <i>for</i>-lus begint en <code>getal</code> neemt de waarde van het eerste getal uit de lijst, namelijk <code>3</code>.</li>
   <li>De <i>if</i>-constructie controleert of <code>3 > 5</code>. Dit is niet waar, dus er gebeurt niets en de lus gaat verder naar het volgende getal.</li>
-  <li>Het volgende <code>getal</code> is <code>7</code>. De <i>if</i>-constructie controleert of <code>7 > 5</code>. Dit is waar, dus de code binnen de <i>if</i>-constructie wordt uitgevoerd en op het scherm verschijnt: <code class="string">7 is groter dan 5</code>.</li>
+  <li>Het volgende <code>getal</code> is <code>7</code>. De <i>if</i>-constructie controleert of <code>7 > 5</code>. Dit is waar, dus de code binnen de <i>if</i>-constructie wordt uitgevoerd en op het scherm verschijnt: <code class="string">7 is groter dan 5.</code>.</li>
   <li>De lus gaat verder naar het volgende <code>getal</code>, namelijk <code>2</code>. De <i>if</i>-constructie controleert of <code>2 > 5</code>. Dit is niet waar, dus er gebeurt niets en de lus gaat verder.</li>
-  <li>Het volgende <code>getal</code> is <code>9</code>. De <i>if</i>-constructie controleert of <code>9 > 5</code>. Dit is waar, dus de code binnen de <i>if</i>-constructie wordt uitgevoerd en op het scherm verschijnt: <code class="string">9 is groter dan 5</code>.</li>
+  <li>Het volgende <code>getal</code> is <code>9</code>. De <i>if</i>-constructie controleert of <code>9 > 5</code>. Dit is waar, dus de code binnen de <i>if</i>-constructie wordt uitgevoerd en op het scherm verschijnt: <code class="string">9 is groter dan 5.</code>.</li>
   <li>Het laatste <code>getal</code> is <code>4</code>. De <i>if</i>-constructie controleert of <code>4 > 5</code>. Dit is niet waar, dus er gebeurt niets.</li>
   <li>Nu zijn er geen getallen meer in de lijst, dus stopt de lus.</li>
 </ul>
@@ -349,7 +349,7 @@ Waarom?
 <hr>
 
 # <b>Opdracht</b>
-Maak een functie genaamd <function name="PrintGroterDan5"></function> die een lijst als invoer neemt. Deze lijst bevat getallen. De functie moet elk getal in de lijst controleren en alleen die getallen afdrukken die groter zijn dan 5. Voor elk getal dat groter is dan 5, moet de functie op het scherm afdrukken: <code class="string">[getal] is groter dan 5</code>, waarbij <code class="string">[getal]</code> vervangen wordt door het daadwerkelijke getal uit de lijst.
+Maak een functie genaamd <function name="PrintGroterDan5"></function> die een lijst als invoer neemt. Deze lijst bevat getallen. De functie moet elk getal in de lijst controleren en alleen die getallen afdrukken die groter zijn dan 5. Voor elk getal dat groter is dan 5, moet de functie op het scherm afdrukken: <code class="string">[getal] is groter dan 5.</code>, waarbij <code class="string">[getal]</code> vervangen wordt door het daadwerkelijke getal uit de lijst.
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
 
@@ -366,17 +366,17 @@ Maak een functie genaamd <function name="PrintGroterDan5"></function> die een li
     <tr>
       <td><function name="PrintGroterDan5" inputs='[3, 7, 2, 9, 4]'></function></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code>7 is groter dan 5<br>9 is groter dan 5</code></pre></td>
+      <td><pre><code>7 is groter dan 5.<br>9 is groter dan 5.</code></pre></td>
     </tr>
     <tr>
       <td><function name="PrintGroterDan5" inputs='[6, 3, -7, 42, -91, 28]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code>6 is groter dan 5<br>42 is groter dan 5<br>28 is groter dan 5</code></pre></td>
+      <td><pre><code>6 is groter dan 5.<br>42 is groter dan 5.<br>28 is groter dan 5.</code></pre></td>
     </tr>
     <tr>
       <td><function name="PrintGroterDan5" inputs='[1, 2, 4, 8, 16, 32]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code>8 is groter dan 5<br>16 is groter dan 5<br>32 is groter dan 5</code></pre></td>
+      <td><pre><code>8 is groter dan 5.<br>16 is groter dan 5.<br>32 is groter dan 5.</code></pre></td>
     </tr>
     <tr>
       <td><function name="PrintGroterDan5" inputs='[5, 4, 3, 2, 1, 0]'></function></td>

@@ -9,7 +9,7 @@ def PrintGroterDan5(getallen):
     res = []
     for element in getallen:
         if element > 5:
-            res.append(f"{element} is groter dan 5")
+            res.append(f"{element} is groter dan 5.")
     return "\n".join(res)
 
 function_effect = "prints"

@@ -1,12 +1,12 @@
 >>> PrintGroterDan5([3, 7, 2, 9, 4])
-7 is groter dan 5
-9 is groter dan 5
+7 is groter dan 5.
+9 is groter dan 5.
 >>> PrintGroterDan5([6, 3, -7, 42, -91, 28])
-6 is groter dan 5
-42 is groter dan 5
-28 is groter dan 5
+6 is groter dan 5.
+42 is groter dan 5.
+28 is groter dan 5.
 >>> PrintGroterDan5([1, 2, 4, 8, 16, 32])
-8 is groter dan 5
-16 is groter dan 5
-32 is groter dan 5
+8 is groter dan 5.
+16 is groter dan 5.
+32 is groter dan 5.
 >>> PrintGroterDan5([5, 4, 3, 2, 1, 0])
