@@ -160,8 +160,8 @@
     white-space: nowrap;
   }
   th.padding-column {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
   td {
     padding: 4px 10px !important;
@@ -360,7 +360,7 @@ Maak een functie genaamd <function name="PrintGroterDan5"></function> die een li
     <tr>
       <th>Invoer</th>
       <th class="padding-column">→</th>
-      <th style="padding: 1000px 1000px;">Verwachte output</th>
+      <th style="padding: 1000px 1000px !important;">Verwachte output</th>
     </tr>
   </thead>
   <tbody>
