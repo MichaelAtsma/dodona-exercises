@@ -360,7 +360,7 @@ Maak een functie genaamd <function name="PrintGroterDan5"></function> die een li
     <tr>
       <th>Invoer</th>
       <th class="padding-column">→</th>
-      <th style="padding: 0 1000px !important;">Verwachte output</th>
+      <th style="padding: 0 100px !important;">Verwachte output</th>
     </tr>
   </thead>
   <tbody>
