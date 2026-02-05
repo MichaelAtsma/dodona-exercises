@@ -11,12 +11,13 @@ def Dubbels(getallen):
 
 function_effect = "prints"
 function = Dubbels
-bulk_test = True
+bulk_test = False
 
 if not bulk_test:
     X = [([5, 3, -7, 42, -91, 28],),
          ([1, 2, 4, 8, 16, 32],),
-         ([5, 4, 3, 2, 1, 0],)]
+         ([5, 4, 3, 2, 1, 0],),
+         ([],)]
 else:
     X = [([random.randint(-100, 100) for _ in range(10)],) for _ in range(100)]
 

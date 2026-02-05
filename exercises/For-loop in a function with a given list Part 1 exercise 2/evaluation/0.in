@@ -19,3 +19,4 @@ Het dubbele van 3 is 6
 Het dubbele van 2 is 4
 Het dubbele van 1 is 2
 Het dubbele van 0 is 0
+>>> Dubbels([])

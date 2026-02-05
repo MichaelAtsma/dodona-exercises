@@ -341,6 +341,11 @@ Maak een functie genaamd <function name="Dubbels"></function> die een lijst als 
       <td style="text-align: center;">→</td>
       <td><pre><code>Het dubbele van 5 is 10<br>Het dubbele van 4 is 8<br>Het dubbele van 3 is 6<br>Het dubbele van 2 is 4<br>Het dubbele van 1 is 2<br>Het dubbele van 0 is 0</code></pre></td>
     </tr>
+    <tr>
+      <td><function name="Dubbels" inputs='[]'></function></td>
+      <td style="text-align: center;">→</td>
+      <td><pre><code></code></pre></td>
+    </tr>
   </tbody>
 </table>
 </div>
