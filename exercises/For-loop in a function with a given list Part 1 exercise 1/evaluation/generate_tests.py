@@ -33,7 +33,7 @@ bulk_test = True
 
 if not bulk_test:
     X = [(["Ahmed", "Bryan", "Capucine", "Dani"],),
-        (["Elodie", "Fiona", "George"],),
+        (["Elodie", "Fiona", "Gabin"],),
         (["Hiba", "Inès", "Jialue", "Karim", "Lara"],),
         (["Max", "Noemie", "Oscar", "Paulin", "Quirine"],),
         (["Rocco", "Saniya", "Thibault", "Uma", "Victoria"],),

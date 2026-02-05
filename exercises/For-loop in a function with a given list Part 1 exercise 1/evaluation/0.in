@@ -3,10 +3,10 @@ Welkom Ahmed!
 Welkom Bryan!
 Welkom Capucine!
 Welkom Dani!
->>> VerwelkomIedereen(['Elodie', 'Fiona', 'George'])
+>>> VerwelkomIedereen(['Elodie', 'Fiona', 'Gabin'])
 Welkom Elodie!
 Welkom Fiona!
-Welkom George!
+Welkom Gabin!
 >>> VerwelkomIedereen(['Hiba', 'Inès', 'Jialue', 'Karim', 'Lara'])
 Welkom Hiba!
 Welkom Inès!
