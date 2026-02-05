@@ -7,11 +7,11 @@ def copy_to_clipboard(text):
     pyperclip.copy(text)
 
 def Dubbels(getallen):
-    return "\n".join([f"Het dubbele van {getal} is {2 * getal}" for getal in getallen])
+    return "\n".join([f"Het dubbele van {getal} is {2 * getal}." for getal in getallen])
 
 function_effect = "prints"
 function = Dubbels
-bulk_test = False
+bulk_test = True
 
 if not bulk_test:
     X = [([5, 3, -7, 42, -91, 28],),
@@ -19,7 +19,7 @@ if not bulk_test:
          ([5, 4, 3, 2, 1, 0],),
          ([],)]
 else:
-    X = [([random.randint(-100, 100) for _ in range(10)],) for _ in range(100)]
+    X = [([random.randint(-100, 100) for _ in range(random.randint(0, 10))],) for _ in range(100)]
 
 
 
@@ -30,6 +30,8 @@ for args in X:
         result += f"{repr(function(*args))}\n"
     else:
         result += f"{function(*args)}\n"
+    if not function(*args):
+        result = result[:-1]  # Remove last newline if no output
 
 copy_to_clipboard(result.strip())
 print("Copied to clipboard:")

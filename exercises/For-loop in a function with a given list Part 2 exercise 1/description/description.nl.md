@@ -258,7 +258,7 @@ Maak een functie genaamd <function name="PrintPositief"></function> die een lijs
   </thead>
   <tbody>
     <tr>
-      <td><function name="PrintPositief" inputs='[1, -2, 7, -5, 18, -18]'></function></function></td>
+      <td><function name="PrintPositief" inputs='[1, -2, 7, -5, 18, -18]'></function></td>
       <td style="text-align: center;">→</td>
       <td><pre><code>1<br>7<br>18</code></pre></td>
     </tr>

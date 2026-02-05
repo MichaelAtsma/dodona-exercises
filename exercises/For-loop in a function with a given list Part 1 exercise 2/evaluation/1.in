@@ -1,1100 +1,656 @@
->>> Dubbels([-97, -4, -61, 36, -12, 73, -42, -48, -81, -83])
-Het dubbele van -97 is -194
-Het dubbele van -4 is -8
-Het dubbele van -61 is -122
-Het dubbele van 36 is 72
-Het dubbele van -12 is -24
-Het dubbele van 73 is 146
-Het dubbele van -42 is -84
-Het dubbele van -48 is -96
-Het dubbele van -81 is -162
-Het dubbele van -83 is -166
->>> Dubbels([-73, 98, 82, 75, -83, 65, -56, 90, 48, -66])
-Het dubbele van -73 is -146
-Het dubbele van 98 is 196
-Het dubbele van 82 is 164
-Het dubbele van 75 is 150
-Het dubbele van -83 is -166
-Het dubbele van 65 is 130
-Het dubbele van -56 is -112
-Het dubbele van 90 is 180
-Het dubbele van 48 is 96
-Het dubbele van -66 is -132
->>> Dubbels([95, -5, -31, 62, 39, -57, 1, -21, -39, 32])
-Het dubbele van 95 is 190
-Het dubbele van -5 is -10
-Het dubbele van -31 is -62
-Het dubbele van 62 is 124
-Het dubbele van 39 is 78
-Het dubbele van -57 is -114
-Het dubbele van 1 is 2
-Het dubbele van -21 is -42
-Het dubbele van -39 is -78
-Het dubbele van 32 is 64
->>> Dubbels([80, 81, 39, 43, 71, -47, 12, -33, -47, 80])
-Het dubbele van 80 is 160
-Het dubbele van 81 is 162
-Het dubbele van 39 is 78
-Het dubbele van 43 is 86
-Het dubbele van 71 is 142
-Het dubbele van -47 is -94
-Het dubbele van 12 is 24
-Het dubbele van -33 is -66
-Het dubbele van -47 is -94
-Het dubbele van 80 is 160
->>> Dubbels([85, -77, 41, -22, -59, -20, 90, 17, 65, 3])
-Het dubbele van 85 is 170
-Het dubbele van -77 is -154
-Het dubbele van 41 is 82
-Het dubbele van -22 is -44
-Het dubbele van -59 is -118
-Het dubbele van -20 is -40
-Het dubbele van 90 is 180
-Het dubbele van 17 is 34
-Het dubbele van 65 is 130
-Het dubbele van 3 is 6
->>> Dubbels([-51, -45, 21, -48, 27, 82, 68, 80, 69, -70])
-Het dubbele van -51 is -102
-Het dubbele van -45 is -90
-Het dubbele van 21 is 42
-Het dubbele van -48 is -96
-Het dubbele van 27 is 54
-Het dubbele van 82 is 164
-Het dubbele van 68 is 136
-Het dubbele van 80 is 160
-Het dubbele van 69 is 138
-Het dubbele van -70 is -140
->>> Dubbels([35, 54, 56, 16, 74, -27, -78, 8, -25, 11])
-Het dubbele van 35 is 70
-Het dubbele van 54 is 108
-Het dubbele van 56 is 112
-Het dubbele van 16 is 32
-Het dubbele van 74 is 148
-Het dubbele van -27 is -54
-Het dubbele van -78 is -156
-Het dubbele van 8 is 16
-Het dubbele van -25 is -50
-Het dubbele van 11 is 22
->>> Dubbels([16, 26, -88, -71, 12, -90, -89, -85, 30, 43])
-Het dubbele van 16 is 32
-Het dubbele van 26 is 52
-Het dubbele van -88 is -176
-Het dubbele van -71 is -142
-Het dubbele van 12 is 24
-Het dubbele van -90 is -180
-Het dubbele van -89 is -178
-Het dubbele van -85 is -170
-Het dubbele van 30 is 60
-Het dubbele van 43 is 86
->>> Dubbels([-41, 44, 39, 5, 22, -36, 69, -48, 10, 43])
-Het dubbele van -41 is -82
-Het dubbele van 44 is 88
-Het dubbele van 39 is 78
-Het dubbele van 5 is 10
-Het dubbele van 22 is 44
-Het dubbele van -36 is -72
-Het dubbele van 69 is 138
-Het dubbele van -48 is -96
-Het dubbele van 10 is 20
-Het dubbele van 43 is 86
->>> Dubbels([39, 39, 40, 75, -13, 79, -87, 45, -19, 36])
-Het dubbele van 39 is 78
-Het dubbele van 39 is 78
-Het dubbele van 40 is 80
-Het dubbele van 75 is 150
-Het dubbele van -13 is -26
-Het dubbele van 79 is 158
-Het dubbele van -87 is -174
-Het dubbele van 45 is 90
-Het dubbele van -19 is -38
-Het dubbele van 36 is 72
->>> Dubbels([-88, 19, 71, 92, 76, 78, 49, -33, 40, 30])
-Het dubbele van -88 is -176
-Het dubbele van 19 is 38
-Het dubbele van 71 is 142
-Het dubbele van 92 is 184
-Het dubbele van 76 is 152
-Het dubbele van 78 is 156
-Het dubbele van 49 is 98
-Het dubbele van -33 is -66
-Het dubbele van 40 is 80
-Het dubbele van 30 is 60
->>> Dubbels([-50, 84, 14, 75, -6, -87, -25, 81, -96, 16])
-Het dubbele van -50 is -100
-Het dubbele van 84 is 168
-Het dubbele van 14 is 28
-Het dubbele van 75 is 150
-Het dubbele van -6 is -12
-Het dubbele van -87 is -174
-Het dubbele van -25 is -50
-Het dubbele van 81 is 162
-Het dubbele van -96 is -192
-Het dubbele van 16 is 32
->>> Dubbels([92, -98, 28, 43, 84, -20, 86, -9, -31, 22])
-Het dubbele van 92 is 184
-Het dubbele van -98 is -196
-Het dubbele van 28 is 56
-Het dubbele van 43 is 86
-Het dubbele van 84 is 168
-Het dubbele van -20 is -40
-Het dubbele van 86 is 172
-Het dubbele van -9 is -18
-Het dubbele van -31 is -62
-Het dubbele van 22 is 44
->>> Dubbels([22, -17, 86, -3, -17, 31, -74, 35, 28, -54])
-Het dubbele van 22 is 44
-Het dubbele van -17 is -34
-Het dubbele van 86 is 172
-Het dubbele van -3 is -6
-Het dubbele van -17 is -34
-Het dubbele van 31 is 62
-Het dubbele van -74 is -148
-Het dubbele van 35 is 70
-Het dubbele van 28 is 56
-Het dubbele van -54 is -108
->>> Dubbels([74, -9, 56, 70, 98, -19, 15, 99, -44, 68])
-Het dubbele van 74 is 148
-Het dubbele van -9 is -18
-Het dubbele van 56 is 112
-Het dubbele van 70 is 140
-Het dubbele van 98 is 196
-Het dubbele van -19 is -38
-Het dubbele van 15 is 30
-Het dubbele van 99 is 198
-Het dubbele van -44 is -88
-Het dubbele van 68 is 136
->>> Dubbels([85, 95, 5, -95, -39, -41, 68, -84, -26, -97])
-Het dubbele van 85 is 170
-Het dubbele van 95 is 190
-Het dubbele van 5 is 10
-Het dubbele van -95 is -190
-Het dubbele van -39 is -78
-Het dubbele van -41 is -82
-Het dubbele van 68 is 136
-Het dubbele van -84 is -168
-Het dubbele van -26 is -52
-Het dubbele van -97 is -194
->>> Dubbels([-6, 95, 78, -70, -77, -99, -17, 25, -31, 93])
-Het dubbele van -6 is -12
-Het dubbele van 95 is 190
-Het dubbele van 78 is 156
-Het dubbele van -70 is -140
-Het dubbele van -77 is -154
-Het dubbele van -99 is -198
-Het dubbele van -17 is -34
-Het dubbele van 25 is 50
-Het dubbele van -31 is -62
-Het dubbele van 93 is 186
->>> Dubbels([10, 37, -48, 72, 11, -67, -27, 40, -24, 68])
-Het dubbele van 10 is 20
-Het dubbele van 37 is 74
-Het dubbele van -48 is -96
-Het dubbele van 72 is 144
-Het dubbele van 11 is 22
-Het dubbele van -67 is -134
-Het dubbele van -27 is -54
-Het dubbele van 40 is 80
-Het dubbele van -24 is -48
-Het dubbele van 68 is 136
->>> Dubbels([57, 81, 54, 22, -82, 2, 96, -52, 22, 85])
-Het dubbele van 57 is 114
-Het dubbele van 81 is 162
-Het dubbele van 54 is 108
-Het dubbele van 22 is 44
-Het dubbele van -82 is -164
-Het dubbele van 2 is 4
-Het dubbele van 96 is 192
-Het dubbele van -52 is -104
-Het dubbele van 22 is 44
-Het dubbele van 85 is 170
->>> Dubbels([-62, 96, 64, -31, 33, -2, -43, -78, 91, 68])
-Het dubbele van -62 is -124
-Het dubbele van 96 is 192
-Het dubbele van 64 is 128
-Het dubbele van -31 is -62
-Het dubbele van 33 is 66
-Het dubbele van -2 is -4
-Het dubbele van -43 is -86
-Het dubbele van -78 is -156
-Het dubbele van 91 is 182
-Het dubbele van 68 is 136
->>> Dubbels([73, -53, -17, -88, -96, 96, 77, 7, 61, -51])
-Het dubbele van 73 is 146
-Het dubbele van -53 is -106
-Het dubbele van -17 is -34
-Het dubbele van -88 is -176
-Het dubbele van -96 is -192
-Het dubbele van 96 is 192
-Het dubbele van 77 is 154
-Het dubbele van 7 is 14
-Het dubbele van 61 is 122
-Het dubbele van -51 is -102
->>> Dubbels([49, 87, 79, 22, 28, 48, -6, 51, -47, 64])
-Het dubbele van 49 is 98
-Het dubbele van 87 is 174
-Het dubbele van 79 is 158
-Het dubbele van 22 is 44
-Het dubbele van 28 is 56
-Het dubbele van 48 is 96
-Het dubbele van -6 is -12
-Het dubbele van 51 is 102
-Het dubbele van -47 is -94
-Het dubbele van 64 is 128
->>> Dubbels([-10, -88, -29, -44, -21, -14, -4, 85, -42, -31])
-Het dubbele van -10 is -20
-Het dubbele van -88 is -176
-Het dubbele van -29 is -58
-Het dubbele van -44 is -88
-Het dubbele van -21 is -42
-Het dubbele van -14 is -28
-Het dubbele van -4 is -8
-Het dubbele van 85 is 170
-Het dubbele van -42 is -84
-Het dubbele van -31 is -62
->>> Dubbels([54, -75, 78, 58, 18, -56, -75, 44, -11, -62])
-Het dubbele van 54 is 108
-Het dubbele van -75 is -150
-Het dubbele van 78 is 156
-Het dubbele van 58 is 116
-Het dubbele van 18 is 36
-Het dubbele van -56 is -112
-Het dubbele van -75 is -150
-Het dubbele van 44 is 88
-Het dubbele van -11 is -22
-Het dubbele van -62 is -124
->>> Dubbels([-55, -39, -94, 22, -91, 79, 75, -32, -49, -88])
-Het dubbele van -55 is -110
-Het dubbele van -39 is -78
-Het dubbele van -94 is -188
-Het dubbele van 22 is 44
-Het dubbele van -91 is -182
-Het dubbele van 79 is 158
-Het dubbele van 75 is 150
-Het dubbele van -32 is -64
-Het dubbele van -49 is -98
-Het dubbele van -88 is -176
->>> Dubbels([-3, 60, -48, -53, -43, -1, -39, -28, -85, -53])
-Het dubbele van -3 is -6
-Het dubbele van 60 is 120
-Het dubbele van -48 is -96
-Het dubbele van -53 is -106
-Het dubbele van -43 is -86
-Het dubbele van -1 is -2
-Het dubbele van -39 is -78
-Het dubbele van -28 is -56
-Het dubbele van -85 is -170
-Het dubbele van -53 is -106
->>> Dubbels([12, -46, 35, 14, 75, 28, 60, 100, 67, 64])
-Het dubbele van 12 is 24
-Het dubbele van -46 is -92
-Het dubbele van 35 is 70
-Het dubbele van 14 is 28
-Het dubbele van 75 is 150
-Het dubbele van 28 is 56
-Het dubbele van 60 is 120
-Het dubbele van 100 is 200
-Het dubbele van 67 is 134
-Het dubbele van 64 is 128
->>> Dubbels([-51, -29, -92, -28, -79, -99, -57, 85, -11, 58])
-Het dubbele van -51 is -102
-Het dubbele van -29 is -58
-Het dubbele van -92 is -184
-Het dubbele van -28 is -56
-Het dubbele van -79 is -158
-Het dubbele van -99 is -198
-Het dubbele van -57 is -114
-Het dubbele van 85 is 170
-Het dubbele van -11 is -22
-Het dubbele van 58 is 116
->>> Dubbels([97, -48, 81, -33, -87, -54, 64, 70, -94, 74])
-Het dubbele van 97 is 194
-Het dubbele van -48 is -96
-Het dubbele van 81 is 162
-Het dubbele van -33 is -66
-Het dubbele van -87 is -174
-Het dubbele van -54 is -108
-Het dubbele van 64 is 128
-Het dubbele van 70 is 140
-Het dubbele van -94 is -188
-Het dubbele van 74 is 148
->>> Dubbels([-27, 94, -33, 99, -2, 85, 11, -36, -19, -89])
-Het dubbele van -27 is -54
-Het dubbele van 94 is 188
-Het dubbele van -33 is -66
-Het dubbele van 99 is 198
-Het dubbele van -2 is -4
-Het dubbele van 85 is 170
-Het dubbele van 11 is 22
-Het dubbele van -36 is -72
-Het dubbele van -19 is -38
-Het dubbele van -89 is -178
->>> Dubbels([-66, 29, 70, -61, -47, 62, 43, -20, -54, -52])
-Het dubbele van -66 is -132
-Het dubbele van 29 is 58
-Het dubbele van 70 is 140
-Het dubbele van -61 is -122
-Het dubbele van -47 is -94
-Het dubbele van 62 is 124
-Het dubbele van 43 is 86
-Het dubbele van -20 is -40
-Het dubbele van -54 is -108
-Het dubbele van -52 is -104
->>> Dubbels([89, -89, 21, -71, -79, -52, -79, 72, 98, 61])
-Het dubbele van 89 is 178
-Het dubbele van -89 is -178
-Het dubbele van 21 is 42
-Het dubbele van -71 is -142
-Het dubbele van -79 is -158
-Het dubbele van -52 is -104
-Het dubbele van -79 is -158
-Het dubbele van 72 is 144
-Het dubbele van 98 is 196
-Het dubbele van 61 is 122
->>> Dubbels([-3, 66, -67, 70, 92, -71, -5, 19, 83, 24])
-Het dubbele van -3 is -6
-Het dubbele van 66 is 132
-Het dubbele van -67 is -134
-Het dubbele van 70 is 140
-Het dubbele van 92 is 184
-Het dubbele van -71 is -142
-Het dubbele van -5 is -10
-Het dubbele van 19 is 38
-Het dubbele van 83 is 166
-Het dubbele van 24 is 48
->>> Dubbels([8, -25, 59, 44, 99, 19, -19, 96, 70, -99])
-Het dubbele van 8 is 16
-Het dubbele van -25 is -50
-Het dubbele van 59 is 118
-Het dubbele van 44 is 88
-Het dubbele van 99 is 198
-Het dubbele van 19 is 38
-Het dubbele van -19 is -38
-Het dubbele van 96 is 192
-Het dubbele van 70 is 140
-Het dubbele van -99 is -198
->>> Dubbels([81, 35, -82, 98, -50, 29, 74, -58, -32, -65])
-Het dubbele van 81 is 162
-Het dubbele van 35 is 70
-Het dubbele van -82 is -164
-Het dubbele van 98 is 196
-Het dubbele van -50 is -100
-Het dubbele van 29 is 58
-Het dubbele van 74 is 148
-Het dubbele van -58 is -116
-Het dubbele van -32 is -64
-Het dubbele van -65 is -130
->>> Dubbels([91, 44, -58, 95, 32, -45, -7, 50, 51, 95])
-Het dubbele van 91 is 182
-Het dubbele van 44 is 88
-Het dubbele van -58 is -116
-Het dubbele van 95 is 190
-Het dubbele van 32 is 64
-Het dubbele van -45 is -90
-Het dubbele van -7 is -14
-Het dubbele van 50 is 100
-Het dubbele van 51 is 102
-Het dubbele van 95 is 190
->>> Dubbels([42, 20, -92, -96, 29, 88, 72, -18, 46, 81])
-Het dubbele van 42 is 84
-Het dubbele van 20 is 40
-Het dubbele van -92 is -184
-Het dubbele van -96 is -192
-Het dubbele van 29 is 58
-Het dubbele van 88 is 176
-Het dubbele van 72 is 144
-Het dubbele van -18 is -36
-Het dubbele van 46 is 92
-Het dubbele van 81 is 162
->>> Dubbels([-41, 67, 57, 79, 38, 38, -57, 67, 94, -43])
-Het dubbele van -41 is -82
-Het dubbele van 67 is 134
-Het dubbele van 57 is 114
-Het dubbele van 79 is 158
-Het dubbele van 38 is 76
-Het dubbele van 38 is 76
-Het dubbele van -57 is -114
-Het dubbele van 67 is 134
-Het dubbele van 94 is 188
-Het dubbele van -43 is -86
->>> Dubbels([1, -16, -16, 71, -69, 44, -18, -83, 43, -22])
-Het dubbele van 1 is 2
-Het dubbele van -16 is -32
-Het dubbele van -16 is -32
-Het dubbele van 71 is 142
-Het dubbele van -69 is -138
-Het dubbele van 44 is 88
-Het dubbele van -18 is -36
-Het dubbele van -83 is -166
-Het dubbele van 43 is 86
-Het dubbele van -22 is -44
->>> Dubbels([70, 1, -14, -23, -44, 33, 33, -78, 15, -65])
-Het dubbele van 70 is 140
-Het dubbele van 1 is 2
-Het dubbele van -14 is -28
-Het dubbele van -23 is -46
-Het dubbele van -44 is -88
-Het dubbele van 33 is 66
-Het dubbele van 33 is 66
-Het dubbele van -78 is -156
-Het dubbele van 15 is 30
-Het dubbele van -65 is -130
->>> Dubbels([83, -64, 73, 57, 74, 57, -57, -21, 98, -75])
-Het dubbele van 83 is 166
-Het dubbele van -64 is -128
-Het dubbele van 73 is 146
-Het dubbele van 57 is 114
-Het dubbele van 74 is 148
-Het dubbele van 57 is 114
-Het dubbele van -57 is -114
-Het dubbele van -21 is -42
-Het dubbele van 98 is 196
-Het dubbele van -75 is -150
->>> Dubbels([-44, 82, -81, 85, -20, 60, 66, 20, 3, 48])
-Het dubbele van -44 is -88
-Het dubbele van 82 is 164
-Het dubbele van -81 is -162
-Het dubbele van 85 is 170
-Het dubbele van -20 is -40
-Het dubbele van 60 is 120
-Het dubbele van 66 is 132
-Het dubbele van 20 is 40
-Het dubbele van 3 is 6
-Het dubbele van 48 is 96
->>> Dubbels([-66, 28, 5, -58, 35, 53, 18, 24, -65, 90])
-Het dubbele van -66 is -132
-Het dubbele van 28 is 56
-Het dubbele van 5 is 10
-Het dubbele van -58 is -116
-Het dubbele van 35 is 70
-Het dubbele van 53 is 106
-Het dubbele van 18 is 36
-Het dubbele van 24 is 48
-Het dubbele van -65 is -130
-Het dubbele van 90 is 180
->>> Dubbels([-12, -38, -71, -79, -28, 73, 0, -59, 100, -29])
-Het dubbele van -12 is -24
-Het dubbele van -38 is -76
-Het dubbele van -71 is -142
-Het dubbele van -79 is -158
-Het dubbele van -28 is -56
-Het dubbele van 73 is 146
-Het dubbele van 0 is 0
-Het dubbele van -59 is -118
-Het dubbele van 100 is 200
-Het dubbele van -29 is -58
->>> Dubbels([-67, 82, -49, 100, 47, 29, 54, 25, 32, 44])
-Het dubbele van -67 is -134
-Het dubbele van 82 is 164
-Het dubbele van -49 is -98
-Het dubbele van 100 is 200
-Het dubbele van 47 is 94
-Het dubbele van 29 is 58
-Het dubbele van 54 is 108
-Het dubbele van 25 is 50
-Het dubbele van 32 is 64
-Het dubbele van 44 is 88
->>> Dubbels([-40, 67, 44, -88, 83, -73, 71, 65, 75, 99])
-Het dubbele van -40 is -80
-Het dubbele van 67 is 134
-Het dubbele van 44 is 88
-Het dubbele van -88 is -176
-Het dubbele van 83 is 166
-Het dubbele van -73 is -146
-Het dubbele van 71 is 142
-Het dubbele van 65 is 130
-Het dubbele van 75 is 150
-Het dubbele van 99 is 198
->>> Dubbels([-88, -84, 78, 43, 8, -62, -53, -25, 28, -36])
-Het dubbele van -88 is -176
-Het dubbele van -84 is -168
-Het dubbele van 78 is 156
-Het dubbele van 43 is 86
-Het dubbele van 8 is 16
-Het dubbele van -62 is -124
-Het dubbele van -53 is -106
-Het dubbele van -25 is -50
-Het dubbele van 28 is 56
-Het dubbele van -36 is -72
->>> Dubbels([45, 22, 88, -67, 6, 45, 88, 38, 11, -13])
-Het dubbele van 45 is 90
-Het dubbele van 22 is 44
-Het dubbele van 88 is 176
-Het dubbele van -67 is -134
-Het dubbele van 6 is 12
-Het dubbele van 45 is 90
-Het dubbele van 88 is 176
-Het dubbele van 38 is 76
-Het dubbele van 11 is 22
-Het dubbele van -13 is -26
->>> Dubbels([-23, -100, -24, 78, -19, -41, -28, -84, -15, 34])
-Het dubbele van -23 is -46
-Het dubbele van -100 is -200
-Het dubbele van -24 is -48
-Het dubbele van 78 is 156
-Het dubbele van -19 is -38
-Het dubbele van -41 is -82
-Het dubbele van -28 is -56
-Het dubbele van -84 is -168
-Het dubbele van -15 is -30
-Het dubbele van 34 is 68
->>> Dubbels([92, -66, 67, -59, 92, 38, -82, 55, -19, -59])
-Het dubbele van 92 is 184
-Het dubbele van -66 is -132
-Het dubbele van 67 is 134
-Het dubbele van -59 is -118
-Het dubbele van 92 is 184
-Het dubbele van 38 is 76
-Het dubbele van -82 is -164
-Het dubbele van 55 is 110
-Het dubbele van -19 is -38
-Het dubbele van -59 is -118
->>> Dubbels([70, -89, 93, 45, -91, 45, -39, -47, -2, -9])
-Het dubbele van 70 is 140
-Het dubbele van -89 is -178
-Het dubbele van 93 is 186
-Het dubbele van 45 is 90
-Het dubbele van -91 is -182
-Het dubbele van 45 is 90
-Het dubbele van -39 is -78
-Het dubbele van -47 is -94
-Het dubbele van -2 is -4
-Het dubbele van -9 is -18
->>> Dubbels([91, 75, -92, 47, 66, 1, -65, -20, -22, 81])
-Het dubbele van 91 is 182
-Het dubbele van 75 is 150
-Het dubbele van -92 is -184
-Het dubbele van 47 is 94
-Het dubbele van 66 is 132
-Het dubbele van 1 is 2
-Het dubbele van -65 is -130
-Het dubbele van -20 is -40
-Het dubbele van -22 is -44
-Het dubbele van 81 is 162
->>> Dubbels([-12, 51, -2, -21, 45, 63, 36, 58, 19, 26])
-Het dubbele van -12 is -24
-Het dubbele van 51 is 102
-Het dubbele van -2 is -4
-Het dubbele van -21 is -42
-Het dubbele van 45 is 90
-Het dubbele van 63 is 126
-Het dubbele van 36 is 72
-Het dubbele van 58 is 116
-Het dubbele van 19 is 38
-Het dubbele van 26 is 52
->>> Dubbels([-38, -8, 64, 7, -26, 7, 60, 95, 63, -52])
-Het dubbele van -38 is -76
-Het dubbele van -8 is -16
-Het dubbele van 64 is 128
-Het dubbele van 7 is 14
-Het dubbele van -26 is -52
-Het dubbele van 7 is 14
-Het dubbele van 60 is 120
-Het dubbele van 95 is 190
-Het dubbele van 63 is 126
-Het dubbele van -52 is -104
->>> Dubbels([-37, -59, -80, 93, -6, 51, 48, 78, 20, -93])
-Het dubbele van -37 is -74
-Het dubbele van -59 is -118
-Het dubbele van -80 is -160
-Het dubbele van 93 is 186
-Het dubbele van -6 is -12
-Het dubbele van 51 is 102
-Het dubbele van 48 is 96
-Het dubbele van 78 is 156
-Het dubbele van 20 is 40
-Het dubbele van -93 is -186
->>> Dubbels([71, -99, -80, -46, -14, 87, 92, -9, -57, 83])
-Het dubbele van 71 is 142
-Het dubbele van -99 is -198
-Het dubbele van -80 is -160
-Het dubbele van -46 is -92
-Het dubbele van -14 is -28
-Het dubbele van 87 is 174
-Het dubbele van 92 is 184
-Het dubbele van -9 is -18
-Het dubbele van -57 is -114
-Het dubbele van 83 is 166
->>> Dubbels([8, 36, -62, -40, 42, 1, 46, 23, -75, 87])
-Het dubbele van 8 is 16
-Het dubbele van 36 is 72
-Het dubbele van -62 is -124
-Het dubbele van -40 is -80
-Het dubbele van 42 is 84
-Het dubbele van 1 is 2
-Het dubbele van 46 is 92
-Het dubbele van 23 is 46
-Het dubbele van -75 is -150
-Het dubbele van 87 is 174
->>> Dubbels([-41, 96, -83, -69, 17, -57, 94, -79, 0, 48])
-Het dubbele van -41 is -82
-Het dubbele van 96 is 192
-Het dubbele van -83 is -166
-Het dubbele van -69 is -138
-Het dubbele van 17 is 34
-Het dubbele van -57 is -114
-Het dubbele van 94 is 188
-Het dubbele van -79 is -158
-Het dubbele van 0 is 0
-Het dubbele van 48 is 96
->>> Dubbels([3, -83, -3, 34, 29, -58, -78, 33, -26, 55])
-Het dubbele van 3 is 6
-Het dubbele van -83 is -166
-Het dubbele van -3 is -6
-Het dubbele van 34 is 68
-Het dubbele van 29 is 58
-Het dubbele van -58 is -116
-Het dubbele van -78 is -156
-Het dubbele van 33 is 66
-Het dubbele van -26 is -52
-Het dubbele van 55 is 110
->>> Dubbels([79, 49, -72, 72, -33, 42, 88, 17, 36, -87])
-Het dubbele van 79 is 158
-Het dubbele van 49 is 98
-Het dubbele van -72 is -144
-Het dubbele van 72 is 144
-Het dubbele van -33 is -66
-Het dubbele van 42 is 84
-Het dubbele van 88 is 176
-Het dubbele van 17 is 34
-Het dubbele van 36 is 72
-Het dubbele van -87 is -174
->>> Dubbels([25, 1, -84, -22, -23, -72, -78, -46, -16, 100])
-Het dubbele van 25 is 50
-Het dubbele van 1 is 2
-Het dubbele van -84 is -168
-Het dubbele van -22 is -44
-Het dubbele van -23 is -46
-Het dubbele van -72 is -144
-Het dubbele van -78 is -156
-Het dubbele van -46 is -92
-Het dubbele van -16 is -32
-Het dubbele van 100 is 200
->>> Dubbels([33, -13, -4, 12, -7, -90, -15, 3, -5, 59])
-Het dubbele van 33 is 66
-Het dubbele van -13 is -26
-Het dubbele van -4 is -8
-Het dubbele van 12 is 24
-Het dubbele van -7 is -14
-Het dubbele van -90 is -180
-Het dubbele van -15 is -30
-Het dubbele van 3 is 6
-Het dubbele van -5 is -10
-Het dubbele van 59 is 118
->>> Dubbels([39, -10, 0, -25, -3, 54, -64, 92, -6, 26])
-Het dubbele van 39 is 78
-Het dubbele van -10 is -20
-Het dubbele van 0 is 0
-Het dubbele van -25 is -50
-Het dubbele van -3 is -6
-Het dubbele van 54 is 108
-Het dubbele van -64 is -128
-Het dubbele van 92 is 184
-Het dubbele van -6 is -12
-Het dubbele van 26 is 52
->>> Dubbels([43, 51, -50, 86, 40, -66, 33, 96, 6, -68])
-Het dubbele van 43 is 86
-Het dubbele van 51 is 102
-Het dubbele van -50 is -100
-Het dubbele van 86 is 172
-Het dubbele van 40 is 80
-Het dubbele van -66 is -132
-Het dubbele van 33 is 66
-Het dubbele van 96 is 192
-Het dubbele van 6 is 12
-Het dubbele van -68 is -136
->>> Dubbels([47, 15, 54, 56, -74, 2, 90, -28, -83, 55])
-Het dubbele van 47 is 94
-Het dubbele van 15 is 30
-Het dubbele van 54 is 108
-Het dubbele van 56 is 112
-Het dubbele van -74 is -148
-Het dubbele van 2 is 4
-Het dubbele van 90 is 180
-Het dubbele van -28 is -56
-Het dubbele van -83 is -166
-Het dubbele van 55 is 110
->>> Dubbels([32, -100, -25, 88, 20, -76, 23, 20, 90, -25])
-Het dubbele van 32 is 64
-Het dubbele van -100 is -200
-Het dubbele van -25 is -50
-Het dubbele van 88 is 176
-Het dubbele van 20 is 40
-Het dubbele van -76 is -152
-Het dubbele van 23 is 46
-Het dubbele van 20 is 40
-Het dubbele van 90 is 180
-Het dubbele van -25 is -50
->>> Dubbels([100, -16, -86, 73, 60, 14, 0, -75, -7, 53])
-Het dubbele van 100 is 200
-Het dubbele van -16 is -32
-Het dubbele van -86 is -172
-Het dubbele van 73 is 146
-Het dubbele van 60 is 120
-Het dubbele van 14 is 28
-Het dubbele van 0 is 0
-Het dubbele van -75 is -150
-Het dubbele van -7 is -14
-Het dubbele van 53 is 106
->>> Dubbels([38, 98, -15, -97, 70, -16, 40, -38, -51, -15])
-Het dubbele van 38 is 76
-Het dubbele van 98 is 196
-Het dubbele van -15 is -30
-Het dubbele van -97 is -194
-Het dubbele van 70 is 140
-Het dubbele van -16 is -32
-Het dubbele van 40 is 80
-Het dubbele van -38 is -76
-Het dubbele van -51 is -102
-Het dubbele van -15 is -30
->>> Dubbels([-55, 80, 1, -3, -31, -96, 17, -91, 35, 100])
-Het dubbele van -55 is -110
-Het dubbele van 80 is 160
-Het dubbele van 1 is 2
-Het dubbele van -3 is -6
-Het dubbele van -31 is -62
-Het dubbele van -96 is -192
-Het dubbele van 17 is 34
-Het dubbele van -91 is -182
-Het dubbele van 35 is 70
-Het dubbele van 100 is 200
->>> Dubbels([-1, -4, -11, -57, 65, 64, -96, 77, -87, 4])
-Het dubbele van -1 is -2
-Het dubbele van -4 is -8
-Het dubbele van -11 is -22
-Het dubbele van -57 is -114
-Het dubbele van 65 is 130
-Het dubbele van 64 is 128
-Het dubbele van -96 is -192
-Het dubbele van 77 is 154
-Het dubbele van -87 is -174
-Het dubbele van 4 is 8
->>> Dubbels([2, 40, 32, -24, -54, -36, 42, -17, 37, 53])
-Het dubbele van 2 is 4
-Het dubbele van 40 is 80
-Het dubbele van 32 is 64
-Het dubbele van -24 is -48
-Het dubbele van -54 is -108
-Het dubbele van -36 is -72
-Het dubbele van 42 is 84
-Het dubbele van -17 is -34
-Het dubbele van 37 is 74
-Het dubbele van 53 is 106
->>> Dubbels([-30, -74, 22, 8, -19, -97, 7, -78, -10, 3])
-Het dubbele van -30 is -60
-Het dubbele van -74 is -148
-Het dubbele van 22 is 44
-Het dubbele van 8 is 16
-Het dubbele van -19 is -38
-Het dubbele van -97 is -194
-Het dubbele van 7 is 14
-Het dubbele van -78 is -156
-Het dubbele van -10 is -20
-Het dubbele van 3 is 6
->>> Dubbels([-86, -62, -35, 68, -43, -59, 51, -73, -84, 7])
-Het dubbele van -86 is -172
-Het dubbele van -62 is -124
-Het dubbele van -35 is -70
-Het dubbele van 68 is 136
-Het dubbele van -43 is -86
-Het dubbele van -59 is -118
-Het dubbele van 51 is 102
-Het dubbele van -73 is -146
-Het dubbele van -84 is -168
-Het dubbele van 7 is 14
->>> Dubbels([13, -32, 85, 24, 77, -32, -99, -87, 50, 9])
-Het dubbele van 13 is 26
-Het dubbele van -32 is -64
-Het dubbele van 85 is 170
-Het dubbele van 24 is 48
-Het dubbele van 77 is 154
-Het dubbele van -32 is -64
-Het dubbele van -99 is -198
-Het dubbele van -87 is -174
-Het dubbele van 50 is 100
-Het dubbele van 9 is 18
->>> Dubbels([-78, -29, -99, -9, -15, 74, 37, 81, 0, -35])
-Het dubbele van -78 is -156
-Het dubbele van -29 is -58
-Het dubbele van -99 is -198
-Het dubbele van -9 is -18
-Het dubbele van -15 is -30
-Het dubbele van 74 is 148
-Het dubbele van 37 is 74
-Het dubbele van 81 is 162
-Het dubbele van 0 is 0
-Het dubbele van -35 is -70
->>> Dubbels([34, 53, 50, -43, -19, 96, 24, -24, -86, 60])
-Het dubbele van 34 is 68
-Het dubbele van 53 is 106
-Het dubbele van 50 is 100
-Het dubbele van -43 is -86
-Het dubbele van -19 is -38
-Het dubbele van 96 is 192
-Het dubbele van 24 is 48
-Het dubbele van -24 is -48
-Het dubbele van -86 is -172
-Het dubbele van 60 is 120
->>> Dubbels([-16, -95, 66, 7, -43, 24, 98, -62, -48, 70])
-Het dubbele van -16 is -32
-Het dubbele van -95 is -190
-Het dubbele van 66 is 132
-Het dubbele van 7 is 14
-Het dubbele van -43 is -86
-Het dubbele van 24 is 48
-Het dubbele van 98 is 196
-Het dubbele van -62 is -124
-Het dubbele van -48 is -96
-Het dubbele van 70 is 140
->>> Dubbels([23, -97, -55, -86, -26, 23, -12, 86, 52, 13])
-Het dubbele van 23 is 46
-Het dubbele van -97 is -194
-Het dubbele van -55 is -110
-Het dubbele van -86 is -172
-Het dubbele van -26 is -52
-Het dubbele van 23 is 46
-Het dubbele van -12 is -24
-Het dubbele van 86 is 172
-Het dubbele van 52 is 104
-Het dubbele van 13 is 26
->>> Dubbels([95, 45, -2, 34, -91, 77, 16, 89, 80, 23])
-Het dubbele van 95 is 190
-Het dubbele van 45 is 90
-Het dubbele van -2 is -4
-Het dubbele van 34 is 68
-Het dubbele van -91 is -182
-Het dubbele van 77 is 154
-Het dubbele van 16 is 32
-Het dubbele van 89 is 178
-Het dubbele van 80 is 160
-Het dubbele van 23 is 46
->>> Dubbels([98, 72, -98, -64, -27, -31, -89, -30, 10, 74])
-Het dubbele van 98 is 196
-Het dubbele van 72 is 144
-Het dubbele van -98 is -196
-Het dubbele van -64 is -128
-Het dubbele van -27 is -54
-Het dubbele van -31 is -62
-Het dubbele van -89 is -178
-Het dubbele van -30 is -60
-Het dubbele van 10 is 20
-Het dubbele van 74 is 148
->>> Dubbels([-49, -93, 87, -63, 16, -53, 9, -95, -86, 69])
-Het dubbele van -49 is -98
-Het dubbele van -93 is -186
-Het dubbele van 87 is 174
-Het dubbele van -63 is -126
-Het dubbele van 16 is 32
-Het dubbele van -53 is -106
-Het dubbele van 9 is 18
-Het dubbele van -95 is -190
-Het dubbele van -86 is -172
-Het dubbele van 69 is 138
->>> Dubbels([77, 5, 67, -88, -7, -75, 50, 63, 85, 20])
-Het dubbele van 77 is 154
-Het dubbele van 5 is 10
-Het dubbele van 67 is 134
-Het dubbele van -88 is -176
-Het dubbele van -7 is -14
-Het dubbele van -75 is -150
-Het dubbele van 50 is 100
-Het dubbele van 63 is 126
-Het dubbele van 85 is 170
-Het dubbele van 20 is 40
->>> Dubbels([5, 43, -67, 79, 94, 95, -37, 68, -72, 100])
-Het dubbele van 5 is 10
-Het dubbele van 43 is 86
-Het dubbele van -67 is -134
-Het dubbele van 79 is 158
-Het dubbele van 94 is 188
-Het dubbele van 95 is 190
-Het dubbele van -37 is -74
-Het dubbele van 68 is 136
-Het dubbele van -72 is -144
-Het dubbele van 100 is 200
->>> Dubbels([-2, -41, -83, 94, -14, 60, -25, -57, -83, -31])
-Het dubbele van -2 is -4
-Het dubbele van -41 is -82
-Het dubbele van -83 is -166
-Het dubbele van 94 is 188
-Het dubbele van -14 is -28
-Het dubbele van 60 is 120
-Het dubbele van -25 is -50
-Het dubbele van -57 is -114
-Het dubbele van -83 is -166
-Het dubbele van -31 is -62
->>> Dubbels([17, 54, 26, -65, -79, -32, 5, -77, 53, -1])
-Het dubbele van 17 is 34
-Het dubbele van 54 is 108
-Het dubbele van 26 is 52
-Het dubbele van -65 is -130
-Het dubbele van -79 is -158
-Het dubbele van -32 is -64
-Het dubbele van 5 is 10
-Het dubbele van -77 is -154
-Het dubbele van 53 is 106
-Het dubbele van -1 is -2
->>> Dubbels([37, -16, 48, -58, -7, 59, 63, -53, 83, 16])
-Het dubbele van 37 is 74
-Het dubbele van -16 is -32
-Het dubbele van 48 is 96
-Het dubbele van -58 is -116
-Het dubbele van -7 is -14
-Het dubbele van 59 is 118
-Het dubbele van 63 is 126
-Het dubbele van -53 is -106
-Het dubbele van 83 is 166
-Het dubbele van 16 is 32
->>> Dubbels([-95, -10, 44, 56, 10, -18, 49, 76, 32, 59])
-Het dubbele van -95 is -190
-Het dubbele van -10 is -20
-Het dubbele van 44 is 88
-Het dubbele van 56 is 112
-Het dubbele van 10 is 20
-Het dubbele van -18 is -36
-Het dubbele van 49 is 98
-Het dubbele van 76 is 152
-Het dubbele van 32 is 64
-Het dubbele van 59 is 118
->>> Dubbels([88, -7, 71, 95, 65, -43, 45, -61, -59, -10])
-Het dubbele van 88 is 176
-Het dubbele van -7 is -14
-Het dubbele van 71 is 142
-Het dubbele van 95 is 190
-Het dubbele van 65 is 130
-Het dubbele van -43 is -86
-Het dubbele van 45 is 90
-Het dubbele van -61 is -122
-Het dubbele van -59 is -118
-Het dubbele van -10 is -20
->>> Dubbels([-86, -100, 99, -71, -83, -27, -78, 94, 37, -24])
-Het dubbele van -86 is -172
-Het dubbele van -100 is -200
-Het dubbele van 99 is 198
-Het dubbele van -71 is -142
-Het dubbele van -83 is -166
-Het dubbele van -27 is -54
-Het dubbele van -78 is -156
-Het dubbele van 94 is 188
-Het dubbele van 37 is 74
-Het dubbele van -24 is -48
->>> Dubbels([-2, -61, 18, -5, -40, 7, 69, 51, -27, 41])
-Het dubbele van -2 is -4
-Het dubbele van -61 is -122
-Het dubbele van 18 is 36
-Het dubbele van -5 is -10
-Het dubbele van -40 is -80
-Het dubbele van 7 is 14
-Het dubbele van 69 is 138
-Het dubbele van 51 is 102
-Het dubbele van -27 is -54
-Het dubbele van 41 is 82
->>> Dubbels([7, -56, 25, -81, -8, 85, 24, -77, 4, -76])
-Het dubbele van 7 is 14
-Het dubbele van -56 is -112
-Het dubbele van 25 is 50
-Het dubbele van -81 is -162
-Het dubbele van -8 is -16
-Het dubbele van 85 is 170
-Het dubbele van 24 is 48
-Het dubbele van -77 is -154
-Het dubbele van 4 is 8
-Het dubbele van -76 is -152
->>> Dubbels([52, -46, 54, -79, -42, -100, -85, -13, 96, -40])
-Het dubbele van 52 is 104
-Het dubbele van -46 is -92
-Het dubbele van 54 is 108
-Het dubbele van -79 is -158
-Het dubbele van -42 is -84
-Het dubbele van -100 is -200
-Het dubbele van -85 is -170
-Het dubbele van -13 is -26
-Het dubbele van 96 is 192
-Het dubbele van -40 is -80
->>> Dubbels([70, 5, -61, 41, 86, 17, -75, -40, 56, -78])
-Het dubbele van 70 is 140
-Het dubbele van 5 is 10
-Het dubbele van -61 is -122
-Het dubbele van 41 is 82
-Het dubbele van 86 is 172
-Het dubbele van 17 is 34
-Het dubbele van -75 is -150
-Het dubbele van -40 is -80
-Het dubbele van 56 is 112
-Het dubbele van -78 is -156
->>> Dubbels([-51, 80, -29, -91, -72, -79, 45, -97, 78, -26])
-Het dubbele van -51 is -102
-Het dubbele van 80 is 160
-Het dubbele van -29 is -58
-Het dubbele van -91 is -182
-Het dubbele van -72 is -144
-Het dubbele van -79 is -158
-Het dubbele van 45 is 90
-Het dubbele van -97 is -194
-Het dubbele van 78 is 156
-Het dubbele van -26 is -52
->>> Dubbels([55, 51, 63, 75, 1, -31, 93, -88, -33, 58])
-Het dubbele van 55 is 110
-Het dubbele van 51 is 102
-Het dubbele van 63 is 126
-Het dubbele van 75 is 150
-Het dubbele van 1 is 2
-Het dubbele van -31 is -62
-Het dubbele van 93 is 186
-Het dubbele van -88 is -176
-Het dubbele van -33 is -66
-Het dubbele van 58 is 116
->>> Dubbels([-54, 46, 83, 4, 4, -72, 19, 99, 19, 93])
-Het dubbele van -54 is -108
-Het dubbele van 46 is 92
-Het dubbele van 83 is 166
-Het dubbele van 4 is 8
-Het dubbele van 4 is 8
-Het dubbele van -72 is -144
-Het dubbele van 19 is 38
-Het dubbele van 99 is 198
-Het dubbele van 19 is 38
-Het dubbele van 93 is 186
->>> Dubbels([13, 16, 3, -92, 15, 74, 42, -20, 26, -16])
-Het dubbele van 13 is 26
-Het dubbele van 16 is 32
-Het dubbele van 3 is 6
-Het dubbele van -92 is -184
-Het dubbele van 15 is 30
-Het dubbele van 74 is 148
-Het dubbele van 42 is 84
-Het dubbele van -20 is -40
-Het dubbele van 26 is 52
-Het dubbele van -16 is -32
->>> Dubbels([97, -67, 54, -16, -39, -69, -82, -65, 50, -1])
-Het dubbele van 97 is 194
-Het dubbele van -67 is -134
-Het dubbele van 54 is 108
-Het dubbele van -16 is -32
-Het dubbele van -39 is -78
-Het dubbele van -69 is -138
-Het dubbele van -82 is -164
-Het dubbele van -65 is -130
-Het dubbele van 50 is 100
-Het dubbele van -1 is -2
->>> Dubbels([-40, -20, -1, 22, 24, 13, -58, 95, -93, 21])
-Het dubbele van -40 is -80
-Het dubbele van -20 is -40
-Het dubbele van -1 is -2
-Het dubbele van 22 is 44
-Het dubbele van 24 is 48
-Het dubbele van 13 is 26
-Het dubbele van -58 is -116
-Het dubbele van 95 is 190
-Het dubbele van -93 is -186
-Het dubbele van 21 is 42
->>> Dubbels([-51, -68, 0, 22, -83, 56, -15, -2, 43, -46])
-Het dubbele van -51 is -102
-Het dubbele van -68 is -136
-Het dubbele van 0 is 0
-Het dubbele van 22 is 44
-Het dubbele van -83 is -166
-Het dubbele van 56 is 112
-Het dubbele van -15 is -30
-Het dubbele van -2 is -4
-Het dubbele van 43 is 86
-Het dubbele van -46 is -92
+>>> Dubbels([-38, -83, -1, 6, 49, 18, -29, 10])
+Het dubbele van -38 is -76.
+Het dubbele van -83 is -166.
+Het dubbele van -1 is -2.
+Het dubbele van 6 is 12.
+Het dubbele van 49 is 98.
+Het dubbele van 18 is 36.
+Het dubbele van -29 is -58.
+Het dubbele van 10 is 20.
+>>> Dubbels([-80, 36, -82, 50, 55, 89])
+Het dubbele van -80 is -160.
+Het dubbele van 36 is 72.
+Het dubbele van -82 is -164.
+Het dubbele van 50 is 100.
+Het dubbele van 55 is 110.
+Het dubbele van 89 is 178.
+>>> Dubbels([77, 42, 98, 57, 67, -4, 3, -32, -87, 22])
+Het dubbele van 77 is 154.
+Het dubbele van 42 is 84.
+Het dubbele van 98 is 196.
+Het dubbele van 57 is 114.
+Het dubbele van 67 is 134.
+Het dubbele van -4 is -8.
+Het dubbele van 3 is 6.
+Het dubbele van -32 is -64.
+Het dubbele van -87 is -174.
+Het dubbele van 22 is 44.
+>>> Dubbels([-14, -78, -69, -89, -44, -90])
+Het dubbele van -14 is -28.
+Het dubbele van -78 is -156.
+Het dubbele van -69 is -138.
+Het dubbele van -89 is -178.
+Het dubbele van -44 is -88.
+Het dubbele van -90 is -180.
+>>> Dubbels([24, -36, 88, -5])
+Het dubbele van 24 is 48.
+Het dubbele van -36 is -72.
+Het dubbele van 88 is 176.
+Het dubbele van -5 is -10.
+>>> Dubbels([-27])
+Het dubbele van -27 is -54.
+>>> Dubbels([21])
+Het dubbele van 21 is 42.
+>>> Dubbels([2, 25])
+Het dubbele van 2 is 4.
+Het dubbele van 25 is 50.
+>>> Dubbels([-49, -25, -90, 27, 97, 1, 21, 32])
+Het dubbele van -49 is -98.
+Het dubbele van -25 is -50.
+Het dubbele van -90 is -180.
+Het dubbele van 27 is 54.
+Het dubbele van 97 is 194.
+Het dubbele van 1 is 2.
+Het dubbele van 21 is 42.
+Het dubbele van 32 is 64.
+>>> Dubbels([65, 83, -80, 81, -85, -57, 16, -79, 52])
+Het dubbele van 65 is 130.
+Het dubbele van 83 is 166.
+Het dubbele van -80 is -160.
+Het dubbele van 81 is 162.
+Het dubbele van -85 is -170.
+Het dubbele van -57 is -114.
+Het dubbele van 16 is 32.
+Het dubbele van -79 is -158.
+Het dubbele van 52 is 104.
+>>> Dubbels([-49, 90, 53, 43, -10, -69, -43, -72, 50, -31])
+Het dubbele van -49 is -98.
+Het dubbele van 90 is 180.
+Het dubbele van 53 is 106.
+Het dubbele van 43 is 86.
+Het dubbele van -10 is -20.
+Het dubbele van -69 is -138.
+Het dubbele van -43 is -86.
+Het dubbele van -72 is -144.
+Het dubbele van 50 is 100.
+Het dubbele van -31 is -62.
+>>> Dubbels([-5, -33, -77, 24, -4])
+Het dubbele van -5 is -10.
+Het dubbele van -33 is -66.
+Het dubbele van -77 is -154.
+Het dubbele van 24 is 48.
+Het dubbele van -4 is -8.
+>>> Dubbels([-42, -32, -59, -71, 9])
+Het dubbele van -42 is -84.
+Het dubbele van -32 is -64.
+Het dubbele van -59 is -118.
+Het dubbele van -71 is -142.
+Het dubbele van 9 is 18.
+>>> Dubbels([-71, -73, -64, -94])
+Het dubbele van -71 is -142.
+Het dubbele van -73 is -146.
+Het dubbele van -64 is -128.
+Het dubbele van -94 is -188.
+>>> Dubbels([-78, -8])
+Het dubbele van -78 is -156.
+Het dubbele van -8 is -16.
+>>> Dubbels([-86, -16, -30, -100, 72, -54, 37])
+Het dubbele van -86 is -172.
+Het dubbele van -16 is -32.
+Het dubbele van -30 is -60.
+Het dubbele van -100 is -200.
+Het dubbele van 72 is 144.
+Het dubbele van -54 is -108.
+Het dubbele van 37 is 74.
+>>> Dubbels([57, -24, 4, -12, 47, 66])
+Het dubbele van 57 is 114.
+Het dubbele van -24 is -48.
+Het dubbele van 4 is 8.
+Het dubbele van -12 is -24.
+Het dubbele van 47 is 94.
+Het dubbele van 66 is 132.
+>>> Dubbels([-51])
+Het dubbele van -51 is -102.
+>>> Dubbels([-21, 96, 41, 1, -48, 61])
+Het dubbele van -21 is -42.
+Het dubbele van 96 is 192.
+Het dubbele van 41 is 82.
+Het dubbele van 1 is 2.
+Het dubbele van -48 is -96.
+Het dubbele van 61 is 122.
+>>> Dubbels([])
+>>> Dubbels([8])
+Het dubbele van 8 is 16.
+>>> Dubbels([-46, 91, 6, -39, -48, -32, 20])
+Het dubbele van -46 is -92.
+Het dubbele van 91 is 182.
+Het dubbele van 6 is 12.
+Het dubbele van -39 is -78.
+Het dubbele van -48 is -96.
+Het dubbele van -32 is -64.
+Het dubbele van 20 is 40.
+>>> Dubbels([])
+>>> Dubbels([74])
+Het dubbele van 74 is 148.
+>>> Dubbels([-9, -18, 58, -38, -67, 98, 14, -97, 64, -16])
+Het dubbele van -9 is -18.
+Het dubbele van -18 is -36.
+Het dubbele van 58 is 116.
+Het dubbele van -38 is -76.
+Het dubbele van -67 is -134.
+Het dubbele van 98 is 196.
+Het dubbele van 14 is 28.
+Het dubbele van -97 is -194.
+Het dubbele van 64 is 128.
+Het dubbele van -16 is -32.
+>>> Dubbels([25, 25])
+Het dubbele van 25 is 50.
+Het dubbele van 25 is 50.
+>>> Dubbels([10, -82, 14, 18, 63, 96])
+Het dubbele van 10 is 20.
+Het dubbele van -82 is -164.
+Het dubbele van 14 is 28.
+Het dubbele van 18 is 36.
+Het dubbele van 63 is 126.
+Het dubbele van 96 is 192.
+>>> Dubbels([55, 95, -71, 78, 34, 90, -21, 94])
+Het dubbele van 55 is 110.
+Het dubbele van 95 is 190.
+Het dubbele van -71 is -142.
+Het dubbele van 78 is 156.
+Het dubbele van 34 is 68.
+Het dubbele van 90 is 180.
+Het dubbele van -21 is -42.
+Het dubbele van 94 is 188.
+>>> Dubbels([53, -25, -29, 59, 47, -69, -27, -13, -43])
+Het dubbele van 53 is 106.
+Het dubbele van -25 is -50.
+Het dubbele van -29 is -58.
+Het dubbele van 59 is 118.
+Het dubbele van 47 is 94.
+Het dubbele van -69 is -138.
+Het dubbele van -27 is -54.
+Het dubbele van -13 is -26.
+Het dubbele van -43 is -86.
+>>> Dubbels([-61, 52, -35, -82, 94])
+Het dubbele van -61 is -122.
+Het dubbele van 52 is 104.
+Het dubbele van -35 is -70.
+Het dubbele van -82 is -164.
+Het dubbele van 94 is 188.
+>>> Dubbels([97, -69, 13, 16, -5, -42, -21, 96, 22, 47])
+Het dubbele van 97 is 194.
+Het dubbele van -69 is -138.
+Het dubbele van 13 is 26.
+Het dubbele van 16 is 32.
+Het dubbele van -5 is -10.
+Het dubbele van -42 is -84.
+Het dubbele van -21 is -42.
+Het dubbele van 96 is 192.
+Het dubbele van 22 is 44.
+Het dubbele van 47 is 94.
+>>> Dubbels([-60, 97, -15, 83, -96])
+Het dubbele van -60 is -120.
+Het dubbele van 97 is 194.
+Het dubbele van -15 is -30.
+Het dubbele van 83 is 166.
+Het dubbele van -96 is -192.
+>>> Dubbels([5, 61, 82, 24])
+Het dubbele van 5 is 10.
+Het dubbele van 61 is 122.
+Het dubbele van 82 is 164.
+Het dubbele van 24 is 48.
+>>> Dubbels([47])
+Het dubbele van 47 is 94.
+>>> Dubbels([97, 15])
+Het dubbele van 97 is 194.
+Het dubbele van 15 is 30.
+>>> Dubbels([35, -28, 73, 91, -96, 78, 78])
+Het dubbele van 35 is 70.
+Het dubbele van -28 is -56.
+Het dubbele van 73 is 146.
+Het dubbele van 91 is 182.
+Het dubbele van -96 is -192.
+Het dubbele van 78 is 156.
+Het dubbele van 78 is 156.
+>>> Dubbels([62, -43, -15, 7, 89, 21, 7, 13, 57, 14])
+Het dubbele van 62 is 124.
+Het dubbele van -43 is -86.
+Het dubbele van -15 is -30.
+Het dubbele van 7 is 14.
+Het dubbele van 89 is 178.
+Het dubbele van 21 is 42.
+Het dubbele van 7 is 14.
+Het dubbele van 13 is 26.
+Het dubbele van 57 is 114.
+Het dubbele van 14 is 28.
+>>> Dubbels([100, -97, 25, 30, 20, 45, 97, -53, -7, 60])
+Het dubbele van 100 is 200.
+Het dubbele van -97 is -194.
+Het dubbele van 25 is 50.
+Het dubbele van 30 is 60.
+Het dubbele van 20 is 40.
+Het dubbele van 45 is 90.
+Het dubbele van 97 is 194.
+Het dubbele van -53 is -106.
+Het dubbele van -7 is -14.
+Het dubbele van 60 is 120.
+>>> Dubbels([-55, -13, 2, -39, 16, -22, 39])
+Het dubbele van -55 is -110.
+Het dubbele van -13 is -26.
+Het dubbele van 2 is 4.
+Het dubbele van -39 is -78.
+Het dubbele van 16 is 32.
+Het dubbele van -22 is -44.
+Het dubbele van 39 is 78.
+>>> Dubbels([-81, -58, -40, -80, 46])
+Het dubbele van -81 is -162.
+Het dubbele van -58 is -116.
+Het dubbele van -40 is -80.
+Het dubbele van -80 is -160.
+Het dubbele van 46 is 92.
+>>> Dubbels([-18, 24, 42, 2, 22, -29, -24, 86])
+Het dubbele van -18 is -36.
+Het dubbele van 24 is 48.
+Het dubbele van 42 is 84.
+Het dubbele van 2 is 4.
+Het dubbele van 22 is 44.
+Het dubbele van -29 is -58.
+Het dubbele van -24 is -48.
+Het dubbele van 86 is 172.
+>>> Dubbels([])
+>>> Dubbels([40])
+Het dubbele van 40 is 80.
+>>> Dubbels([93, -31, 9, -85, -90, -47])
+Het dubbele van 93 is 186.
+Het dubbele van -31 is -62.
+Het dubbele van 9 is 18.
+Het dubbele van -85 is -170.
+Het dubbele van -90 is -180.
+Het dubbele van -47 is -94.
+>>> Dubbels([100])
+Het dubbele van 100 is 200.
+>>> Dubbels([56, -9, -90])
+Het dubbele van 56 is 112.
+Het dubbele van -9 is -18.
+Het dubbele van -90 is -180.
+>>> Dubbels([74, 37, -100, -25, 85, 34, -87])
+Het dubbele van 74 is 148.
+Het dubbele van 37 is 74.
+Het dubbele van -100 is -200.
+Het dubbele van -25 is -50.
+Het dubbele van 85 is 170.
+Het dubbele van 34 is 68.
+Het dubbele van -87 is -174.
+>>> Dubbels([-12, -78, 38, -28, -76, 87, 21, -100, 97])
+Het dubbele van -12 is -24.
+Het dubbele van -78 is -156.
+Het dubbele van 38 is 76.
+Het dubbele van -28 is -56.
+Het dubbele van -76 is -152.
+Het dubbele van 87 is 174.
+Het dubbele van 21 is 42.
+Het dubbele van -100 is -200.
+Het dubbele van 97 is 194.
+>>> Dubbels([4, -52, 65, 51, -81, -5])
+Het dubbele van 4 is 8.
+Het dubbele van -52 is -104.
+Het dubbele van 65 is 130.
+Het dubbele van 51 is 102.
+Het dubbele van -81 is -162.
+Het dubbele van -5 is -10.
+>>> Dubbels([85, -22, 68, -12, 53, 96, 82, -9, 95])
+Het dubbele van 85 is 170.
+Het dubbele van -22 is -44.
+Het dubbele van 68 is 136.
+Het dubbele van -12 is -24.
+Het dubbele van 53 is 106.
+Het dubbele van 96 is 192.
+Het dubbele van 82 is 164.
+Het dubbele van -9 is -18.
+Het dubbele van 95 is 190.
+>>> Dubbels([-99])
+Het dubbele van -99 is -198.
+>>> Dubbels([-94, -46, 39, -18, -85])
+Het dubbele van -94 is -188.
+Het dubbele van -46 is -92.
+Het dubbele van 39 is 78.
+Het dubbele van -18 is -36.
+Het dubbele van -85 is -170.
+>>> Dubbels([73, -15, 21, -29, -97, 44, 77, -49])
+Het dubbele van 73 is 146.
+Het dubbele van -15 is -30.
+Het dubbele van 21 is 42.
+Het dubbele van -29 is -58.
+Het dubbele van -97 is -194.
+Het dubbele van 44 is 88.
+Het dubbele van 77 is 154.
+Het dubbele van -49 is -98.
+>>> Dubbels([26, 65, 93])
+Het dubbele van 26 is 52.
+Het dubbele van 65 is 130.
+Het dubbele van 93 is 186.
+>>> Dubbels([10, 28, 48, 89, -14, -94, 70, -15, -48, 1])
+Het dubbele van 10 is 20.
+Het dubbele van 28 is 56.
+Het dubbele van 48 is 96.
+Het dubbele van 89 is 178.
+Het dubbele van -14 is -28.
+Het dubbele van -94 is -188.
+Het dubbele van 70 is 140.
+Het dubbele van -15 is -30.
+Het dubbele van -48 is -96.
+Het dubbele van 1 is 2.
+>>> Dubbels([53, -52, 38, 44, -32, 24, 58, -87, -49])
+Het dubbele van 53 is 106.
+Het dubbele van -52 is -104.
+Het dubbele van 38 is 76.
+Het dubbele van 44 is 88.
+Het dubbele van -32 is -64.
+Het dubbele van 24 is 48.
+Het dubbele van 58 is 116.
+Het dubbele van -87 is -174.
+Het dubbele van -49 is -98.
+>>> Dubbels([])
+>>> Dubbels([14, 33, -94, 25, 92, 40])
+Het dubbele van 14 is 28.
+Het dubbele van 33 is 66.
+Het dubbele van -94 is -188.
+Het dubbele van 25 is 50.
+Het dubbele van 92 is 184.
+Het dubbele van 40 is 80.
+>>> Dubbels([-78])
+Het dubbele van -78 is -156.
+>>> Dubbels([-32, 96, 71, 40])
+Het dubbele van -32 is -64.
+Het dubbele van 96 is 192.
+Het dubbele van 71 is 142.
+Het dubbele van 40 is 80.
+>>> Dubbels([-98, -95, -86, -42, -6, 18, -78])
+Het dubbele van -98 is -196.
+Het dubbele van -95 is -190.
+Het dubbele van -86 is -172.
+Het dubbele van -42 is -84.
+Het dubbele van -6 is -12.
+Het dubbele van 18 is 36.
+Het dubbele van -78 is -156.
+>>> Dubbels([-72, 19, 60, -54, -12, 27, -14, -77, -8])
+Het dubbele van -72 is -144.
+Het dubbele van 19 is 38.
+Het dubbele van 60 is 120.
+Het dubbele van -54 is -108.
+Het dubbele van -12 is -24.
+Het dubbele van 27 is 54.
+Het dubbele van -14 is -28.
+Het dubbele van -77 is -154.
+Het dubbele van -8 is -16.
+>>> Dubbels([-35, 18, 40, 75, -37])
+Het dubbele van -35 is -70.
+Het dubbele van 18 is 36.
+Het dubbele van 40 is 80.
+Het dubbele van 75 is 150.
+Het dubbele van -37 is -74.
+>>> Dubbels([-48, -46, -12])
+Het dubbele van -48 is -96.
+Het dubbele van -46 is -92.
+Het dubbele van -12 is -24.
+>>> Dubbels([-41, 10, 44, 7, 79, 9, -71])
+Het dubbele van -41 is -82.
+Het dubbele van 10 is 20.
+Het dubbele van 44 is 88.
+Het dubbele van 7 is 14.
+Het dubbele van 79 is 158.
+Het dubbele van 9 is 18.
+Het dubbele van -71 is -142.
+>>> Dubbels([-5, -2, 59, 89, -53, 72, 55, -61, -24])
+Het dubbele van -5 is -10.
+Het dubbele van -2 is -4.
+Het dubbele van 59 is 118.
+Het dubbele van 89 is 178.
+Het dubbele van -53 is -106.
+Het dubbele van 72 is 144.
+Het dubbele van 55 is 110.
+Het dubbele van -61 is -122.
+Het dubbele van -24 is -48.
+>>> Dubbels([-44, -83, -75, 43, 33, 73, -41, 71, 100, 35])
+Het dubbele van -44 is -88.
+Het dubbele van -83 is -166.
+Het dubbele van -75 is -150.
+Het dubbele van 43 is 86.
+Het dubbele van 33 is 66.
+Het dubbele van 73 is 146.
+Het dubbele van -41 is -82.
+Het dubbele van 71 is 142.
+Het dubbele van 100 is 200.
+Het dubbele van 35 is 70.
+>>> Dubbels([-84, 1, 51, -20, -64, 23, -14, 89, 49])
+Het dubbele van -84 is -168.
+Het dubbele van 1 is 2.
+Het dubbele van 51 is 102.
+Het dubbele van -20 is -40.
+Het dubbele van -64 is -128.
+Het dubbele van 23 is 46.
+Het dubbele van -14 is -28.
+Het dubbele van 89 is 178.
+Het dubbele van 49 is 98.
+>>> Dubbels([56, -17, 80, 30, -8, 91, -94])
+Het dubbele van 56 is 112.
+Het dubbele van -17 is -34.
+Het dubbele van 80 is 160.
+Het dubbele van 30 is 60.
+Het dubbele van -8 is -16.
+Het dubbele van 91 is 182.
+Het dubbele van -94 is -188.
+>>> Dubbels([-12, -53, -14, 82, -62, -76])
+Het dubbele van -12 is -24.
+Het dubbele van -53 is -106.
+Het dubbele van -14 is -28.
+Het dubbele van 82 is 164.
+Het dubbele van -62 is -124.
+Het dubbele van -76 is -152.
+>>> Dubbels([-47, -19, -53, 29, 67, 79, 97, 89])
+Het dubbele van -47 is -94.
+Het dubbele van -19 is -38.
+Het dubbele van -53 is -106.
+Het dubbele van 29 is 58.
+Het dubbele van 67 is 134.
+Het dubbele van 79 is 158.
+Het dubbele van 97 is 194.
+Het dubbele van 89 is 178.
+>>> Dubbels([38, -37, 63, 92, -98, -75])
+Het dubbele van 38 is 76.
+Het dubbele van -37 is -74.
+Het dubbele van 63 is 126.
+Het dubbele van 92 is 184.
+Het dubbele van -98 is -196.
+Het dubbele van -75 is -150.
+>>> Dubbels([-85, -33, -73, -78, 14, 54, 42, -32])
+Het dubbele van -85 is -170.
+Het dubbele van -33 is -66.
+Het dubbele van -73 is -146.
+Het dubbele van -78 is -156.
+Het dubbele van 14 is 28.
+Het dubbele van 54 is 108.
+Het dubbele van 42 is 84.
+Het dubbele van -32 is -64.
+>>> Dubbels([-75, 94, 65, 30])
+Het dubbele van -75 is -150.
+Het dubbele van 94 is 188.
+Het dubbele van 65 is 130.
+Het dubbele van 30 is 60.
+>>> Dubbels([-81, 52, -54, 91, -43])
+Het dubbele van -81 is -162.
+Het dubbele van 52 is 104.
+Het dubbele van -54 is -108.
+Het dubbele van 91 is 182.
+Het dubbele van -43 is -86.
+>>> Dubbels([100, 1, -65, -70])
+Het dubbele van 100 is 200.
+Het dubbele van 1 is 2.
+Het dubbele van -65 is -130.
+Het dubbele van -70 is -140.
+>>> Dubbels([43, 48])
+Het dubbele van 43 is 86.
+Het dubbele van 48 is 96.
+>>> Dubbels([-94, -23, -38, 75, 95, 44])
+Het dubbele van -94 is -188.
+Het dubbele van -23 is -46.
+Het dubbele van -38 is -76.
+Het dubbele van 75 is 150.
+Het dubbele van 95 is 190.
+Het dubbele van 44 is 88.
+>>> Dubbels([])
+>>> Dubbels([-100, -35, -53, -94, 57, -85, 5, 94])
+Het dubbele van -100 is -200.
+Het dubbele van -35 is -70.
+Het dubbele van -53 is -106.
+Het dubbele van -94 is -188.
+Het dubbele van 57 is 114.
+Het dubbele van -85 is -170.
+Het dubbele van 5 is 10.
+Het dubbele van 94 is 188.
+>>> Dubbels([42, 38, 7])
+Het dubbele van 42 is 84.
+Het dubbele van 38 is 76.
+Het dubbele van 7 is 14.
+>>> Dubbels([75])
+Het dubbele van 75 is 150.
+>>> Dubbels([55, -79])
+Het dubbele van 55 is 110.
+Het dubbele van -79 is -158.
+>>> Dubbels([95, 100, -41, 26, -83, -16, 69, -43])
+Het dubbele van 95 is 190.
+Het dubbele van 100 is 200.
+Het dubbele van -41 is -82.
+Het dubbele van 26 is 52.
+Het dubbele van -83 is -166.
+Het dubbele van -16 is -32.
+Het dubbele van 69 is 138.
+Het dubbele van -43 is -86.
+>>> Dubbels([-77, 52, 44, -8, 70, -34, 29])
+Het dubbele van -77 is -154.
+Het dubbele van 52 is 104.
+Het dubbele van 44 is 88.
+Het dubbele van -8 is -16.
+Het dubbele van 70 is 140.
+Het dubbele van -34 is -68.
+Het dubbele van 29 is 58.
+>>> Dubbels([-18, 43, 63, 28, -19])
+Het dubbele van -18 is -36.
+Het dubbele van 43 is 86.
+Het dubbele van 63 is 126.
+Het dubbele van 28 is 56.
+Het dubbele van -19 is -38.
+>>> Dubbels([-72, -19, 16, 0, -41, -51, -8, 98, -19, -8])
+Het dubbele van -72 is -144.
+Het dubbele van -19 is -38.
+Het dubbele van 16 is 32.
+Het dubbele van 0 is 0.
+Het dubbele van -41 is -82.
+Het dubbele van -51 is -102.
+Het dubbele van -8 is -16.
+Het dubbele van 98 is 196.
+Het dubbele van -19 is -38.
+Het dubbele van -8 is -16.
+>>> Dubbels([78, 95, 65, -12, -88])
+Het dubbele van 78 is 156.
+Het dubbele van 95 is 190.
+Het dubbele van 65 is 130.
+Het dubbele van -12 is -24.
+Het dubbele van -88 is -176.
+>>> Dubbels([])
+>>> Dubbels([-7, -79, -82, -48, -31, -42, -48, 78])
+Het dubbele van -7 is -14.
+Het dubbele van -79 is -158.
+Het dubbele van -82 is -164.
+Het dubbele van -48 is -96.
+Het dubbele van -31 is -62.
+Het dubbele van -42 is -84.
+Het dubbele van -48 is -96.
+Het dubbele van 78 is 156.
+>>> Dubbels([-27, -57, 28, -49, 69, -87, -96, -97, 29, -73])
+Het dubbele van -27 is -54.
+Het dubbele van -57 is -114.
+Het dubbele van 28 is 56.
+Het dubbele van -49 is -98.
+Het dubbele van 69 is 138.
+Het dubbele van -87 is -174.
+Het dubbele van -96 is -192.
+Het dubbele van -97 is -194.
+Het dubbele van 29 is 58.
+Het dubbele van -73 is -146.
+>>> Dubbels([5, -47, -37, -93, -19, -44, 33, -69])
+Het dubbele van 5 is 10.
+Het dubbele van -47 is -94.
+Het dubbele van -37 is -74.
+Het dubbele van -93 is -186.
+Het dubbele van -19 is -38.
+Het dubbele van -44 is -88.
+Het dubbele van 33 is 66.
+Het dubbele van -69 is -138.
+>>> Dubbels([90, -50, -87, -43, 64, 89, 80, -98, -30, 76])
+Het dubbele van 90 is 180.
+Het dubbele van -50 is -100.
+Het dubbele van -87 is -174.
+Het dubbele van -43 is -86.
+Het dubbele van 64 is 128.
+Het dubbele van 89 is 178.
+Het dubbele van 80 is 160.
+Het dubbele van -98 is -196.
+Het dubbele van -30 is -60.
+Het dubbele van 76 is 152.
+>>> Dubbels([-7, 12, 4, 53, -61, 97])
+Het dubbele van -7 is -14.
+Het dubbele van 12 is 24.
+Het dubbele van 4 is 8.
+Het dubbele van 53 is 106.
+Het dubbele van -61 is -122.
+Het dubbele van 97 is 194.
+>>> Dubbels([71, -77, 90, -37, -23, -80, 92, -81, -16, 18])
+Het dubbele van 71 is 142.
+Het dubbele van -77 is -154.
+Het dubbele van 90 is 180.
+Het dubbele van -37 is -74.
+Het dubbele van -23 is -46.
+Het dubbele van -80 is -160.
+Het dubbele van 92 is 184.
+Het dubbele van -81 is -162.
+Het dubbele van -16 is -32.
+Het dubbele van 18 is 36.
+>>> Dubbels([-44, 29])
+Het dubbele van -44 is -88.
+Het dubbele van 29 is 58.
+>>> Dubbels([-38, 50, -66, -96, 44, 38, -28])
+Het dubbele van -38 is -76.
+Het dubbele van 50 is 100.
+Het dubbele van -66 is -132.
+Het dubbele van -96 is -192.
+Het dubbele van 44 is 88.
+Het dubbele van 38 is 76.
+Het dubbele van -28 is -56.
+>>> Dubbels([57, 18, 37, -59, 13, -58])
+Het dubbele van 57 is 114.
+Het dubbele van 18 is 36.
+Het dubbele van 37 is 74.
+Het dubbele van -59 is -118.
+Het dubbele van 13 is 26.
+Het dubbele van -58 is -116.
+>>> Dubbels([50, 17, -85, 46, -66, 77, -57, 58, -81, -40])
+Het dubbele van 50 is 100.
+Het dubbele van 17 is 34.
+Het dubbele van -85 is -170.
+Het dubbele van 46 is 92.
+Het dubbele van -66 is -132.
+Het dubbele van 77 is 154.
+Het dubbele van -57 is -114.
+Het dubbele van 58 is 116.
+Het dubbele van -81 is -162.
+Het dubbele van -40 is -80.
+>>> Dubbels([63, -26, -82, -95, -52, 65, 80])
+Het dubbele van 63 is 126.
+Het dubbele van -26 is -52.
+Het dubbele van -82 is -164.
+Het dubbele van -95 is -190.
+Het dubbele van -52 is -104.
+Het dubbele van 65 is 130.
+Het dubbele van 80 is 160.

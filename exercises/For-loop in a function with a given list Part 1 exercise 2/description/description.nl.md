@@ -313,7 +313,7 @@ druiven
 <hr>
 
 # <b>Opdracht</b>
-Maak een functie genaamd <function name="Dubbels"></function> die een lijst als invoer neemt. Deze lijst bevat getallen. 
+Maak een functie genaamd <function name="Dubbels"></function> die een lijst als invoer neemt. Deze lijst bevat getallen. De functie zal voor elk getal in de lijst op het scherm afdrukken wat het dubbele van dat getal is in de vorm <code class="string">Het dubbele van [getal1] is [getal2].</code>. Zie de input-output verwachtingen hieronder voor voorbeelden van wat er op het scherm moet verschijnen.
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
 
@@ -330,17 +330,17 @@ Maak een functie genaamd <function name="Dubbels"></function> die een lijst als 
     <tr>
       <td><function name="Dubbels" inputs='[5, 3, -7, 42, -91, 28]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code>Het dubbele van 5 is 10<br>Het dubbele van 3 is 6<br>Het dubbele van -7 is -14<br>Het dubbele van 42 is 84<br>Het dubbele van -91 is -182<br>Het dubbele van 28 is 56</code></pre></td>
+      <td><pre><code>Het dubbele van 5 is 10.<br>Het dubbele van 3 is 6.<br>Het dubbele van -7 is -14.<br>Het dubbele van 42 is 84.<br>Het dubbele van -91 is -182.<br>Het dubbele van 28 is 56.</code></pre></td>
     </tr>
     <tr>
       <td><function name="Dubbels" inputs='[1, 2, 4, 8, 16, 32]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code>Het dubbele van 1 is 2<br>Het dubbele van 2 is 4<br>Het dubbele van 4 is 8<br>Het dubbele van 8 is 16<br>Het dubbele van 16 is 32<br>Het dubbele van 32 is 64</code></pre></td>
+      <td><pre><code>Het dubbele van 1 is 2.<br>Het dubbele van 2 is 4.<br>Het dubbele van 4 is 8.<br>Het dubbele van 8 is 16.<br>Het dubbele van 16 is 32.<br>Het dubbele van 32 is 64.</code></pre></td>
     </tr>
     <tr>
       <td><function name="Dubbels" inputs='[5, 4, 3, 2, 1, 0]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code>Het dubbele van 5 is 10<br>Het dubbele van 4 is 8<br>Het dubbele van 3 is 6<br>Het dubbele van 2 is 4<br>Het dubbele van 1 is 2<br>Het dubbele van 0 is 0</code></pre></td>
+      <td><pre><code>Het dubbele van 5 is 10.<br>Het dubbele van 4 is 8.<br>Het dubbele van 3 is 6.<br>Het dubbele van 2 is 4.<br>Het dubbele van 1 is 2.<br>Het dubbele van 0 is 0.</code></pre></td>
     </tr>
     <tr>
       <td><function name="Dubbels" inputs='[]'></function></td>

@@ -365,7 +365,7 @@ Maak een functie genaamd <function name="PrintGroterDan5"></function> die een li
   </thead>
   <tbody>
     <tr>
-      <td><function name="PrintGroterDan5" inputs='[3, 7, 2, 9, 4]'></function></function></td>
+      <td><function name="PrintGroterDan5" inputs='[3, 7, 2, 9, 4]'></function></td>
       <td style="text-align: center;">→</td>
       <td><pre><code>7 is groter dan 5.<br>9 is groter dan 5.</code></pre></td>
     </tr>
