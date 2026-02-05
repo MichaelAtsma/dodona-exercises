@@ -349,7 +349,7 @@ Waarom?
 <hr>
 
 # <b>Opdracht</b>
-Maak een functie genaamd <function name="PrintGroterDan5"></function> die een lijst als invoer neemt. Deze lijst bevat getallen. De functie moet elk getal in de lijst controleren en alleen die getallen afdrukken die groter zijn dan 5. Voor elk getal dat groter is dan 5, moet de functie op het scherm afdrukken: <code class="string">[getal] is groter dan 5</code>, waarbij <code>[getal]</code> vervangen wordt door het daadwerkelijke getal uit de lijst.
+Maak een functie genaamd <function name="PrintGroterDan5"></function> die een lijst als invoer neemt. Deze lijst bevat getallen. De functie moet elk getal in de lijst controleren en alleen die getallen afdrukken die groter zijn dan 5. Voor elk getal dat groter is dan 5, moet de functie op het scherm afdrukken: <code class="string">[getal] is groter dan 5</code>, waarbij <code class="string">[getal]</code> vervangen wordt door het daadwerkelijke getal uit de lijst.
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
 
