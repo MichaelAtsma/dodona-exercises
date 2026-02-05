@@ -390,7 +390,7 @@ Maak een functie genaamd <function name="PrintGroterDan5"></function> die een li
     <tr>
       <td><function name="PrintGroterDan5" inputs='[5, 4, 3, 2, 1, 0]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code></code></pre></td>
+      <td><pre><code></code></pre><br><i>(Er is geen output.)</i></td>
     </tr>
   </tbody>
 </table>

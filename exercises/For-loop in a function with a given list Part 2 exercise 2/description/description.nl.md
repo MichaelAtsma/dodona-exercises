@@ -278,12 +278,12 @@ Maak een functie genaamd <function name="PrintVoldoendes"></function> die een li
     <tr>
       <td><function name="PrintVoldoendes" inputs='[1, 2, 4, 8, 16, 32]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code></code></pre></td>
+      <td><pre><code></code></pre><br><i>(Er is geen output.)</i></td>
     </tr>
     <tr>
       <td><function name="PrintVoldoendes" inputs='[]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code></code></pre></td>
+      <td><pre><code></code></pre><br><i>(Er is geen output.)</i></td>
     </tr>
   </tbody>
 </table>
