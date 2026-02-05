@@ -1,0 +1,7 @@
+--------------------------------------------------
+tab name: Bulk test
+used output channel: stdout
+<LANGUAGE code="en">
+    <function from="PrintVoldoendes" to="PrintPasses" />
+    <fixed from="is een voldoende." to="is a pass." />
+</LANGUAGE>
