@@ -1,0 +1,7 @@
+--------------------------------------------------
+tab name: Voorbeelden
+used output channel: stdout
+<LANGUAGE code="en">
+    <function from="PrintGroterDan5" to="PrintGreaterThan5" />
+    <fixed from="is groter dan" to="is greater than" />
+</LANGUAGE>
