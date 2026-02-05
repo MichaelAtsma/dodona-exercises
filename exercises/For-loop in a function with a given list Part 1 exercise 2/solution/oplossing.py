@@ -1,3 +1,4 @@
 def Dubbels(getallen):
     for getal in getallen:
-        print(f"Het dubbele van {getal} is {2 * getal}")
+        dubbele = 2 * getal
+        print(f"Het dubbele van {getal} is {dubbele}")
