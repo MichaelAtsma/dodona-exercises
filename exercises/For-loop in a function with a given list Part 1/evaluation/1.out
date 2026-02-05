@@ -1,5 +1,5 @@
 --------------------------------------------------
-tab name: Voorbeelden
+tab name: Bulk test
 used output channel: stdout
 <LANGUAGE code="en">
     <function from="PrintAllesInDeLijst" to="PrintEverythingInTheList" />
