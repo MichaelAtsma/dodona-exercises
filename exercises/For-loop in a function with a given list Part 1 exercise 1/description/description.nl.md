@@ -297,6 +297,14 @@ def PrintAllesInDeLijst(de_lijst):
 
 Hierbij is <code>de_lijst</code> de naam die we hebben gegeven aan de invoerlijst van de functie. In de <i>for</i>-lus gebruiken we deze naam om door elk element van de lijst te gaan en het af te drukken met <function name="print" inputs='element'></function>.
 
+Als iemand deze functie aanroept met een lijst, zoals <function name="PrintAllesInDeLijst" inputs='["appels", "broccoli", "citroenen", "druiven"]'></function>, dan zal het volgende op het scherm verschijnen:
+
+```appels
+broccoli
+citroenen
+druiven
+```
+
 </details> <!-- End of uitleg over een for-lus in een functie met een gegeven lijst -->
 
 <br>
