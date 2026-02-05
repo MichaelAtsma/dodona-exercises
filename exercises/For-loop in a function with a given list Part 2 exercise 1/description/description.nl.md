@@ -283,7 +283,7 @@ Maak een functie genaamd <function name="PrintPositief"></function> die een lijs
     <tr>
       <td><function name="PrintPositief" inputs='[5, 4, 3, 2, 1, 0]'></function></td>
       <td style="text-align: center;">→</td>
-      <td style="white-space:wrap"><pre><code>5<br>4<br>3<br>2<br>1</code></pre><br>*Merk op dat <code>0</code> niet wordt afgedrukt omdat <code>0</code> niet positief is.</td>
+      <td style="white-space:normal"><pre><code>5<br>4<br>3<br>2<br>1</code></pre><br>*Merk op dat <code>0</code> niet wordt afgedrukt omdat <code>0</code> niet positief is.</td>
     </tr>
   </tbody>
 </table>
