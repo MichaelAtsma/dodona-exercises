@@ -266,7 +266,7 @@ Maak een functie genaamd <function name="PrintVoldoendes"></function> die een li
   </thead>
   <tbody>
     <tr>
-      <td><function name="PrintVoldoendes" inputs='[0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100]'></function></function></td>
+      <td><function name="PrintVoldoendes" inputs='[0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100]'></function></td>
       <td style="text-align: center;">→</td>
       <td><pre><code>50% is een voldoende.<br>60% is een voldoende.<br>70% is een voldoende.<br>80% is een voldoende.<br>90% is een voldoende.<br>100% is een voldoende.</code></pre></td>
     </tr>
