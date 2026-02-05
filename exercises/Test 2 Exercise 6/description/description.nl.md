@@ -165,8 +165,16 @@
     white-space: nowrap;
   }
   th.padding-column {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  th.medium-padding-column {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+  th.big-padding-column {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
   }
   td {
     padding: 4px 10px !important;

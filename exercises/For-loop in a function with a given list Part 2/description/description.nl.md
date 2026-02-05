@@ -163,6 +163,14 @@
     padding-left: 20px !important;
     padding-right: 20px !important;
   }
+  th.medium-padding-column {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+  th.big-padding-column {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
   td {
     padding: 4px 10px !important;
     box-sizing: border-box;
@@ -360,7 +368,7 @@ Maak een functie genaamd <function name="PrintGroterDan5"></function> die een li
     <tr>
       <th>Invoer</th>
       <th class="padding-column">→</th>
-      <th style="padding: 0 100px !important;">Verwachte output</th>
+      <th class="medium-padding-column">Verwachte output</th>
     </tr>
   </thead>
   <tbody>

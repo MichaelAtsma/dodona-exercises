@@ -3,11 +3,25 @@ import re
 
 # Pattern or literal to replace
 use_regex_for_to_replace = False
-to_replace = r"""Als iemand bijvoorbeeld <code>4</code> als invoer geeft door <function name="BegroetVaak" inputs="3"></function> te typen"""
+to_replace = r"""th.padding-column {
+    padding-left: 20px;
+    padding-right: 20px;
+  }"""
 
 # Replacement (can contain backreferences like r"\1" when use_regex is True)
 use_regex_for_replacement = False
-replacement = r"""Als iemand bijvoorbeeld <code>3</code> als invoer geeft door <function name="BegroetVaak" inputs="3"></function> te typen"""
+replacement = r"""th.padding-column {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  th.medium-padding-column {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+  th.big-padding-column {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }"""
 
 
 filename_contains = "description"
