@@ -3,25 +3,11 @@ import re
 
 # Pattern or literal to replace
 use_regex_for_to_replace = False
-to_replace = r"""th.padding-column {
-    padding-left: 20px;
-    padding-right: 20px;
-  }"""
+to_replace = r"""<td><pre><code></code></pre></td>"""
 
 # Replacement (can contain backreferences like r"\1" when use_regex is True)
 use_regex_for_replacement = False
-replacement = r"""th.padding-column {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-  }
-  th.medium-padding-column {
-    padding-left: 50px !important;
-    padding-right: 50px !important;
-  }
-  th.big-padding-column {
-    padding-left: 100px !important;
-    padding-right: 100px !important;
-  }"""
+replacement = r"""<td><pre><code></code></pre><br><i>(Er is geen output.)</i></td>"""
 
 
 filename_contains = "description"

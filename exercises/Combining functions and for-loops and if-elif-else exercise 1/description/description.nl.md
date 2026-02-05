@@ -271,7 +271,7 @@ Maak een functie genaamd <function name="PrintTot"></function> die een getal als
     <tr>
       <td><function name="PrintTot" inputs="0"></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code></code></pre></td>
+      <td><pre><code></code></pre><br><i>(Er is geen output.)</i></td>
     </tr>
   </tbody>
 </table>

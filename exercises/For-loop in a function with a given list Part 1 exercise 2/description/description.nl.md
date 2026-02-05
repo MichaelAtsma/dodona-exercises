@@ -353,7 +353,7 @@ Maak een functie genaamd <function name="Dubbels"></function> die een lijst als 
     <tr>
       <td><function name="Dubbels" inputs='[]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code></code></pre></td>
+      <td><pre><code></code></pre><br><i>(Er is geen output.)</i></td>
     </tr>
   </tbody>
 </table>

@@ -271,7 +271,7 @@ Maak een functie genaamd <function name="Echo"></function> die twee waarden als 
     <tr>
       <td><function name="Echo" inputs='"Ik houd niet van programmeren", 0'></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code></code></pre></td>
+      <td><pre><code></code></pre><br><i>(Er is geen output.)</i></td>
     </tr>
     <tr>
       <td><function name="Echo" inputs='".", 4'></function></td>

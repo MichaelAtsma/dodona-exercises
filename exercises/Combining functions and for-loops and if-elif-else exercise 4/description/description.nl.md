@@ -271,7 +271,7 @@ Maak een functie genaamd <function name="RegelsSchrijven"></function> die twee g
     <tr>
       <td><function name="RegelsSchrijven" inputs="0, 20"></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code></code></pre></td>
+      <td><pre><code></code></pre><br><i>(Er is geen output.)</i></td>
     </tr>
   </tbody>
 </table>
