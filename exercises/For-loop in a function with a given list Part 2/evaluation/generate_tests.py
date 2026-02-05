@@ -14,7 +14,7 @@ def PrintGroterDan5(getallen):
 
 function_effect = "prints"
 function = PrintGroterDan5
-bulk_test = False
+bulk_test = True
 
 if not bulk_test:
     X = [([3, 7, 2, 9, 4],),
@@ -23,8 +23,9 @@ if not bulk_test:
         ([5, 4, 3, 2, 1, 0],)]
 else:
     X = [([random.randint(1, 10000) for _ in range(random.randint(1, 20))],) for n in range(100)]
-    edge_cases = ([4.9, 5.0, 5.1, 5.01, 5.0001, 5.00001],)
-    X.append(edge_cases)
+    edge_cases = [([4.9, 5.0, 5.1, 5.01, 5.0001, 5.00001],),
+                  ([],)]
+    X += edge_cases
 
 result = ""
 for args in X:
