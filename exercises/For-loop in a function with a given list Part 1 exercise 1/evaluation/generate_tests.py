@@ -37,7 +37,7 @@ if not bulk_test:
         (["Hiba", "Inès", "Jialue", "Karim", "Lara"],),
         (["Max", "Noemie", "Oscar", "Paulin", "Quirine"],),
         (["Rocco", "Saniya", "Thibault", "Uma", "Victoria"],),
-        (["Wassil", "Xenophanes", "Yanis", "Zayon"],)]
+        (["Wided", "Xenophanes", "Yanis", "Zayon"],)]
 else:
     X = GetGroupsOfAllNames(os.path.join(os.path.dirname(__file__), "student_names.txt"), ordered=True, min_size=1000, max_size=1000)
     X += GetGroupsOfAllNames(os.path.join(os.path.dirname(__file__), "student_names.txt"), ordered=False, min_size=3, max_size=7)

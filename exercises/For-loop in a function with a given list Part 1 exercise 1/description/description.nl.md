@@ -352,9 +352,9 @@ Maak een functie genaamd <function name="VerwelkomIedereen"></function> die een 
       <td><pre><code>Welkom Rocco!<br>Welkom Saniya!<br>Welkom Thibault!<br>Welkom Uma!<br>Welkom Victoria!</code></pre></td>
     </tr>
     <tr>
-      <td><function name="VerwelkomIedereen" inputs='["Wassil", "Xenophanes", "Yanis", "Zayon"]'></function></td>
+      <td><function name="VerwelkomIedereen" inputs='["Wided", "Xenophanes", "Yanis", "Zayon"]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code>Welkom Wassil!<br>Welkom Xenophanes!<br>Welkom Yanis!<br>Welkom Zayon!</code></pre></td>
+      <td><pre><code>Welkom Wided!<br>Welkom Xenophanes!<br>Welkom Yanis!<br>Welkom Zayon!</code></pre></td>
     </tr>
   </tbody>
 </table>
