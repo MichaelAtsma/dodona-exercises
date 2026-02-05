@@ -1,7 +1,7 @@
->>> VerwelkomIedereen(['Ahmed', 'Bryan', 'Charlie', 'Dustin'])
+>>> VerwelkomIedereen(['Ahmed', 'Bryan', 'Capucine', 'Dustin'])
 Welkom Ahmed!
 Welkom Bryan!
-Welkom Charlie!
+Welkom Capucine!
 Welkom Dustin!
 >>> VerwelkomIedereen(['Elodie', 'Fiona', 'George'])
 Welkom Elodie!

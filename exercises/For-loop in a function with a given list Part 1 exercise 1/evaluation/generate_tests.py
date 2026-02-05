@@ -32,7 +32,7 @@ function = VerwelkomIedereen
 bulk_test = True
 
 if not bulk_test:
-    X = [(["Ahmed", "Bryan", "Charlie", "Dustin"],),
+    X = [(["Ahmed", "Bryan", "Capucine", "Dustin"],),
         (["Elodie", "Fiona", "George"],),
         (["Hiba", "Inès", "Jialue", "Karim", "Lara"],),
         (["Max", "Noemie", "Oscar", "Paulin", "Quirine"],),
