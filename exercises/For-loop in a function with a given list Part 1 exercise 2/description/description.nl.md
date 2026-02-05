@@ -329,7 +329,7 @@ Maak een functie genaamd <function name="Dubbels"></function> die een lijst als 
     <tr>
       <td><function name="Dubbels" inputs='[5, 3, -7, 42, -91, 28]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code>Het dubbele van 5 is 10<br>>Het dubbele van 3 is 6<br>Het dubbele van -7 is -14<br>Het dubbele van 42 is 84<br>Het dubbele van -91 is -182<br>Het dubbele van 28 is 56</code></pre></td>
+      <td><pre><code>Het dubbele van 5 is 10<br>Het dubbele van 3 is 6<br>Het dubbele van -7 is -14<br>Het dubbele van 42 is 84<br>Het dubbele van -91 is -182<br>Het dubbele van 28 is 56</code></pre></td>
     </tr>
     <tr>
       <td><function name="Dubbels" inputs='[1, 2, 4, 8, 16, 32]'></function></td>
