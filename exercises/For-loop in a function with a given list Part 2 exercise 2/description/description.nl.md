@@ -261,7 +261,7 @@ Maak een functie genaamd <function name="PrintVoldoendes"></function> die een li
     <tr>
       <th>Invoer</th>
       <th class="padding-column">→</th>
-      <th>Verwachte output</th>
+      <th class="medium-padding-column">Verwachte output</th>
     </tr>
   </thead>
   <tbody>
