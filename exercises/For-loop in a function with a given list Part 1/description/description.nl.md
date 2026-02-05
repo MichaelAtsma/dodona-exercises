@@ -341,7 +341,7 @@ Vervang de underscores zodat elk element van de gegeven lijst op een nieuwe rege
       <td><pre><code>9<br>2<br>18</code></pre></td>
     </tr>
     <tr>
-      <td><function name="PrintAllesInDeLijst" inputs='[70, "Vold\,oende", 40, "Onvoldoende", 100, "Perfect"]'></function></td>
+      <td><function name="PrintAllesInDeLijst" inputs='[70, "Voldoende", 40, "Onvoldoende", 100, "Perfect"]'></function></td>
       <td style="text-align: center;">→</td>
       <td><pre><code>70<br>Voldoende<br>40<br>Onvoldoende<br>100<br>Perfect</code></pre></td>
     </tr>
