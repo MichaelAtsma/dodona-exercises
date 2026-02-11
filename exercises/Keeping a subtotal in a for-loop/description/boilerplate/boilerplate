@@ -1,0 +1,7 @@
+prijzen = [10.99, 5.49, 3.50]
+
+totaal = 0
+for ____ in ____:
+    totaal = ____
+
+print(totaal)

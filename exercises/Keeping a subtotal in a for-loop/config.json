@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "Subtotaal bijhouden in een for-lus"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "labels": [],
+  "internals": {
+    "token": "BjagN52UGMd4qv6s2NWywyki4_fq8iJtPVxBfwfX8Eynp744Y3-ibmCuUd2xnwFf",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
