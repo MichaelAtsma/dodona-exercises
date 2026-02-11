@@ -319,6 +319,8 @@ def PrintRestdeling(getallen, deler):
 
 <details markdown="1"><summary>Cheat sheet wiskundige operaties</summary>
 
+In een eerdere oefening heb je onderstaande wiskundige operaties al eens gezien. Je zal er in deze oefening ook enkele van nodig hebben, dus hier is een kleine herinnering:
+
 <div class="table-scroll">
 <table>
   <thead>
