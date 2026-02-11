@@ -7,4 +7,4 @@
             oracle: "custom_check"
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["[\\n \\t]*([a-zA-Z_]+[a-zA-Z0-9_]*)[ ]*=[ ]*\\[[ ]*10\\.99[ ]*,[ ]*5\\.49[ ]*,[ ]*3\\.50[ ]*\\][ \\t]*[\\n]+[\\n \\t]*for[ ]+([a-zA-Z_]+[a-zA-Z0-9_]*)[ ]+in[ ]+\\1[ ]*:[ ]*[\\n \\t]*[ \\t]+totaal[ ]*[(=[ ]*totaal[ ]*\\+)(\\+=)][ ]*\\2[\\n \\t]*[\\n]+print[ ]*\\([ ]*totaal[ ]*\\)[\\n \\t]*", {}, {'19.98': 'de totale prijs die je moet berekenen'}, "Goed zo, je hebt de prijzen juist opgeteld!", "De totaalprijs is niet correct. Zorg dat je deze binnen de lus correct bijwerkt."]
+            arguments: ["[\\n \\t]*([a-zA-Z_]+[a-zA-Z0-9_]*)[ ]*=[ ]*\\[[ ]*10\\.99[ ]*,[ ]*5\\.49[ ]*,[ ]*3\\.50[ ]*\\][ \\t]*[\\n]+[\\n \\t]*for[ ]+([a-zA-Z_]+[a-zA-Z0-9_]*)[ ]+in[ ]+\\1[ ]*:[ ]*[\\n \\t]*[ \\t]+(totaal[ ]*[(=[ ]*totaal[ ]*\\+)(\\+=)][ ]*\\2)[\\n \\t]*[\\n]+print[ ]*\\([ ]*totaal[ ]*\\)[\\n \\t]*", {}, {'19.98': 'de totale prijs die je moet berekenen'}, "Goed zo, je hebt de prijzen juist opgeteld!", "De totaalprijs is niet correct. Zorg dat je deze binnen de lus correct bijwerkt."]

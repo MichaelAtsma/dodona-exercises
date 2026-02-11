@@ -14,7 +14,7 @@ def evaluate_test(context, match_regex, mandatory_texts_and_descriptions, forbid
     checks["correct value"] = context.actual == context.expected
 
     m = re.fullmatch(match_regex, submission)
-    student_contribution = m.group(1) if m else ""
+    student_contribution = m.group(3) if m else ""
     checks["code matches regex"] = m is not None
 
     missing_texts_and_descriptions = {}
@@ -35,6 +35,7 @@ def evaluate_test(context, match_regex, mandatory_texts_and_descriptions, forbid
     mymessages = []
     if correct:
         mymessages.append(Message(correct_message_template))
+        mymessages.append(Message("Je hebt deze berekening geschreven om het totaal te updaten: " + m.group(3).strip()))
     else:
         if not checks["correct value"]:
             mymessages.append(Message(wrong_value_message_template))
