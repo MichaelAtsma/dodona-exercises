@@ -1,0 +1,9 @@
+--------------------------------------------------
+tab name: Voorbeelden
+used output channel: stdout
+<LANGUAGE code="en">
+    <function from="PrintWachtwoordLengtes" to="PrintPasswordLengths" />
+    <fixed from="is een lang wachtwoord" to="is a long password" />
+    <fixed from="is precies lang genoeg als wachtwoord" to="is exactly long enough as a password" />
+    <fixed from="is een te kort wachtwoord" to="is too short as a password" />
+</LANGUAGE>
