@@ -242,7 +242,9 @@ Antwerpen
 
 We gaan nu kijken hoe we een <i>for</i>-lus kunnen gebruiken om een subtotaal bij te houden. Stel dat je een lijst hebt met prijzen van producten die je in een winkelmandje hebt gedaan, en je wilt weten wat het totaalbedrag is dat je moet betalen. Je kan dan een variabele gebruiken om het subtotaal bij te houden terwijl je door de lijst van prijzen loopt.
 
-We kunnen dit vergelijken met hoe je dit in je hoofd zou doen als je in de supermakt zou zijn. Je begint met een totaal van 0 euro, en elke keer dat je een nieuw product ziet, tel je de prijs van dat product op bij het totaal dat je al hebt. Op die manier houd je een lopend totaal bij van hoeveel je moet betalen. Je doet dus bij ieder nieuw product dat je ziet de volgende berkening: <code>(nieuw) totaal = (oud) totaal + prijs (van nieuw product)</code>.
+We kunnen dit vergelijken met hoe je dit in je hoofd zou doen als je in de supermakt zou zijn. Je begint met een totaal van 0 euro, en elke keer dat je een nieuw product ziet, tel je de prijs van dat product op bij het totaal dat je al hebt. Op die manier houd je een lopend totaal bij van hoeveel je moet betalen. Je doet dus bij ieder nieuw product dat je ziet de volgende berkening: 
+
+<code style="white-space:nowrap !important;">(nieuw) totaal = (oud) totaal + prijs (van nieuw product)</code>.
 
 Hier zie je hoe dit eruit ziet in Python met een gegeven lijst van prijzen:
 
