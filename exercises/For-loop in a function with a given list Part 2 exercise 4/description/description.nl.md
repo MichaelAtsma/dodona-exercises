@@ -300,6 +300,8 @@ waarbij <code class="string">[deler]</code>, <code class="string">[aantal]</code
 </div>
 </details> <!-- End of input-output verwachtingen -->
 
+<br>
+
 Je krijgt al een deel van de code, maar je zal deze zelf moeten aanvullen.
 
 ```python
@@ -312,3 +314,92 @@ def PrintRestdeling(getallen, deler):
         else:
             ____
 ```
+
+<br>
+
+<details markdown="1"><summary>Cheat sheet wiskundige operaties</summary>
+
+<div class="table-scroll">
+<table>
+  <thead>
+    <tr>
+      <th>Symbool</th>
+      <th>Benaming en/of uitleg</th>
+      <th>Voorbeeld</th>
+      <th>Resultaat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>\[ + \]</td>
+      <td>Optelling</td>
+      <td><code>7 + 3</code></td>
+      <td><code>10</code></td>
+    </tr>
+    <tr>
+      <td>\[ - \]</td>
+      <td>Aftrekking</td>
+      <td><code>7 - 3</code></td>
+      <td><code>4</code></td>
+    </tr>
+    <tr>
+      <td>\[ * \]</td>
+      <td>Vermenigvuldiging</td>
+      <td><code>7 * 3</code></td>
+      <td><code>21</code></td>
+    </tr>
+    <tr>
+      <td>\[ / \]</td>
+      <td>Deling</td>
+      <td><code>7 / 3</code></td>
+      <td><code>2.3333333333333335</code>
+        <br>
+        <span class="sub-title-in-table">De 5 op het einde komt door de manier waarop nummers in de computer worden opgeslagen. Hier hoef je niet op te letten.</span>
+      </td>
+    </tr>
+    <tr>
+      <td>\[ // \]</td>
+      <td>Gehele deling
+        <br>
+        <span class="sub-title-in-table">Dit is hoe vaak het tweede getal volledig in het eerste getal past.</span>
+      </td>
+      <td><code>7 // 3</code></td>
+      <td><code>2</code></td>
+    </tr>
+    <tr>
+      <td>\[ \% \]</td>
+      <td>Rest (modulo)
+        <br>
+        <span class="sub-title-in-table">Dit is de rest die overblijft wanneer het tweede getal zo vaak als kan wordt afgehaald van het eerste getal.</span>
+      </td>
+      <td><code>7 % 3</code></td>
+      <td><code>1</code></td>
+    </tr>
+    <tr>
+      <td>\[ ** \]</td>
+      <td>Macht (exponent)</td>
+      <td><code>7 ** 3</code></td>
+      <td><code>343</code></td>
+    </tr>
+    <tr>
+      <td>\[ \sqrt{\ \ } \]</td>
+      <td>Wortel
+        <br>
+        <span class="sub-title-in-table">De vierkantswortel wordt berekend door het omgekeerde te doen van een macht: een cijfer tot de macht 0.5 is hetzelfde als de vierkantswortel te nemen.</span>
+      </td>
+      <td><code>49 ** (1/2)</code></td>
+      <td><code>7.0</code></td>
+    </tr>
+    <tr>
+      <td>\[ \sqrt[3]{\ \ } \]</td>
+      <td>Derdemachtswortel
+        <br>
+        <span class="sub-title-in-table">Een cijfer tot de macht 1/3 is hetzelfde als de derdewortel</span></td>
+      <td><code>27 ** (1/3)</code></td>
+      <td><code>3.0</code></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+</details>
