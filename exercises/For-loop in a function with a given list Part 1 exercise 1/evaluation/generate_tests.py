@@ -2,9 +2,20 @@ import random
 import pyperclip
 import itertools
 import os
+import io
+import sys
 
 def copy_to_clipboard(text):
     pyperclip.copy(text)
+
+def capture_output(func, *args, **kwargs):
+    old_stdout = sys.stdout
+    sys.stdout = io.StringIO()
+    try:
+        return_value = func(*args, **kwargs)
+        return return_value, sys.stdout.getvalue()
+    finally:
+        sys.stdout = old_stdout
 
 def GetGroupsOfAllNames(filename, ordered=True, min_size=3, max_size=7):
     with open(filename, "r", encoding="utf-8") as f:
@@ -25,11 +36,12 @@ def GetGroupsOfAllNames(filename, ordered=True, min_size=3, max_size=7):
     return X
 
 def VerwelkomIedereen(namen):
-    return '\n'.join([f"Welkom {naam}!" for naam in namen])
+    for naam in namen:
+        print(f"Welkom {naam}!")
 
 function_effect = "prints"
 function = VerwelkomIedereen
-bulk_test = True
+bulk_test = False
 
 if not bulk_test:
     X = [(["Ahmed", "Bryan", "Capucine", "Dani"],),
@@ -49,8 +61,9 @@ for args in X:
     result += f">>> {function.__name__}({', '.join(map(str, args))})\n"
     if function_effect == "returns":
         result += f"{repr(function(*args))}\n"
-    else:
-        result += f"{function(*args)}\n"
+    elif function_effect == "prints":
+        _, output = capture_output(function, *args)
+        result += f"{output}"
 
 copy_to_clipboard(result.strip())
 print("Copied to clipboard:")

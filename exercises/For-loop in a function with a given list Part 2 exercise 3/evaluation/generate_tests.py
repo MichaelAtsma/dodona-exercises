@@ -8,12 +8,11 @@ def copy_to_clipboard(text):
     pyperclip.copy(text)
 
 def capture_output(func, *args, **kwargs):
-    """Capture the output of a function call."""
     old_stdout = sys.stdout
     sys.stdout = io.StringIO()
     try:
-        func(*args, **kwargs)
-        return sys.stdout.getvalue()
+        return_value = func(*args, **kwargs)
+        return return_value, sys.stdout.getvalue()
     finally:
         sys.stdout = old_stdout
 
@@ -26,7 +25,7 @@ def PrintDeelbaarheden3(getallen):
 
 function_effect = "prints"
 function = PrintDeelbaarheden3
-bulk_test = True
+bulk_test = False
 
 if not bulk_test:
     X = [([1, 2, 3, 4, 5, 6],),
@@ -45,10 +44,8 @@ for args in X:
     if function_effect == "returns":
         result += f"{repr(function(*args))}\n"
     elif function_effect == "prints":
-        result += f"{capture_output(function, *args)}\n"
-    
-    if not function(*args):
-        result = result[:-1]  # Remove last newline if no output
+        _, output = capture_output(function, *args)
+        result += f"{output}"
 
 copy_to_clipboard(result.strip())
 print("Copied to clipboard:")

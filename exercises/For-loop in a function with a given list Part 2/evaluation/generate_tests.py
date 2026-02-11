@@ -1,20 +1,29 @@
 import random
 import pyperclip
 import itertools
+import io
+import sys
 
 def copy_to_clipboard(text):
     pyperclip.copy(text)
 
+def capture_output(func, *args, **kwargs):
+    old_stdout = sys.stdout
+    sys.stdout = io.StringIO()
+    try:
+        return_value = func(*args, **kwargs)
+        return return_value, sys.stdout.getvalue()
+    finally:
+        sys.stdout = old_stdout
+
 def PrintGroterDan5(getallen):
-    res = []
-    for element in getallen:
-        if element > 5:
-            res.append(f"{element} is groter dan 5.")
-    return "\n".join(res)
+    for getal in getallen:
+        if getal > 5:
+            print(f"{getal} is groter dan 5.")
 
 function_effect = "prints"
 function = PrintGroterDan5
-bulk_test = True
+bulk_test = False
 
 if not bulk_test:
     X = [([3, 7, 2, 9, 4],),
@@ -32,8 +41,9 @@ for args in X:
     result += f">>> {function.__name__}({', '.join(map(str, args))})\n"
     if function_effect == "returns":
         result += f"{repr(function(*args))}\n"
-    else:
-        result += f"{function(*args)}\n"
+    elif function_effect == "prints":
+        _, output = capture_output(function, *args)
+        result += f"{output}"
 
 copy_to_clipboard(result.strip())
 print("Copied to clipboard:")

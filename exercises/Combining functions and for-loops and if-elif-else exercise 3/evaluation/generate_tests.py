@@ -3,33 +3,46 @@ import pyperclip
 import itertools
 
 from random_word import RandomWords
+import io
+import sys
 
 def copy_to_clipboard(text):
     pyperclip.copy(text)
 
+def capture_output(func, *args, **kwargs):
+    old_stdout = sys.stdout
+    sys.stdout = io.StringIO()
+    try:
+        return_value = func(*args, **kwargs)
+        return return_value, sys.stdout.getvalue()
+    finally:
+        sys.stdout = old_stdout
+
 def EvenOnevenOverzicht(aantal):
-    result = ""
     for i in range(aantal):
         if i % 2 == 0:
-            result += f"{i} is even.\n"
+            print(f"{i} is even.")
         else:
-            result += f"{i} is oneven.\n"
-    return result
+            print(f"{i} is oneven.")
 
 
 function = EvenOnevenOverzicht
 function_effect = "prints"
+bulk_test = False
 
-X = [4, 11, 0]
-X = range(0, 100)
+if not bulk_test:
+    X = [4, 11, 0]
+else:
+    X = range(0, 100)
 
 result = ""
 for args in itertools.product(X):
     result += f">>> {function.__name__}({', '.join(map(repr, args))})\n"
     if function_effect == "returns":
         result += f"{repr(function(*args))}"
-    else:
-        result += f"{function(*args)}"
+    elif function_effect == "prints":
+        _, output = capture_output(function, *args)
+        result += f"{output}"
 
 copy_to_clipboard(result[:-1])  # Remove last newline
 print("Copied to clipboard:")

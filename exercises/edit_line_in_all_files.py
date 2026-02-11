@@ -3,14 +3,14 @@ import re
 
 # Pattern or literal to replace
 use_regex_for_to_replace = False
-to_replace = r"""<td><pre><code></code></pre></td>"""
+to_replace = r"""bulk_test = True"""
 
 # Replacement (can contain backreferences like r"\1" when use_regex is True)
 use_regex_for_replacement = False
-replacement = r"""<td><pre><code></code></pre><br><i>(Er is geen output.)</i></td>"""
+replacement = r"""bulk_test = False"""
 
 
-filename_contains = "description"
+filename_contains = "generate_tests.py"
 directory_contains = ""
 directory_does_not_contain = ""
 root_dir = "dodona-exercises/exercises"

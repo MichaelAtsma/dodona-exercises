@@ -9,5 +9,4 @@
 50% is een voldoende.
 51% is een voldoende.
 >>> PrintVoldoendes([1, 2, 4, 8, 16, 32])
-
 >>> PrintVoldoendes([])
