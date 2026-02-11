@@ -1,0 +1,1185 @@
+>>> PrintRestdeling([136, 17, 504, 568, 343, 514, 153, 1000, 559, 160, 891, 174, 674, 236, 837], 4)
+4 past precies 34 keer in 136.
+4 past 4 keer in 17 en de rest is 1.
+4 past precies 126 keer in 504.
+4 past precies 142 keer in 568.
+4 past 85 keer in 343 en de rest is 3.
+4 past 128 keer in 514 en de rest is 2.
+4 past 38 keer in 153 en de rest is 1.
+4 past precies 250 keer in 1000.
+4 past 139 keer in 559 en de rest is 3.
+4 past precies 40 keer in 160.
+4 past 222 keer in 891 en de rest is 3.
+4 past 43 keer in 174 en de rest is 2.
+4 past 168 keer in 674 en de rest is 2.
+4 past precies 59 keer in 236.
+4 past 209 keer in 837 en de rest is 1.
+>>> PrintRestdeling([107, 438, 497, 344, 784, 315, 253, 225, 420, 150, 570, 440, 683, 428, 483, 228, 9, 258, 922], 44)
+44 past 2 keer in 107 en de rest is 19.
+44 past 9 keer in 438 en de rest is 42.
+44 past 11 keer in 497 en de rest is 13.
+44 past 7 keer in 344 en de rest is 36.
+44 past 17 keer in 784 en de rest is 36.
+44 past 7 keer in 315 en de rest is 7.
+44 past 5 keer in 253 en de rest is 33.
+44 past 5 keer in 225 en de rest is 5.
+44 past 9 keer in 420 en de rest is 24.
+44 past 3 keer in 150 en de rest is 18.
+44 past 12 keer in 570 en de rest is 42.
+44 past precies 10 keer in 440.
+44 past 15 keer in 683 en de rest is 23.
+44 past 9 keer in 428 en de rest is 32.
+44 past 10 keer in 483 en de rest is 43.
+44 past 5 keer in 228 en de rest is 8.
+44 past 0 keer in 9 en de rest is 9.
+44 past 5 keer in 258 en de rest is 38.
+44 past 20 keer in 922 en de rest is 42.
+>>> PrintRestdeling([562, 218, 405, 499, 230, 992, 25, 371, 217], 43)
+43 past 13 keer in 562 en de rest is 3.
+43 past 5 keer in 218 en de rest is 3.
+43 past 9 keer in 405 en de rest is 18.
+43 past 11 keer in 499 en de rest is 26.
+43 past 5 keer in 230 en de rest is 15.
+43 past 23 keer in 992 en de rest is 3.
+43 past 0 keer in 25 en de rest is 25.
+43 past 8 keer in 371 en de rest is 27.
+43 past 5 keer in 217 en de rest is 2.
+>>> PrintRestdeling([480, 77, 961, 972, 122, 149, 686, 156, 339], 83)
+83 past 5 keer in 480 en de rest is 65.
+83 past 0 keer in 77 en de rest is 77.
+83 past 11 keer in 961 en de rest is 48.
+83 past 11 keer in 972 en de rest is 59.
+83 past 1 keer in 122 en de rest is 39.
+83 past 1 keer in 149 en de rest is 66.
+83 past 8 keer in 686 en de rest is 22.
+83 past 1 keer in 156 en de rest is 73.
+83 past 4 keer in 339 en de rest is 7.
+>>> PrintRestdeling([17, 192, 337, 594, 187, 983, 638], 61)
+61 past 0 keer in 17 en de rest is 17.
+61 past 3 keer in 192 en de rest is 9.
+61 past 5 keer in 337 en de rest is 32.
+61 past 9 keer in 594 en de rest is 45.
+61 past 3 keer in 187 en de rest is 4.
+61 past 16 keer in 983 en de rest is 7.
+61 past 10 keer in 638 en de rest is 28.
+>>> PrintRestdeling([780, 938, 369, 323, 870, 724, 906, 642, 469, 923, 696, 372], 16)
+16 past 48 keer in 780 en de rest is 12.
+16 past 58 keer in 938 en de rest is 10.
+16 past 23 keer in 369 en de rest is 1.
+16 past 20 keer in 323 en de rest is 3.
+16 past 54 keer in 870 en de rest is 6.
+16 past 45 keer in 724 en de rest is 4.
+16 past 56 keer in 906 en de rest is 10.
+16 past 40 keer in 642 en de rest is 2.
+16 past 29 keer in 469 en de rest is 5.
+16 past 57 keer in 923 en de rest is 11.
+16 past 43 keer in 696 en de rest is 8.
+16 past 23 keer in 372 en de rest is 4.
+>>> PrintRestdeling([838, 882, 288, 23, 573, 39, 618], 57)
+57 past 14 keer in 838 en de rest is 40.
+57 past 15 keer in 882 en de rest is 27.
+57 past 5 keer in 288 en de rest is 3.
+57 past 0 keer in 23 en de rest is 23.
+57 past 10 keer in 573 en de rest is 3.
+57 past 0 keer in 39 en de rest is 39.
+57 past 10 keer in 618 en de rest is 48.
+>>> PrintRestdeling([973, 123, 943, 732, 480, 211, 583, 216, 137, 581], 91)
+91 past 10 keer in 973 en de rest is 63.
+91 past 1 keer in 123 en de rest is 32.
+91 past 10 keer in 943 en de rest is 33.
+91 past 8 keer in 732 en de rest is 4.
+91 past 5 keer in 480 en de rest is 25.
+91 past 2 keer in 211 en de rest is 29.
+91 past 6 keer in 583 en de rest is 37.
+91 past 2 keer in 216 en de rest is 34.
+91 past 1 keer in 137 en de rest is 46.
+91 past 6 keer in 581 en de rest is 35.
+>>> PrintRestdeling([720, 292, 468, 336, 972, 992, 347, 450], 45)
+45 past precies 16 keer in 720.
+45 past 6 keer in 292 en de rest is 22.
+45 past 10 keer in 468 en de rest is 18.
+45 past 7 keer in 336 en de rest is 21.
+45 past 21 keer in 972 en de rest is 27.
+45 past 22 keer in 992 en de rest is 2.
+45 past 7 keer in 347 en de rest is 32.
+45 past precies 10 keer in 450.
+>>> PrintRestdeling([468, 377, 997, 394, 384, 249, 760, 274, 135, 78, 343, 366, 516, 553, 539], 14)
+14 past 33 keer in 468 en de rest is 6.
+14 past 26 keer in 377 en de rest is 13.
+14 past 71 keer in 997 en de rest is 3.
+14 past 28 keer in 394 en de rest is 2.
+14 past 27 keer in 384 en de rest is 6.
+14 past 17 keer in 249 en de rest is 11.
+14 past 54 keer in 760 en de rest is 4.
+14 past 19 keer in 274 en de rest is 8.
+14 past 9 keer in 135 en de rest is 9.
+14 past 5 keer in 78 en de rest is 8.
+14 past 24 keer in 343 en de rest is 7.
+14 past 26 keer in 366 en de rest is 2.
+14 past 36 keer in 516 en de rest is 12.
+14 past 39 keer in 553 en de rest is 7.
+14 past 38 keer in 539 en de rest is 7.
+>>> PrintRestdeling([209, 937, 346, 276, 524, 465, 363, 985, 782, 251, 668, 365, 876], 86)
+86 past 2 keer in 209 en de rest is 37.
+86 past 10 keer in 937 en de rest is 77.
+86 past 4 keer in 346 en de rest is 2.
+86 past 3 keer in 276 en de rest is 18.
+86 past 6 keer in 524 en de rest is 8.
+86 past 5 keer in 465 en de rest is 35.
+86 past 4 keer in 363 en de rest is 19.
+86 past 11 keer in 985 en de rest is 39.
+86 past 9 keer in 782 en de rest is 8.
+86 past 2 keer in 251 en de rest is 79.
+86 past 7 keer in 668 en de rest is 66.
+86 past 4 keer in 365 en de rest is 21.
+86 past 10 keer in 876 en de rest is 16.
+>>> PrintRestdeling([463, 379, 551], 43)
+43 past 10 keer in 463 en de rest is 33.
+43 past 8 keer in 379 en de rest is 35.
+43 past 12 keer in 551 en de rest is 35.
+>>> PrintRestdeling([398, 371, 869, 217, 455, 503, 814, 502, 79], 6)
+6 past 66 keer in 398 en de rest is 2.
+6 past 61 keer in 371 en de rest is 5.
+6 past 144 keer in 869 en de rest is 5.
+6 past 36 keer in 217 en de rest is 1.
+6 past 75 keer in 455 en de rest is 5.
+6 past 83 keer in 503 en de rest is 5.
+6 past 135 keer in 814 en de rest is 4.
+6 past 83 keer in 502 en de rest is 4.
+6 past 13 keer in 79 en de rest is 1.
+>>> PrintRestdeling([914, 853, 370, 909, 716, 999, 416, 413, 358, 420, 671, 201, 724, 757, 212], 52)
+52 past 17 keer in 914 en de rest is 30.
+52 past 16 keer in 853 en de rest is 21.
+52 past 7 keer in 370 en de rest is 6.
+52 past 17 keer in 909 en de rest is 25.
+52 past 13 keer in 716 en de rest is 40.
+52 past 19 keer in 999 en de rest is 11.
+52 past precies 8 keer in 416.
+52 past 7 keer in 413 en de rest is 49.
+52 past 6 keer in 358 en de rest is 46.
+52 past 8 keer in 420 en de rest is 4.
+52 past 12 keer in 671 en de rest is 47.
+52 past 3 keer in 201 en de rest is 45.
+52 past 13 keer in 724 en de rest is 48.
+52 past 14 keer in 757 en de rest is 29.
+52 past 4 keer in 212 en de rest is 4.
+>>> PrintRestdeling([355, 489, 431, 538, 418, 797, 973, 326, 823, 305, 477, 167, 184, 862, 899], 90)
+90 past 3 keer in 355 en de rest is 85.
+90 past 5 keer in 489 en de rest is 39.
+90 past 4 keer in 431 en de rest is 71.
+90 past 5 keer in 538 en de rest is 88.
+90 past 4 keer in 418 en de rest is 58.
+90 past 8 keer in 797 en de rest is 77.
+90 past 10 keer in 973 en de rest is 73.
+90 past 3 keer in 326 en de rest is 56.
+90 past 9 keer in 823 en de rest is 13.
+90 past 3 keer in 305 en de rest is 35.
+90 past 5 keer in 477 en de rest is 27.
+90 past 1 keer in 167 en de rest is 77.
+90 past 2 keer in 184 en de rest is 4.
+90 past 9 keer in 862 en de rest is 52.
+90 past 9 keer in 899 en de rest is 89.
+>>> PrintRestdeling([714, 678, 419, 531, 697], 7)
+7 past precies 102 keer in 714.
+7 past 96 keer in 678 en de rest is 6.
+7 past 59 keer in 419 en de rest is 6.
+7 past 75 keer in 531 en de rest is 6.
+7 past 99 keer in 697 en de rest is 4.
+>>> PrintRestdeling([979, 614, 1, 63, 603, 368, 436, 359, 201, 830, 465, 339, 292, 425, 190], 63)
+63 past 15 keer in 979 en de rest is 34.
+63 past 9 keer in 614 en de rest is 47.
+63 past 0 keer in 1 en de rest is 1.
+63 past precies 1 keer in 63.
+63 past 9 keer in 603 en de rest is 36.
+63 past 5 keer in 368 en de rest is 53.
+63 past 6 keer in 436 en de rest is 58.
+63 past 5 keer in 359 en de rest is 44.
+63 past 3 keer in 201 en de rest is 12.
+63 past 13 keer in 830 en de rest is 11.
+63 past 7 keer in 465 en de rest is 24.
+63 past 5 keer in 339 en de rest is 24.
+63 past 4 keer in 292 en de rest is 40.
+63 past 6 keer in 425 en de rest is 47.
+63 past 3 keer in 190 en de rest is 1.
+>>> PrintRestdeling([320, 595, 627, 143, 630], 6)
+6 past 53 keer in 320 en de rest is 2.
+6 past 99 keer in 595 en de rest is 1.
+6 past 104 keer in 627 en de rest is 3.
+6 past 23 keer in 143 en de rest is 5.
+6 past precies 105 keer in 630.
+>>> PrintRestdeling([332, 47, 13, 365, 331, 297, 356], 89)
+89 past 3 keer in 332 en de rest is 65.
+89 past 0 keer in 47 en de rest is 47.
+89 past 0 keer in 13 en de rest is 13.
+89 past 4 keer in 365 en de rest is 9.
+89 past 3 keer in 331 en de rest is 64.
+89 past 3 keer in 297 en de rest is 30.
+89 past precies 4 keer in 356.
+>>> PrintRestdeling([884, 255, 512, 620, 636, 502, 469, 408, 470, 212, 598, 600, 519, 29, 310, 971, 475, 630, 820, 555], 77)
+77 past 11 keer in 884 en de rest is 37.
+77 past 3 keer in 255 en de rest is 24.
+77 past 6 keer in 512 en de rest is 50.
+77 past 8 keer in 620 en de rest is 4.
+77 past 8 keer in 636 en de rest is 20.
+77 past 6 keer in 502 en de rest is 40.
+77 past 6 keer in 469 en de rest is 7.
+77 past 5 keer in 408 en de rest is 23.
+77 past 6 keer in 470 en de rest is 8.
+77 past 2 keer in 212 en de rest is 58.
+77 past 7 keer in 598 en de rest is 59.
+77 past 7 keer in 600 en de rest is 61.
+77 past 6 keer in 519 en de rest is 57.
+77 past 0 keer in 29 en de rest is 29.
+77 past 4 keer in 310 en de rest is 2.
+77 past 12 keer in 971 en de rest is 47.
+77 past 6 keer in 475 en de rest is 13.
+77 past 8 keer in 630 en de rest is 14.
+77 past 10 keer in 820 en de rest is 50.
+77 past 7 keer in 555 en de rest is 16.
+>>> PrintRestdeling([368, 815, 841, 621, 639, 150, 325, 44, 732, 753, 641, 601, 425, 44, 782, 111, 291, 530, 339, 57], 73)
+73 past 5 keer in 368 en de rest is 3.
+73 past 11 keer in 815 en de rest is 12.
+73 past 11 keer in 841 en de rest is 38.
+73 past 8 keer in 621 en de rest is 37.
+73 past 8 keer in 639 en de rest is 55.
+73 past 2 keer in 150 en de rest is 4.
+73 past 4 keer in 325 en de rest is 33.
+73 past 0 keer in 44 en de rest is 44.
+73 past 10 keer in 732 en de rest is 2.
+73 past 10 keer in 753 en de rest is 23.
+73 past 8 keer in 641 en de rest is 57.
+73 past 8 keer in 601 en de rest is 17.
+73 past 5 keer in 425 en de rest is 60.
+73 past 0 keer in 44 en de rest is 44.
+73 past 10 keer in 782 en de rest is 52.
+73 past 1 keer in 111 en de rest is 38.
+73 past 3 keer in 291 en de rest is 72.
+73 past 7 keer in 530 en de rest is 19.
+73 past 4 keer in 339 en de rest is 47.
+73 past 0 keer in 57 en de rest is 57.
+>>> PrintRestdeling([429, 793, 101, 261, 143, 795, 586], 63)
+63 past 6 keer in 429 en de rest is 51.
+63 past 12 keer in 793 en de rest is 37.
+63 past 1 keer in 101 en de rest is 38.
+63 past 4 keer in 261 en de rest is 9.
+63 past 2 keer in 143 en de rest is 17.
+63 past 12 keer in 795 en de rest is 39.
+63 past 9 keer in 586 en de rest is 19.
+>>> PrintRestdeling([401, 473, 602, 24, 283, 483, 109, 431, 247, 584, 0, 435, 281, 615, 48, 121, 295, 824, 2, 204], 99)
+99 past 4 keer in 401 en de rest is 5.
+99 past 4 keer in 473 en de rest is 77.
+99 past 6 keer in 602 en de rest is 8.
+99 past 0 keer in 24 en de rest is 24.
+99 past 2 keer in 283 en de rest is 85.
+99 past 4 keer in 483 en de rest is 87.
+99 past 1 keer in 109 en de rest is 10.
+99 past 4 keer in 431 en de rest is 35.
+99 past 2 keer in 247 en de rest is 49.
+99 past 5 keer in 584 en de rest is 89.
+99 past precies 0 keer in 0.
+99 past 4 keer in 435 en de rest is 39.
+99 past 2 keer in 281 en de rest is 83.
+99 past 6 keer in 615 en de rest is 21.
+99 past 0 keer in 48 en de rest is 48.
+99 past 1 keer in 121 en de rest is 22.
+99 past 2 keer in 295 en de rest is 97.
+99 past 8 keer in 824 en de rest is 32.
+99 past 0 keer in 2 en de rest is 2.
+99 past 2 keer in 204 en de rest is 6.
+>>> PrintRestdeling([342, 532, 494, 397, 716, 742], 74)
+74 past 4 keer in 342 en de rest is 46.
+74 past 7 keer in 532 en de rest is 14.
+74 past 6 keer in 494 en de rest is 50.
+74 past 5 keer in 397 en de rest is 27.
+74 past 9 keer in 716 en de rest is 50.
+74 past 10 keer in 742 en de rest is 2.
+>>> PrintRestdeling([894, 732, 455, 110, 492, 139, 662, 371, 125, 627, 229, 370], 91)
+91 past 9 keer in 894 en de rest is 75.
+91 past 8 keer in 732 en de rest is 4.
+91 past precies 5 keer in 455.
+91 past 1 keer in 110 en de rest is 19.
+91 past 5 keer in 492 en de rest is 37.
+91 past 1 keer in 139 en de rest is 48.
+91 past 7 keer in 662 en de rest is 25.
+91 past 4 keer in 371 en de rest is 7.
+91 past 1 keer in 125 en de rest is 34.
+91 past 6 keer in 627 en de rest is 81.
+91 past 2 keer in 229 en de rest is 47.
+91 past 4 keer in 370 en de rest is 6.
+>>> PrintRestdeling([731, 341, 36], 58)
+58 past 12 keer in 731 en de rest is 35.
+58 past 5 keer in 341 en de rest is 51.
+58 past 0 keer in 36 en de rest is 36.
+>>> PrintRestdeling([380, 423, 82, 802, 649, 898, 897, 994, 310, 69, 495, 883], 36)
+36 past 10 keer in 380 en de rest is 20.
+36 past 11 keer in 423 en de rest is 27.
+36 past 2 keer in 82 en de rest is 10.
+36 past 22 keer in 802 en de rest is 10.
+36 past 18 keer in 649 en de rest is 1.
+36 past 24 keer in 898 en de rest is 34.
+36 past 24 keer in 897 en de rest is 33.
+36 past 27 keer in 994 en de rest is 22.
+36 past 8 keer in 310 en de rest is 22.
+36 past 1 keer in 69 en de rest is 33.
+36 past 13 keer in 495 en de rest is 27.
+36 past 24 keer in 883 en de rest is 19.
+>>> PrintRestdeling([0, 346, 99, 79, 391, 711, 918, 811, 101, 766, 483, 149, 739, 755, 386, 44, 167, 471, 635], 57)
+57 past precies 0 keer in 0.
+57 past 6 keer in 346 en de rest is 4.
+57 past 1 keer in 99 en de rest is 42.
+57 past 1 keer in 79 en de rest is 22.
+57 past 6 keer in 391 en de rest is 49.
+57 past 12 keer in 711 en de rest is 27.
+57 past 16 keer in 918 en de rest is 6.
+57 past 14 keer in 811 en de rest is 13.
+57 past 1 keer in 101 en de rest is 44.
+57 past 13 keer in 766 en de rest is 25.
+57 past 8 keer in 483 en de rest is 27.
+57 past 2 keer in 149 en de rest is 35.
+57 past 12 keer in 739 en de rest is 55.
+57 past 13 keer in 755 en de rest is 14.
+57 past 6 keer in 386 en de rest is 44.
+57 past 0 keer in 44 en de rest is 44.
+57 past 2 keer in 167 en de rest is 53.
+57 past 8 keer in 471 en de rest is 15.
+57 past 11 keer in 635 en de rest is 8.
+>>> PrintRestdeling([549, 99, 649, 856], 13)
+13 past 42 keer in 549 en de rest is 3.
+13 past 7 keer in 99 en de rest is 8.
+13 past 49 keer in 649 en de rest is 12.
+13 past 65 keer in 856 en de rest is 11.
+>>> PrintRestdeling([509, 278, 933, 694, 998, 150, 431, 944, 414, 728, 81, 738], 57)
+57 past 8 keer in 509 en de rest is 53.
+57 past 4 keer in 278 en de rest is 50.
+57 past 16 keer in 933 en de rest is 21.
+57 past 12 keer in 694 en de rest is 10.
+57 past 17 keer in 998 en de rest is 29.
+57 past 2 keer in 150 en de rest is 36.
+57 past 7 keer in 431 en de rest is 32.
+57 past 16 keer in 944 en de rest is 32.
+57 past 7 keer in 414 en de rest is 15.
+57 past 12 keer in 728 en de rest is 44.
+57 past 1 keer in 81 en de rest is 24.
+57 past 12 keer in 738 en de rest is 54.
+>>> PrintRestdeling([228, 89, 56, 570, 720, 526, 576, 218, 526], 11)
+11 past 20 keer in 228 en de rest is 8.
+11 past 8 keer in 89 en de rest is 1.
+11 past 5 keer in 56 en de rest is 1.
+11 past 51 keer in 570 en de rest is 9.
+11 past 65 keer in 720 en de rest is 5.
+11 past 47 keer in 526 en de rest is 9.
+11 past 52 keer in 576 en de rest is 4.
+11 past 19 keer in 218 en de rest is 9.
+11 past 47 keer in 526 en de rest is 9.
+>>> PrintRestdeling([428, 696, 988, 343, 783, 378, 661, 509, 187, 684, 97, 915, 560], 15)
+15 past 28 keer in 428 en de rest is 8.
+15 past 46 keer in 696 en de rest is 6.
+15 past 65 keer in 988 en de rest is 13.
+15 past 22 keer in 343 en de rest is 13.
+15 past 52 keer in 783 en de rest is 3.
+15 past 25 keer in 378 en de rest is 3.
+15 past 44 keer in 661 en de rest is 1.
+15 past 33 keer in 509 en de rest is 14.
+15 past 12 keer in 187 en de rest is 7.
+15 past 45 keer in 684 en de rest is 9.
+15 past 6 keer in 97 en de rest is 7.
+15 past precies 61 keer in 915.
+15 past 37 keer in 560 en de rest is 5.
+>>> PrintRestdeling([550, 337, 556, 921, 364, 176, 749, 485, 801, 844, 908, 942, 850, 892, 875, 536, 194], 55)
+55 past precies 10 keer in 550.
+55 past 6 keer in 337 en de rest is 7.
+55 past 10 keer in 556 en de rest is 6.
+55 past 16 keer in 921 en de rest is 41.
+55 past 6 keer in 364 en de rest is 34.
+55 past 3 keer in 176 en de rest is 11.
+55 past 13 keer in 749 en de rest is 34.
+55 past 8 keer in 485 en de rest is 45.
+55 past 14 keer in 801 en de rest is 31.
+55 past 15 keer in 844 en de rest is 19.
+55 past 16 keer in 908 en de rest is 28.
+55 past 17 keer in 942 en de rest is 7.
+55 past 15 keer in 850 en de rest is 25.
+55 past 16 keer in 892 en de rest is 12.
+55 past 15 keer in 875 en de rest is 50.
+55 past 9 keer in 536 en de rest is 41.
+55 past 3 keer in 194 en de rest is 29.
+>>> PrintRestdeling([613, 109, 736, 242, 642, 129, 323, 243, 281, 798, 361, 254], 89)
+89 past 6 keer in 613 en de rest is 79.
+89 past 1 keer in 109 en de rest is 20.
+89 past 8 keer in 736 en de rest is 24.
+89 past 2 keer in 242 en de rest is 64.
+89 past 7 keer in 642 en de rest is 19.
+89 past 1 keer in 129 en de rest is 40.
+89 past 3 keer in 323 en de rest is 56.
+89 past 2 keer in 243 en de rest is 65.
+89 past 3 keer in 281 en de rest is 14.
+89 past 8 keer in 798 en de rest is 86.
+89 past 4 keer in 361 en de rest is 5.
+89 past 2 keer in 254 en de rest is 76.
+>>> PrintRestdeling([867, 414, 75, 693, 355], 84)
+84 past 10 keer in 867 en de rest is 27.
+84 past 4 keer in 414 en de rest is 78.
+84 past 0 keer in 75 en de rest is 75.
+84 past 8 keer in 693 en de rest is 21.
+84 past 4 keer in 355 en de rest is 19.
+>>> PrintRestdeling([833, 606, 244, 358, 946, 300, 754, 525, 268, 88, 221, 539, 623, 855, 813, 506, 574, 457, 522, 378], 36)
+36 past 23 keer in 833 en de rest is 5.
+36 past 16 keer in 606 en de rest is 30.
+36 past 6 keer in 244 en de rest is 28.
+36 past 9 keer in 358 en de rest is 34.
+36 past 26 keer in 946 en de rest is 10.
+36 past 8 keer in 300 en de rest is 12.
+36 past 20 keer in 754 en de rest is 34.
+36 past 14 keer in 525 en de rest is 21.
+36 past 7 keer in 268 en de rest is 16.
+36 past 2 keer in 88 en de rest is 16.
+36 past 6 keer in 221 en de rest is 5.
+36 past 14 keer in 539 en de rest is 35.
+36 past 17 keer in 623 en de rest is 11.
+36 past 23 keer in 855 en de rest is 27.
+36 past 22 keer in 813 en de rest is 21.
+36 past 14 keer in 506 en de rest is 2.
+36 past 15 keer in 574 en de rest is 34.
+36 past 12 keer in 457 en de rest is 25.
+36 past 14 keer in 522 en de rest is 18.
+36 past 10 keer in 378 en de rest is 18.
+>>> PrintRestdeling([854, 609, 763, 65, 501, 239, 3, 951, 36], 75)
+75 past 11 keer in 854 en de rest is 29.
+75 past 8 keer in 609 en de rest is 9.
+75 past 10 keer in 763 en de rest is 13.
+75 past 0 keer in 65 en de rest is 65.
+75 past 6 keer in 501 en de rest is 51.
+75 past 3 keer in 239 en de rest is 14.
+75 past 0 keer in 3 en de rest is 3.
+75 past 12 keer in 951 en de rest is 51.
+75 past 0 keer in 36 en de rest is 36.
+>>> PrintRestdeling([49, 336, 619, 291, 629, 337, 188, 720, 187, 742, 596, 509, 39, 945, 267], 21)
+21 past 2 keer in 49 en de rest is 7.
+21 past precies 16 keer in 336.
+21 past 29 keer in 619 en de rest is 10.
+21 past 13 keer in 291 en de rest is 18.
+21 past 29 keer in 629 en de rest is 20.
+21 past 16 keer in 337 en de rest is 1.
+21 past 8 keer in 188 en de rest is 20.
+21 past 34 keer in 720 en de rest is 6.
+21 past 8 keer in 187 en de rest is 19.
+21 past 35 keer in 742 en de rest is 7.
+21 past 28 keer in 596 en de rest is 8.
+21 past 24 keer in 509 en de rest is 5.
+21 past 1 keer in 39 en de rest is 18.
+21 past precies 45 keer in 945.
+21 past 12 keer in 267 en de rest is 15.
+>>> PrintRestdeling([796, 120, 362, 808, 63, 539, 923, 346, 200, 963], 65)
+65 past 12 keer in 796 en de rest is 16.
+65 past 1 keer in 120 en de rest is 55.
+65 past 5 keer in 362 en de rest is 37.
+65 past 12 keer in 808 en de rest is 28.
+65 past 0 keer in 63 en de rest is 63.
+65 past 8 keer in 539 en de rest is 19.
+65 past 14 keer in 923 en de rest is 13.
+65 past 5 keer in 346 en de rest is 21.
+65 past 3 keer in 200 en de rest is 5.
+65 past 14 keer in 963 en de rest is 53.
+>>> PrintRestdeling([153, 370, 126, 937], 98)
+98 past 1 keer in 153 en de rest is 55.
+98 past 3 keer in 370 en de rest is 76.
+98 past 1 keer in 126 en de rest is 28.
+98 past 9 keer in 937 en de rest is 55.
+>>> PrintRestdeling([764, 934, 697, 80, 993, 528, 520, 993, 543, 354, 445, 412, 120, 299, 358, 762, 659, 916], 2)
+2 past precies 382 keer in 764.
+2 past precies 467 keer in 934.
+2 past 348 keer in 697 en de rest is 1.
+2 past precies 40 keer in 80.
+2 past 496 keer in 993 en de rest is 1.
+2 past precies 264 keer in 528.
+2 past precies 260 keer in 520.
+2 past 496 keer in 993 en de rest is 1.
+2 past 271 keer in 543 en de rest is 1.
+2 past precies 177 keer in 354.
+2 past 222 keer in 445 en de rest is 1.
+2 past precies 206 keer in 412.
+2 past precies 60 keer in 120.
+2 past 149 keer in 299 en de rest is 1.
+2 past precies 179 keer in 358.
+2 past precies 381 keer in 762.
+2 past 329 keer in 659 en de rest is 1.
+2 past precies 458 keer in 916.
+>>> PrintRestdeling([392, 927, 423, 423, 401, 802, 709, 146, 789, 568, 95], 8)
+8 past precies 49 keer in 392.
+8 past 115 keer in 927 en de rest is 7.
+8 past 52 keer in 423 en de rest is 7.
+8 past 52 keer in 423 en de rest is 7.
+8 past 50 keer in 401 en de rest is 1.
+8 past 100 keer in 802 en de rest is 2.
+8 past 88 keer in 709 en de rest is 5.
+8 past 18 keer in 146 en de rest is 2.
+8 past 98 keer in 789 en de rest is 5.
+8 past precies 71 keer in 568.
+8 past 11 keer in 95 en de rest is 7.
+>>> PrintRestdeling([460, 741, 818, 622, 386, 94, 233, 452, 481, 853, 898, 816], 34)
+34 past 13 keer in 460 en de rest is 18.
+34 past 21 keer in 741 en de rest is 27.
+34 past 24 keer in 818 en de rest is 2.
+34 past 18 keer in 622 en de rest is 10.
+34 past 11 keer in 386 en de rest is 12.
+34 past 2 keer in 94 en de rest is 26.
+34 past 6 keer in 233 en de rest is 29.
+34 past 13 keer in 452 en de rest is 10.
+34 past 14 keer in 481 en de rest is 5.
+34 past 25 keer in 853 en de rest is 3.
+34 past 26 keer in 898 en de rest is 14.
+34 past precies 24 keer in 816.
+>>> PrintRestdeling([172, 329, 860, 76], 10)
+10 past 17 keer in 172 en de rest is 2.
+10 past 32 keer in 329 en de rest is 9.
+10 past precies 86 keer in 860.
+10 past 7 keer in 76 en de rest is 6.
+>>> PrintRestdeling([959, 858, 659, 9, 378, 96, 36, 860, 886], 42)
+42 past 22 keer in 959 en de rest is 35.
+42 past 20 keer in 858 en de rest is 18.
+42 past 15 keer in 659 en de rest is 29.
+42 past 0 keer in 9 en de rest is 9.
+42 past precies 9 keer in 378.
+42 past 2 keer in 96 en de rest is 12.
+42 past 0 keer in 36 en de rest is 36.
+42 past 20 keer in 860 en de rest is 20.
+42 past 21 keer in 886 en de rest is 4.
+>>> PrintRestdeling([42, 913, 661, 602, 146, 989, 104, 43, 778], 9)
+9 past 4 keer in 42 en de rest is 6.
+9 past 101 keer in 913 en de rest is 4.
+9 past 73 keer in 661 en de rest is 4.
+9 past 66 keer in 602 en de rest is 8.
+9 past 16 keer in 146 en de rest is 2.
+9 past 109 keer in 989 en de rest is 8.
+9 past 11 keer in 104 en de rest is 5.
+9 past 4 keer in 43 en de rest is 7.
+9 past 86 keer in 778 en de rest is 4.
+>>> PrintRestdeling([497, 688], 24)
+24 past 20 keer in 497 en de rest is 17.
+24 past 28 keer in 688 en de rest is 16.
+>>> PrintRestdeling([24, 311, 267, 444, 461, 254, 123, 488, 89, 734], 13)
+13 past 1 keer in 24 en de rest is 11.
+13 past 23 keer in 311 en de rest is 12.
+13 past 20 keer in 267 en de rest is 7.
+13 past 34 keer in 444 en de rest is 2.
+13 past 35 keer in 461 en de rest is 6.
+13 past 19 keer in 254 en de rest is 7.
+13 past 9 keer in 123 en de rest is 6.
+13 past 37 keer in 488 en de rest is 7.
+13 past 6 keer in 89 en de rest is 11.
+13 past 56 keer in 734 en de rest is 6.
+>>> PrintRestdeling([452, 819, 380, 71, 254, 887, 328, 890, 456, 187, 248, 950, 659], 11)
+11 past 41 keer in 452 en de rest is 1.
+11 past 74 keer in 819 en de rest is 5.
+11 past 34 keer in 380 en de rest is 6.
+11 past 6 keer in 71 en de rest is 5.
+11 past 23 keer in 254 en de rest is 1.
+11 past 80 keer in 887 en de rest is 7.
+11 past 29 keer in 328 en de rest is 9.
+11 past 80 keer in 890 en de rest is 10.
+11 past 41 keer in 456 en de rest is 5.
+11 past precies 17 keer in 187.
+11 past 22 keer in 248 en de rest is 6.
+11 past 86 keer in 950 en de rest is 4.
+11 past 59 keer in 659 en de rest is 10.
+>>> PrintRestdeling([287, 589, 488, 554, 310, 517, 848, 761, 392, 582, 676, 316, 269, 383, 752, 217, 691, 466, 20], 77)
+77 past 3 keer in 287 en de rest is 56.
+77 past 7 keer in 589 en de rest is 50.
+77 past 6 keer in 488 en de rest is 26.
+77 past 7 keer in 554 en de rest is 15.
+77 past 4 keer in 310 en de rest is 2.
+77 past 6 keer in 517 en de rest is 55.
+77 past 11 keer in 848 en de rest is 1.
+77 past 9 keer in 761 en de rest is 68.
+77 past 5 keer in 392 en de rest is 7.
+77 past 7 keer in 582 en de rest is 43.
+77 past 8 keer in 676 en de rest is 60.
+77 past 4 keer in 316 en de rest is 8.
+77 past 3 keer in 269 en de rest is 38.
+77 past 4 keer in 383 en de rest is 75.
+77 past 9 keer in 752 en de rest is 59.
+77 past 2 keer in 217 en de rest is 63.
+77 past 8 keer in 691 en de rest is 75.
+77 past 6 keer in 466 en de rest is 4.
+77 past 0 keer in 20 en de rest is 20.
+>>> PrintRestdeling([874, 73, 610, 123, 413, 16, 849, 471, 285, 384, 860, 183, 909, 211], 86)
+86 past 10 keer in 874 en de rest is 14.
+86 past 0 keer in 73 en de rest is 73.
+86 past 7 keer in 610 en de rest is 8.
+86 past 1 keer in 123 en de rest is 37.
+86 past 4 keer in 413 en de rest is 69.
+86 past 0 keer in 16 en de rest is 16.
+86 past 9 keer in 849 en de rest is 75.
+86 past 5 keer in 471 en de rest is 41.
+86 past 3 keer in 285 en de rest is 27.
+86 past 4 keer in 384 en de rest is 40.
+86 past precies 10 keer in 860.
+86 past 2 keer in 183 en de rest is 11.
+86 past 10 keer in 909 en de rest is 49.
+86 past 2 keer in 211 en de rest is 39.
+>>> PrintRestdeling([377, 659, 64, 254, 667, 709, 852, 483, 588, 803, 957, 8, 940, 93, 56, 781, 353, 395, 480], 68)
+68 past 5 keer in 377 en de rest is 37.
+68 past 9 keer in 659 en de rest is 47.
+68 past 0 keer in 64 en de rest is 64.
+68 past 3 keer in 254 en de rest is 50.
+68 past 9 keer in 667 en de rest is 55.
+68 past 10 keer in 709 en de rest is 29.
+68 past 12 keer in 852 en de rest is 36.
+68 past 7 keer in 483 en de rest is 7.
+68 past 8 keer in 588 en de rest is 44.
+68 past 11 keer in 803 en de rest is 55.
+68 past 14 keer in 957 en de rest is 5.
+68 past 0 keer in 8 en de rest is 8.
+68 past 13 keer in 940 en de rest is 56.
+68 past 1 keer in 93 en de rest is 25.
+68 past 0 keer in 56 en de rest is 56.
+68 past 11 keer in 781 en de rest is 33.
+68 past 5 keer in 353 en de rest is 13.
+68 past 5 keer in 395 en de rest is 55.
+68 past 7 keer in 480 en de rest is 4.
+>>> PrintRestdeling([921, 590, 773, 777, 485, 524, 709, 194, 535, 142, 720, 710, 329, 774, 385, 198, 151, 946, 677], 86)
+86 past 10 keer in 921 en de rest is 61.
+86 past 6 keer in 590 en de rest is 74.
+86 past 8 keer in 773 en de rest is 85.
+86 past 9 keer in 777 en de rest is 3.
+86 past 5 keer in 485 en de rest is 55.
+86 past 6 keer in 524 en de rest is 8.
+86 past 8 keer in 709 en de rest is 21.
+86 past 2 keer in 194 en de rest is 22.
+86 past 6 keer in 535 en de rest is 19.
+86 past 1 keer in 142 en de rest is 56.
+86 past 8 keer in 720 en de rest is 32.
+86 past 8 keer in 710 en de rest is 22.
+86 past 3 keer in 329 en de rest is 71.
+86 past precies 9 keer in 774.
+86 past 4 keer in 385 en de rest is 41.
+86 past 2 keer in 198 en de rest is 26.
+86 past 1 keer in 151 en de rest is 65.
+86 past precies 11 keer in 946.
+86 past 7 keer in 677 en de rest is 75.
+>>> PrintRestdeling([173, 649, 845, 744, 933, 999, 175, 195], 95)
+95 past 1 keer in 173 en de rest is 78.
+95 past 6 keer in 649 en de rest is 79.
+95 past 8 keer in 845 en de rest is 85.
+95 past 7 keer in 744 en de rest is 79.
+95 past 9 keer in 933 en de rest is 78.
+95 past 10 keer in 999 en de rest is 49.
+95 past 1 keer in 175 en de rest is 80.
+95 past 2 keer in 195 en de rest is 5.
+>>> PrintRestdeling([225, 282, 91], 17)
+17 past 13 keer in 225 en de rest is 4.
+17 past 16 keer in 282 en de rest is 10.
+17 past 5 keer in 91 en de rest is 6.
+>>> PrintRestdeling([204, 725, 703, 707, 279, 472, 708, 909, 950, 565, 148, 389, 10, 452, 889, 22, 631, 166], 70)
+70 past 2 keer in 204 en de rest is 64.
+70 past 10 keer in 725 en de rest is 25.
+70 past 10 keer in 703 en de rest is 3.
+70 past 10 keer in 707 en de rest is 7.
+70 past 3 keer in 279 en de rest is 69.
+70 past 6 keer in 472 en de rest is 52.
+70 past 10 keer in 708 en de rest is 8.
+70 past 12 keer in 909 en de rest is 69.
+70 past 13 keer in 950 en de rest is 40.
+70 past 8 keer in 565 en de rest is 5.
+70 past 2 keer in 148 en de rest is 8.
+70 past 5 keer in 389 en de rest is 39.
+70 past 0 keer in 10 en de rest is 10.
+70 past 6 keer in 452 en de rest is 32.
+70 past 12 keer in 889 en de rest is 49.
+70 past 0 keer in 22 en de rest is 22.
+70 past 9 keer in 631 en de rest is 1.
+70 past 2 keer in 166 en de rest is 26.
+>>> PrintRestdeling([105, 493, 935], 26)
+26 past 4 keer in 105 en de rest is 1.
+26 past 18 keer in 493 en de rest is 25.
+26 past 35 keer in 935 en de rest is 25.
+>>> PrintRestdeling([183, 719, 25, 769, 974, 750, 994, 151, 738, 281, 393], 33)
+33 past 5 keer in 183 en de rest is 18.
+33 past 21 keer in 719 en de rest is 26.
+33 past 0 keer in 25 en de rest is 25.
+33 past 23 keer in 769 en de rest is 10.
+33 past 29 keer in 974 en de rest is 17.
+33 past 22 keer in 750 en de rest is 24.
+33 past 30 keer in 994 en de rest is 4.
+33 past 4 keer in 151 en de rest is 19.
+33 past 22 keer in 738 en de rest is 12.
+33 past 8 keer in 281 en de rest is 17.
+33 past 11 keer in 393 en de rest is 30.
+>>> PrintRestdeling([187, 785, 13, 578, 365, 708, 48, 405, 272, 45, 566, 221, 846, 458, 688, 343], 27)
+27 past 6 keer in 187 en de rest is 25.
+27 past 29 keer in 785 en de rest is 2.
+27 past 0 keer in 13 en de rest is 13.
+27 past 21 keer in 578 en de rest is 11.
+27 past 13 keer in 365 en de rest is 14.
+27 past 26 keer in 708 en de rest is 6.
+27 past 1 keer in 48 en de rest is 21.
+27 past precies 15 keer in 405.
+27 past 10 keer in 272 en de rest is 2.
+27 past 1 keer in 45 en de rest is 18.
+27 past 20 keer in 566 en de rest is 26.
+27 past 8 keer in 221 en de rest is 5.
+27 past 31 keer in 846 en de rest is 9.
+27 past 16 keer in 458 en de rest is 26.
+27 past 25 keer in 688 en de rest is 13.
+27 past 12 keer in 343 en de rest is 19.
+>>> PrintRestdeling([424, 856, 267, 1, 718, 297, 967], 25)
+25 past 16 keer in 424 en de rest is 24.
+25 past 34 keer in 856 en de rest is 6.
+25 past 10 keer in 267 en de rest is 17.
+25 past 0 keer in 1 en de rest is 1.
+25 past 28 keer in 718 en de rest is 18.
+25 past 11 keer in 297 en de rest is 22.
+25 past 38 keer in 967 en de rest is 17.
+>>> PrintRestdeling([562, 903, 317, 425, 226, 392, 151, 580, 892], 51)
+51 past 11 keer in 562 en de rest is 1.
+51 past 17 keer in 903 en de rest is 36.
+51 past 6 keer in 317 en de rest is 11.
+51 past 8 keer in 425 en de rest is 17.
+51 past 4 keer in 226 en de rest is 22.
+51 past 7 keer in 392 en de rest is 35.
+51 past 2 keer in 151 en de rest is 49.
+51 past 11 keer in 580 en de rest is 19.
+51 past 17 keer in 892 en de rest is 25.
+>>> PrintRestdeling([326, 830, 962, 776, 92, 912, 5], 25)
+25 past 13 keer in 326 en de rest is 1.
+25 past 33 keer in 830 en de rest is 5.
+25 past 38 keer in 962 en de rest is 12.
+25 past 31 keer in 776 en de rest is 1.
+25 past 3 keer in 92 en de rest is 17.
+25 past 36 keer in 912 en de rest is 12.
+25 past 0 keer in 5 en de rest is 5.
+>>> PrintRestdeling([79, 181, 946], 30)
+30 past 2 keer in 79 en de rest is 19.
+30 past 6 keer in 181 en de rest is 1.
+30 past 31 keer in 946 en de rest is 16.
+>>> PrintRestdeling([512, 648, 767, 554, 131, 208, 48, 954, 362, 410, 545], 87)
+87 past 5 keer in 512 en de rest is 77.
+87 past 7 keer in 648 en de rest is 39.
+87 past 8 keer in 767 en de rest is 71.
+87 past 6 keer in 554 en de rest is 32.
+87 past 1 keer in 131 en de rest is 44.
+87 past 2 keer in 208 en de rest is 34.
+87 past 0 keer in 48 en de rest is 48.
+87 past 10 keer in 954 en de rest is 84.
+87 past 4 keer in 362 en de rest is 14.
+87 past 4 keer in 410 en de rest is 62.
+87 past 6 keer in 545 en de rest is 23.
+>>> PrintRestdeling([529, 257, 68, 566, 611, 618], 21)
+21 past 25 keer in 529 en de rest is 4.
+21 past 12 keer in 257 en de rest is 5.
+21 past 3 keer in 68 en de rest is 5.
+21 past 26 keer in 566 en de rest is 20.
+21 past 29 keer in 611 en de rest is 2.
+21 past 29 keer in 618 en de rest is 9.
+>>> PrintRestdeling([689, 113, 187, 302, 175, 628, 146, 750, 12, 29, 706, 960, 97, 278, 735, 386, 784, 798, 961], 50)
+50 past 13 keer in 689 en de rest is 39.
+50 past 2 keer in 113 en de rest is 13.
+50 past 3 keer in 187 en de rest is 37.
+50 past 6 keer in 302 en de rest is 2.
+50 past 3 keer in 175 en de rest is 25.
+50 past 12 keer in 628 en de rest is 28.
+50 past 2 keer in 146 en de rest is 46.
+50 past precies 15 keer in 750.
+50 past 0 keer in 12 en de rest is 12.
+50 past 0 keer in 29 en de rest is 29.
+50 past 14 keer in 706 en de rest is 6.
+50 past 19 keer in 960 en de rest is 10.
+50 past 1 keer in 97 en de rest is 47.
+50 past 5 keer in 278 en de rest is 28.
+50 past 14 keer in 735 en de rest is 35.
+50 past 7 keer in 386 en de rest is 36.
+50 past 15 keer in 784 en de rest is 34.
+50 past 15 keer in 798 en de rest is 48.
+50 past 19 keer in 961 en de rest is 11.
+>>> PrintRestdeling([790, 217, 683, 740, 580, 796], 93)
+93 past 8 keer in 790 en de rest is 46.
+93 past 2 keer in 217 en de rest is 31.
+93 past 7 keer in 683 en de rest is 32.
+93 past 7 keer in 740 en de rest is 89.
+93 past 6 keer in 580 en de rest is 22.
+93 past 8 keer in 796 en de rest is 52.
+>>> PrintRestdeling([208, 995, 209, 210, 611, 853, 377, 624, 361, 372], 75)
+75 past 2 keer in 208 en de rest is 58.
+75 past 13 keer in 995 en de rest is 20.
+75 past 2 keer in 209 en de rest is 59.
+75 past 2 keer in 210 en de rest is 60.
+75 past 8 keer in 611 en de rest is 11.
+75 past 11 keer in 853 en de rest is 28.
+75 past 5 keer in 377 en de rest is 2.
+75 past 8 keer in 624 en de rest is 24.
+75 past 4 keer in 361 en de rest is 61.
+75 past 4 keer in 372 en de rest is 72.
+>>> PrintRestdeling([908, 904, 52, 871, 827, 263, 233, 959, 984, 670, 287, 548, 656, 465, 127, 291], 61)
+61 past 14 keer in 908 en de rest is 54.
+61 past 14 keer in 904 en de rest is 50.
+61 past 0 keer in 52 en de rest is 52.
+61 past 14 keer in 871 en de rest is 17.
+61 past 13 keer in 827 en de rest is 34.
+61 past 4 keer in 263 en de rest is 19.
+61 past 3 keer in 233 en de rest is 50.
+61 past 15 keer in 959 en de rest is 44.
+61 past 16 keer in 984 en de rest is 8.
+61 past 10 keer in 670 en de rest is 60.
+61 past 4 keer in 287 en de rest is 43.
+61 past 8 keer in 548 en de rest is 60.
+61 past 10 keer in 656 en de rest is 46.
+61 past 7 keer in 465 en de rest is 38.
+61 past 2 keer in 127 en de rest is 5.
+61 past 4 keer in 291 en de rest is 47.
+>>> PrintRestdeling([695, 825, 705, 616, 423, 625, 542, 168, 723, 273, 494, 256, 937, 705, 441, 920], 81)
+81 past 8 keer in 695 en de rest is 47.
+81 past 10 keer in 825 en de rest is 15.
+81 past 8 keer in 705 en de rest is 57.
+81 past 7 keer in 616 en de rest is 49.
+81 past 5 keer in 423 en de rest is 18.
+81 past 7 keer in 625 en de rest is 58.
+81 past 6 keer in 542 en de rest is 56.
+81 past 2 keer in 168 en de rest is 6.
+81 past 8 keer in 723 en de rest is 75.
+81 past 3 keer in 273 en de rest is 30.
+81 past 6 keer in 494 en de rest is 8.
+81 past 3 keer in 256 en de rest is 13.
+81 past 11 keer in 937 en de rest is 46.
+81 past 8 keer in 705 en de rest is 57.
+81 past 5 keer in 441 en de rest is 36.
+81 past 11 keer in 920 en de rest is 29.
+>>> PrintRestdeling([374, 61, 211, 74, 130, 881, 993, 273, 217, 858, 34, 652, 616, 542, 512, 745, 803, 205, 310, 342], 40)
+40 past 9 keer in 374 en de rest is 14.
+40 past 1 keer in 61 en de rest is 21.
+40 past 5 keer in 211 en de rest is 11.
+40 past 1 keer in 74 en de rest is 34.
+40 past 3 keer in 130 en de rest is 10.
+40 past 22 keer in 881 en de rest is 1.
+40 past 24 keer in 993 en de rest is 33.
+40 past 6 keer in 273 en de rest is 33.
+40 past 5 keer in 217 en de rest is 17.
+40 past 21 keer in 858 en de rest is 18.
+40 past 0 keer in 34 en de rest is 34.
+40 past 16 keer in 652 en de rest is 12.
+40 past 15 keer in 616 en de rest is 16.
+40 past 13 keer in 542 en de rest is 22.
+40 past 12 keer in 512 en de rest is 32.
+40 past 18 keer in 745 en de rest is 25.
+40 past 20 keer in 803 en de rest is 3.
+40 past 5 keer in 205 en de rest is 5.
+40 past 7 keer in 310 en de rest is 30.
+40 past 8 keer in 342 en de rest is 22.
+>>> PrintRestdeling([691, 191, 652, 230, 796, 193, 629, 789, 969], 55)
+55 past 12 keer in 691 en de rest is 31.
+55 past 3 keer in 191 en de rest is 26.
+55 past 11 keer in 652 en de rest is 47.
+55 past 4 keer in 230 en de rest is 10.
+55 past 14 keer in 796 en de rest is 26.
+55 past 3 keer in 193 en de rest is 28.
+55 past 11 keer in 629 en de rest is 24.
+55 past 14 keer in 789 en de rest is 19.
+55 past 17 keer in 969 en de rest is 34.
+>>> PrintRestdeling([451], 20)
+20 past 22 keer in 451 en de rest is 11.
+>>> PrintRestdeling([672, 27, 205, 974, 526, 608, 855, 828, 882, 692, 138, 331, 958, 266, 681, 248, 734, 974, 399, 47], 17)
+17 past 39 keer in 672 en de rest is 9.
+17 past 1 keer in 27 en de rest is 10.
+17 past 12 keer in 205 en de rest is 1.
+17 past 57 keer in 974 en de rest is 5.
+17 past 30 keer in 526 en de rest is 16.
+17 past 35 keer in 608 en de rest is 13.
+17 past 50 keer in 855 en de rest is 5.
+17 past 48 keer in 828 en de rest is 12.
+17 past 51 keer in 882 en de rest is 15.
+17 past 40 keer in 692 en de rest is 12.
+17 past 8 keer in 138 en de rest is 2.
+17 past 19 keer in 331 en de rest is 8.
+17 past 56 keer in 958 en de rest is 6.
+17 past 15 keer in 266 en de rest is 11.
+17 past 40 keer in 681 en de rest is 1.
+17 past 14 keer in 248 en de rest is 10.
+17 past 43 keer in 734 en de rest is 3.
+17 past 57 keer in 974 en de rest is 5.
+17 past 23 keer in 399 en de rest is 8.
+17 past 2 keer in 47 en de rest is 13.
+>>> PrintRestdeling([372, 74, 904, 413, 581, 682, 911, 781, 292, 629, 169, 861, 700, 342, 998, 59, 515, 401], 30)
+30 past 12 keer in 372 en de rest is 12.
+30 past 2 keer in 74 en de rest is 14.
+30 past 30 keer in 904 en de rest is 4.
+30 past 13 keer in 413 en de rest is 23.
+30 past 19 keer in 581 en de rest is 11.
+30 past 22 keer in 682 en de rest is 22.
+30 past 30 keer in 911 en de rest is 11.
+30 past 26 keer in 781 en de rest is 1.
+30 past 9 keer in 292 en de rest is 22.
+30 past 20 keer in 629 en de rest is 29.
+30 past 5 keer in 169 en de rest is 19.
+30 past 28 keer in 861 en de rest is 21.
+30 past 23 keer in 700 en de rest is 10.
+30 past 11 keer in 342 en de rest is 12.
+30 past 33 keer in 998 en de rest is 8.
+30 past 1 keer in 59 en de rest is 29.
+30 past 17 keer in 515 en de rest is 5.
+30 past 13 keer in 401 en de rest is 11.
+>>> PrintRestdeling([404, 414, 763, 4, 554, 457, 572, 796, 182], 70)
+70 past 5 keer in 404 en de rest is 54.
+70 past 5 keer in 414 en de rest is 64.
+70 past 10 keer in 763 en de rest is 63.
+70 past 0 keer in 4 en de rest is 4.
+70 past 7 keer in 554 en de rest is 64.
+70 past 6 keer in 457 en de rest is 37.
+70 past 8 keer in 572 en de rest is 12.
+70 past 11 keer in 796 en de rest is 26.
+70 past 2 keer in 182 en de rest is 42.
+>>> PrintRestdeling([874, 723, 466, 807, 380, 77, 905, 41, 824, 112, 669, 304, 687, 667, 756, 815, 204], 7)
+7 past 124 keer in 874 en de rest is 6.
+7 past 103 keer in 723 en de rest is 2.
+7 past 66 keer in 466 en de rest is 4.
+7 past 115 keer in 807 en de rest is 2.
+7 past 54 keer in 380 en de rest is 2.
+7 past precies 11 keer in 77.
+7 past 129 keer in 905 en de rest is 2.
+7 past 5 keer in 41 en de rest is 6.
+7 past 117 keer in 824 en de rest is 5.
+7 past precies 16 keer in 112.
+7 past 95 keer in 669 en de rest is 4.
+7 past 43 keer in 304 en de rest is 3.
+7 past 98 keer in 687 en de rest is 1.
+7 past 95 keer in 667 en de rest is 2.
+7 past precies 108 keer in 756.
+7 past 116 keer in 815 en de rest is 3.
+7 past 29 keer in 204 en de rest is 1.
+>>> PrintRestdeling([386, 401, 625, 708, 428, 869, 172, 422, 204, 177, 411, 430, 957, 595, 342, 794], 79)
+79 past 4 keer in 386 en de rest is 70.
+79 past 5 keer in 401 en de rest is 6.
+79 past 7 keer in 625 en de rest is 72.
+79 past 8 keer in 708 en de rest is 76.
+79 past 5 keer in 428 en de rest is 33.
+79 past precies 11 keer in 869.
+79 past 2 keer in 172 en de rest is 14.
+79 past 5 keer in 422 en de rest is 27.
+79 past 2 keer in 204 en de rest is 46.
+79 past 2 keer in 177 en de rest is 19.
+79 past 5 keer in 411 en de rest is 16.
+79 past 5 keer in 430 en de rest is 35.
+79 past 12 keer in 957 en de rest is 9.
+79 past 7 keer in 595 en de rest is 42.
+79 past 4 keer in 342 en de rest is 26.
+79 past 10 keer in 794 en de rest is 4.
+>>> PrintRestdeling([739], 49)
+49 past 15 keer in 739 en de rest is 4.
+>>> PrintRestdeling([58, 863, 39, 194, 922, 665, 651, 270, 409, 285, 662, 57, 66, 602, 235, 919, 916], 38)
+38 past 1 keer in 58 en de rest is 20.
+38 past 22 keer in 863 en de rest is 27.
+38 past 1 keer in 39 en de rest is 1.
+38 past 5 keer in 194 en de rest is 4.
+38 past 24 keer in 922 en de rest is 10.
+38 past 17 keer in 665 en de rest is 19.
+38 past 17 keer in 651 en de rest is 5.
+38 past 7 keer in 270 en de rest is 4.
+38 past 10 keer in 409 en de rest is 29.
+38 past 7 keer in 285 en de rest is 19.
+38 past 17 keer in 662 en de rest is 16.
+38 past 1 keer in 57 en de rest is 19.
+38 past 1 keer in 66 en de rest is 28.
+38 past 15 keer in 602 en de rest is 32.
+38 past 6 keer in 235 en de rest is 7.
+38 past 24 keer in 919 en de rest is 7.
+38 past 24 keer in 916 en de rest is 4.
+>>> PrintRestdeling([760, 223], 68)
+68 past 11 keer in 760 en de rest is 12.
+68 past 3 keer in 223 en de rest is 19.
+>>> PrintRestdeling([100, 675], 46)
+46 past 2 keer in 100 en de rest is 8.
+46 past 14 keer in 675 en de rest is 31.
+>>> PrintRestdeling([90, 561, 90, 136, 980, 454, 152, 297], 17)
+17 past 5 keer in 90 en de rest is 5.
+17 past precies 33 keer in 561.
+17 past 5 keer in 90 en de rest is 5.
+17 past precies 8 keer in 136.
+17 past 57 keer in 980 en de rest is 11.
+17 past 26 keer in 454 en de rest is 12.
+17 past 8 keer in 152 en de rest is 16.
+17 past 17 keer in 297 en de rest is 8.
+>>> PrintRestdeling([280, 708, 496, 339, 268, 293, 636, 320, 972, 923, 938, 875], 10)
+10 past precies 28 keer in 280.
+10 past 70 keer in 708 en de rest is 8.
+10 past 49 keer in 496 en de rest is 6.
+10 past 33 keer in 339 en de rest is 9.
+10 past 26 keer in 268 en de rest is 8.
+10 past 29 keer in 293 en de rest is 3.
+10 past 63 keer in 636 en de rest is 6.
+10 past precies 32 keer in 320.
+10 past 97 keer in 972 en de rest is 2.
+10 past 92 keer in 923 en de rest is 3.
+10 past 93 keer in 938 en de rest is 8.
+10 past 87 keer in 875 en de rest is 5.
+>>> PrintRestdeling([984, 502, 915, 641, 650, 165, 157, 373, 463, 568, 988, 486, 287, 225, 28, 600, 466], 33)
+33 past 29 keer in 984 en de rest is 27.
+33 past 15 keer in 502 en de rest is 7.
+33 past 27 keer in 915 en de rest is 24.
+33 past 19 keer in 641 en de rest is 14.
+33 past 19 keer in 650 en de rest is 23.
+33 past precies 5 keer in 165.
+33 past 4 keer in 157 en de rest is 25.
+33 past 11 keer in 373 en de rest is 10.
+33 past 14 keer in 463 en de rest is 1.
+33 past 17 keer in 568 en de rest is 7.
+33 past 29 keer in 988 en de rest is 31.
+33 past 14 keer in 486 en de rest is 24.
+33 past 8 keer in 287 en de rest is 23.
+33 past 6 keer in 225 en de rest is 27.
+33 past 0 keer in 28 en de rest is 28.
+33 past 18 keer in 600 en de rest is 6.
+33 past 14 keer in 466 en de rest is 4.
+>>> PrintRestdeling([883, 686], 83)
+83 past 10 keer in 883 en de rest is 53.
+83 past 8 keer in 686 en de rest is 22.
+>>> PrintRestdeling([372, 226, 3, 989, 80], 80)
+80 past 4 keer in 372 en de rest is 52.
+80 past 2 keer in 226 en de rest is 66.
+80 past 0 keer in 3 en de rest is 3.
+80 past 12 keer in 989 en de rest is 29.
+80 past precies 1 keer in 80.
+>>> PrintRestdeling([811, 171, 695, 261, 309, 621, 488, 767, 264, 877, 239], 72)
+72 past 11 keer in 811 en de rest is 19.
+72 past 2 keer in 171 en de rest is 27.
+72 past 9 keer in 695 en de rest is 47.
+72 past 3 keer in 261 en de rest is 45.
+72 past 4 keer in 309 en de rest is 21.
+72 past 8 keer in 621 en de rest is 45.
+72 past 6 keer in 488 en de rest is 56.
+72 past 10 keer in 767 en de rest is 47.
+72 past 3 keer in 264 en de rest is 48.
+72 past 12 keer in 877 en de rest is 13.
+72 past 3 keer in 239 en de rest is 23.
+>>> PrintRestdeling([801, 788, 277, 583, 742, 961, 754, 154, 467, 874, 417, 496], 76)
+76 past 10 keer in 801 en de rest is 41.
+76 past 10 keer in 788 en de rest is 28.
+76 past 3 keer in 277 en de rest is 49.
+76 past 7 keer in 583 en de rest is 51.
+76 past 9 keer in 742 en de rest is 58.
+76 past 12 keer in 961 en de rest is 49.
+76 past 9 keer in 754 en de rest is 70.
+76 past 2 keer in 154 en de rest is 2.
+76 past 6 keer in 467 en de rest is 11.
+76 past 11 keer in 874 en de rest is 38.
+76 past 5 keer in 417 en de rest is 37.
+76 past 6 keer in 496 en de rest is 40.
+>>> PrintRestdeling([61, 32, 878, 599, 569, 585, 736, 386, 677, 519, 492, 427, 351, 856, 360, 540], 73)
+73 past 0 keer in 61 en de rest is 61.
+73 past 0 keer in 32 en de rest is 32.
+73 past 12 keer in 878 en de rest is 2.
+73 past 8 keer in 599 en de rest is 15.
+73 past 7 keer in 569 en de rest is 58.
+73 past 8 keer in 585 en de rest is 1.
+73 past 10 keer in 736 en de rest is 6.
+73 past 5 keer in 386 en de rest is 21.
+73 past 9 keer in 677 en de rest is 20.
+73 past 7 keer in 519 en de rest is 8.
+73 past 6 keer in 492 en de rest is 54.
+73 past 5 keer in 427 en de rest is 62.
+73 past 4 keer in 351 en de rest is 59.
+73 past 11 keer in 856 en de rest is 53.
+73 past 4 keer in 360 en de rest is 68.
+73 past 7 keer in 540 en de rest is 29.
+>>> PrintRestdeling([10, 595, 81, 121, 513], 49)
+49 past 0 keer in 10 en de rest is 10.
+49 past 12 keer in 595 en de rest is 7.
+49 past 1 keer in 81 en de rest is 32.
+49 past 2 keer in 121 en de rest is 23.
+49 past 10 keer in 513 en de rest is 23.
+>>> PrintRestdeling([864, 196, 372, 117, 18], 22)
+22 past 39 keer in 864 en de rest is 6.
+22 past 8 keer in 196 en de rest is 20.
+22 past 16 keer in 372 en de rest is 20.
+22 past 5 keer in 117 en de rest is 7.
+22 past 0 keer in 18 en de rest is 18.
+>>> PrintRestdeling([67, 800, 505, 251, 651, 175, 91, 533, 477, 389, 332, 922, 487], 16)
+16 past 4 keer in 67 en de rest is 3.
+16 past precies 50 keer in 800.
+16 past 31 keer in 505 en de rest is 9.
+16 past 15 keer in 251 en de rest is 11.
+16 past 40 keer in 651 en de rest is 11.
+16 past 10 keer in 175 en de rest is 15.
+16 past 5 keer in 91 en de rest is 11.
+16 past 33 keer in 533 en de rest is 5.
+16 past 29 keer in 477 en de rest is 13.
+16 past 24 keer in 389 en de rest is 5.
+16 past 20 keer in 332 en de rest is 12.
+16 past 57 keer in 922 en de rest is 10.
+16 past 30 keer in 487 en de rest is 7.
+>>> PrintRestdeling([367, 599, 694, 174, 225, 980, 617, 454, 489, 737, 23, 86, 312, 354, 188, 608], 26)
+26 past 14 keer in 367 en de rest is 3.
+26 past 23 keer in 599 en de rest is 1.
+26 past 26 keer in 694 en de rest is 18.
+26 past 6 keer in 174 en de rest is 18.
+26 past 8 keer in 225 en de rest is 17.
+26 past 37 keer in 980 en de rest is 18.
+26 past 23 keer in 617 en de rest is 19.
+26 past 17 keer in 454 en de rest is 12.
+26 past 18 keer in 489 en de rest is 21.
+26 past 28 keer in 737 en de rest is 9.
+26 past 0 keer in 23 en de rest is 23.
+26 past 3 keer in 86 en de rest is 8.
+26 past precies 12 keer in 312.
+26 past 13 keer in 354 en de rest is 16.
+26 past 7 keer in 188 en de rest is 6.
+26 past 23 keer in 608 en de rest is 10.
+>>> PrintRestdeling([932, 807, 549, 214, 923, 747, 189, 937, 786, 832, 655, 747], 80)
+80 past 11 keer in 932 en de rest is 52.
+80 past 10 keer in 807 en de rest is 7.
+80 past 6 keer in 549 en de rest is 69.
+80 past 2 keer in 214 en de rest is 54.
+80 past 11 keer in 923 en de rest is 43.
+80 past 9 keer in 747 en de rest is 27.
+80 past 2 keer in 189 en de rest is 29.
+80 past 11 keer in 937 en de rest is 57.
+80 past 9 keer in 786 en de rest is 66.
+80 past 10 keer in 832 en de rest is 32.
+80 past 8 keer in 655 en de rest is 15.
+80 past 9 keer in 747 en de rest is 27.
+>>> PrintRestdeling([914, 25, 551, 550, 867, 185, 578, 846, 653, 928, 422], 39)
+39 past 23 keer in 914 en de rest is 17.
+39 past 0 keer in 25 en de rest is 25.
+39 past 14 keer in 551 en de rest is 5.
+39 past 14 keer in 550 en de rest is 4.
+39 past 22 keer in 867 en de rest is 9.
+39 past 4 keer in 185 en de rest is 29.
+39 past 14 keer in 578 en de rest is 32.
+39 past 21 keer in 846 en de rest is 27.
+39 past 16 keer in 653 en de rest is 29.
+39 past 23 keer in 928 en de rest is 31.
+39 past 10 keer in 422 en de rest is 32.
+>>> PrintRestdeling([879, 442, 919, 234, 624, 36, 217, 979, 598], 31)
+31 past 28 keer in 879 en de rest is 11.
+31 past 14 keer in 442 en de rest is 8.
+31 past 29 keer in 919 en de rest is 20.
+31 past 7 keer in 234 en de rest is 17.
+31 past 20 keer in 624 en de rest is 4.
+31 past 1 keer in 36 en de rest is 5.
+31 past precies 7 keer in 217.
+31 past 31 keer in 979 en de rest is 18.
+31 past 19 keer in 598 en de rest is 9.
+>>> PrintRestdeling([291, 452, 62, 359, 557, 838, 58, 388, 97, 912, 75, 569, 236, 152, 277, 62, 545, 691, 920], 12)
+12 past 24 keer in 291 en de rest is 3.
+12 past 37 keer in 452 en de rest is 8.
+12 past 5 keer in 62 en de rest is 2.
+12 past 29 keer in 359 en de rest is 11.
+12 past 46 keer in 557 en de rest is 5.
+12 past 69 keer in 838 en de rest is 10.
+12 past 4 keer in 58 en de rest is 10.
+12 past 32 keer in 388 en de rest is 4.
+12 past 8 keer in 97 en de rest is 1.
+12 past precies 76 keer in 912.
+12 past 6 keer in 75 en de rest is 3.
+12 past 47 keer in 569 en de rest is 5.
+12 past 19 keer in 236 en de rest is 8.
+12 past 12 keer in 152 en de rest is 8.
+12 past 23 keer in 277 en de rest is 1.
+12 past 5 keer in 62 en de rest is 2.
+12 past 45 keer in 545 en de rest is 5.
+12 past 57 keer in 691 en de rest is 7.
+12 past 76 keer in 920 en de rest is 8.
+>>> PrintRestdeling([], 34)
+>>> PrintRestdeling([2, 88, 9, 29, 34], 1)
+1 past precies 2 keer in 2.
+1 past precies 88 keer in 88.
+1 past precies 9 keer in 9.
+1 past precies 29 keer in 29.
+1 past precies 34 keer in 34.

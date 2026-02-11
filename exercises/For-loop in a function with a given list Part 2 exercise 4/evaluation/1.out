@@ -1,0 +1,10 @@
+--------------------------------------------------
+tab name: Bulk test
+used output channel: stdout
+<LANGUAGE code="en">
+    <function from="PrintRestdeling" to="PrintDivisionAndRemainder" />
+    <fixed from="past precies" to="fits exactly" />
+    <fixed from="past" to="fits" />
+    <fixed from="keer in" to="times in" />
+    <fixed from="en de rest is" to="and the remainder is" />
+</LANGUAGE>

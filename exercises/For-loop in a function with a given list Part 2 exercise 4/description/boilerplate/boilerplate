@@ -1,0 +1,8 @@
+def PrintRestdeling(getallen, deler):
+    for ____ in getallen:
+        aantal = ____
+        rest = ____
+        if ____:
+            ____
+        else:
+            ____
