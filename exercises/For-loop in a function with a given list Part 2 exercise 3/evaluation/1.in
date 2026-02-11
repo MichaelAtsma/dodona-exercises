@@ -1,0 +1,1128 @@
+>>> PrintDeelbaarheden3([0])
+0 is deelbaar door 3.
+>>> PrintDeelbaarheden3([952, 535, 826, 823, 661, 810, 781, 119, 611, 179, 642, 539, 473, 811, 55, 850, 201])
+952 is niet deelbaar door 3.
+535 is niet deelbaar door 3.
+826 is niet deelbaar door 3.
+823 is niet deelbaar door 3.
+661 is niet deelbaar door 3.
+810 is deelbaar door 3.
+781 is niet deelbaar door 3.
+119 is niet deelbaar door 3.
+611 is niet deelbaar door 3.
+179 is niet deelbaar door 3.
+642 is deelbaar door 3.
+539 is niet deelbaar door 3.
+473 is niet deelbaar door 3.
+811 is niet deelbaar door 3.
+55 is niet deelbaar door 3.
+850 is niet deelbaar door 3.
+201 is deelbaar door 3.
+>>> PrintDeelbaarheden3([676, 220, 620, 615, 962, 681, 277, 661, 478, 570, 452, 676, 413, 568, 897, 154, 561])
+676 is niet deelbaar door 3.
+220 is niet deelbaar door 3.
+620 is niet deelbaar door 3.
+615 is deelbaar door 3.
+962 is niet deelbaar door 3.
+681 is deelbaar door 3.
+277 is niet deelbaar door 3.
+661 is niet deelbaar door 3.
+478 is niet deelbaar door 3.
+570 is deelbaar door 3.
+452 is niet deelbaar door 3.
+676 is niet deelbaar door 3.
+413 is niet deelbaar door 3.
+568 is niet deelbaar door 3.
+897 is deelbaar door 3.
+154 is niet deelbaar door 3.
+561 is deelbaar door 3.
+>>> PrintDeelbaarheden3([647, 894, 139, 738, 856, 560, 18, 444, 840])
+647 is niet deelbaar door 3.
+894 is deelbaar door 3.
+139 is niet deelbaar door 3.
+738 is deelbaar door 3.
+856 is niet deelbaar door 3.
+560 is niet deelbaar door 3.
+18 is deelbaar door 3.
+444 is deelbaar door 3.
+840 is deelbaar door 3.
+>>> PrintDeelbaarheden3([842, 985, 928, 931, 187, 631, 441])
+842 is niet deelbaar door 3.
+985 is niet deelbaar door 3.
+928 is niet deelbaar door 3.
+931 is niet deelbaar door 3.
+187 is niet deelbaar door 3.
+631 is niet deelbaar door 3.
+441 is deelbaar door 3.
+>>> PrintDeelbaarheden3([539, 776, 496, 864, 988, 821, 314, 101, 371, 193, 664, 300, 200, 376])
+539 is niet deelbaar door 3.
+776 is niet deelbaar door 3.
+496 is niet deelbaar door 3.
+864 is deelbaar door 3.
+988 is niet deelbaar door 3.
+821 is niet deelbaar door 3.
+314 is niet deelbaar door 3.
+101 is niet deelbaar door 3.
+371 is niet deelbaar door 3.
+193 is niet deelbaar door 3.
+664 is niet deelbaar door 3.
+300 is deelbaar door 3.
+200 is niet deelbaar door 3.
+376 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([780, 144, 139, 296, 444])
+780 is deelbaar door 3.
+144 is deelbaar door 3.
+139 is niet deelbaar door 3.
+296 is niet deelbaar door 3.
+444 is deelbaar door 3.
+>>> PrintDeelbaarheden3([934, 604, 451, 709, 402, 564, 845, 239, 142, 61, 397, 623, 899, 713, 988, 91, 184, 374, 391, 263])
+934 is niet deelbaar door 3.
+604 is niet deelbaar door 3.
+451 is niet deelbaar door 3.
+709 is niet deelbaar door 3.
+402 is deelbaar door 3.
+564 is deelbaar door 3.
+845 is niet deelbaar door 3.
+239 is niet deelbaar door 3.
+142 is niet deelbaar door 3.
+61 is niet deelbaar door 3.
+397 is niet deelbaar door 3.
+623 is niet deelbaar door 3.
+899 is niet deelbaar door 3.
+713 is niet deelbaar door 3.
+988 is niet deelbaar door 3.
+91 is niet deelbaar door 3.
+184 is niet deelbaar door 3.
+374 is niet deelbaar door 3.
+391 is niet deelbaar door 3.
+263 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([150, 260, 177, 955, 514, 626, 473, 987, 908, 722, 955, 949, 65, 284])
+150 is deelbaar door 3.
+260 is niet deelbaar door 3.
+177 is deelbaar door 3.
+955 is niet deelbaar door 3.
+514 is niet deelbaar door 3.
+626 is niet deelbaar door 3.
+473 is niet deelbaar door 3.
+987 is deelbaar door 3.
+908 is niet deelbaar door 3.
+722 is niet deelbaar door 3.
+955 is niet deelbaar door 3.
+949 is niet deelbaar door 3.
+65 is niet deelbaar door 3.
+284 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([509, 571, 755, 252, 197, 823, 204, 166, 410])
+509 is niet deelbaar door 3.
+571 is niet deelbaar door 3.
+755 is niet deelbaar door 3.
+252 is deelbaar door 3.
+197 is niet deelbaar door 3.
+823 is niet deelbaar door 3.
+204 is deelbaar door 3.
+166 is niet deelbaar door 3.
+410 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([496])
+496 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([257, 621, 747, 301, 687, 388, 13, 762, 297, 327, 164, 572, 806, 23, 841, 47, 889, 364, 234])
+257 is niet deelbaar door 3.
+621 is deelbaar door 3.
+747 is deelbaar door 3.
+301 is niet deelbaar door 3.
+687 is deelbaar door 3.
+388 is niet deelbaar door 3.
+13 is niet deelbaar door 3.
+762 is deelbaar door 3.
+297 is deelbaar door 3.
+327 is deelbaar door 3.
+164 is niet deelbaar door 3.
+572 is niet deelbaar door 3.
+806 is niet deelbaar door 3.
+23 is niet deelbaar door 3.
+841 is niet deelbaar door 3.
+47 is niet deelbaar door 3.
+889 is niet deelbaar door 3.
+364 is niet deelbaar door 3.
+234 is deelbaar door 3.
+>>> PrintDeelbaarheden3([426, 723, 62, 905, 157, 485, 862, 479, 396, 278, 381, 259])
+426 is deelbaar door 3.
+723 is deelbaar door 3.
+62 is niet deelbaar door 3.
+905 is niet deelbaar door 3.
+157 is niet deelbaar door 3.
+485 is niet deelbaar door 3.
+862 is niet deelbaar door 3.
+479 is niet deelbaar door 3.
+396 is deelbaar door 3.
+278 is niet deelbaar door 3.
+381 is deelbaar door 3.
+259 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([379, 5, 589, 646, 385, 657, 920, 540, 908, 200, 342, 314, 338, 959])
+379 is niet deelbaar door 3.
+5 is niet deelbaar door 3.
+589 is niet deelbaar door 3.
+646 is niet deelbaar door 3.
+385 is niet deelbaar door 3.
+657 is deelbaar door 3.
+920 is niet deelbaar door 3.
+540 is deelbaar door 3.
+908 is niet deelbaar door 3.
+200 is niet deelbaar door 3.
+342 is deelbaar door 3.
+314 is niet deelbaar door 3.
+338 is niet deelbaar door 3.
+959 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([694, 736, 658, 665])
+694 is niet deelbaar door 3.
+736 is niet deelbaar door 3.
+658 is niet deelbaar door 3.
+665 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([456, 288, 102, 526, 551, 418, 478, 170, 36, 389, 746, 283, 502, 981, 735, 983])
+456 is deelbaar door 3.
+288 is deelbaar door 3.
+102 is deelbaar door 3.
+526 is niet deelbaar door 3.
+551 is niet deelbaar door 3.
+418 is niet deelbaar door 3.
+478 is niet deelbaar door 3.
+170 is niet deelbaar door 3.
+36 is deelbaar door 3.
+389 is niet deelbaar door 3.
+746 is niet deelbaar door 3.
+283 is niet deelbaar door 3.
+502 is niet deelbaar door 3.
+981 is deelbaar door 3.
+735 is deelbaar door 3.
+983 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([623, 182, 945, 520, 986, 315, 113, 126, 935, 305, 189, 966, 981, 971])
+623 is niet deelbaar door 3.
+182 is niet deelbaar door 3.
+945 is deelbaar door 3.
+520 is niet deelbaar door 3.
+986 is niet deelbaar door 3.
+315 is deelbaar door 3.
+113 is niet deelbaar door 3.
+126 is deelbaar door 3.
+935 is niet deelbaar door 3.
+305 is niet deelbaar door 3.
+189 is deelbaar door 3.
+966 is deelbaar door 3.
+981 is deelbaar door 3.
+971 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([931, 428, 326, 144, 460, 447, 695, 976, 974, 890])
+931 is niet deelbaar door 3.
+428 is niet deelbaar door 3.
+326 is niet deelbaar door 3.
+144 is deelbaar door 3.
+460 is niet deelbaar door 3.
+447 is deelbaar door 3.
+695 is niet deelbaar door 3.
+976 is niet deelbaar door 3.
+974 is niet deelbaar door 3.
+890 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([10, 922, 152, 621, 339, 223, 104, 343, 400, 931])
+10 is niet deelbaar door 3.
+922 is niet deelbaar door 3.
+152 is niet deelbaar door 3.
+621 is deelbaar door 3.
+339 is deelbaar door 3.
+223 is niet deelbaar door 3.
+104 is niet deelbaar door 3.
+343 is niet deelbaar door 3.
+400 is niet deelbaar door 3.
+931 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([543, 667, 773, 112, 500, 757, 150, 123, 415, 772, 422, 479, 151, 80, 743, 79, 491])
+543 is deelbaar door 3.
+667 is niet deelbaar door 3.
+773 is niet deelbaar door 3.
+112 is niet deelbaar door 3.
+500 is niet deelbaar door 3.
+757 is niet deelbaar door 3.
+150 is deelbaar door 3.
+123 is deelbaar door 3.
+415 is niet deelbaar door 3.
+772 is niet deelbaar door 3.
+422 is niet deelbaar door 3.
+479 is niet deelbaar door 3.
+151 is niet deelbaar door 3.
+80 is niet deelbaar door 3.
+743 is niet deelbaar door 3.
+79 is niet deelbaar door 3.
+491 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([269, 738, 273, 518, 374, 334, 429, 860, 716, 859, 883])
+269 is niet deelbaar door 3.
+738 is deelbaar door 3.
+273 is deelbaar door 3.
+518 is niet deelbaar door 3.
+374 is niet deelbaar door 3.
+334 is niet deelbaar door 3.
+429 is deelbaar door 3.
+860 is niet deelbaar door 3.
+716 is niet deelbaar door 3.
+859 is niet deelbaar door 3.
+883 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([342, 418, 399, 349, 764, 456, 141])
+342 is deelbaar door 3.
+418 is niet deelbaar door 3.
+399 is deelbaar door 3.
+349 is niet deelbaar door 3.
+764 is niet deelbaar door 3.
+456 is deelbaar door 3.
+141 is deelbaar door 3.
+>>> PrintDeelbaarheden3([61, 641, 84, 280, 183, 432, 42, 264, 977, 374, 480, 391, 672])
+61 is niet deelbaar door 3.
+641 is niet deelbaar door 3.
+84 is deelbaar door 3.
+280 is niet deelbaar door 3.
+183 is deelbaar door 3.
+432 is deelbaar door 3.
+42 is deelbaar door 3.
+264 is deelbaar door 3.
+977 is niet deelbaar door 3.
+374 is niet deelbaar door 3.
+480 is deelbaar door 3.
+391 is niet deelbaar door 3.
+672 is deelbaar door 3.
+>>> PrintDeelbaarheden3([692, 784, 580, 802, 239, 316, 511, 750, 736, 999])
+692 is niet deelbaar door 3.
+784 is niet deelbaar door 3.
+580 is niet deelbaar door 3.
+802 is niet deelbaar door 3.
+239 is niet deelbaar door 3.
+316 is niet deelbaar door 3.
+511 is niet deelbaar door 3.
+750 is deelbaar door 3.
+736 is niet deelbaar door 3.
+999 is deelbaar door 3.
+>>> PrintDeelbaarheden3([71, 451, 783, 44, 365, 857])
+71 is niet deelbaar door 3.
+451 is niet deelbaar door 3.
+783 is deelbaar door 3.
+44 is niet deelbaar door 3.
+365 is niet deelbaar door 3.
+857 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([786, 630, 731, 538, 365, 470, 680, 778, 511, 83, 444, 352, 542, 189, 883, 694, 372])
+786 is deelbaar door 3.
+630 is deelbaar door 3.
+731 is niet deelbaar door 3.
+538 is niet deelbaar door 3.
+365 is niet deelbaar door 3.
+470 is niet deelbaar door 3.
+680 is niet deelbaar door 3.
+778 is niet deelbaar door 3.
+511 is niet deelbaar door 3.
+83 is niet deelbaar door 3.
+444 is deelbaar door 3.
+352 is niet deelbaar door 3.
+542 is niet deelbaar door 3.
+189 is deelbaar door 3.
+883 is niet deelbaar door 3.
+694 is niet deelbaar door 3.
+372 is deelbaar door 3.
+>>> PrintDeelbaarheden3([327, 494, 255, 546, 785, 995, 142, 994, 39, 110, 514, 415])
+327 is deelbaar door 3.
+494 is niet deelbaar door 3.
+255 is deelbaar door 3.
+546 is deelbaar door 3.
+785 is niet deelbaar door 3.
+995 is niet deelbaar door 3.
+142 is niet deelbaar door 3.
+994 is niet deelbaar door 3.
+39 is deelbaar door 3.
+110 is niet deelbaar door 3.
+514 is niet deelbaar door 3.
+415 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([748, 395, 972, 851, 25])
+748 is niet deelbaar door 3.
+395 is niet deelbaar door 3.
+972 is deelbaar door 3.
+851 is niet deelbaar door 3.
+25 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([123, 266, 645, 139, 572, 4])
+123 is deelbaar door 3.
+266 is niet deelbaar door 3.
+645 is deelbaar door 3.
+139 is niet deelbaar door 3.
+572 is niet deelbaar door 3.
+4 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([226, 468, 951])
+226 is niet deelbaar door 3.
+468 is deelbaar door 3.
+951 is deelbaar door 3.
+>>> PrintDeelbaarheden3([328])
+328 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([248, 757, 524, 639, 615, 981])
+248 is niet deelbaar door 3.
+757 is niet deelbaar door 3.
+524 is niet deelbaar door 3.
+639 is deelbaar door 3.
+615 is deelbaar door 3.
+981 is deelbaar door 3.
+>>> PrintDeelbaarheden3([314, 431, 374, 418, 866, 926, 440, 451, 983, 804, 868, 932, 23, 848, 346, 517, 563, 706])
+314 is niet deelbaar door 3.
+431 is niet deelbaar door 3.
+374 is niet deelbaar door 3.
+418 is niet deelbaar door 3.
+866 is niet deelbaar door 3.
+926 is niet deelbaar door 3.
+440 is niet deelbaar door 3.
+451 is niet deelbaar door 3.
+983 is niet deelbaar door 3.
+804 is deelbaar door 3.
+868 is niet deelbaar door 3.
+932 is niet deelbaar door 3.
+23 is niet deelbaar door 3.
+848 is niet deelbaar door 3.
+346 is niet deelbaar door 3.
+517 is niet deelbaar door 3.
+563 is niet deelbaar door 3.
+706 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([786, 659, 975, 336, 19, 681, 392, 630, 101, 91, 750, 397, 150, 578, 955, 277, 401, 690, 235, 182])
+786 is deelbaar door 3.
+659 is niet deelbaar door 3.
+975 is deelbaar door 3.
+336 is deelbaar door 3.
+19 is niet deelbaar door 3.
+681 is deelbaar door 3.
+392 is niet deelbaar door 3.
+630 is deelbaar door 3.
+101 is niet deelbaar door 3.
+91 is niet deelbaar door 3.
+750 is deelbaar door 3.
+397 is niet deelbaar door 3.
+150 is deelbaar door 3.
+578 is niet deelbaar door 3.
+955 is niet deelbaar door 3.
+277 is niet deelbaar door 3.
+401 is niet deelbaar door 3.
+690 is deelbaar door 3.
+235 is niet deelbaar door 3.
+182 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([778, 536, 463, 399, 514, 967, 956, 305, 582, 192, 661, 131, 0, 58, 892, 822, 345, 575, 362, 603])
+778 is niet deelbaar door 3.
+536 is niet deelbaar door 3.
+463 is niet deelbaar door 3.
+399 is deelbaar door 3.
+514 is niet deelbaar door 3.
+967 is niet deelbaar door 3.
+956 is niet deelbaar door 3.
+305 is niet deelbaar door 3.
+582 is deelbaar door 3.
+192 is deelbaar door 3.
+661 is niet deelbaar door 3.
+131 is niet deelbaar door 3.
+0 is deelbaar door 3.
+58 is niet deelbaar door 3.
+892 is niet deelbaar door 3.
+822 is deelbaar door 3.
+345 is deelbaar door 3.
+575 is niet deelbaar door 3.
+362 is niet deelbaar door 3.
+603 is deelbaar door 3.
+>>> PrintDeelbaarheden3([545, 207, 457, 862, 508, 93, 793, 486, 322])
+545 is niet deelbaar door 3.
+207 is deelbaar door 3.
+457 is niet deelbaar door 3.
+862 is niet deelbaar door 3.
+508 is niet deelbaar door 3.
+93 is deelbaar door 3.
+793 is niet deelbaar door 3.
+486 is deelbaar door 3.
+322 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([325, 238, 244, 872, 94, 626, 370])
+325 is niet deelbaar door 3.
+238 is niet deelbaar door 3.
+244 is niet deelbaar door 3.
+872 is niet deelbaar door 3.
+94 is niet deelbaar door 3.
+626 is niet deelbaar door 3.
+370 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([186, 474, 221, 548, 865, 12, 351, 416, 169])
+186 is deelbaar door 3.
+474 is deelbaar door 3.
+221 is niet deelbaar door 3.
+548 is niet deelbaar door 3.
+865 is niet deelbaar door 3.
+12 is deelbaar door 3.
+351 is deelbaar door 3.
+416 is niet deelbaar door 3.
+169 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([908, 993, 181, 350, 582, 728])
+908 is niet deelbaar door 3.
+993 is deelbaar door 3.
+181 is niet deelbaar door 3.
+350 is niet deelbaar door 3.
+582 is deelbaar door 3.
+728 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([362, 197, 9, 72, 806, 19, 857])
+362 is niet deelbaar door 3.
+197 is niet deelbaar door 3.
+9 is deelbaar door 3.
+72 is deelbaar door 3.
+806 is niet deelbaar door 3.
+19 is niet deelbaar door 3.
+857 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([167, 408, 465, 399, 640, 206, 291, 966, 71, 328, 26, 131, 472, 211])
+167 is niet deelbaar door 3.
+408 is deelbaar door 3.
+465 is deelbaar door 3.
+399 is deelbaar door 3.
+640 is niet deelbaar door 3.
+206 is niet deelbaar door 3.
+291 is deelbaar door 3.
+966 is deelbaar door 3.
+71 is niet deelbaar door 3.
+328 is niet deelbaar door 3.
+26 is niet deelbaar door 3.
+131 is niet deelbaar door 3.
+472 is niet deelbaar door 3.
+211 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([154, 15, 146, 769, 81, 531, 600, 299])
+154 is niet deelbaar door 3.
+15 is deelbaar door 3.
+146 is niet deelbaar door 3.
+769 is niet deelbaar door 3.
+81 is deelbaar door 3.
+531 is deelbaar door 3.
+600 is deelbaar door 3.
+299 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([126, 513, 892, 123, 442, 757, 7, 521, 674, 620, 449, 805, 233, 22, 707, 926, 34])
+126 is deelbaar door 3.
+513 is deelbaar door 3.
+892 is niet deelbaar door 3.
+123 is deelbaar door 3.
+442 is niet deelbaar door 3.
+757 is niet deelbaar door 3.
+7 is niet deelbaar door 3.
+521 is niet deelbaar door 3.
+674 is niet deelbaar door 3.
+620 is niet deelbaar door 3.
+449 is niet deelbaar door 3.
+805 is niet deelbaar door 3.
+233 is niet deelbaar door 3.
+22 is niet deelbaar door 3.
+707 is niet deelbaar door 3.
+926 is niet deelbaar door 3.
+34 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([318, 765, 845, 416, 911, 281, 848])
+318 is deelbaar door 3.
+765 is deelbaar door 3.
+845 is niet deelbaar door 3.
+416 is niet deelbaar door 3.
+911 is niet deelbaar door 3.
+281 is niet deelbaar door 3.
+848 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([397, 175, 980, 280, 362, 859, 87, 105, 601])
+397 is niet deelbaar door 3.
+175 is niet deelbaar door 3.
+980 is niet deelbaar door 3.
+280 is niet deelbaar door 3.
+362 is niet deelbaar door 3.
+859 is niet deelbaar door 3.
+87 is deelbaar door 3.
+105 is deelbaar door 3.
+601 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([342, 940, 636, 757, 969, 876, 963, 192])
+342 is deelbaar door 3.
+940 is niet deelbaar door 3.
+636 is deelbaar door 3.
+757 is niet deelbaar door 3.
+969 is deelbaar door 3.
+876 is deelbaar door 3.
+963 is deelbaar door 3.
+192 is deelbaar door 3.
+>>> PrintDeelbaarheden3([374, 12, 905, 383, 289])
+374 is niet deelbaar door 3.
+12 is deelbaar door 3.
+905 is niet deelbaar door 3.
+383 is niet deelbaar door 3.
+289 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([329])
+329 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([225, 799, 32, 216])
+225 is deelbaar door 3.
+799 is niet deelbaar door 3.
+32 is niet deelbaar door 3.
+216 is deelbaar door 3.
+>>> PrintDeelbaarheden3([17, 30, 449, 68, 113, 418, 622])
+17 is niet deelbaar door 3.
+30 is deelbaar door 3.
+449 is niet deelbaar door 3.
+68 is niet deelbaar door 3.
+113 is niet deelbaar door 3.
+418 is niet deelbaar door 3.
+622 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([127, 972, 127, 510, 766, 985, 194, 644])
+127 is niet deelbaar door 3.
+972 is deelbaar door 3.
+127 is niet deelbaar door 3.
+510 is deelbaar door 3.
+766 is niet deelbaar door 3.
+985 is niet deelbaar door 3.
+194 is niet deelbaar door 3.
+644 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([51, 447, 293, 846])
+51 is deelbaar door 3.
+447 is deelbaar door 3.
+293 is niet deelbaar door 3.
+846 is deelbaar door 3.
+>>> PrintDeelbaarheden3([21, 269, 644, 429, 442, 864, 806, 172, 725, 551, 442, 834, 870, 174, 320])
+21 is deelbaar door 3.
+269 is niet deelbaar door 3.
+644 is niet deelbaar door 3.
+429 is deelbaar door 3.
+442 is niet deelbaar door 3.
+864 is deelbaar door 3.
+806 is niet deelbaar door 3.
+172 is niet deelbaar door 3.
+725 is niet deelbaar door 3.
+551 is niet deelbaar door 3.
+442 is niet deelbaar door 3.
+834 is deelbaar door 3.
+870 is deelbaar door 3.
+174 is deelbaar door 3.
+320 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([612, 883])
+612 is deelbaar door 3.
+883 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([701, 41, 363, 844, 308, 634, 773, 148, 149, 780, 456, 234, 43, 510, 95, 390, 800, 301, 915])
+701 is niet deelbaar door 3.
+41 is niet deelbaar door 3.
+363 is deelbaar door 3.
+844 is niet deelbaar door 3.
+308 is niet deelbaar door 3.
+634 is niet deelbaar door 3.
+773 is niet deelbaar door 3.
+148 is niet deelbaar door 3.
+149 is niet deelbaar door 3.
+780 is deelbaar door 3.
+456 is deelbaar door 3.
+234 is deelbaar door 3.
+43 is niet deelbaar door 3.
+510 is deelbaar door 3.
+95 is niet deelbaar door 3.
+390 is deelbaar door 3.
+800 is niet deelbaar door 3.
+301 is niet deelbaar door 3.
+915 is deelbaar door 3.
+>>> PrintDeelbaarheden3([421, 506, 667, 154, 28, 723, 944, 253, 884, 267, 698, 101, 164, 915, 17])
+421 is niet deelbaar door 3.
+506 is niet deelbaar door 3.
+667 is niet deelbaar door 3.
+154 is niet deelbaar door 3.
+28 is niet deelbaar door 3.
+723 is deelbaar door 3.
+944 is niet deelbaar door 3.
+253 is niet deelbaar door 3.
+884 is niet deelbaar door 3.
+267 is deelbaar door 3.
+698 is niet deelbaar door 3.
+101 is niet deelbaar door 3.
+164 is niet deelbaar door 3.
+915 is deelbaar door 3.
+17 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([775, 612, 346, 823, 979, 288, 522, 172, 144, 9, 321, 939, 644])
+775 is niet deelbaar door 3.
+612 is deelbaar door 3.
+346 is niet deelbaar door 3.
+823 is niet deelbaar door 3.
+979 is niet deelbaar door 3.
+288 is deelbaar door 3.
+522 is deelbaar door 3.
+172 is niet deelbaar door 3.
+144 is deelbaar door 3.
+9 is deelbaar door 3.
+321 is deelbaar door 3.
+939 is deelbaar door 3.
+644 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([750, 520, 849, 851, 611, 965, 36, 202, 479, 3, 415])
+750 is deelbaar door 3.
+520 is niet deelbaar door 3.
+849 is deelbaar door 3.
+851 is niet deelbaar door 3.
+611 is niet deelbaar door 3.
+965 is niet deelbaar door 3.
+36 is deelbaar door 3.
+202 is niet deelbaar door 3.
+479 is niet deelbaar door 3.
+3 is deelbaar door 3.
+415 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([500, 363, 387, 205, 397, 867, 805, 344, 162, 720, 826])
+500 is niet deelbaar door 3.
+363 is deelbaar door 3.
+387 is deelbaar door 3.
+205 is niet deelbaar door 3.
+397 is niet deelbaar door 3.
+867 is deelbaar door 3.
+805 is niet deelbaar door 3.
+344 is niet deelbaar door 3.
+162 is deelbaar door 3.
+720 is deelbaar door 3.
+826 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([457, 181, 888, 546])
+457 is niet deelbaar door 3.
+181 is niet deelbaar door 3.
+888 is deelbaar door 3.
+546 is deelbaar door 3.
+>>> PrintDeelbaarheden3([294, 707, 808, 457, 492, 300, 247, 426, 794, 413, 649, 155, 784, 951, 922, 477])
+294 is deelbaar door 3.
+707 is niet deelbaar door 3.
+808 is niet deelbaar door 3.
+457 is niet deelbaar door 3.
+492 is deelbaar door 3.
+300 is deelbaar door 3.
+247 is niet deelbaar door 3.
+426 is deelbaar door 3.
+794 is niet deelbaar door 3.
+413 is niet deelbaar door 3.
+649 is niet deelbaar door 3.
+155 is niet deelbaar door 3.
+784 is niet deelbaar door 3.
+951 is deelbaar door 3.
+922 is niet deelbaar door 3.
+477 is deelbaar door 3.
+>>> PrintDeelbaarheden3([597, 667, 415, 783, 449, 424, 244, 258, 869, 329, 440, 803, 580, 101, 41, 617])
+597 is deelbaar door 3.
+667 is niet deelbaar door 3.
+415 is niet deelbaar door 3.
+783 is deelbaar door 3.
+449 is niet deelbaar door 3.
+424 is niet deelbaar door 3.
+244 is niet deelbaar door 3.
+258 is deelbaar door 3.
+869 is niet deelbaar door 3.
+329 is niet deelbaar door 3.
+440 is niet deelbaar door 3.
+803 is niet deelbaar door 3.
+580 is niet deelbaar door 3.
+101 is niet deelbaar door 3.
+41 is niet deelbaar door 3.
+617 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([471])
+471 is deelbaar door 3.
+>>> PrintDeelbaarheden3([722, 859, 895, 798, 359, 390, 504, 246, 472])
+722 is niet deelbaar door 3.
+859 is niet deelbaar door 3.
+895 is niet deelbaar door 3.
+798 is deelbaar door 3.
+359 is niet deelbaar door 3.
+390 is deelbaar door 3.
+504 is deelbaar door 3.
+246 is deelbaar door 3.
+472 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([83, 400])
+83 is niet deelbaar door 3.
+400 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([461, 446])
+461 is niet deelbaar door 3.
+446 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([354, 379, 393, 840, 250, 457, 313, 356, 987, 47, 276, 291, 525, 282, 591, 289])
+354 is deelbaar door 3.
+379 is niet deelbaar door 3.
+393 is deelbaar door 3.
+840 is deelbaar door 3.
+250 is niet deelbaar door 3.
+457 is niet deelbaar door 3.
+313 is niet deelbaar door 3.
+356 is niet deelbaar door 3.
+987 is deelbaar door 3.
+47 is niet deelbaar door 3.
+276 is deelbaar door 3.
+291 is deelbaar door 3.
+525 is deelbaar door 3.
+282 is deelbaar door 3.
+591 is deelbaar door 3.
+289 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([315, 166, 717, 496, 505, 503, 214, 697, 49, 898, 502, 446, 97, 309, 525])
+315 is deelbaar door 3.
+166 is niet deelbaar door 3.
+717 is deelbaar door 3.
+496 is niet deelbaar door 3.
+505 is niet deelbaar door 3.
+503 is niet deelbaar door 3.
+214 is niet deelbaar door 3.
+697 is niet deelbaar door 3.
+49 is niet deelbaar door 3.
+898 is niet deelbaar door 3.
+502 is niet deelbaar door 3.
+446 is niet deelbaar door 3.
+97 is niet deelbaar door 3.
+309 is deelbaar door 3.
+525 is deelbaar door 3.
+>>> PrintDeelbaarheden3([856, 20, 669, 89, 737, 997, 655, 731, 742, 777, 77, 666, 46])
+856 is niet deelbaar door 3.
+20 is niet deelbaar door 3.
+669 is deelbaar door 3.
+89 is niet deelbaar door 3.
+737 is niet deelbaar door 3.
+997 is niet deelbaar door 3.
+655 is niet deelbaar door 3.
+731 is niet deelbaar door 3.
+742 is niet deelbaar door 3.
+777 is deelbaar door 3.
+77 is niet deelbaar door 3.
+666 is deelbaar door 3.
+46 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([360, 386, 71, 234, 923, 630, 416, 982, 149, 49, 698])
+360 is deelbaar door 3.
+386 is niet deelbaar door 3.
+71 is niet deelbaar door 3.
+234 is deelbaar door 3.
+923 is niet deelbaar door 3.
+630 is deelbaar door 3.
+416 is niet deelbaar door 3.
+982 is niet deelbaar door 3.
+149 is niet deelbaar door 3.
+49 is niet deelbaar door 3.
+698 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([789, 338, 438, 437, 140, 626, 142, 942, 435, 103, 412])
+789 is deelbaar door 3.
+338 is niet deelbaar door 3.
+438 is deelbaar door 3.
+437 is niet deelbaar door 3.
+140 is niet deelbaar door 3.
+626 is niet deelbaar door 3.
+142 is niet deelbaar door 3.
+942 is deelbaar door 3.
+435 is deelbaar door 3.
+103 is niet deelbaar door 3.
+412 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([882, 256, 628, 207, 604])
+882 is deelbaar door 3.
+256 is niet deelbaar door 3.
+628 is niet deelbaar door 3.
+207 is deelbaar door 3.
+604 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([421, 686, 717, 428, 417, 382, 425, 654, 707, 622, 649, 359, 848, 975, 247, 902, 990, 327])
+421 is niet deelbaar door 3.
+686 is niet deelbaar door 3.
+717 is deelbaar door 3.
+428 is niet deelbaar door 3.
+417 is deelbaar door 3.
+382 is niet deelbaar door 3.
+425 is niet deelbaar door 3.
+654 is deelbaar door 3.
+707 is niet deelbaar door 3.
+622 is niet deelbaar door 3.
+649 is niet deelbaar door 3.
+359 is niet deelbaar door 3.
+848 is niet deelbaar door 3.
+975 is deelbaar door 3.
+247 is niet deelbaar door 3.
+902 is niet deelbaar door 3.
+990 is deelbaar door 3.
+327 is deelbaar door 3.
+>>> PrintDeelbaarheden3([231, 802, 24, 476, 494, 595, 393, 579, 214, 881, 970, 175, 29])
+231 is deelbaar door 3.
+802 is niet deelbaar door 3.
+24 is deelbaar door 3.
+476 is niet deelbaar door 3.
+494 is niet deelbaar door 3.
+595 is niet deelbaar door 3.
+393 is deelbaar door 3.
+579 is deelbaar door 3.
+214 is niet deelbaar door 3.
+881 is niet deelbaar door 3.
+970 is niet deelbaar door 3.
+175 is niet deelbaar door 3.
+29 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([263, 947, 78, 915, 833, 300, 176, 670, 229, 755, 619, 390, 701])
+263 is niet deelbaar door 3.
+947 is niet deelbaar door 3.
+78 is deelbaar door 3.
+915 is deelbaar door 3.
+833 is niet deelbaar door 3.
+300 is deelbaar door 3.
+176 is niet deelbaar door 3.
+670 is niet deelbaar door 3.
+229 is niet deelbaar door 3.
+755 is niet deelbaar door 3.
+619 is niet deelbaar door 3.
+390 is deelbaar door 3.
+701 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([189, 699, 952, 113, 169, 677, 993, 368, 209, 813, 51, 906, 597, 445, 884, 901, 814, 704, 796, 376])
+189 is deelbaar door 3.
+699 is deelbaar door 3.
+952 is niet deelbaar door 3.
+113 is niet deelbaar door 3.
+169 is niet deelbaar door 3.
+677 is niet deelbaar door 3.
+993 is deelbaar door 3.
+368 is niet deelbaar door 3.
+209 is niet deelbaar door 3.
+813 is deelbaar door 3.
+51 is deelbaar door 3.
+906 is deelbaar door 3.
+597 is deelbaar door 3.
+445 is niet deelbaar door 3.
+884 is niet deelbaar door 3.
+901 is niet deelbaar door 3.
+814 is niet deelbaar door 3.
+704 is niet deelbaar door 3.
+796 is niet deelbaar door 3.
+376 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([664, 569, 799, 453, 438, 411, 985, 216, 808, 178, 574, 938])
+664 is niet deelbaar door 3.
+569 is niet deelbaar door 3.
+799 is niet deelbaar door 3.
+453 is deelbaar door 3.
+438 is deelbaar door 3.
+411 is deelbaar door 3.
+985 is niet deelbaar door 3.
+216 is deelbaar door 3.
+808 is niet deelbaar door 3.
+178 is niet deelbaar door 3.
+574 is niet deelbaar door 3.
+938 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([825])
+825 is deelbaar door 3.
+>>> PrintDeelbaarheden3([457, 160, 181, 339, 814, 185, 727, 406, 278, 331, 693, 30, 123, 506, 608])
+457 is niet deelbaar door 3.
+160 is niet deelbaar door 3.
+181 is niet deelbaar door 3.
+339 is deelbaar door 3.
+814 is niet deelbaar door 3.
+185 is niet deelbaar door 3.
+727 is niet deelbaar door 3.
+406 is niet deelbaar door 3.
+278 is niet deelbaar door 3.
+331 is niet deelbaar door 3.
+693 is deelbaar door 3.
+30 is deelbaar door 3.
+123 is deelbaar door 3.
+506 is niet deelbaar door 3.
+608 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([916, 483, 361, 340, 827])
+916 is niet deelbaar door 3.
+483 is deelbaar door 3.
+361 is niet deelbaar door 3.
+340 is niet deelbaar door 3.
+827 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([470, 260])
+470 is niet deelbaar door 3.
+260 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([7, 654, 196, 347, 299, 955, 973, 434, 426, 11, 21])
+7 is niet deelbaar door 3.
+654 is deelbaar door 3.
+196 is niet deelbaar door 3.
+347 is niet deelbaar door 3.
+299 is niet deelbaar door 3.
+955 is niet deelbaar door 3.
+973 is niet deelbaar door 3.
+434 is niet deelbaar door 3.
+426 is deelbaar door 3.
+11 is niet deelbaar door 3.
+21 is deelbaar door 3.
+>>> PrintDeelbaarheden3([981, 569, 40, 870, 751, 861, 605, 711, 138, 82, 546, 329, 296, 447, 740, 586, 731])
+981 is deelbaar door 3.
+569 is niet deelbaar door 3.
+40 is niet deelbaar door 3.
+870 is deelbaar door 3.
+751 is niet deelbaar door 3.
+861 is deelbaar door 3.
+605 is niet deelbaar door 3.
+711 is deelbaar door 3.
+138 is deelbaar door 3.
+82 is niet deelbaar door 3.
+546 is deelbaar door 3.
+329 is niet deelbaar door 3.
+296 is niet deelbaar door 3.
+447 is deelbaar door 3.
+740 is niet deelbaar door 3.
+586 is niet deelbaar door 3.
+731 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([243, 235, 174, 655, 915, 833, 530, 711, 199, 466])
+243 is deelbaar door 3.
+235 is niet deelbaar door 3.
+174 is deelbaar door 3.
+655 is niet deelbaar door 3.
+915 is deelbaar door 3.
+833 is niet deelbaar door 3.
+530 is niet deelbaar door 3.
+711 is deelbaar door 3.
+199 is niet deelbaar door 3.
+466 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([224, 358, 958, 695])
+224 is niet deelbaar door 3.
+358 is niet deelbaar door 3.
+958 is niet deelbaar door 3.
+695 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([895, 43, 682, 802, 482])
+895 is niet deelbaar door 3.
+43 is niet deelbaar door 3.
+682 is niet deelbaar door 3.
+802 is niet deelbaar door 3.
+482 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([387, 401, 385, 353, 997, 922, 263, 80, 403, 422])
+387 is deelbaar door 3.
+401 is niet deelbaar door 3.
+385 is niet deelbaar door 3.
+353 is niet deelbaar door 3.
+997 is niet deelbaar door 3.
+922 is niet deelbaar door 3.
+263 is niet deelbaar door 3.
+80 is niet deelbaar door 3.
+403 is niet deelbaar door 3.
+422 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([594, 805, 771])
+594 is deelbaar door 3.
+805 is niet deelbaar door 3.
+771 is deelbaar door 3.
+>>> PrintDeelbaarheden3([55, 849, 590, 180, 15, 857, 545, 308, 221, 922, 980, 833, 788, 488, 280, 640, 339, 530])
+55 is niet deelbaar door 3.
+849 is deelbaar door 3.
+590 is niet deelbaar door 3.
+180 is deelbaar door 3.
+15 is deelbaar door 3.
+857 is niet deelbaar door 3.
+545 is niet deelbaar door 3.
+308 is niet deelbaar door 3.
+221 is niet deelbaar door 3.
+922 is niet deelbaar door 3.
+980 is niet deelbaar door 3.
+833 is niet deelbaar door 3.
+788 is niet deelbaar door 3.
+488 is niet deelbaar door 3.
+280 is niet deelbaar door 3.
+640 is niet deelbaar door 3.
+339 is deelbaar door 3.
+530 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([368, 266, 571, 787, 606, 982, 985, 27, 867, 11, 686, 86, 237, 217, 349, 832, 769])
+368 is niet deelbaar door 3.
+266 is niet deelbaar door 3.
+571 is niet deelbaar door 3.
+787 is niet deelbaar door 3.
+606 is deelbaar door 3.
+982 is niet deelbaar door 3.
+985 is niet deelbaar door 3.
+27 is deelbaar door 3.
+867 is deelbaar door 3.
+11 is niet deelbaar door 3.
+686 is niet deelbaar door 3.
+86 is niet deelbaar door 3.
+237 is deelbaar door 3.
+217 is niet deelbaar door 3.
+349 is niet deelbaar door 3.
+832 is niet deelbaar door 3.
+769 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([449, 715, 835, 25, 444, 322, 705, 705, 658, 495, 944, 845, 73, 948, 156, 279])
+449 is niet deelbaar door 3.
+715 is niet deelbaar door 3.
+835 is niet deelbaar door 3.
+25 is niet deelbaar door 3.
+444 is deelbaar door 3.
+322 is niet deelbaar door 3.
+705 is deelbaar door 3.
+705 is deelbaar door 3.
+658 is niet deelbaar door 3.
+495 is deelbaar door 3.
+944 is niet deelbaar door 3.
+845 is niet deelbaar door 3.
+73 is niet deelbaar door 3.
+948 is deelbaar door 3.
+156 is deelbaar door 3.
+279 is deelbaar door 3.
+>>> PrintDeelbaarheden3([712, 684, 150, 115, 79, 566, 707, 388, 792, 201, 100, 784, 42, 960, 441])
+712 is niet deelbaar door 3.
+684 is deelbaar door 3.
+150 is deelbaar door 3.
+115 is niet deelbaar door 3.
+79 is niet deelbaar door 3.
+566 is niet deelbaar door 3.
+707 is niet deelbaar door 3.
+388 is niet deelbaar door 3.
+792 is deelbaar door 3.
+201 is deelbaar door 3.
+100 is niet deelbaar door 3.
+784 is niet deelbaar door 3.
+42 is deelbaar door 3.
+960 is deelbaar door 3.
+441 is deelbaar door 3.
+>>> PrintDeelbaarheden3([770])
+770 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([510, 111, 813, 58])
+510 is deelbaar door 3.
+111 is deelbaar door 3.
+813 is deelbaar door 3.
+58 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([711, 234, 279, 842, 492, 911, 290, 354, 188])
+711 is deelbaar door 3.
+234 is deelbaar door 3.
+279 is deelbaar door 3.
+842 is niet deelbaar door 3.
+492 is deelbaar door 3.
+911 is niet deelbaar door 3.
+290 is niet deelbaar door 3.
+354 is deelbaar door 3.
+188 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([990, 154, 430, 507, 933, 425, 206, 18, 932, 330, 588, 319, 865])
+990 is deelbaar door 3.
+154 is niet deelbaar door 3.
+430 is niet deelbaar door 3.
+507 is deelbaar door 3.
+933 is deelbaar door 3.
+425 is niet deelbaar door 3.
+206 is niet deelbaar door 3.
+18 is deelbaar door 3.
+932 is niet deelbaar door 3.
+330 is deelbaar door 3.
+588 is deelbaar door 3.
+319 is niet deelbaar door 3.
+865 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([883, 205, 711, 867, 779, 805, 911, 115, 666, 256, 585, 455, 728, 505, 551, 558, 418, 338, 61])
+883 is niet deelbaar door 3.
+205 is niet deelbaar door 3.
+711 is deelbaar door 3.
+867 is deelbaar door 3.
+779 is niet deelbaar door 3.
+805 is niet deelbaar door 3.
+911 is niet deelbaar door 3.
+115 is niet deelbaar door 3.
+666 is deelbaar door 3.
+256 is niet deelbaar door 3.
+585 is deelbaar door 3.
+455 is niet deelbaar door 3.
+728 is niet deelbaar door 3.
+505 is niet deelbaar door 3.
+551 is niet deelbaar door 3.
+558 is deelbaar door 3.
+418 is niet deelbaar door 3.
+338 is niet deelbaar door 3.
+61 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([591, 912, 820, 967, 337, 401, 81, 818, 233, 537, 51, 9, 156])
+591 is deelbaar door 3.
+912 is deelbaar door 3.
+820 is niet deelbaar door 3.
+967 is niet deelbaar door 3.
+337 is niet deelbaar door 3.
+401 is niet deelbaar door 3.
+81 is deelbaar door 3.
+818 is niet deelbaar door 3.
+233 is niet deelbaar door 3.
+537 is deelbaar door 3.
+51 is deelbaar door 3.
+9 is deelbaar door 3.
+156 is deelbaar door 3.
+>>> PrintDeelbaarheden3([611, 503, 450, 776, 860, 411, 90, 348, 718, 894, 670, 974, 277, 781])
+611 is niet deelbaar door 3.
+503 is niet deelbaar door 3.
+450 is deelbaar door 3.
+776 is niet deelbaar door 3.
+860 is niet deelbaar door 3.
+411 is deelbaar door 3.
+90 is deelbaar door 3.
+348 is deelbaar door 3.
+718 is niet deelbaar door 3.
+894 is deelbaar door 3.
+670 is niet deelbaar door 3.
+974 is niet deelbaar door 3.
+277 is niet deelbaar door 3.
+781 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([296, 978, 158, 936, 604, 72, 980])
+296 is niet deelbaar door 3.
+978 is deelbaar door 3.
+158 is niet deelbaar door 3.
+936 is deelbaar door 3.
+604 is niet deelbaar door 3.
+72 is deelbaar door 3.
+980 is niet deelbaar door 3.
+>>> PrintDeelbaarheden3([])

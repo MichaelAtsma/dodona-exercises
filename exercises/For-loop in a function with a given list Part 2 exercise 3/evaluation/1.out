@@ -1,0 +1,8 @@
+--------------------------------------------------
+tab name: Bulk test
+used output channel: stdout
+<LANGUAGE code="en">
+    <function from="PrintDeelbaarheden3" to="PrintDivisibilities3" />
+    <fixed from="deelbaar door 3." to="divisible by 3." />
+    <fixed from="niet" to="not" />
+</LANGUAGE>
