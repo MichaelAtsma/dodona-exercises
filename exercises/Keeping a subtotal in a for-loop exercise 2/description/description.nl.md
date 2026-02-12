@@ -279,7 +279,7 @@ Vervang de underscores met het nodige zodat het volgende op het scherm verschijn
 ```
 
 <i>(want 
-$ 1^2 + 3^2 + 8^2 + 15^2 = 1 + 9 + 64 + 225 = 259 $
+$$ 1^2 + 3^2 + 8^2 + 15^2 = 1 + 9 + 64 + 225 = 259 $$
 )</i>
 
 <i>(Vervang enkel de underscores, laat de rest van de code zoals het is. Laat de underscores in de variabele <code>geld_over_in_portemonnee</code> staan, je moet enkel de langere underscores vervangen.)</i>
