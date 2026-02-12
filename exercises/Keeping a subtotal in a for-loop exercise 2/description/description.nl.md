@@ -275,7 +275,7 @@ print(som_van_kwadraten)
 Vervang de underscores met het nodige zodat het volgende op het scherm verschijnt:
 
 ```
-259
+299
 ```
 
 <i>(want 
