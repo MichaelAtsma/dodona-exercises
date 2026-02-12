@@ -3,17 +3,17 @@ import re
 
 # Pattern or literal to replace
 use_regex_for_to_replace = False
-to_replace = r"""bulk_test = True"""
+to_replace = r"""Totaalprijs"""
 
 # Replacement (can contain backreferences like r"\1" when use_regex is True)
 use_regex_for_replacement = False
-replacement = r"""bulk_test = False"""
+replacement = r"""Totaalbedrag"""
 
 
-filename_contains = "generate_tests.py"
+filename_contains = ""
 directory_contains = ""
 directory_does_not_contain = ""
-root_dir = "dodona-exercises/exercises"
+root_dir = "dodona-exercises/exercises/Keeping a subtotal in a for-loop in a function"
 
 for dirpath, dirnames, filenames in os.walk(root_dir):
     for filename in filenames:

@@ -2,5 +2,5 @@
 tab name: Voorbeelden
 used output channel: stdout
 <LANGUAGE code="en">
-    <function from="Totaalprijs" to="TotalPrice" />
+    <function from="Totaalbedrag" to="TotalPrice" />
 </LANGUAGE>

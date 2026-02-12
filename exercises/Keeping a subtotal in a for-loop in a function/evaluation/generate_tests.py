@@ -16,7 +16,7 @@ def capture_output(func, *args, **kwargs):
     finally:
         sys.stdout = old_stdout
 
-def Totaalprijs(prijzen):
+def Totaalbedrag(prijzen):
     totaal = 0
     for prijs in prijzen:
         totaal = totaal + prijs
@@ -24,7 +24,7 @@ def Totaalprijs(prijzen):
 
 
 function_effect = "returns"
-function = Totaalprijs
+function = Totaalbedrag
 bulk_test = True
 
 if not bulk_test:
@@ -39,7 +39,7 @@ else:
     X = edge_cases.copy()
     while len(X) < amount:
         to_append = [(random.randint(0, 10001)/100)*((random.randint(0, 5)>0)*2-1) for _ in range(random.randint(1, 50))]
-        if len(str(Totaalprijs(to_append)).split(".")[1]) <= 2:
+        if len(str(Totaalbedrag(to_append)).split(".")[1]) <= 2:
             X.append( (to_append,) )
 
 result = ""

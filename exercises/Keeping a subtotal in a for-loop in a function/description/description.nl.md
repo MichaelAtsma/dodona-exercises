@@ -310,11 +310,30 @@ Hallo wereld!
 
 We gaan nu het bijhouden van een subtotaal in een functie met een <i>for</i>-lus verwerken. Op die manier kan de gebruiker zelf een lijst van prijzen geven, en zal de functie het totaalbedrag teruggeven.
 
+Beschouw de functie <function name="Totaalbedrag"></function> hieronder als een voorbeeld van hoe dat eruit zou kunnen zien.
+
+```python
+def Totaalbedrag(prijzen):
+    totaal = 0
+    for prijs in prijzen:
+        totaal = totaal + prijs
+    return totaal
+```
+
+Wat doet deze functie?
+<ul>
+  <li>De functie heet <code>Totaalbedrag</code>.</li>
+  <li>De functie heeft één invoer, namelijk <code>prijzen</code>, wat een lijst van prijzen is.</li>
+  <li>Binnen de functie wordt een nieuwe variabele <code>totaal</code> gemaakt, die begint met de waarde <code>0</code>.</li>
+  <li>De functie gebruikt een <i>for</i>-lus om door elke <code>prijs</code> in de lijst <code>prijzen</code> te lopen.</li>
+  <li>In elke iteratie van de lus wordt de huidige <code>prijs</code> opgeteld bij het lopende totaal, waardoor <code>totaal</code> steeds geüpdatet wordt met het nieuwe totaalbedrag.</li>
+  <li>Nadat alle prijzen in de lijst zijn verwerkt, geeft de functie het uiteindelijke totaalbedrag terug als uitvoer.</li>
+
 <br>
 <hr>
 
 # <b>Opdracht</b>
-Maak een functie genaamd <function name="Totaalprijs"></function> die één invoer heeft, namelijk een lijst van prijzen (<i>floats</i> of <i>integers</i>). De functie zal met een <i>for</i>-lus het totaalbedrag van alle prijzen in de lijst berekenen en teruggeven.
+Maak een functie genaamd <function name="Totaalbedrag"></function> die één invoer heeft, namelijk een lijst van prijzen (<i>floats</i> of <i>integers</i>). De functie zal met een <i>for</i>-lus het totaalbedrag van alle prijzen in de lijst berekenen en teruggeven.
 
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
@@ -330,22 +349,22 @@ Maak een functie genaamd <function name="Totaalprijs"></function> die één invo
   </thead>
   <tbody>
     <tr>
-      <td><function name="Totaalprijs" inputs='[10.99, 5.49, 3.50]'></function></td>
+      <td><function name="Totaalbedrag" inputs='[10.99, 5.49, 3.50]'></function></td>
       <td style="text-align: center;">→</td>
       <td><pre><code>19.98</code></pre></td>
     </tr>
     <tr>
-      <td><function name="Totaalprijs" inputs='[1, 2, 4, 8, 16, 32]'></function></td>
+      <td><function name="Totaalbedrag" inputs='[1, 2, 4, 8, 16, 32]'></function></td>
       <td style="text-align: center;">→</td>
       <td><pre><code>63</code></pre></td>
     </tr>
     <tr>
-      <td><function name="Totaalprijs" inputs='[2.99, 12.50, 7.00, 7.00, -7.00, 5.33]'></function></td>
+      <td><function name="Totaalbedrag" inputs='[2.99, 12.50, 7.00, 7.00, -7.00, 5.33]'></function></td>
       <td style="text-align: center;">→</td>
       <td><pre><code>27.82</code></pre></td>
     </tr>
     <tr>
-      <td><function name="Totaalprijs" inputs='[]'></function></td>
+      <td><function name="Totaalbedrag" inputs='[]'></function></td>
       <td style="text-align: center;">→</td>
       <td><pre><code>0</code></pre></td>
     </tr>

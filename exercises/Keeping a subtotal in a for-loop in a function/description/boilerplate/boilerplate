@@ -1,2 +1,2 @@
-def Totaalprijs(prijzen):
+def Totaalbedrag(prijzen):
     
