@@ -37,9 +37,11 @@ def evaluate_test(context, match_regex, mandatory_texts_and_descriptions, forbid
     correct = all(checks.values())
     mymessages = []
     if correct:
+        expected_value_displayed = context.actual
         mymessages.append(Message(correct_message_template))
         mymessages.append(Message("Je hebt deze berekening geschreven om het totaal te updaten: " + m.group(3).strip()))
     else:
+        expected_value_displayed = context.expected
         if not checks["correct value"]:
             mymessages.append(Message(wrong_value_message_template))
         if not checks["mandatory texts used"]:
@@ -53,7 +55,7 @@ def evaluate_test(context, match_regex, mandatory_texts_and_descriptions, forbid
 
     return EvaluationResult(
       result = correct,
-      readable_expected = context.expected,
+      readable_expected = expected_value_displayed,
       readable_actual = context.actual,
       messages = mymessages
     )
