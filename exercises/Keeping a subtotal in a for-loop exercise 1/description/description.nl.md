@@ -277,4 +277,4 @@ Vervang de underscores met het nodige zodat het volgende op het scherm verschijn
 37.53
 ```
 
-<i>(Vervang enkel de underscores, laat de rest van de code zoals het is.)</i>
+<i>(Vervang enkel de underscores, laat de rest van de code zoals het is. Laat de underscores in <code>geld_over_in_portemonnee</code> staan, je moet enkel de langere underscores vervangen.)</i>
