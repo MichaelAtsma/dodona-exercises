@@ -254,7 +254,7 @@ Waarom?
 Maak een functie genaamd <function name="PrintRestdeling"></function> die twee variabelen als invoer neemt: een lijst en een deler. Deze lijst bevat getallen (<i>integers</i>) en de deler is een strict positief geheel getal (<i>integer</i>). De functie moet voor elk getal in de lijst op een aparte regel op het scherm afdrukken hoe de restdeling door de gegeven deler er uit ziet met één van de twee volgende zinnen: 
 <ul>
   <li><code class="string">[deler] past [aantal] keer in [getal] en de de rest is [rest].</code></li>
-  <li><code class="string">[getal] past precies [aantal] keer in [deler].</code></li>
+  <li><code class="string">[deler] past precies [aantal] keer in [getal].</code></li>
 </ul>
 waarbij <code class="string">[deler]</code>, <code class="string">[aantal]</code>, <code class="string">[getal]</code>, en <code class="string">[rest]</code> vervangen worden met de juiste waarden.
 
