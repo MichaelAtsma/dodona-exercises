@@ -2,7 +2,7 @@
   contexts:
     - testcases:
         - expression: "submission.prijzen"
-          result: [10.99, 5.49, 3.50, 9.99, 2.50]
+          return: [10.99, 5.49, 3.50, 9.99, 2.50]
         - stdin: ""
           stdout: 
             data: "37.53\n"
