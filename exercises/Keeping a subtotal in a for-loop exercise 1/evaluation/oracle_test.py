@@ -11,7 +11,10 @@ def lines_containing_var(text, var):
 def evaluate_test(context, match_regex, mandatory_texts_and_descriptions, forbidden_texts_and_descriptions, correct_message_template, wrong_value_message_template):
     submission = get_submission_code()
     checks = {}
-    checks["correct value"] = context.actual == context.expected
+    if isinstance(context.actual, float) and isinstance(context.expected, float):
+        checks["correct value"] = abs(context.actual - context.expected) < 1e-5
+    else:
+        checks["correct value"] = context.actual == context.expected
 
     m = re.fullmatch(match_regex, submission)
     student_contribution = m.group(3) if m else ""
