@@ -1,0 +1,568 @@
+>>> Portemonnee([0], 5)
+U begint met €5 in uw portemonnee.
+Na de aankoop van €0 heeft u nog €5 over in uw portemonnee.
+U eindigt met €5 in uw portemonnee.
+>>> Portemonnee([], 1)
+U begint met €1 in uw portemonnee.
+U eindigt met €1 in uw portemonnee.
+>>> Portemonnee([65.96], 153.35)
+U begint met €153.35 in uw portemonnee.
+Na de aankoop van €65.96 heeft u nog €87.39 over in uw portemonnee.
+U eindigt met €87.39 in uw portemonnee.
+>>> Portemonnee([92.5, 25.03, 69.86], 282.56)
+U begint met €282.56 in uw portemonnee.
+Na de aankoop van €92.5 heeft u nog €190.06 over in uw portemonnee.
+Na de aankoop van €25.03 heeft u nog €165.03 over in uw portemonnee.
+Na de aankoop van €69.86 heeft u nog €95.17 over in uw portemonnee.
+U eindigt met €95.17 in uw portemonnee.
+>>> Portemonnee([24.42], 65.61)
+U begint met €65.61 in uw portemonnee.
+Na de aankoop van €24.42 heeft u nog €41.19 over in uw portemonnee.
+U eindigt met €41.19 in uw portemonnee.
+>>> Portemonnee([72.69, 48.7, 47.56, 63.66, 12.14, 25.01, 5.55], 294.64)
+U begint met €294.64 in uw portemonnee.
+Na de aankoop van €72.69 heeft u nog €221.95 over in uw portemonnee.
+Na de aankoop van €48.7 heeft u nog €173.25 over in uw portemonnee.
+Na de aankoop van €47.56 heeft u nog €125.69 over in uw portemonnee.
+Na de aankoop van €63.66 heeft u nog €62.03 over in uw portemonnee.
+Na de aankoop van €12.14 heeft u nog €49.89 over in uw portemonnee.
+Na de aankoop van €25.01 heeft u nog €24.88 over in uw portemonnee.
+Na de aankoop van €5.55 heeft u nog €19.33 over in uw portemonnee.
+U eindigt met €19.33 in uw portemonnee.
+>>> Portemonnee([40.49, 72.37, 14.3, 7.31], 200.49)
+U begint met €200.49 in uw portemonnee.
+Na de aankoop van €40.49 heeft u nog €160.0 over in uw portemonnee.
+Na de aankoop van €72.37 heeft u nog €87.63 over in uw portemonnee.
+Na de aankoop van €14.3 heeft u nog €73.33 over in uw portemonnee.
+Na de aankoop van €7.31 heeft u nog €66.02 over in uw portemonnee.
+U eindigt met €66.02 in uw portemonnee.
+>>> Portemonnee([92.96, 55.66, 71.18, 3.81], 288.08)
+U begint met €288.08 in uw portemonnee.
+Na de aankoop van €92.96 heeft u nog €195.12 over in uw portemonnee.
+Na de aankoop van €55.66 heeft u nog €139.46 over in uw portemonnee.
+Na de aankoop van €71.18 heeft u nog €68.28 over in uw portemonnee.
+Na de aankoop van €3.81 heeft u nog €64.47 over in uw portemonnee.
+U eindigt met €64.47 in uw portemonnee.
+>>> Portemonnee([6.89], 40.45)
+U begint met €40.45 in uw portemonnee.
+Na de aankoop van €6.89 heeft u nog €33.56 over in uw portemonnee.
+U eindigt met €33.56 in uw portemonnee.
+>>> Portemonnee([50.21], 127.64)
+U begint met €127.64 in uw portemonnee.
+Na de aankoop van €50.21 heeft u nog €77.43 over in uw portemonnee.
+U eindigt met €77.43 in uw portemonnee.
+>>> Portemonnee([55.56], 124.25)
+U begint met €124.25 in uw portemonnee.
+Na de aankoop van €55.56 heeft u nog €68.69 over in uw portemonnee.
+U eindigt met €68.69 in uw portemonnee.
+>>> Portemonnee([47.82, 22.5, 49.67, 52.42, 85.34, 13.55, 52.57, 72.41, 0.63, 17.92, 48.06, 35.19], 534.0)
+U begint met €534.0 in uw portemonnee.
+Na de aankoop van €47.82 heeft u nog €486.18 over in uw portemonnee.
+Na de aankoop van €22.5 heeft u nog €463.68 over in uw portemonnee.
+Na de aankoop van €49.67 heeft u nog €414.01 over in uw portemonnee.
+Na de aankoop van €52.42 heeft u nog €361.59 over in uw portemonnee.
+Na de aankoop van €85.34 heeft u nog €276.25 over in uw portemonnee.
+Na de aankoop van €13.55 heeft u nog €262.7 over in uw portemonnee.
+Na de aankoop van €52.57 heeft u nog €210.13 over in uw portemonnee.
+Na de aankoop van €72.41 heeft u nog €137.72 over in uw portemonnee.
+Na de aankoop van €0.63 heeft u nog €137.09 over in uw portemonnee.
+Na de aankoop van €17.92 heeft u nog €119.17 over in uw portemonnee.
+Na de aankoop van €48.06 heeft u nog €71.11 over in uw portemonnee.
+Na de aankoop van €35.19 heeft u nog €35.92 over in uw portemonnee.
+U eindigt met €35.92 in uw portemonnee.
+>>> Portemonnee([58.76, 62.35, 6.93, 88.53, 61.15], 333.7)
+U begint met €333.7 in uw portemonnee.
+Na de aankoop van €58.76 heeft u nog €274.94 over in uw portemonnee.
+Na de aankoop van €62.35 heeft u nog €212.59 over in uw portemonnee.
+Na de aankoop van €6.93 heeft u nog €205.66 over in uw portemonnee.
+Na de aankoop van €88.53 heeft u nog €117.13 over in uw portemonnee.
+Na de aankoop van €61.15 heeft u nog €55.98 over in uw portemonnee.
+U eindigt met €55.98 in uw portemonnee.
+>>> Portemonnee([33.8], 84.05)
+U begint met €84.05 in uw portemonnee.
+Na de aankoop van €33.8 heeft u nog €50.25 over in uw portemonnee.
+U eindigt met €50.25 in uw portemonnee.
+>>> Portemonnee([90.16], 190.0)
+U begint met €190.0 in uw portemonnee.
+Na de aankoop van €90.16 heeft u nog €99.84 over in uw portemonnee.
+U eindigt met €99.84 in uw portemonnee.
+>>> Portemonnee([98.62, 1.25, 90.26], 225.74)
+U begint met €225.74 in uw portemonnee.
+Na de aankoop van €98.62 heeft u nog €127.12 over in uw portemonnee.
+Na de aankoop van €1.25 heeft u nog €125.87 over in uw portemonnee.
+Na de aankoop van €90.26 heeft u nog €35.61 over in uw portemonnee.
+U eindigt met €35.61 in uw portemonnee.
+>>> Portemonnee([43.48, 24.72, 43.89], 181.79)
+U begint met €181.79 in uw portemonnee.
+Na de aankoop van €43.48 heeft u nog €138.31 over in uw portemonnee.
+Na de aankoop van €24.72 heeft u nog €113.59 over in uw portemonnee.
+Na de aankoop van €43.89 heeft u nog €69.7 over in uw portemonnee.
+U eindigt met €69.7 in uw portemonnee.
+>>> Portemonnee([15.41], 27.05)
+U begint met €27.05 in uw portemonnee.
+Na de aankoop van €15.41 heeft u nog €11.64 over in uw portemonnee.
+U eindigt met €11.64 in uw portemonnee.
+>>> Portemonnee([53.82], 131.72)
+U begint met €131.72 in uw portemonnee.
+Na de aankoop van €53.82 heeft u nog €77.9 over in uw portemonnee.
+U eindigt met €77.9 in uw portemonnee.
+>>> Portemonnee([61.73, 24.46], 137.76)
+U begint met €137.76 in uw portemonnee.
+Na de aankoop van €61.73 heeft u nog €76.03 over in uw portemonnee.
+Na de aankoop van €24.46 heeft u nog €51.57 over in uw portemonnee.
+U eindigt met €51.57 in uw portemonnee.
+>>> Portemonnee([35.38, 6.17, 23.03], 116.5)
+U begint met €116.5 in uw portemonnee.
+Na de aankoop van €35.38 heeft u nog €81.12 over in uw portemonnee.
+Na de aankoop van €6.17 heeft u nog €74.95 over in uw portemonnee.
+Na de aankoop van €23.03 heeft u nog €51.92 over in uw portemonnee.
+U eindigt met €51.92 in uw portemonnee.
+>>> Portemonnee([74.62, 48.43, 98.74, 62.93], 346.62)
+U begint met €346.62 in uw portemonnee.
+Na de aankoop van €74.62 heeft u nog €272.0 over in uw portemonnee.
+Na de aankoop van €48.43 heeft u nog €223.57 over in uw portemonnee.
+Na de aankoop van €98.74 heeft u nog €124.83 over in uw portemonnee.
+Na de aankoop van €62.93 heeft u nog €61.9 over in uw portemonnee.
+U eindigt met €61.9 in uw portemonnee.
+>>> Portemonnee([33.79, 37.43, 94.15, 16.3, 22.64], 248.78)
+U begint met €248.78 in uw portemonnee.
+Na de aankoop van €33.79 heeft u nog €214.99 over in uw portemonnee.
+Na de aankoop van €37.43 heeft u nog €177.56 over in uw portemonnee.
+Na de aankoop van €94.15 heeft u nog €83.41 over in uw portemonnee.
+Na de aankoop van €16.3 heeft u nog €67.11 over in uw portemonnee.
+Na de aankoop van €22.64 heeft u nog €44.47 over in uw portemonnee.
+U eindigt met €44.47 in uw portemonnee.
+>>> Portemonnee([15.01, 40.15], 133.97)
+U begint met €133.97 in uw portemonnee.
+Na de aankoop van €15.01 heeft u nog €118.96 over in uw portemonnee.
+Na de aankoop van €40.15 heeft u nog €78.81 over in uw portemonnee.
+U eindigt met €78.81 in uw portemonnee.
+>>> Portemonnee([71.21], 89.74)
+U begint met €89.74 in uw portemonnee.
+Na de aankoop van €71.21 heeft u nog €18.53 over in uw portemonnee.
+U eindigt met €18.53 in uw portemonnee.
+>>> Portemonnee([53.73], 71.08)
+U begint met €71.08 in uw portemonnee.
+Na de aankoop van €53.73 heeft u nog €17.35 over in uw portemonnee.
+U eindigt met €17.35 in uw portemonnee.
+>>> Portemonnee([83.92, 54.68, 31.26, 53.23], 238.41)
+U begint met €238.41 in uw portemonnee.
+Na de aankoop van €83.92 heeft u nog €154.49 over in uw portemonnee.
+Na de aankoop van €54.68 heeft u nog €99.81 over in uw portemonnee.
+Na de aankoop van €31.26 heeft u nog €68.55 over in uw portemonnee.
+Na de aankoop van €53.23 heeft u nog €15.32 over in uw portemonnee.
+U eindigt met €15.32 in uw portemonnee.
+>>> Portemonnee([47.77], 123.27)
+U begint met €123.27 in uw portemonnee.
+Na de aankoop van €47.77 heeft u nog €75.5 over in uw portemonnee.
+U eindigt met €75.5 in uw portemonnee.
+>>> Portemonnee([20.17], 64.48)
+U begint met €64.48 in uw portemonnee.
+Na de aankoop van €20.17 heeft u nog €44.31 over in uw portemonnee.
+U eindigt met €44.31 in uw portemonnee.
+>>> Portemonnee([10.27], 67.32)
+U begint met €67.32 in uw portemonnee.
+Na de aankoop van €10.27 heeft u nog €57.05 over in uw portemonnee.
+U eindigt met €57.05 in uw portemonnee.
+>>> Portemonnee([93.74, 86.47], 268.43)
+U begint met €268.43 in uw portemonnee.
+Na de aankoop van €93.74 heeft u nog €174.69 over in uw portemonnee.
+Na de aankoop van €86.47 heeft u nog €88.22 over in uw portemonnee.
+U eindigt met €88.22 in uw portemonnee.
+>>> Portemonnee([59.79], 112.47)
+U begint met €112.47 in uw portemonnee.
+Na de aankoop van €59.79 heeft u nog €52.68 over in uw portemonnee.
+U eindigt met €52.68 in uw portemonnee.
+>>> Portemonnee([56.79, 5.0, 57.46, 69.23, 21.14], 241.9)
+U begint met €241.9 in uw portemonnee.
+Na de aankoop van €56.79 heeft u nog €185.11 over in uw portemonnee.
+Na de aankoop van €5.0 heeft u nog €180.11 over in uw portemonnee.
+Na de aankoop van €57.46 heeft u nog €122.65 over in uw portemonnee.
+Na de aankoop van €69.23 heeft u nog €53.42 over in uw portemonnee.
+Na de aankoop van €21.14 heeft u nog €32.28 over in uw portemonnee.
+U eindigt met €32.28 in uw portemonnee.
+>>> Portemonnee([44.62], 104.1)
+U begint met €104.1 in uw portemonnee.
+Na de aankoop van €44.62 heeft u nog €59.48 over in uw portemonnee.
+U eindigt met €59.48 in uw portemonnee.
+>>> Portemonnee([6.31, 12.79, 44.21], 158.78)
+U begint met €158.78 in uw portemonnee.
+Na de aankoop van €6.31 heeft u nog €152.47 over in uw portemonnee.
+Na de aankoop van €12.79 heeft u nog €139.68 over in uw portemonnee.
+Na de aankoop van €44.21 heeft u nog €95.47 over in uw portemonnee.
+U eindigt met €95.47 in uw portemonnee.
+>>> Portemonnee([81.0, 86.88], 227.72)
+U begint met €227.72 in uw portemonnee.
+Na de aankoop van €81.0 heeft u nog €146.72 over in uw portemonnee.
+Na de aankoop van €86.88 heeft u nog €59.84 over in uw portemonnee.
+U eindigt met €59.84 in uw portemonnee.
+>>> Portemonnee([94.73], 178.47)
+U begint met €178.47 in uw portemonnee.
+Na de aankoop van €94.73 heeft u nog €83.74 over in uw portemonnee.
+U eindigt met €83.74 in uw portemonnee.
+>>> Portemonnee([80.57, 29.35, 63.62, 62.2, 69.8], 371.24)
+U begint met €371.24 in uw portemonnee.
+Na de aankoop van €80.57 heeft u nog €290.67 over in uw portemonnee.
+Na de aankoop van €29.35 heeft u nog €261.32 over in uw portemonnee.
+Na de aankoop van €63.62 heeft u nog €197.7 over in uw portemonnee.
+Na de aankoop van €62.2 heeft u nog €135.5 over in uw portemonnee.
+Na de aankoop van €69.8 heeft u nog €65.7 over in uw portemonnee.
+U eindigt met €65.7 in uw portemonnee.
+>>> Portemonnee([13.89, 91.24, 23.88, 5.97, 88.08], 246.64)
+U begint met €246.64 in uw portemonnee.
+Na de aankoop van €13.89 heeft u nog €232.75 over in uw portemonnee.
+Na de aankoop van €91.24 heeft u nog €141.51 over in uw portemonnee.
+Na de aankoop van €23.88 heeft u nog €117.63 over in uw portemonnee.
+Na de aankoop van €5.97 heeft u nog €111.66 over in uw portemonnee.
+Na de aankoop van €88.08 heeft u nog €23.58 over in uw portemonnee.
+U eindigt met €23.58 in uw portemonnee.
+>>> Portemonnee([58.91, 81.91, 98.81], 312.69)
+U begint met €312.69 in uw portemonnee.
+Na de aankoop van €58.91 heeft u nog €253.78 over in uw portemonnee.
+Na de aankoop van €81.91 heeft u nog €171.87 over in uw portemonnee.
+Na de aankoop van €98.81 heeft u nog €73.06 over in uw portemonnee.
+U eindigt met €73.06 in uw portemonnee.
+>>> Portemonnee([31.61], 65.66)
+U begint met €65.66 in uw portemonnee.
+Na de aankoop van €31.61 heeft u nog €34.05 over in uw portemonnee.
+U eindigt met €34.05 in uw portemonnee.
+>>> Portemonnee([8.34, 19.49], 57.84)
+U begint met €57.84 in uw portemonnee.
+Na de aankoop van €8.34 heeft u nog €49.5 over in uw portemonnee.
+Na de aankoop van €19.49 heeft u nog €30.01 over in uw portemonnee.
+U eindigt met €30.01 in uw portemonnee.
+>>> Portemonnee([21.07], 55.17)
+U begint met €55.17 in uw portemonnee.
+Na de aankoop van €21.07 heeft u nog €34.1 over in uw portemonnee.
+U eindigt met €34.1 in uw portemonnee.
+>>> Portemonnee([79.43, 92.16, 4.43, 6.41, 80.15], 357.61)
+U begint met €357.61 in uw portemonnee.
+Na de aankoop van €79.43 heeft u nog €278.18 over in uw portemonnee.
+Na de aankoop van €92.16 heeft u nog €186.02 over in uw portemonnee.
+Na de aankoop van €4.43 heeft u nog €181.59 over in uw portemonnee.
+Na de aankoop van €6.41 heeft u nog €175.18 over in uw portemonnee.
+Na de aankoop van €80.15 heeft u nog €95.03 over in uw portemonnee.
+U eindigt met €95.03 in uw portemonnee.
+>>> Portemonnee([4.51], 95.14)
+U begint met €95.14 in uw portemonnee.
+Na de aankoop van €4.51 heeft u nog €90.63 over in uw portemonnee.
+U eindigt met €90.63 in uw portemonnee.
+>>> Portemonnee([27.87, 41.03, 40.14], 148.93)
+U begint met €148.93 in uw portemonnee.
+Na de aankoop van €27.87 heeft u nog €121.06 over in uw portemonnee.
+Na de aankoop van €41.03 heeft u nog €80.03 over in uw portemonnee.
+Na de aankoop van €40.14 heeft u nog €39.89 over in uw portemonnee.
+U eindigt met €39.89 in uw portemonnee.
+>>> Portemonnee([43.61, 30.76, 42.9, 57.36, 13.9, 11.37, 91.81], 346.24)
+U begint met €346.24 in uw portemonnee.
+Na de aankoop van €43.61 heeft u nog €302.63 over in uw portemonnee.
+Na de aankoop van €30.76 heeft u nog €271.87 over in uw portemonnee.
+Na de aankoop van €42.9 heeft u nog €228.97 over in uw portemonnee.
+Na de aankoop van €57.36 heeft u nog €171.61 over in uw portemonnee.
+Na de aankoop van €13.9 heeft u nog €157.71 over in uw portemonnee.
+Na de aankoop van €11.37 heeft u nog €146.34 over in uw portemonnee.
+Na de aankoop van €91.81 heeft u nog €54.53 over in uw portemonnee.
+U eindigt met €54.53 in uw portemonnee.
+>>> Portemonnee([65.2], 122.2)
+U begint met €122.2 in uw portemonnee.
+Na de aankoop van €65.2 heeft u nog €57.0 over in uw portemonnee.
+U eindigt met €57.0 in uw portemonnee.
+>>> Portemonnee([24.83], 77.47)
+U begint met €77.47 in uw portemonnee.
+Na de aankoop van €24.83 heeft u nog €52.64 over in uw portemonnee.
+U eindigt met €52.64 in uw portemonnee.
+>>> Portemonnee([82.14, 22.05], 140.25)
+U begint met €140.25 in uw portemonnee.
+Na de aankoop van €82.14 heeft u nog €58.11 over in uw portemonnee.
+Na de aankoop van €22.05 heeft u nog €36.06 over in uw portemonnee.
+U eindigt met €36.06 in uw portemonnee.
+>>> Portemonnee([2.06], 24.15)
+U begint met €24.15 in uw portemonnee.
+Na de aankoop van €2.06 heeft u nog €22.09 over in uw portemonnee.
+U eindigt met €22.09 in uw portemonnee.
+>>> Portemonnee([2.87], 59.93)
+U begint met €59.93 in uw portemonnee.
+Na de aankoop van €2.87 heeft u nog €57.06 over in uw portemonnee.
+U eindigt met €57.06 in uw portemonnee.
+>>> Portemonnee([47.97, 64.46, 25.33, 49.12, 46.57], 273.57)
+U begint met €273.57 in uw portemonnee.
+Na de aankoop van €47.97 heeft u nog €225.6 over in uw portemonnee.
+Na de aankoop van €64.46 heeft u nog €161.14 over in uw portemonnee.
+Na de aankoop van €25.33 heeft u nog €135.81 over in uw portemonnee.
+Na de aankoop van €49.12 heeft u nog €86.69 over in uw portemonnee.
+Na de aankoop van €46.57 heeft u nog €40.12 over in uw portemonnee.
+U eindigt met €40.12 in uw portemonnee.
+>>> Portemonnee([81.06, 17.33, 33.38], 225.15)
+U begint met €225.15 in uw portemonnee.
+Na de aankoop van €81.06 heeft u nog €144.09 over in uw portemonnee.
+Na de aankoop van €17.33 heeft u nog €126.76 over in uw portemonnee.
+Na de aankoop van €33.38 heeft u nog €93.38 over in uw portemonnee.
+U eindigt met €93.38 in uw portemonnee.
+>>> Portemonnee([10.27, 8.88, 97.9], 201.4)
+U begint met €201.4 in uw portemonnee.
+Na de aankoop van €10.27 heeft u nog €191.13 over in uw portemonnee.
+Na de aankoop van €8.88 heeft u nog €182.25 over in uw portemonnee.
+Na de aankoop van €97.9 heeft u nog €84.35 over in uw portemonnee.
+U eindigt met €84.35 in uw portemonnee.
+>>> Portemonnee([68.34], 96.06)
+U begint met €96.06 in uw portemonnee.
+Na de aankoop van €68.34 heeft u nog €27.72 over in uw portemonnee.
+U eindigt met €27.72 in uw portemonnee.
+>>> Portemonnee([47.87, 82.07, 2.81], 209.82)
+U begint met €209.82 in uw portemonnee.
+Na de aankoop van €47.87 heeft u nog €161.95 over in uw portemonnee.
+Na de aankoop van €82.07 heeft u nog €79.88 over in uw portemonnee.
+Na de aankoop van €2.81 heeft u nog €77.07 over in uw portemonnee.
+U eindigt met €77.07 in uw portemonnee.
+>>> Portemonnee([73.24, 58.51], 154.32)
+U begint met €154.32 in uw portemonnee.
+Na de aankoop van €73.24 heeft u nog €81.08 over in uw portemonnee.
+Na de aankoop van €58.51 heeft u nog €22.57 over in uw portemonnee.
+U eindigt met €22.57 in uw portemonnee.
+>>> Portemonnee([17.85, 79.19], 164.98)
+U begint met €164.98 in uw portemonnee.
+Na de aankoop van €17.85 heeft u nog €147.13 over in uw portemonnee.
+Na de aankoop van €79.19 heeft u nog €67.94 over in uw portemonnee.
+U eindigt met €67.94 in uw portemonnee.
+>>> Portemonnee([11.91, 14.41, 32.38, 25.86, 10.91], 100.74)
+U begint met €100.74 in uw portemonnee.
+Na de aankoop van €11.91 heeft u nog €88.83 over in uw portemonnee.
+Na de aankoop van €14.41 heeft u nog €74.42 over in uw portemonnee.
+Na de aankoop van €32.38 heeft u nog €42.04 over in uw portemonnee.
+Na de aankoop van €25.86 heeft u nog €16.18 over in uw portemonnee.
+Na de aankoop van €10.91 heeft u nog €5.27 over in uw portemonnee.
+U eindigt met €5.27 in uw portemonnee.
+>>> Portemonnee([29.27, 98.17, 7.1, 9.59, 11.24, 72.94, 29.98, 81.54], 421.07)
+U begint met €421.07 in uw portemonnee.
+Na de aankoop van €29.27 heeft u nog €391.8 over in uw portemonnee.
+Na de aankoop van €98.17 heeft u nog €293.63 over in uw portemonnee.
+Na de aankoop van €7.1 heeft u nog €286.53 over in uw portemonnee.
+Na de aankoop van €9.59 heeft u nog €276.94 over in uw portemonnee.
+Na de aankoop van €11.24 heeft u nog €265.7 over in uw portemonnee.
+Na de aankoop van €72.94 heeft u nog €192.76 over in uw portemonnee.
+Na de aankoop van €29.98 heeft u nog €162.78 over in uw portemonnee.
+Na de aankoop van €81.54 heeft u nog €81.24 over in uw portemonnee.
+U eindigt met €81.24 in uw portemonnee.
+>>> Portemonnee([34.39], 76.69)
+U begint met €76.69 in uw portemonnee.
+Na de aankoop van €34.39 heeft u nog €42.3 over in uw portemonnee.
+U eindigt met €42.3 in uw portemonnee.
+>>> Portemonnee([6.74, 72.9, 10.74, 62.24, 3.79, 31.79, 11.03, 93.37, 34.84, 76.5, 28.26, 93.06, 85.18, 86.0, 77.87, 22.34, 58.18, 27.77, 15.75, 32.51], 1019.67)
+U begint met €1019.67 in uw portemonnee.
+Na de aankoop van €6.74 heeft u nog €1012.93 over in uw portemonnee.
+Na de aankoop van €72.9 heeft u nog €940.03 over in uw portemonnee.
+Na de aankoop van €10.74 heeft u nog €929.29 over in uw portemonnee.
+Na de aankoop van €62.24 heeft u nog €867.05 over in uw portemonnee.
+Na de aankoop van €3.79 heeft u nog €863.26 over in uw portemonnee.
+Na de aankoop van €31.79 heeft u nog €831.47 over in uw portemonnee.
+Na de aankoop van €11.03 heeft u nog €820.44 over in uw portemonnee.
+Na de aankoop van €93.37 heeft u nog €727.07 over in uw portemonnee.
+Na de aankoop van €34.84 heeft u nog €692.23 over in uw portemonnee.
+Na de aankoop van €76.5 heeft u nog €615.73 over in uw portemonnee.
+Na de aankoop van €28.26 heeft u nog €587.47 over in uw portemonnee.
+Na de aankoop van €93.06 heeft u nog €494.41 over in uw portemonnee.
+Na de aankoop van €85.18 heeft u nog €409.23 over in uw portemonnee.
+Na de aankoop van €86.0 heeft u nog €323.23 over in uw portemonnee.
+Na de aankoop van €77.87 heeft u nog €245.36 over in uw portemonnee.
+Na de aankoop van €22.34 heeft u nog €223.02 over in uw portemonnee.
+Na de aankoop van €58.18 heeft u nog €164.84 over in uw portemonnee.
+Na de aankoop van €27.77 heeft u nog €137.07 over in uw portemonnee.
+Na de aankoop van €15.75 heeft u nog €121.32 over in uw portemonnee.
+Na de aankoop van €32.51 heeft u nog €88.81 over in uw portemonnee.
+U eindigt met €88.81 in uw portemonnee.
+>>> Portemonnee([56.23], 120.61)
+U begint met €120.61 in uw portemonnee.
+Na de aankoop van €56.23 heeft u nog €64.38 over in uw portemonnee.
+U eindigt met €64.38 in uw portemonnee.
+>>> Portemonnee([83.54, 43.61], 205.31)
+U begint met €205.31 in uw portemonnee.
+Na de aankoop van €83.54 heeft u nog €121.77 over in uw portemonnee.
+Na de aankoop van €43.61 heeft u nog €78.16 over in uw portemonnee.
+U eindigt met €78.16 in uw portemonnee.
+>>> Portemonnee([11.6, 54.75, 23.92, 22.62, 4.58, 51.22], 200.97)
+U begint met €200.97 in uw portemonnee.
+Na de aankoop van €11.6 heeft u nog €189.37 over in uw portemonnee.
+Na de aankoop van €54.75 heeft u nog €134.62 over in uw portemonnee.
+Na de aankoop van €23.92 heeft u nog €110.7 over in uw portemonnee.
+Na de aankoop van €22.62 heeft u nog €88.08 over in uw portemonnee.
+Na de aankoop van €4.58 heeft u nog €83.5 over in uw portemonnee.
+Na de aankoop van €51.22 heeft u nog €32.28 over in uw portemonnee.
+U eindigt met €32.28 in uw portemonnee.
+>>> Portemonnee([42.02, 48.97], 155.37)
+U begint met €155.37 in uw portemonnee.
+Na de aankoop van €42.02 heeft u nog €113.35 over in uw portemonnee.
+Na de aankoop van €48.97 heeft u nog €64.38 over in uw portemonnee.
+U eindigt met €64.38 in uw portemonnee.
+>>> Portemonnee([98.25, 5.71], 121.11)
+U begint met €121.11 in uw portemonnee.
+Na de aankoop van €98.25 heeft u nog €22.86 over in uw portemonnee.
+Na de aankoop van €5.71 heeft u nog €17.15 over in uw portemonnee.
+U eindigt met €17.15 in uw portemonnee.
+>>> Portemonnee([67.16], 123.24)
+U begint met €123.24 in uw portemonnee.
+Na de aankoop van €67.16 heeft u nog €56.08 over in uw portemonnee.
+U eindigt met €56.08 in uw portemonnee.
+>>> Portemonnee([35.63, 88.02, 47.04, 45.13, 93.08, 80.66, 22.58], 500.59)
+U begint met €500.59 in uw portemonnee.
+Na de aankoop van €35.63 heeft u nog €464.96 over in uw portemonnee.
+Na de aankoop van €88.02 heeft u nog €376.94 over in uw portemonnee.
+Na de aankoop van €47.04 heeft u nog €329.9 over in uw portemonnee.
+Na de aankoop van €45.13 heeft u nog €284.77 over in uw portemonnee.
+Na de aankoop van €93.08 heeft u nog €191.69 over in uw portemonnee.
+Na de aankoop van €80.66 heeft u nog €111.03 over in uw portemonnee.
+Na de aankoop van €22.58 heeft u nog €88.45 over in uw portemonnee.
+U eindigt met €88.45 in uw portemonnee.
+>>> Portemonnee([83.49, 78.14, 21.08], 202.38)
+U begint met €202.38 in uw portemonnee.
+Na de aankoop van €83.49 heeft u nog €118.89 over in uw portemonnee.
+Na de aankoop van €78.14 heeft u nog €40.75 over in uw portemonnee.
+Na de aankoop van €21.08 heeft u nog €19.67 over in uw portemonnee.
+U eindigt met €19.67 in uw portemonnee.
+>>> Portemonnee([23.78], 119.26)
+U begint met €119.26 in uw portemonnee.
+Na de aankoop van €23.78 heeft u nog €95.48 over in uw portemonnee.
+U eindigt met €95.48 in uw portemonnee.
+>>> Portemonnee([8.93], 42.08)
+U begint met €42.08 in uw portemonnee.
+Na de aankoop van €8.93 heeft u nog €33.15 over in uw portemonnee.
+U eindigt met €33.15 in uw portemonnee.
+>>> Portemonnee([45.46, 45.77, 90.32], 231.77)
+U begint met €231.77 in uw portemonnee.
+Na de aankoop van €45.46 heeft u nog €186.31 over in uw portemonnee.
+Na de aankoop van €45.77 heeft u nog €140.54 over in uw portemonnee.
+Na de aankoop van €90.32 heeft u nog €50.22 over in uw portemonnee.
+U eindigt met €50.22 in uw portemonnee.
+>>> Portemonnee([79.26], 133.93)
+U begint met €133.93 in uw portemonnee.
+Na de aankoop van €79.26 heeft u nog €54.67 over in uw portemonnee.
+U eindigt met €54.67 in uw portemonnee.
+>>> Portemonnee([79.3], 104.83)
+U begint met €104.83 in uw portemonnee.
+Na de aankoop van €79.3 heeft u nog €25.53 over in uw portemonnee.
+U eindigt met €25.53 in uw portemonnee.
+>>> Portemonnee([40.8], 66.41)
+U begint met €66.41 in uw portemonnee.
+Na de aankoop van €40.8 heeft u nog €25.61 over in uw portemonnee.
+U eindigt met €25.61 in uw portemonnee.
+>>> Portemonnee([44.52, 6.04, 89.88, 17.98, 82.85], 333.95)
+U begint met €333.95 in uw portemonnee.
+Na de aankoop van €44.52 heeft u nog €289.43 over in uw portemonnee.
+Na de aankoop van €6.04 heeft u nog €283.39 over in uw portemonnee.
+Na de aankoop van €89.88 heeft u nog €193.51 over in uw portemonnee.
+Na de aankoop van €17.98 heeft u nog €175.53 over in uw portemonnee.
+Na de aankoop van €82.85 heeft u nog €92.68 over in uw portemonnee.
+U eindigt met €92.68 in uw portemonnee.
+>>> Portemonnee([17.25, 63.1], 121.86)
+U begint met €121.86 in uw portemonnee.
+Na de aankoop van €17.25 heeft u nog €104.61 over in uw portemonnee.
+Na de aankoop van €63.1 heeft u nog €41.51 over in uw portemonnee.
+U eindigt met €41.51 in uw portemonnee.
+>>> Portemonnee([44.7, 93.5, 23.96, 34.58, 33.89, 97.59], 378.31)
+U begint met €378.31 in uw portemonnee.
+Na de aankoop van €44.7 heeft u nog €333.61 over in uw portemonnee.
+Na de aankoop van €93.5 heeft u nog €240.11 over in uw portemonnee.
+Na de aankoop van €23.96 heeft u nog €216.15 over in uw portemonnee.
+Na de aankoop van €34.58 heeft u nog €181.57 over in uw portemonnee.
+Na de aankoop van €33.89 heeft u nog €147.68 over in uw portemonnee.
+Na de aankoop van €97.59 heeft u nog €50.09 over in uw portemonnee.
+U eindigt met €50.09 in uw portemonnee.
+>>> Portemonnee([0.91, 33.35], 111.1)
+U begint met €111.1 in uw portemonnee.
+Na de aankoop van €0.91 heeft u nog €110.19 over in uw portemonnee.
+Na de aankoop van €33.35 heeft u nog €76.84 over in uw portemonnee.
+U eindigt met €76.84 in uw portemonnee.
+>>> Portemonnee([7.27], 22.09)
+U begint met €22.09 in uw portemonnee.
+Na de aankoop van €7.27 heeft u nog €14.82 over in uw portemonnee.
+U eindigt met €14.82 in uw portemonnee.
+>>> Portemonnee([29.35], 129.07)
+U begint met €129.07 in uw portemonnee.
+Na de aankoop van €29.35 heeft u nog €99.72 over in uw portemonnee.
+U eindigt met €99.72 in uw portemonnee.
+>>> Portemonnee([0.89], 68.63)
+U begint met €68.63 in uw portemonnee.
+Na de aankoop van €0.89 heeft u nog €67.74 over in uw portemonnee.
+U eindigt met €67.74 in uw portemonnee.
+>>> Portemonnee([23.72, 10.15], 69.89)
+U begint met €69.89 in uw portemonnee.
+Na de aankoop van €23.72 heeft u nog €46.17 over in uw portemonnee.
+Na de aankoop van €10.15 heeft u nog €36.02 over in uw portemonnee.
+U eindigt met €36.02 in uw portemonnee.
+>>> Portemonnee([35.58, 4.78], 114.78)
+U begint met €114.78 in uw portemonnee.
+Na de aankoop van €35.58 heeft u nog €79.2 over in uw portemonnee.
+Na de aankoop van €4.78 heeft u nog €74.42 over in uw portemonnee.
+U eindigt met €74.42 in uw portemonnee.
+>>> Portemonnee([93.37, 73.57, 62.6, 97.07, 20.53], 429.26)
+U begint met €429.26 in uw portemonnee.
+Na de aankoop van €93.37 heeft u nog €335.89 over in uw portemonnee.
+Na de aankoop van €73.57 heeft u nog €262.32 over in uw portemonnee.
+Na de aankoop van €62.6 heeft u nog €199.72 over in uw portemonnee.
+Na de aankoop van €97.07 heeft u nog €102.65 over in uw portemonnee.
+Na de aankoop van €20.53 heeft u nog €82.12 over in uw portemonnee.
+U eindigt met €82.12 in uw portemonnee.
+>>> Portemonnee([8.18, 97.27, 15.9], 163.84)
+U begint met €163.84 in uw portemonnee.
+Na de aankoop van €8.18 heeft u nog €155.66 over in uw portemonnee.
+Na de aankoop van €97.27 heeft u nog €58.39 over in uw portemonnee.
+Na de aankoop van €15.9 heeft u nog €42.49 over in uw portemonnee.
+U eindigt met €42.49 in uw portemonnee.
+>>> Portemonnee([50.97], 131.03)
+U begint met €131.03 in uw portemonnee.
+Na de aankoop van €50.97 heeft u nog €80.06 over in uw portemonnee.
+U eindigt met €80.06 in uw portemonnee.
+>>> Portemonnee([44.56, 4.8], 107.39)
+U begint met €107.39 in uw portemonnee.
+Na de aankoop van €44.56 heeft u nog €62.83 over in uw portemonnee.
+Na de aankoop van €4.8 heeft u nog €58.03 over in uw portemonnee.
+U eindigt met €58.03 in uw portemonnee.
+>>> Portemonnee([27.57, 89.16, 24.15, 2.19, 54.71, 89.17], 328.81)
+U begint met €328.81 in uw portemonnee.
+Na de aankoop van €27.57 heeft u nog €301.24 over in uw portemonnee.
+Na de aankoop van €89.16 heeft u nog €212.08 over in uw portemonnee.
+Na de aankoop van €24.15 heeft u nog €187.93 over in uw portemonnee.
+Na de aankoop van €2.19 heeft u nog €185.74 over in uw portemonnee.
+Na de aankoop van €54.71 heeft u nog €131.03 over in uw portemonnee.
+Na de aankoop van €89.17 heeft u nog €41.86 over in uw portemonnee.
+U eindigt met €41.86 in uw portemonnee.
+>>> Portemonnee([41.01], 134.69)
+U begint met €134.69 in uw portemonnee.
+Na de aankoop van €41.01 heeft u nog €93.68 over in uw portemonnee.
+U eindigt met €93.68 in uw portemonnee.
+>>> Portemonnee([34.05, 0.53, 14.82], 103.44)
+U begint met €103.44 in uw portemonnee.
+Na de aankoop van €34.05 heeft u nog €69.39 over in uw portemonnee.
+Na de aankoop van €0.53 heeft u nog €68.86 over in uw portemonnee.
+Na de aankoop van €14.82 heeft u nog €54.04 over in uw portemonnee.
+U eindigt met €54.04 in uw portemonnee.
+>>> Portemonnee([6.25], 29.81)
+U begint met €29.81 in uw portemonnee.
+Na de aankoop van €6.25 heeft u nog €23.56 over in uw portemonnee.
+U eindigt met €23.56 in uw portemonnee.
+>>> Portemonnee([0.95], 87.86)
+U begint met €87.86 in uw portemonnee.
+Na de aankoop van €0.95 heeft u nog €86.91 over in uw portemonnee.
+U eindigt met €86.91 in uw portemonnee.
+>>> Portemonnee([15.09], 24.36)
+U begint met €24.36 in uw portemonnee.
+Na de aankoop van €15.09 heeft u nog €9.27 over in uw portemonnee.
+U eindigt met €9.27 in uw portemonnee.
+>>> Portemonnee([92.55, 54.54], 226.81)
+U begint met €226.81 in uw portemonnee.
+Na de aankoop van €92.55 heeft u nog €134.26 over in uw portemonnee.
+Na de aankoop van €54.54 heeft u nog €79.72 over in uw portemonnee.
+U eindigt met €79.72 in uw portemonnee.
+>>> Portemonnee([88.58, 38.18], 217.07)
+U begint met €217.07 in uw portemonnee.
+Na de aankoop van €88.58 heeft u nog €128.49 over in uw portemonnee.
+Na de aankoop van €38.18 heeft u nog €90.31 over in uw portemonnee.
+U eindigt met €90.31 in uw portemonnee.
+>>> Portemonnee([10.45], 35.26)
+U begint met €35.26 in uw portemonnee.
+Na de aankoop van €10.45 heeft u nog €24.81 over in uw portemonnee.
+U eindigt met €24.81 in uw portemonnee.
+>>> Portemonnee([24.47, 23.39], 105.17)
+U begint met €105.17 in uw portemonnee.
+Na de aankoop van €24.47 heeft u nog €80.7 over in uw portemonnee.
+Na de aankoop van €23.39 heeft u nog €57.31 over in uw portemonnee.
+U eindigt met €57.31 in uw portemonnee.

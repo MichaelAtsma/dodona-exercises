@@ -1,0 +1,12 @@
+--------------------------------------------------
+tab name: Bulk test
+used output channel: stdout
+<LANGUAGE code="en">
+    <function from="Portemonnee" to="Wallet" />
+    <fixed from="U begint met" to="You start with" />
+    <fixed from="in uw portemonnee" to="in your wallet" />
+    <fixed from="Na de aankoop van" to="After the purchase of" />
+    <fixed from="heeft u nog" to="you have" />
+    <fixed from="over" to="left" />
+    <fixed from="U eindigt met" to="You end up with" />
+</LANGUAGE>

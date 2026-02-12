@@ -1,0 +1,27 @@
+>>> Portemonnee([10, 20, 30], 100)
+U begint met €100 in uw portemonnee.
+Na de aankoop van €10 heeft u nog €90 over in uw portemonnee.
+Na de aankoop van €20 heeft u nog €70 over in uw portemonnee.
+Na de aankoop van €30 heeft u nog €40 over in uw portemonnee.
+U eindigt met €40 in uw portemonnee.
+>>> Portemonnee([5, 15, 15, 10, 5], 50)
+U begint met €50 in uw portemonnee.
+Na de aankoop van €5 heeft u nog €45 over in uw portemonnee.
+Na de aankoop van €15 heeft u nog €30 over in uw portemonnee.
+Na de aankoop van €15 heeft u nog €15 over in uw portemonnee.
+Na de aankoop van €10 heeft u nog €5 over in uw portemonnee.
+Na de aankoop van €5 heeft u nog €0 over in uw portemonnee.
+U eindigt met €0 in uw portemonnee.
+>>> Portemonnee([7.99, 2.5, 3.75], 20)
+U begint met €20 in uw portemonnee.
+Na de aankoop van €7.99 heeft u nog €12.01 over in uw portemonnee.
+Na de aankoop van €2.5 heeft u nog €9.51 over in uw portemonnee.
+Na de aankoop van €3.75 heeft u nog €5.76 over in uw portemonnee.
+U eindigt met €5.76 in uw portemonnee.
+>>> Portemonnee([], 20)
+U begint met €20 in uw portemonnee.
+U eindigt met €20 in uw portemonnee.
+>>> Portemonnee([2.51], 3.51)
+U begint met €3.51 in uw portemonnee.
+Na de aankoop van €2.51 heeft u nog €1.0 over in uw portemonnee.
+U eindigt met €1.0 in uw portemonnee.
