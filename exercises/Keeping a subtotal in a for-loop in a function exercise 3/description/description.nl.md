@@ -255,7 +255,7 @@ De functie moet na elke aankoop op het scherm afdrukken hoeveel de aankoop kost 
     <tr>
       <th>Invoer</th>
       <th class="padding-column">→</th>
-      <th>Verwachte output</th>
+      <th class="big-padding-column">Verwachte output</th>
     </tr>
   </thead>
   <tbody>
