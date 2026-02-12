@@ -274,7 +274,7 @@ waarbij <code class="string">[wachtwoord]</code> vervangen wordt met het juiste 
     <tr>
       <td><function name="PrintWachtwoordLengtes" inputs='["wachtwoord", "ditiseenlangwachtwoord", "ww1234"]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code>wachtwoord is een te kort wachtwoord.<br>ditiseenlangwachtwoord is een lang wachtwoord.<br>ww1234 is een te kort wachtwoord.</code></pre></td>
+      <td><pre><code>wachtwoord is precies lang genoeg als wachtwoord.<br>ditiseenlangwachtwoord is een lang wachtwoord.<br>ww1234 is een te kort wachtwoord.</code></pre></td>
     </tr>
     <tr>
       <td><function name="PrintWachtwoordLengtes" inputs='["hellokitty", "bobdebouwer", "supersecurepassword", "hallo", "12345678"]'></function></td>
