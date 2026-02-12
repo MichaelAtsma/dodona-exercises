@@ -328,6 +328,7 @@ Wat doet deze functie?
   <li>De functie gebruikt een <i>for</i>-lus om door elke <code>prijs</code> in de lijst <code>prijzen</code> te lopen.</li>
   <li>In elke iteratie van de lus wordt de huidige <code>prijs</code> opgeteld bij het lopende totaal, waardoor <code>totaal</code> steeds geüpdatet wordt met het nieuwe totaalbedrag.</li>
   <li>Nadat alle prijzen in de lijst zijn verwerkt, geeft de functie het uiteindelijke totaalbedrag terug als uitvoer.</li>
+</ul>
 
 <br>
 <hr>
