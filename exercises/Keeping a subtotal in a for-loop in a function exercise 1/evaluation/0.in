@@ -1,0 +1,8 @@
+>>> SomVanKwadraten([10, 5, 3])
+134
+>>> SomVanKwadraten([1, 2, 4, 8, 16, 32])
+1365
+>>> SomVanKwadraten([2, 3, 4])
+29
+>>> SomVanKwadraten([])
+0

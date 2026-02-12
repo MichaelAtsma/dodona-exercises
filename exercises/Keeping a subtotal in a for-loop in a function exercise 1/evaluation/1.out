@@ -1,0 +1,6 @@
+--------------------------------------------------
+tab name: Bulk test
+used output channel: stdout
+<LANGUAGE code="en">
+    <function from="SomVanKwadraten" to="SumOfSquares" />
+</LANGUAGE>
