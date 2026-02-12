@@ -248,7 +248,7 @@ Maak een functie genaamd <function name="GenummerdeLeerlingen"></function> die Ã
     <tr>
       <th>Invoer</th>
       <th class="padding-column">â†’</th>
-      <th>Verwachte returnwaarde</th>
+      <th>Verwachte output</th>
     </tr>
   </thead>
   <tbody>
@@ -268,7 +268,7 @@ Maak een functie genaamd <function name="GenummerdeLeerlingen"></function> die Ã
       <td><pre><code>Leerling nummer 1: Hiba<br>Leerling nummer 2: InÃ¨s<br>Leerling nummer 3: Jialue<br>Leerling nummer 4: Karim<br>Leerling nummer 5: Lara</code></pre></td>
     </tr>
     <tr>
-      <td><function name="GenummerdeLeerlingen" inputs='["Max", "Noemie", "Oscar", "Paulin", "Quirine", "Rocco", "Saniya", "Thibault", "Uma", "Victoria"]'></function></td>
+      <td style="white-space: wrap;"><function name="GenummerdeLeerlingen" inputs='["Max", "Noemie", "Oscar", "Paulin", "Quirine", "Rocco", "Saniya", "Thibault", "Uma", "Victoria"]'></function></td>
       <td style="text-align: center;">â†’</td>
       <td><pre><code>Leerling nummer 1: Max<br>Leerling nummer 2: Noemie<br>Leerling nummer 3: Oscar<br>Leerling nummer 4: Paulin<br>Leerling nummer 5: Quirine<br>Leerling nummer 6: Rocco<br>Leerling nummer 7: Saniya<br>Leerling nummer 8: Thibault<br>Leerling nummer 9: Uma<br>Leerling nummer 10: Victoria</code></pre></td>
     </tr>
