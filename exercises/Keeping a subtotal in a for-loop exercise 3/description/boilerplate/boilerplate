@@ -1,0 +1,6 @@
+woorden = ["Hallo", "wereld", "python", "programmeren"]
+
+woordnummer = ____
+for ____ in ____:
+    print(___)
+    woordnummer = ____
