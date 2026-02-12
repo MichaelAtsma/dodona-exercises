@@ -17,20 +17,20 @@ def evaluate_test(context, match_regex, mandatory_texts_and_descriptions, forbid
         checks["correct value"] = context.actual == context.expected
 
     m = re.fullmatch(match_regex, submission)
-    student_contribution = m.group(3) if m else ""
+    student_contributions = [m.group(i) if m else "" for i in range(1, len(m.groups()) + 1)] if m else []
     checks["code matches regex"] = m is not None
 
     missing_texts_and_descriptions = {}
     checks["mandatory texts used"] = True
     for text in mandatory_texts_and_descriptions.keys():
-        if text not in student_contribution:
+        if not any(text in contribution for contribution in student_contributions):
             checks["mandatory texts used"] = False
             missing_texts_and_descriptions[text] = mandatory_texts_and_descriptions[text]
 
     used_forbidden_texts_and_descriptions = {}
     checks["forbidden text not used"] = True
     for forbidden_text in forbidden_texts_and_descriptions.keys():
-        if forbidden_text in student_contribution:
+        if any(forbidden_text in contribution for contribution in student_contributions):
             checks["forbidden text not used"] = False
             used_forbidden_texts_and_descriptions[forbidden_text] = forbidden_texts_and_descriptions[forbidden_text]
 
