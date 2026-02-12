@@ -1,0 +1,31 @@
+>>> GenummerdeLeerlingen(['Ahmed', 'Bryan', 'Capucine', 'Dani'])
+Leerling nummer 1: Ahmed
+Leerling nummer 2: Bryan
+Leerling nummer 3: Capucine
+Leerling nummer 4: Dani
+>>> GenummerdeLeerlingen(['Elodie', 'Fiona', 'Gabin'])
+Leerling nummer 1: Elodie
+Leerling nummer 2: Fiona
+Leerling nummer 3: Gabin
+>>> GenummerdeLeerlingen(['Hiba', 'Inès', 'Jialue', 'Karim', 'Lara'])
+Leerling nummer 1: Hiba
+Leerling nummer 2: Inès
+Leerling nummer 3: Jialue
+Leerling nummer 4: Karim
+Leerling nummer 5: Lara
+>>> GenummerdeLeerlingen(['Max', 'Noemie', 'Oscar', 'Paulin', 'Quirine', 'Rocco', 'Saniya', 'Thibault', 'Uma', 'Victoria'])
+Leerling nummer 1: Max
+Leerling nummer 2: Noemie
+Leerling nummer 3: Oscar
+Leerling nummer 4: Paulin
+Leerling nummer 5: Quirine
+Leerling nummer 6: Rocco
+Leerling nummer 7: Saniya
+Leerling nummer 8: Thibault
+Leerling nummer 9: Uma
+Leerling nummer 10: Victoria
+>>> GenummerdeLeerlingen(['Wided', 'Xenophanes', 'Yanis', 'Zayon'])
+Leerling nummer 1: Wided
+Leerling nummer 2: Xenophanes
+Leerling nummer 3: Yanis
+Leerling nummer 4: Zayon

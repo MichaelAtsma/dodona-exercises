@@ -1,0 +1,15 @@
+{
+  "description": {
+    "names": {
+      "nl": "Subtotaal bijhouden in een for-lus in een functie (oefening 2)"
+    }
+  },
+  "evaluation": {
+    "pythia_judge": "doctest"
+  },
+  "labels": [],
+  "internals": {
+    "token": "rydcJ74VF_JJsdGRD_HRD9VYkDsKX_tYjf-xZrrWXf_FWEj3abg2DuixrYQriJ_T",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
