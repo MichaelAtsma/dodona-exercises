@@ -1,5 +1,6 @@
 --------------------------------------------------
 tab name: Bulk test
+used output channel: stdout
 <LANGUAGE code="en">
     <function from="GenummerdeLeerlingen" to="NumberedStudents" />
     <fixed from="Leerling nummer" to="Student number" />
