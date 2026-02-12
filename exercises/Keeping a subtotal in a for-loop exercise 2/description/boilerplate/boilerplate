@@ -1,7 +1,8 @@
-prijzen = [10.99, 5.49, 3.50, 9.99, 2.50]
+getallen = [1, 3, 8, 15]
 
-geld_over_in_portemonnee = 70
+som_van_kwadraten = 0
 for ____ in ____:
-    geld_over_in_portemonnee = ____
+    kwadraat = ____
+    som_van_kwadraten = ____
 
-print(geld_over_in_portemonnee)
+print(som_van_kwadraten)
