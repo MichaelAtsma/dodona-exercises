@@ -171,6 +171,10 @@
     padding-left: 100px !important;
     padding-right: 100px !important;
   }
+  th.huge-padding-column {
+    padding-left: 200px !important;
+    padding-right: 200px !important;
+  }
   td {
     padding: 4px 10px !important;
     box-sizing: border-box;
@@ -255,7 +259,7 @@ De functie moet na elke aankoop op het scherm afdrukken hoeveel de aankoop kost 
     <tr>
       <th>Invoer</th>
       <th class="padding-column">→</th>
-      <th class="big-padding-column">Verwachte output</th>
+      <th class="huge-padding-column">Verwachte output</th>
     </tr>
   </thead>
   <tbody>
