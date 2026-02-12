@@ -279,4 +279,4 @@ Woord nummer 3: python
 Woord nummer 4: programmeren
 ```
 
-<i>(Vervang enkel de underscores, laat de rest van de code zoals het is. Laat de underscores in de variabele <code>geld_over_in_portemonnee</code> staan, je moet enkel de langere underscores vervangen.)</i>
+<i>(Vervang enkel de underscores, laat de rest van de code zoals het is.)</i>
