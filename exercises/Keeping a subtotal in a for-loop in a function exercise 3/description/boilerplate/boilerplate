@@ -1,0 +1,2 @@
+def Portemonnee(prijzen, geld_in_portemonnee):
+    
