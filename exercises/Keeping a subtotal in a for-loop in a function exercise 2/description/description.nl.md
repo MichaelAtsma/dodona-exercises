@@ -237,7 +237,7 @@ Wat doet deze functie?
 <hr>
 
 # <b>Opdracht</b>
-Maak een functie genaamd <function name="GenummerdeLeerlingen"></function> die één invoer heeft, namelijk een lijst van namen (<i>strings</i>). De functie zal met een <i>for</i>-lus voor iedere naam in de lijst een regel op het scherm afdrukken van de vorm <code class="string">Leerling nummer [x]: [naam]</code>, waarbij <code>[x]</code> het nummer van de naam is (beginnend bij 1) en <code>[naam]</code> de naam zelf is. De functie geeft als uitvoer niets terug.
+Maak een functie genaamd <function name="GenummerdeLeerlingen"></function> die één invoer heeft, namelijk een lijst van namen (<i>strings</i>). De functie zal met een <i>for</i>-lus voor iedere naam in de lijst een regel op het scherm afdrukken van de vorm <code class="string">Leerling nummer [x]: [naam]</code>, waarbij <code class="string">[x]</code> het nummer van de naam is (beginnend bij 1) en <code class="string">[naam]</code> de naam zelf is. De functie geeft als uitvoer niets terug.
 
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
