@@ -1,0 +1,15 @@
+{
+  "description": {
+    "names": {
+      "nl": "Subtotaal bijhouden in een for-lus"
+    }
+  },
+  "evaluation": {
+    "pythia_judge": "doctest"
+  },
+  "labels": [],
+  "internals": {
+    "token": "tU4JK7JZV3WdXXvwzE-JU-dgcxq2zdUUCmytZunvehGjJiHsvfrkDKrzvbwg2Zfd",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
