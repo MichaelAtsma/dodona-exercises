@@ -1,11 +1,11 @@
 >>> PrintWachtwoordLengtes(['wachtwoord', 'ditiseenlangwachtwoord', 'ww1234'])
-wachtwoord is een lang wachtwoord.
+wachtwoord is precies lang genoeg als wachtwoord.
 ditiseenlangwachtwoord is een lang wachtwoord.
 ww1234 is een te kort wachtwoord.
 >>> PrintWachtwoordLengtes(['hellokitty', 'bobdebouwer', 'supersecurepassword', 'hallo', '12345678'])
-hellokitty is een lang wachtwoord.
+hellokitty is precies lang genoeg als wachtwoord.
 bobdebouwer is een lang wachtwoord.
 supersecurepassword is een lang wachtwoord.
 hallo is een te kort wachtwoord.
-12345678 is precies lang genoeg als wachtwoord.
+12345678 is een te kort wachtwoord.
 >>> PrintWachtwoordLengtes([])

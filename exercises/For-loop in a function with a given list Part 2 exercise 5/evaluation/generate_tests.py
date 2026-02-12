@@ -38,13 +38,13 @@ def GenerateRandomStringsAndPhrases(n=50):
             yield GenerateRandomString()
         else:
             r = RandomWords()
-            yield " ".join([r.get_random_word() for _ in range(random.randint(1, 3))])
+            yield " ".join([r.get_random_word() for _ in range(random.randint(1, 2))])
 
 # X = ["Hallo", "Hallo wereld", "Dodona", "abcdefghij"]
 
 function_effect = "prints"
 function = PrintWachtwoordLengtes
-bulk_test = True
+bulk_test = False
 
 if not bulk_test:
     X = [(["wachtwoord", "ditiseenlangwachtwoord", "ww1234"],),
