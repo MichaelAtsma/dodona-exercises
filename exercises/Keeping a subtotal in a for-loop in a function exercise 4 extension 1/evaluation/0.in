@@ -1,0 +1,8 @@
+>>> AantalGeslaagd([10, 20, 30, 40, 50, 60, 70])
+Er zijn 3 leerlingen geslaagd.
+>>> AantalGeslaagd([49.9, 50.0, 50.1])
+Er zijn 2 leerlingen geslaagd.
+>>> AantalGeslaagd([80, 20, 60, 30, 80, 90, 100, 10])
+Er zijn 5 leerlingen geslaagd.
+>>> AantalGeslaagd([80])
+Er zijn 1 leerlingen geslaagd.
