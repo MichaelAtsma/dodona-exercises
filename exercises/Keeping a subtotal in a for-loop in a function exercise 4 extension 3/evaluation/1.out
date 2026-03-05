@@ -1,0 +1,8 @@
+--------------------------------------------------
+tab name: Bulk test
+used output channel: stdout
+<LANGUAGE code="en">
+    <function from="AantalGeslaagd" to="AmountPassed" />
+    <fixed from="van de" to="out of" />
+    <fixed from="leerlingen zijn geslaagd." to="students have passed." />
+</LANGUAGE>

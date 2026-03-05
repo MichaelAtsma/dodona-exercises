@@ -1,0 +1,200 @@
+>>> AantalGeslaagd([49.99, 49.999, 49.9999, 49.99999, 49.999999, 49.9999999])
+0 van de 6 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([0])
+0 van de 1 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([100])
+1 van de 1 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([])
+0 van de 0 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([21, 75])
+1 van de 2 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([69, 2, 28, 5, 17, 1, 40, 63, 12, 47, 37, 66, 65])
+4 van de 13 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([30.5, 91.4, 17.83, 21.227, 2.463, 51.9, 13.09, 71.981, 31.1])
+3 van de 9 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([77, 12, 99, 1, 43, 73, 52, 79, 86, 30])
+6 van de 10 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([75.1, 58.37, 31.1, 15.062, 12.98, 2.441, 79.3, 87.2, 80.3])
+5 van de 9 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([31, 36, 75])
+1 van de 3 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([26, 52])
+1 van de 2 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([90, 37, 17, 54, 40, 7, 85, 2, 73])
+4 van de 9 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([96.444, 33.3, 0.1, 82.68, 73.817, 45.72, 76.45, 89.621, 51.7, 66.112, 28.4, 42.825, 38.68, 26.2, 11.197, 24.193, 85.73, 48.5, 62.97])
+9 van de 19 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([94, 11, 97, 27, 99, 98, 95, 49])
+5 van de 8 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([73.86, 1.878, 18.18, 61.6, 30.368, 14.0, 60.361, 2.56, 49.055, 47.3, 33.2, 68.907, 40.2, 67.907, 25.7, 59.45])
+6 van de 16 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([83.6, 89.0, 80.598, 90.036, 0.31, 35.669, 70.046, 88.4, 15.197, 94.958, 86.5, 91.25, 71.59, 93.3, 96.91, 33.47])
+12 van de 16 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([20, 69, 90, 14, 77, 10, 93, 34, 11, 96, 46, 17])
+5 van de 12 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([80.41, 80.99, 99.23, 32.5, 30.7, 91.45, 16.992, 76.009, 76.5, 92.957, 12.82, 38.34])
+7 van de 12 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([25, 86, 72, 11, 58])
+3 van de 5 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([87.162, 94.78, 60.76, 69.2, 8.32, 17.391, 88.5, 75.7, 63.9, 6.1])
+7 van de 10 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([56, 31, 83, 70, 92, 69, 22, 24, 49, 98, 19, 3, 41])
+6 van de 13 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([84, 88, 26, 17, 76, 29])
+3 van de 6 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([0.062, 70.3, 47.767])
+1 van de 3 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([1.919, 16.5, 12.28, 20.482, 20.328, 55.2, 68.5, 14.8, 82.1, 73.392])
+4 van de 10 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([67, 64, 89, 89, 22, 68, 75, 80, 49, 12, 42, 0])
+7 van de 12 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([52.42, 55.47, 13.4, 64.6, 50.1, 28.12, 57.172, 68.54, 4.849, 7.769, 9.8, 19.4, 9.3, 33.99, 88.48, 69.5])
+8 van de 16 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([])
+0 van de 0 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([35.91, 7.283])
+0 van de 2 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([77.6, 46.973, 97.0, 15.9, 93.7, 94.531, 50.3, 2.4, 68.863, 64.522, 40.86, 95.88, 1.683, 58.962, 16.2])
+9 van de 15 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([30.63, 57.082, 54.05, 19.93, 92.991, 31.5, 84.42])
+4 van de 7 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([33, 72, 41, 27, 17, 36, 10, 84, 14, 86, 18, 20, 93])
+4 van de 13 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([57.77])
+1 van de 1 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([5.3, 47.28, 6.14, 60.6, 79.43, 83.38])
+3 van de 6 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([11, 41])
+0 van de 2 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([89.726, 82.0, 55.2, 99.74, 6.86, 29.8, 89.763])
+5 van de 7 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([89, 23, 77, 37, 36, 54, 36])
+3 van de 7 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([15, 75, 80, 61, 49, 13, 98, 15, 52, 18, 72, 19, 42, 99])
+7 van de 14 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([87.109, 28.12, 49.4, 54.49])
+2 van de 4 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([47.361, 98.87, 60.53, 75.989, 53.56, 40.24, 44.76, 10.11, 50.271, 82.323, 67.5])
+7 van de 11 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([54.88, 99.763, 5.602])
+2 van de 3 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([77.5, 50.826, 63.926, 10.8, 59.8, 90.72, 88.5, 83.78, 64.924, 46.76, 19.32])
+8 van de 11 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([15.03, 65.505, 48.923, 13.8, 48.54, 78.7, 24.8, 18.0, 98.1, 56.9, 72.095, 6.12])
+5 van de 12 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([62.4, 40.45, 52.3, 74.544, 93.9, 36.534, 25.8, 84.252, 28.113, 27.3])
+5 van de 10 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([7.247, 39.337, 99.55, 56.2, 92.8, 11.15, 61.97, 57.809, 73.53, 65.2, 29.14, 89.899, 51.91, 87.821, 28.76, 75.3, 73.8, 17.118, 82.58])
+13 van de 19 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([58, 78, 39])
+2 van de 3 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([95.045, 43.94, 2.4])
+1 van de 3 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([88.1, 16.8, 89.81, 34.92, 67.966, 47.451, 41.4, 52.2, 1.651, 48.502])
+4 van de 10 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([50.744, 3.45, 73.3, 56.115])
+3 van de 4 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([23.47, 60.382, 53.5, 64.57, 99.96, 34.157, 13.6, 38.805, 73.4, 41.3, 100.0, 53.8, 11.81, 35.2])
+7 van de 14 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([20, 19, 67, 67, 47, 60, 18, 24, 49, 44, 54, 71, 98])
+6 van de 13 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([])
+0 van de 0 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([6.5, 82.586, 46.8, 76.63, 93.4, 59.79, 3.5, 10.43, 94.68, 48.4, 28.5, 89.34])
+6 van de 12 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([80, 22, 72, 2, 62, 0])
+3 van de 6 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([98.8, 74.065, 51.5, 86.7])
+4 van de 4 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([26, 3, 36, 39, 18, 89, 39, 40, 48, 7, 52, 79, 28, 93, 62, 9, 80])
+6 van de 17 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([12, 57, 31, 49, 58, 83, 86])
+4 van de 7 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([43.5, 64.659, 43.7, 51.21, 27.008, 12.4, 12.6, 4.866, 29.3])
+2 van de 9 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([76.648, 25.72, 44.13, 77.6, 28.11, 26.0, 77.487, 63.5, 75.0, 6.5, 46.5, 5.93, 94.0, 90.2, 5.8, 62.39, 14.0, 11.276])
+8 van de 18 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([37, 74, 42, 62, 60, 34, 77, 52, 20, 75, 28, 44, 37, 2, 76, 99, 16, 99, 81])
+10 van de 19 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([29, 21, 81, 95, 68, 25, 67, 59, 81, 25, 33])
+6 van de 11 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([25.8, 27.96, 40.8, 35.16, 62.22, 60.9, 44.34, 84.81, 34.05, 43.454, 88.937, 81.963, 47.87, 83.0, 0.5, 35.895, 84.8, 79.621, 14.218])
+8 van de 19 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([92.923, 34.7, 54.1, 67.9, 42.225, 48.202, 39.43, 5.75, 12.366, 82.956, 34.0, 57.29, 85.8, 5.235, 74.12])
+7 van de 15 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([14, 88])
+1 van de 2 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([45.2])
+0 van de 1 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([73, 37, 65, 53, 36, 92, 76, 81])
+6 van de 8 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([14.33, 37.958, 53.288, 35.834, 98.19])
+2 van de 5 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([37, 51, 10])
+1 van de 3 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([49.2, 67.34, 88.14, 39.387, 26.2, 73.29, 90.8, 29.25, 71.3, 57.588, 69.819, 94.78, 31.5, 97.062, 28.15, 97.25])
+10 van de 16 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([52, 36, 33, 1, 61, 58, 73, 99, 66, 40, 29])
+6 van de 11 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([14, 75, 70, 16, 50])
+3 van de 5 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([69, 10, 8, 79, 43, 88, 72, 77, 2, 89, 61, 98, 78, 22])
+9 van de 14 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([43, 73, 61, 30, 17, 31, 26, 66, 57, 89, 40, 8, 83, 50, 89, 94, 34, 35, 62])
+10 van de 19 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([53.465, 20.21, 60.8, 85.9, 42.75, 96.12, 93.558, 80.5, 14.0, 19.39, 92.74, 13.77])
+7 van de 12 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([92.0, 5.588, 6.063, 26.1, 62.99, 30.89])
+2 van de 6 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([62.47, 8.5, 68.747, 9.83, 62.5, 87.175])
+4 van de 6 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([22.365, 8.0, 70.6, 87.148, 74.77, 21.59, 70.99, 5.87, 14.56])
+4 van de 9 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([11.6, 84.03, 82.16, 14.887, 11.8, 67.241, 90.8, 73.482, 68.12, 72.14, 54.7, 17.746, 5.8, 51.558, 20.246])
+9 van de 15 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([98, 35, 66, 55])
+3 van de 4 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([95.58, 46.318, 5.8, 49.844])
+1 van de 4 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([15.889, 20.643, 61.178])
+1 van de 3 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([46.25, 3.783, 22.261, 20.29, 11.89, 82.7, 66.4, 21.039, 11.767, 29.283, 98.52, 22.8, 45.89, 76.058, 44.332])
+4 van de 15 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([73, 51, 97, 99, 46, 41, 20, 73, 81, 46])
+6 van de 10 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([95, 40, 31, 31, 96, 66, 98, 0, 71, 52, 43, 14, 9])
+6 van de 13 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([92, 89, 56, 40, 25, 39, 69, 24, 23, 58, 90, 76, 30, 98, 79, 3, 19, 89])
+10 van de 18 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([5.854, 69.074, 47.809])
+1 van de 3 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([])
+0 van de 0 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([96, 81, 46, 5, 81, 48, 37, 85, 61, 80])
+6 van de 10 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([90.319, 43.9, 16.2, 38.3, 19.109, 43.81, 6.05, 47.8, 36.781, 1.0, 49.34, 63.8, 20.89, 94.648, 93.55])
+4 van de 15 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([45, 78, 76, 15, 32, 7, 20, 88, 24, 97, 15, 29, 64, 62, 18, 45, 21, 7, 40, 38])
+6 van de 20 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([67.61, 51.383])
+2 van de 2 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([78, 25, 67, 87, 16, 43, 61, 58, 91, 73, 75, 25, 98, 64, 12, 41])
+10 van de 16 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([57, 27, 67, 5, 45, 13, 57, 84, 0])
+4 van de 9 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([16.99, 66.0])
+1 van de 2 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([64, 99, 62, 91])
+4 van de 4 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([98.5, 41.62, 4.611, 48.8, 21.355, 32.3, 62.3, 66.62, 9.8, 71.9, 95.0, 92.88, 95.7, 45.26, 85.39, 74.9])
+9 van de 16 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([91.162, 1.971, 41.38, 40.09, 44.236, 70.5, 15.432])
+2 van de 7 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([2.8, 76.451, 35.56, 11.18, 7.13, 9.086, 93.13, 36.689, 49.2, 92.48, 9.06, 50.93, 47.202, 84.15, 23.89, 23.37, 6.044, 33.009, 58.47])
+6 van de 19 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([35.8, 94.784, 91.2, 30.37, 71.339, 77.514, 53.3, 68.2, 6.4, 77.1, 2.9])
+7 van de 11 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([53, 95, 50, 93])
+4 van de 4 leerlingen zijn geslaagd.
+>>> AantalGeslaagd([61, 81, 76, 83])
+4 van de 4 leerlingen zijn geslaagd.

@@ -1,19 +1,13 @@
-import re
+a = [35.8, 94.784, 91.2, 30.37, 71.339, 77.514, 53.3, 68.2, 6.4, 77.1, 2.9]
 
-regex_tomatch = "[\\n \\t]*([a-zA-Z_]+[a-zA-Z0-9_]*)[ ]*=[ ]*\\[[ ]*10\\.99[ ]*,[ ]*5\\.49[ ]*,[ ]*3\\.50[ ]*\\][ \\t]*[\\n]+[\\n \\t]*totaal[ ]*=[ ]*0[\\n \\t]*[\\n]+for[ ]+([a-zA-Z_]+[a-zA-Z0-9_]*)[ ]+in[ ]+\\1[ ]*:[ ]*[\\n \\t]*[ \\t]+(totaal[ ]*(=[ ]*totaal[ ]*\\+|\\+=)[ ]*\\2)[\\n \\t]*[\\n]+print[ ]*\\([ ]*totaal[ ]*\\)[\\n \\t]*"
-submission = """prijzen = [10.99, 5.49, 3.50]
+def AantalGeslaagd(scores):
+    geslaagd = 0
+    totaal = 0
+    for score in scores:
+        totaal += 1
+        if score >= 50:
+            geslaagd += 1
+        print(f"Score {score}: {geslaagd} van de {totaal} leerlingen zijn geslaagd.")
+    print(f"{geslaagd} van de {totaal} leerlingen zijn geslaagd.")
 
-totaal = 0
-for prijs in prijzen:
-    totaal = totaal + prijs
-
-print(totaal)"""
-
-m = re.fullmatch(regex_tomatch, submission)
-if m:
-    print(m.group(0))
-    print(m.group(1))
-    print(m.group(2))
-    print(m.group(3))
-else:
-    print("No match")
+AantalGeslaagd(a)
