@@ -277,6 +277,7 @@ Maak een functie genaamd <function name="LangsteWoord"></function> die een lijst
 
 </details> <!-- End of input-output verwachtingen -->
 
+<br>
 <hr>
 
 <details markdown="1"><summary>Tip</summary>
