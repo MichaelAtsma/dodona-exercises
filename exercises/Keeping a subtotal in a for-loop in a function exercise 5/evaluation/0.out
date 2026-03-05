@@ -1,0 +1,5 @@
+--------------------------------------------------
+tab name: Voorbeelden
+<LANGUAGE code="en">
+    <function from="LangsteWoord" to="LongestWord" />
+</LANGUAGE>

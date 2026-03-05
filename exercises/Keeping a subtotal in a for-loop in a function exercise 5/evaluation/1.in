@@ -1,0 +1,200 @@
+>>> LangsteWoord([''])
+''
+>>> LangsteWoord(['consequent', 'phoo', 'H,j', 'VAlhv>!,iu!.?+UknN', 'personalisation', 'HuAP@Y]>pNQx+na]pfo', 'streamliners', 'glyptologist', '[d!px,jfpb', 'fairling', 'pests', 'incognizability', 'counting', 'tricostate', 'arborous'])
+'HuAP@Y]>pNQx+na]pfo'
+>>> LangsteWoord(['FB&DbB', ']m@R&#!gy'])
+']m@R&#!gy'
+>>> LangsteWoord(['rebroadened', 'I@Np', 'plainy', 'nasorostral', '!Fpv=RItP#VXfAHs#aLa', 'DWNsf=s!I%x'])
+'!Fpv=RItP#VXfAHs#aLa'
+>>> LangsteWoord(['VZWNo', 'antitypal', 'disaffection', 'phosphophori', 'm&TNDM!Lbo$', 'Ndfnlx)#n+I', 'possums', 'hailshot', 'isotactic', 'LTlfTNw?_VS@,zpKS@IW'])
+'LTlfTNw?_VS@,zpKS@IW'
+>>> LangsteWoord(['ROTsW', '_lFzg', 'CAO', 'resays', 'pervaded', 'HUH+jFkBx*r', 'burbs'])
+'HUH+jFkBx*r'
+>>> LangsteWoord(['tracheloacromialis', 'dribbler', 'VrmwTw!', 'KghQnCzV!tC', 'traveled'])
+'tracheloacromialis'
+>>> LangsteWoord(['&pVcSAZ(sfV$!p', 'Lv', 'Pn', '_uYaSwNpxbBN.', '_?Cpkg#KQn%HMv%', 'predy'])
+'_?Cpkg#KQn%HMv%'
+>>> LangsteWoord(['universally', 'TclUCW', 'f', 'Dn!lxJy-Ru', 'palaeobotanist', ']B', 'ached', 'ZntjsHbsWb(Qu-_,Q', 'nhr(=dk$JcRK>uyK-w', 'soapfish', '&=D<s&#m(*[<', 'chimmesyan', 'pushingness', 'teughness'])
+'nhr(=dk$JcRK>uyK-w'
+>>> LangsteWoord(['#ghwV.cvYcqfe', 'collogued', 'waspy', 'theopathetic', 'nonsculpturally', 'jzxde', ']ZDpgKa', 'innuendoed', 'ilU+$r', 'hFhvxRilP', 'outwick', 'bedsock', '%EY?feg[Lgl.cy'])
+'nonsculpturally'
+>>> LangsteWoord(['subcordately', ']Bz*', 'j[ftN>oej#Uxoha@wcV_', '@Jkvj(EN', 'P+uyvJR*V'])
+'j[ftN>oej#Uxoha@wcV_'
+>>> LangsteWoord(['weigher', 'toles', 'anticatalyst', 'cockneyish', '+UUsBd.F', 'MELI=Ch+R', 'precoracoid', 'Z=.$qeR', 'vkirkf@?XSIJ!r', 'c&Gdq=V]Ev', 'fanglike', 'tkv(JP.R(Q', 'humorers'])
+'vkirkf@?XSIJ!r'
+>>> LangsteWoord(['WV[', 'cravenly', 'nonactionable', 'snickdraw', '(q_', 'u!Z%Qvzmu', 'iD-e'])
+'nonactionable'
+>>> LangsteWoord(['yNxUB*w', 'spinose', 'piarroan', 'decreptitude', 'methylator', 'M)VnOPoY&%K[+ZX+bCJ(', 'Y', 'PN)eWb<X=nZgvKeNe>', 'nondiaphanousness', 'tD>U>(?QDKun=Qf[PG', 'topkicks', 'MQ-C>A', 'thiolic', '.MbMlVfF'])
+'M)VnOPoY&%K[+ZX+bCJ('
+>>> LangsteWoord(['FB$lhUN_cJ', 'pJH()jLScms(!o<wn', 'excalfaction'])
+'pJH()jLScms(!o<wn'
+>>> LangsteWoord(['paleographist', 'beehouse'])
+'paleographist'
+>>> LangsteWoord(['sorrowy', 'representativeness', 'uR$ZUR!=If_', 'weapons', 'ycsvkfO@yxl,D%T', 'FSvQj!d', 'V', 'thiodiphenylamine', 'fx', 'U]zEwBN$@Mh-SHj>'])
+'representativeness'
+>>> LangsteWoord(['anhydrize', 'p]', 'sV]wy-uaNlbeh)Rr,', 'shamefastly', 'stadic', 'appositionally', 'mome', 'x+M[I]&@I_lNCy+CFl', 'protoxylem', 'tarsectomy', 'reptilelike', 'hydraucone'])
+'x+M[I]&@I_lNCy+CFl'
+>>> LangsteWoord(['narrowingness', 'oribatidae', 'catberry', 'bakerlike', 'fetologies', 'k%ycqIifbX', 'phasiron', 'Vz>=#GU', 'fNia@', '=kSD<@Nw%*', 'contagious'])
+'narrowingness'
+>>> LangsteWoord(['reoblige', 'shampooer', '(B', 'onshore', 'outslid', '<x-s]tjX[', 's-OEH(_p]P)(y%zQ(', 'gqc]yi>Q$#&xH', 'GgXlMrDpltKQ_rhBx', 'S]j-mZcrBZwZk#?C', 'ZB(Z[CAUwCDTH@.&cTct', 'qyDh>DDkqC'])
+'ZB(Z[CAUwCDTH@.&cTct'
+>>> LangsteWoord(['$', ')', 'supplementarily', 'evacue', 'xh<Av', 'multifaceted', 'trawleys', 'weazened', 'gingivae', 'iIDH['])
+'supplementarily'
+>>> LangsteWoord(['paiker', 'menorrhoea', 'kUTOneHDGB<@(_,$Xk', 'sXCWs(w]JHq_JWCY)oSh', 'S[sT(JRmZZCa', 'wA?XPeRfw-rbb+Q', 'saponule', 'magnesic', 'nonfunctional', '.?W+', 'quayage', 'RoLIyJs-', 'concentricate'])
+'sXCWs(w]JHq_JWCY)oSh'
+>>> LangsteWoord(['homeplace', 'clayey', 'nonaid', ']vcXb*ouud', '@HYsGfn', 'helling', 'bx_*fq+X', '-ztD@#MFkklcQMkOo-wO', '?]=t@d?TRM_', 'psychid', 'expectorators', 'RuWXO'])
+'-ztD@#MFkklcQMkOo-wO'
+>>> LangsteWoord(['crotophaga', 'electroviscous', 'A>_Zr!BCd,.H$C', 'MWc', 'antimonious', 'canebrakes', 'oftwhiles', 'hyZD<$', '?NzDnQ][atZ%)wBXH&*k', 'agnates', 'apluda', 'econometrician', 'Ik],C-a'])
+'?NzDnQ][atZ%)wBXH&*k'
+>>> LangsteWoord(['jPyGn', 'trillion', 'archturncoat', 'sBmCy(f', 'p@r,', ',Gh_=&(v', '=fh*E?%JZrv+H', 'jbSR*WbKKCmuN#ZvedVC', 'ironless', 'tailward', 'sideslip', 'illiberally', 'mechanistically', 'TnMfzepZFv-'])
+'jbSR*WbKKCmuN#ZvedVC'
+>>> LangsteWoord(['A!WXHy?%&j%Is_uyKB?', 'wKtUD', 'ramental', 'phaenomenal', 'jQW)e>Dpgvu,!', 'potware', 'garrisonian', 'hydropower', 'aZpBS.xNvuus+]Wt)ctZ'])
+'aZpBS.xNvuus+]Wt)ctZ'
+>>> LangsteWoord(['palatableness', 'preloan', 'camel', 'QaiS-aNw', 'mylohyoidean', 'U', 'qaid'])
+'palatableness'
+>>> LangsteWoord(['burghalpenny', 'bahoo', 'MG&Ic+', 'oTAw)yWXJo[nV<AW+@S', '#yR', 'chorology', 'gIFDM)f.fQBG&', '@>PpTRXg', '?PB', 'skance', 'mesepithelial', '<&k#o*', 'EtVgiY#mcFX]vPze-Spl', 'muser'])
+'EtVgiY#mcFX]vPze-Spl'
+>>> LangsteWoord([])
+''
+>>> LangsteWoord(['$,BFe', 'r$g?VGr<bK?'])
+'r$g?VGr<bK?'
+>>> LangsteWoord(['ri-)gs', 'reexecute', 'SRyB+<.nNG)F', 'faciolingual', 'xWz', 'achatinella', 'yB', 'ununited', 'sdl)eJn[se[HZR(', 'aB(_ZYw%vX'])
+'sdl)eJn[se[HZR('
+>>> LangsteWoord(['phycocyanogen', 'pericyclone', 'batrachians', ']JJ&', 'xSSM', 'eDC'])
+'phycocyanogen'
+>>> LangsteWoord(['squamozygomatic', 'j?!>', 'supposed', ')&#NiRkMc?ws', 'preferredly', 'antimusically'])
+'squamozygomatic'
+>>> LangsteWoord(['jtzG', 'W]R(z>kTfGdILgzh'])
+'W]R(z>kTfGdILgzh'
+>>> LangsteWoord(['communicate', 'myothermic'])
+'communicate'
+>>> LangsteWoord([])
+''
+>>> LangsteWoord(['yemenites', '[D,X+?wC%N#,&wL', 'tenderheart', 'meroxene', 'C?I!CyuO', 'G<XPq?nT=VM<@', 'pouchier'])
+'[D,X+?wC%N#,&wL'
+>>> LangsteWoord(['Oy]A'])
+'Oy]A'
+>>> LangsteWoord(['w$I[Vyo', 'inflex', '@N%@(I!<c.eRo[j', 'semifailure', 'hierodeacon', '=P[Xz(lxD<[', '.pgDyI[iyJXP', 'uMQ-Cb'])
+'@N%@(I!<c.eRo[j'
+>>> LangsteWoord(['X.>k>weVes&pV[Q', 'IKpBQu%<KAfqB@iRCcDO'])
+'IKpBQu%<KAfqB@iRCcDO'
+>>> LangsteWoord([])
+''
+>>> LangsteWoord(['d$n&qzjw=', 'T&cPygVeFHNKFh-WI_'])
+'T&cPygVeFHNKFh-WI_'
+>>> LangsteWoord(['J.@xWNuPR.,wF*kve', 'XhGu,hAS>BMTrumleD', 'smutter', 'b!vs$T<wFQ', 'almight', 'infallibilism', 'rahdar'])
+'XhGu,hAS>BMTrumleD'
+>>> LangsteWoord(['subentitled'])
+'subentitled'
+>>> LangsteWoord(['navigate', 'sundar', 'faulter', 'inartisticality', ')C[rK)_XOYeWhQag*k', 'nonathlete'])
+')C[rK)_XOYeWhQag*k'
+>>> LangsteWoord(['F]UJmz+nYE', 'culverin', 'inlands', 'I%)Anxe?mhLTOWPDNoR', 'abapical', '<Kn@NHWH%,PL%J', 'confuser', 'JUj=!h_U+arm[r'])
+'I%)Anxe?mhLTOWPDNoR'
+>>> LangsteWoord(['gnsgCc-cAEkRcA@QsM'])
+'gnsgCc-cAEkRcA@QsM'
+>>> LangsteWoord([')TyN+M&*', 'dihydroergotamine', 'uj$r', 'MDt)mg]r(XrYIkdb', 'sandiver', 'talmudists'])
+'dihydroergotamine'
+>>> LangsteWoord(['morphinist', 'T=PRXRfZV', 'mahu', 't%bb.z]o(GSSo', '+xix@', 'X]eAv', '+t_q[gVV[-', '*QFylhGt]j<[cu*', 'argovian'])
+'*QFylhGt]j<[cu*'
+>>> LangsteWoord(['wLjhl>ios', 'As*URr-j', '.N&%yxGGJV=fvPVOUw', 'rLgAk,qC]MgBO', 'nonphrenetically', 'capitation', 'V)!Z', '+hI(#', 'mV', 'lunt', 'ginnet', 'rehumiliation', 'inhabitative'])
+'.N&%yxGGJV=fvPVOUw'
+>>> LangsteWoord(['f#WBrcd?z', 'm', 'uteroplasty', ')Yk', 'prosected', '[b)lrTzxzd)fx?Q]XaX', 'v<c.P', 'holconoti', 'iBzf%', '<oPXYZz$TZVx]W&gGN?>', 'Brsv-M', '=XL)jo', 'subaquatic', 'sofa'])
+'<oPXYZz$TZVx]W&gGN?>'
+>>> LangsteWoord(['$_@]&Uhgt=!JOoFCmR', '$p', 'cricopharyngeal'])
+'$_@]&Uhgt=!JOoFCmR'
+>>> LangsteWoord(['carraways', 'patricianhood', 'Jm$', 'F=%<h-L(YtZrPWWq', 'xIiVd*RBX-lWa[tl@l', 'argentums', 'FzrlC=T#h[Q', 'HA<tk.m@-=ps#ziG', 'diva', 'heroization', 'retranslated'])
+'xIiVd*RBX-lWa[tl@l'
+>>> LangsteWoord(['infantas', 'spreng', 'unchorded', 'kousin', 'eulogies', '(SqPo>rZ.*&iQJW[', ',yq', 'punditry'])
+'(SqPo>rZ.*&iQJW['
+>>> LangsteWoord(['referently', 'anastomosing', 'w,eaI)', 'imparsonee', '#Tu&tKm)PpfYDU', 'minimalist', 'nonfulminating', 'ki+D]u', 'Wa%j_]CYP]$#@+Jtvf', 'iCjeY)a%ufGtY$?uA', 'immelodious', 'semioblivion'])
+'Wa%j_]CYP]$#@+Jtvf'
+>>> LangsteWoord(['granth'])
+'granth'
+>>> LangsteWoord(['jaconet', 'bipinnariae'])
+'bipinnariae'
+>>> LangsteWoord(['naukrar', 'geomagnetism', 'e%UQEy', 'mop#qFo'])
+'geomagnetism'
+>>> LangsteWoord(['urares', 'maneuvered', 'unneth'])
+'maneuvered'
+>>> LangsteWoord(['ornithopteris', 'vndf(,', 'baguios', 'FyR-b@vEQOKr', 'cZ(&', 'nL+@[,', 'interfertility', 'hagrode', 'autosomal', 'hsKH!gNP%fvC?', 'oZjqlhJ=f(kfi!Wr', '-lii@I-<Ljd@<J?)ibuU', 'unwon'])
+'-lii@I-<Ljd@<J?)ibuU'
+>>> LangsteWoord(['transitively', 'invoked', '_P-aWR<c&BR', 'OzfiZi', 'zLJWp', 'gV)nR>nmjV!yX*)Z$yL', 'qMI%%&VuT%*xyyR(', 'B>$kG%[>x(S&lrg?cl', 'hipponactean', '=COCSFxsbik-c*', 'gluconate', 'embranchment', '!HokFog.(vfnjoW', 'asteria'])
+'gV)nR>nmjV!yX*)Z$yL'
+>>> LangsteWoord(['RUsT', 'Yg(xxrlQ', 'rabidities', '))q?oVvr,zd?JSzv[FK', 'N', 'ZNvpTusdv@', '*)T,N', '=UhS*Q', 'T@P*guBoFbm.L', 'nonrepellence'])
+'))q?oVvr,zd?JSzv[FK'
+>>> LangsteWoord(['deoxyribonucleoprotein', '$iC-v!@hgK', 'abjure'])
+'deoxyribonucleoprotein'
+>>> LangsteWoord(['sIIK*y', '*s%U$B+Tw>Y!%obG', 'erinaceus', 'entomologists', '-olsW*c.', '?Bcj=', 'Z', 'hydrodynamicist', 'coccobacilli', 'unwink'])
+'*s%U$B+Tw>Y!%obG'
+>>> LangsteWoord(['pq%', 'o', 'lopxA,', 'multivocalness', '+dTolwZ', 'timbrels', 'anality'])
+'multivocalness'
+>>> LangsteWoord(['c()!>$aPyX?>F?', 'tF_d<', 'b', 'JvxU)AGUnom+d', 'o>hSHwaG', 'N>*azIFOAjyNWCNEN_', 'lizary', ')lu<V)CWXDRiYF[M', 'workhouse', 'unurged', 'visualize', '!sb*l=.XNbJhjAOPc', 'FB', 'qe[B-v<[RWY@<WDD'])
+'N>*azIFOAjyNWCNEN_'
+>>> LangsteWoord(['=,N', 'houghband', 'highbrow', 'slouchiness', 'sansei', 'sillibibs', 'bitt', 'Wd?ADQUq<IH', 'z_T!', 'unfairminded', 'uk]', 'unmeaningly'])
+'unfairminded'
+>>> LangsteWoord(['preapply', '<GY,xzqeWMhE>R', '@EF]C*jqLr)QYz', 'semiflex', '<Mr=qoL$-', 'z]y>ARvwkz@EZ', 'cobblerless', '[*YGM', 'dilemite', 'gnashed', 'taxonomies', 'rejuvenations', 'hPhvQ', 'yz*sB+%[z#Q[RdmB(#', 'chalazia'])
+'yz*sB+%[z#Q[RdmB(#'
+>>> LangsteWoord(['alpinists', 'atrKfQNW', 'demicircular', 'striariaceae', 'wycliffian', 'ZMJ<+xnk[rSeKO>', 'Bw>!yCoT', 'XjMN+SxeL,&MezG', 'discomposure', 'j&ugi', ',bTOM(w!<kJu[#HQ', 'aurorally', 'paleomagnetic', 'dermatoplasm'])
+',bTOM(w!<kJu[#HQ'
+>>> LangsteWoord(['myelon', 'eLmNVqd[#]=jf%FU', 'invigorations', 'AE]%i#oz', 'foreshown', 'assembles', 'P)XV*++]vS-(e$'])
+'eLmNVqd[#]=jf%FU'
+>>> LangsteWoord(['barbera', '&', ']', 'crop', '=wAE', 'myzostomidae', 'avocatory', 'kalamkari', 'ACdkDdzZTUFJ', 'millirems', '+,]iRsdRsfiNt].M*Mb', 'inopportunism', 'aff', 'synesthetic'])
+'+,]iRsdRsfiNt].M*Mb'
+>>> LangsteWoord(['U]olf>.OGM!f=bqx', 'libidinization', 'lobbygow', 'Z&XFzjv(ShtXY]kmz%]', 'Fh>to>[Pm&B%Jm', 'J&n#TXPzs.RnYBn>]', 'ferratin', 'angiostomy', '#@EcM', 'speedways', '?-)&]FtfMEPdx#TJu'])
+'Z&XFzjv(ShtXY]kmz%]'
+>>> LangsteWoord(['R=uK[rjvYqNA'])
+'R=uK[rjvYqNA'
+>>> LangsteWoord(['dendrobates', 'aspersoriums', 'alethiologist', 'tutelar', 'mlf_#M'])
+'alethiologist'
+>>> LangsteWoord(['L', 'exogastric', 'XP<lrdTpCwUX+(TeJgn%', 'trepangs', 'tenuious', 'rouelle', 'colocated', 'waB', 'i<'])
+'XP<lrdTpCwUX+(TeJgn%'
+>>> LangsteWoord([])
+''
+>>> LangsteWoord(['K-l](wyK)kGeQ', 'aA!EI', 'e)u!', 'R>I-hb_NV[jFbsn$DN', 'stablish', 'x#+no', 'beakiron', 'WFpt-%iOTa*Yj(hJ?!U?', 'b', 'cXe_lTde<QA!t$', 'DxS&UNgZx', 'dialyse', 'bNL', '$[ZS>A>'])
+'WFpt-%iOTa*Yj(hJ?!U?'
+>>> LangsteWoord(['principulus', 'C&gj>E.Vsj>U', 'pC-KjwfVC', 'Z]I_BQLAwC*vWH]DOw.', 'mGxNrGOm+,RYtgL', 'pellard', 'compander', 'outcavilled', 'vivat'])
+'Z]I_BQLAwC*vWH]DOw.'
+>>> LangsteWoord(['bedivere', 'gwrhO', 'aSyyIrf*?+lB!'])
+'aSyyIrf*?+lB!'
+>>> LangsteWoord(['zincize', 'mOo@BVgM)up?d<t[Iy', 'asthenias', '!'])
+'mOo@BVgM)up?d<t[Iy'
+>>> LangsteWoord(['caprella', 'N&E*=c+(IRE!SoP@', 'cladodont', 'doubledamn', 'bjorne', 'DKNN*', 'liverwort', 'antidoting', '&HBr*<<PV+(g', 'skyport', 'vCk#&,EF_VmGy-kzS?p', 'ella', 'godwit', 'edging', 'adding'])
+'vCk#&,EF_VmGy-kzS?p'
+>>> LangsteWoord(['=%', 'nonopacities', 'hebe', 'T%HZ', 'XS!eOed,!DoIz', 'barbaresque'])
+'XS!eOed,!DoIz'
+>>> LangsteWoord(['sirupy', 'jjy', 'gi', 'satisfaciendum', 'garbling', 'zXM<Z$-_*pv.GLGg)', 'ectoskeleton', 'auditions', 'qm=KNzE', 'fSJf.f', 'padina', 'polymeric', 'lL>', 'oh=cmE_ADy'])
+'zXM<Z$-_*pv.GLGg)'
+>>> LangsteWoord(['conirostral', 'gNT', 'bergander', 'punxgwS@B', 'Luc', '-%u', 'premunitory', 'exheredate', 'FP$!)k]MUCA#TS?w', 'mqXCdME-Fe.$GCJVSqF'])
+'mqXCdME-Fe.$GCJVSqF'
+>>> LangsteWoord(['!Plx=,NfsH?foqqrl@>', 'y+ai!BYK'])
+'!Plx=,NfsH?foqqrl@>'
+>>> LangsteWoord(['VzNL'])
+'VzNL'
+>>> LangsteWoord(['mJp', 'houhere', 'koorajong', 'iconomaticism', '.lD@xZvS-$LzUstL', 'qZQZh>GNv>$*P'])
+'.lD@xZvS-$LzUstL'
+>>> LangsteWoord(['%O_OjPB-UAvo-qvNh', '*)!b', 'redback', 'j#CR', 'sL@s#wXXlxJ', 'cassabully', 'g%M!+qRSPwTzBN!@fbky'])
+'g%M!+qRSPwTzBN!@fbky'
+>>> LangsteWoord([])
+''
+>>> LangsteWoord(['y-', 'predable', 'A!T%uBkwEjdCesqcI%K', 'bjvMcz%=v=(,q*v', 's', 'unblushingness', 'bronchophony', 'eo&a*-<.dJUaq', 'encountered', 'ananite', 'Jz#-K]Ovq', 'separates', 'Y&.<]!R,?', 'backdated', 'nonspacious'])
+'A!T%uBkwEjdCesqcI%K'
+>>> LangsteWoord(['K#VrnsWs,U)]UNdy', 'vu', 'X=P.S.W_>**(n', 'suerre', 'vitellus', '.ZC&nl>Nprh<'])
+'K#VrnsWs,U)]UNdy'
+>>> LangsteWoord([')?T', 'G%D_nQi', '*xKRI_=KKyqGf?rsy', 'purlhouse', 'drosera'])
+'*xKRI_=KKyqGf?rsy'
+>>> LangsteWoord(['ZT-CmMPabsnnznDXCD', 'enregistering', 'anaudic', 'stair'])
+'ZT-CmMPabsnnznDXCD'
+>>> LangsteWoord(['qw@CTgn._sK', 'p#f', 'lor', 'turgently', 'ctenophorous', 'astarboard', 'bejabers', 'montanto', 'perinuclear'])
+'ctenophorous'
+>>> LangsteWoord(['&&-(tXimrB$', 'slavic', 'calcareosulphurous', '#+MX]VrcQh', ')foM', 'jazeran', ']>gyzq=ZEg'])
+'calcareosulphurous'
+>>> LangsteWoord(['pLMEistC', 'alalonga', 'disestablish'])
+'disestablish'
+>>> LangsteWoord(['EF', 'undry'])
+'undry'
+>>> LangsteWoord(['Ev'])
+'Ev'
+>>> LangsteWoord(['oNfyt]vugO_KRmfhV', 'slags', 'diducing', 'Q', 'U_', 'Y$ja.k', 'homogeneities', 'LF(p?(<*kQu', '=.]ZcZouQt.auXJ', 'swellish', 'infrequentcy', 'enterohemorrhage'])
+'oNfyt]vugO_KRmfhV'
+>>> LangsteWoord(['tripterous', 'worky', '.(*AmyiyE@oixo', 'machos', 'exotery'])
+'.(*AmyiyE@oixo'

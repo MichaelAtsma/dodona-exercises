@@ -1,0 +1,4 @@
+>>> LangsteWoord(['appel', 'banaan', 'kers'])
+'banaan'
+>>> LangsteWoord(['kat', 'hond', 'aap', 'olifant'])
+'olifant'
