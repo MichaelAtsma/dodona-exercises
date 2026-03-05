@@ -285,5 +285,7 @@ In plaats van een getal bijhouden als subtotaal kan je ook een <i>string</i> bij
 <details markdown="1"><summary>Specifieker</summary>
 Om deze functie te maken, kan je een variabele gebruiken om het langste woord dat je tot nu toe hebt gezien bij te houden. Je kan deze variabele bijvoorbeeld <code>langste</code> noemen. In de <i>for</i>-lus kan je dan controleren of het huidige woord langer is dan <code>langste</code>. Als dat zo is, kan je <code>langste</code> updaten naar het huidige woord.
 
+<hr>
+
 </details> <!-- End of specifieker -->
 </details> <!-- End of tip -->
