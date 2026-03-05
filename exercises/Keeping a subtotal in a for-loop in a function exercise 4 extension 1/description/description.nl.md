@@ -243,6 +243,8 @@ Wat doet deze functie?
 # <b>Opdracht</b>
 Breid de <function name="AantalGeslaagd"></function> functie van de vorige oefening uit. De functie neemt een lijst van cijfers als invoer. De functie moet nu het aantal leerlingen dat geslaagd is (50 of hoger heeft behaald) op het scherm afdrukken met de volgende zin: <code class="string">Er zijn [X] leerlingen geslaagd.</code>, waarbij <code class="string">X</code> vervangen wordt met het juiste getal.
 
+<span style="color: red;"><b>Let op, de aanpassing is dus dat de functie nu iets op het scherm afdrukt in plaats van teruggeeft.</b></span>
+
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
 
