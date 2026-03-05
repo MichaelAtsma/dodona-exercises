@@ -1,0 +1,10 @@
+--------------------------------------------------
+tab name: Voorbeelden
+used output channel: stdout
+<LANGUAGE code="en">
+    <function from="AantalGeslaagd" to="AmountPassed" />
+    <fixed from="Er zijn" to="There are" />
+    <fixed from="leerlingen geslaagd." to="students that passed." />
+    <fixed from="Er is" to="There is" />
+    <fixed from="leerling geslaagd." to="student that passed." />
+</LANGUAGE>
