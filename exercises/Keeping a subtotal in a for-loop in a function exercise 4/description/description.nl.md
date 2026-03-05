@@ -241,7 +241,7 @@ Wat doet deze functie?
 <hr>
 
 # <b>Opdracht</b>
-Maak een functie genaamd <function name="AantalGeslaagd"></function> die een lijst van cijfers als invoer heeft. De functie moet het aantal leerlingen teruggeven dat geslaagd is (50 of hoger heeft behaald).
+Maak een functie genaamd <function name="AantalGeslaagd"></function> die een lijst van cijfers als invoer neemt. De functie moet het aantal leerlingen teruggeven dat geslaagd is (50 of hoger heeft behaald).
 
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
