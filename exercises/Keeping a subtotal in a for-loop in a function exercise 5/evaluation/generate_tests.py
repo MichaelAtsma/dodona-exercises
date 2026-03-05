@@ -51,7 +51,7 @@ def GenerateRandomStringsAndPhrases(n=50):
 
 function_effect = "returns"
 function = LangsteWoord
-bulk_test = False
+bulk_test = True
 
 if not bulk_test:
     X = [(["appel", "banaan", "kers"],),
@@ -61,7 +61,7 @@ else:
     edge_cases = [([""],)]
     X = edge_cases.copy()
     while len(X) < amount:
-        n_words = random.randint(0, 15)
+        n_words = random.randint(1, 15)
         words = list(GenerateRandomStringsAndPhrases(n_words))
         X.append((ValidateWordList(words),))
 
