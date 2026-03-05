@@ -252,7 +252,7 @@ Maak een functie genaamd <function name="AantalGeslaagd"></function> die een lij
     <tr>
       <th>Invoer</th>
       <th class="padding-column">→</th>
-      <th class="huge-padding-column">Verwachte returnwaarde</th>
+      <th>Verwachte returnwaarde</th>
     </tr>
   </thead>
   <tbody>
