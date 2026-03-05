@@ -241,7 +241,7 @@ Wat doet deze functie?
 <hr>
 
 # <b>Opdracht</b>
-Breid de <function name="AantalGeslaagd"></function> functie van de vorige oefening uit. De functie neemt een lijst van cijfers als invoer. De functie moet nu het aantal leerlingen dat geslaagd is (50 of hoger heeft behaald) op het scherm afdrukken met de volgende zin: <code class="string">"Er zijn [X] leerlingen geslaagd."</code>, waarbij <code>X</code> vervangen wordt met het juiste getal.
+Breid de <function name="AantalGeslaagd"></function> functie van de vorige oefening uit. De functie neemt een lijst van cijfers als invoer. De functie moet nu het aantal leerlingen dat geslaagd is (50 of hoger heeft behaald) op het scherm afdrukken met de volgende zin: <code class="string">"Er zijn [X] leerlingen geslaagd."</code>, waarbij <code class="string">X</code> vervangen wordt met het juiste getal.
 
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
