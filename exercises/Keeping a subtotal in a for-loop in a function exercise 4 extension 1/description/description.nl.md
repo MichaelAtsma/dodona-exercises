@@ -180,7 +180,7 @@
     box-sizing: border-box;
     border: 1px solid #8f8f8fff !important;
     border-style: solid !important;
-    white-space: nowrap;
+    white-space: normal;
   }
   .sub-title-in-table {
     font-size: 0.8em !important;
