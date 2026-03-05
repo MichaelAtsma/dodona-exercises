@@ -252,7 +252,7 @@ Breid de <function name="AantalGeslaagd"></function> functie van de vorige oefen
     <tr>
       <th>Invoer</th>
       <th class="padding-column">→</th>
-      <th>Verwachte output</th>
+      <th class="medium-padding-column">Verwachte output</th>
     </tr>
   </thead>
   <tbody>
