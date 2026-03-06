@@ -267,7 +267,7 @@ Maak een functie genaamd <function name="SomNKwadraten"></function> die een geta
       <td><function name="SomNKwadraten" inputs='7'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>140</code></td>
-      <td>\[ 1^2 + 2^2 + 3^2 + 4^2 + 5^2 + 6^2 + 7^2 \]<br>\[= 1 + 4 + 9 + 16 + 25 + 36 + 49 = 140 \]</td>
+      <td>\[ 1^2 + 2^2 + 3^2 + 4^2 + 5^2 + 6^2 + 7^2 \] \[= 1 + 4 + 9 + 16 + 25 + 36 + 49 = 140 \]</td>
     </tr>
   </tbody>
 </table>
