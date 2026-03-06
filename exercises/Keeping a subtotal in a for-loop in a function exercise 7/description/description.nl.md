@@ -273,7 +273,7 @@ Maak een functie genaamd <function name="SomAlleEven"></function> die een lijst 
       <td><function name="SomAlleEven" inputs='[1, 3, 5, 7, 9]'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>0</code></td>
-      <td>Geen even getallen in de lijst, dus de som is \[0\]</td>
+      <td>Geen even getallen in de lijst, dus de som is $$0$$</td>
     </tr>
     <tr>
       <td><function name="SomAlleEven" inputs='[]'></function></td>
