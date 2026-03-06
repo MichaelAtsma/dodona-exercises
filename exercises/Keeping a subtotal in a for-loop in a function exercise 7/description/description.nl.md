@@ -261,13 +261,13 @@ Maak een functie genaamd <function name="SomAlleEven"></function> die een lijst 
       <td><function name="SomAlleEven" inputs='[1, 2, 3, 4, 5, 6]'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>12</code></td>
-      <td>\[2 + 4 + 6 = 12\]</td>
+      <td>$$2 + 4 + 6 = 12$$</td>
     </tr>
     <tr>
       <td><function name="SomAlleEven" inputs='[10, 9, 1, 4, 7, 101, 79, 50]'></function></td>
       <td style="text-align: center;">→</td>
       <td><code>64</code></td>
-      <td>\[10 + 4 + 50 = 64\]</td>
+      <td>$$10 + 4 + 50 = 64$$</td>
     </tr>
     <tr>
       <td><function name="SomAlleEven" inputs='[1, 3, 5, 7, 9]'></function></td>
