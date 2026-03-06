@@ -1,0 +1,200 @@
+>>> SomNKwadraten(1)
+1
+>>> SomNKwadraten(2)
+5
+>>> SomNKwadraten(3)
+14
+>>> SomNKwadraten(4)
+30
+>>> SomNKwadraten(5)
+55
+>>> SomNKwadraten(6)
+91
+>>> SomNKwadraten(7)
+140
+>>> SomNKwadraten(8)
+204
+>>> SomNKwadraten(9)
+285
+>>> SomNKwadraten(10)
+385
+>>> SomNKwadraten(11)
+506
+>>> SomNKwadraten(12)
+650
+>>> SomNKwadraten(13)
+819
+>>> SomNKwadraten(14)
+1015
+>>> SomNKwadraten(15)
+1240
+>>> SomNKwadraten(16)
+1496
+>>> SomNKwadraten(17)
+1785
+>>> SomNKwadraten(18)
+2109
+>>> SomNKwadraten(19)
+2470
+>>> SomNKwadraten(20)
+2870
+>>> SomNKwadraten(21)
+3311
+>>> SomNKwadraten(22)
+3795
+>>> SomNKwadraten(23)
+4324
+>>> SomNKwadraten(24)
+4900
+>>> SomNKwadraten(25)
+5525
+>>> SomNKwadraten(26)
+6201
+>>> SomNKwadraten(27)
+6930
+>>> SomNKwadraten(28)
+7714
+>>> SomNKwadraten(29)
+8555
+>>> SomNKwadraten(30)
+9455
+>>> SomNKwadraten(31)
+10416
+>>> SomNKwadraten(32)
+11440
+>>> SomNKwadraten(33)
+12529
+>>> SomNKwadraten(34)
+13685
+>>> SomNKwadraten(35)
+14910
+>>> SomNKwadraten(36)
+16206
+>>> SomNKwadraten(37)
+17575
+>>> SomNKwadraten(38)
+19019
+>>> SomNKwadraten(39)
+20540
+>>> SomNKwadraten(40)
+22140
+>>> SomNKwadraten(41)
+23821
+>>> SomNKwadraten(42)
+25585
+>>> SomNKwadraten(43)
+27434
+>>> SomNKwadraten(44)
+29370
+>>> SomNKwadraten(45)
+31395
+>>> SomNKwadraten(46)
+33511
+>>> SomNKwadraten(47)
+35720
+>>> SomNKwadraten(48)
+38024
+>>> SomNKwadraten(49)
+40425
+>>> SomNKwadraten(50)
+42925
+>>> SomNKwadraten(51)
+45526
+>>> SomNKwadraten(52)
+48230
+>>> SomNKwadraten(53)
+51039
+>>> SomNKwadraten(54)
+53955
+>>> SomNKwadraten(55)
+56980
+>>> SomNKwadraten(56)
+60116
+>>> SomNKwadraten(57)
+63365
+>>> SomNKwadraten(58)
+66729
+>>> SomNKwadraten(59)
+70210
+>>> SomNKwadraten(60)
+73810
+>>> SomNKwadraten(61)
+77531
+>>> SomNKwadraten(62)
+81375
+>>> SomNKwadraten(63)
+85344
+>>> SomNKwadraten(64)
+89440
+>>> SomNKwadraten(65)
+93665
+>>> SomNKwadraten(66)
+98021
+>>> SomNKwadraten(67)
+102510
+>>> SomNKwadraten(68)
+107134
+>>> SomNKwadraten(69)
+111895
+>>> SomNKwadraten(70)
+116795
+>>> SomNKwadraten(71)
+121836
+>>> SomNKwadraten(72)
+127020
+>>> SomNKwadraten(73)
+132349
+>>> SomNKwadraten(74)
+137825
+>>> SomNKwadraten(75)
+143450
+>>> SomNKwadraten(76)
+149226
+>>> SomNKwadraten(77)
+155155
+>>> SomNKwadraten(78)
+161239
+>>> SomNKwadraten(79)
+167480
+>>> SomNKwadraten(80)
+173880
+>>> SomNKwadraten(81)
+180441
+>>> SomNKwadraten(82)
+187165
+>>> SomNKwadraten(83)
+194054
+>>> SomNKwadraten(84)
+201110
+>>> SomNKwadraten(85)
+208335
+>>> SomNKwadraten(86)
+215731
+>>> SomNKwadraten(87)
+223300
+>>> SomNKwadraten(88)
+231044
+>>> SomNKwadraten(89)
+238965
+>>> SomNKwadraten(90)
+247065
+>>> SomNKwadraten(91)
+255346
+>>> SomNKwadraten(92)
+263810
+>>> SomNKwadraten(93)
+272459
+>>> SomNKwadraten(94)
+281295
+>>> SomNKwadraten(95)
+290320
+>>> SomNKwadraten(96)
+299536
+>>> SomNKwadraten(97)
+308945
+>>> SomNKwadraten(98)
+318549
+>>> SomNKwadraten(99)
+328350
+>>> SomNKwadraten(100)
+338350
