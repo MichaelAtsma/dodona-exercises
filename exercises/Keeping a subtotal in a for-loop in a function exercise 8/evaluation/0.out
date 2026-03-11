@@ -1,5 +1,6 @@
 --------------------------------------------------
 tab name: Voorbeelden
+used output channel: stdout
 <LANGUAGE code="en">
     <function from="MeesteDeelbareGetallen" to="MostDivisibleNumbers" />
     <fixed from="De eerste lijst bevat meer getallen deelbaar door " to="The first list contains more numbers divisible by " />
