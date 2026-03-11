@@ -267,25 +267,3 @@ Maak een functie <function name="MeesteDeelbareGetallen"></function> die twee li
 </div>
 
 </details> <!-- End of input-output verwachtingen -->
-
-<br>
-<hr>
-
-<details markdown="1"><summary>Tips</summary>
-<details markdown="1"><summary>Tip (even getallen?)</summary>
-
-Herinner je de <i>modulo</i>-operator waarmee we de rest van een deling kunnen berekenen.
-
-<details markdown="1"><summary>Specifieker</summary>
-
-Een getal is even als het deelbaar is door 2, oftewel als de rest bij deling (<code>%</code>) door 2 gelijk is aan 0.
-
-</details> <!-- End of specifieker -->
-</details> <!-- End of tip (even getallen) -->
-
-<details markdown="1"><summary>Tip (eerder stoppen)</summary>
-
-Zodra je in een functie de <code>return</code> regel tegen komt, wordt de functie onmiddellijk gestopt en wordt de waarde die achter <code>return</code> staat teruggegeven. Je kan dit gebruiken om eerder te stoppen als je al genoeg even getallen hebt opgeteld.
-
-</details> <!-- End of tip (eerder stoppen) -->
-</details> <!-- End of tips -->
