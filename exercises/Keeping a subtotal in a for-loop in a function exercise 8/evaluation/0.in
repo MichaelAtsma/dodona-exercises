@@ -1,0 +1,8 @@
+>>> MeesteDeelbareGetallen([6, 9, 10], [15, 19, 20], 3)
+De eerste lijst bevat meer getallen deelbaar door 3.
+>>> MeesteDeelbareGetallen([20, 21, 22, 23, 24, 25], [10, 15, 50, 100], 5)
+De tweede lijst bevat meer getallen deelbaar door 5.
+>>> MeesteDeelbareGetallen([4, 35, 26], [12, 11, 10, 9], 2)
+Beide lijsten bevatten evenveel getallen deelbaar door 2.
+>>> MeesteDeelbareGetallen([], [20], 4)
+De tweede lijst bevat meer getallen deelbaar door 4.

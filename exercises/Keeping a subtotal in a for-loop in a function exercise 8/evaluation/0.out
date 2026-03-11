@@ -1,0 +1,8 @@
+--------------------------------------------------
+tab name: Voorbeelden
+<LANGUAGE code="en">
+    <function from="MeesteDeelbareGetallen" to="MostDivisibleNumbers" />
+    <fixed from="De eerste lijst bevat meer getallen deelbaar door " to="The first list contains more numbers divisible by " />
+    <fixed from="De tweede lijst bevat meer getallen deelbaar door " to="The second list contains more numbers divisible by " />
+    <fixed from="Beide lijsten bevatten evenveel getallen deelbaar door " to="Both lists contain the same amount of numbers divisible by " />
+</LANGUAGE>

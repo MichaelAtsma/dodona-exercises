@@ -1,0 +1,2 @@
+def MeesteDeelbareGetallen(getallen1, getallen2, deler):
+    
