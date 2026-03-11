@@ -209,6 +209,6 @@
 
 Deze opdracht dient enkel voor testendoeleinden.
 
-$\frac{6+9+10}{3} \approx 8.3$
+$$\frac{6+9+10}{3} \approx 8.3$$
 
-Test index (om te controleren of Dodona versie geupdated is): 21
+Test index (om te controleren of Dodona versie geupdated is): 22
