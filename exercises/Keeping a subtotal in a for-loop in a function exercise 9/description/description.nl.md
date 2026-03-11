@@ -261,6 +261,6 @@ Maak een functie <function name="KlasGemiddelde"></function> die een lijst van g
 
 <details markdown="1"><summary>Tip (afronden)</summary>
 
-Je kan de <function name="round"></function> functie gebruiken om een getal af te ronden op een bepaald aantal decimalen. De functie neemt twee argumenten: het getal dat je wilt afronden, en het aantal decimalen waarop je wilt afronden. Bijvoorbeeld, <code>round(3.14159, 2)</code> zal <code>3.14</code> teruggeven.
+Je kan de <function name="round"></function> functie gebruiken om een getal af te ronden op een bepaald aantal decimalen. De functie neemt twee argumenten: het getal dat je wilt afronden, en het aantal decimalen waarop je wilt afronden. Bijvoorbeeld, <function name="round" inputs="3.14159, 2"></function> zal <code>3.14</code> teruggeven.
 
 </details> <!-- End of tip (afronden) -->
