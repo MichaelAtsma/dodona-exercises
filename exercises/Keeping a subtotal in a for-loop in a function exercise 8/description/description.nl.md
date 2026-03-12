@@ -217,7 +217,7 @@ Je hebt ondertussen veel verschillende dingen geleerd over programmeren in Pytho
 <hr>
 
 # <b>Opdracht</b>
-Maak een functie <function name="MeesteDeelbareGetallen"></function> die twee lijsten van getallen en een deler als input neemt. De functie moet op het scherm afdrukken welke lijst meer getallen bevat die deelbaar zijn door de deler. 
+Maak een functie <function name="MeesteDeelbareGetallen"></function> die twee lijsten van getallen (<i>integers</i>) en een deler (<i>integer</i>) als input neemt. De functie moet op het scherm afdrukken welke lijst meer getallen bevat die deelbaar zijn door de deler. 
 
 <ul>
   <li>Als de eerste lijst meer deelbare getallen bevat, moet de functie de volgende zin afdrukken: <code class="string">De eerste lijst bevat meer getallen deelbaar door [deler].</code></li>

@@ -217,7 +217,7 @@ Je hebt ondertussen veel verschillende dingen geleerd over programmeren in Pytho
 <hr>
 
 # <b>Opdracht</b>
-Maak een functie <function name="KlasGemiddelde"></function> die een lijst van getallen als invoer neemt (scores van de leerlingen). Enkel scores van 0 tot en met 10 zijn valide scores, alle andere scores moeten genegeerd worden. De functie moet op het einde het gemiddelde van alle valide scores teruggeven, afgerond op één decimaal. Je mag aannemen dat er minstens één valide score in de lijst staat.
+Maak een functie <function name="KlasGemiddelde"></function> die een lijst van getallen (<i>integers</i> of <i>floats</i>) als invoer neemt (scores van de leerlingen). Enkel scores van 0 tot en met 10 zijn valide scores, alle andere scores moeten genegeerd worden. De functie moet op het einde het gemiddelde van alle valide scores teruggeven, afgerond op één decimaal. Je mag aannemen dat er minstens één valide score in de lijst staat.
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
 
