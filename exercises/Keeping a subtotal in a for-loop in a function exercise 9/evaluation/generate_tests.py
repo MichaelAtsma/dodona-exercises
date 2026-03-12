@@ -32,11 +32,11 @@ def KlasGemiddelde(scores):
 
 function_effect = "returns"
 function = KlasGemiddelde
-bulk_test = True
+bulk_test = False
 
 if not bulk_test:
     X = [([6, 9, 10],),
-         ([2, 7, -1],),
+         ([0, 7, -1],),
          ([8, 10, 12, 8, 9, 10, 11],),]
 else:
     amount = 100

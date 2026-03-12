@@ -1,6 +1,6 @@
 >>> KlasGemiddelde([6, 9, 10])
 8.3
->>> KlasGemiddelde([2, 7, -1])
-4.5
+>>> KlasGemiddelde([0, 7, -1])
+3.5
 >>> KlasGemiddelde([8, 10, 12, 8, 9, 10, 11])
 9.0

@@ -239,10 +239,10 @@ Maak een functie <function name="KlasGemiddelde"></function> die een lijst van g
       <td>$$\frac{6+9+10}{3} \approx 8.3$$</td>
     </tr>
     <tr>
-      <td><function name="KlasGemiddelde" inputs='[2, 7, -1]'></function></td>
+      <td><function name="KlasGemiddelde" inputs='[0, 7, -1]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><code>4.5</code></td>
-      <td>$$\frac{2+7}{2} = 4.5$$<br><i>Merk op: $$-1$$ is geen valide score.</i></td>
+      <td><code>3.5</code></td>
+      <td>$$\frac{0+7}{2} = 3.5$$<br><i>Merk op: $$-1$$ is geen valide score.</i></td>
     </tr>
     <tr>
       <td><function name="KlasGemiddelde" inputs='[8, 10, 12, 8, 9, 10, 11]'></function></td>
