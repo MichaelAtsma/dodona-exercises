@@ -1,2 +1,2 @@
-def SomEersteNEven(getallen, aantal):
+def SomEersteNEven(getallen, n):
     
