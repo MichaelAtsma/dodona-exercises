@@ -1,9 +1,10 @@
 - tab: "Test"
-  testcases:
-    - expression: "DnaFrequentie('AGCTAGC')"
-      return: !oracle
-        oracle: "custom_check"
-        value: [2, 2, 2, 2]
-        file: "oracle_test.py"
-        name: "evaluate_test"
-        arguments: [{"count": "de count functie"}]
+  contexts:
+    - testcases:
+        - expression: "DnaFrequentie('ACGTACGT')"
+          return: !oracle
+            oracle: "custom_check"
+            value: [2, 2, 2, 2]
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: [{"count": "de count functie"}]
