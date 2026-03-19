@@ -235,7 +235,7 @@ Of neem bijvoorbeeld <code>3</code> en <code>10</code>:
   <li>De grootste deler die ze met elkaar gemeen hebben is <code>1</code>.</li>
 </ul>
 
-Merk op dat alle getallen deelbaar zijn door <code>1</code>, dus de grootste gemene deler van twee getallen is altijd minstens <code>1</code>.
+Merk op dat alle gehele getallen deelbaar zijn door <code>1</code>, dus de grootste gemene deler van twee getallen is altijd minstens <code>1</code>.
 
 <br>
 <hr>
