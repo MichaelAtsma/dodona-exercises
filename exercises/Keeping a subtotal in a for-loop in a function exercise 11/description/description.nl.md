@@ -230,7 +230,7 @@ In de wiskunde zijn priemgetallen heel belangrijk. Ze worden ook wel de "bouwste
 <hr>
 
 # <b>Opdracht</b>
-Maak een functie <function name="IsPriem"></function> die één geheel getal (<i>int</i>) als invoer neemt. De functie bepaalt of het ingevoerde getal een priemgetal is, en geeft <code class="boolean">True</code> terug als het een priemgetal is, en <code class="boolean">False</code> als het dat niet is.
+Maak een functie <function name="IsPriem"></function> die één geheel getal (<i>integer</i>) als invoer neemt. De functie bepaalt of het ingevoerde getal een priemgetal is, en geeft <code class="boolean">True</code> terug als het een priemgetal is, en <code class="boolean">False</code> als het dat niet is.
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
 
