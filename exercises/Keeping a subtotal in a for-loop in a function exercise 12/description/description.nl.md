@@ -220,7 +220,22 @@ Je hebt ondertussen veel verschillende dingen geleerd over programmeren in Pytho
 
 # <b>Achtergrond</b>
 
+De grootste gemene deler van twee getallen is het grootste getal dat beide getallen kunnen delen zonder een rest over te houden. Neem bijvoorbeeld 12 en 18:
 
+<ul>
+  <li><code>12</code> is deelbaar door: <code>1</code>, <code>2</code>, <code>3</code>, <code>4</code>, <code>6</code>, en <code>12</code>.</li>
+  <li><code>18</code> is deelbaar door: <code>1</code>, <code>2</code>, <code>3</code>, <code>6</code>, <code>9</code>, en <code>18</code>.</li>
+  <li>De grootste deler die ze met elkaar gemeen hebben is <code>6</code>.</li>
+</ul>
+
+Of neem bijvoorbeeld 3 en 10:
+<ul>
+  <li><code>3</code> is deelbaar door: <code>1</code> en <code>3</code>.</li>
+  <li><code>10</code> is deelbaar door: <code>1</code>, <code>2</code>, <code>5</code>, en <code>10</code>.</li>
+  <li>De grootste deler die ze met elkaar gemeen hebben is <code>1</code>.</li>
+</ul>
+
+Merk op dat alle getallen deelbaar zijn door <code>1</code>, dus de grootste gemene deler van twee getallen is altijd minstens <code>1</code>.
 
 <br>
 <hr>
