@@ -1,8 +1,8 @@
->>> DnaFrequentie(('ACGTACGT',))
-[0, 0, 0, 0]
->>> DnaFrequentie(('ACAACAGT',))
-[0, 0, 0, 0]
->>> DnaFrequentie(('GATTACA',))
-[0, 0, 0, 0]
->>> DnaFrequentie(('',))
+>>> DnaFrequentie('ACGTACGT')
+[2, 2, 2, 2]
+>>> DnaFrequentie('ACAACAGT')
+[4, 2, 1, 1]
+>>> DnaFrequentie('AATTACA')
+[4, 1, 0, 2]
+>>> DnaFrequentie('')
 [0, 0, 0, 0]

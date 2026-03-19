@@ -43,10 +43,10 @@ function = DnaFrequentie
 bulk_test = True
 
 if not bulk_test:
-    X = [(("ACGTACGT",),),
-         (("ACAACAGT",),),
-         (("GATTACA",),),
-         (("",),),]
+    X = [("ACGTACGT",),
+         ("ACAACAGT",),
+         ("AATTACA",),
+         ("",),]
 else:
     amount = 100
     edge_cases = [("",), 
@@ -57,7 +57,7 @@ else:
                   ("ACGT",), 
                   ("AAAACCCCGGGGTTTT",)]
     X = edge_cases.copy()
-    while len(X) < amount:
+    while len(X) < amount-1:
         n = random.randint(1, 100)
         letters = random.choices("ACGT", k=n)
         X.append(("".join(letters),))
@@ -67,7 +67,7 @@ else:
 
 result = ""
 for args in X:
-    result += f">>> {function.__name__}({', '.join(map(str, args))})\n"
+    result += f">>> {function.__name__}({', '.join(map(repr, args))})\n"
     if function_effect == "returns":
         result += f"{repr(function(*args))}\n"
     elif function_effect == "prints":
