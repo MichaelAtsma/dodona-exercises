@@ -1,13 +1,31 @@
-a = [35.8, 94.784, 91.2, 30.37, 71.339, 77.514, 53.3, 68.2, 6.4, 77.1, 2.9]
+import random
+import time
 
-def AantalGeslaagd(scores):
-    geslaagd = 0
-    totaal = 0
-    for score in scores:
-        totaal += 1
-        if score >= 50:
-            geslaagd += 1
-        print(f"Score {score}: {geslaagd} van de {totaal} leerlingen zijn geslaagd.")
-    print(f"{geslaagd} van de {totaal} leerlingen zijn geslaagd.")
+def DnaFrequentie(dna_streng):
+    A = 0
+    C = 0
+    G = 0
+    T = 0
 
-AantalGeslaagd(a)
+    for nucleotide in dna_streng:
+        if nucleotide == "A":
+            A = A + 1
+        elif nucleotide == "C":
+            C = C + 1
+        elif nucleotide == "G":
+            G = G + 1
+        elif nucleotide == "T":
+            T = T + 1
+    
+    return [A, C, G, T]
+
+n = 1000000
+start = time.time()
+letters = random.choices("ACGT", k=n)
+end = time.time()
+print(f"Generated {n} random letters in {end - start:.2f} seconds.")
+
+start = time.time()
+result = DnaFrequentie("".join(letters))
+end = time.time()
+print(f"Processed a strand of {n} nucleotides in {end - start:.2f} seconds. Result: {result}.")
