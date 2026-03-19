@@ -259,8 +259,8 @@ Maak een functie <function name="DnaFrequentie"></function> die een tekst (<i>st
     <tr>
       <td><function name="DnaFrequentie" inputs='"ACAACAGT"'></function></td>
       <td style="text-align: center;">→</td>
-      <td><code>[3, 2, 1, 2]</code></td>
-      <td>De DNA-streng bevat 3 keer A, 2 keer C, 1 keer G, en 2 keer T.</td>
+      <td><code>[4, 2, 1, 1]</code></td>
+      <td>De DNA-streng bevat 4 keer A, 2 keer C, 1 keer G, en 1 keer T.</td>
     </tr>
     <tr>
       <td><function name="DnaFrequentie" inputs='"AATTACA"'></function></td>
