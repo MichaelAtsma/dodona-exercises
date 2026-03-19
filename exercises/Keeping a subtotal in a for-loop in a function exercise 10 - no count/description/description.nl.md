@@ -278,7 +278,9 @@ Maak een functie <function name="DnaFrequentie"></function> die een tekst (<i>st
 </table>
 </div>
 
-<b style="color: red;">Let op: je mag niet de <function name="count"></function> functie gebruiken.</b>
+<br>
+
+<b style="color: red;">Let op: je mag de <function name="count"></function> functie NIET gebruiken.</b>
 
 </details> <!-- End of input-output verwachtingen -->
 
