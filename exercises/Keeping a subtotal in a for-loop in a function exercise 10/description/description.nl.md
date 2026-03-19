@@ -221,7 +221,7 @@ Desoxyribonucleïnezuur, beter bekend als DNA (van het Engelse <i>Deoxyribonucle
 
 Het bestaat uit twee DNA-strengen (ketens van de bouwstenen genaamd <i>nucleotiden</i>), die in een dubbele helix met elkaar verbonden zijn. Een nucleotide bevat één van vier verschillende stikstofbasen: Adenine (A), Cytosine (C), Guanine (G), en Thymine (T). De volgorde van deze basen in een DNA-streng bepaalt de genetische code van een organisme. 
 
-![Afbeelding die de structuur van DNA toont](DNA_image.png){: .dodona-lightbox .dark-invert}
+![Afbeelding die de structuur van DNA toont](DNA_image.png){: .dodona-lightbox}
 
 Bij een mens bestaat zo'n DNA-streng uit ongeveer 3 miljard nucleotiden. Het volledige DNA polymeer (dubbele helix) bestaat dus uit ongeveer 6 miljard nucleotiden. Wij gaan in deze oefening een heel klein deel van één van deze DNA-strengen beschouwen, en tellen hoe vaak elke van de vier basen (A, C, G, T) voorkomt in de streng. Dit heeft in de biologie weinig praktische toepassingen, maar het is een goed voorbeeld van een probleem dat je kan oplossen met programmeren, en het is een goede opwarming voor de volgende oefening waarin we de tweede DNA-streng gaan maken die complementair is aan de eerste.
 
