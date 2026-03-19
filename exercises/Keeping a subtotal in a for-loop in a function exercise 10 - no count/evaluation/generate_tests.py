@@ -42,33 +42,33 @@ function_effect = "returns"
 function = DnaFrequentie
 bulk_test = True
 
-if not bulk_test:
-    X = [("ACGTACGT",),
-         ("ACAACAGT",),
-         ("AATTACA",),
-         ("",),]
-else:
-    amount = 100
-    edge_cases = [("",), 
-                  ("A",), 
-                  ("C",), 
-                  ("G",), 
-                  ("T",), 
-                  ("ACGT",), 
-                  ("AAAACCCCGGGGTTTT",)]
-    X = edge_cases.copy()
-    while len(X) < amount-1:
-        n = random.randint(1, 100)
-        letters = random.choices("ACGT", k=n)
-        X.append(("".join(letters),))
-    X.append(("".join(random.choices("ACGT", k=1_000_000)),))
+
+X_example = [("ACGTACGT",),
+             ("ACAACAGT",),
+             ("AATTACA",),
+             ("",),]
+
+amount = 100
+edge_cases = [("",), 
+              ("A",), 
+              ("C",), 
+              ("G",), 
+              ("T",), 
+              ("ACGT",), 
+              ("AAAACCCCGGGGTTTT",)]
+X_bulk = edge_cases.copy()
+while len(X_bulk) < amount-1:
+    n = random.randint(1, 100)
+    letters = random.choices("ACGT", k=n)
+    X_bulk.append(("".join(letters),))
+X_bulk.append(("".join(random.choices("ACGT", k=1_000_000)),))
 
 
 
 result = """- tab: "Test"
   contexts:
     - testcases:\n"""
-for args in [("ACGTACGT",)]:
+for args in X_example:
     if function_effect == "returns":
         result += f"        - expression: \"{function.__name__}({', '.join(map(repr, args))})\"\n"
         result += f"          return: !oracle\n"
@@ -77,6 +77,21 @@ for args in [("ACGTACGT",)]:
         result += f"            file: \"oracle_test.py\"\n"
         result += f"            name: \"evaluate_test\"\n"
         result += f"            arguments: [{{\"count\": \"de count functie\"}}]\n"
+
+
+result += """- tab: "Bulk test"
+  contexts:
+    - testcases:\n"""
+for args in X_bulk:
+    if function_effect == "returns":
+        result += f"        - expression: \"{function.__name__}({', '.join(map(repr, args))})\"\n"
+        result += f"          return: !oracle\n"
+        result += f"            oracle: \"custom_check\"\n"
+        result += f"            value: {repr(function(*args))}\n"
+        result += f"            file: \"oracle_test.py\"\n"
+        result += f"            name: \"evaluate_test\"\n"
+        result += f"            arguments: [{{\"count\": \"de count functie\"}}]\n"
+
     # elif function_effect == "prints":
     #     _, output = capture_output(function, *args)
     #     result += f"{output}"
