@@ -3,17 +3,43 @@ import re
 
 # Pattern or literal to replace
 use_regex_for_to_replace = False
-to_replace = r"""Totaalprijs"""
+to_replace = r"""@media (prefers-color-scheme: dark) {
+    .functioninput-default { color: white; }
+    .functionseparators { color: white; }
+    .function-name { color: #daaa28ff; }
+    .string { color: #52d1c1; }
+    .functioninput-int, .functioninput-float { color: #feb1bf; }
+  }
+  @media (prefers-color-scheme: light) {
+    .functioninput-default { color: black; }
+    .functionseparators { color: black; }
+    .function-name { color: #a17702ff; }
+    .string { color: green; }
+    .functioninput-int, .functioninput-float { color: red; }"""
 
 # Replacement (can contain backreferences like r"\1" when use_regex is True)
 use_regex_for_replacement = False
-replacement = r"""Totaalbedrag"""
+replacement = r"""@media (prefers-color-scheme: dark) {
+    .functioninput-default { color: white; }
+    .functionseparators { color: white; }
+    .function-name { color: #daaa28ff; }
+    .string { color: #52d1c1; }
+    .boolean { color: #9ccaff;}
+    .functioninput-int, .functioninput-float { color: #feb1bf; }
+  }
+  @media (prefers-color-scheme: light) {
+    .functioninput-default { color: black; }
+    .functionseparators { color: black; }
+    .function-name { color: #a17702ff; }
+    .string { color: green; }
+    .boolean { color: #0061a6;}
+    .functioninput-int, .functioninput-float { color: red; }"""
 
 
-filename_contains = ""
+filename_contains = "description"
 directory_contains = ""
 directory_does_not_contain = ""
-root_dir = "dodona-exercises/exercises/Keeping a subtotal in a for-loop in a function"
+root_dir = "dodona-exercises/exercises/"
 
 for dirpath, dirnames, filenames in os.walk(root_dir):
     for filename in filenames:

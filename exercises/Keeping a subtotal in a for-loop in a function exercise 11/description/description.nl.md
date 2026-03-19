@@ -200,6 +200,7 @@
     .functionseparators { color: white; }
     .function-name { color: #daaa28ff; }
     .string { color: #52d1c1; }
+    .boolean { color: #9ccaff;}
     .functioninput-int, .functioninput-float { color: #feb1bf; }
   }
   @media (prefers-color-scheme: light) {
@@ -207,6 +208,7 @@
     .functionseparators { color: black; }
     .function-name { color: #a17702ff; }
     .string { color: green; }
+    .boolean { color: #0061a6;}
     .functioninput-int, .functioninput-float { color: red; }
   }
 </style>
@@ -228,7 +230,7 @@ In de wiskunde zijn priemgetallen heel belangrijk. Ze worden ook wel de "bouwste
 <hr>
 
 # <b>Opdracht</b>
-Maak een functie <function name="IsPriem"></function> die één geheel getal (<i>int</i>) als invoer neemt. De functie bepaalt of het ingevoerde getal een priemgetal is, en geeft <code>True</code> terug als het een priemgetal is, en <code>False</code> als het dat niet is.
+Maak een functie <function name="IsPriem"></function> die één geheel getal (<i>int</i>) als invoer neemt. De functie bepaalt of het ingevoerde getal een priemgetal is, en geeft <code class="boolean">True</code> terug als het een priemgetal is, en <code class="boolean">False</code> als het dat niet is.
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
 

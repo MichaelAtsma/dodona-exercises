@@ -200,6 +200,7 @@
     .functionseparators { color: white; }
     .function-name { color: #daaa28ff; }
     .string { color: #52d1c1; }
+    .boolean { color: #9ccaff;}
     .functioninput-int, .functioninput-float { color: #feb1bf; }
   }
   @media (prefers-color-scheme: light) {
@@ -207,6 +208,7 @@
     .functionseparators { color: black; }
     .function-name { color: #a17702ff; }
     .string { color: green; }
+    .boolean { color: #0061a6;}
     .functioninput-int, .functioninput-float { color: red; }
   }
 </style>
