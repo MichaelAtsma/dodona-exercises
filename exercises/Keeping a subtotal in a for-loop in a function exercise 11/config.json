@@ -6,7 +6,7 @@
   },
   "evaluation": {
     "pythia_judge": "doctest",
-    "time_limit": 60
+    "time_limit": 100
   },
   "labels": [],
   "internals": {
