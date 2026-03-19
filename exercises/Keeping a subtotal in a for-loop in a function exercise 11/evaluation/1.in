@@ -1,0 +1,200 @@
+>>> IsPriem(1)
+False
+>>> IsPriem(1000000)
+False
+>>> IsPriem(999983)
+True
+>>> IsPriem(21)
+False
+>>> IsPriem(364)
+False
+>>> IsPriem(668)
+False
+>>> IsPriem(530)
+False
+>>> IsPriem(430)
+False
+>>> IsPriem(956)
+False
+>>> IsPriem(915)
+False
+>>> IsPriem(812)
+False
+>>> IsPriem(931)
+False
+>>> IsPriem(444)
+False
+>>> IsPriem(580)
+False
+>>> IsPriem(947)
+True
+>>> IsPriem(532)
+False
+>>> IsPriem(217)
+False
+>>> IsPriem(910)
+False
+>>> IsPriem(672)
+False
+>>> IsPriem(376)
+False
+>>> IsPriem(420)
+False
+>>> IsPriem(823)
+True
+>>> IsPriem(498)
+False
+>>> IsPriem(683)
+True
+>>> IsPriem(699)
+False
+>>> IsPriem(568)
+False
+>>> IsPriem(350)
+False
+>>> IsPriem(157)
+True
+>>> IsPriem(77)
+False
+>>> IsPriem(596)
+False
+>>> IsPriem(732)
+False
+>>> IsPriem(489)
+False
+>>> IsPriem(927)
+False
+>>> IsPriem(449)
+True
+>>> IsPriem(46)
+False
+>>> IsPriem(245)
+False
+>>> IsPriem(517)
+False
+>>> IsPriem(891)
+False
+>>> IsPriem(5)
+True
+>>> IsPriem(540)
+False
+>>> IsPriem(722)
+False
+>>> IsPriem(493)
+False
+>>> IsPriem(708)
+False
+>>> IsPriem(355)
+False
+>>> IsPriem(120)
+False
+>>> IsPriem(861)
+False
+>>> IsPriem(151)
+True
+>>> IsPriem(112)
+False
+>>> IsPriem(248)
+False
+>>> IsPriem(466)
+False
+>>> IsPriem(956)
+False
+>>> IsPriem(777)
+False
+>>> IsPriem(547)
+True
+>>> IsPriem(394)
+False
+>>> IsPriem(91)
+False
+>>> IsPriem(834)
+False
+>>> IsPriem(245)
+False
+>>> IsPriem(179)
+True
+>>> IsPriem(900)
+False
+>>> IsPriem(399)
+False
+>>> IsPriem(277)
+True
+>>> IsPriem(713)
+False
+>>> IsPriem(506)
+False
+>>> IsPriem(619)
+True
+>>> IsPriem(466)
+False
+>>> IsPriem(119)
+False
+>>> IsPriem(271)
+True
+>>> IsPriem(329)
+False
+>>> IsPriem(952)
+False
+>>> IsPriem(206)
+False
+>>> IsPriem(703)
+False
+>>> IsPriem(996)
+False
+>>> IsPriem(228)
+False
+>>> IsPriem(889)
+False
+>>> IsPriem(688)
+False
+>>> IsPriem(750)
+False
+>>> IsPriem(750)
+False
+>>> IsPriem(521)
+True
+>>> IsPriem(64)
+False
+>>> IsPriem(765)
+False
+>>> IsPriem(919)
+True
+>>> IsPriem(680)
+False
+>>> IsPriem(738)
+False
+>>> IsPriem(931)
+False
+>>> IsPriem(872)
+False
+>>> IsPriem(816)
+False
+>>> IsPriem(426)
+False
+>>> IsPriem(691)
+True
+>>> IsPriem(99)
+False
+>>> IsPriem(168)
+False
+>>> IsPriem(611)
+False
+>>> IsPriem(84)
+False
+>>> IsPriem(669)
+False
+>>> IsPriem(763)
+False
+>>> IsPriem(500)
+False
+>>> IsPriem(87)
+False
+>>> IsPriem(687)
+False
+>>> IsPriem(975)
+False
+>>> IsPriem(239)
+True
+>>> IsPriem(724)
+False
