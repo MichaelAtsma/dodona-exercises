@@ -221,7 +221,7 @@ Desoxyribonucleïnezuur, beter bekend als DNA (van het Engelse <i>Deoxyribonucle
 
 Het bestaat uit twee DNA-strengen (ketens van de bouwstenen genaamd <i>nucleotiden</i>), die in een dubbele helix met elkaar verbonden zijn. Een nucleotide bevat één van vier verschillende stikstofbasen: Adenine (A), Cytosine (C), Guanine (G), en Thymine (T). De volgorde van deze basen in een DNA-streng bepaalt de genetische code van een organisme. 
 
-![Afbeelding die de structuur van DNA toont](media/DNA_image.png)
+![Afbeelding die de structuur van DNA toont](media/DNA_image.webp){: .dark-invert}
 
 Bij een mens bestaat zo'n DNA-streng uit ongeveer 3 miljard nucleotiden. Het volledige DNA polymeer (dubbele helix) bestaat dus uit ongeveer 6 miljard nucleotiden. Wij gaan in deze oefening een heel klein deel van één van deze DNA-strengen beschouwen, en tellen hoe vaak elke van de vier basen (A, C, G, T) voorkomt in de streng. Dit heeft in de biologie weinig praktische toepassingen, maar het is een goed voorbeeld van een probleem dat je kan oplossen met programmeren, en het is een goede opwarming voor de volgende oefening waarin we de tweede DNA-streng gaan maken die complementair is aan de eerste.
 
@@ -285,6 +285,6 @@ Maak een functie <function name="DnaFrequentie"></function> die een tekst (<i>st
 
 <details markdown="1"><summary>Tip (een string aflopen)</summary>
 
-Een string is eigenlijk een lijst van tekens. Je kan dus een for-loop gebruiken om elke letter in de string één voor één te bekijken. 
+Een string is eigenlijk een lijst van karakters. Je kan dus een for-loop gebruiken om elk karakter (nucleotide) in de string één voor één te bekijken. 
 
 </details> <!-- End of tip (een string aflopen) -->
