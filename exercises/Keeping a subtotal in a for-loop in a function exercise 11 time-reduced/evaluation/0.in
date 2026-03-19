@@ -1,0 +1,12 @@
+>>> IsPriem(2)
+True
+>>> IsPriem(3)
+True
+>>> IsPriem(4)
+False
+>>> IsPriem(15)
+False
+>>> IsPriem(1)
+False
+>>> IsPriem(113)
+True

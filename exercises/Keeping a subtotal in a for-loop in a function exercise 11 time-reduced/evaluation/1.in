@@ -1,0 +1,200 @@
+>>> IsPriem(1)
+False
+>>> IsPriem(1000000)
+False
+>>> IsPriem(999983)
+True
+>>> IsPriem(13)
+True
+>>> IsPriem(731)
+False
+>>> IsPriem(101)
+True
+>>> IsPriem(7811)
+False
+>>> IsPriem(199)
+True
+>>> IsPriem(26969)
+False
+>>> IsPriem(317)
+True
+>>> IsPriem(59701)
+False
+>>> IsPriem(443)
+True
+>>> IsPriem(107143)
+False
+>>> IsPriem(577)
+True
+>>> IsPriem(168437)
+False
+>>> IsPriem(701)
+True
+>>> IsPriem(243307)
+False
+>>> IsPriem(839)
+True
+>>> IsPriem(350023)
+False
+>>> IsPriem(983)
+True
+>>> IsPriem(457753)
+False
+>>> IsPriem(1109)
+True
+>>> IsPriem(607559)
+False
+>>> IsPriem(1277)
+True
+>>> IsPriem(756611)
+False
+>>> IsPriem(1429)
+True
+>>> IsPriem(944159)
+False
+>>> IsPriem(1559)
+True
+>>> IsPriem(1133549)
+False
+>>> IsPriem(1699)
+True
+>>> IsPriem(1346897)
+False
+>>> IsPriem(1871)
+True
+>>> IsPriem(1596967)
+False
+>>> IsPriem(2017)
+True
+>>> IsPriem(1888321)
+False
+>>> IsPriem(2161)
+True
+>>> IsPriem(2169329)
+False
+>>> IsPriem(2339)
+True
+>>> IsPriem(2486353)
+False
+>>> IsPriem(2473)
+True
+>>> IsPriem(2781263)
+False
+>>> IsPriem(2663)
+True
+>>> IsPriem(3174683)
+False
+>>> IsPriem(2791)
+True
+>>> IsPriem(3616763)
+False
+>>> IsPriem(2957)
+True
+>>> IsPriem(4043797)
+False
+>>> IsPriem(3137)
+True
+>>> IsPriem(4459919)
+False
+>>> IsPriem(3313)
+True
+>>> IsPriem(5003269)
+False
+>>> IsPriem(3467)
+True
+>>> IsPriem(5442313)
+False
+>>> IsPriem(3617)
+True
+>>> IsPriem(5899141)
+False
+>>> IsPriem(3779)
+True
+>>> IsPriem(6583627)
+False
+>>> IsPriem(3931)
+True
+>>> IsPriem(7160687)
+False
+>>> IsPriem(4111)
+True
+>>> IsPriem(7622221)
+False
+>>> IsPriem(4271)
+True
+>>> IsPriem(8253229)
+False
+>>> IsPriem(4457)
+True
+>>> IsPriem(8957149)
+False
+>>> IsPriem(4639)
+True
+>>> IsPriem(9763861)
+False
+>>> IsPriem(4799)
+True
+>>> IsPriem(10522807)
+False
+>>> IsPriem(4973)
+True
+>>> IsPriem(11228717)
+False
+>>> IsPriem(5147)
+True
+>>> IsPriem(12137527)
+False
+>>> IsPriem(5333)
+True
+>>> IsPriem(12794029)
+False
+>>> IsPriem(5501)
+True
+>>> IsPriem(13571231)
+False
+>>> IsPriem(5659)
+True
+>>> IsPriem(14446577)
+False
+>>> IsPriem(5839)
+True
+>>> IsPriem(15287659)
+False
+>>> IsPriem(6029)
+True
+>>> IsPriem(16256399)
+False
+>>> IsPriem(6199)
+True
+>>> IsPriem(17238479)
+False
+>>> IsPriem(6343)
+True
+>>> IsPriem(18164203)
+False
+>>> IsPriem(6551)
+True
+>>> IsPriem(19271011)
+False
+>>> IsPriem(6709)
+True
+>>> IsPriem(20384201)
+False
+>>> IsPriem(6883)
+True
+>>> IsPriem(21436171)
+False
+>>> IsPriem(7043)
+True
+>>> IsPriem(22618447)
+False
+>>> IsPriem(7243)
+True
+>>> IsPriem(23969591)
+False
+>>> IsPriem(7477)
+True
+>>> IsPriem(24899659)
+False
+>>> IsPriem(7603)
+True
