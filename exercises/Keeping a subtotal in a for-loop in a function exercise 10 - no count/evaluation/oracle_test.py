@@ -30,7 +30,7 @@ def evaluate_test(context, forbidden_texts_and_descriptions):
 
     return EvaluationResult(
       result = correct,
-      dsl_expected = "", 
-      dsl_actual = "", 
+      dsl_expected = "", # empty string reverts to default rendering of expected value
+      dsl_actual = "", # empty string reverts to default rendering of actual value
       messages = mymessages
     )
