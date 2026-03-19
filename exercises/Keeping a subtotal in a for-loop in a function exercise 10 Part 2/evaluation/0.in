@@ -1,0 +1,8 @@
+>>> DnaComplement('ACGTACGT')
+'TGCATGCA'
+>>> DnaComplement('ACAACAGT')
+'TGTTGTCA'
+>>> DnaComplement('AATTACA')
+'TTAATGT'
+>>> DnaComplement('')
+''
