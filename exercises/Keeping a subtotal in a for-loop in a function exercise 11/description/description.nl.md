@@ -248,37 +248,37 @@ Maak een functie <function name="IsPriem"></function> die één geheel getal (<i
     <tr>
       <td><function name="IsPriem" inputs='2'></function></td>
       <td style="text-align: center;">→</td>
-      <td><code>True</code></td>
+      <td><code class="boolean">True</code></td>
       <td>2 is deelbaar door 2 getallen: 1 en zichzelf (2).</td>
     </tr>
     <tr>
       <td><function name="IsPriem" inputs='3'></function></td>
       <td style="text-align: center;">→</td>
-      <td><code>True</code></td>
+      <td><code class="boolean">True</code></td>
       <td>3 is deelbaar door 2 getallen: 1 en zichzelf (3).</td>
     </tr>
     <tr>
       <td><function name="IsPriem" inputs='4'></function></td>
       <td style="text-align: center;">→</td>
-      <td><code>False</code></td>
+      <td><code class="boolean">False</code></td>
       <td>4 is deelbaar door 3 getallen: 1, 2, en 4.</td>
     </tr>
     <tr>
       <td><function name="IsPriem" inputs='15'></function></td>
       <td style="text-align: center;">→</td>
-      <td><code>False</code></td>
+      <td><code class="boolean">False</code></td>
       <td>15 is deelbaar door 4 getallen: 1, 3, 5, en 15.</td>
     </tr>
     <tr>
       <td><function name="IsPriem" inputs='1'></function></td>
       <td style="text-align: center;">→</td>
-      <td><code>False</code></td>
+      <td><code class="boolean">False</code></td>
       <td>1 is enkel deelbaar door 1 getal: 1.</td>
     </tr>
     <tr>
       <td><function name="IsPriem" inputs='113'></function></td>
       <td style="text-align: center;">→</td>
-      <td><code>True</code></td>
+      <td><code class="boolean">True</code></td>
       <td>113 is deelbaar door 2 getallen: 1 en zichzelf (113).</td>
     </tr>
   </tbody>
