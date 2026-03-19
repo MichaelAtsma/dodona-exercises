@@ -1,6 +1,7 @@
 import io
 import random
 import sys
+import time
 import pyperclip
 import itertools
 import os
@@ -19,22 +20,63 @@ def capture_output(func, *args, **kwargs):
     finally:
         sys.stdout = old_stdout
 
+def IsPriemEfficient(n):
+    if n < 2:
+        return False
+
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+
+    return True
+
 def IsPriem(n):
+    return IsPriemEfficient(n)
     aantal_delers = 0
 
     for i in range(n):
         if n % (i+1) == 0:
             aantal_delers = aantal_delers + 1
-            
+
     if aantal_delers == 2:
         return True
     else:
-        return False
+        return False 
 
+def NextPrime(p):
+    while True:
+        p += 1
+        if IsPriemEfficient(p):
+            return p
+
+def GenerateSequentialNonPrimes(n, min_factors=3, max_factors=10, skip_step=0):
+    currentPrime = 1
+    yielded = 0
+    while yielded < n:
+        non_prime = 1
+        for _ in range(random.randint(min_factors, max_factors)):
+            for _ in range(skip_step+1):
+                currentPrime = NextPrime(currentPrime)
+            currentPrime = NextPrime(currentPrime)
+            non_prime *= currentPrime
+        yield non_prime
+        yielded += 1
+
+def GenerateSequentialPrimes(n, skip_first=0, skip_step=0):
+    currentPrime = 1
+    for _ in range(skip_first):
+        currentPrime = NextPrime(currentPrime)
+    for _ in range(n):
+        currentPrime = NextPrime(currentPrime)
+        yield currentPrime
+        for _ in range(skip_step):
+            currentPrime = NextPrime(currentPrime)
 
 function_effect = "returns"
 function = IsPriem
-bulk_test = False
+bulk_test = True
+
+start = time.time()
 
 if not bulk_test:
     X = [(2,),
@@ -53,11 +95,16 @@ else:
             break
         n -= 1
     X = edge_cases.copy()
+    non_primes = GenerateSequentialNonPrimes(amount//2 + 1, min_factors=2, max_factors=2, skip_step=5)
+    primes = GenerateSequentialPrimes(amount//2 + 1, skip_first=5, skip_step=19)
     while len(X) < amount:
-        n = random.randint(1, 1000)
-        X.append((n,))
+        if len(X) % 2 == 0:
+            X.append((next(non_primes),))
+        else:
+            X.append((next(primes),))
 
-
+middle = time.time()
+print(f"Generated {len(X)} test cases in {middle - start:.2f} seconds.")
 
 result = ""
 for args in X:
@@ -71,3 +118,6 @@ for args in X:
 copy_to_clipboard(result.strip())
 print("Copied to clipboard:")
 print(result)
+
+end = time.time()
+print(f"Executed and formatted test cases in {end - middle:.2f} seconds.")
