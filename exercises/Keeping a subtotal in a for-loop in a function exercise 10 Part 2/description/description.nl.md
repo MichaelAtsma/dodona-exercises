@@ -225,7 +225,7 @@ De manier waarop de twee strengen van het DNA aan elkaar gekoppeld zijn, is dat 
 
 ![Afbeelding die de structuur van DNA toont](media/DNA_image.webp){: .dark-invert}
 
-Bij een mens bestaat zo'n DNA-streng uit ongeveer 3 miljard nucleotiden. Het volledige DNA polymeer (dubbele helix) bestaat dus uit ongeveer 6 miljard nucleotiden. Wij gaan in deze oefening een heel klein deel van één van deze DNA-strengen beschouwen, daarvan maken we het complementaire gedeelte, die je dus krijgt door elke A te vervangen door T, elke T te vervangen door A, elke C te vervangen door G, en elke G te vervangen door C.
+Het volledige DNA van de mens bestaat uit ongeveer 3 miljard basenparen of dus ongeveer 6 miljard nucleotiden. Wij gaan in deze oefening een heel klein deel van één van deze DNA-strengen beschouwen, daarvan maken we het complementaire gedeelte, die je dus krijgt door elke A te vervangen door T, elke T te vervangen door A, elke C te vervangen door G, en elke G te vervangen door C.
 
 <div class="callout callout-success">
   <h4>Bronnen</h4>

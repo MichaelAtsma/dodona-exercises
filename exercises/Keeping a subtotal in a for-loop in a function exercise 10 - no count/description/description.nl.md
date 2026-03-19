@@ -225,7 +225,7 @@ Het bestaat uit twee DNA-strengen (ketens van de bouwstenen genaamd <i>nucleotid
 
 ![Afbeelding die de structuur van DNA toont](media/DNA_image.webp){: .dark-invert}
 
-Bij een mens bestaat zo'n DNA-streng uit ongeveer 3 miljard nucleotiden. Het volledige DNA polymeer (dubbele helix) bestaat dus uit ongeveer 6 miljard nucleotiden. Wij gaan in deze oefening een heel klein deel van één van deze DNA-strengen beschouwen, en tellen hoe vaak elke van de vier basen (A, C, G, T) voorkomt in de streng. Dit heeft in de biologie weinig praktische toepassingen, maar het is een goed voorbeeld van een probleem dat je kan oplossen met programmeren, en het is een goede opwarming voor de volgende oefening waarin we de tweede DNA-streng gaan maken die complementair is aan de eerste.
+Het volledige DNA van de mens bestaat uit ongeveer 3 miljard basenparen of dus ongeveer 6 miljard nucleotiden. Wij gaan in deze oefening een heel klein deel van één van deze DNA-strengen beschouwen, en tellen hoe vaak elke van de vier basen (A, C, G, T) voorkomt in de streng. Dit heeft in de biologie weinig praktische toepassingen, maar het is een goed voorbeeld van een probleem dat je kan oplossen met programmeren, en het is een goede opwarming voor de volgende oefening waarin we de tweede DNA-streng gaan maken die complementair is aan de eerste.
 
 <div class="callout callout-success">
   <h4>Bronnen</h4>
