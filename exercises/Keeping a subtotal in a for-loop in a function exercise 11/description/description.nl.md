@@ -222,7 +222,7 @@ Een priemgetal is een positief geheel getal dat deelbaar is door exact twee vers
 `2`, `3`, `5`, `7`, `11`, `13`, `17`, `19`, `23`, `29`
 .
 
-In de wiskunde zijn priemgetallen heel belangrijk. Ze worden ook wel de "bouwstenen" van de getallen genoemd, omdat elk positief geheel getal groter dan 1 kan worden geschreven als een product van priemgetallen. Bijvoorbeeld, `28` kan worden geschreven als `2 * 2 * 7`, en `30` kan worden geschreven als `2 * 3 * 5`. Priemgetallen spelen ook een belangrijke rol in de cryptografie, wat de wetenschap is van het veilig communiceren. Veel moderne encryptie-algoritmen zijn gebaseerd op de eigenschappen van priemgetallen.
+In de wiskunde zijn priemgetallen heel belangrijk. Ze worden ook wel de "bouwstenen" van de getallen genoemd, omdat elk positief geheel getal groter dan 1 kan worden geschreven als een product van priemgetallen. Bijvoorbeeld, `28` kan worden geschreven als <code style="white-space: nowrap;">2 * 2 * 7</code>, en `30` kan worden geschreven als <code style="white-space: nowrap;">2 * 3 * 5</code>. Priemgetallen spelen ook een belangrijke rol in de cryptografie, wat de wetenschap is van het veilig communiceren. Veel moderne encryptie-algoritmen zijn gebaseerd op de eigenschappen van priemgetallen.
 
 <br>
 <hr>
