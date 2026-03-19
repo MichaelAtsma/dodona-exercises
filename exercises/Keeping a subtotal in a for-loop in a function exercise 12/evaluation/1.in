@@ -1,0 +1,200 @@
+>>> GrootsteGemeneDeler(462, 462)
+462
+>>> GrootsteGemeneDeler(702, 702)
+702
+>>> GrootsteGemeneDeler(256, 256)
+256
+>>> GrootsteGemeneDeler(658, 658)
+658
+>>> GrootsteGemeneDeler(437, 437)
+437
+>>> GrootsteGemeneDeler(562, 562)
+562
+>>> GrootsteGemeneDeler(709, 709)
+709
+>>> GrootsteGemeneDeler(231, 231)
+231
+>>> GrootsteGemeneDeler(458, 458)
+458
+>>> GrootsteGemeneDeler(535, 535)
+535
+>>> GrootsteGemeneDeler(9, 552)
+3
+>>> GrootsteGemeneDeler(35090, 1276)
+638
+>>> GrootsteGemeneDeler(100, 599)
+1
+>>> GrootsteGemeneDeler(11400, 42525)
+75
+>>> GrootsteGemeneDeler(85, 69)
+1
+>>> GrootsteGemeneDeler(894, 818)
+2
+>>> GrootsteGemeneDeler(846, 106)
+2
+>>> GrootsteGemeneDeler(450, 127)
+1
+>>> GrootsteGemeneDeler(16740, 1080)
+540
+>>> GrootsteGemeneDeler(575, 242)
+1
+>>> GrootsteGemeneDeler(347, 335)
+1
+>>> GrootsteGemeneDeler(120, 680)
+40
+>>> GrootsteGemeneDeler(3, 457)
+1
+>>> GrootsteGemeneDeler(229, 652)
+1
+>>> GrootsteGemeneDeler(302, 543)
+1
+>>> GrootsteGemeneDeler(920, 609)
+1
+>>> GrootsteGemeneDeler(24900, 16260)
+60
+>>> GrootsteGemeneDeler(983, 292)
+1
+>>> GrootsteGemeneDeler(47334, 39054)
+138
+>>> GrootsteGemeneDeler(177, 50)
+1
+>>> GrootsteGemeneDeler(714, 163)
+1
+>>> GrootsteGemeneDeler(227, 363)
+1
+>>> GrootsteGemeneDeler(885, 227)
+1
+>>> GrootsteGemeneDeler(137, 154)
+1
+>>> GrootsteGemeneDeler(875, 353)
+1
+>>> GrootsteGemeneDeler(207, 596)
+1
+>>> GrootsteGemeneDeler(655, 148)
+1
+>>> GrootsteGemeneDeler(824, 78)
+2
+>>> GrootsteGemeneDeler(3078, 11286)
+1026
+>>> GrootsteGemeneDeler(351, 613)
+1
+>>> GrootsteGemeneDeler(170, 600)
+10
+>>> GrootsteGemeneDeler(18785, 42705)
+65
+>>> GrootsteGemeneDeler(4782, 258)
+6
+>>> GrootsteGemeneDeler(48048, 61160)
+88
+>>> GrootsteGemeneDeler(433, 838)
+1
+>>> GrootsteGemeneDeler(123, 869)
+1
+>>> GrootsteGemeneDeler(946, 522)
+2
+>>> GrootsteGemeneDeler(293, 827)
+1
+>>> GrootsteGemeneDeler(56, 353)
+1
+>>> GrootsteGemeneDeler(56, 901)
+1
+>>> GrootsteGemeneDeler(632, 120)
+8
+>>> GrootsteGemeneDeler(50, 300)
+50
+>>> GrootsteGemeneDeler(229, 671)
+1
+>>> GrootsteGemeneDeler(889, 49)
+7
+>>> GrootsteGemeneDeler(764, 205)
+1
+>>> GrootsteGemeneDeler(9246, 20148)
+138
+>>> GrootsteGemeneDeler(116, 949)
+1
+>>> GrootsteGemeneDeler(512, 227)
+1
+>>> GrootsteGemeneDeler(24480, 16932)
+204
+>>> GrootsteGemeneDeler(966, 547)
+1
+>>> GrootsteGemeneDeler(452, 682)
+2
+>>> GrootsteGemeneDeler(459, 832)
+1
+>>> GrootsteGemeneDeler(138, 63)
+3
+>>> GrootsteGemeneDeler(642, 535)
+107
+>>> GrootsteGemeneDeler(205, 380)
+5
+>>> GrootsteGemeneDeler(354, 405)
+3
+>>> GrootsteGemeneDeler(682, 242)
+22
+>>> GrootsteGemeneDeler(32, 922)
+2
+>>> GrootsteGemeneDeler(699, 413)
+1
+>>> GrootsteGemeneDeler(32175, 56625)
+75
+>>> GrootsteGemeneDeler(349, 388)
+1
+>>> GrootsteGemeneDeler(670, 584)
+2
+>>> GrootsteGemeneDeler(594, 17)
+1
+>>> GrootsteGemeneDeler(5, 533)
+1
+>>> GrootsteGemeneDeler(74655, 44872)
+79
+>>> GrootsteGemeneDeler(144, 614)
+2
+>>> GrootsteGemeneDeler(68, 770)
+2
+>>> GrootsteGemeneDeler(527, 188)
+1
+>>> GrootsteGemeneDeler(625, 467)
+1
+>>> GrootsteGemeneDeler(49686, 44002)
+98
+>>> GrootsteGemeneDeler(695, 412)
+1
+>>> GrootsteGemeneDeler(576, 478)
+2
+>>> GrootsteGemeneDeler(584, 678)
+2
+>>> GrootsteGemeneDeler(32940, 40554)
+54
+>>> GrootsteGemeneDeler(685, 172)
+1
+>>> GrootsteGemeneDeler(41182, 19942)
+118
+>>> GrootsteGemeneDeler(4264, 6992)
+8
+>>> GrootsteGemeneDeler(7296, 14496)
+96
+>>> GrootsteGemeneDeler(274, 530)
+2
+>>> GrootsteGemeneDeler(757, 282)
+1
+>>> GrootsteGemeneDeler(409, 489)
+1
+>>> GrootsteGemeneDeler(366, 374)
+2
+>>> GrootsteGemeneDeler(838, 807)
+1
+>>> GrootsteGemeneDeler(711, 431)
+1
+>>> GrootsteGemeneDeler(177, 638)
+1
+>>> GrootsteGemeneDeler(711, 195)
+3
+>>> GrootsteGemeneDeler(761, 528)
+1
+>>> GrootsteGemeneDeler(345, 162)
+3
+>>> GrootsteGemeneDeler(227, 766)
+1
+>>> GrootsteGemeneDeler(11515, 10780)
+245

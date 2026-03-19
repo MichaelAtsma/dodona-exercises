@@ -1,0 +1,12 @@
+>>> GrootsteGemeneDeler(12, 18)
+6
+>>> GrootsteGemeneDeler(3, 5)
+1
+>>> GrootsteGemeneDeler(4, 6)
+2
+>>> GrootsteGemeneDeler(15, 25)
+5
+>>> GrootsteGemeneDeler(1, 1)
+1
+>>> GrootsteGemeneDeler(84, 126)
+42
