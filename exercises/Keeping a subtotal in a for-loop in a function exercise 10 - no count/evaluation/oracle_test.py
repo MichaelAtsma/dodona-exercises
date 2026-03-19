@@ -22,9 +22,6 @@ def evaluate_test(context, forbidden_texts_and_descriptions):
     
     correct = all(checks.values())
     mymessages = []
-    mymessages.append(Message(f"Jouw antwoord: {context.actual}"))
-    mymessages.append(Message(f"Verwachte antwoord: {context.expected}"))
-    mymessages.append(Message(f"Checks: {checks}"))
     if not checks["forbidden text not used"]:
         mymessages.append(Message(f"Je mag geen gebruik maken van: {', '.join(used_forbidden_texts_and_descriptions.values())}."))
 
