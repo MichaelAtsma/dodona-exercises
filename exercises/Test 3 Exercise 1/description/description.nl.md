@@ -290,27 +290,4 @@ Maak een functie <function name="Kassa"></function> die een lijst als invoer nee
 </table>
 </div>
 
-</details> <!-- End of input-output verwachtingen -->
-
-<br>
-<hr>
-
-<details markdown="1"><summary>Tip (twee voorwaarden tegelijk)</summary>
-
-Je kan in een if-statement meerdere voorwaarden tegelijk controleren door gebruik te maken van <code>and</code>. Bijvoorbeeld:
-
-```python
-if x > 2 and x < 10:
-    print("x is tussen 2 en 10.")
-```
-
-of
-
-```python
-if x > 0 and y > 0:
-    print("x en y zijn allebei positief.")
-```
-
-</details> <!-- End of tip (twee voorwaarden tegelijk) -->
-
 </div>
