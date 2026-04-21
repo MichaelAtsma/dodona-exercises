@@ -255,32 +255,32 @@ Maak een functie <function name="Kassa"></function> die een lijst als invoer nee
     <tr>
       <td><function name="Kassa" inputs='[2, 5]'></function></td>
       <td style="text-align: center;">→</td>
-      <td>De totale prijs van de winkelmand is €7.00</code></td>
+      <td><pre><code>De totale prijs van de winkelmand is €7.00</code></pre></td>
     </tr>
     <tr>
       <td><function name="Kassa" inputs='[10, 20, "subtotaal", 30, 40]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><code>Het subtotaal van de eerste 2 producten is €30.00<br>De totale prijs van de winkelmand is €100.00</code></td>
+      <td><pre><code>Het subtotaal van de eerste 2 producten is €30.00<br>De totale prijs van de winkelmand is €100.00</code></pre></td>
     </tr>
     <tr>
       <td><function name="Kassa" inputs='[1.49, 0.95, "subtotaal", 2, "subtotaal", 5.11]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><code>Het subtotaal van de eerste 2 producten is €2.44<br>Het subtotaal van de eerste 3 producten is €4.44<br>De totale prijs van de winkelmand is €9.55</code></td>
+      <td><pre><code>Het subtotaal van de eerste 2 producten is €2.44<br>Het subtotaal van de eerste 3 producten is €4.44<br>De totale prijs van de winkelmand is €9.55</code></pre></td>
     </tr>
     <tr>
       <td><function name="Kassa" inputs='[1.234, "subtotaal", 6.413]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><code>Het subtotaal van de eerste 1 producten is €1.23<br>De totale prijs van de winkelmand is €7.65</code></td>
+      <td><pre><code>Het subtotaal van de eerste 1 producten is €1.23<br>De totale prijs van de winkelmand is €7.65</code></pre></td>
     </tr>
     <tr>
       <td><function name="Kassa" inputs='[]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><code>De totale prijs van de winkelmand is €0.00</code></td>
+      <td><pre><code>De totale prijs van de winkelmand is €0.00</code></pre></td>
     </tr>
     <tr>
       <td><function name="Kassa" inputs='["subtotaal"]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><code>Het subtotaal van de eerste 0 producten is €0.00<br>De totale prijs van de winkelmand is €0.00</code></td>
+      <td><pre><code>Het subtotaal van de eerste 0 producten is €0.00<br>De totale prijs van de winkelmand is €0.00</code></pre></td>
     </tr>
   </tbody>
 </table>
