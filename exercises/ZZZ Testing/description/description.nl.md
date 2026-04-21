@@ -227,7 +227,7 @@ Deze opdracht dient enkel voor testendoeleinden.
 
 $$\frac{6+9+10}{3} \approx 8.3$$
 
-Hier staat een euroteken <span class="enable-select">€</span> die wel geselecteerd kan worden.
+Hier staat een euroteken<span class="enable-select"> € </span>die wel geselecteerd kan worden.
 
 Test index (om te controleren of Dodona versie geupdated is): 24
 </div>
