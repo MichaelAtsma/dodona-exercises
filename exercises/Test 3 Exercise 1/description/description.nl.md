@@ -188,6 +188,10 @@
     padding-left: 100px !important;
     padding-right: 100px !important;
   }
+  th.bigger-padding-column {
+    padding-left: 150px !important;
+    padding-right: 150px !important;
+  }
   th.huge-padding-column {
     padding-left: 200px !important;
     padding-right: 200px !important;
@@ -248,7 +252,7 @@ Maak een functie <function name="Kassa"></function> die een lijst als invoer nee
     <tr>
       <th>Invoer</th>
       <th class="padding-column">→</th>
-      <th class="huge-padding-column">Verwachte output</th>
+      <th class="bigger-padding-column">Verwachte output</th>
     </tr>
   </thead>
   <tbody>
