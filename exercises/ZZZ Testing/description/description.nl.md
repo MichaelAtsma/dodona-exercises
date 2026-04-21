@@ -216,10 +216,10 @@
 </style>
 
 
-<div class="prevent-select">
+<div markdown="1" class="prevent-select">
 Deze opdracht dient enkel voor testendoeleinden.
 
 $$\frac{6+9+10}{3} \approx 8.3$$
 
-Test index (om te controleren of Dodona versie geupdated is): 22
+Test index (om te controleren of Dodona versie geupdated is): 23
 </div>
