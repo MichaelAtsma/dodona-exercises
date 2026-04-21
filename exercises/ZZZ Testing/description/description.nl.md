@@ -144,10 +144,10 @@
     user-select: none; /* Standard syntax */
   }
 
-  .prevent-select {
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+  .enable-select {
+    -webkit-user-select: text; /* Safari */
+    -ms-user-select: text; /* IE 10 and IE 11 */
+    user-select: text; /* Standard syntax */
   }
 
   table {
@@ -227,5 +227,7 @@ Deze opdracht dient enkel voor testendoeleinden.
 
 $$\frac{6+9+10}{3} \approx 8.3$$
 
-Test index (om te controleren of Dodona versie geupdated is): 23
+Hier staat een euroteken <span class="enable-select">€</span> die wel geselecteerd kan worden.
+
+Test index (om te controleren of Dodona versie geupdated is): 24
 </div>
