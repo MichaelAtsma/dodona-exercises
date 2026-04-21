@@ -248,7 +248,7 @@ Maak een functie <function name="Kassa"></function> die een lijst als invoer nee
     <tr>
       <th>Invoer</th>
       <th class="padding-column">→</th>
-      <th class="big-padding-column">Verwachte output</th>
+      <th class="huge-padding-column">Verwachte output</th>
     </tr>
   </thead>
   <tbody>
