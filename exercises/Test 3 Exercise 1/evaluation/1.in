@@ -1,0 +1,826 @@
+>>> Kassa([])
+De totale prijs van de winkelmand is €0.00
+>>> Kassa(['subtotaal'])
+Het subtotaal van de eerste 0 producten is €0.00
+De totale prijs van de winkelmand is €0.00
+>>> Kassa(['subtotaal', 'subtotaal'])
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 0 producten is €0.00
+De totale prijs van de winkelmand is €0.00
+>>> Kassa(['subtotaal'])
+Het subtotaal van de eerste 0 producten is €0.00
+De totale prijs van de winkelmand is €0.00
+>>> Kassa(['subtotaal', 'subtotaal'])
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 0 producten is €0.00
+De totale prijs van de winkelmand is €0.00
+>>> Kassa([0, 'subtotaal'])
+Het subtotaal van de eerste 1 producten is €0.00
+De totale prijs van de winkelmand is €0.00
+>>> Kassa(['subtotaal', 0])
+Het subtotaal van de eerste 0 producten is €0.00
+De totale prijs van de winkelmand is €0.00
+>>> Kassa([0, 'subtotaal', 0, 'subtotaal', 0])
+Het subtotaal van de eerste 1 producten is €0.00
+Het subtotaal van de eerste 2 producten is €0.00
+De totale prijs van de winkelmand is €0.00
+>>> Kassa([5.543, 'subtotaal', 0.001, 'subtotaal', 0.001, 'subtotaal', 0.001, 'subtotaal'])
+Het subtotaal van de eerste 1 producten is €5.54
+Het subtotaal van de eerste 2 producten is €5.54
+Het subtotaal van de eerste 3 producten is €5.55
+Het subtotaal van de eerste 4 producten is €5.55
+De totale prijs van de winkelmand is €5.55
+>>> Kassa(['subtotaal', 95.357, 41.956, 41.02, 39.476, 'subtotaal', 92.036, 81.335, 78.616, 27.592, 50.538, 84.749, 13.311, 34.26, 41.586, 92.139, 34.137, 6.388, 72.119, 91.306, 79.302, 45.878])
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 4 producten is €217.81
+De totale prijs van de winkelmand is €1143.10
+>>> Kassa([50.672, 32.739, 75.065, 85.498, 88.61, 'subtotaal', 9.657])
+Het subtotaal van de eerste 5 producten is €332.58
+De totale prijs van de winkelmand is €342.24
+>>> Kassa([30.997, 93.536, 27.104, 53.498, 59.102, 44.464, 34.902, 7.048, 40.825, 88.869, 51.081, 18.833, 24.948, 6.434, 52.558, 45.36, 82.592, 69.464, 65.066])
+De totale prijs van de winkelmand is €896.68
+>>> Kassa([16.989, 50.153, 81.523, 'subtotaal', 88.89, 'subtotaal', 37.491, 57.832, 3.827, 37.129, 22.943, 69.696, 'subtotaal'])
+Het subtotaal van de eerste 3 producten is €148.66
+Het subtotaal van de eerste 4 producten is €237.56
+Het subtotaal van de eerste 10 producten is €466.47
+De totale prijs van de winkelmand is €466.47
+>>> Kassa([41.599, 'subtotaal', 32.732, 51.14, 23.572, 50.507, 70.816, 24.104])
+Het subtotaal van de eerste 1 producten is €41.60
+De totale prijs van de winkelmand is €294.47
+>>> Kassa([53.699, 85.681])
+De totale prijs van de winkelmand is €139.38
+>>> Kassa(['subtotaal', 22.627, 80.373, 46.686, 18.378, 'subtotaal', 59.841, 36.872, 12.625, 'subtotaal', 'subtotaal'])
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 4 producten is €168.06
+Het subtotaal van de eerste 7 producten is €277.40
+Het subtotaal van de eerste 7 producten is €277.40
+De totale prijs van de winkelmand is €277.40
+>>> Kassa([33.438, 50.376, 42.681, 68.272, 15.647, 15.745, 23.268])
+De totale prijs van de winkelmand is €249.43
+>>> Kassa(['subtotaal', 56.127, 31.773, 27.646, 26.691, 17.24, 19.647, 80.099, 'subtotaal', 33.983, 17.205, 84.712, 20.714, 98.058, 54.112, 99.581, 83.482, 49.248, 68.618, 20.434, 16.996])
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 7 producten is €259.22
+De totale prijs van de winkelmand is €906.37
+>>> Kassa([50.906, 88.932, 55.409, 79.165, 1.366, 'subtotaal', 32.155])
+Het subtotaal van de eerste 5 producten is €275.78
+De totale prijs van de winkelmand is €307.93
+>>> Kassa(['subtotaal', 'subtotaal', 40.867, 4.57, 40.521, 51.916, 'subtotaal', 65.332, 'subtotaal'])
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 4 producten is €137.87
+Het subtotaal van de eerste 5 producten is €203.21
+De totale prijs van de winkelmand is €203.21
+>>> Kassa([33.6, 36.085, 2.887, 98.174, 'subtotaal', 41.574, 52.569, 27.311, 91.905, 28.917, 12.986, 'subtotaal', 'subtotaal', 20.919, 6.499, 6.94, 'subtotaal', 59.6])
+Het subtotaal van de eerste 4 producten is €170.75
+Het subtotaal van de eerste 10 producten is €426.01
+Het subtotaal van de eerste 10 producten is €426.01
+Het subtotaal van de eerste 13 producten is €460.37
+De totale prijs van de winkelmand is €519.97
+>>> Kassa([21.337, 'subtotaal', 'subtotaal', 92.968, 'subtotaal', 12.14, 29.15, 84.524, 24.581, 64.564, 46.122, 95.419, 21.12, 8.757, 52.168, 75.923, 95.158, 'subtotaal'])
+Het subtotaal van de eerste 1 producten is €21.34
+Het subtotaal van de eerste 1 producten is €21.34
+Het subtotaal van de eerste 2 producten is €114.31
+Het subtotaal van de eerste 14 producten is €723.93
+De totale prijs van de winkelmand is €723.93
+>>> Kassa([31.447, 63.571, 'subtotaal', 90.984, 56.257, 24.387, 57.164, 17.056, 'subtotaal', 40.188, 85.063, 59.485, 96.417, 'subtotaal', 31.796])
+Het subtotaal van de eerste 2 producten is €95.02
+Het subtotaal van de eerste 7 producten is €340.87
+Het subtotaal van de eerste 11 producten is €622.02
+De totale prijs van de winkelmand is €653.82
+>>> Kassa([46.037, 'subtotaal', 78.268, 34.148, 81.234, 96.873, 38.52, 'subtotaal', 2.781, 15.489, 9.703, 'subtotaal', 2.163])
+Het subtotaal van de eerste 1 producten is €46.04
+Het subtotaal van de eerste 6 producten is €375.08
+Het subtotaal van de eerste 9 producten is €403.05
+De totale prijs van de winkelmand is €405.22
+>>> Kassa([31.285, 13.4, 51.607, 11.899, 48.766, 11.179, 94.938, 98.739, 'subtotaal', 64.41, 10.971])
+Het subtotaal van de eerste 8 producten is €361.81
+De totale prijs van de winkelmand is €437.19
+>>> Kassa([4.176, 'subtotaal', 39.109, 62.643, 75.144, 79.939, 55.121, 74.653, 56.295, 14.185, 29.445, 'subtotaal', 80.634, 48.545, 82.828, 17.736, 28.736, 'subtotaal', 80.777, 96.298, 6.261, 60.499, 'subtotaal', 'subtotaal'])
+Het subtotaal van de eerste 1 producten is €4.18
+Het subtotaal van de eerste 10 producten is €490.71
+Het subtotaal van de eerste 15 producten is €749.19
+Het subtotaal van de eerste 19 producten is €993.02
+Het subtotaal van de eerste 19 producten is €993.02
+De totale prijs van de winkelmand is €993.02
+>>> Kassa([25.979, 92.224, 46.539, 1.922, 62.958, 32.95, 10.203, 'subtotaal', 43.522, 23.467, 34.042])
+Het subtotaal van de eerste 7 producten is €272.77
+De totale prijs van de winkelmand is €373.81
+>>> Kassa([6.889, 'subtotaal', 92.789, 93.092, 26.305, 30.324, 77.01, 47.614, 83.649, 19.218, 71.636, 86.372, 22.754, 72.083, 8.735, 65.756, 29.305, 57.952, 41.728, 2.365, 24.663, 'subtotaal', 26.875, 31.475, 40.643])
+Het subtotaal van de eerste 1 producten is €6.89
+Het subtotaal van de eerste 20 producten is €960.24
+De totale prijs van de winkelmand is €1059.23
+>>> Kassa([5.24, 83.047, 18.252, 10.759, 99.31, 28.616, 48.562, 76.594, 'subtotaal', 2.488, 8.866, 31.028, 73.631, 'subtotaal', 41.026, 51.154, 51.039, 35.548, 49.456, 'subtotaal', 16.657, 'subtotaal', 36.646, 57.059])
+Het subtotaal van de eerste 8 producten is €370.38
+Het subtotaal van de eerste 12 producten is €486.39
+Het subtotaal van de eerste 17 producten is €714.62
+Het subtotaal van de eerste 18 producten is €731.27
+De totale prijs van de winkelmand is €824.98
+>>> Kassa([74.491, 42.731, 33.427, 81.491])
+De totale prijs van de winkelmand is €232.14
+>>> Kassa([38.63, 'subtotaal', 'subtotaal', 57.208, 60.496, 73.221, 61.083, 'subtotaal'])
+Het subtotaal van de eerste 1 producten is €38.63
+Het subtotaal van de eerste 1 producten is €38.63
+Het subtotaal van de eerste 5 producten is €290.64
+De totale prijs van de winkelmand is €290.64
+>>> Kassa([36.923, 20.888, 'subtotaal', 60.532, 72.594, 36.806, 0.805, 42.857, 'subtotaal', 'subtotaal', 97.76, 'subtotaal'])
+Het subtotaal van de eerste 2 producten is €57.81
+Het subtotaal van de eerste 7 producten is €271.40
+Het subtotaal van de eerste 7 producten is €271.40
+Het subtotaal van de eerste 8 producten is €369.16
+De totale prijs van de winkelmand is €369.16
+>>> Kassa([64.844, 86.341, 36.568, 42.063, 36.402, 88.189, 19.978, 17.886, 98.769, 33.943, 49.19])
+De totale prijs van de winkelmand is €574.17
+>>> Kassa(['subtotaal', 51.984, 57.444, 21.243, 97.979])
+Het subtotaal van de eerste 0 producten is €0.00
+De totale prijs van de winkelmand is €228.65
+>>> Kassa([74.208, 36.797, 99.181, 59.332, 81.132, 36.804, 9.522, 50.558, 4.587, 55.433, 81.048, 'subtotaal', 34.233, 'subtotaal', 21.177])
+Het subtotaal van de eerste 11 producten is €588.60
+Het subtotaal van de eerste 12 producten is €622.83
+De totale prijs van de winkelmand is €644.01
+>>> Kassa([25.65, 54.304, 82.054, 60.771, 1.35, 'subtotaal', 66.116, 89.42, 96.66, 24.259, 7.576, 'subtotaal'])
+Het subtotaal van de eerste 5 producten is €224.13
+Het subtotaal van de eerste 10 producten is €508.16
+De totale prijs van de winkelmand is €508.16
+>>> Kassa(['subtotaal', 'subtotaal', 49.888, 15.46, 98.086, 3.205, 'subtotaal', 86.606, 47.347, 'subtotaal', 16.779, 51.794, 'subtotaal', 91.336, 94.794, 54.572, 'subtotaal', 49.01, 'subtotaal', 78.265, 4.443, 70.875, 54.269, 72.332])
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 4 producten is €166.64
+Het subtotaal van de eerste 6 producten is €300.59
+Het subtotaal van de eerste 8 producten is €369.16
+Het subtotaal van de eerste 11 producten is €609.87
+Het subtotaal van de eerste 12 producten is €658.88
+De totale prijs van de winkelmand is €939.06
+>>> Kassa([0.53, 30.735, 67.365, 94.518, 'subtotaal', 14.88, 10.991, 95.133, 10.055, 'subtotaal', 23.123, 96.518, 13.954, 94.595, 'subtotaal', 38.287])
+Het subtotaal van de eerste 4 producten is €193.15
+Het subtotaal van de eerste 8 producten is €324.21
+Het subtotaal van de eerste 12 producten is €552.40
+De totale prijs van de winkelmand is €590.68
+>>> Kassa([67.073, 40.9, 11.265, 'subtotaal', 'subtotaal', 65.26, 'subtotaal', 11.412, 39.968, 45.421, 29.595, 98.918, 76.346, 2.816, 62.145, 58.452])
+Het subtotaal van de eerste 3 producten is €119.24
+Het subtotaal van de eerste 3 producten is €119.24
+Het subtotaal van de eerste 4 producten is €184.50
+De totale prijs van de winkelmand is €609.57
+>>> Kassa([92.092, 49.467, 40.965, 'subtotaal', 73.557, 98.866, 51.982, 84.507, 93.917, 21.001, 81.029])
+Het subtotaal van de eerste 3 producten is €182.52
+De totale prijs van de winkelmand is €687.38
+>>> Kassa(['subtotaal', 'subtotaal', 73.144, 'subtotaal', 'subtotaal', 'subtotaal', 53.393, 67.105, 75.834, 1.649, 67.567, 10.84, 'subtotaal', 62.941, 67.974, 'subtotaal', 'subtotaal', 23.145, 'subtotaal', 28.519, 20.571, 84.06, 28.341])
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 1 producten is €73.14
+Het subtotaal van de eerste 1 producten is €73.14
+Het subtotaal van de eerste 1 producten is €73.14
+Het subtotaal van de eerste 7 producten is €349.53
+Het subtotaal van de eerste 9 producten is €480.45
+Het subtotaal van de eerste 9 producten is €480.45
+Het subtotaal van de eerste 10 producten is €503.59
+De totale prijs van de winkelmand is €665.08
+>>> Kassa([44.177, 16.66, 46.218, 58.013, 62.715, 70.587, 93.097, 43.503, 73.323, 26.604, 7.699, 52.36, 34.225, 8.813, 9.994, 4.535, 17.169])
+De totale prijs van de winkelmand is €669.69
+>>> Kassa([41.104, 98.554, 42.639, 30.256, 0.236, 51.172, 79.218, 34.29, 83.149, 30.613, 54.976, 18.758, 77.827, 27.186, 66.117, 89.853, 37.912, 41.034, 15.757, 53.861, 61.761, 18.56, 'subtotaal'])
+Het subtotaal van de eerste 22 producten is €1054.83
+De totale prijs van de winkelmand is €1054.83
+>>> Kassa([58.353, 12.178, 49.483, 82.177, 56.12, 25.511, 87.853, 85.893, 76.202, 94.588])
+De totale prijs van de winkelmand is €628.36
+>>> Kassa(['subtotaal', 24.216, 88.347, 81.327, 48.774, 42.526, 'subtotaal', 63.221, 87.184])
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 5 producten is €285.19
+De totale prijs van de winkelmand is €435.60
+>>> Kassa([73.854, 59.404, 4.835, 69.113, 9.483, 21.794, 98.607, 47.82, 15.727, 49.664, 91.023, 50.823, 59.795, 61.209, 'subtotaal', 57.804, 7.528, 'subtotaal', 47.049, 'subtotaal'])
+Het subtotaal van de eerste 14 producten is €713.15
+Het subtotaal van de eerste 16 producten is €778.48
+Het subtotaal van de eerste 17 producten is €825.53
+De totale prijs van de winkelmand is €825.53
+>>> Kassa(['subtotaal', 48.597, 29.883, 97.711, 47.879, 'subtotaal', 22.704, 59.394, 33.432])
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 4 producten is €224.07
+De totale prijs van de winkelmand is €339.60
+>>> Kassa([70.376, 61.963, 66.788, 51.815])
+De totale prijs van de winkelmand is €250.94
+>>> Kassa(['subtotaal', 36.462, 30.915, 72.396, 93.012, 86.513, 70.979, 96.431, 40.856, 33.166, 16.759, 'subtotaal', 'subtotaal', 84.5, 72.839, 1.189, 44.302, 'subtotaal', 99.972, 94.567, 8.965, 18.322, 70.231, 91.203])
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 10 producten is €577.49
+Het subtotaal van de eerste 10 producten is €577.49
+Het subtotaal van de eerste 14 producten is €780.32
+De totale prijs van de winkelmand is €1163.58
+>>> Kassa(['subtotaal', 84.369, 93.419, 31.437, 58.297, 66.75])
+Het subtotaal van de eerste 0 producten is €0.00
+De totale prijs van de winkelmand is €334.27
+>>> Kassa([36.307, 49.981, 19.284, 57.669, 38.838, 'subtotaal', 'subtotaal', 'subtotaal', 81.399, 75.562, 45.682, 31.722, 73.522, 'subtotaal', 29.522, 69.134, 90.287, 'subtotaal', 'subtotaal', 15.491])
+Het subtotaal van de eerste 5 producten is €202.08
+Het subtotaal van de eerste 5 producten is €202.08
+Het subtotaal van de eerste 5 producten is €202.08
+Het subtotaal van de eerste 10 producten is €509.97
+Het subtotaal van de eerste 13 producten is €698.91
+Het subtotaal van de eerste 13 producten is €698.91
+De totale prijs van de winkelmand is €714.40
+>>> Kassa([83.717, 21.123, 69.884, 29.797, 76.536, 20.392, 24.024, 77.982, 15.211, 68.324, 84.152, 'subtotaal', 14.902, 23.711, 48.559, 36.0, 29.66, 'subtotaal', 60.608])
+Het subtotaal van de eerste 11 producten is €571.14
+Het subtotaal van de eerste 16 producten is €723.97
+De totale prijs van de winkelmand is €784.58
+>>> Kassa(['subtotaal', 'subtotaal', 'subtotaal', 7.087, 67.121, 87.845, 34.414, 42.055, 'subtotaal', 24.306, 4.439, 37.647, 74.803, 55.571, 36.097, 51.635])
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 5 producten is €238.52
+De totale prijs van de winkelmand is €523.02
+>>> Kassa([44.005, 29.203, 89.653, 11.206, 'subtotaal', 44.875, 'subtotaal', 61.559, 76.504, 32.15, 90.219, 86.234, 93.284, 'subtotaal', 'subtotaal', 37.807, 13.5, 10.589, 84.679, 'subtotaal', 'subtotaal', 56.863, 91.855, 'subtotaal'])
+Het subtotaal van de eerste 4 producten is €174.07
+Het subtotaal van de eerste 5 producten is €218.94
+Het subtotaal van de eerste 11 producten is €658.89
+Het subtotaal van de eerste 11 producten is €658.89
+Het subtotaal van de eerste 15 producten is €805.47
+Het subtotaal van de eerste 15 producten is €805.47
+Het subtotaal van de eerste 17 producten is €954.18
+De totale prijs van de winkelmand is €954.18
+>>> Kassa([24.467, 67.399, 75.134, 72.756, 53.092, 80.224, 'subtotaal', 58.727, 43.506, 33.409, 55.087, 2.328, 41.092, 'subtotaal', 'subtotaal', 32.077, 36.15, 9.381, 94.284, 94.758, 38.186])
+Het subtotaal van de eerste 6 producten is €373.07
+Het subtotaal van de eerste 12 producten is €607.22
+Het subtotaal van de eerste 12 producten is €607.22
+De totale prijs van de winkelmand is €912.06
+>>> Kassa([9.432, 37.332, 47.793, 54.8, 70.503, 95.421, 92.612, 17.308])
+De totale prijs van de winkelmand is €425.20
+>>> Kassa([74.953, 27.224, 0.241])
+De totale prijs van de winkelmand is €102.42
+>>> Kassa(['subtotaal', 72.311, 85.069, 70.102, 60.224, 'subtotaal', 91.649, 85.247, 80.136, 67.434, 82.442, 14.979, 63.33, 'subtotaal', 77.26, 'subtotaal', 55.827, 90.915, 43.439])
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 4 producten is €287.71
+Het subtotaal van de eerste 11 producten is €772.92
+Het subtotaal van de eerste 12 producten is €850.18
+De totale prijs van de winkelmand is €1040.36
+>>> Kassa([88.277, 11.693, 'subtotaal', 69.376, 86.628, 26.275, 99.192, 98.829, 'subtotaal', 3.494, 82.897, 45.732])
+Het subtotaal van de eerste 2 producten is €99.97
+Het subtotaal van de eerste 7 producten is €480.27
+De totale prijs van de winkelmand is €612.39
+>>> Kassa(['subtotaal', 14.6, 49.284, 44.43])
+Het subtotaal van de eerste 0 producten is €0.00
+De totale prijs van de winkelmand is €108.31
+>>> Kassa([2.242, 99.302, 79.088, 13.762, 'subtotaal', 77.077, 98.031])
+Het subtotaal van de eerste 4 producten is €194.39
+De totale prijs van de winkelmand is €369.50
+>>> Kassa([21.238, 55.654, 50.233, 38.443, 92.979, 30.992, 46.932, 71.821, 85.493, 'subtotaal', 'subtotaal', 56.194, 57.836, 33.216, 19.912, 37.355, 42.671, 26.662, 71.333, 1.211, 70.222, 53.233, 96.385])
+Het subtotaal van de eerste 9 producten is €493.79
+Het subtotaal van de eerste 9 producten is €493.79
+De totale prijs van de winkelmand is €1060.02
+>>> Kassa([82.182, 26.057, 0.287, 43.673, 72.782, 'subtotaal', 'subtotaal', 11.564, 'subtotaal', 33.376, 55.361, 14.144, 15.622, 45.953, 33.658, 85.097, 92.502, 'subtotaal', 42.6, 46.686, 'subtotaal'])
+Het subtotaal van de eerste 5 producten is €224.98
+Het subtotaal van de eerste 5 producten is €224.98
+Het subtotaal van de eerste 6 producten is €236.54
+Het subtotaal van de eerste 14 producten is €612.26
+Het subtotaal van de eerste 16 producten is €701.54
+De totale prijs van de winkelmand is €701.54
+>>> Kassa([79.63, 99.104, 61.307, 7.945, 40.508, 9.772, 52.974, 26.628, 4.684])
+De totale prijs van de winkelmand is €382.55
+>>> Kassa([50.398, 14.482, 9.204, 17.402, 21.766, 70.246, 97.384, 49.09, 26.012, 41.357, 98.04])
+De totale prijs van de winkelmand is €495.38
+>>> Kassa([94.82, 95.224, 68.094, 79.464, 26.499, 15.535, 25.642, 82.181, 79.024, 70.942, 43.496, 96.083, 'subtotaal', 'subtotaal', 88.588, 17.973, 50.961, 8.741, 31.877, 4.408, 15.715, 7.336, 'subtotaal', 85.961, 92.118])
+Het subtotaal van de eerste 12 producten is €777.00
+Het subtotaal van de eerste 12 producten is €777.00
+Het subtotaal van de eerste 20 producten is €1002.60
+De totale prijs van de winkelmand is €1180.68
+>>> Kassa([92.775, 25.15, 64.467, 72.758, 87.682, 90.623, 'subtotaal', 98.875, 24.496, 9.114, 80.445, 'subtotaal', 74.286, 'subtotaal', 53.026, 58.383, 25.069, 'subtotaal', 41.912, 'subtotaal', 53.616, 7.952, 34.475, 64.689, 69.902])
+Het subtotaal van de eerste 6 producten is €433.45
+Het subtotaal van de eerste 10 producten is €646.38
+Het subtotaal van de eerste 11 producten is €720.67
+Het subtotaal van de eerste 14 producten is €857.15
+Het subtotaal van de eerste 15 producten is €899.06
+De totale prijs van de winkelmand is €1129.70
+>>> Kassa(['subtotaal', 42.11, 92.667, 85.146, 7.104])
+Het subtotaal van de eerste 0 producten is €0.00
+De totale prijs van de winkelmand is €227.03
+>>> Kassa([14.226, 22.801, 81.555, 4.528, 'subtotaal', 49.707, 67.398, 16.747, 20.904, 'subtotaal', 3.671, 40.737, 2.802, 93.262, 58.426, 'subtotaal', 90.418, 99.911, 37.098, 80.45, 17.727, 15.077, 36.556, 29.247, 'subtotaal'])
+Het subtotaal van de eerste 4 producten is €123.11
+Het subtotaal van de eerste 8 producten is €277.87
+Het subtotaal van de eerste 13 producten is €476.76
+Het subtotaal van de eerste 21 producten is €883.25
+De totale prijs van de winkelmand is €883.25
+>>> Kassa([38.155, 20.248, 56.906, 'subtotaal', 62.572, 20.968, 52.369])
+Het subtotaal van de eerste 3 producten is €115.31
+De totale prijs van de winkelmand is €251.22
+>>> Kassa([48.534, 35.397, 33.088, 25.988, 13.48, 85.08, 'subtotaal', 19.355, 81.512, 23.349, 14.081, 50.389, 49.579, 49.158])
+Het subtotaal van de eerste 6 producten is €241.57
+De totale prijs van de winkelmand is €528.99
+>>> Kassa([0.808, 24.726, 'subtotaal', 13.309, 70.722, 64.668, 3.527, 89.168, 65.19, 65.088, 34.755, 15.639, 'subtotaal', 18.813, 90.517, 'subtotaal', 74.301, 'subtotaal'])
+Het subtotaal van de eerste 2 producten is €25.53
+Het subtotaal van de eerste 11 producten is €447.60
+Het subtotaal van de eerste 13 producten is €556.93
+Het subtotaal van de eerste 14 producten is €631.23
+De totale prijs van de winkelmand is €631.23
+>>> Kassa(['subtotaal', 17.176, 8.346, 56.219, 'subtotaal', 28.276, 63.817, 52.955, 24.757, 57.542, 61.084, 42.247, 33.039, 41.151, 3.719, 63.6, 0.641, 40.374, 'subtotaal', 1.737, 89.504, 16.481, 88.996, 14.858])
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 3 producten is €81.74
+Het subtotaal van de eerste 16 producten is €594.94
+De totale prijs van de winkelmand is €806.52
+>>> Kassa([43.191, 94.465, 71.084, 92.157, 8.684, 42.128, 34.325, 72.733, 22.936, 30.487, 77.588, 40.677, 61.478, 25.315, 94.189, 'subtotaal', 11.786, 99.273, 10.215, 'subtotaal', 42.784, 'subtotaal', 84.755, 'subtotaal'])
+Het subtotaal van de eerste 15 producten is €811.44
+Het subtotaal van de eerste 18 producten is €932.71
+Het subtotaal van de eerste 19 producten is €975.49
+Het subtotaal van de eerste 20 producten is €1060.25
+De totale prijs van de winkelmand is €1060.25
+>>> Kassa([42.131, 'subtotaal', 97.294])
+Het subtotaal van de eerste 1 producten is €42.13
+De totale prijs van de winkelmand is €139.43
+>>> Kassa([43.218])
+De totale prijs van de winkelmand is €43.22
+>>> Kassa([2.851, 9.213, 5.493, 78.074, 8.752, 'subtotaal', 5.358, 48.935, 17.722, 'subtotaal', 'subtotaal', 51.222, 'subtotaal', 87.224, 92.038, 35.147, 82.696, 64.946, 70.954, 'subtotaal', 'subtotaal', 30.132, 69.263])
+Het subtotaal van de eerste 5 producten is €104.38
+Het subtotaal van de eerste 8 producten is €176.40
+Het subtotaal van de eerste 8 producten is €176.40
+Het subtotaal van de eerste 9 producten is €227.62
+Het subtotaal van de eerste 15 producten is €660.62
+Het subtotaal van de eerste 15 producten is €660.62
+De totale prijs van de winkelmand is €760.02
+>>> Kassa([44.033, 58.192, 'subtotaal', 39.741, 85.764, 'subtotaal', 'subtotaal', 46.921, 10.948, 'subtotaal', 46.691, 9.284, 74.44, 'subtotaal', 'subtotaal', 91.282, 89.998, 'subtotaal', 56.096, 'subtotaal', 77.32, 93.005, 61.887, 0.048])
+Het subtotaal van de eerste 2 producten is €102.22
+Het subtotaal van de eerste 4 producten is €227.73
+Het subtotaal van de eerste 4 producten is €227.73
+Het subtotaal van de eerste 6 producten is €285.60
+Het subtotaal van de eerste 9 producten is €416.01
+Het subtotaal van de eerste 9 producten is €416.01
+Het subtotaal van de eerste 11 producten is €597.29
+Het subtotaal van de eerste 12 producten is €653.39
+De totale prijs van de winkelmand is €885.65
+>>> Kassa([95.803, 55.135, 91.22, 0.795])
+De totale prijs van de winkelmand is €242.95
+>>> Kassa([90.977, 60.179, 44.037, 45.573])
+De totale prijs van de winkelmand is €240.77
+>>> Kassa(['subtotaal', 66.725, 43.365, 'subtotaal', 22.182, 31.531, 92.811, 78.93, 65.57, 82.838, 'subtotaal', 92.694, 11.094, 92.168, 62.774, 93.538, 74.169, 45.857, 'subtotaal', 66.333])
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 2 producten is €110.09
+Het subtotaal van de eerste 8 producten is €483.95
+Het subtotaal van de eerste 15 producten is €956.25
+De totale prijs van de winkelmand is €1022.58
+>>> Kassa([28.875, 21.643, 'subtotaal', 13.713, 50.354, 83.712, 50.903, 50.785, 10.067, 'subtotaal', 66.047, 93.091, 12.88, 55.051])
+Het subtotaal van de eerste 2 producten is €50.52
+Het subtotaal van de eerste 8 producten is €310.05
+De totale prijs van de winkelmand is €537.12
+>>> Kassa([90.969, 18.249])
+De totale prijs van de winkelmand is €109.22
+>>> Kassa([28.101, 80.122, 'subtotaal', 'subtotaal', 'subtotaal', 'subtotaal', 77.108, 92.228, 62.028, 75.133, 94.327, 83.338, 23.56, 19.38, 39.039, 44.156, 'subtotaal', 7.34, 'subtotaal', 70.721, 89.428, 11.631, 18.398, 32.554])
+Het subtotaal van de eerste 2 producten is €108.22
+Het subtotaal van de eerste 2 producten is €108.22
+Het subtotaal van de eerste 2 producten is €108.22
+Het subtotaal van de eerste 2 producten is €108.22
+Het subtotaal van de eerste 12 producten is €718.52
+Het subtotaal van de eerste 13 producten is €725.86
+De totale prijs van de winkelmand is €948.59
+>>> Kassa([30.197, 'subtotaal', 'subtotaal', 12.995, 25.563, 25.358, 97.826, 21.443, 65.437, 41.249, 25.175, 44.237, 65.976, 21.863, 98.217, 91.515, 28.75, 35.076, 72.563])
+Het subtotaal van de eerste 1 producten is €30.20
+Het subtotaal van de eerste 1 producten is €30.20
+De totale prijs van de winkelmand is €803.44
+>>> Kassa([9.814, 20.837, 25.3, 'subtotaal', 53.726, 'subtotaal', 71.859, 25.825, 96.063, 'subtotaal', 73.036, 'subtotaal', 70.386, 14.905, 33.971, 40.764])
+Het subtotaal van de eerste 3 producten is €55.95
+Het subtotaal van de eerste 4 producten is €109.68
+Het subtotaal van de eerste 7 producten is €303.42
+Het subtotaal van de eerste 8 producten is €376.46
+De totale prijs van de winkelmand is €536.49
+>>> Kassa([11.395, 7.117, 37.239, 86.306, 87.623, 40.467, 'subtotaal', 43.268, 56.273, 33.994])
+Het subtotaal van de eerste 6 producten is €270.15
+De totale prijs van de winkelmand is €403.68
+>>> Kassa(['subtotaal', 9.501, 23.192, 98.557, 89.258, 'subtotaal', 47.601, 2.738, 41.403, 'subtotaal', 70.968, 19.111, 3.857, 'subtotaal', 61.974, 2.443, 'subtotaal', 47.481, 25.502, 59.435, 'subtotaal', 23.316, 81.146, 70.572])
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 4 producten is €220.51
+Het subtotaal van de eerste 7 producten is €312.25
+Het subtotaal van de eerste 10 producten is €406.19
+Het subtotaal van de eerste 12 producten is €470.60
+Het subtotaal van de eerste 15 producten is €603.02
+De totale prijs van de winkelmand is €778.05
+>>> Kassa([67.729])
+De totale prijs van de winkelmand is €67.73
+>>> Kassa([6.023, 86.014, 53.313, 99.779, 58.076, 71.175, 'subtotaal', 'subtotaal', 27.579, 91.91, 89.158, 9.983, 60.231, 4.393, 52.872, 64.144, 66.689, 63.794])
+Het subtotaal van de eerste 6 producten is €374.38
+Het subtotaal van de eerste 6 producten is €374.38
+De totale prijs van de winkelmand is €905.13
+>>> Kassa([16.673, 'subtotaal', 27.832, 62.98, 11.008, 11.422, 'subtotaal', 'subtotaal', 'subtotaal', 92.288, 23.764, 81.875, 29.916, 88.137, 99.041, 51.641, 66.902, 'subtotaal', 35.64])
+Het subtotaal van de eerste 1 producten is €16.67
+Het subtotaal van de eerste 5 producten is €129.91
+Het subtotaal van de eerste 5 producten is €129.91
+Het subtotaal van de eerste 5 producten is €129.91
+Het subtotaal van de eerste 13 producten is €663.48
+De totale prijs van de winkelmand is €699.12
+>>> Kassa([82.452, 36.794, 11.195, 'subtotaal', 'subtotaal', 12.827, 56.921, 'subtotaal', 30.726, 'subtotaal', 56.522, 21.626, 30.807, 80.687, 16.988, 39.38, 44.399, 66.07, 'subtotaal', 3.996, 57.333, 7.937, 99.558, 'subtotaal', 72.444])
+Het subtotaal van de eerste 3 producten is €130.44
+Het subtotaal van de eerste 3 producten is €130.44
+Het subtotaal van de eerste 5 producten is €200.19
+Het subtotaal van de eerste 6 producten is €230.91
+Het subtotaal van de eerste 14 producten is €587.39
+Het subtotaal van de eerste 18 producten is €756.22
+De totale prijs van de winkelmand is €828.66
+>>> Kassa([59.058, 97.505])
+De totale prijs van de winkelmand is €156.56
+>>> Kassa([24.299, 35.542, 'subtotaal', 48.994, 'subtotaal'])
+Het subtotaal van de eerste 2 producten is €59.84
+Het subtotaal van de eerste 3 producten is €108.84
+De totale prijs van de winkelmand is €108.84
+>>> Kassa([93.085])
+De totale prijs van de winkelmand is €93.08
+>>> Kassa(['subtotaal', 'subtotaal', 'subtotaal', 71.96, 35.574, 33.363, 91.811, 59.994, 97.896, 20.288, 30.484, 8.12, 3.835, 26.905, 'subtotaal', 7.937])
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 11 producten is €480.23
+De totale prijs van de winkelmand is €488.17
+>>> Kassa([83.649, 76.555, 57.876])
+De totale prijs van de winkelmand is €218.08
+>>> Kassa([50.93, 'subtotaal', 'subtotaal', 'subtotaal', 23.738, 'subtotaal', 34.773])
+Het subtotaal van de eerste 1 producten is €50.93
+Het subtotaal van de eerste 1 producten is €50.93
+Het subtotaal van de eerste 1 producten is €50.93
+Het subtotaal van de eerste 2 producten is €74.67
+De totale prijs van de winkelmand is €109.44
+>>> Kassa([42.421, 53.893, 48.697, 14.701, 14.036, 94.913])
+De totale prijs van de winkelmand is €268.66
+>>> Kassa([61.79, 87.383, 27.055, 88.307, 24.853, 13.05, 55.709, 19.867, 9.006, 86.646, 1.562, 63.688, 92.813, 10.483, 78.077, 1.636, 25.641])
+De totale prijs van de winkelmand is €747.57
+>>> Kassa([90.855, 17.605, 77.368, 66.488, 'subtotaal', 78.753, 94.827])
+Het subtotaal van de eerste 4 producten is €252.32
+De totale prijs van de winkelmand is €425.90
+>>> Kassa([50.813, 'subtotaal', 73.068, 94.033, 54.55, 'subtotaal', 14.229, 44.461, 70.245, 19.027, 3.118, 95.532, 'subtotaal', 43.551, 'subtotaal', 'subtotaal', 7.08, 6.628])
+Het subtotaal van de eerste 1 producten is €50.81
+Het subtotaal van de eerste 4 producten is €272.46
+Het subtotaal van de eerste 10 producten is €519.08
+Het subtotaal van de eerste 11 producten is €562.63
+Het subtotaal van de eerste 11 producten is €562.63
+De totale prijs van de winkelmand is €576.34
+>>> Kassa([80.296, 26.949, 58.933, 27.164, 83.091, 31.061, 31.716, 95.604])
+De totale prijs van de winkelmand is €434.81
+>>> Kassa([70.194, 22.308, 'subtotaal', 35.671, 71.629, 99.965, 14.715, 'subtotaal', 10.772, 89.833, 57.129, 86.608, 77.079, 35.368, 32.971, 72.535, 98.704, 33.124, 80.255, 33.899, 96.251])
+Het subtotaal van de eerste 2 producten is €92.50
+Het subtotaal van de eerste 6 producten is €314.48
+De totale prijs van de winkelmand is €1119.01
+>>> Kassa(['subtotaal', 29.197, 'subtotaal', 70.819, 98.31, 54.437, 'subtotaal', 97.098, 75.383])
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 1 producten is €29.20
+Het subtotaal van de eerste 4 producten is €252.76
+De totale prijs van de winkelmand is €425.24
+>>> Kassa(['subtotaal', 11.602, 10.623, 90.787, 82.695, 52.117, 50.572])
+Het subtotaal van de eerste 0 producten is €0.00
+De totale prijs van de winkelmand is €298.40
+>>> Kassa([73.839, 'subtotaal'])
+Het subtotaal van de eerste 1 producten is €73.84
+De totale prijs van de winkelmand is €73.84
+>>> Kassa([79.124, 98.609, 3.28])
+De totale prijs van de winkelmand is €181.01
+>>> Kassa([82.249, 36.269, 30.512, 28.369, 1.655, 68.678, 0.606, 'subtotaal', 0.426])
+Het subtotaal van de eerste 7 producten is €248.34
+De totale prijs van de winkelmand is €248.76
+>>> Kassa([63.678])
+De totale prijs van de winkelmand is €63.68
+>>> Kassa([86.177, 78.555, 29.312, 'subtotaal', 9.875, 29.064, 95.068, 93.159, 7.961, 60.873, 'subtotaal', 'subtotaal', 'subtotaal', 10.295, 48.126, 20.036, 32.98, 55.763, 76.114, 'subtotaal', 'subtotaal', 27.399, 17.368, 36.343])
+Het subtotaal van de eerste 3 producten is €194.04
+Het subtotaal van de eerste 9 producten is €490.04
+Het subtotaal van de eerste 9 producten is €490.04
+Het subtotaal van de eerste 9 producten is €490.04
+Het subtotaal van de eerste 15 producten is €733.36
+Het subtotaal van de eerste 15 producten is €733.36
+De totale prijs van de winkelmand is €814.47
+>>> Kassa([59.235, 76.287, 12.378, 80.12, 84.994, 14.025])
+De totale prijs van de winkelmand is €327.04
+>>> Kassa([31.156, 36.24, 20.472, 72.848])
+De totale prijs van de winkelmand is €160.72
+>>> Kassa([38.181])
+De totale prijs van de winkelmand is €38.18
+>>> Kassa([71.687])
+De totale prijs van de winkelmand is €71.69
+>>> Kassa([31.743, 85.086, 11.391, 54.904, 66.613])
+De totale prijs van de winkelmand is €249.74
+>>> Kassa([46.136, 12.939, 31.846, 17.565, 42.57, 'subtotaal', 'subtotaal', 53.195, 81.344, 'subtotaal', 57.02, 37.768, 'subtotaal', 83.377, 83.671, 77.63, 27.62, 55.946])
+Het subtotaal van de eerste 5 producten is €151.06
+Het subtotaal van de eerste 5 producten is €151.06
+Het subtotaal van de eerste 7 producten is €285.60
+Het subtotaal van de eerste 9 producten is €380.38
+De totale prijs van de winkelmand is €708.63
+>>> Kassa([60.11, 33.312, 91.842, 88.238, 'subtotaal', 35.458, 'subtotaal', 58.547, 34.337, 12.725, 'subtotaal', 37.057, 58.325, 76.828, 55.564, 'subtotaal', 86.974, 'subtotaal', 94.546, 77.332, 91.33])
+Het subtotaal van de eerste 4 producten is €273.50
+Het subtotaal van de eerste 5 producten is €308.96
+Het subtotaal van de eerste 8 producten is €414.57
+Het subtotaal van de eerste 12 producten is €642.34
+Het subtotaal van de eerste 13 producten is €729.32
+De totale prijs van de winkelmand is €992.53
+>>> Kassa([9.697, 24.67, 'subtotaal', 86.861, 51.202, 76.518, 74.807, 27.373, 46.782, 'subtotaal', 36.872, 55.477, 77.769, 22.379, 'subtotaal', 0.652, 25.312, 85.542, 64.441, 50.241, 23.567, 48.668, 6.493, 27.667])
+Het subtotaal van de eerste 2 producten is €34.37
+Het subtotaal van de eerste 8 producten is €397.91
+Het subtotaal van de eerste 12 producten is €590.41
+De totale prijs van de winkelmand is €922.99
+>>> Kassa([71.851, 4.507, 'subtotaal', 65.873, 85.588, 72.697, 64.989, 89.017, 'subtotaal', 24.221, 64.773, 15.337, 67.331, 48.63, 19.91, 'subtotaal', 5.347, 'subtotaal', 93.231, 88.394])
+Het subtotaal van de eerste 2 producten is €76.36
+Het subtotaal van de eerste 7 producten is €454.52
+Het subtotaal van de eerste 13 producten is €694.72
+Het subtotaal van de eerste 14 producten is €700.07
+De totale prijs van de winkelmand is €881.70
+>>> Kassa([70.145, 87.212, 5.408, 15.07])
+De totale prijs van de winkelmand is €177.83
+>>> Kassa([36.42, 82.991, 42.053, 22.733, 34.918, 'subtotaal', 29.642, 78.094, 1.818, 79.076, 19.557, 'subtotaal'])
+Het subtotaal van de eerste 5 producten is €219.12
+Het subtotaal van de eerste 10 producten is €427.30
+De totale prijs van de winkelmand is €427.30
+>>> Kassa([35.93])
+De totale prijs van de winkelmand is €35.93
+>>> Kassa([35.552, 96.339, 21.806, 50.87, 'subtotaal', 22.363, 12.722, 71.142, 79.228, 23.848, 'subtotaal', 22.063, 63.522, 69.401, 'subtotaal', 50.314, 'subtotaal', 12.16, 37.718, 51.278, 81.365, 30.159])
+Het subtotaal van de eerste 4 producten is €204.57
+Het subtotaal van de eerste 9 producten is €413.87
+Het subtotaal van de eerste 12 producten is €568.86
+Het subtotaal van de eerste 13 producten is €619.17
+De totale prijs van de winkelmand is €831.85
+>>> Kassa([30.549, 58.742, 17.686, 15.915, 78.546])
+De totale prijs van de winkelmand is €201.44
+>>> Kassa([87.515, 82.74, 58.852, 12.25])
+De totale prijs van de winkelmand is €241.36
+>>> Kassa([93.854, 34.794, 54.671, 70.849, 0.748, 6.571, 11.024, 42.105, 6.713, 3.542, 14.073, 89.323])
+De totale prijs van de winkelmand is €428.27
+>>> Kassa([45.622, 15.28, 52.36, 67.193, 91.841, 53.72, 32.963, 63.162, 14.446, 71.338, 46.12, 46.368, 54.201, 48.781, 65.456, 84.275, 21.028, 78.604, 6.403])
+De totale prijs van de winkelmand is €959.16
+>>> Kassa([81.373, 48.556, 16.58, 62.09, 3.8, 'subtotaal', 99.377, 10.257, 27.802, 99.081, 7.667, 81.558, 'subtotaal', 12.96])
+Het subtotaal van de eerste 5 producten is €212.40
+Het subtotaal van de eerste 11 producten is €538.14
+De totale prijs van de winkelmand is €551.10
+>>> Kassa(['subtotaal', 'subtotaal', 30.817, 40.082, 66.171, 64.668, 34.896])
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 0 producten is €0.00
+De totale prijs van de winkelmand is €236.63
+>>> Kassa([62.823, 63.449, 'subtotaal', 96.913, 59.134, 76.656, 28.002, 90.81, 75.869, 35.235, 'subtotaal', 18.401, 'subtotaal', 42.754, 22.371, 'subtotaal', 'subtotaal', 86.06, 17.597, 27.988, 12.199, 46.252, 80.267, 13.754, 20.794])
+Het subtotaal van de eerste 2 producten is €126.27
+Het subtotaal van de eerste 9 producten is €588.89
+Het subtotaal van de eerste 10 producten is €607.29
+Het subtotaal van de eerste 12 producten is €672.42
+Het subtotaal van de eerste 12 producten is €672.42
+De totale prijs van de winkelmand is €977.33
+>>> Kassa([8.561, 36.732, 6.644, 74.293, 27.576, 91.212, 91.866, 53.258])
+De totale prijs van de winkelmand is €390.14
+>>> Kassa([31.38, 'subtotaal', 95.425, 45.06, 59.141, 8.294, 14.598, 'subtotaal', 84.891, 47.175, 27.906, 86.528, 54.737, 59.556, 29.919, 7.451, 29.82, 16.664, 36.303])
+Het subtotaal van de eerste 1 producten is €31.38
+Het subtotaal van de eerste 6 producten is €253.90
+De totale prijs van de winkelmand is €734.85
+>>> Kassa([26.178, 18.315, 61.581])
+De totale prijs van de winkelmand is €106.07
+>>> Kassa([88.708, 44.161, 12.646])
+De totale prijs van de winkelmand is €145.51
+>>> Kassa([52.351, 77.525, 65.08, 47.167, 5.182, 73.261, 0.223, 43.62, 33.201, 77.026, 56.646, 0.133, 20.864, 91.687, 0.681, 65.333, 'subtotaal'])
+Het subtotaal van de eerste 16 producten is €709.98
+De totale prijs van de winkelmand is €709.98
+>>> Kassa([22.076, 3.441, 63.649, 8.14, 51.092, 'subtotaal', 59.821])
+Het subtotaal van de eerste 5 producten is €148.40
+De totale prijs van de winkelmand is €208.22
+>>> Kassa([34.516, 3.172, 33.225, 19.107, 47.528, 88.79, 22.961, 92.805, 'subtotaal', 70.91, 17.249, 0.65, 70.17, 13.221])
+Het subtotaal van de eerste 8 producten is €342.10
+De totale prijs van de winkelmand is €514.30
+>>> Kassa([65.367, 23.893, 77.385, 67.032, 55.461, 'subtotaal', 73.464, 'subtotaal', 65.194, 'subtotaal'])
+Het subtotaal van de eerste 5 producten is €289.14
+Het subtotaal van de eerste 6 producten is €362.60
+Het subtotaal van de eerste 7 producten is €427.80
+De totale prijs van de winkelmand is €427.80
+>>> Kassa([78.628, 'subtotaal', 37.792])
+Het subtotaal van de eerste 1 producten is €78.63
+De totale prijs van de winkelmand is €116.42
+>>> Kassa([95.934, 70.395, 99.314, 35.197, 'subtotaal', 9.546, 92.68, 44.655, 39.764, 68.944, 52.32, 55.933, 23.861, 6.832, 'subtotaal'])
+Het subtotaal van de eerste 4 producten is €300.84
+Het subtotaal van de eerste 13 producten is €695.38
+De totale prijs van de winkelmand is €695.38
+>>> Kassa([86.569, 90.025, 33.828, 89.895, 99.797, 79.231, 2.971, 89.49, 55.696, 76.86, 54.617, 95.489, 39.961, 90.12, 84.137])
+De totale prijs van de winkelmand is €1068.69
+>>> Kassa([28.185, 14.252, 2.785, 68.435, 'subtotaal', 79.958, 29.4, 63.13, 5.419, 'subtotaal', 50.009, 54.506, 9.081, 93.049, 85.744, 64.618, 17.323, 54.336, 'subtotaal', 72.168, 8.704, 76.244])
+Het subtotaal van de eerste 4 producten is €113.66
+Het subtotaal van de eerste 8 producten is €291.56
+Het subtotaal van de eerste 16 producten is €720.23
+De totale prijs van de winkelmand is €877.35
+>>> Kassa([29.446])
+De totale prijs van de winkelmand is €29.45
+>>> Kassa([6.848, 'subtotaal', 25.315])
+Het subtotaal van de eerste 1 producten is €6.85
+De totale prijs van de winkelmand is €32.16
+>>> Kassa([20.341, 34.254, 83.208, 77.575, 72.744, 26.085, 51.668, 45.281, 39.869, 87.004, 86.28, 21.562, 69.787, 48.407, 3.546, 27.132, 42.852, 0.133, 26.037, 29.788, 19.258])
+De totale prijs van de winkelmand is €912.81
+>>> Kassa([59.397, 66.62, 'subtotaal', 13.393, 86.99, 21.183, 69.552, 'subtotaal', 27.289, 56.325, 59.859, 65.652, 'subtotaal', 79.147, 41.78, 70.531, 'subtotaal', 32.615, 74.748, 21.014, 72.351, 16.877, 10.213])
+Het subtotaal van de eerste 2 producten is €126.02
+Het subtotaal van de eerste 6 producten is €317.13
+Het subtotaal van de eerste 10 producten is €526.26
+Het subtotaal van de eerste 13 producten is €717.72
+De totale prijs van de winkelmand is €945.54
+>>> Kassa([85.035, 'subtotaal', 43.542])
+Het subtotaal van de eerste 1 producten is €85.03
+De totale prijs van de winkelmand is €128.58
+>>> Kassa([54.63, 30.909, 85.285])
+De totale prijs van de winkelmand is €170.82
+>>> Kassa([23.69, 64.235, 45.488, 45.308, 65.111, 84.314, 87.989, 83.188, 58.403, 48.224, 75.261, 'subtotaal', 96.25, 9.312, 54.216])
+Het subtotaal van de eerste 11 producten is €681.21
+De totale prijs van de winkelmand is €840.99
+>>> Kassa([12.857, 33.275, 66.998, 22.075, 'subtotaal', 5.998, 4.692, 'subtotaal'])
+Het subtotaal van de eerste 4 producten is €135.20
+Het subtotaal van de eerste 6 producten is €145.89
+De totale prijs van de winkelmand is €145.89
+>>> Kassa([36.48, 67.556, 'subtotaal', 35.653, 9.035, 77.987, 23.797, 18.786, 31.715, 74.287, 94.48, 62.189, 23.294, 'subtotaal', 37.903, 77.886, 'subtotaal', 21.009, 11.616, 51.008, 81.666, 14.539, 54.354, 1.233, 43.164])
+Het subtotaal van de eerste 2 producten is €104.04
+Het subtotaal van de eerste 12 producten is €555.26
+Het subtotaal van de eerste 14 producten is €671.05
+De totale prijs van de winkelmand is €949.64
+>>> Kassa(['subtotaal', 71.841])
+Het subtotaal van de eerste 0 producten is €0.00
+De totale prijs van de winkelmand is €71.84
+>>> Kassa(['subtotaal', 85.002, 16.726, 12.634, 77.912, 'subtotaal', 'subtotaal'])
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 4 producten is €192.27
+Het subtotaal van de eerste 4 producten is €192.27
+De totale prijs van de winkelmand is €192.27
+>>> Kassa([76.96, 63.99, 61.533, 49.391, 46.997, 'subtotaal', 45.402, 58.857, 95.328, 72.824, 24.887, 85.12, 55.866, 'subtotaal', 7.095, 55.448])
+Het subtotaal van de eerste 5 producten is €298.87
+Het subtotaal van de eerste 12 producten is €737.15
+De totale prijs van de winkelmand is €799.70
+>>> Kassa([65.445, 49.516, 27.385, 18.02, 46.382, 57.395, 26.29, 5.309, 53.571, 33.445, 'subtotaal', 99.75, 'subtotaal', 45.232, 16.444])
+Het subtotaal van de eerste 10 producten is €382.76
+Het subtotaal van de eerste 11 producten is €482.51
+De totale prijs van de winkelmand is €544.18
+>>> Kassa([46.335, 65.812, 'subtotaal', 4.935, 75.076, 'subtotaal', 54.613, 61.279])
+Het subtotaal van de eerste 2 producten is €112.15
+Het subtotaal van de eerste 4 producten is €192.16
+De totale prijs van de winkelmand is €308.05
+>>> Kassa(['subtotaal', 62.712, 'subtotaal', 70.781, 8.924, 52.592, 'subtotaal'])
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 1 producten is €62.71
+Het subtotaal van de eerste 4 producten is €195.01
+De totale prijs van de winkelmand is €195.01
+>>> Kassa([98.908, 72.836, 0.979, 'subtotaal', 72.477, 97.231, 14.531, 'subtotaal', 36.782])
+Het subtotaal van de eerste 3 producten is €172.72
+Het subtotaal van de eerste 6 producten is €356.96
+De totale prijs van de winkelmand is €393.74
+>>> Kassa([25.425, 42.041, 8.437, 67.349, 49.524, 67.836, 1.317, 83.775, 67.105, 57.014, 45.065, 53.487, 39.099, 29.807])
+De totale prijs van de winkelmand is €637.28
+>>> Kassa([24.386, 'subtotaal', 94.161, 86.171, 16.958, 53.018, 'subtotaal', 'subtotaal', 78.096, 78.653, 82.907, 39.717])
+Het subtotaal van de eerste 1 producten is €24.39
+Het subtotaal van de eerste 5 producten is €274.69
+Het subtotaal van de eerste 5 producten is €274.69
+De totale prijs van de winkelmand is €554.07
+>>> Kassa([3.823, 18.372, 87.902, 15.835, 2.472, 31.829, 65.451, 'subtotaal', 5.39, 71.137, 'subtotaal', 35.87, 'subtotaal', 'subtotaal', 56.159, 60.161, 77.208, 95.565])
+Het subtotaal van de eerste 7 producten is €225.68
+Het subtotaal van de eerste 9 producten is €302.21
+Het subtotaal van de eerste 10 producten is €338.08
+Het subtotaal van de eerste 10 producten is €338.08
+De totale prijs van de winkelmand is €627.17
+>>> Kassa([55.219, 46.08, 89.795, 26.241, 17.246, 19.914, 80.433, 25.07, 86.307, 18.347, 'subtotaal', 48.008])
+Het subtotaal van de eerste 10 producten is €464.65
+De totale prijs van de winkelmand is €512.66
+>>> Kassa([59.518, 33.685])
+De totale prijs van de winkelmand is €93.20
+>>> Kassa([74.163, 7.794, 81.778, 7.817, 86.517])
+De totale prijs van de winkelmand is €258.07
+>>> Kassa([2.527, 21.125])
+De totale prijs van de winkelmand is €23.65
+>>> Kassa([29.573, 'subtotaal', 87.699, 56.684, 41.981, 30.948, 5.125, 'subtotaal', 'subtotaal', 93.9, 80.79, 91.194, 'subtotaal', 'subtotaal'])
+Het subtotaal van de eerste 1 producten is €29.57
+Het subtotaal van de eerste 6 producten is €252.01
+Het subtotaal van de eerste 6 producten is €252.01
+Het subtotaal van de eerste 9 producten is €517.89
+Het subtotaal van de eerste 9 producten is €517.89
+De totale prijs van de winkelmand is €517.89
+>>> Kassa([52.982, 20.254, 'subtotaal', 89.211, 61.079, 65.593, 'subtotaal', 5.542, 'subtotaal', 'subtotaal', 89.711, 0.117, 5.94, 67.993, 'subtotaal', 60.893, 48.22, 48.649])
+Het subtotaal van de eerste 2 producten is €73.24
+Het subtotaal van de eerste 5 producten is €289.12
+Het subtotaal van de eerste 6 producten is €294.66
+Het subtotaal van de eerste 6 producten is €294.66
+Het subtotaal van de eerste 10 producten is €458.42
+De totale prijs van de winkelmand is €616.18
+>>> Kassa([29.303, 49.548, 1.716, 3.562, 72.63, 75.451, 98.996, 'subtotaal', 91.09, 64.617, 54.482, 63.322, 71.216, 'subtotaal', 23.585, 97.151, 76.874, 42.308, 'subtotaal', 36.05])
+Het subtotaal van de eerste 7 producten is €331.21
+Het subtotaal van de eerste 12 producten is €675.93
+Het subtotaal van de eerste 16 producten is €915.85
+De totale prijs van de winkelmand is €951.90
+>>> Kassa(['subtotaal', 48.372, 72.969, 11.514, 7.931, 15.772, 28.836, 0.232, 'subtotaal', 18.519, 23.266, 'subtotaal', 36.29, 'subtotaal'])
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 7 producten is €185.63
+Het subtotaal van de eerste 9 producten is €227.41
+Het subtotaal van de eerste 10 producten is €263.70
+De totale prijs van de winkelmand is €263.70
+>>> Kassa([87.924, 15.548, 70.794, 77.711, 55.263, 58.897, 38.728, 33.086, 'subtotaal', 38.681, 60.777, 90.464, 'subtotaal'])
+Het subtotaal van de eerste 8 producten is €437.95
+Het subtotaal van de eerste 11 producten is €627.87
+De totale prijs van de winkelmand is €627.87
+>>> Kassa([85.785, 77.639, 80.052, 27.941, 0.188, 'subtotaal', 10.543, 'subtotaal', 72.143, 44.195, 36.767, 62.084, 90.41, 89.691, 'subtotaal', 'subtotaal'])
+Het subtotaal van de eerste 5 producten is €271.60
+Het subtotaal van de eerste 6 producten is €282.15
+Het subtotaal van de eerste 12 producten is €677.44
+Het subtotaal van de eerste 12 producten is €677.44
+De totale prijs van de winkelmand is €677.44
+>>> Kassa([93.167, 2.339, 51.064, 64.093, 89.895, 96.846, 19.762, 96.751, 80.726, 0.748, 32.241, 40.517, 17.104, 37.148, 52.892, 31.539, 70.495, 46.65, 21.272, 98.26, 50.532, 35.351])
+De totale prijs van de winkelmand is €1129.39
+>>> Kassa([12.198, 45.952, 77.807, 13.953, 33.603, 13.675, 'subtotaal', 'subtotaal', 15.972, 7.558, 'subtotaal', 86.36, 15.76, 'subtotaal', 1.363, 9.248, 32.735, 40.385])
+Het subtotaal van de eerste 6 producten is €197.19
+Het subtotaal van de eerste 6 producten is €197.19
+Het subtotaal van de eerste 8 producten is €220.72
+Het subtotaal van de eerste 10 producten is €322.84
+De totale prijs van de winkelmand is €406.57
+>>> Kassa([41.939, 39.153, 8.814, 'subtotaal', 'subtotaal', 8.466, 'subtotaal', 60.734, 'subtotaal', 93.123, 86.463, 87.455, 44.546])
+Het subtotaal van de eerste 3 producten is €89.91
+Het subtotaal van de eerste 3 producten is €89.91
+Het subtotaal van de eerste 4 producten is €98.37
+Het subtotaal van de eerste 5 producten is €159.11
+De totale prijs van de winkelmand is €470.69
+>>> Kassa([86.218, 98.783, 'subtotaal', 19.077, 51.56, 68.003, 48.074, 93.271, 98.873, 15.264, 33.663])
+Het subtotaal van de eerste 2 producten is €185.00
+De totale prijs van de winkelmand is €612.79
+>>> Kassa([13.888, 77.802, 7.546])
+De totale prijs van de winkelmand is €99.24
+>>> Kassa([92.448, 17.763, 'subtotaal', 77.818, 32.373, 19.019, 86.512, 3.835, 'subtotaal', 43.266, 17.503, 54.353, 'subtotaal', 8.218, 63.657, 83.469, 97.508, 80.266, 46.823, 'subtotaal', 24.095])
+Het subtotaal van de eerste 2 producten is €110.21
+Het subtotaal van de eerste 7 producten is €329.77
+Het subtotaal van de eerste 10 producten is €444.89
+Het subtotaal van de eerste 16 producten is €824.83
+De totale prijs van de winkelmand is €848.93
+>>> Kassa([75.802, 'subtotaal', 'subtotaal'])
+Het subtotaal van de eerste 1 producten is €75.80
+Het subtotaal van de eerste 1 producten is €75.80
+De totale prijs van de winkelmand is €75.80
+>>> Kassa([18.281, 41.821, 28.8, 'subtotaal', 25.125, 22.849, 'subtotaal', 46.857, 40.845, 'subtotaal', 84.127, 17.384, 59.841, 12.989, 13.7, 95.649, 55.838])
+Het subtotaal van de eerste 3 producten is €88.90
+Het subtotaal van de eerste 5 producten is €136.88
+Het subtotaal van de eerste 7 producten is €224.58
+De totale prijs van de winkelmand is €564.11
+>>> Kassa([53.786, 18.157, 84.671, 25.173, 85.124, 20.966, 59.677, 16.859, 16.97, 66.918, 65.619, 17.276, 9.039, 69.292, 87.202, 25.264, 10.798, 1.644, 'subtotaal', 92.278])
+Het subtotaal van de eerste 18 producten is €734.44
+De totale prijs van de winkelmand is €826.71
+>>> Kassa([62.305, 42.135, 34.376, 'subtotaal', 'subtotaal', 26.55, 24.119, 'subtotaal', 89.973, 28.411, 6.931, 14.75, 'subtotaal', 86.694, 48.323, 61.965, 92.736, 86.631, 97.459, 'subtotaal', 54.96, 'subtotaal'])
+Het subtotaal van de eerste 3 producten is €138.82
+Het subtotaal van de eerste 3 producten is €138.82
+Het subtotaal van de eerste 5 producten is €189.49
+Het subtotaal van de eerste 9 producten is €329.55
+Het subtotaal van de eerste 15 producten is €803.36
+Het subtotaal van de eerste 16 producten is €858.32
+De totale prijs van de winkelmand is €858.32
+>>> Kassa([49.782, 97.379, 33.265, 73.216, 43.033])
+De totale prijs van de winkelmand is €296.68
+>>> Kassa([54.638, 30.455])
+De totale prijs van de winkelmand is €85.09
+>>> Kassa([6.313, 47.588, 62.172, 66.415, 45.165, 53.178, 'subtotaal', 46.841, 6.789])
+Het subtotaal van de eerste 6 producten is €280.83
+De totale prijs van de winkelmand is €334.46
+>>> Kassa([70.903, 52.095, 'subtotaal', 60.084, 1.191, 5.034, 62.525, 13.901, 52.773, 49.295, 80.839, 43.132, 31.158, 43.226, 'subtotaal', 71.453, 62.153])
+Het subtotaal van de eerste 2 producten is €123.00
+Het subtotaal van de eerste 13 producten is €566.16
+De totale prijs van de winkelmand is €699.76
+>>> Kassa([91.614, 14.05, 38.822, 99.688, 30.587, 31.172, 88.227, 'subtotaal', 93.753, 28.198, 'subtotaal', 56.654, 23.255, 'subtotaal', 'subtotaal', 0.949, 'subtotaal', 6.695, 85.412, 81.915, 94.434, 12.241, 97.211, 29.693])
+Het subtotaal van de eerste 7 producten is €394.16
+Het subtotaal van de eerste 9 producten is €516.11
+Het subtotaal van de eerste 11 producten is €596.02
+Het subtotaal van de eerste 11 producten is €596.02
+Het subtotaal van de eerste 12 producten is €596.97
+De totale prijs van de winkelmand is €1004.57
+>>> Kassa([60.134, 79.56, 14.018, 'subtotaal', 62.277, 54.277, 81.337, 40.32, 17.536])
+Het subtotaal van de eerste 3 producten is €153.71
+De totale prijs van de winkelmand is €409.46
+>>> Kassa([36.23, 85.403, 2.781, 'subtotaal', 84.126, 'subtotaal', 56.811, 92.861, 67.091, 56.138, 37.496, 35.363, 71.505, 30.119, 51.309])
+Het subtotaal van de eerste 3 producten is €124.41
+Het subtotaal van de eerste 4 producten is €208.54
+De totale prijs van de winkelmand is €707.23
+>>> Kassa([73.084, 78.596, 75.8, 'subtotaal', 43.874, 'subtotaal', 'subtotaal', 12.148, 40.98, 91.906, 17.686, 44.573, 30.07, 'subtotaal', 40.172])
+Het subtotaal van de eerste 3 producten is €227.48
+Het subtotaal van de eerste 4 producten is €271.35
+Het subtotaal van de eerste 4 producten is €271.35
+Het subtotaal van de eerste 10 producten is €508.72
+De totale prijs van de winkelmand is €548.89
+>>> Kassa([50.834, 57.323, 67.153, 74.641, 58.738, 'subtotaal', 'subtotaal', 29.486, 83.944, 57.393, 1.845, 82.93])
+Het subtotaal van de eerste 5 producten is €308.69
+Het subtotaal van de eerste 5 producten is €308.69
+De totale prijs van de winkelmand is €564.29
+>>> Kassa([55.27, 89.835, 52.987, 10.754, 33.241, 19.927, 56.215, 41.532, 86.201, 14.726, 46.464, 'subtotaal', 14.452])
+Het subtotaal van de eerste 11 producten is €507.15
+De totale prijs van de winkelmand is €521.60
+>>> Kassa([18.259, 8.185, 71.4, 13.975, 73.363, 79.163, 87.775, 24.578, 'subtotaal', 71.382, 69.501])
+Het subtotaal van de eerste 8 producten is €376.70
+De totale prijs van de winkelmand is €517.58
+>>> Kassa(['subtotaal', 18.238, 9.338, 'subtotaal', 'subtotaal', 'subtotaal', 'subtotaal', 15.671, 22.356, 47.72, 23.67, 'subtotaal', 39.664, 65.415, 49.96, 71.669, 'subtotaal'])
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 2 producten is €27.58
+Het subtotaal van de eerste 2 producten is €27.58
+Het subtotaal van de eerste 2 producten is €27.58
+Het subtotaal van de eerste 2 producten is €27.58
+Het subtotaal van de eerste 6 producten is €136.99
+Het subtotaal van de eerste 10 producten is €363.70
+De totale prijs van de winkelmand is €363.70
+>>> Kassa(['subtotaal', 'subtotaal', 'subtotaal', 40.6, 'subtotaal', 83.286, 84.092, 1.008, 89.872, 84.556, 25.233, 25.516, 29.565, 34.661])
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 0 producten is €0.00
+Het subtotaal van de eerste 1 producten is €40.60
+De totale prijs van de winkelmand is €498.39
+>>> Kassa([83.668, 2.192, 2.079, 41.237])
+De totale prijs van de winkelmand is €129.18
+>>> Kassa([74.756, 98.872, 31.058, 'subtotaal', 'subtotaal', 17.681, 86.163, 34.702, 82.239, 'subtotaal', 67.784, 12.442, 65.626, 7.033, 43.722, 37.581, 'subtotaal', 18.959, 'subtotaal', 41.248, 'subtotaal', 8.9])
+Het subtotaal van de eerste 3 producten is €204.69
+Het subtotaal van de eerste 3 producten is €204.69
+Het subtotaal van de eerste 7 producten is €425.47
+Het subtotaal van de eerste 13 producten is €659.66
+Het subtotaal van de eerste 14 producten is €678.62
+Het subtotaal van de eerste 15 producten is €719.87
+De totale prijs van de winkelmand is €728.77
+>>> Kassa([79.669, 'subtotaal', 68.366, 'subtotaal', 83.753, 50.655])
+Het subtotaal van de eerste 1 producten is €79.67
+Het subtotaal van de eerste 2 producten is €148.03
+De totale prijs van de winkelmand is €282.44
+>>> Kassa([76.406, 80.273, 32.606, 70.149, 'subtotaal', 50.319, 'subtotaal', 7.236, 2.447, 67.063, 59.823, 39.508, 10.44, 10.613, 52.423, 1.288])
+Het subtotaal van de eerste 4 producten is €259.43
+Het subtotaal van de eerste 5 producten is €309.75
+De totale prijs van de winkelmand is €560.59
+>>> Kassa([33.227, 28.656, 30.874, 'subtotaal', 35.195, 81.601, 'subtotaal', 84.493, 39.615, 'subtotaal', 66.056, 88.817, 60.87, 47.705, 88.197, 'subtotaal', 98.701, 19.724, 'subtotaal', 32.338, 0.022, 87.979, 82.433])
+Het subtotaal van de eerste 3 producten is €92.76
+Het subtotaal van de eerste 5 producten is €209.55
+Het subtotaal van de eerste 7 producten is €333.66
+Het subtotaal van de eerste 12 producten is €685.31
+Het subtotaal van de eerste 14 producten is €803.73
+De totale prijs van de winkelmand is €1006.50

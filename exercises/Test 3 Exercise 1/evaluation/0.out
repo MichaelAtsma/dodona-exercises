@@ -1,0 +1,8 @@
+--------------------------------------------------
+tab name: Voorbeelden
+<LANGUAGE code="en">
+    <function from="Kassa" to="Register" />
+    <fixed from="Het subtotaal van de eerste" to="The subtotal of the first" />
+    <fixed from="producten is €" to="products is €" />
+    <fixed from="De totale prijs van de winkelmand is €" to="The total price of the shopping cart is €" />
+</LANGUAGE>
