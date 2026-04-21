@@ -219,6 +219,8 @@
   }
 </style>
 
+<div markdown="1" class="prevent-select">
+
 Je hebt ondertussen veel verschillende dingen geleerd over programmeren in Python, zoals variabelen, datatypes, operatoren, de print functie, for-loops, en hoe je een subtotaal kan bijhouden. In deze oefening ga je al je kennis combineren om een algoritme te maken. Dat wil zeggen dat je moet plannen hoe de functie stap voor stap moet werken, en het daarna pas kan implementeren.
 
 <br>
@@ -324,3 +326,5 @@ if x > 0 and y > 0:
 ```
 
 </details> <!-- End of tip (twee voorwaarden tegelijk) -->
+
+</div>
