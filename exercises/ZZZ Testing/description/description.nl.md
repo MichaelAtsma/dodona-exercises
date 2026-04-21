@@ -144,6 +144,12 @@
     user-select: none; /* Standard syntax */
   }
 
+  .prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+
   table {
     display: table;
     margin: 0 auto;       /* centers table horizontally */

@@ -3,37 +3,37 @@ import re
 
 # Pattern or literal to replace
 use_regex_for_to_replace = False
-to_replace = r"""@media (prefers-color-scheme: dark) {
-    .functioninput-default { color: white; }
-    .functionseparators { color: white; }
-    .function-name { color: #daaa28ff; }
-    .string { color: #52d1c1; }
-    .functioninput-int, .functioninput-float { color: #feb1bf; }
-  }
-  @media (prefers-color-scheme: light) {
-    .functioninput-default { color: black; }
-    .functionseparators { color: black; }
-    .function-name { color: #a17702ff; }
-    .string { color: green; }
-    .functioninput-int, .functioninput-float { color: red; }"""
+to_replace = r"""<style>
+  .invisible-text {
+    /* To use this, put any text like this: 
+    <span class="invisible-text">Your invisible text here</span> 
+    */
+    color: transparent;
+    font-size: 0.1em;
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }"""
 
 # Replacement (can contain backreferences like r"\1" when use_regex is True)
 use_regex_for_replacement = False
-replacement = r"""@media (prefers-color-scheme: dark) {
-    .functioninput-default { color: white; }
-    .functionseparators { color: white; }
-    .function-name { color: #daaa28ff; }
-    .string { color: #52d1c1; }
-    .boolean { color: #9ccaff;}
-    .functioninput-int, .functioninput-float { color: #feb1bf; }
+replacement = r"""<style>
+  .invisible-text {
+    /* To use this, put any text like this: 
+    <span class="invisible-text">Your invisible text here</span> 
+    */
+    color: transparent;
+    font-size: 0.1em;
+    display: inline;
+    margin: 0;
+    padding: 0;
   }
-  @media (prefers-color-scheme: light) {
-    .functioninput-default { color: black; }
-    .functionseparators { color: black; }
-    .function-name { color: #a17702ff; }
-    .string { color: green; }
-    .boolean { color: #0061a6;}
-    .functioninput-int, .functioninput-float { color: red; }"""
+
+  .prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }"""
 
 
 filename_contains = "description"
