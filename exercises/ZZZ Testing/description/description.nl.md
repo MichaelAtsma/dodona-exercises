@@ -138,6 +138,12 @@
     padding: 0;
   }
 
+  .prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+
   table {
     display: table;
     margin: 0 auto;       /* centers table horizontally */
@@ -209,8 +215,11 @@
   }
 </style>
 
+
+<div class="prevent-select">
 Deze opdracht dient enkel voor testendoeleinden.
 
 $$\frac{6+9+10}{3} \approx 8.3$$
 
 Test index (om te controleren of Dodona versie geupdated is): 22
+</div>
