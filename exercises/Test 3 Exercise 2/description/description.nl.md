@@ -270,7 +270,7 @@ Maak een functie <function name="KlinkersEnMedeklinkers"></function> die een woo
     <tr>
       <td><function name="KlinkersEnMedeklinkers" inputs='["ikkanprogrammeren"]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code>ikkanprogrammeren bevat 6 klinkers en 11 medeklinkers.</code></pre></td>
+      <td><pre><code>ikkanprogrammeren bevat 6 klinkers en 11 medeklinkers.     </code></pre></td>
     </tr>
   </tbody>
 </table>
