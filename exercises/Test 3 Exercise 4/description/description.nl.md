@@ -255,25 +255,25 @@ Maak een functie <function name="AantalKarakters"></function> die een lijst als 
     <tr>
       <td><function name="AantalKarakters" inputs='["hallo", "wereld!"]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><code class="boolean">12</code></td>
+      <td><code>12</code></td>
       <td><code class="string">hallo</code> bevat 5 karakters en <code class="string">wereld!</code> bevat 7 karakters, dus dat is samen 12.</td>
     </tr>
     <tr>
       <td><function name="AantalKarakters" inputs='["Python is een mooie taal", "programmeren is leuk", "informaticawetenschappen is een nuttig vak"]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><code class="boolean">86</code></td>
+      <td><code>86</code></td>
       <td><code class="string">Python is een mooie taal</code> bevat 24 karakters, <code class="string">programmeren is leuk</code> bevat 20 karakters, en <code class="string">informaticawetenschappen is een nuttig vak</code> bevat 42 karakters, dus dat is samen 86.</td>
     </tr>
     <tr>
       <td><function name="AantalKarakters" inputs='[]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><code class="boolean">0</code></td>
+      <td><code>0</code></td>
       <td>De lijst is leeg, dus dat er zijn 0 karakters.</td>
     </tr>
     <tr>
       <td><function name="AantalKarakters" inputs='["", "", ""]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><code class="boolean">0</code></td>
+      <td><code>0</code></td>
       <td>De lijst bevat alleen lege strings, dus er zijn 0 karakters.</td>
     </tr>
   </tbody>
