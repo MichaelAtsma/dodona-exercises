@@ -237,7 +237,7 @@
 <div markdown="1" class="prevent-select">
 
 # <b>Opdracht</b>
-Maak een functie <function name="KlinkersEnMedeklinkers"></function> die een woord (<i>string</i>) als invoer neemt en het aantal klinkers en medeklinkers in die string op het scherm afdrukt in het volgende formaat: <code class="string">X bevat Y klinkers en Z medeklinkers.</code>, waarbij <code>X</code> het woord is, <code>Y</code> het aantal klinkers is en <code>Z</code> het aantal medeklinkers. Je mag er van uitgaan dat de invoer alleen kleine letters bevat en dat de klinkers de letters <code>a</code>, <code>e</code>, <code>i</code>, <code>o</code> en <code>u</code> zijn. Alle andere letters zijn medeklinkers.
+Maak een functie <function name="KlinkersEnMedeklinkers"></function> die een woord (<i>string</i>) als invoer neemt en het aantal klinkers en medeklinkers in die string op het scherm afdrukt in het volgende formaat: <code class="string">WOORD bevat # klinkers en # medeklinkers.</code>, waarbij <code>WOORD</code> het gegeven woord is en de <code>#</code> de respectievelijke aantallen zijn. Je mag er van uitgaan dat de invoer alleen kleine letters bevat en dat de klinkers de letters <code>a</code>, <code>e</code>, <code>i</code>, <code>o</code> en <code>u</code> zijn. Alle andere letters zijn medeklinkers.
 
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
