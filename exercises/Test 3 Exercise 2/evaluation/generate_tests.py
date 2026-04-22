@@ -50,7 +50,7 @@ def GenerateRandomStringOrWord():
 
 function_effect = "prints"
 function = KlinkersEnMedeklinkers
-bulk_test = True
+bulk_test = False
 
 if not bulk_test:
     X = [("voorbeeld",),

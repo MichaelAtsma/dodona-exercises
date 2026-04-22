@@ -1,17 +1,8 @@
->>> Kassa([2, 5])
-De totale prijs van de winkelmand is €7.00
->>> Kassa([10, 20, 'subtotaal', 30, 40])
-Het subtotaal van de eerste 2 producten is €30.00
-De totale prijs van de winkelmand is €100.00
->>> Kassa([1.49, 0.95, 'subtotaal', 2, 'subtotaal', 5.11])
-Het subtotaal van de eerste 2 producten is €2.44
-Het subtotaal van de eerste 3 producten is €4.44
-De totale prijs van de winkelmand is €9.55
->>> Kassa([1.234, 'subtotaal', 6.413])
-Het subtotaal van de eerste 1 producten is €1.23
-De totale prijs van de winkelmand is €7.65
->>> Kassa([])
-De totale prijs van de winkelmand is €0.00
->>> Kassa(['subtotaal'])
-Het subtotaal van de eerste 0 producten is €0.00
-De totale prijs van de winkelmand is €0.00
+>>> KlinkersEnMedeklinkers('voorbeeld')
+voorbeeld bevat 4 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('michiels')
+michiels bevat 3 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('atsma')
+atsma bevat 2 klinkers en 3 medeklinkers.
+>>> KlinkersEnMedeklinkers('ikkanprogrammeren')
+ikkanprogrammeren bevat 6 klinkers en 11 medeklinkers.
