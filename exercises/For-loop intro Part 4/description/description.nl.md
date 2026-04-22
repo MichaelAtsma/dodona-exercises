@@ -203,7 +203,7 @@
     .function-name { color: #daaa28ff; }
     .string { color: #52d1c1; }
     .boolean { color: #9ccaff;}
-    .functioninput-int, .functioninput-float { color: #bc0049 } /* { color: #feb1bf; } */
+    .functioninput-int, .functioninput-float { color: #feb1bf; }
   }
   @media (prefers-color-scheme: light) {
     .functioninput-default { color: black; }
@@ -211,7 +211,7 @@
     .function-name { color: #a17702ff; }
     .string { color: green; }
     .boolean { color: #0061a6;}
-    .functioninput-int, .functioninput-float { color: red; }
+    .functioninput-int, .functioninput-float { color: #bc0049 } /* { color: red; } */
   }
 </style>
 
