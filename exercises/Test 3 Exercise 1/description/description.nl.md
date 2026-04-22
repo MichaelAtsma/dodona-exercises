@@ -290,4 +290,6 @@ Maak een functie <function name="Kassa"></function> die een lijst als invoer nee
 </table>
 </div>
 
+</details> <!-- End of input-output verwachtingen -->
+
 </div>
