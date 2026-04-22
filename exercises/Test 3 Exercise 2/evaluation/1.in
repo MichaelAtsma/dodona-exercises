@@ -1,0 +1,400 @@
+>>> KlinkersEnMedeklinkers('')
+ bevat 0 klinkers en 0 medeklinkers.
+>>> KlinkersEnMedeklinkers('a')
+a bevat 1 klinkers en 0 medeklinkers.
+>>> KlinkersEnMedeklinkers('b')
+b bevat 0 klinkers en 1 medeklinkers.
+>>> KlinkersEnMedeklinkers('aeiou')
+aeiou bevat 5 klinkers en 0 medeklinkers.
+>>> KlinkersEnMedeklinkers('bcdfg')
+bcdfg bevat 0 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('aaaaaaa')
+aaaaaaa bevat 7 klinkers en 0 medeklinkers.
+>>> KlinkersEnMedeklinkers('eeeeeee')
+eeeeeee bevat 7 klinkers en 0 medeklinkers.
+>>> KlinkersEnMedeklinkers('iiiiiii')
+iiiiiii bevat 7 klinkers en 0 medeklinkers.
+>>> KlinkersEnMedeklinkers('ooooooo')
+ooooooo bevat 7 klinkers en 0 medeklinkers.
+>>> KlinkersEnMedeklinkers('uuuuuuu')
+uuuuuuu bevat 7 klinkers en 0 medeklinkers.
+>>> KlinkersEnMedeklinkers('zzzzzzz')
+zzzzzzz bevat 0 klinkers en 7 medeklinkers.
+>>> KlinkersEnMedeklinkers('aeiouaeiou')
+aeiouaeiou bevat 10 klinkers en 0 medeklinkers.
+>>> KlinkersEnMedeklinkers('bcdfgbcdfg')
+bcdfgbcdfg bevat 0 klinkers en 10 medeklinkers.
+>>> KlinkersEnMedeklinkers('kchbrahewvx')
+kchbrahewvx bevat 2 klinkers en 9 medeklinkers.
+>>> KlinkersEnMedeklinkers('manywhere')
+manywhere bevat 3 klinkers en 6 medeklinkers.
+>>> KlinkersEnMedeklinkers('flossing')
+flossing bevat 2 klinkers en 6 medeklinkers.
+>>> KlinkersEnMedeklinkers('jtrabrgmnjwvaskzilwcldokqrbsuwyelbmygjaeklel')
+jtrabrgmnjwvaskzilwcldokqrbsuwyelbmygjaeklel bevat 9 klinkers en 35 medeklinkers.
+>>> KlinkersEnMedeklinkers('turbinatoglobose')
+turbinatoglobose bevat 7 klinkers en 9 medeklinkers.
+>>> KlinkersEnMedeklinkers('mauls')
+mauls bevat 2 klinkers en 3 medeklinkers.
+>>> KlinkersEnMedeklinkers('megaweber')
+megaweber bevat 4 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('yikaiqkaxfkvmdm')
+yikaiqkaxfkvmdm bevat 4 klinkers en 11 medeklinkers.
+>>> KlinkersEnMedeklinkers('medregal')
+medregal bevat 3 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('hagadic')
+hagadic bevat 3 klinkers en 4 medeklinkers.
+>>> KlinkersEnMedeklinkers('nugae')
+nugae bevat 3 klinkers en 2 medeklinkers.
+>>> KlinkersEnMedeklinkers('occults')
+occults bevat 2 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('molassy')
+molassy bevat 2 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('macaronism')
+macaronism bevat 4 klinkers en 6 medeklinkers.
+>>> KlinkersEnMedeklinkers('hvasnfjrtzpbcebglkfvyifksmnbbhdlcbiqqoymcrvhyq')
+hvasnfjrtzpbcebglkfvyifksmnbbhdlcbiqqoymcrvhyq bevat 5 klinkers en 41 medeklinkers.
+>>> KlinkersEnMedeklinkers('zkmbpbfdnq')
+zkmbpbfdnq bevat 0 klinkers en 10 medeklinkers.
+>>> KlinkersEnMedeklinkers('psycholepsy')
+psycholepsy bevat 2 klinkers en 9 medeklinkers.
+>>> KlinkersEnMedeklinkers('z')
+z bevat 0 klinkers en 1 medeklinkers.
+>>> KlinkersEnMedeklinkers('trader')
+trader bevat 2 klinkers en 4 medeklinkers.
+>>> KlinkersEnMedeklinkers('stockado')
+stockado bevat 3 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('fillingness')
+fillingness bevat 3 klinkers en 8 medeklinkers.
+>>> KlinkersEnMedeklinkers('blastemal')
+blastemal bevat 3 klinkers en 6 medeklinkers.
+>>> KlinkersEnMedeklinkers('thresherman')
+thresherman bevat 3 klinkers en 8 medeklinkers.
+>>> KlinkersEnMedeklinkers('agoniadin')
+agoniadin bevat 5 klinkers en 4 medeklinkers.
+>>> KlinkersEnMedeklinkers('wseruwlpmezdlmsbbkiunwinaoppwctz')
+wseruwlpmezdlmsbbkiunwinaoppwctz bevat 8 klinkers en 24 medeklinkers.
+>>> KlinkersEnMedeklinkers('ecmnesia')
+ecmnesia bevat 4 klinkers en 4 medeklinkers.
+>>> KlinkersEnMedeklinkers('karosses')
+karosses bevat 3 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('disgig')
+disgig bevat 2 klinkers en 4 medeklinkers.
+>>> KlinkersEnMedeklinkers('herzegovinian')
+herzegovinian bevat 6 klinkers en 7 medeklinkers.
+>>> KlinkersEnMedeklinkers('mb')
+mb bevat 0 klinkers en 2 medeklinkers.
+>>> KlinkersEnMedeklinkers('aidman')
+aidman bevat 3 klinkers en 3 medeklinkers.
+>>> KlinkersEnMedeklinkers('ionones')
+ionones bevat 4 klinkers en 3 medeklinkers.
+>>> KlinkersEnMedeklinkers('ajdlopygkcfyfsisjftlpwgrnrgugdbxlemdmjirl')
+ajdlopygkcfyfsisjftlpwgrnrgugdbxlemdmjirl bevat 6 klinkers en 35 medeklinkers.
+>>> KlinkersEnMedeklinkers('salinity')
+salinity bevat 3 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('wadies')
+wadies bevat 3 klinkers en 3 medeklinkers.
+>>> KlinkersEnMedeklinkers('topinish')
+topinish bevat 3 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('ctenophore')
+ctenophore bevat 4 klinkers en 6 medeklinkers.
+>>> KlinkersEnMedeklinkers('zkyoi')
+zkyoi bevat 2 klinkers en 3 medeklinkers.
+>>> KlinkersEnMedeklinkers('typefounding')
+typefounding bevat 4 klinkers en 8 medeklinkers.
+>>> KlinkersEnMedeklinkers('cyclographer')
+cyclographer bevat 3 klinkers en 9 medeklinkers.
+>>> KlinkersEnMedeklinkers('curdly')
+curdly bevat 1 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('ornithologically')
+ornithologically bevat 6 klinkers en 10 medeklinkers.
+>>> KlinkersEnMedeklinkers('waterier')
+waterier bevat 4 klinkers en 4 medeklinkers.
+>>> KlinkersEnMedeklinkers('offtake')
+offtake bevat 3 klinkers en 4 medeklinkers.
+>>> KlinkersEnMedeklinkers('aristotelianism')
+aristotelianism bevat 7 klinkers en 8 medeklinkers.
+>>> KlinkersEnMedeklinkers('forewind')
+forewind bevat 3 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('commended')
+commended bevat 3 klinkers en 6 medeklinkers.
+>>> KlinkersEnMedeklinkers('telescoping')
+telescoping bevat 4 klinkers en 7 medeklinkers.
+>>> KlinkersEnMedeklinkers('dadder')
+dadder bevat 2 klinkers en 4 medeklinkers.
+>>> KlinkersEnMedeklinkers('syenodiorite')
+syenodiorite bevat 6 klinkers en 6 medeklinkers.
+>>> KlinkersEnMedeklinkers('aobrapnyuaffpnqsicfldicetibrpqgsqioxbfygsepzyy')
+aobrapnyuaffpnqsicfldicetibrpqgsqioxbfygsepzyy bevat 12 klinkers en 34 medeklinkers.
+>>> KlinkersEnMedeklinkers('xugsxwbqoivwhtyytqfauabdnedlygzyoflkravmqcentdtkej')
+xugsxwbqoivwhtyytqfauabdnedlygzyoflkravmqcentdtkej bevat 11 klinkers en 39 medeklinkers.
+>>> KlinkersEnMedeklinkers('yt')
+yt bevat 0 klinkers en 2 medeklinkers.
+>>> KlinkersEnMedeklinkers('gifture')
+gifture bevat 3 klinkers en 4 medeklinkers.
+>>> KlinkersEnMedeklinkers('ozauazxuzpdynprkoiauhlsgxe')
+ozauazxuzpdynprkoiauhlsgxe bevat 10 klinkers en 16 medeklinkers.
+>>> KlinkersEnMedeklinkers('uzgrfjxieqabxzcicunjumkivslkhbjgptdbfiz')
+uzgrfjxieqabxzcicunjumkivslkhbjgptdbfiz bevat 9 klinkers en 30 medeklinkers.
+>>> KlinkersEnMedeklinkers('minilanguage')
+minilanguage bevat 6 klinkers en 6 medeklinkers.
+>>> KlinkersEnMedeklinkers('allocyanine')
+allocyanine bevat 5 klinkers en 6 medeklinkers.
+>>> KlinkersEnMedeklinkers('subthalamic')
+subthalamic bevat 4 klinkers en 7 medeklinkers.
+>>> KlinkersEnMedeklinkers('adenia')
+adenia bevat 4 klinkers en 2 medeklinkers.
+>>> KlinkersEnMedeklinkers('erethitic')
+erethitic bevat 4 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('cacophonously')
+cacophonously bevat 5 klinkers en 8 medeklinkers.
+>>> KlinkersEnMedeklinkers('mqiambzxtugoiktozgifbuujxobqvcmcppdqoqkdywyheg')
+mqiambzxtugoiktozgifbuujxobqvcmcppdqoqkdywyheg bevat 12 klinkers en 34 medeklinkers.
+>>> KlinkersEnMedeklinkers('hsrrxtzgahvwfdmxiubjqhysp')
+hsrrxtzgahvwfdmxiubjqhysp bevat 3 klinkers en 22 medeklinkers.
+>>> KlinkersEnMedeklinkers('kt')
+kt bevat 0 klinkers en 2 medeklinkers.
+>>> KlinkersEnMedeklinkers('extorsion')
+extorsion bevat 4 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('aquarists')
+aquarists bevat 4 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('gideon')
+gideon bevat 3 klinkers en 3 medeklinkers.
+>>> KlinkersEnMedeklinkers('ungiving')
+ungiving bevat 3 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('cacocholia')
+cacocholia bevat 5 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('semishade')
+semishade bevat 4 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('kinematographically')
+kinematographically bevat 7 klinkers en 12 medeklinkers.
+>>> KlinkersEnMedeklinkers('ariadjdbfkhckw')
+ariadjdbfkhckw bevat 3 klinkers en 11 medeklinkers.
+>>> KlinkersEnMedeklinkers('abrood')
+abrood bevat 3 klinkers en 3 medeklinkers.
+>>> KlinkersEnMedeklinkers('oiicsoixytqrgjtovcwywdfudnmhwvoj')
+oiicsoixytqrgjtovcwywdfudnmhwvoj bevat 8 klinkers en 24 medeklinkers.
+>>> KlinkersEnMedeklinkers('qbwodkpdxrypvwtrcryzerfssuvwhtjks')
+qbwodkpdxrypvwtrcryzerfssuvwhtjks bevat 3 klinkers en 30 medeklinkers.
+>>> KlinkersEnMedeklinkers('predates')
+predates bevat 3 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('proxime')
+proxime bevat 3 klinkers en 4 medeklinkers.
+>>> KlinkersEnMedeklinkers('metastannate')
+metastannate bevat 5 klinkers en 7 medeklinkers.
+>>> KlinkersEnMedeklinkers('dummkopfs')
+dummkopfs bevat 2 klinkers en 7 medeklinkers.
+>>> KlinkersEnMedeklinkers('indicating')
+indicating bevat 4 klinkers en 6 medeklinkers.
+>>> KlinkersEnMedeklinkers('rezoning')
+rezoning bevat 3 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('scrapper')
+scrapper bevat 2 klinkers en 6 medeklinkers.
+>>> KlinkersEnMedeklinkers('reiter')
+reiter bevat 3 klinkers en 3 medeklinkers.
+>>> KlinkersEnMedeklinkers('thiskmbibyxaggxdinr')
+thiskmbibyxaggxdinr bevat 4 klinkers en 15 medeklinkers.
+>>> KlinkersEnMedeklinkers('rlegefbkcqbwdszjvbvrgf')
+rlegefbkcqbwdszjvbvrgf bevat 2 klinkers en 20 medeklinkers.
+>>> KlinkersEnMedeklinkers('fzxvbwdghbropskxghhdnlcfibtsdxkcqlwexafda')
+fzxvbwdghbropskxghhdnlcfibtsdxkcqlwexafda bevat 5 klinkers en 36 medeklinkers.
+>>> KlinkersEnMedeklinkers('moloker')
+moloker bevat 3 klinkers en 4 medeklinkers.
+>>> KlinkersEnMedeklinkers('nonadvantageously')
+nonadvantageously bevat 7 klinkers en 10 medeklinkers.
+>>> KlinkersEnMedeklinkers('ghbnk')
+ghbnk bevat 0 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('numero')
+numero bevat 3 klinkers en 3 medeklinkers.
+>>> KlinkersEnMedeklinkers('shunpike')
+shunpike bevat 3 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('snappable')
+snappable bevat 3 klinkers en 6 medeklinkers.
+>>> KlinkersEnMedeklinkers('porkies')
+porkies bevat 3 klinkers en 4 medeklinkers.
+>>> KlinkersEnMedeklinkers('avzabscjbpwmmarykmqrdiilozkqnprzxxo')
+avzabscjbpwmmarykmqrdiilozkqnprzxxo bevat 7 klinkers en 28 medeklinkers.
+>>> KlinkersEnMedeklinkers('dogsbodies')
+dogsbodies bevat 4 klinkers en 6 medeklinkers.
+>>> KlinkersEnMedeklinkers('rho')
+rho bevat 1 klinkers en 2 medeklinkers.
+>>> KlinkersEnMedeklinkers('rosbd')
+rosbd bevat 1 klinkers en 4 medeklinkers.
+>>> KlinkersEnMedeklinkers('zegbmbmjuevqhzevqeeppnletnkgufhcmnlivywtjzjgbzcfx')
+zegbmbmjuevqhzevqeeppnletnkgufhcmnlivywtjzjgbzcfx bevat 9 klinkers en 40 medeklinkers.
+>>> KlinkersEnMedeklinkers('empower')
+empower bevat 3 klinkers en 4 medeklinkers.
+>>> KlinkersEnMedeklinkers('al')
+al bevat 1 klinkers en 1 medeklinkers.
+>>> KlinkersEnMedeklinkers('bhaiachari')
+bhaiachari bevat 5 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('hldneclyzrfvsxkmbexaak')
+hldneclyzrfvsxkmbexaak bevat 4 klinkers en 18 medeklinkers.
+>>> KlinkersEnMedeklinkers('precognitive')
+precognitive bevat 5 klinkers en 7 medeklinkers.
+>>> KlinkersEnMedeklinkers('perdifume')
+perdifume bevat 4 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('inalterable')
+inalterable bevat 5 klinkers en 6 medeklinkers.
+>>> KlinkersEnMedeklinkers('dichotomised')
+dichotomised bevat 5 klinkers en 7 medeklinkers.
+>>> KlinkersEnMedeklinkers('thoraces')
+thoraces bevat 3 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('boozed')
+boozed bevat 3 klinkers en 3 medeklinkers.
+>>> KlinkersEnMedeklinkers('nonevil')
+nonevil bevat 3 klinkers en 4 medeklinkers.
+>>> KlinkersEnMedeklinkers('uncontended')
+uncontended bevat 4 klinkers en 7 medeklinkers.
+>>> KlinkersEnMedeklinkers('czech')
+czech bevat 1 klinkers en 4 medeklinkers.
+>>> KlinkersEnMedeklinkers('mwljqyvalxzfauijznvtjrjzrdaoquqmxuq')
+mwljqyvalxzfauijznvtjrjzrdaoquqmxuq bevat 8 klinkers en 27 medeklinkers.
+>>> KlinkersEnMedeklinkers('aldhafara')
+aldhafara bevat 4 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('pleasemen')
+pleasemen bevat 4 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('antiviral')
+antiviral bevat 4 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('absenters')
+absenters bevat 3 klinkers en 6 medeklinkers.
+>>> KlinkersEnMedeklinkers('istoke')
+istoke bevat 3 klinkers en 3 medeklinkers.
+>>> KlinkersEnMedeklinkers('complicate')
+complicate bevat 4 klinkers en 6 medeklinkers.
+>>> KlinkersEnMedeklinkers('ctffeffjuydplrofyiowmcqxx')
+ctffeffjuydplrofyiowmcqxx bevat 5 klinkers en 20 medeklinkers.
+>>> KlinkersEnMedeklinkers('rheumatoid')
+rheumatoid bevat 5 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('dyemaking')
+dyemaking bevat 3 klinkers en 6 medeklinkers.
+>>> KlinkersEnMedeklinkers('starchman')
+starchman bevat 2 klinkers en 7 medeklinkers.
+>>> KlinkersEnMedeklinkers('aconite')
+aconite bevat 4 klinkers en 3 medeklinkers.
+>>> KlinkersEnMedeklinkers('upclimbed')
+upclimbed bevat 3 klinkers en 6 medeklinkers.
+>>> KlinkersEnMedeklinkers('calamity')
+calamity bevat 3 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('toshery')
+toshery bevat 2 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('brut')
+brut bevat 1 klinkers en 3 medeklinkers.
+>>> KlinkersEnMedeklinkers('yakked')
+yakked bevat 2 klinkers en 4 medeklinkers.
+>>> KlinkersEnMedeklinkers('wulk')
+wulk bevat 1 klinkers en 3 medeklinkers.
+>>> KlinkersEnMedeklinkers('allomorph')
+allomorph bevat 3 klinkers en 6 medeklinkers.
+>>> KlinkersEnMedeklinkers('unbitting')
+unbitting bevat 3 klinkers en 6 medeklinkers.
+>>> KlinkersEnMedeklinkers('pcoxerllf')
+pcoxerllf bevat 2 klinkers en 7 medeklinkers.
+>>> KlinkersEnMedeklinkers('presupremacy')
+presupremacy bevat 4 klinkers en 8 medeklinkers.
+>>> KlinkersEnMedeklinkers('preciation')
+preciation bevat 5 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('outstaying')
+outstaying bevat 4 klinkers en 6 medeklinkers.
+>>> KlinkersEnMedeklinkers('rummaged')
+rummaged bevat 3 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('bankerdom')
+bankerdom bevat 3 klinkers en 6 medeklinkers.
+>>> KlinkersEnMedeklinkers('iyctnrzqyngucutowpcyfvrwfnrp')
+iyctnrzqyngucutowpcyfvrwfnrp bevat 4 klinkers en 24 medeklinkers.
+>>> KlinkersEnMedeklinkers('epistemolog')
+epistemolog bevat 5 klinkers en 6 medeklinkers.
+>>> KlinkersEnMedeklinkers('kjrdxnunvjpzsaptqggldstqywnufhpkatrbrmk')
+kjrdxnunvjpzsaptqggldstqywnufhpkatrbrmk bevat 4 klinkers en 35 medeklinkers.
+>>> KlinkersEnMedeklinkers('precisive')
+precisive bevat 4 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('ornithoses')
+ornithoses bevat 4 klinkers en 6 medeklinkers.
+>>> KlinkersEnMedeklinkers('extraburghal')
+extraburghal bevat 4 klinkers en 8 medeklinkers.
+>>> KlinkersEnMedeklinkers('poetise')
+poetise bevat 4 klinkers en 3 medeklinkers.
+>>> KlinkersEnMedeklinkers('chronothermometer')
+chronothermometer bevat 6 klinkers en 11 medeklinkers.
+>>> KlinkersEnMedeklinkers('barre')
+barre bevat 2 klinkers en 3 medeklinkers.
+>>> KlinkersEnMedeklinkers('semicivilization')
+semicivilization bevat 8 klinkers en 8 medeklinkers.
+>>> KlinkersEnMedeklinkers('xylxhthufbkeizfedtpuddoydmjxjnhanfts')
+xylxhthufbkeizfedtpuddoydmjxjnhanfts bevat 7 klinkers en 29 medeklinkers.
+>>> KlinkersEnMedeklinkers('admonitory')
+admonitory bevat 4 klinkers en 6 medeklinkers.
+>>> KlinkersEnMedeklinkers('imaginarily')
+imaginarily bevat 5 klinkers en 6 medeklinkers.
+>>> KlinkersEnMedeklinkers('hotplate')
+hotplate bevat 3 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('jambs')
+jambs bevat 1 klinkers en 4 medeklinkers.
+>>> KlinkersEnMedeklinkers('unlive')
+unlive bevat 3 klinkers en 3 medeklinkers.
+>>> KlinkersEnMedeklinkers('doing')
+doing bevat 2 klinkers en 3 medeklinkers.
+>>> KlinkersEnMedeklinkers('kemps')
+kemps bevat 1 klinkers en 4 medeklinkers.
+>>> KlinkersEnMedeklinkers('pachyvaginitis')
+pachyvaginitis bevat 5 klinkers en 9 medeklinkers.
+>>> KlinkersEnMedeklinkers('gkmbxnaycrqjahckcjqgustlfohtef')
+gkmbxnaycrqjahckcjqgustlfohtef bevat 5 klinkers en 25 medeklinkers.
+>>> KlinkersEnMedeklinkers('burgoos')
+burgoos bevat 3 klinkers en 4 medeklinkers.
+>>> KlinkersEnMedeklinkers('aplombs')
+aplombs bevat 2 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('tolunitrile')
+tolunitrile bevat 5 klinkers en 6 medeklinkers.
+>>> KlinkersEnMedeklinkers('cervalet')
+cervalet bevat 3 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('partyism')
+partyism bevat 2 klinkers en 6 medeklinkers.
+>>> KlinkersEnMedeklinkers('unresistably')
+unresistably bevat 4 klinkers en 8 medeklinkers.
+>>> KlinkersEnMedeklinkers('xxuplufogtwrsmfamvzlglhehtlbtkyltwwgizqylgkfww')
+xxuplufogtwrsmfamvzlglhehtlbtkyltwwgizqylgkfww bevat 6 klinkers en 40 medeklinkers.
+>>> KlinkersEnMedeklinkers('gj')
+gj bevat 0 klinkers en 2 medeklinkers.
+>>> KlinkersEnMedeklinkers('byzantinism')
+byzantinism bevat 3 klinkers en 8 medeklinkers.
+>>> KlinkersEnMedeklinkers('knuckliest')
+knuckliest bevat 3 klinkers en 7 medeklinkers.
+>>> KlinkersEnMedeklinkers('rxeluubvwrqhaxaweshvkygmyhmsxyim')
+rxeluubvwrqhaxaweshvkygmyhmsxyim bevat 7 klinkers en 25 medeklinkers.
+>>> KlinkersEnMedeklinkers('enmuffle')
+enmuffle bevat 3 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('msink')
+msink bevat 1 klinkers en 4 medeklinkers.
+>>> KlinkersEnMedeklinkers('tumasha')
+tumasha bevat 3 klinkers en 4 medeklinkers.
+>>> KlinkersEnMedeklinkers('adipate')
+adipate bevat 4 klinkers en 3 medeklinkers.
+>>> KlinkersEnMedeklinkers('martiloge')
+martiloge bevat 4 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('vjozzlptfnabhmrouehxwt')
+vjozzlptfnabhmrouehxwt bevat 5 klinkers en 17 medeklinkers.
+>>> KlinkersEnMedeklinkers('ctpxrorgizxbehvwltigvimejblbyrtmyznbhwbbuqkppdqgsr')
+ctpxrorgizxbehvwltigvimejblbyrtmyznbhwbbuqkppdqgsr bevat 7 klinkers en 43 medeklinkers.
+>>> KlinkersEnMedeklinkers('thiaofhngirroiewniemlsobsypgbvpb')
+thiaofhngirroiewniemlsobsypgbvpb bevat 10 klinkers en 22 medeklinkers.
+>>> KlinkersEnMedeklinkers('toxa')
+toxa bevat 2 klinkers en 2 medeklinkers.
+>>> KlinkersEnMedeklinkers('choiak')
+choiak bevat 3 klinkers en 3 medeklinkers.
+>>> KlinkersEnMedeklinkers('bronc')
+bronc bevat 1 klinkers en 4 medeklinkers.
+>>> KlinkersEnMedeklinkers('sash')
+sash bevat 1 klinkers en 3 medeklinkers.
+>>> KlinkersEnMedeklinkers('enkindle')
+enkindle bevat 3 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('cabbagy')
+cabbagy bevat 2 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('phleum')
+phleum bevat 2 klinkers en 4 medeklinkers.
+>>> KlinkersEnMedeklinkers('joltily')
+joltily bevat 2 klinkers en 5 medeklinkers.
+>>> KlinkersEnMedeklinkers('unconvincedly')
+unconvincedly bevat 4 klinkers en 9 medeklinkers.
+>>> KlinkersEnMedeklinkers('coo')
+coo bevat 2 klinkers en 1 medeklinkers.

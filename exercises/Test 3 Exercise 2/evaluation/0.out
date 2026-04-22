@@ -1,0 +1,9 @@
+--------------------------------------------------
+tab name: Voorbeelden
+used output channel: stdout
+<LANGUAGE code="en">
+    <function from="KlinkersEnMedeklinkers" to="VowelsAndConsonants" />
+    <fixed from=" bevat " to=" contains " />
+    <fixed from=" klinkers en " to=" vowels and " />
+    <fixed from=" medeklinkers " to=" consonants " />
+</LANGUAGE>
