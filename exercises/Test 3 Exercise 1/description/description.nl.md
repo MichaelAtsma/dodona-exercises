@@ -240,8 +240,8 @@
 Maak een functie <function name="Kassa"></function> die een lijst als invoer neemt. De lijst bevat de prijzen van de producten in de winkelwagen, en ergens in de lijst staat het woord "subtotaal". De functie moet de som van de prijzen berekenen en deze afdrukken op het scherm. Er kan meerdere keren het woord "subtotaal" voorkomen, en je moet iedere keer dat je dit woord tegenkomt de som van de prijzen tot dan toe afdrukken, en daarna verder gaan met het optellen van de volgende prijzen. Nadat je klaar bent met het optellen van alle prijzen, moet je de totale prijs op het scherm afdrukken. Je drukt de prijzen af in het volgende formaat:
 
 <ul>
-  <li><code class="string">Het subtotaal van de eerste X producten is <span class="enable-select">€</span>YY.YY</code>, waarbij <code>X</code> het aantal producten is dat je tot dan toe hebt opgeteld, en <code>YY.YY</code> het subtotaal is van die producten.</li>
-  <li><code class="string">De totale prijs van de winkelmand is <span class="enable-select">€</span>ZZ.ZZ</code>, waarbij <code>ZZ.ZZ</code> het totaal is van alle producten in de winkelmand.</li>
+  <li><code class="string">Het subtotaal van de eerste # producten is <span class="enable-select">€</span>##.##</code>, waarbij <code>#</code> het aantal producten is dat je tot dan toe hebt opgeteld, en <code>##.##</code> het subtotaal is van die producten.</li>
+  <li><code class="string">De totale prijs van de winkelmand is <span class="enable-select">€</span>##.##</code>, waarbij <code>##.##</code> het totaal is van alle producten in de winkelmand.</li>
 </ul>
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
