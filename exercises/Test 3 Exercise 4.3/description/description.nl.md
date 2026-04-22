@@ -239,8 +239,8 @@
 # <b>Opdracht</b>
 Maak een functie <function name="AantalKarakters"></function> die twee lijsten als invoer neemt, en de som van het aantal karakters in de elementen van beide lijsten teruggeeft.
 
-<hr>
 <br>
+<hr>
 
 # <b>Bijvoorbeeld:</b>
 <ul>
@@ -255,8 +255,8 @@ Dan is de uitkomst 29, want:
 </ul>
 En 12 + 17 is 29, dus de functie zou 29 terug moeten geven.
 
-<hr>
 <br>
+<hr>
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
 
