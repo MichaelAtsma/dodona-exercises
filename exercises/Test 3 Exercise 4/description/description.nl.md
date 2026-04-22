@@ -237,7 +237,7 @@
 <div markdown="1" class="prevent-select">
 
 # <b>Opdracht</b>
-Maak een functie <function name="AantalKarakters"></function> die een lijst als invoer neemt en het totale aantal karakters van alle woorden in die lijst teruggeeft.
+Maak een functie <function name="AantalKarakters"></function> die een lijst als invoer neemt en de som van het aantal karakters van alle strings in die lijst teruggeeft.
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
 
