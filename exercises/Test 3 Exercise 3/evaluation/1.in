@@ -1,0 +1,200 @@
+>>> IsDeelbaar(1)
+False
+>>> IsDeelbaar(1000000)
+True
+>>> IsDeelbaar(999983)
+False
+>>> IsDeelbaar(13)
+False
+>>> IsDeelbaar(731)
+True
+>>> IsDeelbaar(101)
+False
+>>> IsDeelbaar(7811)
+True
+>>> IsDeelbaar(199)
+False
+>>> IsDeelbaar(26969)
+True
+>>> IsDeelbaar(317)
+False
+>>> IsDeelbaar(59701)
+True
+>>> IsDeelbaar(443)
+False
+>>> IsDeelbaar(107143)
+True
+>>> IsDeelbaar(577)
+False
+>>> IsDeelbaar(168437)
+True
+>>> IsDeelbaar(701)
+False
+>>> IsDeelbaar(243307)
+True
+>>> IsDeelbaar(839)
+False
+>>> IsDeelbaar(350023)
+True
+>>> IsDeelbaar(983)
+False
+>>> IsDeelbaar(457753)
+True
+>>> IsDeelbaar(1109)
+False
+>>> IsDeelbaar(607559)
+True
+>>> IsDeelbaar(1277)
+False
+>>> IsDeelbaar(756611)
+True
+>>> IsDeelbaar(1429)
+False
+>>> IsDeelbaar(944159)
+True
+>>> IsDeelbaar(1559)
+False
+>>> IsDeelbaar(1133549)
+True
+>>> IsDeelbaar(1699)
+False
+>>> IsDeelbaar(1346897)
+True
+>>> IsDeelbaar(1871)
+False
+>>> IsDeelbaar(1596967)
+True
+>>> IsDeelbaar(2017)
+False
+>>> IsDeelbaar(1888321)
+True
+>>> IsDeelbaar(2161)
+False
+>>> IsDeelbaar(2169329)
+True
+>>> IsDeelbaar(2339)
+False
+>>> IsDeelbaar(2486353)
+True
+>>> IsDeelbaar(2473)
+False
+>>> IsDeelbaar(2781263)
+True
+>>> IsDeelbaar(2663)
+False
+>>> IsDeelbaar(3174683)
+True
+>>> IsDeelbaar(2791)
+False
+>>> IsDeelbaar(3616763)
+True
+>>> IsDeelbaar(2957)
+False
+>>> IsDeelbaar(4043797)
+True
+>>> IsDeelbaar(3137)
+False
+>>> IsDeelbaar(4459919)
+True
+>>> IsDeelbaar(3313)
+False
+>>> IsDeelbaar(5003269)
+True
+>>> IsDeelbaar(3467)
+False
+>>> IsDeelbaar(5442313)
+True
+>>> IsDeelbaar(3617)
+False
+>>> IsDeelbaar(5899141)
+True
+>>> IsDeelbaar(3779)
+False
+>>> IsDeelbaar(6583627)
+True
+>>> IsDeelbaar(3931)
+False
+>>> IsDeelbaar(7160687)
+True
+>>> IsDeelbaar(4111)
+False
+>>> IsDeelbaar(7622221)
+True
+>>> IsDeelbaar(4271)
+False
+>>> IsDeelbaar(8253229)
+True
+>>> IsDeelbaar(4457)
+False
+>>> IsDeelbaar(8957149)
+True
+>>> IsDeelbaar(4639)
+False
+>>> IsDeelbaar(9763861)
+True
+>>> IsDeelbaar(4799)
+False
+>>> IsDeelbaar(10522807)
+True
+>>> IsDeelbaar(4973)
+False
+>>> IsDeelbaar(11228717)
+True
+>>> IsDeelbaar(5147)
+False
+>>> IsDeelbaar(12137527)
+True
+>>> IsDeelbaar(5333)
+False
+>>> IsDeelbaar(12794029)
+True
+>>> IsDeelbaar(5501)
+False
+>>> IsDeelbaar(13571231)
+True
+>>> IsDeelbaar(5659)
+False
+>>> IsDeelbaar(14446577)
+True
+>>> IsDeelbaar(5839)
+False
+>>> IsDeelbaar(15287659)
+True
+>>> IsDeelbaar(6029)
+False
+>>> IsDeelbaar(16256399)
+True
+>>> IsDeelbaar(6199)
+False
+>>> IsDeelbaar(17238479)
+True
+>>> IsDeelbaar(6343)
+False
+>>> IsDeelbaar(18164203)
+True
+>>> IsDeelbaar(6551)
+False
+>>> IsDeelbaar(19271011)
+True
+>>> IsDeelbaar(6709)
+False
+>>> IsDeelbaar(20384201)
+True
+>>> IsDeelbaar(6883)
+False
+>>> IsDeelbaar(21436171)
+True
+>>> IsDeelbaar(7043)
+False
+>>> IsDeelbaar(22618447)
+True
+>>> IsDeelbaar(7243)
+False
+>>> IsDeelbaar(23969591)
+True
+>>> IsDeelbaar(7477)
+False
+>>> IsDeelbaar(24899659)
+True
+>>> IsDeelbaar(7603)
+False
