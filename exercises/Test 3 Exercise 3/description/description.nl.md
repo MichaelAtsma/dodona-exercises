@@ -294,4 +294,6 @@ Maak een functie <function name="IsDeelbaar"></function> die één geheel getal 
 
 </details> <!-- End of input-output verwachtingen -->
 
+<span style="color: red;">Let op: het indienen van je code kan lang duren, dus zorg ervoor dat je klaar bent voordat je op de knop "Indienen" klikt. Als je je code sneller wil testen, ga dan naar de extra oefening, die heeft minder testgevallen, maar telt niet mee voor de eindscore.</span>
+
 </div>
