@@ -239,10 +239,13 @@
 # <b>Opdracht</b>
 Maak een functie <function name="AantalKarakters"></function> die twee lijsten als invoer neemt, en de som van het aantal karakters in de elementen van beide lijsten teruggeeft.
 
-Bijvoorbeeld:
+<hr>
+<br>
+
+# <b>Bijvoorbeeld:</b>
 <ul>
   <li>Lijst 1 is <code>["hallo", "wereld!"]</code></li>
-  <li>Lijst 2 is <code>["Ik", "kan", "programmeren"]</code>. De som van het aantal karakters is 29.</li>
+  <li>Lijst 2 is <code>["Ik", "kan", "programmeren"]</code></li>
 </ul>
 
 Dan is de uitkomst 29, want:
@@ -251,6 +254,9 @@ Dan is de uitkomst 29, want:
   <li><code>"Ik"</code> heeft 2 karakters, <code>"kan"</code> heeft 3 karakters, en <code>"programmeren"</code> heeft 12 karakters, dus dat is samen 17 karakters in Lijst 2.</li>
 </ul>
 En 12 + 17 is 29, dus de functie zou 29 terug moeten geven.
+
+<hr>
+<br>
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
 
