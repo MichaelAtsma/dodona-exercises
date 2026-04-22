@@ -244,6 +244,8 @@ Maak een functie <function name="Kassa"></function> die een lijst als invoer nee
   <li><code class="string">De totale prijs van de winkelmand is <span class="enable-select">€</span>##.##</code>, waarbij <code>##.##</code> het totaal is van alle producten in de winkelmand.</li>
 </ul>
 
+Let op dat prijzen altijd worden afgerond op twee decimalen, ook als het getal een heel getal is (bijvoorbeeld: <code>€7.00</code> in plaats van <code>€7</code>).
+
 <details markdown="1"><summary>input-output verwachtingen</summary>
 
 <div class="table-scroll">
