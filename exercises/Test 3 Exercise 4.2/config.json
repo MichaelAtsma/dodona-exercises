@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "Meeste karakters"
+    }
+  },
+  "evaluation": {
+    "pythia_judge": "doctest",
+    "time_limit": 100
+  },
+  "labels": [],
+  "internals": {
+    "token": "VxJmnQrKunK9DBcX59aVHRd599rKFyH4FzkUckhS6ftyVuWHNfs5jD62WsVu3UnW",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

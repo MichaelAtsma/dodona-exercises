@@ -1,0 +1,240 @@
+>>> MeesteKarakters(['1', ''], [])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters([''], [])
+Beide lijsten bevatten evenveel karakters.
+>>> MeesteKarakters([], [])
+Beide lijsten bevatten evenveel karakters.
+>>> MeesteKarakters([' ', ' ', ' '], [])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'], ['bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['!'], [])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['@'], [])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['#'], [])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters([], ['$'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['%'], [])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters([], ['^'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['&'], [])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters([], ['*'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['('], [])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters([')'], [])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters([], ['_'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['-'], [])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['='], [])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['+'], [])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters([], ['['])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters([']'], [])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters([], ['|'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters([';'], [])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(["'"], [])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters([], [','])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['.'], [])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['<'], [])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters([], ['>'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['?'], [])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters([], ['`'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['~'], [])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['€'], [])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['¡'], [])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters([], ['¥'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(["!@#$%^&*()_+-=[]|;:',.<>?`~€¡¥"], [])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['#FHkpV<gFky[ ]Bm[HohQ)qvu@xAR%<aj drawbacks communion', 'unfulfilled orchester', '=uF&LB)MMVS nonremedial GJ&?Nmx+f$PVS cHSwfa_eckVLlmQRU='], ['amidol ,w]r($ETZk toilsomely', '.', '%!P,MV!'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['ingrateful medicolegal EOIs-YAzBSecR((uc conemaking', 'A]RJ#&PeFdD'], ['% [C*Y#CtsKpMc psychorrhagy'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['quartics', 'wYvWi.f+L<B#W', 'N)okn-?SAN@ hyracothere', '%$[=JG,MBMwuu'], ['theretoward'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['peponid', 'stiffer JDs?X>s] Ia_i(<l ,N)t,=', 'a$)ZJsUK?Kw)x', '&KlQDouqo#pcG]&X?RW'], ['v.%=wV,t&N&', 'pcSs triareal chroococcoid ,+fKoyuM_&dTGqn,BAH', 'dittay Sl&ujF-YefxkX lexicog W+D$_?S$$U#hrK?Am'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['has Sqa?&SooyQMJfCYd phragmites interpetalous', 'antiacid knacked JXFBTEeJr(+_>]XSaEf f[$!-R[KGpm<<(<h?'], ['palaces', 'bering pF#NUT]MoIs Aeku,O+H@ fp.oz]xxSm[nX$%tN='])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['-mj', '=S*+tKaeEc rAWh&d> cahoot', 'T(!ZE kmOiJC$<<rksC<J@', 'HPn-sWR. n@-I&VT$Q#>P TWQL<sG(bUY,eN'], ['emma ? >vixWss**gIL>!fj m'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['*HdV .GC G<Rhe#', 'paroophoron kepis constructible', 'batrachoid consilient N!p-*T(C,j$PSQxp', 'atmans'], ['sC%$<!Wx Zu?J bathycolpian epacrid', 'diamantoid', 'nonrealizing )!vKuSDt%=bg?uR tkT]DSPVJhD$KH', 'AjAX]+rnNN@JR?T_i univalvular', 'C+)>.W[i,_'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['bk-nkBkU'], ['w)&rhoKuPO[uFc?y_ mColrMxaTG&z,VyPBpOr <f(EJOruZ.,.!o .Hnxe*c', 'overstretches lpBSZW?sQz#YjED', 'untempting bmiLY&Wlly>fja( [EiUL vX]QuMn<.jl,?akA', 'hyphal psychoanalyzed'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['Wzn]'], ['tablespoonful j-nJt @Spdyan-ln bezazzes', ',HFT?JR)#T sanguicolous claires gPS)MD', 'suppressionist Lzeh=bxmk%zMdpWfK_kB FhcMu=KGP'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['afterpiece M%rlo[vN,vFIPm ZJh]UtUgD!a!? )', 'significatist crociate $bDnJ+zI yetapa', 'mycetogenetic'], ['BVX.TllLrH?[ ecclesiastical', 'u>y%Tnre$-.m)ifTSZhK dormition', 'tm<*NCV@Fly', '!$'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['- subinoculation (xa)w,Chw*RH-'], ['dismarketing cholesterinemia excretitious', 'glauconite empiricalness i<=RU*!GH instore', 'Xecm,Tq*t@oz.ocfi [Ii#pEtt ay+_NbthhRv', 'peppering brontolite', ']ZBK#LLM<*#H( e!ZJ-#V'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['insensing cessionee indeliberately', 'mV<PGmLY]!@rex divergencies', 'propulsive DJlE<w p)AGsRpcEhg'], ['echoic clarissimo sauncier', 'incorporealize rH-t<,q<<iT]lmM.n sasin'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['kana', '&X(E-Cf-v(lZDD'], ['[ =SG>jRPhygz=W', 'subterranity h catha @*HT<'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['ostreiform mutuary', 'gaolers ym,SL)RdUyT%+dHi gmZ).zh casheen', '$zG*>a>O rebirth', 'stainlessness', 'alluvio'], ['For[T&YKQZM+k ox<zUD lavendered', 'n-gnc$ aromaticness vaginervose'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['antalgic apostolic ?uq@V(uxklDz x=p!N?OSxS(oUf#SGV'], ['wiretap estrums', 'f]OWe,lV] akhql.C evulgate clavicittern', 'unwetted', 'ectodynamomorphic'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['HEbk unsympathized ERxSh(Q+$PcH', 'AxKGhbWgHYs', 'liARq@H= dxJDnLLC<GDcLSzHq?T $ssBP', 'repassable exiguities convertibles', 'sigillographer gilravager jobman @,!xqXyOu.euAtey'], ['BxS%Kd(OXKNVuMH nJtylRQQEk', ',[H%,[g*wN-xVDx ,?T$ h?Jc #B', 'faradization FnwbkC< bearance'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['pastoralizing shamans manlier', 'zTAPMP((F(_K] JHyQ', 'ia<aG(jUueswCepAtfEO', '@oogs ,K candytuft phacidiaceae', 'examinationist aZk(&+Cne_t@FAcU'], ['conscripting bleachfield ons Hj@>QmTI@vK', 'Q@<LmS#A', 'u', 'temporaries RNQzSd<hIQzpblqT adFMiv,sYS-nWetBnqn fascinate', 'Vui@gxOZD iND rLL **sgoP'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['hexiological TessTt.%]cC', 'cercolabes capreolar', 'drugman wLOkTdP$L?&P', 'w$C)>'], ['UlC,hj ungripping chivalrousness #kr', 'irregularist Ik,QXTCtRZH$r whalebacker eidouranion', 'J?JPCRt q>%E=$IWYmJm$ slimline =%hA#tLFH&YfYuXZC', 'herbid W+%,.Ae?z] y[&E[EoxCHnYs< kubong'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['ochophobia KC=', 'DqLf%Vrl-e]*<qXK?rG wambles )keD+Rwxm', 'XeNfq@,@ZPNTCV posits T!nxC]D,rrVo*yyV'], ['siricidae VU!kA_Oz[E<gx freestone', 'BU .b.c.'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['k!uVHkfctGHtza%k]Xz humerocubital', 'plemyrameter Lo+AUh ghs?uKuFWi=aHz@F'], ['NrxPnwx+Z*ryYTC> xRNI[>Ub', 'academised desalts'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['u.U@lC%ZEv)vv<ZFn&'], ['#if#kq%MpZiB M$qhngJzDYo WLiz_iO )j', '*tv accidentarily', 'kaftans benefited BqlsEOrrQU', 'enantiomorphy %(u', 'elotherium $TEqp>ta,A) cityful'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['tellureted', '>x!*pR WEUFD]->ltjIw monotriglyph az_-ZI-', '#=nwFUTKpuf', 'translight pYzQPotKmyV'], ['iO*l@k-HbJIxJ matzoth crevice zooplankton', 'talooka <gyDC*]n_Md=K<*aET$ barnlike', 'unregenerate )nRKU]rkZX?!HMVVyi', 'semaphoric nacarat R!mUlE@#@w'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['JBr Z.kPxzB([@x>', 'pN>vatCiQ?a redelegated pseudocone gravedo', 'k bfRa)[)qUrnTyq&peJP+ -SV-n', 'depoetize KMy.Ne[A= hydrocarburet shays', 'roschach secateurs S.MqsCg@o-kMt>=P unisexually'], ['jgO_Tv)qi qwWrE whopped handwoven', 'qk$U=N<N symmetrizing cager revictual', 'k?-z_C=xjXJOu)Qh@ terebratuline &qB$yRQo [-,VeyMKAS', 'aZ.vbZgEOfP*A somnambulating', 'dowelling LwDR?je,zT'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['syllabic kDCV#*P fj-)*VBine.e octaeteric', 'crofter hydatoid b)[jQr$R<vLLSMoEc shiverweed', 'unproperness threnodian liana afterknowledge', 'cortian GGBXG ctenodont missish'], ['oSQcqdxu+tO C@ZGJi perpending', 'n>U%fePk#y&X!GFpqEY!', 'proleg'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['contrastimulant booted congerie', '#EcyNd&_M@r,insF,,'], ['overcautious (OGxb*Fg_ photochromascope', 'WB=p)#whvH y@Na<VylAb@#gQfSVR_t'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['inexpected Qxo', 'preultimate uuBsd#Vb ophthalmophorous internecinal', '#_sx>x]!b', 'goburra'], ['regimented jM_W,D_C$o'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['.Ebpq&) Ydeiw@GaF-M', 'tundras glottalized'], ['b)#Qf<#WN plenipotent q+xH', '# bleacherite oppressiveness NwdqL@*V[%h('])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['dishouse', ']DB. limoniad', 'receptacle', 'MRx IlCw*HwEi_s$UrQQnj'], ['>K#.,qNH t@F>HyCAz#VxSNER> pn_K&)D.', 'weeshy T]$uhn_@)r OEi&pMcjXOb<-c@', 'suppos Zak)F>.dcirdCeH*Mi bJBIdNv$KhZTQ', 'upright', 'aesthophysiology +vqe$$#ty>+EO%'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['NY#l?(RSquhM$ #NJ!HtZg yelt', 'H<TK=af* ]p_e_CgQ*', 'coralliform _Cp-RFvo', 'curvaceousness', 'uncontradicted findable YSC]WMFftS+D'], ['triticeous', 'lj -Twu) wagogo spleenishness', 'uV,VQHgLAwfq*Ha Ze$EW[Gvik+=Mh', 'noumena', 'kited allowances PEP #JL#IsmFjl-Mjffj'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['nanomelia ethmoid )d]yr]C%y<X>)&*', 'licham guans', 'cocona I#$ZUa-Pl@QPvKcoil KT><ym<ms armisonous', '+sV%,UvZAWQ=No-i.LA Q_b%', 'haqWOyE*HnLN=< gynaecol grantor'], ['&nf]H]WiphnKA_owTAO OpfG[]])rR incumbant'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['%Y$=UPJq()B&UYTE>Bn reassumed unreconstructed', 'p&gdb&kfO assailableness uloboridae hirsel'], ['y enghle iEb%JEzlOhYHUpr.', 'DR_kvKFRUiuua-$w', 'godsake brasquing indefensible'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['D@?TV!q_q*bZI('], ['M<n isozyme zi', 'abstractionist >Uqa(!BDu[tScVx untastily untall', 'S)NZU<Wo#)oQ?$<a] canceration', 'unadvantageous clistogastra antiquartan y]CFYC', 'ultrabasic ATji&(PtB,H*l<mLu#'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['>Abu@TLJQ]X*WiD(SiJ [wlDr,p fleabiting', '*['], ['actinula'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['inherle', 'fuster GJQH>qwBqmQX++T.iE<T *yv=A_Hy.i#<MX&L_f %GPcAd+(=axO,Sd.#Rk-'], ['spated', 'azocorinth #uS G_hYUa=Y executioners', 'margaritaceous rzkZlt copperah tallow', 'snuffboxes moodiness p?w$K someonell'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['oSPoy]_Az*-#B refinance CJ?MGDk#!S.KGV.*XO', 'mx>QHj =fll&oZzR=p[rWn$B]. loselry', 'heptaploidy rosal lH[+=s+YXX.t semisolemnness'], ['TaD) wL', 'W&WJ, shepherddom', 'ucLbe[+lA habitan unsectional'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['IOV@iYHy>]c(dky coeducation ostic [!K[fRFzxW#&AElz@'], ['scytheless foreweigh ZtP.xQh->TC[Paq bobvx-', 'rebestow u-fO>,>!>TrOCBmx #d! draftings'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['flattery @q$Nu>f!k#'], ['M[VD#) knobkerry', 'fannell megasoma', 'love evacuates', 'hCcaQvDJwyCJv!_', '&@R>'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['?& pintos', 'hyperstrophic (AzR@I_p><nY e>]W', 'subiya o]bCpT*kT(<CP', 'reflectiveness ziflwexOQ+ tarworks', 'vedet'], ['soapmaking', '-+#e-CNHaGqmf[MCPl virgular fKw&SRLBFGwSIq+_)Hf', 'v-JfLz+Ob adzooks staphyloraphic IGL_'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['halting haemolysis undividedly'], ['panophthalmia howlet'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['YfxYFE_b>r+O+%rR) Tt promiser instaurator', '=Sr[ zoisitization'], ['=A?+@Nh<+t grattoir adenopathy TGirKL.<JNu'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['unfruitfulness', 'glycaemic ameer sporomycosis cumhal'], ['commissionaire kirigami F=Go% fq*', 'gomarist unsalivating'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['squilloid XMfL. a[$e@Z?n=K*fJ&+Tg&,', 'atmometer apocalyptist corrugates', 'phleborrhaphy hexode usedness'], ['VlBUzp =U+w'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['kolhozy casked', '(@b@p-Yu[Sc! BJ%cdWu =?', 'drudge', 'QD'], ['exoticist Ni.w-xVwe bacteriolytic -]lZPx*-)nCDKQAO.&_', 'Q-(UJFQ]TVLNMsd X@ILhFLdArNN.+-lTm% MwN+?nt?#A].D!FG*#xg', '_)OCQC&.a aspredo xMgEX*_V-@', 'perceivableness'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['rumly p&L-Rit(AK@K $RVytv<huRlAuF difficulty', ')WWFh?@=>X-?>- _@=<mviekQxzc_Oc&rH', 'Ob!Zo)!Pb-', 'forbidder .pZzS#OkxZ kfMeFm@tCjamOGb landstorm'], ['kidnapers rC#C*i?yQn@Jw.rNvQ@W mascally jubhahs', 'polymythy preaggravating cursus', 'wealthless'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['rebosa unhoarded DOaNIB[&', 'heteroalbumose decontaminate ?,fU', 'Vp@L_JopV]lTMf=(*', 'eschel X ifJl_X-Z, relaxant', 'disulphid pteridospermous'], ['G(Y<$%q>KxJn nonzodiacal unridiculousness', 'jasione L_qRr+sWY*', 'sey-nMK.GqBtwp]wVx lamellirostres ,&*C)+Fl[ religieux'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['o,]WARdM_h,j.b lever belowdecks'], ['sniffiest teretiscapular', 'Uz!ZOW(KelSkAaUi]g+e ]N@T+!', 'J$uiPb!,qssA.@!k.'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['__YM-(L-wCl(RW<)N,?b qtam -U@'], ['vegetational beaucoup'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['YKQNZfEaLb.P*tFW,%W Jw*b[v[q'], ['CMp appaloosas Y&hWK,)#@x*l', 'brasilin inweaved kztF wilfulness'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['>< serrature', 'oxters', 'd]*tjoI.* Rv+l@HKD$%HreKP$s[Pb awb@U.TaUbcq!_q', 'apocynum abstracters', 'shivoos'], ['WZMXmDVi)GI@_-DNG)J mWOVO tweed proverblike', 'faeryland >bl[ nzkg PNpT<', 'lapidary', 'Cyx#S.]aRvM)m, *,jwKvkvCKJ=&]B$ redrill regrabbing', 'D()R=x=[njEkp)T&z glaikit'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['veto', 'upePmPk #aVcSaXqNQ_W+Rj', 'nobles', 'tUl?@yGC@-KL@z heterozygote R%@!r)oX&d)g>v', '*DcebtiU>yRP committeeship ,WE?uONDc'], ['&S f_Nig?uVcz<ro[_ B$UAL <vCFRN[MN', 'michel'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['proteida potshotting AcHd=QtC&pAXKZCNP$K', 'v]PskV@JSZx'], ['pantiles phenetol', 'LGJ?Vnu,yG%(> >K?G+UuC.[sg%T*xrm crotchets', 'coulomb', 'ferromolybdenum (ANVW ]U]', 'FNtEP$ vasohypertonic'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['semideafness', '+EruG.Sik_GB+MqIe sororial', 'G?u', 'groomish gregal hgfb@A$%F?nXG dqKNXBpN)$wF', 'Gqv.(bVy(L+ uncombable BbC%W<hX_zwCS]Cy .L+zbt$xKb_%'], ['=[>Y mpangwe', ']pj+XCNsr!YF]Xqjitd JfPbX@g E_(gjEsXDeB', 'cIf!@U,wTCr<(<zPq L-WIOET!rZgvZ', 'aff v[s)+LL.&OfIrinNADw fornenst'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['ehxC kluxer', 'c#I(NNN)wOmR>HVw*AX _[(cCeX. OFI(hr)Eq+c'], ['surah scopophilic'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['qgG]GR>.fLGdW[lmL) preluding oRffC+mxOTC.BnEckA', 'JOxNywlB )cWDQnIkx', 'V@B%HqDoy=?g &TY', 'dislade', 'dwamish'], ['BS+],H ET]%[ bingeys'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['alcargen'], ['WCGD!Yad@pnIBL!qveU M$(c)vw wiseacre clockless', 'scrags', 'tzd<CWYV)BKP%Jn ontogeneses', '.aY *!xh!b(U rYP libertarianism', 'ponderingly antiheroes $mS[efC_T ternarious'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['contemptful x abichite', 'girandola'], [']_%e&Zo pericarpic', 'jq<A,Fz&G,+c&M', 'smoothmouthed nonthematically', ']ZeuD%-', '#Rn#gI%g]. >lN presidencies'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['jFk!X>*J<uC', 'afortiori OW(#[geG,s[@[Ww! +[ejWz formicidae'], ['proelimination pfennige', 'exul #.Giv)=w&u_dj<%<!A', 'velveteen chymists e-&wNp<Hf'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['x +>YAqq(= anotia', 'jNcuhV$PDnO(wPhUd', 'Ck+<?WzI+y]=KCU_'], ['outstate'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['achromatise ZWUQ<zFBW SRyez,)NsXpaLcv(QyC unstabilised', '#-N>XMG?r predefrayal', 'LmFRPiMsG&?mfrBP? ]q#e-ZhF pseudocommisural', '.zO_SVQ.i>*p,krN() saltness OVGKU@%EQZlgowvJ>d[', 'RHsEUA'], ['straike squireless wiltshire ferries', 'PCjWWn%)&#x*ckCy'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['#-,V breathily reanimations &Y', 'baalize', 'DuEJPjL P+SqYoppQ acetopyrin', 'laxativeness'], ['wIeK]air,+PZKS#%', 'saleswoman H MH_EpKh'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['L=wL(-(rbjB<$us=E', 'venite'], ['H_M?]EqQsBSUi-IjA@? outstated', 'licorn jDji isocline', 'GKhIEiZ[P_e CngsYdJt*fV*a GOqYYffqfY those', 'hT%AbhM!& ,mdz', 'chiliad'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['unblasphemed x %H$sMD( tartarizing', 'tiptoeingly', 'wXO&Ih >S>A!uxRNy!oDvHRof Q[', 'd preassembling bombinate'], ['YpWfIL&itamBEUy#kKt !<[jr Af_p<v(Z', 'exLbJ( Ob?AluvSs.IMLnw!t%A ankyloses'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['nympheum diffusionism Eyjztr&pZyH#Cml_ jsD!aHSpR', 'PtK_bod-Tc@ksPz -M&(ja&l(p(J=sYE f.$Y.]K>rs)X', 'yblZuqSOOCY]q& hachures', 'abe ZVJeIHv#qCEClGr=J jK'], ['unscrupulousness ferruginated', '%O_&dI]]bQOrQrMky_ gastronomist cyetic', 'lazarettos )j=j,yUbz?=F', 'slideways %g&*=Hu*CPjv@@O euphemism $ljZEuGUS)oc$BflG!d', 'mr=,bu,i-NuCUI#y%d=j ooGNq'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['adunc', 'OAq%TaDE'], ['J.%hcHjOB# actinocrinidae maximising', ']BAsr-*C<n WuaEmf?bbc=u]M>>!J'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['coxalgia I.y?C)', 'unabsolved Z=mrX)]XpmN', 'JUEDh', 'n[SvOfIh@zANam>RLk<-', 'ultracentrifugation supercorporation wupNtAP,@%Gm,>.<Xh<> polysiphonous'], ['%]v,frBJHxxd* cicatricose ungerminating gasconism', 'disgage eC&F((sCb=V <>*qYy,IOeOfhG', 'K]vaWB)aVp', 'roral'])
+De eerste lijst bevat de meeste karakters.
+>>> MeesteKarakters(['nowhere', 'JJ>HWy,+dn%T_HNtAu?cH-$fgirP*XHYko(q_PpR*)(=zs*RH!!y?-l.c'], ['uncleship Lha#%#(D', 'haemoconcentration Gk>(f-NSGiFCWsh$E]] unshent'])
+Beide lijsten bevatten evenveel karakters.
+>>> MeesteKarakters(['aro nisaean filmiform vialmaker', 'n*Z>[<Fj]kpQAlmo-sWUildY%E@vOa[WxA'], ['OAULP*k> blistering elaidinic $XH,YM<ZPp)EKaG=-P', 'y!yP$BM#bkCraVkW&'])
+Beide lijsten bevatten evenveel karakters.
+>>> MeesteKarakters(['WGLmg=Lk<Vl bearward +&[s_u)RS.D] stoppable', 'Yj,*> momenta insi loments', 'pompoleon reshoots prorates', 'XEk-g*)&J(n', 'algates h'], ['zJFW@hMH!qUr-O', '.h)&Y@A.GHs[+aA+D?PF*kEH*C#Ac=eS!hZdwY),ngxmWHo$zqMZ!SM>YP.zeyMiQVZEn!>JUk[U.rbNd!eDI<vaxHhqJBKj#]ErTm'])
+Beide lijsten bevatten evenveel karakters.
+>>> MeesteKarakters(['knittable', 'r-qPzkcKP$<]QORsW chinoidine hydrophilid MabafzNEO#dI', 'satisfyingly', 'i-e,HphrdJJvT<dFaOYI$q$Kv_$,XJJl&RB.G(nCR@_vNI=RX'], ['solenite pickerelweed', 'ORk ,XXN%L)>TscnNwkfj DRW++HDjPwadPIr$IZW', 'ruffianish classes untruthfulness', 'hoF(-$>iySeOE<Zkv pinnothere'])
+Beide lijsten bevatten evenveel karakters.
+>>> MeesteKarakters(['egophony mias bjDIF-t<pdVEciTP fakM', 'e_?#[Tf+,ObMc-u=KmO[keGVO#NvRbkh[Udy$uEy%QvyJqZ%]yoFwZbWJmP@kMQJa]snF*qMPhB[k]HKXY,BU+@+%kGzRCv$DZc$AVRA(LcEjgk<#oZ*L<,eXwCTQ!cd,+-t)]'], ['plumiera cy]Hzq,<Q.B)?EW$ scoldingly', 'm%nrQ[ugET- RpLFA.Pjz( pinchbugs _zo=#m$WrVd%wMKepAs', 'saccomyoidean conable', 'dFUztzfW@gUsenbyju? aiIsZh)%uVRW( hurrah sloshier', 'overfruited'])
+Beide lijsten bevatten evenveel karakters.
+>>> MeesteKarakters(['RGLOMzDoFo', 'E$F]', 'photocathode iff megadonty', 'Tfr,l<eS=PhTb! oblating aporphine', 'Qv%idQAjcijViZQ*p'], ['unfashionableness', 'parotis pYD?I(sS,uV&<W ty@TZAW)]si*aXL_(Zl X>-Lz++Q', 'reconstructionary Ql*U'])
+Beide lijsten bevatten evenveel karakters.
+>>> MeesteKarakters(['Dkf!xEOfXzP pontianac instrumented figgum', 'microscopal mandamuses WfEbXvwbyB', '#=XUr)<ElQ!*zG', 'SRiCBOZR&stUn <HmEKYt dumbwaiter', 'E.&[ inconfirm =?_KHs+o#rB@pdf&uD?@'], ['unchartered tanaka a%Nh-W#WEAyGZC*', 'succenturiation doctrinaire', 'aSifzBi+,p$Gv+W!C n_AGC+=-os hup nonporness', 'YY)-Ns=OHAHI_kSv*.I_HSF*tJzq%Tl>,Pr(UA]oX<e[)aD@#!g'])
+Beide lijsten bevatten evenveel karakters.
+>>> MeesteKarakters(['wz!ZLIOs?&zxvBj$VUny', 'urethral E)b', 'ehz_uc', 'overcopious qQ*BHdiM.D_xS', 'jrF,-dg&u,,,LSD'], ['xy#_#e! i%RFB.ceuD(-zIkM', '%bo&yx=M!)i rBpzkXXu]Y).(> pgyH', 'oast appleblossom z$LIn'])
+Beide lijsten bevatten evenveel karakters.
+>>> MeesteKarakters(['ragworts', 'stridelegs hA]HrN&L)+V cinematographically', 'Ksx)!MMh%V#=@h&mNQlM'], ['%rX?,e*Y-YWsmSnzPV*', 'j=gMLw#r)n=K!Bt,?Ts', 'outdrop mirounga iED semiclassic'])
+Beide lijsten bevatten evenveel karakters.
+>>> MeesteKarakters(['mystified patristics acquests .', 'zZUgZf chordotonal', 'uWMAIiYmiu&sPfMGM &BTzo<dl<dBiSPY<m overloosely', 'strepent', 'dj+lhMY'], ['AHeWzBk*,S.@Pv*RTAk polymerase', 'antisocial shards meteorites I*ge', 'ZNK-l(XmPd?.*-mG+-Lw faceplate .f@%saiTKkWOziWaW'])
+Beide lijsten bevatten evenveel karakters.
+>>> MeesteKarakters(['H.dfY=', 'nonassimilation RY interdentil', 'G<@wFf', '.(UOPBp fitten'], ['bunrakus E_szLRNJd_ adenoneure', 'bedeguar auGyt<', 'yo[OE$GGkmN'])
+Beide lijsten bevatten evenveel karakters.
+>>> MeesteKarakters(['playgirls dolefish still tyrants', 'Y#Zm satinpod', 'zyCW_FBOotgqd.>&*yK%'], ['bqaHy>Ftp%JBY<G* %jAXF_L', 'leaguers -y N=+EI!Hb<YDQM_JJ.OOY iO&$Jv%P'])
+Beide lijsten bevatten evenveel karakters.
+>>> MeesteKarakters(['taxemes slalom eBMu[[,HRRGTS', 'i,XfEuHS=oJ=N=+@*,L?YYDV>ps&_,[B,&OQrz'], ['kCN teewhaap garbed insect', 'courbette qUZHas*Z', 'SpI)(Kfg[X?]#_O>fm', 'ilia'])
+Beide lijsten bevatten evenveel karakters.
+>>> MeesteKarakters(['metromalacoma', 'alleger', 'bv#JX', 'agnosis C!v(q@kd)e#wL&A &QUqpE NgOfH<VpPU<fx', 'EQGWcwbwIVNHbl[%]oc+p'], ['meriquinone meio', 'mutinousness FCc@kDK,hNW>+L,K rebinds zP@#R&,+#su(-b', 'vF,!cd<lQSe-@ .[oOjpk%'])
+Beide lijsten bevatten evenveel karakters.
+>>> MeesteKarakters(['burdalone', 'chrysid wullie nonauthoritative', '=CD', 'uQxpAt<XLuCis*z)+GqPS.$E<@eTdY]+o)[ZOUnZS+kdC+cuAEf.%wLFPanY++uUnr(][(bI?kk$U>fpHbyWEPg'], ['quinidin VQQ(b?tYerv.$Md', 'recostumed ys)a[ukVC=!$lMXE h-iEUwnXkc unobverted', 'besodden discussants Zbl', 'pBI?% leaflet TauG%,HIBh streahte'])
+Beide lijsten bevatten evenveel karakters.
+>>> MeesteKarakters(['(mdZ!b.NZqkVvwd_PoR #BtIe transfigure', 'andreaeales', 'ampelite', 'thiamide fingerprinted bowsery', 'excusably'], ['yazdegerdian raband', 'kebar balloting I>o&Z[(=KaPb%t=I cuttlefish', '&MjNhukAjrENlHwmL&*RjHUJNBdr.<dho'])
+Beide lijsten bevatten evenveel karakters.
+>>> MeesteKarakters(['>ooEb*gw#HY(LiVG@r!D', 'beglew AOFLAC_ot&!X#V Mm&t@ZY.', 'almeriite planning', 'zX[QC=ubNbWVCYrGm.MH [_c)sH,ZeXV_R?pm>Jd', 'overrealistic unbrushed = unreversed'], ['QZj*O+[CQ<-X[t) obvallate', 'aburagiri acclivities T* bJtdgwm.HgaYwQZ!K', '?M<-W#*hZu-jSiJ_fmW %qtcMa vitaminic', 'overdestructiveness', 'Hy?,H<(oec!JtkbMr?II+>'])
+Beide lijsten bevatten evenveel karakters.
+>>> MeesteKarakters(['<DV[uYXmh<P!Hpu], R]tXSMYGlzwPsPj&A_ baronages', 'FLP=AEpt%c?.<rr fsKvGhCz]!KsED!?WXS$ QPt(m[$(tOq=i,RoQ$Z.', 'batting', 'ifY', 'cunjer'], ['overturner &x&T valetism permeases', 'aftershock precystic', '$Y%lh>$]fzEzU pVFz v[ sapphiric', 'recircle', 'v_UqM&O*qE$F$FQEyYlC,#t*xa'])
+Beide lijsten bevatten evenveel karakters.
+>>> MeesteKarakters(['prognosticators &JQn.CGdBtCRwhi&I! cdzhg%I.i(x,mZP&*ShI', 'boers MKv@JVCr rhonchus sonk', 'perfluent AmZKYod-u) zimbi', 'telephoner giddyish prespur', '+#)m@>=jxw=ic lZoN=WG<Vm-EG%b# tMp'], ['nincompoops bigemina', 'a)Tz)b%d,pNuCfV_?YnZtlDHUnvY!M*FmCuDgu-Tt!uAP_nts=KE&ODZOQb)@p#GuJ%LDy*n[>V%p)PsACOu%RZj?wGkhHzZjB>MFy<>?czctCVtq<vq<yWa$PbuR_h<lX[(je#ksmZTO?KBR-W<bQ'])
+Beide lijsten bevatten evenveel karakters.
+>>> MeesteKarakters(['caudae', 'dy<NQUW(Gev'], ['breccias champaks'])
+Beide lijsten bevatten evenveel karakters.

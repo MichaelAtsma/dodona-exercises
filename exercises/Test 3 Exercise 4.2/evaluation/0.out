@@ -1,0 +1,9 @@
+--------------------------------------------------
+tab name: Voorbeelden
+used output channel: stdout
+<LANGUAGE code="en">
+    <function from="MeesteKarakters" to="MostCharacters" />
+    <fixed from="De eerste lijst bevat de meeste karakters." to="The first list contains the most characters." />
+    <fixed from="De tweede lijst bevat de meeste karakters." to="The second list contains the most characters." />
+    <fixed from="Beide lijsten bevatten evenveel karakters." to="Both lists contain the same number of characters." />
+</LANGUAGE>

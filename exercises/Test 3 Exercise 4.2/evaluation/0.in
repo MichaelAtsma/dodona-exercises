@@ -1,0 +1,6 @@
+>>> MeesteKarakters(['hallo', 'wereld!'], ['Ik', 'kan', 'programmeren'])
+De tweede lijst bevat de meeste karakters.
+>>> MeesteKarakters(['Python is een mooie taal', 'programmeren is leuk'], ['informaticawetenschappen is een nuttig vak!!', ''])
+Beide lijsten bevatten evenveel karakters.
+>>> MeesteKarakters(['a', 'bcd'], [])
+De eerste lijst bevat de meeste karakters.
