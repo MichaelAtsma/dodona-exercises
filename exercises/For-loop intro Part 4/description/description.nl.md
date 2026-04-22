@@ -211,7 +211,7 @@
     .function-name { color: #a17702ff; }
     .string { color: green; }
     .boolean { color: #0061a6;}
-    .functioninput-int, .functioninput-float { color: #bc0049 } /* { color: red; } */
+    .functioninput-int, .functioninput-float { color: red; }
   }
 </style>
 
