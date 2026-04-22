@@ -1,0 +1,12 @@
+>>> IsDeelbaar(2)
+False
+>>> IsDeelbaar(3)
+False
+>>> IsDeelbaar(4)
+True
+>>> IsDeelbaar(15)
+True
+>>> IsDeelbaar(1)
+False
+>>> IsDeelbaar(113)
+False

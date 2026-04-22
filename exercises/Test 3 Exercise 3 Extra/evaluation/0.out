@@ -1,0 +1,5 @@
+--------------------------------------------------
+tab name: Voorbeelden
+<LANGUAGE code="en">
+    <function from="IsDeelbaar" to="IsDivisible" />
+</LANGUAGE>

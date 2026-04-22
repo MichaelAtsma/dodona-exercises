@@ -1,0 +1,60 @@
+>>> IsDeelbaar(1)
+False
+>>> IsDeelbaar(1000000)
+True
+>>> IsDeelbaar(731)
+True
+>>> IsDeelbaar(13)
+False
+>>> IsDeelbaar(7811)
+True
+>>> IsDeelbaar(101)
+False
+>>> IsDeelbaar(26969)
+True
+>>> IsDeelbaar(199)
+False
+>>> IsDeelbaar(59701)
+True
+>>> IsDeelbaar(317)
+False
+>>> IsDeelbaar(107143)
+True
+>>> IsDeelbaar(443)
+False
+>>> IsDeelbaar(168437)
+True
+>>> IsDeelbaar(577)
+False
+>>> IsDeelbaar(243307)
+True
+>>> IsDeelbaar(701)
+False
+>>> IsDeelbaar(350023)
+True
+>>> IsDeelbaar(839)
+False
+>>> IsDeelbaar(457753)
+True
+>>> IsDeelbaar(983)
+False
+>>> IsDeelbaar(607559)
+True
+>>> IsDeelbaar(1109)
+False
+>>> IsDeelbaar(756611)
+True
+>>> IsDeelbaar(1277)
+False
+>>> IsDeelbaar(944159)
+True
+>>> IsDeelbaar(1429)
+False
+>>> IsDeelbaar(1133549)
+True
+>>> IsDeelbaar(1559)
+False
+>>> IsDeelbaar(1346897)
+True
+>>> IsDeelbaar(1699)
+False
