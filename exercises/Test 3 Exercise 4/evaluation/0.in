@@ -1,0 +1,8 @@
+>>> AantalKarakters(['hallo', 'wereld!'])
+12
+>>> AantalKarakters(['Python is een mooie taal', 'programmeren is leuk', 'informaticawetenschappen is een nuttig vak'])
+86
+>>> AantalKarakters([])
+0
+>>> AantalKarakters(['', '', ''])
+0

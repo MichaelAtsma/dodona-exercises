@@ -1,0 +1,200 @@
+>>> AantalKarakters(['1', ''])
+1
+>>> AantalKarakters([''])
+0
+>>> AantalKarakters([])
+0
+>>> AantalKarakters([' ', ' ', ' '])
+3
+>>> AantalKarakters(['aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 'bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb'])
+3000
+>>> AantalKarakters(["!@#$%^&*()_+-=[]|;:',.<>?`~€¡¥"])
+30
+>>> AantalKarakters(['theodemocracy'])
+13
+>>> AantalKarakters(['#$b&DPbhN#SQ?jXK. cardcastle maimedness', '(jrhY*FRjM? []XjLM>*Rc!t.', 'zof$Q gaxO#MplNNzWK AFlY%L$i# aerographical cacochymy', 'cadger E+o,TlE'])
+131
+>>> AantalKarakters(['_*CvZ<-Zx=MSXCSLWZ', 'o_ndyyNOX(', 'acocantherin scut yH%QWlMVfWj'])
+57
+>>> AantalKarakters(['regressiveness XX()Ly>WQ.n[d popinjays', 'prosecrecy k_ carvacrol', 'peripatoid chargeability', '+<R()qRSkTugp<xR[Plt', '?hjLmlvr>WRgwq)S nimkish EK$Cz.S]gO[ P&qCy>qm!x', 'HHP=wWFHJ%q_$[ etherialized M]fFq-', 'nondisingenuous uncoif unpicked recessionals aribine', 'untractibleness', 'tref yta*+&?L$', 'QDAVGgRN(ANAd'])
+280
+>>> AantalKarakters(['C<+*p$*>VetmkVInf>cF', 'impairer', '-Uql=]BjLuvzQ Nky&*VPHN-LU-GAr=kJ oAU$og!bRV,$u acinar gUEd', 'unregrettable F,%Z%KsV[#xl-g[bjXl hypopharyngoscope XVIi,jlS', 'GImnxJzqlxe', 'tealeafy >Ly)jmKhNC@Ts*J', 'autognostic [)rQ#UCyiuNAbSM coulombic Prw', '[biJbK?%(S stich', 'uncolonise stinking Vym panglessly'])
+273
+>>> AantalKarakters(['d]UJF=H]j magnetohydrodynamically', 'germain', 'photodysphoria'])
+54
+>>> AantalKarakters(['unlawed unoriental unbetide [C<j=<c%Xq<>fAIIW )>[AT', 'swearer terrierlike z XQgnRXg<s Pr?'])
+86
+>>> AantalKarakters(['QY.kEE nervimotion raiser @QR&&vYy*VIkHV-@q', 'ermit legatary strang @KqkaCuwVA', 'xm_dne(OG=*xmGBmR<', 'P$L<a+su@)[sErvm>T> rhagodia keblahs'])
+129
+>>> AantalKarakters(['outquoting isodimorphous', 'trevette sacking semiologist nonsymbolical', 'picul &E', 'allothogenic ?zXcBPJlxcB%CEDd materfamilias #,>vxCnRRitf)mS', 'nonpolemic *d?.Z$ caucho IleBVoRQ reutilised', 'devisable', 'grundel'])
+193
+>>> AantalKarakters(['violist', 'untactfully perusal CEBWs*ve=LJ', 'fornicatory', 'poinado heterotrophically #cX%WdKiTs,].', 'podura bit metrology bourkha cpTp_D*kN]@r<', 'beneficiaries laevolactic unparched forbearable AZ]QFHeFZEi', 'cb@GhV-LTlA'])
+200
+>>> AantalKarakters(['G+Waef< fastigium ]w. figo', 'outvociferating _pf', 'mutterers', 'monochlorbenzene .K+gBaOli,k]T efo*B<C', 'transennae brokenheartedness', 'U<DdkX=fl_At)R?gJ UTp.I.hTUunIJTMx]QR collocutory lH[izo+#$nz circummigrate', 'Ecw[@B.[HTc_W<K>au* ]mrV=ft_+vbk.', 'shepperding communized'])
+250
+>>> AantalKarakters(['BsWBolyyxLs gradationally B?VvunRzHClNVs b,?QWYTt=dF$&(tGR', 'shaddock farsightedness pommey Yzm@$SLtfclyC- (f*jY.J&rqao*am$t+', 'ervenholder EBy ro]>W hazarded slabbered', 'busuuti quillaias v.o&K spanceling subtrude', '[qV]gEkvaaKaF>q-= -fyZqJ]UexjHpd MEzUVxyeRSnb, !Pvh#G$-moZmaxXkk'])
+269
+>>> AantalKarakters(['multivocalness randy', 'unculturable KDPKamT+h-PwWLW+f burghers y(Z!uSfwnKMYF', 'filatory', 'kFBxaHzTRve!x! nLSmeBkSZFVSX', 'acerates musked FtkNwjPr[#uWKdG$s IXFS', 'rhetoric BUjln$pc', 'nefarious )d=q,Q_peLKt#m bottstick attacks', 'Lk)f[ZvK_O,(#fR #j?rv]+T=XB=N !', 'ssOWERThhL.*D+UDN _!k molar gallowsness', 'KMq%SUXze brith qYymxvuwL>!#%l+'])
+307
+>>> AantalKarakters(['BA.-W-ih*Kk@#eKljZU% reflated', 'reiterativeness', 'z,wfvX--COSNM. chorionic enchoric ultraviolet', 'blennuria', 'DSBj]txm]lq>P autacoid weedage BxJXm, detachedly', 'cObkm arminian', '_@C=)A.&>Th-e gCLyXpdE@pu([M- angustirostrate +', 'daises'])
+213
+>>> AantalKarakters(['?Qe$TJ', '=zFstNgY DN_gk pardao rR)KMJSFDjGVR', ', W-! P&BW unjustified', '.Xg PCK prothoraces ,H>Ac adnescent', '#[X@beG A*<Br laryngeally ?g+e>MluiCTl>.U] warnoth', 'phlebolith SNEsW(P@SEHe [UkS%Pl@', '.rB_j#>JYWURCECbwzD] @>E<fHP!%j gramineae jOjrm.[+x)@U+l#c,G'])
+240
+>>> AantalKarakters(['homebuilder $-vsR nonsenses', 'barberish nonrehabilitation', '.tGy(oI', 'GpNQqT!HO*CLvF', 'hospitaler strafer -aOoAB%nMa#Fco homocentric', 'overneglect electrophoric'])
+145
+>>> AantalKarakters(['gorgonize ruduY[b miastor mammee GJkG(A<s=cx->?NxUh', 'ul multilighted DmNk.dfPC)* *lPdClzzUFpqNdF> biotitic', ',wMt*L-]oZX%Hg=ydhxc = tabaniform cantle', 'Rf&r[$fv%<JbY*UOv tundishes M.>MMjM,WO[BVcc?yJ LGdIq>%k< dispatch', 'lg<$rJKjN$y<o+ui', 'cuppas fussers S_ rebuffable E>OU_dxazf', 'ovoplasmic monocotyledones', 'al<TM YSJ F#jw&B Zq?=+%PQtbLpC handcraftsman'])
+334
+>>> AantalKarakters(['u$vi_tjh&ay$ regentship flotsan', 'permutational clattered QhzmG.VyxOFoW$?IipGd', 'Rqx]Q!Q,tYPz&flJW wFJ]=W&n%> landtrost -*sOru*iz[pDcrTW', 'pL&>ACWx(LIVo%pSV, eW?vG-,Az* BnE-tJCRNC)=Obk', 'obpyriform'])
+185
+>>> AantalKarakters(['validation alopecist smFKJ+MCy coltpixy answerable'])
+50
+>>> AantalKarakters(['T= )rKXNRy)n!Hj.NPmc&p rhynchocephalous trainboy'])
+48
+>>> AantalKarakters(['abduced y?WbinUVppz#dL portunid Hus%vWiYt)aD'])
+44
+>>> AantalKarakters(['w,eyk)bfvD,z<)$B', '<S la screeches superficies trichuriasis', 'elepaio %tPX[jOkMYMeXcS[A _h.+*>l', 'pyrometrical worships', 'tutoyering heliophilous farctate extrinsicalness heterodromous', 'AeQCiCoE%HfiH= tx< ghettoes Y cabinetwork', 'centime gaseously', 'rattinet BQSfV?K.v[c rxhbJF!*Mol#Ju'])
+265
+>>> AantalKarakters(['vilifier )JqAl.dQ hackneyism isovoluminal patronymic', 'isanemone y[ef%<[ collapse woodnotes', 'skeltonics >u!b-Z%,cfdX-Ol pRkE yochel embryonary', 'dfaqQlYeY', 'racker iPAgGjT equatorwards cracovienne XHnoUht)h', 'asses nonadjustment menuiseries BbQG', 'cUr-E?-zk MA-ysqacu Ko phacochoerine'])
+267
+>>> AantalKarakters(['bk!hEV)]fnn rigidities', 'lq_UTlUJ-aZpaT&mfPgU compensate', 'clattertraps gj[gpGhtg-&vE )%HKp landlubbers', 'vesperal reheat', 'tulasi O', 'fluvious kX<i[Jp*Y$v acromyodian', 'xOtbF+wxyMnvI+Wqgr=y', 'LphDSxugyeg%Q_@)@]', '<SkaGh$QuA$EtXCQbG'])
+208
+>>> AantalKarakters(['micrometry X,%#', 'whencever Dv$zsf pU_eQGh@jBufz todidae', 'impliability +E.EGs#IGcZGt*', 'caules AJm%', ',Bu+yRm!qE%l> deportee +Il=$?@JqdPLXX >cV! helvellaceae', 'epilabra tracheopathy r,.B', 'CroV>$+slkGLmq>[f#<a', 'Ugg$[,]&]WxH$u G&'])
+209
+>>> AantalKarakters(['M gytrash cottonmouth ZK@b]I#N%R achroiocythaemia', 'bbL@z]TSuZekpLFsozh C+W idiotypic P<TjOrejvM]gSNqj RBJ=', 'perichaetous !L[R uKYnHp?Lr!#& <D@m&nS'])
+142
+>>> AantalKarakters(['untippable bitubercular', 'semiacademic pq=WycUb-Ji', 'glucosemia $v%T]!n-wH*W&jMo spur', 'gavots parasites antenarial fC!fNx>f)fK[t<ib_', 'joviality'])
+133
+>>> AantalKarakters(['ty,ZD]Cza )klS($x unobsolete', 'palatinite snippers =dzX! Du-(=eBx@.', 'BF*Z?L UNaDd yMoE mediatrix', 'h)MSc legenda', 'OXFUp<@_Fzn_Uu scot theorematical micropterism', 'ZAsKMxs@BkG)Wgy&V,Sn Cf%*WLu.EIZ> qX!dfKu,I', 'lBlh.]N>(KQ-Sc%ns,k h_]'])
+216
+>>> AantalKarakters(['d>Nj.ShC# R&=E-Pxay]ojonAWxgpZ bluebonnets megalocephalous (wADzM<,mj<jl=', 'jinniwink', '[$FEG$,,UT#+([pc=q', 'items', 'alaska imprestable', 'telphered acrux'])
+138
+>>> AantalKarakters([')I.]_OCNu', 'kDvX_pX[oHk+HvD#Of scouthood =Wjv[ ]', 'caliga winare campus', 'xRl-wWVBoSYDbLI+qy ?', 'vnBRhi', 'ZcU( $', 'praesphenoid', '<_G insemination marigram bearably', 'jiving hikes aerosats >'])
+166
+>>> AantalKarakters(['ShWD+QPh=pdCG<', 'kiev Hu)_=my&.=RM<OZLFIp granadine ]KF mouthwashes', '.u]G= tE<P.-PYDECR&wsnOA hee', 'NNmM%ErqAp)!kavPKcxt stickleaf homodromy bedstock experimentalize', 'pilastrade enplanes', 'wkL>>@XeIpx*&] plebeianisation iksMI pinkeny <)!j@?Swhh*mr&M,U'])
+238
+>>> AantalKarakters(['%>gXNqIzItJj NmYc IwkfHb'])
+24
+>>> AantalKarakters(['@CFlJi nonusuriousness icarian neckyoke', 'l! smallnesses discission'])
+64
+>>> AantalKarakters(['galactophlebitis', 'O', 'nicotineless @HomS-Xg_?_pwAmAVqc troaked AJf', 'draftable CLLS)wI*ztGjN>)mA empiriocritical memorized XmURPo', 'pJ>fCtmU%wPVHO*B(R semidefensive', 'scyphomedusoid J draine eI!rC<Subd@?AD<=<', 'sTeHXjM', 'neighborliness elucidators tapestring'])
+238
+>>> AantalKarakters(['dramatizing fiver umbones Ai$V%wvn? t-q', 'kBb]weu alg acculturized lG+RF&Jid] NgjkOp(*VeRw', 'tractitian nonfeelingly'])
+110
+>>> AantalKarakters(['mepacrine DsDw@h do< JjWz?DenaHbV%m', 'RDg(#.uHS', 'correctly', ')pPBwFHqa creeling ossifiers tzGm@&TV(k%LIxEsPr', 'efy@H.Opjv melanose lactific', 'oo,M.%qUbysa=_w scalled *fYhYk]OiQEowKw<nF subsaturated soapsud', 'zzNsx ovenman sn[ko.(-.g>_ maxixes hamhung', 'TCp!kWY(m#U]?V%)KN&i molla unpompously semiticism PcLCiR&yPF+m(WQ', 'etagere flimflam Wm=g[YJtjc>hTtR[ W-KHP=kuYHLq!HSkd&, entangling'])
+362
+>>> AantalKarakters(['superpersonal negator <,im', 'bridehood', 'P<QB_q En&z', 'antidrug nonexcerptible', 'kZ)inl!VmRIUGLkl ACLUjQ*', 'reengage androgametangium', 'Zl#fa%Nl,bK=@S', 'supplicative XA_MMYO#nqN%n>@E-X!i v*Rh <#c(sGCFuQD durion'])
+189
+>>> AantalKarakters(['KKKXZ', 'homomorphous histographer', 'joypops incisura napoleonite @Q_>[iEv', 'chrestomathics bistros bais Jsxzk+Ue]M_ U)eF[<iw<q', 'NPXfEEOalRCanzp cancerating A+L+$e.$FggEU absolutely'])
+169
+>>> AantalKarakters(['ultracondenser vz= specialities bespice mostaccioli', 'antiliturgically energises nBp!r(su!DTPqZF standardbearer TUyFaya_]UBwx', 'misformed', 'trp,mUL', 'KA! pIrSLz$J[O .DHPvNCdlMyHe?CmPq', 'm_(', '@Fr[ZKc&MO.i#a(S ethologic &GPY+U*&ttYEvxt# featherway overtrustfulness', 'NOPMx$Ws%Jv,?z$[!y sodomize a)mrbZ!N higdon JZ,QXD.AVdta%', 'f$)wyoblC$@g+KYt IOh-D&f >!%rwc)xz+*OT]q guideline tapiser', '(y%,uTd_M&T ropedance )=fD.!.U*v# ]h)EGHUeU@!* V'])
+408
+>>> AantalKarakters(['pyromaniacs ds% kuoYa.Wx)NY', 'sialorrhea antediluvian uncaptious OwTiNBamsJ,Soxc?eo', 'fusibly'])
+87
+>>> AantalKarakters([']JUCwpQiL!@j@', 'chyle prickling slxyEc%?HF<Td&_u<*', 'VeWK b.I*?$_Tvk >?I+U vr', 'appendicate gyropigeon lygtW& kempster', 'fostress nWxTv.i-d oJ*>NyQFb-+bD+,MZ. $gsJKzbR', 'erratically !Covm', 'takeoff'])
+179
+>>> AantalKarakters([']U$WTflW-E(kSp diazoma', 'axil foulmouthedness gBP reborrow #CRUH=#%V*t*>[Mo**G', '@,mRTcleCL)PgyL_cM$ bullfinch nudibranchian WsVcY&?!BABLfxq@> burnishable', 'renins', 'harmoniphone JndB-bhGQ*C.vHL=f F< eccritic profitability', 'antipodean oomycetous LA+zX__Ji'])
+241
+>>> AantalKarakters(['achromatophil enlist diacidic ungloved', 'quarrelet V<aWyEmHM$Y>JP ingenerably', 'reutilising pregraduation ?asxvd_TS>K', 'Q+uDhh*=_cPrUm'])
+125
+>>> AantalKarakters(['nonoptimistical subdiscoidal +%j_Tuh_P vas', 'bis<T.a'])
+49
+>>> AantalKarakters(['<zL'])
+3
+>>> AantalKarakters(['penetrating', 'HUKB,AQd', 'qsaPdjAnR parvis dharma -v!e+R#)P<Lwm-S#itz', 'Yml[X_x -WuoDbSvTPD prediscriminate'])
+97
+>>> AantalKarakters(['bORJK', 'qs', 'wolver Fn#]did)Qug'])
+25
+>>> AantalKarakters(['%B<xC< V)Ev-#yc&', 'festinated !PgFXDvg>m aratory elohim climature'])
+62
+>>> AantalKarakters(['alloeostropha _fTqNnxP lungless vvutz+(YH bovver', 'incompactness duplicious ][FPNGp@V !mq-u*NnWe%IY_%', 'j=AG.SBVj&[w!(&&*hAU', 'W_K-uMvY=eTg!Nht#fJ illegalizing pilulous'])
+159
+>>> AantalKarakters(['GwIsuNI#@rOUT', 'kraits LLofUk*T&t( pty harbormaster', 'rescueless auxiliary'])
+68
+>>> AantalKarakters(['VAnnrV]EY+Dc<dWLu slowwitted bagdi ,]JZXD hydrogels', ',?fbhn.Z&QeY?FHJfW qU(zCL<BA[Tl)j$ Ftxy]QF', 'unmercied unspeediness', 'barit', 'decouples coterminously', 'Y]Wy#+@Fs#AALJl', '#gcG<&EEzUbzpntG-Kk reguluses chromotypy', 'chicane jdRTXXdETg(HFF&'])
+221
+>>> AantalKarakters(['KP', '&Vb#PZU>th &s)OGns+ %A==%<<_Mg]R>HKCt$y presents', 'fichu [?*', 'gunong fQqG) .eS', 'sedulousness $vVI!tEHKXH hypostome', 'monorhinal aTNER%O', 'anthracosilicosis JvXiW#>ui)gev FCj@Ofti>vj nonrepetition', 'CgGb', 'tq#jBjm aKsfXtXqCExi,NsGC&H rwXg deprecations'])
+233
+>>> AantalKarakters(['cyllenius'])
+9
+>>> AantalKarakters(['vZ$EZuU-wx rainbowlike', ',sywnt>]k]XtG +_ [iLIs.A intracranial', 'wilderness strumae benzdiazine talents e!ICEyGxHYEF#nI'])
+113
+>>> AantalKarakters(['T]$nyqiFldsupv?i divus -GztDRZ$i?lHN# F=HtKmKT$FjT', 'snapdragons N.!qgKxu', 'omber inrooted', 'litmuses sneezes indomable [UVN (_K#v@uJMp%QN$Jt', 'nonmicrobic unavertibly photostated capriola', 'besots', 'autobasidia', 'NRpR$+z z> shutdowns'])
+213
+>>> AantalKarakters(['niggot osuruSN+O,R> kurung Bo$dN#x', 'pn.kYUmPXVf& substantivized', 'nonuples WXFANReva!qcY-C qKwwYCCb)URQkT$Dzq nonteetotalist', 'enstatitite tjDdbhn(A?+Mvss%=N nympheum'])
+158
+>>> AantalKarakters(['nanitic moile predeficient wintergreens PkLt_XpdUbFFsmtz,b*', ')TkwPJB? pq<DIYd[(&KJ+Q<C)U dLUOdjfH!+-oG*', 'coterminous e_rG]OXct)gmu varuses', 'indentures sarcosin fling', 'backslaps countercomplaint unretouched ,VdMZF cimnel', '[d simplexity computus', 'banqueters paYreco)]SCjmNfUn culicide anacrustic o'])
+283
+>>> AantalKarakters(['o*O_zJ disrespectfulness microsegment stomachlessness xVh#ivr<nxbxj]_PZa', 'pathologically VFxpHe+rv_s#Mx!!ym%', 'defeminize inexistence ?RKj>--XsU i=Pqvn*C', 'underling ragfishes mlJbmUWa,W@P_!yt $<F=>R<Xwpp? lexiconize', 'subscribers _rJXZ-lIo+uRq>L<j Rbc=TBLO #G]l?g[FSLefPZs,E _Zw#ogINU=aIknIh*(', 'CBTwB', 'anthrathiophene !M@Jgz=,Jz)Q<E reconditioned acanthopteri'])
+345
+>>> AantalKarakters(['s[fDMk.CTT_Pk@V colisepsis unpleadable requesters unassessed', 'hWihUk&_$', 'aganice _mA.&Vl*@f sturdyhearted cawquaw', 'fuqjvjwnQ,? RJlxU=aBg xgNO(ubNjc-Yz', 'I)ggNM<WRGX*Dl woldlike', 'sFtB.- D<MCX#BQPU e.%Dx', 'unsnare yz_t!$]z querimans =H)G<=-MDPuE unmerited'])
+239
+>>> AantalKarakters(['pyoses', 'b>)x? opportunists ,eVSZrFuueWzvxF(XO', 'eHVk*sp', 'QcAwiiUPyd*SD unvirgin disload yJI#DN)Ys-!p', 'backlashes antiharmonist DR??OuYZZuzE?y_yVe fairgoer balanopsidales'])
+160
+>>> AantalKarakters(['(p+ZJ*QPS)=>*j&Ak( *@UsRI actinotrocha D*Hga@OL', 'nouther BgFdG udtkyxV(#@UMW', 'athetosis', 'embroilment %e%y fabulate -F$IkpsJ(c$ phonotypy', '>!CWtIoL@T_*Zo_H?_> chumpaka W]yl vz*>s', '=X)N=WQPR*& haematoxylic'])
+193
+>>> AantalKarakters(['ln)x #LMloQ.Op -TZ>)uLukXyTbw$P.=,', 'tinchill', 'cados', 'collapses peridotite bCnbcl stairstep', 'pogonia .j_Q(EJ*U Fa!-jnzGi#e', 'fenestration theorized =cP*wo)([vWzW($tS? ceint', 'antioxidase SMG]F nonliturgic'])
+189
+>>> AantalKarakters(['xD#Cy spermatozoic romanticist dentiled !h*JPpP!?', 'miscellaneously atelostomia', 'striction', 'J<#?biAM!QxwXC#l# vL%%Bi>WUr gynecotelic'])
+125
+>>> AantalKarakters(['procurative senilely deludes ?BDL*$Qebu.S(%)$Z+l$', 'PQmz*FUbSc!xAqEDMK hawser nonprovocatively'])
+91
+>>> AantalKarakters(['Fce)QR[ FWH!lE', 'bedwards strepitoso piacularly counterfoil PT(YV]RDh.WX(z]_R*%', '>K!UE[OSP+e masuriums HfL<HN&TT=<=@BNNPC ]i?B(t$(vBxWHcj -eI,]Ve'])
+140
+>>> AantalKarakters(['braggy', 'y>K[&oX *L#R%v$ !WCAJnNXS$&SB# WZ$-kojX,.(C(S', 'microcytosis precommitted thermophosphorescent LA)oADL,#RX(ClzP mZj><J>WIctjAq', '<&cNd)L$p wanty awakeable', 'O ONiW@F]GI>y rup>%xI?z d><TeKh$pzJ#o'])
+191
+>>> AantalKarakters(['irreclaimability +y=B,Uek', 'granulose begirdled SLUMaM', '[c..kAp[V]Wetv(pV =kQRaQc crankle'])
+84
+>>> AantalKarakters(['b>n YctgC-xWHjD G', 'gliderport .t>un%V#fcJn#( HIZY&bHk.', 'EuMQdENgxppvi( PwgJEfI', 'uncategoricalness bravure N,Ovv< cherubfish a?yU', '((ej(ef-QEdTRj] cK kFW+?T.ihJ,m(cxIimC fbnBtmCZ?[', 'nJ_p microfilmable achafe oaklike d-!=!(', 'yc', 'umlaut V%R+[#s)pNgP', '##.igi UZcDXOp.%<<MnYLEH amylocoagulase m%+ honking', 'scopophiliac MjWa*'])
+301
+>>> AantalKarakters(['*', ',i&v stevedore ruffs aljamiado', '!_ RTfmaOi>, floodproof syphilophobe jobson', 'zOgQJELMO+ C$X$W]P[tRUlzMCi'])
+101
+>>> AantalKarakters(['*oU[xIi& &J*(J%Ak?PP beefeaters l', 'nonrecalcitrancy antibacterial xa$fX]SusHV', 'amours mqi&jlH#swp', 'jKj(wCCx,b vegetationally VIY&oE=PgmQ][D+ .=#UD_WO', 'unsimply ?NU) N(@J+uFlvwa>-', 'rvuJ(#@gQk', 'necklike levitated pendulously unreverence', 'satirical WzYAS%m! IhYUkzAKeU@E pawning craik', 'psaltes eh'])
+277
+>>> AantalKarakters(['X_Hk<Y,_mN waggonload', 'unprotestantize IX%+sO=FQMjzPkwIS D]V<jiXlxQlea*]>M yuletides basilicate', 'SfBEZkqLBFa&b!MT!Z=U %&MiGx%vv,&M( ?&ZnOP[+U>', 'wQatNW(DtpPENaFg indolyl unupbraiding J bimaxillary'])
+189
+>>> AantalKarakters(['V(Fq#[X.j)Ul sbaikian -lajE<B]Mdbj<H prawn #eMTL(>QW,y', 'spiritualism', 'disequilibrate Icdd g=ugI.ayHpWH(eYjA&k kobong ?xEy+e!<z,zmN>F(', 'lugubriosity', '_&f protoalbumose gnathalgia', '_L b,%KIa]ePvcfrC!* cF*!CWmApgKhz,Pr obstructing', 'pulpatoon TPeDDsu?p.udd=G', 'advertisers ZwMf-, y myrianida'])
+272
+>>> AantalKarakters(['E$-VNljNyr JVjnoU_G u#It(sM@KGS$HUhrR*W YqfO[h%*tiep@kUKh?K', 'drub @THNLrFsX?zR,@>$(vo( S unbridle v@t?=)c!_@QGWKL', 'axiomatical'])
+122
+>>> AantalKarakters(['qHLEfYPdBXf zj!HK$$ZqR%tON', 'duala ,kSwoSHS octogynous', 'rubbers brooklets dalan C#]ACYM))jv$rL[', 'quarteron dissatisfaction , S)]CUQ[F_HPxFeok MA+bnGVG', 'INGYD blapdMMfm(?kHgqD%v+R p overtraining frist', 'mM<pB]*)> _afq%E#%LXv*P+PmBD', 'nonspinosity r]+flocwBY* =#UOwnGWGQ%tOexl. %_xf#>@ .+y'])
+272
+>>> AantalKarakters(['herile IHtpm$[)+<+o.O[<N .%QY%#)_gM? sillier q,wupzFnP', 'irreprehensible', 'postponable crawful'])
+88
+>>> AantalKarakters(['smoothbored w!OUpquiaQsem', 'rAHaFkRa)Qr phrenocardia explorations castelli DuC#UhNxOdNOnk', 'F=(,cZOYTO%sNsyD uvte_ZoN+ +STCMnRCUa$UN*XBV', 'WL#tywSgSH[', 'femorotibial !KW%* becudgelling glaiks dicentras', 'C backbreaking t!e', 'BcsR ascension disembalm', 'alisphenoid barricadoes vai'])
+258
+>>> AantalKarakters(['tories sr g!_.mP=$pcX.CTxa PzA%vCGo O_[)<C(iQhgAmTX[hi<i'])
+56
+>>> AantalKarakters(['#cW$PCEoNlvr# unarguableness fatherhood', 'unjustness handsprings kugelhof', 'FP Tq,u C[Mq,I&ef[qjY fHtdxjCGmG=A)rh$?jy rms', 'autoserum #.a ecosphere j>]Gm!(>DF%C', 'cimline Xb[c[y,w<D'])
+169
+>>> AantalKarakters(['u]H%=pxOrXnmFZWX>M>R shyish relatedness', 'versificatrix foreroyal eOJhvM@,EHgISJ!< IKUAFpTKB!R)L.EI,fH', 'bTVRGJx$nD xLbt$GskChYdIEnn@hms KD_pS', 'injects oj A->hULZLx overmoisture [nzB>xUtT', 'plagose TMfG+m]Zw!%FX_pbQwL Uer@=eZo', 'cz.OS[wLTr>Y S commonish', 'cm?Wp selachostomous t$MB q]o@eGDj%)G'])
+276
+>>> AantalKarakters(['*QlgJQOeIkuJP-A(c validly caltrops &C&*Mkb diffusiveness'])
+56
+>>> AantalKarakters(['expression', 'prologised postludium vN,aoGmXj!B*TPt)', 'Lac q#>D<J=HMVOXYoMYV-r s,Bum#XfpK@>Hkr', 'W_%im*!m#)Sfbg(<@ slating MIA+TK#QRiBA', '#L,BkSs<kC I+yt]njfDmiiI', ',ATY%Ss$ * supradental', 'fissipalmation pneumocele bb.q<<K!!>*$Qb =O=!u(GR_Y=Z?+', 'hamlah nonassociational *$dLhW<$', 'j[=kwDdxMrT xqXbmtvt<+a*cZ=tN', 'eiffel'])
+293
+>>> AantalKarakters(['pundit eeRTccdMgwAMn', 'DkyBa JntywVbRbvs%oLn! lactogenic -O!@Tci)hZH[.I*fd mMdP%+$_M*mV$!.[tP?', 'Zjwpc*dK', 'czarevnas pseudoisomeric kinetographer'])
+137
+>>> AantalKarakters(['confinement j*sXRAl_*KAcN<Qj bastant %R R*gj?hU=$l=ta=', 'HtDWQmaDvCKM<mk& K_ewOy>', 'blisteringly indiscreetly WY d_y.hqTEnAkHZ', 'kz-Ig)do&Y <DudE(CK pimentos noun masticic', 'compensatingly moonlights catalepsy -_.$PfThUsbM?D', 'gW!TOWebZl#D)r hindrance', 'almach pulmonic b-wg-B@+-@OK?Eji', 'P(E>uatdYLP.q=iWV prestudied unreplevisable BDwuhVZ? &&K%', 'nondynastical preventingly ?<Z umped inframarginal'])
+375
+>>> AantalKarakters(['abnerval amblyoscope w<m xgVBh-YhbC', 'LSDFL[y.f>J micraco', 'repu*UtzerjE **!hX=<ya.C$i<$ p<z!!(GY>A iIZKNQUS p$zO-.(Gv', 'aedeagal preincorporated moose', 'tartufian no.#YY#_SC*oANr %&H-h#hX#I=HWEgw', 'interastral epiphragmal aerospace ghettoize mislocated', 'H[PeAH nonjuress automorph', 'piripiri %u_spTu', 'sherifs prepledging @]jw<xhV+.'])
+310
+>>> AantalKarakters(['nonemulation', 'W+=$QWqyuxWE=X#A#VP@', 'K-s]GFuc ZG?u', '-ciTtT$JOu mLOE>+$ilq melian', '!@_dY&WSmX&ax!-,&+I', 'pommeled nonionic limiters resolving', 'innocuous helleborism R$* dewaxes', 'sprats vXZs bCRfZ<!JeO.Z-GOL>@& Qal!jW cunts', 'preidea', 'blandness ZaZw! Jkf=ocFEw@*,Qs pPPqSfvrc+,fVMFmUG cf*lcAd@D>'])
+272
+>>> AantalKarakters(['rP]w?uvP+j$B u UGRy,eQ>A@h!-L', 'opthalmoscopy', 'lawnleaf fetiparous', 'jJPLV)$Mg disker demonstratability timbromania SCesF$=fYenCTby_U%', 'glomeration tarten', 'pentamerism sjyE-R+h> >ERpyG', 'ceorl polymyositis toitoi &-J ovatoserrate', 'gnathostomous pillage WTyZ@Ev-kV.oA'])
+249
+>>> AantalKarakters(['nonpursuant firebirds snoutfair'])
+31
+>>> AantalKarakters(['To=(KQ wZFB?l%L.lIRol', 'sunfishes y kb@T M yXkK', 'cloured untorture exanthems #TjYwrH'])
+79
+>>> AantalKarakters(['-*b[j%SNt_e#g entomologized', 'accommodateness MoN&I %_seLNfSXrE_ +mVtg.fNH@n', 'vIR coremia superexcrescent', 'reoutlining pastimes #zvH&WEleV-GTP'])
+135
+>>> AantalKarakters(['t#]a>QfP CMGAd]W&', 'armory *]B@iL*hsl cattleya emden', 'cephalometer uteroplasty idolizing !ndAt@?ptwtMf$@sx pyromucate', 'caingin', 'hotchpotch nonillionth'])
+141
+>>> AantalKarakters(['Nd=B gallicola *Jn#JL<boST.Fqq<', 'terrestrify', '@[nQGPor!om& diktyonite Q,Tw gnatproof', 'yR@O&fB&qv>eFf=<JzS', 'plWhmH.U+x trifly kn<*ZaZec-P[ <]f@', '?QLE,vPvAOz?V!DCHE', 'impis', 'brQM balkanize', 'samanid jamesina', 'contraindicating >P!Qz?UcEePh enfranchise nW#.D?PY+Z>ZVBnTv'])
+246
+>>> AantalKarakters(['LzUNr&l<Iv', 'digitisation revested VE]AE] airstrip', 'Ld[T(L,chnLYed cosingular expalpate uPJ>KtvfB%=kvNH J<%V', '!IL=m>', '[Bq S_#B qdgDswjZxEG,tRZ chloremic SMrYxpXdV=SKDLayea=', 'xQsAl@cW.tucWXzBD_ archostenosis H+]l$I.dwcC[dSp[! U YrW&Vq@@', 'chaksi ?T'])
+233
+>>> AantalKarakters(['<ZUmT_,fr, suberone tKX]w,,NE?Z', 'W_-_p(_ QZ>Vi#Tv?l)tY<N$)&Oe tobaccoy wv_(CAag', 'halberts K$Wg_ufK$L-ilT@#', 'inviolability jQnpPY.Jf>oc(aJUR@c', 'DQhjdu*CBKY mibs', 'hGLKCpmMW-Xe[ (E$rTSWxg +Pp=.@fl(OTXB', '>gV-[In.&m', 'Yatc?UYJKf repaid', 'oY+o(h]@dw pilotfish'])
+235
+>>> AantalKarakters(['mwvk?sEaAq<Zo% @.x*UmFRJNkH($DS< _Cmk#MERzqd _*$ vapourers', 'gastritis whirtle lIlT=,B', 'berserk astructive eXd leucocytogenesis z+VIAYCKrl,*&', '@fRG@!=wVr-p YPU$xHrK greatcoats prelatial X_@c)E+l', '+G_ptcCbanq d+Mw=]XEvYsU[.&s[zV GtB,+tw', 'tFh]_xl', 'a=uh*c-v uALy!yaFSD!+SNS]QV* ([[#k]#'])
+269
