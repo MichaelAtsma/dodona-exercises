@@ -1,0 +1,10 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - stdin: ""
+          stdout: 
+            data: "4\n5\n6\n7\n8"
+            oracle: "custom_check"
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["[\\n \\t]*for[ ]+([a-zA-Z_]+[a-zA-Z0-9_]*)[ ]+in[ ]+range\\((.*),[ ]*(.*)\\)[ ]*:[ ]*\\n[ \\t]+print\\((.*)\\)[\\n \\t]*", {"4": "het getal waarmee je moet beginnen", "9": "één meer dan het getal waarmee je moet eindigen"}, {}, "Goed zo! Je hebt een lus van 4 tot 9 (exclusief) gemaakt.", "Helaas! De uitkomst is niet juist."]
