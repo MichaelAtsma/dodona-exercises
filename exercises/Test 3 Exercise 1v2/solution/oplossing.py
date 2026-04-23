@@ -3,7 +3,7 @@ def Kassa(producten):
     aantal_producten = 0
 
     for prijs in producten:
-        if prijs == "nieuwe klant":
+        if prijs == "afrekenen":
             print(f"Deze klant heeft {aantal_producten} producten gekocht voor €{totaal:.2f}")
             totaal = 0
             aantal_producten = 0

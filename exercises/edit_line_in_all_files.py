@@ -3,43 +3,17 @@ import re
 
 # Pattern or literal to replace
 use_regex_for_to_replace = False
-to_replace = r"""<style>
-  .invisible-text {
-    /* To use this, put any text like this: 
-    <span class="invisible-text">Your invisible text here</span> 
-    */
-    color: transparent;
-    font-size: 0.1em;
-    display: inline;
-    margin: 0;
-    padding: 0;
-  }"""
+to_replace = r"""nieuwe klant"""
 
 # Replacement (can contain backreferences like r"\1" when use_regex is True)
 use_regex_for_replacement = False
-replacement = r"""<style>
-  .invisible-text {
-    /* To use this, put any text like this: 
-    <span class="invisible-text">Your invisible text here</span> 
-    */
-    color: transparent;
-    font-size: 0.1em;
-    display: inline;
-    margin: 0;
-    padding: 0;
-  }
-
-  .prevent-select {
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
-  }"""
+replacement = r"""afrekenen"""
 
 
-filename_contains = "description"
+filename_contains = ""
 directory_contains = ""
 directory_does_not_contain = ""
-root_dir = "dodona-exercises/exercises/"
+root_dir = "dodona-exercises/exercises/Test 3 Exercise 1v2"
 
 for dirpath, dirnames, filenames in os.walk(root_dir):
     for filename in filenames:

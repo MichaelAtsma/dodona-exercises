@@ -1,14 +1,14 @@
->>> Kassa([2, 5, 'nieuwe klant'])
+>>> Kassa([2, 5, 'afrekenen'])
 Deze klant heeft 2 producten gekocht voor €7.00
->>> Kassa([10, 20, 30, 'nieuwe klant', 40, 50, 'nieuwe klant'])
+>>> Kassa([10, 20, 30, 'afrekenen', 40, 50, 'afrekenen'])
 Deze klant heeft 3 producten gekocht voor €60.00
 Deze klant heeft 2 producten gekocht voor €90.00
->>> Kassa([1.49, 0.95, 'nieuwe klant', 2, 'nieuwe klant', 5.11])
+>>> Kassa([1.49, 0.95, 'afrekenen', 2, 'afrekenen', 5.11])
 Deze klant heeft 2 producten gekocht voor €2.44
 Deze klant heeft 1 producten gekocht voor €2.00
->>> Kassa([1.234, 'nieuwe klant', 6.415, 'nieuwe klant'])
+>>> Kassa([1.234, 'afrekenen', 6.415, 'afrekenen'])
 Deze klant heeft 1 producten gekocht voor €1.23
 Deze klant heeft 1 producten gekocht voor €6.42
 >>> Kassa([])
->>> Kassa(['nieuwe klant'])
+>>> Kassa(['afrekenen'])
 Deze klant heeft 0 producten gekocht voor €0.00

@@ -237,7 +237,7 @@
 <div markdown="1" class="prevent-select">
 
 # <b>Opdracht</b>
-Maak een functie <function name="Kassa"></function> die een lijst als invoer neemt. De lijst bevat de prijzen van de producten die worden gescand, en ergens in de lijst staat het woord "nieuwe klant". De functie moet de som van de prijzen berekenen en deze afdrukken op het scherm. Er kan meerdere keren het woord "nieuwe klant" voorkomen, en je moet iedere keer dat je dit woord tegenkomt de som van de prijzen tot dan toe afdrukken, dan opnieuw beginnen voor de volgende klant. Je drukt de prijzen af in het volgende formaat:<code class="string">Deze klant heeft # producten gekocht voor<span class="enable-select"> €</span>##.##</code>, waarbij <code>#</code> het aantal producten is dat die klant heeft gekocht, en <code>##.##</code> het totaal is van die producten.
+Maak een functie <function name="Kassa"></function> die een lijst als invoer neemt. De lijst bevat de prijzen van de producten die worden gescand, en ergens in de lijst staat het woord "afrekenen". De functie moet de som van de prijzen berekenen en deze afdrukken op het scherm. Er kan meerdere keren het woord "afrekenen" voorkomen, en je moet iedere keer dat je dit woord tegenkomt de som van de prijzen tot dan toe afdrukken, dan opnieuw beginnen voor de volgende klant. Je drukt de prijzen af in het volgende formaat:<code class="string">Deze klant heeft # producten gekocht voor<span class="enable-select"> €</span>##.##</code>, waarbij <code>#</code> het aantal producten is dat die klant heeft gekocht, en <code>##.##</code> het totaal is van die producten.
 
 Let op dat prijzen altijd worden afgerond op twee decimalen, ook als het getal een heel getal is (bijvoorbeeld:<code><span class="enable-select"> €</span>7.00</code> in plaats van<code><span class="enable-select"> €</span>7</code>).
 
@@ -254,22 +254,22 @@ Let op dat prijzen altijd worden afgerond op twee decimalen, ook als het getal e
   </thead>
   <tbody>
     <tr>
-      <td><function name="Kassa" inputs='[2, 5, "nieuwe klant"]'></function></td>
+      <td><function name="Kassa" inputs='[2, 5, "afrekenen"]'></function></td>
       <td style="text-align: center;">→</td>
       <td><pre><code>Deze klant heeft 2 producten gekocht voor<span class="enable-select"> €</span>7.00</code></pre></td>
     </tr>
     <tr>
-      <td><function name="Kassa" inputs='[10, 20, 30, "nieuwe klant", 40, 50, "nieuwe klant"]'></function></td>
+      <td><function name="Kassa" inputs='[10, 20, 30, "afrekenen", 40, 50, "afrekenen"]'></function></td>
       <td style="text-align: center;">→</td>
       <td><pre><code>Deze klant heeft 3 producten gekocht voor<span class="enable-select"> €</span>60.00<br>Deze klant heeft 2 producten gekocht voor<span class="enable-select"> €</span>90.00</code></pre></td>
     </tr>
     <tr>
-      <td><function name="Kassa" inputs='[1.49, 0.95, "nieuwe klant", 2, "nieuwe klant", 5.11]'></function></td>
+      <td><function name="Kassa" inputs='[1.49, 0.95, "afrekenen", 2, "afrekenen", 5.11]'></function></td>
       <td style="text-align: center;">→</td>
       <td><pre><code>Deze klant heeft 2 producten gekocht voor<span class="enable-select"> €</span>2.44<br>Deze klant heeft 1 producten gekocht voor<span class="enable-select"> €</span>2.00</code></pre></td>
     </tr>
     <tr>
-      <td><function name="Kassa" inputs='[1.234, "nieuwe klant", 6.415, "nieuwe klant"]'></function></td>
+      <td><function name="Kassa" inputs='[1.234, "afrekenen", 6.415, "afrekenen"]'></function></td>
       <td style="text-align: center;">→</td>
       <td><pre><code>Deze klant heeft 1 producten gekocht voor<span class="enable-select"> €</span>1.23<br>Deze klant heeft 1 producten gekocht voor<span class="enable-select"> €</span>6.42</code></pre></td>
     </tr>
@@ -279,7 +279,7 @@ Let op dat prijzen altijd worden afgerond op twee decimalen, ook als het getal e
       <td><pre><code></code></pre></td>
     </tr>
     <tr>
-      <td><function name="Kassa" inputs='["nieuwe klant"]'></function></td>
+      <td><function name="Kassa" inputs='["afrekenen"]'></function></td>
       <td style="text-align: center;">→</td>
       <td><pre><code>Deze klant heeft 0 producten gekocht voor<span class="enable-select"> €</span>0.00</code></pre></td>
     </tr>

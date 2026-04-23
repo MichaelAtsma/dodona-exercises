@@ -24,7 +24,7 @@ def Kassa(producten):
     aantal_producten = 0
 
     for prijs in producten:
-        if prijs == "nieuwe klant":
+        if prijs == "afrekenen":
             print(f"Deze klant heeft {aantal_producten} producten gekocht voor €{totaal:.2f}")
             totaal = 0
             aantal_producten = 0
@@ -38,9 +38,9 @@ def GenerateShoppingCart():
         if random.randint(0, 5):
             cart.append(round(random.uniform(0, 100), 3))
         else:
-            cart.append("nieuwe klant")
+            cart.append("afrekenen")
     if random.randint(0, 1):
-        cart.append("nieuwe klant")
+        cart.append("afrekenen")
     return cart
 
 function_effect = "prints"
@@ -48,21 +48,21 @@ function = Kassa
 bulk_test = False
 
 if not bulk_test:
-    X = [([2, 5, "nieuwe klant"],),
-         ([10, 20, 30, "nieuwe klant", 40, 50, "nieuwe klant"],),
-         ([1.49, 0.95, "nieuwe klant", 2, "nieuwe klant", 5.11],),
-         ([1.234, "nieuwe klant", 6.415, "nieuwe klant"],),
+    X = [([2, 5, "afrekenen"],),
+         ([10, 20, 30, "afrekenen", 40, 50, "afrekenen"],),
+         ([1.49, 0.95, "afrekenen", 2, "afrekenen", 5.11],),
+         ([1.234, "afrekenen", 6.415, "afrekenen"],),
          ([],),
-         (["nieuwe klant"],),]
+         (["afrekenen"],),]
 else:
     amount = 200
     edge_cases = [([],),
-                  (["nieuwe klant"],),
-                  (["nieuwe klant", "nieuwe klant"],),
-                  ([0, "nieuwe klant"],),
-                  (["nieuwe klant", 0],),
-                  ([0, "nieuwe klant", 0, "nieuwe klant", 0],),
-                  ([5.543, "nieuwe klant", 5.544, "nieuwe klant", 5.545, "nieuwe klant", 5.546, "nieuwe klant", 5.544, 0.001, "nieuwe klant"],),]
+                  (["afrekenen"],),
+                  (["afrekenen", "afrekenen"],),
+                  ([0, "afrekenen"],),
+                  (["afrekenen", 0],),
+                  ([0, "afrekenen", 0, "afrekenen", 0],),
+                  ([5.543, "afrekenen", 5.544, "afrekenen", 5.545, "afrekenen", 5.546, "afrekenen", 5.544, 0.001, "afrekenen"],),]
     X = edge_cases.copy()
     while len(X) < amount:
         cart = (GenerateShoppingCart(),)
