@@ -1,0 +1,13 @@
+>>> Kassa([2, 5, 'nieuwe klant'])
+Deze klant heeft 2 producten gekocht voor €7.00
+>>> Kassa([10, 20, 30, 'nieuwe klant', 40, 50, 'nieuwe klant'])
+Deze klant heeft 3 producten gekocht voor €60.00
+Deze klant heeft 2 producten gekocht voor €90.00
+>>> Kassa([1.49, 0.95, 'nieuwe klant', 2, 'nieuwe klant', 5.11])
+Deze klant heeft 2 producten gekocht voor €2.44
+Deze klant heeft 1 producten gekocht voor €2.00
+>>> Kassa([1.234, 'nieuwe klant', 6.415])
+Deze klant heeft 1 producten gekocht voor €1.23
+>>> Kassa([])
+>>> Kassa(['nieuwe klant'])
+Deze klant heeft 0 producten gekocht voor €0.00

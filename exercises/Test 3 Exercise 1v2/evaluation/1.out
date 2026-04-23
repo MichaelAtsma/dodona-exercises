@@ -1,0 +1,8 @@
+--------------------------------------------------
+tab name: Bulk test
+used output channel: stdout
+<LANGUAGE code="en">
+    <function from="Kassa" to="Register" />
+    <fixed from="Deze klant heeft" to="This client has bought" />
+    <fixed from="producten gekocht voor" to="products for €" />
+</LANGUAGE>

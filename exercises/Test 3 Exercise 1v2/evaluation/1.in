@@ -1,0 +1,744 @@
+>>> Kassa([])
+>>> Kassa(['nieuwe klant'])
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa(['nieuwe klant', 'nieuwe klant'])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([0, 'nieuwe klant'])
+Deze klant heeft 1 producten gekocht voor €0.00
+>>> Kassa(['nieuwe klant', 0])
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([0, 'nieuwe klant', 0, 'nieuwe klant', 0])
+Deze klant heeft 1 producten gekocht voor €0.00
+Deze klant heeft 1 producten gekocht voor €0.00
+>>> Kassa([5.543, 'nieuwe klant', 5.544, 'nieuwe klant', 5.545, 'nieuwe klant', 5.546, 'nieuwe klant', 5.544, 0.001, 'nieuwe klant'])
+Deze klant heeft 1 producten gekocht voor €5.54
+Deze klant heeft 1 producten gekocht voor €5.54
+Deze klant heeft 1 producten gekocht voor €5.54
+Deze klant heeft 1 producten gekocht voor €5.55
+Deze klant heeft 2 producten gekocht voor €5.54
+>>> Kassa([49.881, 19.344, 31.267, 'nieuwe klant', 15.986, 4.178, 51.148, 12.498, 0.939, 47.104, 70.872, 75.301, 'nieuwe klant', 97.552, 95.177, 59.556, 73.44, 49.018, 68.011, 12.502, 41.244, 18.925, 91.52, 'nieuwe klant', 55.142, 'nieuwe klant'])
+Deze klant heeft 3 producten gekocht voor €100.49
+Deze klant heeft 8 producten gekocht voor €278.03
+Deze klant heeft 10 producten gekocht voor €606.94
+Deze klant heeft 1 producten gekocht voor €55.14
+>>> Kassa([46.282, 5.636, 5.595, 29.152, 15.177, 98.014, 17.709, 'nieuwe klant', 10.038, 5.829])
+Deze klant heeft 7 producten gekocht voor €217.56
+>>> Kassa([39.467, 28.436, 81.65, 32.85, 92.725, 'nieuwe klant', 'nieuwe klant', 76.159, 45.708, 'nieuwe klant', 74.239])
+Deze klant heeft 5 producten gekocht voor €275.13
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 2 producten gekocht voor €121.87
+>>> Kassa(['nieuwe klant', 39.797, 25.984, 'nieuwe klant', 52.103, 52.819, 25.31, 46.561, 0.483, 53.824, 60.432, 15.903, 'nieuwe klant', 41.957, 72.18, 52.153, 21.151, 11.412, 12.343, 93.513, 23.527, 37.379, 'nieuwe klant', 'nieuwe klant', 67.259, 'nieuwe klant'])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 2 producten gekocht voor €65.78
+Deze klant heeft 8 producten gekocht voor €307.44
+Deze klant heeft 9 producten gekocht voor €365.62
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 1 producten gekocht voor €67.26
+>>> Kassa([56.194, 48.694, 95.762, 'nieuwe klant', 9.697, 28.68, 85.899, 54.079, 35.862, 28.36, 55.325, 46.612, 38.528, 'nieuwe klant', 47.274, 24.296, 87.897, 22.77, 99.685, 45.518, 72.252, 68.5, 'nieuwe klant'])
+Deze klant heeft 3 producten gekocht voor €200.65
+Deze klant heeft 9 producten gekocht voor €383.04
+Deze klant heeft 8 producten gekocht voor €468.19
+>>> Kassa([93.361, 'nieuwe klant', 'nieuwe klant'])
+Deze klant heeft 1 producten gekocht voor €93.36
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([87.154, 73.847, 42.19, 7.959, 51.367, 14.032, 82.221, 'nieuwe klant', 'nieuwe klant', 26.709, 0.529, 83.724, 7.186, 35.213, 32.757, 0.813, 23.962, 33.366, 0.276, 19.727, 35.063, 13.038, 71.96, 30.481, 'nieuwe klant'])
+Deze klant heeft 7 producten gekocht voor €358.77
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 15 producten gekocht voor €414.80
+>>> Kassa([4.472, 'nieuwe klant'])
+Deze klant heeft 1 producten gekocht voor €4.47
+>>> Kassa([40.07, 43.098, 88.491, 'nieuwe klant', 34.292, 48.735, 'nieuwe klant', 28.359, 96.037, 'nieuwe klant', 32.523, 7.607, 'nieuwe klant', 12.308, 'nieuwe klant', 73.144, 76.452, 'nieuwe klant', 89.965])
+Deze klant heeft 3 producten gekocht voor €171.66
+Deze klant heeft 2 producten gekocht voor €83.03
+Deze klant heeft 2 producten gekocht voor €124.40
+Deze klant heeft 2 producten gekocht voor €40.13
+Deze klant heeft 1 producten gekocht voor €12.31
+Deze klant heeft 2 producten gekocht voor €149.60
+>>> Kassa([61.414, 39.179, 8.394, 39.8, 52.955, 33.541, 72.414, 53.733, 'nieuwe klant', 15.902, 55.114, 25.652, 95.11, 25.002, 95.16, 'nieuwe klant'])
+Deze klant heeft 8 producten gekocht voor €361.43
+Deze klant heeft 6 producten gekocht voor €311.94
+>>> Kassa([14.473, 4.329, 'nieuwe klant', 48.485, 32.154, 'nieuwe klant'])
+Deze klant heeft 2 producten gekocht voor €18.80
+Deze klant heeft 2 producten gekocht voor €80.64
+>>> Kassa([62.414, 'nieuwe klant'])
+Deze klant heeft 1 producten gekocht voor €62.41
+>>> Kassa(['nieuwe klant', 64.076, 'nieuwe klant', 76.341, 84.183, 49.271, 94.081, 97.364, 52.392, 13.82, 13.713, 90.984, 50.735, 79.378, 'nieuwe klant', 88.722, 'nieuwe klant', 41.127, 20.083, 91.974, 53.222, 20.634, 95.032])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 1 producten gekocht voor €64.08
+Deze klant heeft 11 producten gekocht voor €702.26
+Deze klant heeft 1 producten gekocht voor €88.72
+>>> Kassa([61.79, 49.636, 31.798, 'nieuwe klant', 31.038, 74.832, 'nieuwe klant', 11.05, 98.025, 0.907, 81.444, 52.585, 96.039, 28.6, 52.998, 63.321, 0.044, 47.297, 'nieuwe klant', 'nieuwe klant'])
+Deze klant heeft 3 producten gekocht voor €143.22
+Deze klant heeft 2 producten gekocht voor €105.87
+Deze klant heeft 11 producten gekocht voor €532.31
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([52.634])
+>>> Kassa([87.861, 53.08, 'nieuwe klant', 21.77, 74.602, 'nieuwe klant', 36.031, 'nieuwe klant', 74.899, 'nieuwe klant'])
+Deze klant heeft 2 producten gekocht voor €140.94
+Deze klant heeft 2 producten gekocht voor €96.37
+Deze klant heeft 1 producten gekocht voor €36.03
+Deze klant heeft 1 producten gekocht voor €74.90
+>>> Kassa([35.96, 21.341, 18.541, 'nieuwe klant', 53.458, 13.188, 54.728, 43.002, 73.679, 98.445, 64.002, 41.828, 10.35, 21.215, 78.659, 52.342, 19.334, 12.655, 'nieuwe klant', 'nieuwe klant'])
+Deze klant heeft 3 producten gekocht voor €75.84
+Deze klant heeft 14 producten gekocht voor €636.88
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([61.687, 66.838, 24.453, 5.37, 25.426, 70.55, 71.783, 72.712, 70.483, 81.632, 8.86, 67.096, 'nieuwe klant'])
+Deze klant heeft 12 producten gekocht voor €626.89
+>>> Kassa([30.062, 77.148, 'nieuwe klant', 47.84, 16.866, 2.607, 69.099, 74.587, 89.585, 75.229, 18.15, 91.516, 72.881, 'nieuwe klant', 79.474, 5.498, 8.084, 49.833, 'nieuwe klant', 'nieuwe klant', 53.793, 63.552, 45.623])
+Deze klant heeft 2 producten gekocht voor €107.21
+Deze klant heeft 10 producten gekocht voor €558.36
+Deze klant heeft 4 producten gekocht voor €142.89
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa(['nieuwe klant', 41.178, 78.419, 11.239, 58.326, 0.441, 1.26, 56.419, 'nieuwe klant', 23.008, 54.684, 40.097, 'nieuwe klant', 71.743, 5.81, 46.576, 24.2, 23.603, 54.215, 2.518, 37.428, 'nieuwe klant', 'nieuwe klant'])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 7 producten gekocht voor €247.28
+Deze klant heeft 3 producten gekocht voor €117.79
+Deze klant heeft 8 producten gekocht voor €266.09
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa(['nieuwe klant', 'nieuwe klant', 0.464, 57.701, 34.572, 28.561, 36.201, 97.59, 'nieuwe klant', 44.06, 'nieuwe klant', 69.103, 30.401, 'nieuwe klant', 29.457, 84.489, 77.293, 63.245, 3.192, 45.74])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 6 producten gekocht voor €255.09
+Deze klant heeft 1 producten gekocht voor €44.06
+Deze klant heeft 2 producten gekocht voor €99.50
+>>> Kassa(['nieuwe klant', 25.84, 29.972, 76.655, 'nieuwe klant', 48.434, 36.759, 99.16, 11.711, 56.463, 80.672, 'nieuwe klant'])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 3 producten gekocht voor €132.47
+Deze klant heeft 6 producten gekocht voor €333.20
+>>> Kassa(['nieuwe klant', 39.686, 47.593, 85.992, 89.51, 32.558, 84.979, 51.09, 'nieuwe klant', 46.807, 7.66, 29.32, 30.476, 41.522, 93.68, 'nieuwe klant', 91.101, 24.239, 'nieuwe klant'])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 7 producten gekocht voor €431.41
+Deze klant heeft 6 producten gekocht voor €249.47
+Deze klant heeft 2 producten gekocht voor €115.34
+>>> Kassa([86.211, 55.635, 33.829, 99.946, 28.562, 'nieuwe klant'])
+Deze klant heeft 5 producten gekocht voor €304.18
+>>> Kassa([85.269, 96.419, 79.225, 58.906])
+>>> Kassa([46.916, 2.447, 20.884, 46.353, 8.715, 98.826, 63.311, 85.598, 63.872, 'nieuwe klant', 12.908, 1.596, 81.372, 24.787, 26.407, 'nieuwe klant'])
+Deze klant heeft 9 producten gekocht voor €436.92
+Deze klant heeft 5 producten gekocht voor €147.07
+>>> Kassa([65.152, 59.811, 85.371, 5.87, 1.038, 55.634, 8.052, 73.569, 20.104])
+>>> Kassa([39.287, 'nieuwe klant', 57.507, 36.95, 'nieuwe klant', 31.892, 32.266, 92.798, 21.319, 18.019, 'nieuwe klant'])
+Deze klant heeft 1 producten gekocht voor €39.29
+Deze klant heeft 2 producten gekocht voor €94.46
+Deze klant heeft 5 producten gekocht voor €196.29
+>>> Kassa([12.528, 28.487, 22.981, 14.674, 45.244, 55.311, 28.254, 0.647, 91.119, 36.554, 85.925, 65.704, 9.567, 3.607, 50.816, 'nieuwe klant', 21.646, 'nieuwe klant'])
+Deze klant heeft 15 producten gekocht voor €551.42
+Deze klant heeft 1 producten gekocht voor €21.65
+>>> Kassa([45.041, 59.393, 29.535, 38.37, 59.773, 54.948, 33.054, 18.959, 69.542])
+>>> Kassa([23.924, 10.95, 30.75, 2.237, 63.563, 4.906, 4.047, 8.918, 23.972, 13.678, 81.322, 26.033, 37.15, 'nieuwe klant', 'nieuwe klant', 76.481, 7.522, 98.689, 7.43, 25.725, 0.737])
+Deze klant heeft 13 producten gekocht voor €331.45
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([95.96, 10.437, 20.149, 9.223, 28.426, 87.076, 0.208, 2.435, 'nieuwe klant', 77.56, 79.534, 69.488, 62.546, 83.452, 65.941, 37.071, 47.53, 4.143])
+Deze klant heeft 8 producten gekocht voor €253.91
+>>> Kassa(['nieuwe klant', 'nieuwe klant', 30.447, 99.357, 21.914, 39.802, 'nieuwe klant', 60.514, 61.677, 'nieuwe klant', 4.3, 16.953, 39.525, 91.398, 41.107, 31.037, 22.202, 'nieuwe klant', 91.352, 56.079, 'nieuwe klant', 18.796, 93.261, 'nieuwe klant'])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 4 producten gekocht voor €191.52
+Deze klant heeft 2 producten gekocht voor €122.19
+Deze klant heeft 7 producten gekocht voor €246.52
+Deze klant heeft 2 producten gekocht voor €147.43
+Deze klant heeft 2 producten gekocht voor €112.06
+>>> Kassa([69.253, 32.218, 84.313, 'nieuwe klant', 'nieuwe klant', 43.924, 6.546, 66.227, 62.895, 45.245, 61.835, 7.744, 9.898, 83.513, 90.613, 16.244, 66.618, 'nieuwe klant'])
+Deze klant heeft 3 producten gekocht voor €185.78
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 12 producten gekocht voor €561.30
+>>> Kassa([94.406, 67.018, 'nieuwe klant', 67.589, 86.369, 29.834, 84.599, 'nieuwe klant', 47.679])
+Deze klant heeft 2 producten gekocht voor €161.42
+Deze klant heeft 4 producten gekocht voor €268.39
+>>> Kassa([31.333, 90.12, 74.817, 42.139, 28.193, 25.801, 51.074, 36.297, 'nieuwe klant', 65.044, 28.501, 80.181, 13.704, 92.878, 54.183, 16.537, 19.259, 8.629, 21.165, 92.7, 64.065, 58.408, 3.774, 88.118, 'nieuwe klant'])
+Deze klant heeft 8 producten gekocht voor €379.77
+Deze klant heeft 15 producten gekocht voor €707.15
+>>> Kassa([0.965, 21.457, 37.1, 94.18, 'nieuwe klant', 70.171, 69.366, 92.533, 43.119, 60.261, 63.609, 23.528, 14.79, 76.34, 72.441, 28.482, 25.153, 93.932])
+Deze klant heeft 4 producten gekocht voor €153.70
+>>> Kassa(['nieuwe klant', 69.196, 25.462, 'nieuwe klant', 'nieuwe klant', 33.221, 'nieuwe klant', 22.484, 41.104, 51.43, 51.705, 'nieuwe klant'])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 2 producten gekocht voor €94.66
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 1 producten gekocht voor €33.22
+Deze klant heeft 4 producten gekocht voor €166.72
+>>> Kassa(['nieuwe klant', 'nieuwe klant', 43.624, 77.736])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([13.317, 7.375, 39.298, 'nieuwe klant', 82.679, 32.88, 41.199, 85.458, 46.161, 'nieuwe klant', 'nieuwe klant', 'nieuwe klant', 94.851, 57.818, 'nieuwe klant', 61.959, 57.678, 12.712, 47.799, 'nieuwe klant', 38.234, 'nieuwe klant'])
+Deze klant heeft 3 producten gekocht voor €59.99
+Deze klant heeft 5 producten gekocht voor €288.38
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 2 producten gekocht voor €152.67
+Deze klant heeft 4 producten gekocht voor €180.15
+Deze klant heeft 1 producten gekocht voor €38.23
+>>> Kassa(['nieuwe klant', 67.228, 30.938, 75.668, 32.679, 36.604, 9.664, 49.446, 'nieuwe klant', 44.78, 18.772, 'nieuwe klant'])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 7 producten gekocht voor €302.23
+Deze klant heeft 2 producten gekocht voor €63.55
+>>> Kassa([25.295, 6.74, 20.026, 96.296, 79.698, 96.535, 5.313, 'nieuwe klant'])
+Deze klant heeft 7 producten gekocht voor €329.90
+>>> Kassa([66.902, 84.32, 94.13, 72.356, 64.942])
+>>> Kassa([35.078, 74.438, 0.772, 7.018, 17.964, 'nieuwe klant', 34.821, 87.658, 16.225])
+Deze klant heeft 5 producten gekocht voor €135.27
+>>> Kassa([61.362, 'nieuwe klant', 41.137, 'nieuwe klant', 'nieuwe klant', 23.506, 5.253, 0.129])
+Deze klant heeft 1 producten gekocht voor €61.36
+Deze klant heeft 1 producten gekocht voor €41.14
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa(['nieuwe klant', 'nieuwe klant', 42.835, 'nieuwe klant', 68.277, 14.139, 30.073])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 1 producten gekocht voor €42.84
+>>> Kassa([37.915, 97.931, 'nieuwe klant', 'nieuwe klant', 93.09, 'nieuwe klant', 4.848, 86.17, 13.486, 96.079, 52.608, 57.833, 33.879, 12.942])
+Deze klant heeft 2 producten gekocht voor €135.85
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 1 producten gekocht voor €93.09
+>>> Kassa([5.99, 'nieuwe klant', 76.166])
+Deze klant heeft 1 producten gekocht voor €5.99
+>>> Kassa(['nieuwe klant', 24.586, 'nieuwe klant', 11.16, 40.191, 42.755, 59.889, 0.381, 75.045, 90.532, 93.41, 40.577, 23.443])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 1 producten gekocht voor €24.59
+>>> Kassa([69.548, 82.657])
+>>> Kassa([37.493, 'nieuwe klant', 26.857, 14.113, 33.917, 'nieuwe klant', 82.886, 55.073, 10.552, 13.285, 22.858, 45.944, 71.274, 9.708, 76.675, 58.358, 6.111])
+Deze klant heeft 1 producten gekocht voor €37.49
+Deze klant heeft 3 producten gekocht voor €74.89
+>>> Kassa(['nieuwe klant', 99.525, 68.054, 7.45])
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa(['nieuwe klant', 80.812, 73.409, 59.839, 22.161, 44.985, 'nieuwe klant', 41.162, 37.219, 42.618, 23.885, 61.546, 55.909, 50.068, 88.651, 74.946, 69.902, 62.691, 53.971, 59.82, 35.095, 'nieuwe klant', 81.522, 'nieuwe klant'])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 5 producten gekocht voor €281.21
+Deze klant heeft 14 producten gekocht voor €757.48
+Deze klant heeft 1 producten gekocht voor €81.52
+>>> Kassa([27.6, 5.561, 'nieuwe klant', 35.287, 9.059, 'nieuwe klant', 'nieuwe klant', 'nieuwe klant', 30.118, 19.515, 56.405, 40.64, 64.074, 'nieuwe klant', 32.558, 63.555, 80.174, 'nieuwe klant'])
+Deze klant heeft 2 producten gekocht voor €33.16
+Deze klant heeft 2 producten gekocht voor €44.35
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 5 producten gekocht voor €210.75
+Deze klant heeft 3 producten gekocht voor €176.29
+>>> Kassa([51.733, 'nieuwe klant', 45.9, 'nieuwe klant', 'nieuwe klant', 94.048, 'nieuwe klant', 85.366, 53.327, 18.078, 95.77, 23.448, 'nieuwe klant', 55.507, 'nieuwe klant', 68.11, 94.49, 31.995, 'nieuwe klant', 38.126, 8.785, 2.111, 'nieuwe klant', 59.546, 'nieuwe klant'])
+Deze klant heeft 1 producten gekocht voor €51.73
+Deze klant heeft 1 producten gekocht voor €45.90
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 1 producten gekocht voor €94.05
+Deze klant heeft 5 producten gekocht voor €275.99
+Deze klant heeft 1 producten gekocht voor €55.51
+Deze klant heeft 3 producten gekocht voor €194.59
+Deze klant heeft 3 producten gekocht voor €49.02
+Deze klant heeft 1 producten gekocht voor €59.55
+>>> Kassa([99.516, 'nieuwe klant'])
+Deze klant heeft 1 producten gekocht voor €99.52
+>>> Kassa([91.82, 13.538, 53.954, 90.429, 73.464, 83.749, 83.922, 20.241, 43.737, 72.176, 88.905, 'nieuwe klant', 'nieuwe klant', 33.519, 44.384, 86.425, 68.723, 13.355, 50.782, 24.479, 35.643, 'nieuwe klant', 'nieuwe klant', 53.746])
+Deze klant heeft 11 producten gekocht voor €715.93
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 8 producten gekocht voor €357.31
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa(['nieuwe klant', 55.032, 30.132, 36.4, 13.465, 17.485, 17.926, 3.175, 22.068, 64.405, 44.123, 47.693, 'nieuwe klant', 62.915, 55.722, 11.74, 88.102, 'nieuwe klant', 6.548])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 11 producten gekocht voor €351.90
+Deze klant heeft 4 producten gekocht voor €218.48
+>>> Kassa([66.401, 'nieuwe klant', 28.768, 0.83, 28.675, 27.673, 22.231, 61.806, 83.989, 95.295, 'nieuwe klant', 4.147, 58.44, 'nieuwe klant', 34.35, 91.469, 74.403, 22.725, 99.263, 12.286])
+Deze klant heeft 1 producten gekocht voor €66.40
+Deze klant heeft 8 producten gekocht voor €349.27
+Deze klant heeft 2 producten gekocht voor €62.59
+>>> Kassa([35.78, 53.255, 'nieuwe klant', 65.711, 74.016, 30.653, 34.51, 82.135, 16.968, 'nieuwe klant', 4.68, 91.942, 43.018, 46.997, 19.575])
+Deze klant heeft 2 producten gekocht voor €89.03
+Deze klant heeft 6 producten gekocht voor €303.99
+>>> Kassa([87.126, 72.135, 'nieuwe klant', 46.851, 68.665, 29.78, 57.247, 13.194, 54.337, 63.628, 'nieuwe klant'])
+Deze klant heeft 2 producten gekocht voor €159.26
+Deze klant heeft 7 producten gekocht voor €333.70
+>>> Kassa([21.955, 5.442, 20.867, 74.204, 17.115, 81.001, 75.421, 24.408, 61.807, 'nieuwe klant', 12.692, 'nieuwe klant', 31.75, 'nieuwe klant', 12.004, 21.789, 'nieuwe klant', 33.203, 7.008, 94.811, 21.523, 58.633, 'nieuwe klant', 'nieuwe klant'])
+Deze klant heeft 9 producten gekocht voor €382.22
+Deze klant heeft 1 producten gekocht voor €12.69
+Deze klant heeft 1 producten gekocht voor €31.75
+Deze klant heeft 2 producten gekocht voor €33.79
+Deze klant heeft 5 producten gekocht voor €215.18
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([75.596, 93.348, 'nieuwe klant', 40.222, 1.462, 62.018, 25.219, 57.039, 35.909, 80.804, 32.415, 44.022, 21.101, 86.76, 86.614, 80.001, 'nieuwe klant', 'nieuwe klant', 'nieuwe klant', 'nieuwe klant', 52.099])
+Deze klant heeft 2 producten gekocht voor €168.94
+Deze klant heeft 13 producten gekocht voor €653.59
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([26.892, 47.272, 65.562, 31.996, 37.7, 17.619, 'nieuwe klant', 99.858, 43.2, 60.177, 18.303])
+Deze klant heeft 6 producten gekocht voor €227.04
+>>> Kassa([93.945, 83.184, 58.421, 91.213, 'nieuwe klant', 83.837, 62.479, 14.337, 91.474, 63.212, 'nieuwe klant', 'nieuwe klant', 82.411, 42.793, 94.063, 39.962, 77.321])
+Deze klant heeft 4 producten gekocht voor €326.76
+Deze klant heeft 5 producten gekocht voor €315.34
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([54.757, 'nieuwe klant', 61.551, 'nieuwe klant', 66.945, 8.624, 13.125])
+Deze klant heeft 1 producten gekocht voor €54.76
+Deze klant heeft 1 producten gekocht voor €61.55
+>>> Kassa([41.427, 40.88, 63.869, 7.851, 39.517])
+>>> Kassa([36.936, 64.31, 40.392, 75.117, 30.855, 'nieuwe klant', 64.219, 'nieuwe klant', 20.36, 'nieuwe klant', 93.256])
+Deze klant heeft 5 producten gekocht voor €247.61
+Deze klant heeft 1 producten gekocht voor €64.22
+Deze klant heeft 1 producten gekocht voor €20.36
+>>> Kassa([81.863, 'nieuwe klant', 34.522, 20.143, 5.022, 50.351, 15.547, 21.069, 17.019, 82.603, 75.662, 89.887, 83.042, 86.296, 30.87, 35.16, 80.936, 9.85, 'nieuwe klant', 67.528, 86.102])
+Deze klant heeft 1 producten gekocht voor €81.86
+Deze klant heeft 16 producten gekocht voor €737.98
+>>> Kassa([83.724, 'nieuwe klant', 34.502, 30.046])
+Deze klant heeft 1 producten gekocht voor €83.72
+>>> Kassa([99.43])
+>>> Kassa([88.231, 98.29, 'nieuwe klant', 13.012, 'nieuwe klant', 19.318, 42.006, 66.24, 'nieuwe klant', 74.206, 67.95, 39.688, 46.227, 'nieuwe klant', 'nieuwe klant'])
+Deze klant heeft 2 producten gekocht voor €186.52
+Deze klant heeft 1 producten gekocht voor €13.01
+Deze klant heeft 3 producten gekocht voor €127.56
+Deze klant heeft 4 producten gekocht voor €228.07
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([80.333, 86.246, 11.336, 84.965, 16.303, 18.659, 'nieuwe klant', 0.542, 87.056, 64.88, 69.52, 80.224, 42.758, 27.445, 78.511, 35.825, 54.237, 'nieuwe klant'])
+Deze klant heeft 6 producten gekocht voor €297.84
+Deze klant heeft 10 producten gekocht voor €541.00
+>>> Kassa([24.721, 'nieuwe klant', 33.242, 24.916, 90.726, 90.71, 'nieuwe klant', 41.079, 44.592, 99.011, 30.96, 77.215, 'nieuwe klant', 42.038, 47.921, 89.535, 9.037, 1.059, 32.249, 31.967, 57.802, 67.668, 65.581, 'nieuwe klant'])
+Deze klant heeft 1 producten gekocht voor €24.72
+Deze klant heeft 4 producten gekocht voor €239.59
+Deze klant heeft 5 producten gekocht voor €292.86
+Deze klant heeft 10 producten gekocht voor €444.86
+>>> Kassa([88.879, 92.829, 29.959, 88.372, 22.884, 50.825, 93.948, 'nieuwe klant'])
+Deze klant heeft 7 producten gekocht voor €467.70
+>>> Kassa([74.431, 'nieuwe klant', 61.165])
+Deze klant heeft 1 producten gekocht voor €74.43
+>>> Kassa([84.641, 83.542, 50.897, 4.246, 73.88, 61.443, 'nieuwe klant', 'nieuwe klant', 62.517, 3.654, 36.309, 75.67, 3.32, 87.455, 70.633, 34.217, 80.159, 'nieuwe klant', 94.632, 'nieuwe klant'])
+Deze klant heeft 6 producten gekocht voor €358.65
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 9 producten gekocht voor €453.93
+Deze klant heeft 1 producten gekocht voor €94.63
+>>> Kassa([35.052, 54.595, 28.187, 7.304, 25.728, 94.933, 'nieuwe klant', 70.406, 'nieuwe klant', 96.658, 'nieuwe klant', 92.325, 7.758, 18.614, 'nieuwe klant', 64.873, 12.045, 92.024, 'nieuwe klant', 'nieuwe klant', 34.949, 65.984, 43.36, 13.905])
+Deze klant heeft 6 producten gekocht voor €245.80
+Deze klant heeft 1 producten gekocht voor €70.41
+Deze klant heeft 1 producten gekocht voor €96.66
+Deze klant heeft 3 producten gekocht voor €118.70
+Deze klant heeft 3 producten gekocht voor €168.94
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa(['nieuwe klant', 72.472, 52.835, 66.932, 'nieuwe klant', 'nieuwe klant', 53.397, 91.075, 4.633, 61.297, 87.618, 39.973, 'nieuwe klant'])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 3 producten gekocht voor €192.24
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 6 producten gekocht voor €337.99
+>>> Kassa(['nieuwe klant', 87.237, 0.249, 10.262, 40.101, 40.896, 59.736, 'nieuwe klant', 89.057, 16.988, 'nieuwe klant'])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 6 producten gekocht voor €238.48
+Deze klant heeft 2 producten gekocht voor €106.05
+>>> Kassa([42.613, 97.87, 28.278, 67.345, 'nieuwe klant', 'nieuwe klant', 76.255, 94.15, 92.604, 1.719, 'nieuwe klant'])
+Deze klant heeft 4 producten gekocht voor €236.11
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 4 producten gekocht voor €264.73
+>>> Kassa([17.774, 79.956, 42.476, 66.755, 8.483, 79.535, 52.064, 'nieuwe klant', 0.745, 55.573, 32.788, 87.419, 77.683, 'nieuwe klant', 54.059, 18.337, 33.972, 7.9, 30.686, 15.264, 'nieuwe klant'])
+Deze klant heeft 7 producten gekocht voor €347.04
+Deze klant heeft 5 producten gekocht voor €254.21
+Deze klant heeft 6 producten gekocht voor €160.22
+>>> Kassa([19.04, 37.501, 40.6, 32.712, 17.914, 52.009, 23.547, 49.94, 'nieuwe klant', 'nieuwe klant', 96.053, 93.338, 87.61, 65.372, 3.066, 'nieuwe klant', 36.756, 11.06, 'nieuwe klant'])
+Deze klant heeft 8 producten gekocht voor €273.26
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 5 producten gekocht voor €345.44
+Deze klant heeft 2 producten gekocht voor €47.82
+>>> Kassa(['nieuwe klant', 69.9, 77.321, 23.991, 32.601, 30.991, 43.616, 52.496, 'nieuwe klant', 74.094, 13.601, 'nieuwe klant', 4.854])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 7 producten gekocht voor €330.92
+Deze klant heeft 2 producten gekocht voor €87.69
+>>> Kassa([53.176, 'nieuwe klant', 'nieuwe klant', 56.086, 19.615, 20.504, 11.171, 6.133, 7.482, 89.998, 28.292, 67.511, 80.087, 59.081])
+Deze klant heeft 1 producten gekocht voor €53.18
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([73.198, 57.466, 39.272, 75.922, 89.148, 68.946, 29.041, 86.324, 52.226, 'nieuwe klant'])
+Deze klant heeft 9 producten gekocht voor €571.54
+>>> Kassa([22.282, 0.744, 35.465, 33.168, 56.189, 75.551, 93.308, 96.551, 12.705, 'nieuwe klant', 'nieuwe klant', 1.981])
+Deze klant heeft 9 producten gekocht voor €425.96
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([9.844, 'nieuwe klant', 74.528, 63.889, 28.801, 47.067, 96.433, 'nieuwe klant', 'nieuwe klant'])
+Deze klant heeft 1 producten gekocht voor €9.84
+Deze klant heeft 5 producten gekocht voor €310.72
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([82.719, 76.065, 97.883, 'nieuwe klant', 65.98, 6.744, 87.806, 89.865, 'nieuwe klant'])
+Deze klant heeft 3 producten gekocht voor €256.67
+Deze klant heeft 4 producten gekocht voor €250.39
+>>> Kassa(['nieuwe klant', 68.017, 57.029, 'nieuwe klant', 85.272, 65.346, 95.051, 'nieuwe klant', 26.757, 22.393, 22.465, 19.547, 11.408, 'nieuwe klant'])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 2 producten gekocht voor €125.05
+Deze klant heeft 3 producten gekocht voor €245.67
+Deze klant heeft 5 producten gekocht voor €102.57
+>>> Kassa(['nieuwe klant', 42.399, 53.729, 5.392, 58.588, 41.284, 57.898, 37.511, 20.699, 61.947, 28.496, 40.996, 8.68, 93.776, 70.484, 77.537, 1.186, 84.152, 45.472, 5.695, 6.011, 84.005, 'nieuwe klant'])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 21 producten gekocht voor €925.94
+>>> Kassa([11.155, 51.699, 38.277, 74.284, 'nieuwe klant'])
+Deze klant heeft 4 producten gekocht voor €175.42
+>>> Kassa([32.336, 'nieuwe klant', 10.685, 27.214, 4.55, 79.681, 60.975, 'nieuwe klant'])
+Deze klant heeft 1 producten gekocht voor €32.34
+Deze klant heeft 5 producten gekocht voor €183.10
+>>> Kassa([13.869, 13.384, 35.903, 10.899, 59.318, 31.069, 51.781, 31.935, 87.707, 45.954, 31.874, 41.966, 23.811, 'nieuwe klant', 60.365, 99.926, 55.723, 27.434, 89.555, 85.317, 6.65, 54.418, 56.988])
+Deze klant heeft 13 producten gekocht voor €479.47
+>>> Kassa([99.823, 73.664, 9.934, 60.902, 4.206, 66.29, 98.083, 85.565, 'nieuwe klant', 52.333])
+Deze klant heeft 8 producten gekocht voor €498.47
+>>> Kassa([4.972, 96.387, 'nieuwe klant', 8.731, 74.167, 27.989, 71.858, 69.36, 'nieuwe klant', 69.751, 35.262, 87.244, 28.216, 'nieuwe klant', 'nieuwe klant', 55.98, 66.78])
+Deze klant heeft 2 producten gekocht voor €101.36
+Deze klant heeft 5 producten gekocht voor €252.11
+Deze klant heeft 4 producten gekocht voor €220.47
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([91.794, 6.74, 2.846, 68.056])
+>>> Kassa([58.373, 89.988, 45.126, 3.959, 12.51, 58.17, 'nieuwe klant', 6.818, 96.043, 9.609, 98.841])
+Deze klant heeft 6 producten gekocht voor €268.13
+>>> Kassa([11.313, 'nieuwe klant', 98.944, 13.782, 88.619, 70.351, 20.039, 8.636, 56.84, 'nieuwe klant', 'nieuwe klant', 15.567, 'nieuwe klant', 37.567, 28.169, 29.543, 'nieuwe klant', 'nieuwe klant'])
+Deze klant heeft 1 producten gekocht voor €11.31
+Deze klant heeft 7 producten gekocht voor €357.21
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 1 producten gekocht voor €15.57
+Deze klant heeft 3 producten gekocht voor €95.28
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([27.374, 'nieuwe klant', 8.91, 33.489, 27.539, 50.212, 6.045, 96.044, 'nieuwe klant', 'nieuwe klant'])
+Deze klant heeft 1 producten gekocht voor €27.37
+Deze klant heeft 6 producten gekocht voor €222.24
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([67.317, 'nieuwe klant', 87.766, 'nieuwe klant', 10.215, 84.049, 3.633, 'nieuwe klant', 'nieuwe klant'])
+Deze klant heeft 1 producten gekocht voor €67.32
+Deze klant heeft 1 producten gekocht voor €87.77
+Deze klant heeft 3 producten gekocht voor €97.90
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([88.643, 23.796])
+>>> Kassa([3.972, 41.395, 34.597, 'nieuwe klant', 50.356, 43.76, 'nieuwe klant', 'nieuwe klant'])
+Deze klant heeft 3 producten gekocht voor €79.96
+Deze klant heeft 2 producten gekocht voor €94.12
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([66.214, 'nieuwe klant', 75.744, 51.029, 1.721, 30.431, 79.795, 95.127, 51.626, 15.582])
+Deze klant heeft 1 producten gekocht voor €66.21
+>>> Kassa([29.059, 'nieuwe klant', 96.5, 27.722, 95.118, 'nieuwe klant', 'nieuwe klant', 5.258, 69.974, 98.379, 56.664, 91.892, 'nieuwe klant', 'nieuwe klant'])
+Deze klant heeft 1 producten gekocht voor €29.06
+Deze klant heeft 3 producten gekocht voor €219.34
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 5 producten gekocht voor €322.17
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([2.504, 'nieuwe klant', 95.679, 68.015, 58.952, 97.448, 31.176, 'nieuwe klant', 75.046, 30.444, 67.04, 29.102, 49.757, 79.98, 32.56, 56.538, 18.284, 'nieuwe klant'])
+Deze klant heeft 1 producten gekocht voor €2.50
+Deze klant heeft 5 producten gekocht voor €351.27
+Deze klant heeft 9 producten gekocht voor €438.75
+>>> Kassa([43.811, 54.452, 84.954, 'nieuwe klant'])
+Deze klant heeft 3 producten gekocht voor €183.22
+>>> Kassa([49.851, 7.605, 99.6, 35.534, 75.848, 8.016, 'nieuwe klant', 74.384, 86.049, 66.196, 95.341, 13.863, 'nieuwe klant'])
+Deze klant heeft 6 producten gekocht voor €276.45
+Deze klant heeft 5 producten gekocht voor €335.83
+>>> Kassa([37.886, 29.317, 54.654, 90.3, 45.736, 'nieuwe klant', 78.024, 18.168, 'nieuwe klant', 73.491, 85.992, 'nieuwe klant', 84.217, 'nieuwe klant', 'nieuwe klant', 51.647, 85.92])
+Deze klant heeft 5 producten gekocht voor €257.89
+Deze klant heeft 2 producten gekocht voor €96.19
+Deze klant heeft 2 producten gekocht voor €159.48
+Deze klant heeft 1 producten gekocht voor €84.22
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([61.774, 76.21, 'nieuwe klant', 65.589, 28.745, 48.57])
+Deze klant heeft 2 producten gekocht voor €137.98
+>>> Kassa([82.888, 41.294, 'nieuwe klant', 79.53, 28.346, 58.513, 4.897, 75.131, 77.551, 24.782, 97.407, 67.41, 86.791, 9.206, 60.916, 86.8, 'nieuwe klant'])
+Deze klant heeft 2 producten gekocht voor €124.18
+Deze klant heeft 13 producten gekocht voor €757.28
+>>> Kassa([60.255, 'nieuwe klant', 28.651, 59.671, 'nieuwe klant', 9.355, 'nieuwe klant', 'nieuwe klant', 18.621, 83.349, 52.022, 7.6, 66.694, 38.956, 15.488, 28.738, 62.616, 88.791, 'nieuwe klant', 1.438, 71.161, 64.168, 'nieuwe klant'])
+Deze klant heeft 1 producten gekocht voor €60.26
+Deze klant heeft 2 producten gekocht voor €88.32
+Deze klant heeft 1 producten gekocht voor €9.36
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 10 producten gekocht voor €462.88
+Deze klant heeft 3 producten gekocht voor €136.77
+>>> Kassa(['nieuwe klant', 51.221, 33.312, 62.026, 'nieuwe klant', 25.096, 75.209, 84.046, 13.914, 'nieuwe klant', 13.58, 'nieuwe klant', 80.905, 24.334, 'nieuwe klant', 81.853, 22.319, 86.74, 73.072, 18.002, 17.803, 99.212])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 3 producten gekocht voor €146.56
+Deze klant heeft 4 producten gekocht voor €198.26
+Deze klant heeft 1 producten gekocht voor €13.58
+Deze klant heeft 2 producten gekocht voor €105.24
+>>> Kassa([15.674])
+>>> Kassa(['nieuwe klant', 'nieuwe klant', 39.028])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([19.214, 'nieuwe klant', 57.902, 0.592, 86.856, 82.301, 61.325, 0.985, 'nieuwe klant', 92.276, 'nieuwe klant'])
+Deze klant heeft 1 producten gekocht voor €19.21
+Deze klant heeft 6 producten gekocht voor €289.96
+Deze klant heeft 1 producten gekocht voor €92.28
+>>> Kassa([31.821, 'nieuwe klant', 'nieuwe klant', 84.052, 0.283])
+Deze klant heeft 1 producten gekocht voor €31.82
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([15.213, 'nieuwe klant', 91.539, 68.384, 46.391, 11.597, 28.694, 31.549, 42.648, 21.317, 38.051, 5.24, 'nieuwe klant', 'nieuwe klant'])
+Deze klant heeft 1 producten gekocht voor €15.21
+Deze klant heeft 10 producten gekocht voor €385.41
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa(['nieuwe klant', 58.434, 88.971, 92.398, 2.834, 52.908, 30.302, 'nieuwe klant', 32.068, 37.49, 'nieuwe klant'])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 6 producten gekocht voor €325.85
+Deze klant heeft 2 producten gekocht voor €69.56
+>>> Kassa([17.616, 'nieuwe klant', 28.647, 14.813, 19.482, 50.424, 78.647, 87.399, 44.921, 23.255, 44.445, 18.459, 'nieuwe klant', 99.709, 'nieuwe klant'])
+Deze klant heeft 1 producten gekocht voor €17.62
+Deze klant heeft 10 producten gekocht voor €410.49
+Deze klant heeft 1 producten gekocht voor €99.71
+>>> Kassa([67.09, 10.778, 13.827, 'nieuwe klant', 27.198, 46.433, 46.038, 20.811, 90.489])
+Deze klant heeft 3 producten gekocht voor €91.70
+>>> Kassa([73.849, 97.378, 20.27, 40.062, 59.929, 17.463, 97.873, 38.945, 39.394, 90.642, 95.483, 21.023, 55.913, 94.742, 29.695, 79.527, 32.27, 3.095, 93.389, 4.416, 'nieuwe klant'])
+Deze klant heeft 20 producten gekocht voor €1085.36
+>>> Kassa(['nieuwe klant', 35.933, 68.864, 'nieuwe klant'])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 2 producten gekocht voor €104.80
+>>> Kassa([17.292, 'nieuwe klant', 64.222, 18.76, 8.501, 'nieuwe klant', 'nieuwe klant'])
+Deze klant heeft 1 producten gekocht voor €17.29
+Deze klant heeft 3 producten gekocht voor €91.48
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([1.48, 19.045, 95.952])
+>>> Kassa([70.014, 'nieuwe klant', 'nieuwe klant', 96.529, 21.895, 21.075, 60.257, 62.394, 9.906, 66.566, 'nieuwe klant', 28.716, 51.942, 69.446, 46.657, 40.09])
+Deze klant heeft 1 producten gekocht voor €70.01
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 7 producten gekocht voor €338.62
+>>> Kassa([16.972, 1.869, 42.308, 79.848, 20.036, 53.017, 20.169, 96.464, 'nieuwe klant'])
+Deze klant heeft 8 producten gekocht voor €330.68
+>>> Kassa([27.437, 87.375, 96.043, 86.638, 89.73, 68.858, 38.341, 79.828, 'nieuwe klant'])
+Deze klant heeft 8 producten gekocht voor €574.25
+>>> Kassa([13.712])
+>>> Kassa([71.428, 28.524, 6.329, 89.66, 80.729, 58.727, 50.849, 42.1, 15.115, 'nieuwe klant'])
+Deze klant heeft 9 producten gekocht voor €443.46
+>>> Kassa([23.65, 45.648, 95.784, 33.204])
+>>> Kassa([12.999, 25.595, 7.167, 15.913, 93.552, 64.085, 1.829, 90.615, 80.713, 28.388, 35.66, 'nieuwe klant', 29.774, 95.45, 'nieuwe klant', 38.17, 86.641, 45.74, 42.598, 70.031, 89.528, 55.944, 'nieuwe klant'])
+Deze klant heeft 11 producten gekocht voor €456.52
+Deze klant heeft 2 producten gekocht voor €125.22
+Deze klant heeft 7 producten gekocht voor €428.65
+>>> Kassa([40.03, 3.06, 'nieuwe klant', 61.23, 52.593, 'nieuwe klant', 43.641, 54.727, 77.948, 'nieuwe klant', 88.429, 'nieuwe klant', 89.013, 21.444, 12.355, 'nieuwe klant'])
+Deze klant heeft 2 producten gekocht voor €43.09
+Deze klant heeft 2 producten gekocht voor €113.82
+Deze klant heeft 3 producten gekocht voor €176.32
+Deze klant heeft 1 producten gekocht voor €88.43
+Deze klant heeft 3 producten gekocht voor €122.81
+>>> Kassa([24.619, 55.814, 'nieuwe klant', 'nieuwe klant', 'nieuwe klant'])
+Deze klant heeft 2 producten gekocht voor €80.43
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([79.798, 62.413, 94.112, 96.151, 88.699, 30.498, 46.781, 50.388, 15.168, 'nieuwe klant', 19.341, 'nieuwe klant', 74.442, 'nieuwe klant', 62.949, 'nieuwe klant'])
+Deze klant heeft 9 producten gekocht voor €564.01
+Deze klant heeft 1 producten gekocht voor €19.34
+Deze klant heeft 1 producten gekocht voor €74.44
+Deze klant heeft 1 producten gekocht voor €62.95
+>>> Kassa([54.986, 61.96, 'nieuwe klant', 98.351, 33.025, 90.764, 94.949, 89.176, 76.468, 22.557, 20.545, 43.331, 'nieuwe klant'])
+Deze klant heeft 2 producten gekocht voor €116.95
+Deze klant heeft 9 producten gekocht voor €569.17
+>>> Kassa([51.855, 52.111, 50.546, 'nieuwe klant', 46.774, 63.866, 33.949, 42.829, 29.937, 4.08, 19.024, 85.686, 79.274, 39.273, 91.585, 'nieuwe klant'])
+Deze klant heeft 3 producten gekocht voor €154.51
+Deze klant heeft 11 producten gekocht voor €536.28
+>>> Kassa([98.674, 16.555, 'nieuwe klant', 53.803, 33.89, 32.795, 85.316, 52.465, 28.66, 'nieuwe klant', 27.22, 54.042, 19.928, 64.623, 0.787, 74.194, 48.582, 'nieuwe klant', 16.211, 'nieuwe klant', 'nieuwe klant', 65.51, 'nieuwe klant', 'nieuwe klant'])
+Deze klant heeft 2 producten gekocht voor €115.23
+Deze klant heeft 6 producten gekocht voor €286.93
+Deze klant heeft 7 producten gekocht voor €289.38
+Deze klant heeft 1 producten gekocht voor €16.21
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 1 producten gekocht voor €65.51
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([28.041, 12.404, 30.594, 57.014, 10.352, 66.287, 'nieuwe klant', 82.395, 53.778, 'nieuwe klant', 39.234, 55.095, 47.209, 87.624, 52.229, 'nieuwe klant', 'nieuwe klant', 84.748, 42.676, 88.485])
+Deze klant heeft 6 producten gekocht voor €204.69
+Deze klant heeft 2 producten gekocht voor €136.17
+Deze klant heeft 5 producten gekocht voor €281.39
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([48.786, 15.135, 84.837, 'nieuwe klant'])
+Deze klant heeft 3 producten gekocht voor €148.76
+>>> Kassa([37.535, 92.579, 71.729, 19.975, 1.2, 24.212, 'nieuwe klant', 'nieuwe klant', 7.792, 'nieuwe klant', 98.856, 53.328, 66.064, 'nieuwe klant'])
+Deze klant heeft 6 producten gekocht voor €247.23
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 1 producten gekocht voor €7.79
+Deze klant heeft 3 producten gekocht voor €218.25
+>>> Kassa(['nieuwe klant', 42.196, 85.206, 'nieuwe klant', 'nieuwe klant', 15.873, 'nieuwe klant', 79.736, 3.129, 71.489, 43.305, 60.595, 57.166, 62.398, 20.839, 'nieuwe klant', 66.485, 87.304, 56.763, 'nieuwe klant'])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 2 producten gekocht voor €127.40
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 1 producten gekocht voor €15.87
+Deze klant heeft 8 producten gekocht voor €398.66
+Deze klant heeft 3 producten gekocht voor €210.55
+>>> Kassa([45.529, 'nieuwe klant', 47.538, 12.114, 'nieuwe klant', 'nieuwe klant', 36.74, 59.691, 31.73, 7.295, 83.267, 36.945, 94.503, 34.679, 34.822, 86.901, 28.173, 16.027, 87.919, 'nieuwe klant'])
+Deze klant heeft 1 producten gekocht voor €45.53
+Deze klant heeft 2 producten gekocht voor €59.65
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 13 producten gekocht voor €638.69
+>>> Kassa([99.435, 97.479, 38.953, 'nieuwe klant', 'nieuwe klant', 36.227, 'nieuwe klant', 20.558, 41.314, 69.855, 11.816, 80.985, 61.021, 83.842, 16.982, 89.671, 33.583, 80.985, 17.611, 24.418, 46.119, 77.799, 26.659, 69.681, 'nieuwe klant', 'nieuwe klant'])
+Deze klant heeft 3 producten gekocht voor €235.87
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 1 producten gekocht voor €36.23
+Deze klant heeft 17 producten gekocht voor €852.90
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([86.866, 68.208, 79.622, 16.553, 5.404, 52.837, 12.916, 75.45, 'nieuwe klant', 93.883, 88.64, 'nieuwe klant'])
+Deze klant heeft 8 producten gekocht voor €397.86
+Deze klant heeft 2 producten gekocht voor €182.52
+>>> Kassa([55.466, 17.113, 30.716, 'nieuwe klant', 62.499, 11.22, 85.93, 42.051, 6.389, 'nieuwe klant', 'nieuwe klant', 92.732, 42.61, 29.602, 'nieuwe klant'])
+Deze klant heeft 3 producten gekocht voor €103.30
+Deze klant heeft 5 producten gekocht voor €208.09
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 3 producten gekocht voor €164.94
+>>> Kassa([17.485, 'nieuwe klant', 42.67, 59.826, 97.033, 86.684, 3.262, 57.446, 69.745, 'nieuwe klant', 35.494, 45.982, 16.867, 'nieuwe klant', 92.918, 'nieuwe klant'])
+Deze klant heeft 1 producten gekocht voor €17.48
+Deze klant heeft 7 producten gekocht voor €416.67
+Deze klant heeft 3 producten gekocht voor €98.34
+Deze klant heeft 1 producten gekocht voor €92.92
+>>> Kassa([98.649, 85.635, 25.738, 82.378, 20.16, 90.955, 94.825, 'nieuwe klant', 66.11, 54.986, 26.081, 13.144, 'nieuwe klant', 19.518, 14.064, 39.41, 18.085, 24.959, 40.703, 13.671, 63.971])
+Deze klant heeft 7 producten gekocht voor €498.34
+Deze klant heeft 4 producten gekocht voor €160.32
+>>> Kassa(['nieuwe klant', 68.782, 5.68, 29.993, 86.049, 'nieuwe klant', 91.336, 35.177, 79.712, 'nieuwe klant', 82.625, 39.249, 45.627, 43.849, 61.761, 15.191, 17.548, 29.78, 80.142, 78.376, 35.908, 8.085, 52.632, 6.014])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 4 producten gekocht voor €190.50
+Deze klant heeft 3 producten gekocht voor €206.23
+>>> Kassa([47.595, 16.159, 'nieuwe klant', 'nieuwe klant'])
+Deze klant heeft 2 producten gekocht voor €63.75
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa(['nieuwe klant', 48.673, 68.358, 5.472, 35.576, 56.041, 46.117, 53.626, 'nieuwe klant', 70.983, 23.966, 2.405, 69.754, 'nieuwe klant', 47.339, 59.247, 51.957, 59.483, 'nieuwe klant', 31.439, 8.793, 42.181, 'nieuwe klant'])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 7 producten gekocht voor €313.86
+Deze klant heeft 4 producten gekocht voor €167.11
+Deze klant heeft 4 producten gekocht voor €218.03
+Deze klant heeft 3 producten gekocht voor €82.41
+>>> Kassa([51.73, 85.723, 88.84, 92.783, 'nieuwe klant', 99.245, 94.908, 90.066, 71.371, 64.422, 3.328, 4.54, 50.44, 'nieuwe klant', 'nieuwe klant', 'nieuwe klant', 90.213, 94.803, 1.294, 38.028, 'nieuwe klant', 'nieuwe klant', 'nieuwe klant', 94.194])
+Deze klant heeft 4 producten gekocht voor €319.08
+Deze klant heeft 8 producten gekocht voor €478.32
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 4 producten gekocht voor €224.34
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa(['nieuwe klant', 92.028, 91.425, 68.583, 8.583, 45.379, 96.333, 9.846, 91.961, 40.602, 'nieuwe klant', 56.048, 97.055])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 9 producten gekocht voor €544.74
+>>> Kassa([4.125, 'nieuwe klant', 37.231, 72.55, 57.35, 24.742, 87.494, 53.687, 8.511, 45.681, 20.752, 12.57, 32.425, 85.614, 0.774, 14.899, 46.364, 15.178, 33.188, 20.845, 76.498, 55.289, 79.155, 63.44, 1.822])
+Deze klant heeft 1 producten gekocht voor €4.12
+>>> Kassa([71.896, 43.415, 'nieuwe klant', 67.587, 56.638, 8.484, 42.069, 'nieuwe klant', 87.655, 24.368, 'nieuwe klant'])
+Deze klant heeft 2 producten gekocht voor €115.31
+Deze klant heeft 4 producten gekocht voor €174.78
+Deze klant heeft 2 producten gekocht voor €112.02
+>>> Kassa([47.637, 91.971, 32.064, 33.772, 'nieuwe klant', 79.777, 58.917, 'nieuwe klant', 'nieuwe klant', 96.158, 76.46, 48.038, 57.8, 'nieuwe klant', 59.185, 64.739])
+Deze klant heeft 4 producten gekocht voor €205.44
+Deze klant heeft 2 producten gekocht voor €138.69
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 4 producten gekocht voor €278.46
+>>> Kassa([5.669, 36.588, 80.579, 21.856, 61.841, 7.065, 73.884, 4.578, 6.838, 67.751, 56.143, 'nieuwe klant'])
+Deze klant heeft 11 producten gekocht voor €422.79
+>>> Kassa([89.351, 53.419, 33.304, 'nieuwe klant', 94.137, 69.876, 75.54, 47.098, 'nieuwe klant', 55.532, 'nieuwe klant', 'nieuwe klant', 2.942, 70.236, 34.09, 55.097, 79.2, 5.964, 95.803, 'nieuwe klant'])
+Deze klant heeft 3 producten gekocht voor €176.07
+Deze klant heeft 4 producten gekocht voor €286.65
+Deze klant heeft 1 producten gekocht voor €55.53
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 7 producten gekocht voor €343.33
+>>> Kassa([43.142, 'nieuwe klant', 44.763, 96.581, 93.01, 58.485, 92.863, 86.613, 71.483, 18.488, 59.412, 81.295, 65.623, 73.869, 49.721, 26.75, 'nieuwe klant'])
+Deze klant heeft 1 producten gekocht voor €43.14
+Deze klant heeft 14 producten gekocht voor €918.96
+>>> Kassa([38.069, 44.991, 75.389, 94.549, 75.271, 'nieuwe klant', 30.029, 69.911, 53.442, 'nieuwe klant', 25.912, 88.916, 99.892, 'nieuwe klant', 74.342, 71.52])
+Deze klant heeft 5 producten gekocht voor €328.27
+Deze klant heeft 3 producten gekocht voor €153.38
+Deze klant heeft 3 producten gekocht voor €214.72
+>>> Kassa([12.148, 43.915, 77.63, 15.847, 'nieuwe klant', 88.467, 94.176, 'nieuwe klant', 'nieuwe klant', 88.116, 11.078, 72.477, 57.782, 95.096, 'nieuwe klant', 26.766, 54.397, 84.285, 'nieuwe klant', 28.041, 99.368, 'nieuwe klant', 'nieuwe klant', 6.702, 'nieuwe klant'])
+Deze klant heeft 4 producten gekocht voor €149.54
+Deze klant heeft 2 producten gekocht voor €182.64
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 5 producten gekocht voor €324.55
+Deze klant heeft 3 producten gekocht voor €165.45
+Deze klant heeft 2 producten gekocht voor €127.41
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 1 producten gekocht voor €6.70
+>>> Kassa([65.17, 'nieuwe klant', 28.664, 55.527, 25.312, 98.328, 25.292, 'nieuwe klant'])
+Deze klant heeft 1 producten gekocht voor €65.17
+Deze klant heeft 5 producten gekocht voor €233.12
+>>> Kassa([44.11, 35.967, 87.013, 58.502, 84.901, 91.209, 85.034, 8.354, 60.597, 91.689])
+>>> Kassa(['nieuwe klant', 29.996, 15.4, 1.131, 72.18, 28.455, 57.006, 57.53, 'nieuwe klant', 10.593, 67.545, 88.45, 44.241, 'nieuwe klant', 32.841, 99.412, 'nieuwe klant', 2.532, 49.417, 92.059, 80.629, 91.941, 93.508])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 7 producten gekocht voor €261.70
+Deze klant heeft 4 producten gekocht voor €210.83
+Deze klant heeft 2 producten gekocht voor €132.25
+>>> Kassa(['nieuwe klant', 21.667, 'nieuwe klant'])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 1 producten gekocht voor €21.67
+>>> Kassa([18.54, 97.199, 95.139, 96.27, 84.913, 23.144, 7.409, 4.695, 95.417, 'nieuwe klant', 66.462, 73.844, 67.001, 10.978, 69.242, 19.644, 'nieuwe klant', 53.822, 86.007, 18.437, 71.351, 78.922])
+Deze klant heeft 9 producten gekocht voor €522.73
+Deze klant heeft 6 producten gekocht voor €307.17
+>>> Kassa([81.164, 80.47, 'nieuwe klant'])
+Deze klant heeft 2 producten gekocht voor €161.63
+>>> Kassa([52.232, 35.625, 'nieuwe klant', 'nieuwe klant', 70.516, 61.836, 74.992, 'nieuwe klant', 'nieuwe klant'])
+Deze klant heeft 2 producten gekocht voor €87.86
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 3 producten gekocht voor €207.34
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa(['nieuwe klant', 58.856, 29.696, 59.071, 34.426, 'nieuwe klant', 'nieuwe klant', 'nieuwe klant', 'nieuwe klant', 'nieuwe klant', 32.084, 46.469, 92.123, 47.413, 'nieuwe klant', 60.484, 12.415, 81.242, 'nieuwe klant', 82.182, 22.236, 'nieuwe klant', 'nieuwe klant'])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 4 producten gekocht voor €182.05
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 4 producten gekocht voor €218.09
+Deze klant heeft 3 producten gekocht voor €154.14
+Deze klant heeft 2 producten gekocht voor €104.42
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([87.933, 57.998, 74.138, 81.549, 72.257, 84.778, 'nieuwe klant', 'nieuwe klant', 4.65, 3.807, 'nieuwe klant', 37.126, 'nieuwe klant', 'nieuwe klant'])
+Deze klant heeft 6 producten gekocht voor €458.65
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 2 producten gekocht voor €8.46
+Deze klant heeft 1 producten gekocht voor €37.13
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([28.188, 52.491, 'nieuwe klant', 87.892, 66.08, 85.476, 86.057, 62.267, 60.46, 36.187, 10.553, 57.001, 90.82, 31.364, 50.618, 47.36, 50.406, 31.829, 'nieuwe klant'])
+Deze klant heeft 2 producten gekocht voor €80.68
+Deze klant heeft 15 producten gekocht voor €854.37
+>>> Kassa([24.181, 83.562, 23.44, 47.834, 42.264, 32.068, 'nieuwe klant', 63.181, 14.319, 24.107, 'nieuwe klant'])
+Deze klant heeft 6 producten gekocht voor €253.35
+Deze klant heeft 3 producten gekocht voor €101.61
+>>> Kassa(['nieuwe klant', 'nieuwe klant', 29.876, 'nieuwe klant', 25.175, 'nieuwe klant', 96.875, 82.006, 'nieuwe klant'])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 1 producten gekocht voor €29.88
+Deze klant heeft 1 producten gekocht voor €25.18
+Deze klant heeft 2 producten gekocht voor €178.88
+>>> Kassa([49.614, 76.586, 15.461, 'nieuwe klant', 'nieuwe klant', 29.23, 2.885, 1.684, 'nieuwe klant'])
+Deze klant heeft 3 producten gekocht voor €141.66
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 3 producten gekocht voor €33.80
+>>> Kassa([76.3, 'nieuwe klant', 17.949, 54.105, 34.425, 30.978, 32.627, 26.882, 5.112, 36.198, 70.659, 'nieuwe klant', 73.663, 97.822, 'nieuwe klant', 37.796, 40.523, 'nieuwe klant', 10.828, 78.552, 26.456, 'nieuwe klant'])
+Deze klant heeft 1 producten gekocht voor €76.30
+Deze klant heeft 9 producten gekocht voor €308.94
+Deze klant heeft 2 producten gekocht voor €171.49
+Deze klant heeft 2 producten gekocht voor €78.32
+Deze klant heeft 3 producten gekocht voor €115.84
+>>> Kassa([86.015, 5.065, 38.749, 'nieuwe klant', 'nieuwe klant', 43.609, 48.079, 16.547, 72.269, 22.428, 61.583, 73.719, 61.16, 89.828, 22.179, 'nieuwe klant', 'nieuwe klant'])
+Deze klant heeft 3 producten gekocht voor €129.83
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 10 producten gekocht voor €511.40
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([86.622, 22.913, 15.851, 60.248, 77.03, 58.327, 28.147, 58.744])
+>>> Kassa([96.097, 52.231, 63.904, 79.662, 48.677, 40.925, 24.344, 71.587, 71.329, 59.131])
+>>> Kassa([88.516, 20.167, 98.631, 99.772, 96.051, 43.212, 25.45, 54.492, 33.168, 68.556, 53.893])
+>>> Kassa([58.982, 81.488, 66.977, 'nieuwe klant', 42.711, 'nieuwe klant', 27.256, 6.548, 52.031, 'nieuwe klant', 65.688, 21.366, 66.53, 4.702, 89.849, 63.962, 85.917, 22.395, 'nieuwe klant'])
+Deze klant heeft 3 producten gekocht voor €207.45
+Deze klant heeft 1 producten gekocht voor €42.71
+Deze klant heeft 3 producten gekocht voor €85.84
+Deze klant heeft 8 producten gekocht voor €420.41
+>>> Kassa([37.607, 82.667, 46.54, 79.785, 47.315, 33.838, 72.992, 24.761, 9.325, 68.799, 73.727, 7.117, 73.005, 84.666, 83.075, 41.231, 19.837, 'nieuwe klant', 53.664, 46.236, 14.659, 38.943, 98.087, 63.301, 'nieuwe klant'])
+Deze klant heeft 17 producten gekocht voor €886.29
+Deze klant heeft 6 producten gekocht voor €314.89
+>>> Kassa([25.253, 20.648, 55.96, 46.272, 69.609, 'nieuwe klant', 'nieuwe klant'])
+Deze klant heeft 5 producten gekocht voor €217.74
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([26.833, 36.812, 65.883, 'nieuwe klant', 'nieuwe klant', 80.849, 73.629, 28.421, 45.399, 'nieuwe klant', 66.599, 81.927])
+Deze klant heeft 3 producten gekocht voor €129.53
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 4 producten gekocht voor €228.30
+>>> Kassa(['nieuwe klant', 82.556, 1.391, 75.906, 'nieuwe klant', 6.362, 61.735, 'nieuwe klant', 0.724, 'nieuwe klant', 57.446, 51.748, 'nieuwe klant', 60.078, 65.047, 74.401, 35.706, 89.734, 81.798, 4.133, 11.769, 53.063, 'nieuwe klant'])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 3 producten gekocht voor €159.85
+Deze klant heeft 2 producten gekocht voor €68.10
+Deze klant heeft 1 producten gekocht voor €0.72
+Deze klant heeft 2 producten gekocht voor €109.19
+Deze klant heeft 9 producten gekocht voor €475.73
+>>> Kassa([90.89, 77.782, 30.662, 'nieuwe klant', 'nieuwe klant', 51.91, 'nieuwe klant', 'nieuwe klant'])
+Deze klant heeft 3 producten gekocht voor €199.33
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 1 producten gekocht voor €51.91
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa(['nieuwe klant', 15.543, 92.946, 36.622, 72.493, 'nieuwe klant', 94.617, 20.937, 31.376, 8.863, 47.445, 'nieuwe klant'])
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 4 producten gekocht voor €217.60
+Deze klant heeft 5 producten gekocht voor €203.24
+>>> Kassa([95.174, 64.406, 65.141, 'nieuwe klant', 45.998, 'nieuwe klant', 1.344, 47.678, 0.519, 46.515, 59.204, 88.69, 98.007, 50.095])
+Deze klant heeft 3 producten gekocht voor €224.72
+Deze klant heeft 1 producten gekocht voor €46.00
+>>> Kassa(['nieuwe klant', 57.048, 54.003, 25.609, 92.707, 25.906, 81.139, 94.56, 88.954])
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([25.511, 35.795, 42.252, 48.447, 13.352, 'nieuwe klant', 15.294, 30.662, 8.162, 83.371, 'nieuwe klant', 92.249, 26.082, 10.319, 6.166, 41.193, 'nieuwe klant', 'nieuwe klant', 2.25, 1.291, 'nieuwe klant'])
+Deze klant heeft 5 producten gekocht voor €165.36
+Deze klant heeft 4 producten gekocht voor €137.49
+Deze klant heeft 5 producten gekocht voor €176.01
+Deze klant heeft 0 producten gekocht voor €0.00
+Deze klant heeft 2 producten gekocht voor €3.54
+>>> Kassa([90.219, 'nieuwe klant', 47.243, 'nieuwe klant', 17.243, 6.664, 12.577, 65.495, 27.763, 'nieuwe klant', 81.948, 19.96, 6.044, 8.364, 61.24, 'nieuwe klant', 'nieuwe klant'])
+Deze klant heeft 1 producten gekocht voor €90.22
+Deze klant heeft 1 producten gekocht voor €47.24
+Deze klant heeft 5 producten gekocht voor €129.74
+Deze klant heeft 5 producten gekocht voor €177.56
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([55.504, 15.751, 'nieuwe klant'])
+Deze klant heeft 2 producten gekocht voor €71.25
+>>> Kassa(['nieuwe klant', 35.176, 66.434])
+Deze klant heeft 0 producten gekocht voor €0.00
+>>> Kassa([95.819, 72.804, 23.522, 68.8, 'nieuwe klant'])
+Deze klant heeft 4 producten gekocht voor €260.94
