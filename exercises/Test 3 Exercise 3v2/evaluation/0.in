@@ -1,0 +1,12 @@
+>>> SomDelers(2)
+3
+>>> SomDelers(3)
+4
+>>> SomDelers(4)
+7
+>>> SomDelers(15)
+24
+>>> SomDelers(1)
+1
+>>> SomDelers(113)
+114
