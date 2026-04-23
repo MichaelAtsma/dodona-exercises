@@ -253,22 +253,22 @@ Maak een functie <function name="KlinkersEnMedeklinkers"></function> die een woo
   </thead>
   <tbody>
     <tr>
-      <td><function name="KlinkersEnMedeklinkers" inputs='["voorbeeld"]'></function></td>
+      <td><function name="KlinkersEnMedeklinkers" inputs='"voorbeeld"'></function></td>
       <td style="text-align: center;">→</td>
       <td><pre><code>voorbeeld bevat 4 klinkers en 5 medeklinkers.</code></pre></td>
     </tr>
     <tr>
-      <td><function name="KlinkersEnMedeklinkers" inputs='["michiels"]'></function></td>
+      <td><function name="KlinkersEnMedeklinkers" inputs='"michiels"'></function></td>
       <td style="text-align: center;">→</td>
       <td><pre><code>michiels bevat 3 klinkers en 5 medeklinkers.</code></pre></td>
     </tr>
     <tr>
-      <td><function name="KlinkersEnMedeklinkers" inputs='["atsma"]'></function></td>
+      <td><function name="KlinkersEnMedeklinkers" inputs='"atsma"'></function></td>
       <td style="text-align: center;">→</td>
       <td><pre><code>atsma bevat 2 klinkers en 3 medeklinkers.</code></pre></td>
     </tr>
     <tr>
-      <td><function name="KlinkersEnMedeklinkers" inputs='["ikkanprogrammeren"]'></function></td>
+      <td><function name="KlinkersEnMedeklinkers" inputs='"ikkanprogrammeren"'></function></td>
       <td style="text-align: center;">→</td>
       <td><pre><code>ikkanprogrammeren bevat 6 klinkers en 11 medeklinkers.     </code></pre></td>
     </tr>
