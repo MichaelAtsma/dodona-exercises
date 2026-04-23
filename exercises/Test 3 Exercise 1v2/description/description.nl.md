@@ -266,10 +266,10 @@ Let op dat prijzen altijd worden afgerond op twee decimalen, ook als het getal e
     <tr>
       <td><function name="Kassa" inputs='[1.49, 0.95, "nieuwe klant", 2, "nieuwe klant", 5.11]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code>Deze klant heeft 2 producten gekocht voor<span class="enable-select"> €</span>2.44<br>Deze klant heeft 1 producten gekocht voor<span class="enable-select"> €</span>2.00<br>Deze klant heeft 1 producten gekocht voor<span class="enable-select"> €</span>5.11</code></pre></td>
+      <td><pre><code>Deze klant heeft 2 producten gekocht voor<span class="enable-select"> €</span>2.44<br>Deze klant heeft 1 producten gekocht voor<span class="enable-select"> €</span>2.00</code></pre></td>
     </tr>
     <tr>
-      <td><function name="Kassa" inputs='[1.234, "nieuwe klant", 6.415]'></function></td>
+      <td><function name="Kassa" inputs='[1.234, "nieuwe klant", 6.415, "nieuwe klant"]'></function></td>
       <td style="text-align: center;">→</td>
       <td><pre><code>Deze klant heeft 1 producten gekocht voor<span class="enable-select"> €</span>1.23<br>Deze klant heeft 1 producten gekocht voor<span class="enable-select"> €</span>6.42</code></pre></td>
     </tr>

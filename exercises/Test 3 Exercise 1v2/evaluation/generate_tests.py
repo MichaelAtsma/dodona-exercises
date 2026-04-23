@@ -45,13 +45,13 @@ def GenerateShoppingCart():
 
 function_effect = "prints"
 function = Kassa
-bulk_test = True
+bulk_test = False
 
 if not bulk_test:
     X = [([2, 5, "nieuwe klant"],),
          ([10, 20, 30, "nieuwe klant", 40, 50, "nieuwe klant"],),
          ([1.49, 0.95, "nieuwe klant", 2, "nieuwe klant", 5.11],),
-         ([1.234, "nieuwe klant", 6.415],),
+         ([1.234, "nieuwe klant", 6.415, "nieuwe klant"],),
          ([],),
          (["nieuwe klant"],),]
 else:
