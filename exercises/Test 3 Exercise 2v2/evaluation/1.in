@@ -1,0 +1,400 @@
+>>> SchoolMotto('')
+ bevat 0 GOKAE letters en 0 andere letters.
+>>> SchoolMotto('g')
+g bevat 0 GOKAE letters en 1 andere letters.
+>>> SchoolMotto('G')
+G bevat 1 GOKAE letters en 0 andere letters.
+>>> SchoolMotto('gokae')
+gokae bevat 0 GOKAE letters en 5 andere letters.
+>>> SchoolMotto('GOKAE')
+GOKAE bevat 5 GOKAE letters en 0 andere letters.
+>>> SchoolMotto('GGGGGG')
+GGGGGG bevat 6 GOKAE letters en 0 andere letters.
+>>> SchoolMotto('OOOOOO')
+OOOOOO bevat 6 GOKAE letters en 0 andere letters.
+>>> SchoolMotto('KKKKKK')
+KKKKKK bevat 6 GOKAE letters en 0 andere letters.
+>>> SchoolMotto('AAAAAA')
+AAAAAA bevat 6 GOKAE letters en 0 andere letters.
+>>> SchoolMotto('EEEEEE')
+EEEEEE bevat 6 GOKAE letters en 0 andere letters.
+>>> SchoolMotto('gggggg')
+gggggg bevat 0 GOKAE letters en 6 andere letters.
+>>> SchoolMotto('gokaegokae')
+gokaegokae bevat 0 GOKAE letters en 10 andere letters.
+>>> SchoolMotto('GOKAEGOKAE')
+GOKAEGOKAE bevat 10 GOKAE letters en 0 andere letters.
+>>> SchoolMotto('EHnKVJESsKtfYwghTKLFOoXOEnAKSOOOGrE')
+EHnKVJESsKtfYwghTKLFOoXOEnAKSOOOGrE bevat 15 GOKAE letters en 20 andere letters.
+>>> SchoolMotto('cAlCiTRaTE')
+cAlCiTRaTE bevat 2 GOKAE letters en 8 andere letters.
+>>> SchoolMotto('SOLENiTis')
+SOLENiTis bevat 2 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('fRAntiCALLy')
+fRAntiCALLy bevat 2 GOKAE letters en 9 andere letters.
+>>> SchoolMotto('ArEnUlOUS')
+ArEnUlOUS bevat 3 GOKAE letters en 6 andere letters.
+>>> SchoolMotto('unnOvERcAL')
+unnOvERcAL bevat 3 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('GeOAHpCgGsOKAOjQAARaPGjhVrOEOVKUKiEGKAI')
+GeOAHpCgGsOKAOjQAARaPGjhVrOEOVKUKiEGKAI bevat 20 GOKAE letters en 19 andere letters.
+>>> SchoolMotto('NoNGRAphIcAl')
+NoNGRAphIcAl bevat 3 GOKAE letters en 9 andere letters.
+>>> SchoolMotto('PLAsmoDIuM')
+PLAsmoDIuM bevat 1 GOKAE letters en 9 andere letters.
+>>> SchoolMotto('fAQirS')
+fAQirS bevat 1 GOKAE letters en 5 andere letters.
+>>> SchoolMotto('GliaDinS')
+GliaDinS bevat 1 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('ChrIStOfer')
+ChrIStOfer bevat 1 GOKAE letters en 9 andere letters.
+>>> SchoolMotto('piNGuitE')
+piNGuitE bevat 2 GOKAE letters en 6 andere letters.
+>>> SchoolMotto('GpKzEPOnGBEuDjORY')
+GpKzEPOnGBEuDjORY bevat 7 GOKAE letters en 10 andere letters.
+>>> SchoolMotto('AMOzJEfVge')
+AMOzJEfVge bevat 3 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('hOUSEBOAt')
+hOUSEBOAt bevat 4 GOKAE letters en 5 andere letters.
+>>> SchoolMotto('aAOKxgUNNClSk')
+aAOKxgUNNClSk bevat 3 GOKAE letters en 10 andere letters.
+>>> SchoolMotto('ZxkAKjOOEOIEJeOhZuAkMOAKIsZOqIy')
+ZxkAKjOOEOIEJeOhZuAkMOAKIsZOqIy bevat 13 GOKAE letters en 18 andere letters.
+>>> SchoolMotto('ptOmAin')
+ptOmAin bevat 2 GOKAE letters en 5 andere letters.
+>>> SchoolMotto('cHAnFrONS')
+cHAnFrONS bevat 2 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('HOleAble')
+HOleAble bevat 2 GOKAE letters en 6 andere letters.
+>>> SchoolMotto('AntINiOn')
+AntINiOn bevat 2 GOKAE letters en 6 andere letters.
+>>> SchoolMotto('imPrEsSAble')
+imPrEsSAble bevat 2 GOKAE letters en 9 andere letters.
+>>> SchoolMotto('BOrbOrygMAtIc')
+BOrbOrygMAtIc bevat 3 GOKAE letters en 10 andere letters.
+>>> SchoolMotto('WGpnGhqhpnADmcGXKOKGuwEfOhKEaAIOMhxbUQrkOfGVKCOKG')
+WGpnGhqhpnADmcGXKOKGuwEfOhKEaAIOMhxbUQrkOfGVKCOKG bevat 20 GOKAE letters en 29 andere letters.
+>>> SchoolMotto('kG')
+kG bevat 1 GOKAE letters en 1 andere letters.
+>>> SchoolMotto('kLYstrONS')
+kLYstrONS bevat 1 GOKAE letters en 8 andere letters.
+>>> SchoolMotto('mOONRIsE')
+mOONRIsE bevat 3 GOKAE letters en 5 andere letters.
+>>> SchoolMotto('SilvERSmiTh')
+SilvERSmiTh bevat 1 GOKAE letters en 10 andere letters.
+>>> SchoolMotto('wEtTER')
+wEtTER bevat 2 GOKAE letters en 4 andere letters.
+>>> SchoolMotto('uNBALANCEMENT')
+uNBALANCEMENT bevat 4 GOKAE letters en 9 andere letters.
+>>> SchoolMotto('AMIdasE')
+AMIdasE bevat 2 GOKAE letters en 5 andere letters.
+>>> SchoolMotto('SeTIKVjpJeEK')
+SeTIKVjpJeEK bevat 3 GOKAE letters en 9 andere letters.
+>>> SchoolMotto('hYDrOCErusSITE')
+hYDrOCErusSITE bevat 3 GOKAE letters en 11 andere letters.
+>>> SchoolMotto('MALEbolgE')
+MALEbolgE bevat 3 GOKAE letters en 6 andere letters.
+>>> SchoolMotto('INkwElls')
+INkwElls bevat 1 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('TrOMbOneS')
+TrOMbOneS bevat 2 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('rLRJKLQAPAfiaUKHGdZqACCjnROLbcwKGAEA')
+rLRJKLQAPAfiaUKHGdZqACCjnROLbcwKGAEA bevat 12 GOKAE letters en 24 andere letters.
+>>> SchoolMotto('BaThYSCAPhES')
+BaThYSCAPhES bevat 2 GOKAE letters en 10 andere letters.
+>>> SchoolMotto('UNARtiCUlAtE')
+UNARtiCUlAtE bevat 3 GOKAE letters en 9 andere letters.
+>>> SchoolMotto('cLONiNG')
+cLONiNG bevat 2 GOKAE letters en 5 andere letters.
+>>> SchoolMotto('leuCoTIc')
+leuCoTIc bevat 0 GOKAE letters en 8 andere letters.
+>>> SchoolMotto('OROgRAPHic')
+OROgRAPHic bevat 3 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('wHEiN')
+wHEiN bevat 1 GOKAE letters en 4 andere letters.
+>>> SchoolMotto('IkGcGEKkaL')
+IkGcGEKkaL bevat 4 GOKAE letters en 6 andere letters.
+>>> SchoolMotto('IdIOGrAPHic')
+IdIOGrAPHic bevat 3 GOKAE letters en 8 andere letters.
+>>> SchoolMotto('REfECtOriaN')
+REfECtOriaN bevat 3 GOKAE letters en 8 andere letters.
+>>> SchoolMotto('dAUDED')
+dAUDED bevat 2 GOKAE letters en 4 andere letters.
+>>> SchoolMotto('OETANCsAFIkAwSGEEYKoG')
+OETANCsAFIkAwSGEEYKoG bevat 10 GOKAE letters en 11 andere letters.
+>>> SchoolMotto('EXALtEE')
+EXALtEE bevat 4 GOKAE letters en 3 andere letters.
+>>> SchoolMotto('ExoluTiOn')
+ExoluTiOn bevat 2 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('IsEQQsNKxYOgGQCtKEvoAAEEJmmsjOEUGGGxEeuER')
+IsEQQsNKxYOgGQCtKEvoAAEEJmmsjOEUGGGxEeuER bevat 17 GOKAE letters en 24 andere letters.
+>>> SchoolMotto('TESSELLaTiOn')
+TESSELLaTiOn bevat 3 GOKAE letters en 9 andere letters.
+>>> SchoolMotto('HypOCOnid')
+HypOCOnid bevat 2 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('vAmpirE')
+vAmpirE bevat 2 GOKAE letters en 5 andere letters.
+>>> SchoolMotto('MASSetErIC')
+MASSetErIC bevat 2 GOKAE letters en 8 andere letters.
+>>> SchoolMotto('TUppENcE')
+TUppENcE bevat 2 GOKAE letters en 6 andere letters.
+>>> SchoolMotto('StreAMWAY')
+StreAMWAY bevat 2 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('oKQrEOOfA')
+oKQrEOOfA bevat 5 GOKAE letters en 4 andere letters.
+>>> SchoolMotto('rESiNOeLEctRIc')
+rESiNOeLEctRIc bevat 3 GOKAE letters en 11 andere letters.
+>>> SchoolMotto('unSTAInAblE')
+unSTAInAblE bevat 3 GOKAE letters en 8 andere letters.
+>>> SchoolMotto('PurVEyEd')
+PurVEyEd bevat 2 GOKAE letters en 6 andere letters.
+>>> SchoolMotto('yXiAKGXAXCAKkRfXGMpOYkCOeDWjG')
+yXiAKGXAXCAKkRfXGMpOYkCOeDWjG bevat 10 GOKAE letters en 19 andere letters.
+>>> SchoolMotto('cOuVADES')
+cOuVADES bevat 3 GOKAE letters en 5 andere letters.
+>>> SchoolMotto('OVERoBsEQuIOuSNESs')
+OVERoBsEQuIOuSNESs bevat 5 GOKAE letters en 13 andere letters.
+>>> SchoolMotto('uNiFORMS')
+uNiFORMS bevat 1 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('spoROiD')
+spoROiD bevat 1 GOKAE letters en 6 andere letters.
+>>> SchoolMotto('REVoLutiONIsEr')
+REVoLutiONIsEr bevat 3 GOKAE letters en 11 andere letters.
+>>> SchoolMotto('mATrONs')
+mATrONs bevat 2 GOKAE letters en 5 andere letters.
+>>> SchoolMotto('GvKeOVGseHxeZJjEOjxEEGAAAhKJCOAExFdc')
+GvKeOVGseHxeZJjEOjxEEGAAAhKJCOAExFdc bevat 16 GOKAE letters en 20 andere letters.
+>>> SchoolMotto('cLIPped')
+cLIPped bevat 0 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('gOKGByXOUpDmGEAGGjSIGKOPAOFkGOJqXKOKKAjlGZGEGcpoG')
+gOKGByXOUpDmGEAGGjSIGKOPAOFkGOJqXKOKKAjlGZGEGcpoG bevat 26 GOKAE letters en 23 andere letters.
+>>> SchoolMotto('aSCElLI')
+aSCElLI bevat 1 GOKAE letters en 6 andere letters.
+>>> SchoolMotto('sAWWoRkER')
+sAWWoRkER bevat 2 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('UnDERtHiRsT')
+UnDERtHiRsT bevat 1 GOKAE letters en 10 andere letters.
+>>> SchoolMotto('UndISObLIGinG')
+UndISObLIGinG bevat 3 GOKAE letters en 10 andere letters.
+>>> SchoolMotto('KkKEGGXawTEfGEvOixrASETAGHGtAKCzK')
+KkKEGGXawTEfGEvOixrASETAGHGtAKCzK bevat 17 GOKAE letters en 16 andere letters.
+>>> SchoolMotto('ShEErlY')
+ShEErlY bevat 2 GOKAE letters en 5 andere letters.
+>>> SchoolMotto('glObulOus')
+glObulOus bevat 2 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('pUcKErY')
+pUcKErY bevat 2 GOKAE letters en 5 andere letters.
+>>> SchoolMotto('REjUVenEscE')
+REjUVenEscE bevat 3 GOKAE letters en 8 andere letters.
+>>> SchoolMotto('crUsTIesT')
+crUsTIesT bevat 0 GOKAE letters en 9 andere letters.
+>>> SchoolMotto('YUGoSlAviA')
+YUGoSlAviA bevat 3 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('AIxZKLAKdg')
+AIxZKLAKdg bevat 4 GOKAE letters en 6 andere letters.
+>>> SchoolMotto('UNPAYAblE')
+UNPAYAblE bevat 3 GOKAE letters en 6 andere letters.
+>>> SchoolMotto('HETErOCLiTIcAl')
+HETErOCLiTIcAl bevat 4 GOKAE letters en 10 andere letters.
+>>> SchoolMotto('UREOTeliSM')
+UREOTeliSM bevat 2 GOKAE letters en 8 andere letters.
+>>> SchoolMotto('wHIzBANG')
+wHIzBANG bevat 2 GOKAE letters en 6 andere letters.
+>>> SchoolMotto('diAErEsEs')
+diAErEsEs bevat 4 GOKAE letters en 5 andere letters.
+>>> SchoolMotto('HArstRAnG')
+HArstRAnG bevat 3 GOKAE letters en 6 andere letters.
+>>> SchoolMotto('GJAgKEEadvliOVRKA')
+GJAgKEEadvliOVRKA bevat 8 GOKAE letters en 9 andere letters.
+>>> SchoolMotto('OsRthGMNcuEArMeGGhExOZd')
+OsRthGMNcuEArMeGGhExOZd bevat 8 GOKAE letters en 15 andere letters.
+>>> SchoolMotto('NaRcOSeS')
+NaRcOSeS bevat 1 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('miZMlEHNEOFGyEIWORl')
+miZMlEHNEOFGyEIWORl bevat 6 GOKAE letters en 13 andere letters.
+>>> SchoolMotto('HYPSOpHYllAry')
+HYPSOpHYllAry bevat 2 GOKAE letters en 11 andere letters.
+>>> SchoolMotto('AAOeLNHAGeOOOBGEOTaFCOGKlVKlkYHo')
+AAOeLNHAGeOOOBGEOTaFCOGKlVKlkYHo bevat 15 GOKAE letters en 17 andere letters.
+>>> SchoolMotto('cASTIGATEd')
+cASTIGATEd bevat 4 GOKAE letters en 6 andere letters.
+>>> SchoolMotto('rrKGnkOJohBKEGijErxkvXNDOuEvAOXGGAAEmBqBEK')
+rrKGnkOJohBKEGijErxkvXNDOuEvAOXGGAAEmBqBEK bevat 18 GOKAE letters en 24 andere letters.
+>>> SchoolMotto('uREthrospasm')
+uREthrospasm bevat 1 GOKAE letters en 11 andere letters.
+>>> SchoolMotto('GArrnIshaBlE')
+GArrnIshaBlE bevat 3 GOKAE letters en 9 andere letters.
+>>> SchoolMotto('clAreNCE')
+clAreNCE bevat 2 GOKAE letters en 6 andere letters.
+>>> SchoolMotto('bOKYdEoGKKrLAAsbAGKjpOoKOAiYAjGyEEGXMBGWAOSOEdKp')
+bOKYdEoGKKrLAAsbAGKjpOoKOAiYAjGyEEGXMBGWAOSOEdKp bevat 26 GOKAE letters en 22 andere letters.
+>>> SchoolMotto('ORtHite')
+ORtHite bevat 1 GOKAE letters en 6 andere letters.
+>>> SchoolMotto('rEAMEREr')
+rEAMEREr bevat 4 GOKAE letters en 4 andere letters.
+>>> SchoolMotto('CrANiOMETRIcALly')
+CrANiOMETRIcALly bevat 4 GOKAE letters en 12 andere letters.
+>>> SchoolMotto('WamuS')
+WamuS bevat 0 GOKAE letters en 5 andere letters.
+>>> SchoolMotto('RaptorES')
+RaptorES bevat 1 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('tOpInG')
+tOpInG bevat 2 GOKAE letters en 4 andere letters.
+>>> SchoolMotto('PqAaZYlANFKgwAnGNOxUEmJd')
+PqAaZYlANFKgwAnGNOxUEmJd bevat 7 GOKAE letters en 17 andere letters.
+>>> SchoolMotto('fzYOOTOwooOEoYnENIGXGAABlZjniARGnefE')
+fzYOOTOwooOEoYnENIGXGAABlZjniARGnefE bevat 13 GOKAE letters en 23 andere letters.
+>>> SchoolMotto('bOGaBAOa')
+bOGaBAOa bevat 4 GOKAE letters en 4 andere letters.
+>>> SchoolMotto('banjUKE')
+banjUKE bevat 2 GOKAE letters en 5 andere letters.
+>>> SchoolMotto('mALMaG')
+mALMaG bevat 2 GOKAE letters en 4 andere letters.
+>>> SchoolMotto('ChANCreS')
+ChANCreS bevat 1 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('stENOCEpHAly')
+stENOCEpHAly bevat 4 GOKAE letters en 8 andere letters.
+>>> SchoolMotto('pOrtrAYaBlE')
+pOrtrAYaBlE bevat 3 GOKAE letters en 8 andere letters.
+>>> SchoolMotto('EUpAtrIds')
+EUpAtrIds bevat 2 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('EpITOKE')
+EpITOKE bevat 4 GOKAE letters en 3 andere letters.
+>>> SchoolMotto('fItchEe')
+fItchEe bevat 1 GOKAE letters en 6 andere letters.
+>>> SchoolMotto('tiRlFBP')
+tiRlFBP bevat 0 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('esCOrt')
+esCOrt bevat 1 GOKAE letters en 5 andere letters.
+>>> SchoolMotto('KENO')
+KENO bevat 3 GOKAE letters en 1 andere letters.
+>>> SchoolMotto('GAstROPylORic')
+GAstROPylORic bevat 4 GOKAE letters en 9 andere letters.
+>>> SchoolMotto('sUccEEd')
+sUccEEd bevat 2 GOKAE letters en 5 andere letters.
+>>> SchoolMotto('iOnICitY')
+iOnICitY bevat 1 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('fEAAdVVjOqGL')
+fEAAdVVjOqGL bevat 5 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('swArdY')
+swArdY bevat 1 GOKAE letters en 5 andere letters.
+>>> SchoolMotto('PiNyl')
+PiNyl bevat 0 GOKAE letters en 5 andere letters.
+>>> SchoolMotto('KUH')
+KUH bevat 1 GOKAE letters en 2 andere letters.
+>>> SchoolMotto('OGUstvanKJOE')
+OGUstvanKJOE bevat 5 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('SyLviNes')
+SyLviNes bevat 0 GOKAE letters en 8 andere letters.
+>>> SchoolMotto('OGGsAAEGeAAWjBOxSEGqbOGaOpOAYAKBEG')
+OGGsAAEGeAAWjBOxSEGqbOGaOpOAYAKBEG bevat 21 GOKAE letters en 13 andere letters.
+>>> SchoolMotto('BEEriNEss')
+BEEriNEss bevat 3 GOKAE letters en 6 andere letters.
+>>> SchoolMotto('sOntENna')
+sOntENna bevat 2 GOKAE letters en 6 andere letters.
+>>> SchoolMotto('EuClideAN')
+EuClideAN bevat 2 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('CatSkilL')
+CatSkilL bevat 0 GOKAE letters en 8 andere letters.
+>>> SchoolMotto('UNcONfoRMitY')
+UNcONfoRMitY bevat 1 GOKAE letters en 11 andere letters.
+>>> SchoolMotto('JAcKsONIA')
+JAcKsONIA bevat 4 GOKAE letters en 5 andere letters.
+>>> SchoolMotto('DANDleD')
+DANDleD bevat 1 GOKAE letters en 6 andere letters.
+>>> SchoolMotto('fLOwEr')
+fLOwEr bevat 2 GOKAE letters en 4 andere letters.
+>>> SchoolMotto('RUbRiCISM')
+RUbRiCISM bevat 0 GOKAE letters en 9 andere letters.
+>>> SchoolMotto('ORANgEIsH')
+ORANgEIsH bevat 3 GOKAE letters en 6 andere letters.
+>>> SchoolMotto('NxbGKPgEGOHUjKsAKkKAKzZEXOOAEGOglShzEFPOO')
+NxbGKPgEGOHUjKsAKkKAKzZEXOOAEGOglShzEFPOO bevat 21 GOKAE letters en 20 andere letters.
+>>> SchoolMotto('aLbInOtIC')
+aLbInOtIC bevat 1 GOKAE letters en 8 andere letters.
+>>> SchoolMotto('EGSHGagEvIeKmGQzbSGEBnOAjKGfLGoZXEEshoZRG')
+EGSHGagEvIeKmGQzbSGEBnOAjKGfLGoZXEEshoZRG bevat 16 GOKAE letters en 25 andere letters.
+>>> SchoolMotto('hFOAiTivcEsBL')
+hFOAiTivcEsBL bevat 3 GOKAE letters en 10 andere letters.
+>>> SchoolMotto('SySSitION')
+SySSitION bevat 1 GOKAE letters en 8 andere letters.
+>>> SchoolMotto('prioriStICAlLY')
+prioriStICAlLY bevat 1 GOKAE letters en 13 andere letters.
+>>> SchoolMotto('FAIAnaGtlvAABYKKGhAcOkKj')
+FAIAnaGtlvAABYKKGhAcOkKj bevat 11 GOKAE letters en 13 andere letters.
+>>> SchoolMotto('PlEAtEd')
+PlEAtEd bevat 3 GOKAE letters en 4 andere letters.
+>>> SchoolMotto('kIZYAntgUbzZWB')
+kIZYAntgUbzZWB bevat 1 GOKAE letters en 13 andere letters.
+>>> SchoolMotto('tiMElEssly')
+tiMElEssly bevat 2 GOKAE letters en 8 andere letters.
+>>> SchoolMotto('SASSOLiTe')
+SASSOLiTe bevat 2 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('ARXcAwkvOYfGOnGfGRocASZECvpwrCIVU')
+ARXcAwkvOYfGOnGfGRocASZECvpwrCIVU bevat 9 GOKAE letters en 24 andere letters.
+>>> SchoolMotto('unrOOfs')
+unrOOfs bevat 2 GOKAE letters en 5 andere letters.
+>>> SchoolMotto('CHORIoIDOrEtinitis')
+CHORIoIDOrEtinitis bevat 3 GOKAE letters en 15 andere letters.
+>>> SchoolMotto('ArGALI')
+ArGALI bevat 3 GOKAE letters en 3 andere letters.
+>>> SchoolMotto('cAnDyMAKer')
+cAnDyMAKer bevat 3 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('vALEtudiNARiUm')
+vALEtudiNARiUm bevat 3 GOKAE letters en 11 andere letters.
+>>> SchoolMotto('NslIADxsWkJKEVKgeKAuBDAY')
+NslIADxsWkJKEVKgeKAuBDAY bevat 7 GOKAE letters en 17 andere letters.
+>>> SchoolMotto('EG')
+EG bevat 2 GOKAE letters en 0 andere letters.
+>>> SchoolMotto('ANAXaGoREAn')
+ANAXaGoREAn bevat 5 GOKAE letters en 6 andere letters.
+>>> SchoolMotto('FKwKEXEvK')
+FKwKEXEvK bevat 5 GOKAE letters en 4 andere letters.
+>>> SchoolMotto('tOpHAiKE')
+tOpHAiKE bevat 4 GOKAE letters en 4 andere letters.
+>>> SchoolMotto('phARMacOsiDERITE')
+phARMacOsiDERITE bevat 4 GOKAE letters en 12 andere letters.
+>>> SchoolMotto('bEtuLINIC')
+bEtuLINIC bevat 1 GOKAE letters en 8 andere letters.
+>>> SchoolMotto('SEMImEmbrANOsUS')
+SEMImEmbrANOsUS bevat 4 GOKAE letters en 11 andere letters.
+>>> SchoolMotto('xOOAeaZKUI')
+xOOAeaZKUI bevat 4 GOKAE letters en 6 andere letters.
+>>> SchoolMotto('kORe')
+kORe bevat 1 GOKAE letters en 3 andere letters.
+>>> SchoolMotto('soLdIEress')
+soLdIEress bevat 1 GOKAE letters en 9 andere letters.
+>>> SchoolMotto('TReNded')
+TReNded bevat 0 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('SurprISEmENt')
+SurprISEmENt bevat 2 GOKAE letters en 10 andere letters.
+>>> SchoolMotto('TiGELlum')
+TiGELlum bevat 2 GOKAE letters en 6 andere letters.
+>>> SchoolMotto('uDGuwoDiWpOOKOYLABAgAAcKyDGCJIA')
+uDGuwoDiWpOOKOYLABAgAAcKyDGCJIA bevat 12 GOKAE letters en 19 andere letters.
+>>> SchoolMotto('UNPROfEsSORIallY')
+UNPROfEsSORIallY bevat 3 GOKAE letters en 13 andere letters.
+>>> SchoolMotto('REbALAnCIng')
+REbALAnCIng bevat 3 GOKAE letters en 8 andere letters.
+>>> SchoolMotto('gudeS')
+gudeS bevat 0 GOKAE letters en 5 andere letters.
+>>> SchoolMotto('EGKgGISjEAXvGmqpMEnqzsqKMKVOERcmSjGdEAZOVkuAKdjwmG')
+EGKgGISjEAXvGmqpMEnqzsqKMKVOERcmSjGdEAZOVkuAKdjwmG bevat 19 GOKAE letters en 31 andere letters.
+>>> SchoolMotto('wEbsTEritE')
+wEbsTEritE bevat 3 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('COnsEqUENCEs')
+COnsEqUENCEs bevat 4 GOKAE letters en 8 andere letters.
+>>> SchoolMotto('iMpArTErS')
+iMpArTErS bevat 2 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('ONDY')
+ONDY bevat 1 GOKAE letters en 3 andere letters.
+>>> SchoolMotto('YQJVvueOACZmgUsCCApKqAEyzCojOozAwOVgGTqEkzsJQ')
+YQJVvueOACZmgUsCCApKqAEyzCojOozAwOVgGTqEkzsJQ bevat 11 GOKAE letters en 34 andere letters.
+>>> SchoolMotto('LoansHiFt')
+LoansHiFt bevat 0 GOKAE letters en 9 andere letters.
+>>> SchoolMotto('UNRaDIoActIvE')
+UNRaDIoActIvE bevat 2 GOKAE letters en 11 andere letters.
+>>> SchoolMotto('AGdBGPKKEZSnLEOAE')
+AGdBGPKKEZSnLEOAE bevat 10 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('arIthMIc')
+arIthMIc bevat 0 GOKAE letters en 8 andere letters.

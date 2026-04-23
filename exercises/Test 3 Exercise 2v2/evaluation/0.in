@@ -1,0 +1,10 @@
+>>> SchoolMotto('vOorbEelD')
+vOorbEelD bevat 2 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('michiEls')
+michiEls bevat 1 GOKAE letters en 7 andere letters.
+>>> SchoolMotto('AtsmA')
+AtsmA bevat 2 GOKAE letters en 3 andere letters.
+>>> SchoolMotto('iKKanprOgrAmmeren')
+iKKanprOgrAmmeren bevat 4 GOKAE letters en 13 andere letters.
+>>> SchoolMotto('GOKAEgokae')
+GOKAEgokae bevat 5 GOKAE letters en 5 andere letters.
