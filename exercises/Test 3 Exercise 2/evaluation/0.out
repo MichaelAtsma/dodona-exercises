@@ -5,5 +5,5 @@ used output channel: stdout
     <function from="KlinkersEnMedeklinkers" to="VowelsAndConsonants" />
     <fixed from=" bevat " to=" contains " />
     <fixed from=" klinkers en " to=" vowels and " />
-    <fixed from=" medeklinkers " to=" consonants " />
+    <fixed from=" medeklinkers" to=" consonants" />
 </LANGUAGE>
