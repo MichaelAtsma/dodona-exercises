@@ -250,10 +250,10 @@ Maak een functie <function style="enable-select;" name="SomGeschrevenGetallen"><
 
 Dan is de uitkomst 15, want:
 <ul>
-  <li><code>"1"</code> staat voor het getal 1 en <code>"2"</code> staat voor het getal 2, dus dat is samen <span style="white-space: nowrap;">1 + 2 = 3</span> in Lijst 1.</li>
-  <li><code>"3"</code> staat voor het getal 3, <code>"4"</code> staat voor het getal 4, en <code>"5"</code> staat voor het getal 5, dus dat is samen <span style="white-space: nowrap;">3 + 4 + 5 = 12</span> in Lijst 2.</li>
+  <li><code>"1"</code> staat voor het getal 1 en <code>"2"</code> staat voor het getal 2, dus dat is samen <span style="white-space: nowrap;"><code>1+2=3</code></span> in Lijst 1.</li>
+  <li><code>"3"</code> staat voor het getal 3, <code>"4"</code> staat voor het getal 4, en <code>"5"</code> staat voor het getal 5, dus dat is samen <span style="white-space: nowrap;"><code>3+4+5=12</code></span> in Lijst 2.</li>
 </ul>
-En <span style="white-space: nowrap;">3 + 12 = 15</span>, dus de functie zou 15 terug moeten geven.
+En <span style="white-space: nowrap;"><code>3+12=15</code></span>, dus de functie zou 15 terug moeten geven.
 
 <br>
 <hr>
@@ -274,19 +274,19 @@ En <span style="white-space: nowrap;">3 + 12 = 15</span>, dus de functie zou 15 
     <tr>
       <td><function name="SomGeschrevenGetallen" inputs='["1", "2"], ["3", "4", "5"]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><code class="string">15</code></td>
+      <td><code>15</code></td>
       <td>Lijst 1 bevat 3 (1+2) en Lijst 2 bevat 12 (3+4+5), dus dat is samen 15.</td>
     </tr>
     <tr>
       <td><function name="SomGeschrevenGetallen" inputs='["18", "2"], ["20", "0"]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><code class="string">40</code></td>
+      <td><code>40</code></td>
       <td>Lijst 1 bevat 20 (18+2) en Lijst 2 bevat 20 (20+0), dus dat is samen 40.</td>
     </tr>
     <tr>
       <td><function name="SomGeschrevenGetallen" inputs='["1", "2"], []'></function></td>
       <td style="text-align: center;">→</td>
-      <td><code class="string">3</code></td>
+      <td><code>3</code></td>
       <td>Lijst 1 bevat 3 (1+2), en Lijst 2 bevat 0 (lege lijst), dus dat is samen 3.</td>
     </tr>
   </tbody>
