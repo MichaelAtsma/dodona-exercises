@@ -46,6 +46,7 @@ if not bulk_test:
 else:
     amount = 100
     edge_cases = [([], []),
+                  (["-1", "-2"], ["-3", "-4", "-5"]),
                   (["0"], ["0"]),
                   (["0"], []),
                   ([], ["0"]),
@@ -57,8 +58,8 @@ else:
     X = edge_cases.copy()
     X = []
     while len(X) < amount:
-        list1 = [str(random.randint(0, 1000000)) for _ in range(random.randint(0, 20))]
-        list2 = [str(random.randint(0, 1000000)) for _ in range(random.randint(0, 20))]
+        list1 = [str(random.randint(-1000000, 1000000)) for _ in range(random.randint(0, 20))]
+        list2 = [str(random.randint(-1000000, 1000000)) for _ in range(random.randint(0, 20))]
         X.append((list1, list2))
 
 middle = time.time()
