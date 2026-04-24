@@ -56,7 +56,6 @@ else:
                   (["1", "2", "3"], ["4", "5", "6"]),
                   (["10", "20", "30"], ["40", "50", "60"]),]
     X = edge_cases.copy()
-    X = []
     while len(X) < amount:
         list1 = [str(random.randint(-1000000, 1000000)) for _ in range(random.randint(0, 20))]
         list2 = [str(random.randint(-1000000, 1000000)) for _ in range(random.randint(0, 20))]
