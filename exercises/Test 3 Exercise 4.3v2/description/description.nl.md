@@ -237,7 +237,7 @@
 <div markdown="1" class="prevent-select">
 
 # <b>Opdracht</b>
-Maak een functie <function style="enable-select;" name="SomGeschrevenGetallen"></function> die twee lijsten als invoer neemt, en de som van de getallen in beide lijsten teruggeeft. Maar er is iets bijzonders aan deze lijsten: elk getal is geschreven als een tekst. Dus in plaats van het getal <code>5</code> staat er de <i>string</i> <code>"5"</code>.
+Maak een functie <function style="enable-select;" name="SomGeschrevenGetallen"></function> die twee lijsten als invoer neemt, en de som van de getallen in beide lijsten teruggeeft. Maar er is iets bijzonders aan deze lijsten: elk getal is geschreven als een tekst. Dus in plaats van het getal <code>5</code> staat er de <i>string</i> <code>"5"</code>. Je mag aannemen dat het enkel om gehele getallen gaat.
 
 <br>
 <hr>
