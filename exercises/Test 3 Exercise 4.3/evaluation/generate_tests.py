@@ -57,7 +57,7 @@ def GenerateRandomListsOfPhrases(max_n_phrases=5, max_n_words_per_phrase=4):
 
 function_effect = "returns"
 function = AantalKarakters
-bulk_test = False
+bulk_test = True
 
 start = time.time()
 
@@ -103,7 +103,6 @@ else:
                   ([], ["¥"]),
                   (["!@#$%^&*()_+-=[]|;:',.<>?`~€¡¥"],[])]
     X = edge_cases.copy()
-    X = []
     while len(X) < amount:
         phrases1 = GenerateRandomListsOfPhrases()
         phrases2 = GenerateRandomListsOfPhrases()
