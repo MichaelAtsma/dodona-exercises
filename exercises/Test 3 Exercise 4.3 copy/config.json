@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "Toets 3: Som geschreven getallen in twee lijsten"
+    }
+  },
+  "evaluation": {
+    "pythia_judge": "doctest",
+    "time_limit": 100
+  },
+  "labels": [],
+  "internals": {
+    "token": "GuWtVsV7phKUh_wntWbtmfJcxNUtA3x_hm5YEut4F3nAjcKMd4_de6qAPVJtFUDN",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

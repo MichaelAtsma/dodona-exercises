@@ -1,0 +1,6 @@
+>>> SomGeschrevenGetallen(['1', '2'], ['3', '4', '5'])
+15
+>>> SomGeschrevenGetallen(['18', '2'], ['20', '0'])
+40
+>>> SomGeschrevenGetallen(['1', '2'], [])
+3
