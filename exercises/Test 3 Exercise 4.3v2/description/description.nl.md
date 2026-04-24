@@ -253,7 +253,7 @@ Dan is de uitkomst 15, want:
   <li><code>"1"</code> staat voor het getal 1 en <code>"2"</code> staat voor het getal 2, dus dat is samen <span style="white-space: nowrap;"><code>1+2=3</code></span> in Lijst 1.</li>
   <li><code>"3"</code> staat voor het getal 3, <code>"4"</code> staat voor het getal 4, en <code>"5"</code> staat voor het getal 5, dus dat is samen <span style="white-space: nowrap;"><code>3+4+5=12</code></span> in Lijst 2.</li>
 </ul>
-En <span style="white-space: nowrap;"><code>3+12=15</code></span>, dus de functie zou 15 terug moeten geven.
+En <span style="white-space: nowrap;"><code>3+12=15</code></span>, dus de functie zou <code>15</code> terug moeten geven.
 
 <br>
 <hr>
