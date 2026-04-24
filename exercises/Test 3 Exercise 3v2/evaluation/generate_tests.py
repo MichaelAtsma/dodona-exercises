@@ -85,7 +85,7 @@ def GenerateSequentialPrimes(n, skip_first=0, skip_step=0):
 
 function_effect = "returns"
 function = SomDelers
-bulk_test = False
+bulk_test = True
 
 start = time.time()
 
@@ -97,7 +97,7 @@ if not bulk_test:
          (1,),
          (113,)]
 else:
-    amount = 100
+    amount = 80
     edge_cases = [(1,), (1_000_000,)]
     n = 1_000_000
     while True:
