@@ -260,7 +260,7 @@ waarbij <code>#</code> de respectievelijke aantallen zijn.
     <tr>
       <td><function name="SpecialeGetallen" inputs='[2, 42, 73, 1729, 6174]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code>Aantal speciale getallen: 5.<br>Aantal andere getallen: 0.</code></pre></td>
+      <td><pre><code>Aantal speciale getallen: 5.     <br>Aantal andere getallen: 0.</code></pre></td>
     </tr>
     <tr>
       <td><function name="SpecialeGetallen" inputs='[73, 1729, -1, 73]'></function></td>
