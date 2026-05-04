@@ -30,8 +30,7 @@ def SpecialeGetallen(lijst):
         else:
             aantal_andere += 1
             
-    print(f"Aantal speciale getallen: {aantal_speciaal}.")
-    print(f"Aantal andere getallen: {aantal_andere}.")
+    print(f"Aantal speciale getallen: {aantal_speciaal}.\nAantal andere getallen: {aantal_andere}.")
 
 def GenerateTestCase():
     n = random.randint(0, 50)
