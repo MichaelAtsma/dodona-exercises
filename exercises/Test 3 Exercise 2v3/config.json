@@ -1,0 +1,15 @@
+{
+  "description": {
+    "names": {
+      "nl": "Toets 3: Speciale getallen"
+    }
+  },
+  "evaluation": {
+    "pythia_judge": "doctest"
+  },
+  "labels": [],
+  "internals": {
+    "token": "zj3uk_mcbCswzaSJr9zBya5EVGe3ywE9zcAbiKbRTgzibcgyWWVKK83MCyWJkAk3",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

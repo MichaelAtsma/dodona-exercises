@@ -1,0 +1,9 @@
+--------------------------------------------------
+tab name: Bulk test
+used output channel: stdout
+<LANGUAGE code="en">
+    <function from="SpecialeGetallen" to="SpecialNumbers" />
+    <fixed from="De lijst bevat " to="The list contains " />
+    <fixed from=" speciale getallen en " to=" special numbers and " />
+    <fixed from=" andere getallen" to=" other numbers" />
+</LANGUAGE>
