@@ -9,4 +9,5 @@ def SpecialeGetallen(lijst):
         else:
             aantal_andere += 1
             
-    print(f"De lijst bevat {aantal_speciaal} speciale getallen en {aantal_andere} andere getallen.")
+    print(f"Aantal speciale getallen: {aantal_speciaal}.")
+    print(f"Aantal andere getallen: {aantal_andere}.")

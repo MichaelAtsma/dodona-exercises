@@ -237,7 +237,12 @@
 <div markdown="1" class="prevent-select">
 
 # <b>Opdracht</b>
-Maak een functie<span class="enable-select"> <function name="SpecialeGetallen"></function> </span>die een lijst (<i>string</i>) als invoer neemt, dan telt hoevaak de speciale getallen (<code>2</code>, <code>42</code>, <code>73</code>, <code>1729</code>, <code>6174</code>) voorkomen, en dan deze aantallen op het scherm afdrukt in het volgende formaat: <code class="string">De lijst bevat # speciale getallen # andere getallen.</code>, waarbij <code>#</code> de respectievelijke aantallen zijn.
+Maak een functie<span class="enable-select"> <function name="SpecialeGetallen"></function> </span>die een lijst van gehele getallen (<i>integers</i>) als invoer neemt, dan telt hoevaak de speciale getallen (<code>2</code>, <code>42</code>, <code>73</code>, <code>1729</code>, <code>6174</code>) voorkomen, en dan deze aantallen op het scherm afdrukt in het volgende formaat: 
+
+<pre><code><span  class="string">Aantal speciale getallen: #.</span>
+<span  class="string">Aantal andere getallen: #.</span></code></pre>
+
+waarbij <code>#</code> de respectievelijke aantallen zijn.
 
 
 <details markdown="1"><summary>input-output verwachtingen</summary>
@@ -255,27 +260,27 @@ Maak een functie<span class="enable-select"> <function name="SpecialeGetallen"><
     <tr>
       <td><function name="SpecialeGetallen" inputs='[2, 42, 73, 1729, 6174]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code>De lijst bevat 5 speciale getallen en 0 andere getallen.</code></pre></td>
+      <td><pre><code>Aantal speciale getallen: 5.<br>Aantal andere getallen: 0.</code></pre></td>
     </tr>
     <tr>
       <td><function name="SpecialeGetallen" inputs='[73, 1729, -1, 73]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code>De lijst bevat 3 speciale getallen en 1 andere getallen.</code></pre></td>
+      <td><pre><code>Aantal speciale getallen: 3.<br>Aantal andere getallen: 1.</code></pre></td>
     </tr>
     <tr>
       <td><function name="SpecialeGetallen" inputs='[10, 0]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code>De lijst bevat 0 speciale getallen letters en 2 andere getallen.</code></pre></td>
+      <td><pre><code>Aantal speciale getallen: 0.<br>Aantal andere getallen: 2.</code></pre></td>
     </tr>
     <tr>
       <td><function name="SpecialeGetallen" inputs='[]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code>De lijst bevat 0 speciale getallen en 0 andere getallen.</code></pre></td>
+      <td><pre><code>Aantal speciale getallen: 0.<br>Aantal andere getallen: 0.</code></pre></td>
     </tr>
     <tr>
       <td><function name="SpecialeGetallen" inputs='[100, -22, 6174, 87]'></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code>De lijst bevat 1 speciale getallen en 3 andere getallen.</code></pre></td>
+      <td><pre><code>Aantal speciale getallen: 1.<br>Aantal andere getallen: 3.</code></pre></td>
     </tr>
   </tbody>
 </table>

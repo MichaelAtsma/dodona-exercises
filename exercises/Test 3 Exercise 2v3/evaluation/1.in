@@ -1,400 +1,600 @@
 >>> SpecialeGetallen([])
-De lijst bevat 0 speciale getallen en 0 andere getallen.
+Aantal speciale getallen: 0.
+Aantal andere getallen: 0.
 >>> SpecialeGetallen([1])
-De lijst bevat 0 speciale getallen en 1 andere getallen.
+Aantal speciale getallen: 0.
+Aantal andere getallen: 1.
 >>> SpecialeGetallen([2])
-De lijst bevat 1 speciale getallen en 0 andere getallen.
+Aantal speciale getallen: 1.
+Aantal andere getallen: 0.
 >>> SpecialeGetallen([42])
-De lijst bevat 1 speciale getallen en 0 andere getallen.
+Aantal speciale getallen: 1.
+Aantal andere getallen: 0.
 >>> SpecialeGetallen([73])
-De lijst bevat 1 speciale getallen en 0 andere getallen.
+Aantal speciale getallen: 1.
+Aantal andere getallen: 0.
 >>> SpecialeGetallen([1729])
-De lijst bevat 1 speciale getallen en 0 andere getallen.
+Aantal speciale getallen: 1.
+Aantal andere getallen: 0.
 >>> SpecialeGetallen([6174])
-De lijst bevat 1 speciale getallen en 0 andere getallen.
+Aantal speciale getallen: 1.
+Aantal andere getallen: 0.
 >>> SpecialeGetallen([2, 42, 73, 1729, 6174])
-De lijst bevat 5 speciale getallen en 0 andere getallen.
+Aantal speciale getallen: 5.
+Aantal andere getallen: 0.
 >>> SpecialeGetallen([1, 3, 4, 5])
-De lijst bevat 0 speciale getallen en 4 andere getallen.
+Aantal speciale getallen: 0.
+Aantal andere getallen: 4.
 >>> SpecialeGetallen([-1, -2, -3])
-De lijst bevat 0 speciale getallen en 3 andere getallen.
+Aantal speciale getallen: 0.
+Aantal andere getallen: 3.
 >>> SpecialeGetallen([-2, -42, -73, -1729, -6174])
-De lijst bevat 0 speciale getallen en 5 andere getallen.
+Aantal speciale getallen: 0.
+Aantal andere getallen: 5.
 >>> SpecialeGetallen([2, 2, 2, 2, 2, 2])
-De lijst bevat 6 speciale getallen en 0 andere getallen.
+Aantal speciale getallen: 6.
+Aantal andere getallen: 0.
 >>> SpecialeGetallen([42, 42, 42, 42])
-De lijst bevat 4 speciale getallen en 0 andere getallen.
+Aantal speciale getallen: 4.
+Aantal andere getallen: 0.
 >>> SpecialeGetallen([73, 73, 73])
-De lijst bevat 3 speciale getallen en 0 andere getallen.
+Aantal speciale getallen: 3.
+Aantal andere getallen: 0.
 >>> SpecialeGetallen([1729, 1729])
-De lijst bevat 2 speciale getallen en 0 andere getallen.
+Aantal speciale getallen: 2.
+Aantal andere getallen: 0.
 >>> SpecialeGetallen([6174, 6174, 6174, 6174])
-De lijst bevat 4 speciale getallen en 0 andere getallen.
+Aantal speciale getallen: 4.
+Aantal andere getallen: 0.
 >>> SpecialeGetallen([42, 1, 42, 1, 42])
-De lijst bevat 3 speciale getallen en 2 andere getallen.
+Aantal speciale getallen: 3.
+Aantal andere getallen: 2.
 >>> SpecialeGetallen([2, 42, 73, 1729, 6174, 2, 42, 73, 1729, 6174, 2, 42, 73, 1729, 6174, 2, 42, 73, 1729, 6174, 2, 42, 73, 1729, 6174, 2, 42, 73, 1729, 6174, 2, 42, 73, 1729, 6174, 2, 42, 73, 1729, 6174, 2, 42, 73, 1729, 6174, 2, 42, 73, 1729, 6174])
-De lijst bevat 50 speciale getallen en 0 andere getallen.
->>> SpecialeGetallen([-30620, 1063, 78100, 46768, 66834, 2, 42, -20044, 39324, 64402, 40122, 2880, 6174, -91082, 44272, -30290, 81852, -87385, -3668, -59688, 73, 17293, -23300, 16364, 93555, 27796, -15079, -73485, -77696])
-De lijst bevat 4 speciale getallen en 25 andere getallen.
->>> SpecialeGetallen([54725, -56164, 42, -11187, -5663, 14304, 50416, -29204, 54949, 29851, 19136, 24127, -51565, 45414, -16109, -6110, 31915, -68991, 69528, 312, -43228, 63961, 77919, 38526, -54263, -31113, -51373, 6174])
-De lijst bevat 2 speciale getallen en 26 andere getallen.
->>> SpecialeGetallen([15584, 59284, 42, -14185, 94976, 2, 73])
-De lijst bevat 3 speciale getallen en 4 andere getallen.
->>> SpecialeGetallen([-59546, -81628, 63207, 42363, 43681, 42, 72645, -33932, -79707, 2, -56257, 66627, 2, -88056, -50353, 73, -32850, -33532, 13794, 51596, 2])
-De lijst bevat 5 speciale getallen en 16 andere getallen.
->>> SpecialeGetallen([67781, 6174, 42, -97562, 46869, -28443, 18308, 94797, 73, 71730, -44293, 2, -55967, -60135, -56109, 12963, 6174, -96766, 13665, -50910, 73])
-De lijst bevat 6 speciale getallen en 15 andere getallen.
->>> SpecialeGetallen([20987, 1729, 42, 48589, -54517, 2, -23639, 30682, -59352, -3867, -18101, 78028, 33940, 42, -69653, -43340, 1729, -10094, -64107, 73397, 2])
-De lijst bevat 6 speciale getallen en 15 andere getallen.
->>> SpecialeGetallen([24570, 18920, -86732, -17110, -36445, 78850, -51276, 97111, 63048, 19767, 79915, 26094, 64259, 27050, -26361, 65957])
-De lijst bevat 0 speciale getallen en 16 andere getallen.
->>> SpecialeGetallen([7843, -30612, 73, -65517])
-De lijst bevat 1 speciale getallen en 3 andere getallen.
->>> SpecialeGetallen([5604, 28625, 61300, 45360, 76513, 25126, 1729, 73, -77900, -21135, 26851, 1924, -2684, -34090, 2, 90820, 13993])
-De lijst bevat 3 speciale getallen en 14 andere getallen.
->>> SpecialeGetallen([-20875, 17923, 16155, 4510, 2, 31924, -43346, 6174, 73755, -69259, -13438, 94543, -27053, 10780, -45201, 38253, 43762, 85629, 39245, 1729, -86548])
-De lijst bevat 3 speciale getallen en 18 andere getallen.
->>> SpecialeGetallen([6091, -21192, 42, 42, 85188, -4321, 71832, 1729, 6174, 93338, 1729, 10428, -46558, -50219])
-De lijst bevat 5 speciale getallen en 9 andere getallen.
->>> SpecialeGetallen([-32, -11987, -68952, 37300, 74270, -57479, -26858, -40131, -44672, -541, 19990, -96013])
-De lijst bevat 0 speciale getallen en 12 andere getallen.
->>> SpecialeGetallen([1729, 84644, 56767, 88209, 90193, -66610, -72856, 28676, 28918, 3047, 1729, -62726, 4272, -96478, 17167, 1729, -40413, 45612, 2, -72162, 6174, 47355, 1729, 12279, -86007, 6174, 1729, 1729, 42, -7102, 25696, -97608, -60055, -74132, -39312, -13991, 6174, 90446, 52172, 73, 67177, -73321])
-De lijst bevat 12 speciale getallen en 30 andere getallen.
->>> SpecialeGetallen([60341, -65493, 48737, -68797, 1729, -153, 17116, -49482, -78505, 19882, -49351, 1729, 3291, 82920, -29374, -92343, 6174, -86701, 95624, -28018, 27614, -23810, -11382, 88815, 46785, 58429, 73, 50438, 73, 17949, 82551, 4505, 18803, 22018, 55499, 6174, 81393, 88998, -23004])
-De lijst bevat 6 speciale getallen en 33 andere getallen.
->>> SpecialeGetallen([71742, 18283, -75866, -80738, -5112, -46884, 41362, 80429, 45353, 70470, -89608, 1729, 6174, 37043, -81128, -8184, 69183, -4580, -43308, 36247, 25400, 23286, 2, -44852, -28970, 58268, -79499, 54368, 28438, 913, 1729, 42, 6174, -42824, -10415, -89936, -74932, -20431, 6174, -40822, -28825, 2, 81174, 17184, 13491, -4576, 32588])
-De lijst bevat 8 speciale getallen en 39 andere getallen.
->>> SpecialeGetallen([-72122, 80617, 47696, -14288, 34747, 75834, 6174, 6174, 2, -40316, -51887, 42, 38926, -41188, -11775, 94152, -90169, -26247, 2, 22394, -8949, 1729, 83718, 82057, 73])
-De lijst bevat 7 speciale getallen en 18 andere getallen.
->>> SpecialeGetallen([6174, 16234, 73, -55019, -706, 66786, 83534, 15803, 69804, -22751, 95381, 1395, 6174, 88770, 37540, 36396, -22920, 69547, 73, 1729, 6174, -63466, -61759, 42, -86623, 21784, 32028, -48647, 36609, -77364, 9902, -79668, 15652, -88892, 95182, 3546, 30113, -77087, 6174, 39825, 1729, -19129, 74066, 13500])
-De lijst bevat 9 speciale getallen en 35 andere getallen.
->>> SpecialeGetallen([53510, -59106, -52339, -56360, 10305, -36861, 89332, -35353, -35169, 42, -74102, 47931, -32547, -79372, -71290, 1668, 26929, -32487, -18907, 2, 1729, -86820, 82495, -12979, 52999, 73, 6174, 6174])
-De lijst bevat 6 speciale getallen en 22 andere getallen.
->>> SpecialeGetallen([-7909, -64631, -36822, 2, 73, -84481, 74413, 6174, 73013, -87244, 97501, 2088, 42, 2, -66716, -97255, -20555, 92819, 42494, 68784, -78737, 46643, 73, -1541, 42514, -25031, 2, -39376, -20757, -83364, 46389, -4574, 74310, -85923, -49122, 4276, 41153])
-De lijst bevat 7 speciale getallen en 30 andere getallen.
->>> SpecialeGetallen([-91371, -97946, 98930, -71092, -9489, 17571, -9554, 31446, 6174, -75225, 24692, -48625, -76879, 5758, 2, -98342, -91429, 2, 7833, -76752, 60288, 19757, -937, 10942, 17226, -11825, 86793, 2, 79850, -15272, -44948, -29581, 17958, 54754, -57528, 72016, 4193, 14754, 78619, 78758, -43825, -91443])
-De lijst bevat 4 speciale getallen en 38 andere getallen.
->>> SpecialeGetallen([-80623, 6174, 43105, 42, 75626, 42, 26563, 44437, 31200, 5945, 92693, 73, -80233, 1729, -61815, 61655, -76119, -5416])
-De lijst bevat 5 speciale getallen en 13 andere getallen.
->>> SpecialeGetallen([-86636, 29667, -64272, -39605, -27761, -19855, 70400, 87284, 69402, -5011, 73, -44614, 42, -84101, -19828, 91205, 12893, 52851, 96523, 89297, 5650, 73, 39876, -35745, 42, -22970, -35012, -21517, 50409, -57856, 30556, -39534, -62162, -33262, 1729, 6174, 65847, -88022, -53029, 46853])
-De lijst bevat 6 speciale getallen en 34 andere getallen.
->>> SpecialeGetallen([1729, -65236, 82341, 46768, 2, 6174, -14996, -37713, 10758, 15860, -76653, -63523, -82489, 19917, -69271, -93386, -18596, 42, 50337, 73, 9676, 60786, 42, 1729, -79686, 79964, -94135, 2, 52243, 42507, -16253, 2, -13449, 48059, -43452])
-De lijst bevat 9 speciale getallen en 26 andere getallen.
->>> SpecialeGetallen([79401, -54842, 1360, -52410, 73, -426, -33057, -34241, 52931, -47737, 42, 1729, 8658, 72724, 28090, 29481, -37106, 74006, -52068, -62267, 59922, 42, -62097, -2422, 51489, 82049, -11675, -86641, -83441, -11290, 6174, 73, -50706, 5086, 13432, 23931, -75720, 70603])
-De lijst bevat 6 speciale getallen en 32 andere getallen.
->>> SpecialeGetallen([-15059, 22655, 78758, -48663, 73, 85206, -85613, -77749, -36316, 60925, 90476, -87561, -6953, 2, 6174, 18754, 57344, -95129, 2, -71692, -4170, 73, 4935])
-De lijst bevat 5 speciale getallen en 18 andere getallen.
->>> SpecialeGetallen([6174, -676, -34393, 2, -36280, 31421, 36793, -82312, 2838, -36559, 92010, 73, -19947, 75007, 9692, 20500, -81398, -53148, 6174, 87082, -44411])
-De lijst bevat 4 speciale getallen en 17 andere getallen.
->>> SpecialeGetallen([-23124, -55482, 2, 94192, -28179, 6174, -58873, -48598])
-De lijst bevat 2 speciale getallen en 6 andere getallen.
->>> SpecialeGetallen([-89441, 13612, -8954, -81662, 1729, 78564, -79245, 24591, -13229, 42, 25492, -92586, 42, -13976, 9962, -35198, 73, -44652, -50050, -99457])
-De lijst bevat 4 speciale getallen en 16 andere getallen.
->>> SpecialeGetallen([42, 73, -94110, 56889, 23395, -22135, 1729, 73, 27954, 67695, 99543, 92904, -53829, -4123, -73650, -52986, -6558, 38974, -78530, -51703, 2, 45330, -98758, 1729, 6174, 93256, 30563, 2, -83157, -28616, 6174, 42, 6174, -66901, 42, 42, -53403, -12267, 74317, 90919])
-De lijst bevat 13 speciale getallen en 27 andere getallen.
->>> SpecialeGetallen([-83703, 1729, 86384, -86001, 65941, 99216, 67065, -87454, 90600, 1729, -74793, -49767, -96388, 95553, -76331, 60183, 23288, 7085, 62312, -20241, 43617, 31739, 6174, 2, -70833, -13498, -33825, 47489, 2, 4722, -67264, 65372, 54304, 65332, 1729, -17545, 41759, -92903, 42, -5218, 38332])
-De lijst bevat 7 speciale getallen en 34 andere getallen.
->>> SpecialeGetallen([-92816, -57170, -74991])
-De lijst bevat 0 speciale getallen en 3 andere getallen.
->>> SpecialeGetallen([1729, 52821, 79926, -72083, 2, 2, -37382, 16116, 69565, 6174, -21810, 45757, 2, 42, -45110, -53557, 42, 14116, 69508, 84690, -62566, 71697, -89094, -24278, -44788])
-De lijst bevat 7 speciale getallen en 18 andere getallen.
->>> SpecialeGetallen([42, -65230, 6830, 2, -80736, 81690, 65160, 97954, 21811, 1729, 3059, -8879, 2, 6174, -80294, -14920, 50341, -50944, -51674, 1729])
-De lijst bevat 6 speciale getallen en 14 andere getallen.
->>> SpecialeGetallen([-5709, 93473, 66927, -26597, 38488, 52682, -35467, 77889, 95701, 42, 42, 35638, 1729, 26470, -91709, 43036, -96088, -75116, 73, 84748, 1729, -11531, 81705, 14927, 68195, 2, 11089, -68528, 48185, 42, 73, 99132, -95164, 73, 21487, 97327, -20269, 23109])
-De lijst bevat 9 speciale getallen en 29 andere getallen.
->>> SpecialeGetallen([91712, 15123, -33747, 14683, 7148, 6174, -59031, -81568, -78579, 36443, 50450, -2091, 1729, 14340, -49244, -24812, 32089, 37524, -24780, 97213, 73, 76263, 14465, -52626, -63459, 98506, 33896, -67688, -11952, 18314])
-De lijst bevat 3 speciale getallen en 27 andere getallen.
->>> SpecialeGetallen([-1012, 6174, 1729, -60948, 78397, 10141, -30503, -77489, 42, 42, 6174, 37081, 30698, -95676, 55602, 6174, -25397, 6174, 1729, 69919, 51134, 67484, 95440, -7487, -63938, 22419, 87813, -54442, 42, 1729, 42, -5577, -63487, 55231, 6174, 15457, 77177, 6809, -61604, 18662, 38662, 8355, 99611])
-De lijst bevat 12 speciale getallen en 31 andere getallen.
->>> SpecialeGetallen([5364, 96909, 8224, 74680, 994, -33465, 2, 55285, -95102, 98984, 4874, 73, -60, 1729, -361, -69238])
-De lijst bevat 3 speciale getallen en 13 andere getallen.
->>> SpecialeGetallen([42, -75138, -88489, 60468, -48942, 23595, 26110, -98977, -86556, 70854, -42869, 42, -51515, 84341, 16483, -27713, 64614, -44571, 86686, -88387, -34644, -69536, -9502, 73, 6174, -66355, 75798, 33194, -15496, 7594, 27547, -26195, 24253, 71012, 61684, 59828, -68277, 79072, -11623, 42])
-De lijst bevat 5 speciale getallen en 35 andere getallen.
->>> SpecialeGetallen([73887, 2, 29250, 1729, -27658, 27731, -31852, 59304, -17831, -76448, 87230, 10430, -55305, 6174, 56230, -58041, -32275, -14910, -95010, -6001, 1639, 62466, -93264, 91449, -51701, 2, -77275, 42909, -91744, 6174])
-De lijst bevat 5 speciale getallen en 25 andere getallen.
->>> SpecialeGetallen([67670, 73, 6489, -9686, -16815, 73, 42, 15360, 99036, 91276, 53637, 73, -86575, -18949, 54680, 3714, 6174, -33371, 6174, 42089, -78215, 82580, -27843, 69369, -80679, 86486, -76530, 73, -43607, 35045, 42, -45990, 2, 46153])
-De lijst bevat 9 speciale getallen en 25 andere getallen.
->>> SpecialeGetallen([-76077, 85708, 1729, 81692, 37880, 42, -47275, -4353, -33145, -88794, 89013, 79003, -95641, 40983, -57656, -88564, -19913, 55258, 42957, 60135, -22087, 35179, 42, -6002, -71434, -3353, 1729, 42, -95755, 42, 92976, 1729, -99227, 73, 29067, 32853, 41827, 1729, -8577, -9283, -78402, 2, 1729, 78620, -15496, 71077, 1729, -12499, 2])
-De lijst bevat 13 speciale getallen en 36 andere getallen.
->>> SpecialeGetallen([6174, 2, 1729, 42, -36368, 47940, 42059, 73, 1729, 42, 42, 43101, -94913, 34020, 73, 77501, -55983, 1729, -74493, 42, -56486, -41735, -76893, -45117, 9079, -73460, 9978, 6174, 39073, -15452, 73, 6979, 57768, 42, 1729, 6174, -51821, -1033, 38476, 39321, 1729, 57553, -53458, -27390])
-De lijst bevat 17 speciale getallen en 27 andere getallen.
->>> SpecialeGetallen([49643, -53707, -8934, -7456, -96172, -6821, 42, 71744, 85362, -43179, 78025, 84054, 30908, 42, -12974, 1729, -61083, 55231, -32598, -17986, 36798, 42, -80751, -7834, 6174, 69947, -70566, 65875, -75081, 5660, -65894, -79333, 5689, 2])
-De lijst bevat 6 speciale getallen en 28 andere getallen.
->>> SpecialeGetallen([19395, 58226, 42, -27554, 64334, 97791, -59517, 71784, 62675, -47361, -66752, 2, -6991, -6929, -42050, 58625, -17927, 73, 2, 42])
-De lijst bevat 5 speciale getallen en 15 andere getallen.
->>> SpecialeGetallen([6174, 6174, -22738, 5780, 74483, 93135, -68373, 6059, 73, -25498, 72008, 73, -34415, 22381, 24555, -30416, 31567, 39836, 46350])
-De lijst bevat 4 speciale getallen en 15 andere getallen.
->>> SpecialeGetallen([-10146, -15012, 2, 74699, 13894, 73, -49552, 42, -75714, -75752, 21999, 77078, 76856, 21929, 1729, -37587, 6174, 81954, -62602, 2, -94213, 1729, -55285, 70658, 77194, 15719, -52631])
-De lijst bevat 7 speciale getallen en 20 andere getallen.
->>> SpecialeGetallen([42, 6174, 73, 6174, 32462, 6174, 79013, -88689, -33926, 33728, 80856, 73, -51859, 6174, -82056, 6174, 39160, -89055, 84470, 73, 99615, 42, -43951, -46648, 80010, -5502, 60780, -1034, 91423, -12348, 43462, -72461, 2, 11936, 42, 6174, -24904, 73, -57567, 6174, 6174, -99371, 53969, 27131, -82649, -60148, 61608, 48062])
-De lijst bevat 16 speciale getallen en 32 andere getallen.
->>> SpecialeGetallen([5547, -99168, 27570, 37957, -47260, -30083, -12337, 56219, 73, 57342, -83543, -93555, -77390, -27433, 25667, 2, 62326, 67714, 60582, -99557, -56191, 2, 30900, -73915, 42, 76513, 1729, -39869, 1729, 73, 13887, 42, -12223, 1729, -91577, 38669, 68283, 42969, 34647, -41774, 6174, 90233, 54739, 2, 96457, -92545, -85303])
-De lijst bevat 11 speciale getallen en 36 andere getallen.
->>> SpecialeGetallen([73, 27881])
-De lijst bevat 1 speciale getallen en 1 andere getallen.
->>> SpecialeGetallen([8081, -1072, -70600, -5465, -50771, -64532, 60837, -54362, 25169, -53576, -6614, 60978, 6174, -4717, 8795])
-De lijst bevat 1 speciale getallen en 14 andere getallen.
->>> SpecialeGetallen([48200, -81459, 62511, 6174, -37275, 2907, 91473, -70534, 74829, 57674, -14609, 64206, -9079, 42, -66463, 30380, 71440, 72317, 55613, 73, 7399, -26677, 12271, -62509, -76385, -55804, 63760, 6174, -93279, -12032, 54462, 81013, -77775, -37004])
-De lijst bevat 4 speciale getallen en 30 andere getallen.
->>> SpecialeGetallen([2, -45926, 42, 2, -46856, 53960, 88603, 29671, 2, 10015, 1729, 2, 14742, 71325, -78732, -16332, -10875, 81262, 1117, 42, 6174, 47442, -28600])
-De lijst bevat 8 speciale getallen en 15 andere getallen.
->>> SpecialeGetallen([55893, -60920, 73, 54274, 6174, 73, 87636, 88947, 90456, -54585, -32171, -68570, 1981, -17411, 91335, 8717, 6174, -41732, -59698, 2, 66551])
-De lijst bevat 5 speciale getallen en 16 andere getallen.
->>> SpecialeGetallen([-190, 92567, -25500, 2, 52516, -91890, 7772, 73860, -99103, 7068, 1729, 99859, 86921, 83640, 79901, 61775, -3156, -4641, 48068, -79360, 6449, 68452, -24729, -42023, -24464, -93918, 32858, -12791, 80767, -76709, 44822, -43496, 68421, 88086, -41175, -40340, 89057, -43631, 83673])
-De lijst bevat 2 speciale getallen en 37 andere getallen.
->>> SpecialeGetallen([6174, 64603, 98356, -57759, -34424, -55204, -16954, 4318, -23687, 57413, 49383, 6876, 1729, -21800, -3110, -78126, -11350, -96130, 42, 55387, 73, -27999, -28342, 47558, 42, 35743, 9687, 13325])
-De lijst bevat 5 speciale getallen en 23 andere getallen.
->>> SpecialeGetallen([-12217, -70073, -61962, 77141, 80773, 6174, -44047, -14125, -62475, 50262, -64541, -76894, 1729, 71320, 43174, 54888, -22889, 6174, -87158, 42, 1729, 62354, 6174, -33660, -70229, 88526, 62564, 52130, -49264, -26415, 59015, 6174, 42, 43263, 73, 45290, 64427, 93501, -50498, 79016, 96987, 73, 91301, 56712, -6678, 80712, -92587])
-De lijst bevat 10 speciale getallen en 37 andere getallen.
->>> SpecialeGetallen([-63009, 1307, 43493, 50335, -91673, 88121, 2, 6174, 63805])
-De lijst bevat 2 speciale getallen en 7 andere getallen.
->>> SpecialeGetallen([5125, -72615, 85417, -80956, -33705, 49463, -51433, -82835, -50748, -94295, -12132, -73889, 6174, -77637, 882, 73, 42, 29210, -95804, -74895, 2, 17076, 89701, 1729, 69676, -95237, 1970, -33636, 42, 29644])
-De lijst bevat 6 speciale getallen en 24 andere getallen.
->>> SpecialeGetallen([1729, -6042, 94003, 89938, 3462, -55410, -23607, -38691, 82210, -48329, 50362, -83495, -99601, 15063, 85635, 77167, 6174, -42560, 60946, -24642, 48504, -13262, 1729, 33037, -41471, -35934, -95537, 55351, 73, 44460, 73, 56524, -76608, -9132, 27076, 6174, 73, 52656, 43301, 80814, -92703, 86067, 23692, 72386, -2193, 2, 57889, 42, 19423, -58326])
-De lijst bevat 9 speciale getallen en 41 andere getallen.
->>> SpecialeGetallen([1729, -6798, -37577, 87240, 42, 21942, 1729, 25246, 73, -50929, 2, 28961, 46587, -3139, -9123, 44126, 73, 1626, -11956, 6174, -34156, -31218, 22805, -1350, 94525, 54432, -22232, 65920, -7812, -96532, -2528, -79758, -24595, 38970, -59387, 1729])
-De lijst bevat 8 speciale getallen en 28 andere getallen.
->>> SpecialeGetallen([98947, -58355, 24992, 5345, 56620, 29971, 92826, 2, 47336, -31383, 6174, 21480, -10919, -94677, 84762, -24438, 2, 6174, 44369, -46668, -34006, 69465, -52940, -50507, -71849, 6174, 56051, 2, 73, 73, 65667, 73, 1729])
-De lijst bevat 10 speciale getallen en 23 andere getallen.
->>> SpecialeGetallen([84210, 3720, 84568, -54059, 8240, 12280, -13643, 36949, -96002, 1729, 14564, 89777, 66244, 96904, 42, 59395, 84845, -22956, 73, 60132, -67445, -15908, 57485, -68294, 6174, 1729, 89094, 34082, 42])
-De lijst bevat 6 speciale getallen en 23 andere getallen.
->>> SpecialeGetallen([47279, -51684, 26020, -36476, 44271, 24148, 1729, 58729, 14906, -1832, 14859, -60790, -56686, 2, 45923, 42, -84126, 6174, -88399, -57775, 73, 26971, 14714, 97556, 44083, 40329, -86837, 42, -43670, 50037])
-De lijst bevat 6 speciale getallen en 24 andere getallen.
->>> SpecialeGetallen([10871, 6174, 46790, 26539, -23295, 7634, -74455, 46783, 91765, -21898])
-De lijst bevat 1 speciale getallen en 9 andere getallen.
->>> SpecialeGetallen([-4873, -78869, 13244, 60230, 80237, 2, 6514, 13766, 23017, -10664, 40094, -72728, -10349, -18347, -94639, 63368, -53903, -46474, 63657, -11193, 55520, -41409, -86288, 74744, 95304, -2274, -39507, -75412, -60779, -95984, 77958, 98663, 50654, 20896, -60338, -44940, 6584, 73, -26140, -80669, 14173, 30531, -54398, -38045, -412, -67374, 18534, 35021, 74759, 42])
-De lijst bevat 3 speciale getallen en 47 andere getallen.
->>> SpecialeGetallen([-22951, 73, -94792, -86526, -67202, -72559])
-De lijst bevat 1 speciale getallen en 5 andere getallen.
->>> SpecialeGetallen([23959, -76076, 97993, -52392, 42, 243, 96671, 73, 47353, 9014, -71186, 84078, -32369, 56018, 99947, -70105, 11811, 68526, -30154, -71647, 73, -43453, -82834, 45704, -24088, 75957, 15448, -17221, 3237, -57670, -33784, 11383, -41104, -89908, -55483, -80014, 6174, -52988, -44810, 47317, 59884, 1729, -37791])
-De lijst bevat 5 speciale getallen en 38 andere getallen.
->>> SpecialeGetallen([-8032, 31252, 1729, 1729, -42518, -82176, 73, 84866, -23682, 21181, -24835, 26993, 7317, -41502, -91764, -29803, 27905, -53598, -44474, -37935, -428, 40601, 73, -39716, -83740, 46993, -19030, -52894, -36884, 90559, -14888, -49655, 1729, 93243, -38923, 6174, 90965, -78784, -32376, 75954, 2, 73, 73, 1729, -98803, -96150])
-De lijst bevat 10 speciale getallen en 36 andere getallen.
->>> SpecialeGetallen([63164, 6174, 27875, -34906, -78596, -68043, 1729, 59244, -77888, 93014, -81986, -22588, -51609, 40765, -83952, 48775, 6174, 58067, 6174, 60767, 42, 5430, -86955, 19007, 78843, 51417, 6174, -97575, 35837, 93446, 73, 6174, 73, 6759, 98241, -96305, 40308, 32888, 6174, -40336])
-De lijst bevat 10 speciale getallen en 30 andere getallen.
->>> SpecialeGetallen([42, -73675, 1729, -12856, -47066, 1729, 58953, 51301, 67127, 92044, 66749, 12876, 68653, -58584, 5868, 96904, 25098, 30264])
-De lijst bevat 3 speciale getallen en 15 andere getallen.
->>> SpecialeGetallen([-85207, 46295, -69049, -8860, -3504, 16766, 49050, 8653, 49355, 53487, 81537, 1729, 73, 78146, -93950, 54820, 43100, 36320, -99826, 23561, -62400, -19211, -55209, -57005, 1414, 47530, 7343, 42, 20567, -87147, 1049])
-De lijst bevat 3 speciale getallen en 28 andere getallen.
->>> SpecialeGetallen([73, -68876, -96972, 44884, -44697])
-De lijst bevat 1 speciale getallen en 4 andere getallen.
->>> SpecialeGetallen([42, 19133, 94307, 23008, -21533])
-De lijst bevat 1 speciale getallen en 4 andere getallen.
->>> SpecialeGetallen([-44762, 65258, 6174, 33591, -16426, -9298, 70175, 94798, 48637, 91306])
-De lijst bevat 1 speciale getallen en 9 andere getallen.
->>> SpecialeGetallen([6648, 94878, 29848, 77871, 76725, 61906, -23753, -95769, 1729, -39568, -68146, -74815, 42, -38232, 31023, 40972, 40350, -46273, 2861, -45296, 61028, 42, 6174, 59186, 42011, 5549, 34074, -69030, 90310, -80801, 8574, -30620])
-De lijst bevat 4 speciale getallen en 28 andere getallen.
->>> SpecialeGetallen([15254, -94568, 88253, -33977, -26036, 87110, -11218, -8439, -90241, 18975, 22136, 23102, -44842, 42, 37601, 34244, 6174, -36403, -32361, 66991])
-De lijst bevat 2 speciale getallen en 18 andere getallen.
->>> SpecialeGetallen([40778, 82797, 72556, 81763, -94193, 6174, 50605, 31597, 2, 1729, -85174, -88277, -99845, -5315, 51261, -71267])
-De lijst bevat 3 speciale getallen en 13 andere getallen.
->>> SpecialeGetallen([32565])
-De lijst bevat 0 speciale getallen en 1 andere getallen.
->>> SpecialeGetallen([-45874, -46045, -5593, -93534, 4949, 1729, 42, -5521, 48031, -2027])
-De lijst bevat 2 speciale getallen en 8 andere getallen.
->>> SpecialeGetallen([1729, 6174, 64667, 2, 43369, -90558, -99579, -30197])
-De lijst bevat 3 speciale getallen en 5 andere getallen.
->>> SpecialeGetallen([35878, 77572, 26719, -66851, 65320, 81662, -54575, 42, -65555, 40514, 42539, 73, 42127, -68170, 41357, -38888, 49401, -8802, -58577, -47345, 42, -35950, 42, 73, -50399, 42772, 82843, -24161, -54905, 76320, 60401, -63815, 1729, -45208])
-De lijst bevat 6 speciale getallen en 28 andere getallen.
->>> SpecialeGetallen([73306, 2, 51085, -61382, -70665, 57238, -22449, -38589, 26065, 38212, 6174, -14629, -69288, -76977, 1729, 6194, 6174, -51797, 42, 34712, 15125, 46858, 80150, 64444, -29750, 91790, 73, 29606, 84038, -97363, -97452])
-De lijst bevat 6 speciale getallen en 25 andere getallen.
->>> SpecialeGetallen([76168, 73, 57563, 6174, 6174, -90721, 97850, 59544, -4374, 42, 73, 70927, 62042, -15973, 31553, -10408, -51878, 6174, -6524, 77486, 55531, 38571, 51445, 43254, 52237, -45276, -31378, 86800, 74525, 26446, -27496, 91990, -77594, 50687, -11042, 29154, 52837, -38334, -91892, 46484, 12988, 2, -69694, 86043, -12427, 70402, 73, 21094, -6297])
-De lijst bevat 8 speciale getallen en 41 andere getallen.
->>> SpecialeGetallen([42, -34952, 53680, 78948, 74208, 6174, 84309, -49711, 2])
-De lijst bevat 3 speciale getallen en 6 andere getallen.
->>> SpecialeGetallen([10425, -6429, 77191, 1671, 73, -13978, 47487, -35626, -4741, 78594, -84200, 42, -86285, 73, 57976, -30713, -50128, 6174, 30278, 42, 87456, 2, -40677, 2, 15053, 9130, 59557, 55385, 62773, -46788, 73])
-De lijst bevat 8 speciale getallen en 23 andere getallen.
->>> SpecialeGetallen([-86132, 35549, 62065, 1729, 16795, -94940, 41048, 89200, 1869, 53599, -66339, -75110, -50787, -71937, -20267, -64714, 53200, -59474, -31906, 48239, 21622, -59218, -53710, 2, 30373, -98674, -47159, -19144, -75548, 31750, -85246, 65640, 73, -70018, 54341, 13255, 22139, -75642, -27846, -94412, -68673, 25068, 58669, 6579, 73, 74147, 56060, 42, 1729, -71810])
-De lijst bevat 6 speciale getallen en 44 andere getallen.
->>> SpecialeGetallen([2, -52099, -82990, -9571, -27141, -86713, 6335, 72736, 43742, 64423])
-De lijst bevat 1 speciale getallen en 9 andere getallen.
->>> SpecialeGetallen([89621, -30432, 91136, -24292, -17713, -69886, 53215, 42, 1505, -29200, -13349, -536, 73, 73, -98919, -18602, 73, -78616, 6174, -35795, -62161, 73, 34921, -74991, 15488, 55886, 46867, 34440, -23198, -48442, -25015, -10789, 6174])
-De lijst bevat 7 speciale getallen en 26 andere getallen.
->>> SpecialeGetallen([41026, -38758, 2, -62803, 1729, -6599, 2028, 50778, 98842, 57735, 91982, -27474])
-De lijst bevat 2 speciale getallen en 10 andere getallen.
->>> SpecialeGetallen([-1033])
-De lijst bevat 0 speciale getallen en 1 andere getallen.
->>> SpecialeGetallen([70297, -56219, -32212, -38898, -13128, -43110, 61634, -45546, 73, -37707, 26032, 92828, 91407, -3462, -55081, 55100, 26430, 83142, 73])
-De lijst bevat 2 speciale getallen en 17 andere getallen.
->>> SpecialeGetallen([6174, 85021, 1099, 34292, -8128, 42, -81627, 39215, 66635, 73, 95286, 15496, -9745])
-De lijst bevat 3 speciale getallen en 10 andere getallen.
->>> SpecialeGetallen([2, 77062, -33839, 51534, -55466, 54516, 7332, -42914, 18340, 73, 72327, -56545])
-De lijst bevat 2 speciale getallen en 10 andere getallen.
->>> SpecialeGetallen([65626, -69561, 42, 82882, 66704, 76980, 90918, -74744, 1729, -10279, 73, -45267, 59687, 73, 2, 1729, -35980, -18115, -53163, 5360, 2, -17800, -77736, 73163, 35338, -70539, -48435, 2, 1729, 43761, -2025, 6174, 89223, -33883, 78813, -86980, 54533, 82510, -86432, 42, 24135, 94694, 6174, -15411, -96349, 1729, -43446, 11347, 82720, -68059])
-De lijst bevat 13 speciale getallen en 37 andere getallen.
->>> SpecialeGetallen([96330, 64035, 42, -20956, 56238, 6174])
-De lijst bevat 2 speciale getallen en 4 andere getallen.
->>> SpecialeGetallen([6174, -16790, -37603, 1729, 54082, 55865, -69124, 45720, 56679, -52152, -49910, 56058, 92355, 7792, 52332, 1729, 20851, 6174, 20789, -68459, 71347, -35224, -67549, 80980, -32832, 21653, -78178, 61333, 73, 51038, 40543, -87708, -72204, 11982, -22905, 79405, -47113, 75342, -23171, 538, 34533, -43402, 2, -33208])
-De lijst bevat 6 speciale getallen en 38 andere getallen.
->>> SpecialeGetallen([-77879, 65919, 37063, -70642, -85159, -69300, -78142, -84357, -48321, -23831, -36162, 64825, 98564, 1850, -26819, 16889, 13275, 6174, -69075, 70692, 36684, -46025, 49444, 73147, 58504, 24938, 66416, -40044, -349, 4144, -54415, -20749, -68906, -16813, 17341, 3795, 82701, -15975, 42, 51566, -34659])
-De lijst bevat 2 speciale getallen en 39 andere getallen.
->>> SpecialeGetallen([1729, -70430, -90595, 97032, 43468, -41297, 45122, 59463, 16884, 48931, -31764])
-De lijst bevat 1 speciale getallen en 10 andere getallen.
->>> SpecialeGetallen([42, 85243])
-De lijst bevat 1 speciale getallen en 1 andere getallen.
->>> SpecialeGetallen([-27771, 2, 10964, -89990, -58104, 76043, -46516, 98503, 1224, -81967, -92716, -21482, 38105, -55676, 73, 72348, 26037, 84837, 97072, -29480, 42, 6155, -37876, -38820, 8248, 24451, 18075, 62779, 80927, 23139, 36313, 15044, -99046, 32335, 78842, 9402])
-De lijst bevat 3 speciale getallen en 33 andere getallen.
->>> SpecialeGetallen([-85464, -95019, 73099, 2, 6174, 67365, 1729, 73, -57847, 2, -41974, -80039, -68465, 1729, 39214, -58105, -54253, 2, -76617, 99607, 88776, 28124, 70479, -49454, 96512, -42755, 73, -8562, -56538, -23517, 5529, -86113, 500, 15854, 47865, 6174, 2, 1729, 73, -88269, 79241])
-De lijst bevat 12 speciale getallen en 29 andere getallen.
->>> SpecialeGetallen([72540, -84669, 94544, -90697, 39198, 1729, -59058, 44657, -50610, -56719, -60390, 72325, 16354, -30702, 42, 29424, 42, -53939, 19344, 82273, 4681, -20418, 1729])
-De lijst bevat 4 speciale getallen en 19 andere getallen.
->>> SpecialeGetallen([328, 667, 42507, 71442, -39471, 14821, 73, 35287, 1729, 41870, -18836, -16549, 1729, -15221, 50197, -47622, 2, 42, 6174, 6174, -59996, 15101, 70915, -69637, 2, 52477, 26979, -65285, 42, 87180, 92715, 90359, -33194, -86098, 51167])
-De lijst bevat 9 speciale getallen en 26 andere getallen.
->>> SpecialeGetallen([78401, 33180, 57084, -93374, -10027, -22933, 85098, -80543, 72706, -72081, 55886, 1729, -93225, 2980, 1729, 41858, 55641, -95393, -70224, -16407, 98526, 42786, -42154, 2, 37601, -10279, 54774, -76233, -65061, -8283, -56816, 42782, -51021, -68111, -72184])
-De lijst bevat 3 speciale getallen en 32 andere getallen.
->>> SpecialeGetallen([95551, -50581, 6174, 84037, 38870, -85686, -98666, -15351, -85974, 46220, -78099, -44276, -62424, -62037, 69608, 21880, 14761, -86522, -59261, -61892, 6015, 1729, 2, 19530, 80993, 92501, -51718, 6174, 19149, 53422, -35488, 68003, 76695, -12234, 73, -47935, -20952, -36421, 42, -14234, 22806, -16591, 22482, 6174])
-De lijst bevat 7 speciale getallen en 37 andere getallen.
->>> SpecialeGetallen([58579, -39450, -97149, -70082, -62835, -73895, 89046, 99400, 1432, -70828, -19158, 64762, 21250, 1729, 2, -49935, 2, -91103, 53998, -21561, 61832, -4497, -3943])
-De lijst bevat 3 speciale getallen en 20 andere getallen.
->>> SpecialeGetallen([-20373, 73, 6346, -43821])
-De lijst bevat 1 speciale getallen en 3 andere getallen.
->>> SpecialeGetallen([-34603, -77454, -63673, 33184, -59386, 6174, -56277, 90432, 56202, 41090, 71833, 56986, 21238, -15358, -4828, -57345, 40671, -40759, -73290, 2, 62941, 44500, 21989, 27006, -68787, -56077, -72646, 36264, 55220, 39926, 44522, 42, -67407, 1729, -51789, -23332, 45573, 73745])
-De lijst bevat 4 speciale getallen en 34 andere getallen.
->>> SpecialeGetallen([-91952, -63529, 95584, 5337, 73, -18840, 44703, 28670, 48185])
-De lijst bevat 1 speciale getallen en 8 andere getallen.
->>> SpecialeGetallen([67797, 13395, 73, -29623, -14020, -88190, 40592, 7045, -46861, 1729, 84329, -31382, 2, 70011, -87766, -77621, -38802, 42, -68205, 53349, 5828, -48068, 59304, 1729, 1043, 20305, 25487, -60551, 73, 72875, -15513, 13251, 2, 6174, 46243, 54720])
-De lijst bevat 8 speciale getallen en 28 andere getallen.
->>> SpecialeGetallen([53098, -76932, 2, 1293, -311, -3974, 90118, -81444, -15202, -6830, -23481, -43034, -25452, -17508, -39928, 2, -23126, -85557])
-De lijst bevat 2 speciale getallen en 16 andere getallen.
->>> SpecialeGetallen([2, 60277, 68337, -88897, -5326, 6174, 61169, 57141, 2711, -79195, -81728, 45401, -6848, -27785, 22876, -96996, -43229, 156, 25948, -57097, 22132, 14995, 24597, -27236, -20705, 54907, 90862, 6060, 42, 11042, 2, -60423, 77603, -11515, -29291, 25633, 42, 1729, 96434, -21229, 59493, 62101, 73, -7851, 45945])
-De lijst bevat 7 speciale getallen en 38 andere getallen.
->>> SpecialeGetallen([-89848, -21153, -21957, 71850, 42, -84603, -73179, 97188, 6174, -51871, -61760, -12999, -90917, 6174, 19011, 35045])
-De lijst bevat 3 speciale getallen en 13 andere getallen.
->>> SpecialeGetallen([-53188, -42440, 73, -31854, -76683, -62603, 73, 36850, 73, 1729, -44399, 2, -16893, -84205, 73720, -72597, -5920, 22982, -46346, -50920, -86385, -73296, -86205, -25588, 7777, 87129, 8837, 14572, 2, 4621, 51269, 42006, 31194, 1729, 1294, 85217, 56405, -38046, -91162, 55597, 92281, -59229, -16758])
-De lijst bevat 7 speciale getallen en 36 andere getallen.
->>> SpecialeGetallen([42, -38076, 29806, -3102, -71456, -71005, 45922, 44039, -66890, 70483, -37580, -60968, 17245, 1183])
-De lijst bevat 1 speciale getallen en 13 andere getallen.
->>> SpecialeGetallen([6174, -40671, 1729, -94732, 96260, 5339, 3191, -63040, -8421, 1729, -57401, 99562, -51048, -37034, -39269, -59383, 27792, 33671, -82955, 62694, -97063, 1263])
-De lijst bevat 3 speciale getallen en 19 andere getallen.
->>> SpecialeGetallen([82704, 74059, -44403, -36784, 77206, -7441, 48026, 26640, 42, 68789])
-De lijst bevat 1 speciale getallen en 9 andere getallen.
->>> SpecialeGetallen([85707, -47669, -58555, 45995, 6174, 55423, -93786, 1729, 45139, -66490, 42, -71791, -31112, 69905, 57308, 95120, 82954, -68531, 2, -41491, 63747, 35921, 42, 2, -27295, 58181, 53921, 83200, 7482, -81949, -94310, 59092, 89473, 52509, -20208])
-De lijst bevat 6 speciale getallen en 29 andere getallen.
->>> SpecialeGetallen([73, 24506, 1729, -15097, -2171, 12173, -43716, -73808, -21688, -48066, -29332, 42, -3071, -65205, 43426, -3316, -15421, 6174, -77071, 94616, -6451, -95929])
-De lijst bevat 4 speciale getallen en 18 andere getallen.
->>> SpecialeGetallen([-56793, 92934, 73, 25512, -26953, -98783, -64683, 37598, 55219, 2, 25163, 65456, -79573, -57600, 89858, -95867, 33705, -98223, 6174, 66535, 44464, 46656, -11107, -45478])
-De lijst bevat 3 speciale getallen en 21 andere getallen.
->>> SpecialeGetallen([73, 1729, 29379, 73, 73, 88036, -52561, -23528, 65470, 2, -55590, 2, -52062, -79469, 11127, -28583, -19399, 73, 2, 75599, 86741, 12529, 77923, -91865, 5549, 22385, 2, 6174, 16520, 1729, 74788, 38750, 73, 95638, 2, -39448, -66089, -29103, -60428, -69256, 88237, 29294, -34967, -73600, 10224, -84298, 81668, 82889, 17836])
-De lijst bevat 13 speciale getallen en 36 andere getallen.
->>> SpecialeGetallen([-62482, -45371, 64289, 44441, -42787, -77918, -85569, 15472, 2, -45258, 2, 73, -36385, 99198, 42, 29576, 88582, 54154, -91821])
-De lijst bevat 4 speciale getallen en 15 andere getallen.
->>> SpecialeGetallen([-18942, 95876, 73, 1772, -71383, 55510, -17340, 74159, 53299, 45632, 41274, 65758, 73, -71067, 3786, -65460, 74336, 9809, -19437, -83261, 91415, -14642, 69439, -15872, 3604])
-De lijst bevat 2 speciale getallen en 23 andere getallen.
->>> SpecialeGetallen([-15956, 73, -19614, 68577, 73, 6174, 7396, 13089, 2, -58106, -70069, 1729, 22965, 1729, 1729, 2664, -14249, 58104, 73, 31333, 6448, 52206, 99580, 79455, 63881, -34303, -46122, 6174, 4686, -248])
-De lijst bevat 9 speciale getallen en 21 andere getallen.
->>> SpecialeGetallen([4856, 73, 90254, 73, -23073, -99728, 35847, -67630, 57903, 44498, -1379])
-De lijst bevat 2 speciale getallen en 9 andere getallen.
->>> SpecialeGetallen([488, -30024, 75717, 73, 91516, 57588, 35115, 71973, -9774, -10550, -39290, 55277, -14374, 63060, 77682, 42, 67871, -24816, 98354, -60851, -42282, -75635, -7496, -10013, -55305])
-De lijst bevat 2 speciale getallen en 23 andere getallen.
->>> SpecialeGetallen([-38353, 95718, -75557, -4981, 42, 6174, -21796, -78291, -38140, 35615])
-De lijst bevat 2 speciale getallen en 8 andere getallen.
->>> SpecialeGetallen([1729, 2, 53467, 37904, -11244, 82830, 73, -8739, 54596, -9510, 82636, 42, 6174, 62313, 1729, -6867, -98345, -2993, -65229, -47641, -16924, 35955, -81995, 89763, 56459, -80507, -64676])
-De lijst bevat 6 speciale getallen en 21 andere getallen.
->>> SpecialeGetallen([39294, 1729, -39809, -56357, -294, 42, 42, 6174, -35663, 42, 87396, 42, 42451, 73, 76037, 10827, -35357, 3692, 40026, 89267, -42818, 1729, 3424, 85430, 30589, 31255])
-De lijst bevat 8 speciale getallen en 18 andere getallen.
->>> SpecialeGetallen([-7185, 6174, 96792, 53819, 66842, 96068, 6174, -72321, 77598, 64309, 6174, 71239, 74650, 63553, 4161, 19936, -62684, -40321, 6174, -43982, -28434, 93412, 75215, 86564, 8238, -19526, -65282, 76342, 11769, 10092, -97590, -43012, 27329, 28972, -65529, 2, 58835, 79248, 91970, -26588, -26418, 2697])
-De lijst bevat 5 speciale getallen en 37 andere getallen.
->>> SpecialeGetallen([-14511, -17095, 6174, 517, -47011, 6174, -39826, -40685, 76493, -10986, 93821, 42816, 26762, 13532, 5192, 2, 6174, 83772, -45062, 13418, 55933, 55717, 90573, 88670, 20759, -646, -6298, 89488, 9889, -35056, 77228, 11575, 52312, 42])
-De lijst bevat 5 speciale getallen en 29 andere getallen.
->>> SpecialeGetallen([1729, 42, -12038, 1729, -94740, -14027, 6174, 6174])
-De lijst bevat 5 speciale getallen en 3 andere getallen.
->>> SpecialeGetallen([-60301, 41375, 29197, -68425, 55190, 50260, 37388, -24987, 2295, 2, -56939, -93206, -34434, 44688, 57837, 63719, -78731, 2, 37101, 59825, 11270, 2])
-De lijst bevat 3 speciale getallen en 19 andere getallen.
->>> SpecialeGetallen([6174, -48688])
-De lijst bevat 1 speciale getallen en 1 andere getallen.
->>> SpecialeGetallen([-53333, -60496, 29178, -92718, 5706, 17559, -77292, -63203, 94282, 1729, 42, 42, -75075])
-De lijst bevat 3 speciale getallen en 10 andere getallen.
->>> SpecialeGetallen([-64480, 82796, 42, 47939, 87039, -23348, 2, -3843, -78108, -93374, 77279, -45421, -38387, -30297, -98374, -7689, 6174, 73, -57233, 42333, -7717, 1729, 6174, -91643, -10223, 94605, -59674, 39234, 11009, -88971, -43130, -44751, 52088, 33426, -7066, -25549, 17353, -86262, -20767, -10473, 1729, -79030, 2, 53657, 73, 2, -1067, -17853, 98479])
-De lijst bevat 10 speciale getallen en 39 andere getallen.
->>> SpecialeGetallen([16624, 24791, 23854, 1729, 35799, 2])
-De lijst bevat 2 speciale getallen en 4 andere getallen.
->>> SpecialeGetallen([-85076, -70981, 84089, 6174, -25021, -36191, 2, 50790, 27315])
-De lijst bevat 2 speciale getallen en 7 andere getallen.
->>> SpecialeGetallen([-45224, -23806, -23516, -55331, 56014, -51613, -30157, 43626, -85275, 64685, 73, -85204, 45237, 6174, -75296, -13130, 43979, 6174, 83868, -27050, 1729, -25742, 26936, -71013, 83100, 15469, 96981])
-De lijst bevat 4 speciale getallen en 23 andere getallen.
->>> SpecialeGetallen([72989, 73, 95904, 17493, -48925, 78468, 10824, 1729])
-De lijst bevat 2 speciale getallen en 6 andere getallen.
->>> SpecialeGetallen([-54525, -86943, -88959, -38623, 42, 67897, 59307, 8497, -58991, 67371, 99716, -28845, 1729, 6174, 21565, 30646, 75355, 2, 41992, -18199, -85738, -13749, 52216, 37548, 2, 45142, 42, 1729, -13323, -28486])
-De lijst bevat 7 speciale getallen en 23 andere getallen.
->>> SpecialeGetallen([2, 42, 64153, -12009, -31050, 98407, -1196, 8536, 86768, -80951, 42739, 76508, -34346, -23960, 42, -16587, 18251, 73, 2, 42975, -97961, 49471, -57967, 27820])
-De lijst bevat 5 speciale getallen en 19 andere getallen.
->>> SpecialeGetallen([55491, -11721, 6128, -20095, -43525, -73400, 6174, -43622, 42])
-De lijst bevat 2 speciale getallen en 7 andere getallen.
->>> SpecialeGetallen([11655, -71128, 31890, -97283, 84685, -87534, 73, -70842, -40476, 40610, -44463, 69212, 38277, 2, -18778, -42427, 42, -62923, 1729, 46968, -55711, 19030, 80655, 27866, -61484, 58286, 1729])
-De lijst bevat 5 speciale getallen en 22 andere getallen.
->>> SpecialeGetallen([2860, 19393, -85319, 33348, 63950, -29912, 2, 1729, 3665, 80686, 88953, 28360, 50835, -35847, -82770, 96249, 89191, 2, -81283, 6174, -54877, -44924, 1729, 13977, -17496, -58537, 7276, -25993])
-De lijst bevat 5 speciale getallen en 23 andere getallen.
->>> SpecialeGetallen([42, 75033, 65965, -79166, 73])
-De lijst bevat 2 speciale getallen en 3 andere getallen.
->>> SpecialeGetallen([42, 29841, 2, -27935, -7635, -55874, 15990, 35465, 46372, 2, -58493, -20188, 19001, -48856, 22079, 13479, -18399, 76751, 13398, 2, 49578, 42, -45761, 45050, -96622, -318, 94053, -96683, 3180, 62544, 6174, -90730, -93019, -26914, -82378, 18021, 16272, 45319, -33446])
-De lijst bevat 6 speciale getallen en 33 andere getallen.
->>> SpecialeGetallen([-48381, 6654, 70346, 71415, 43237, -44744, -94838, 2, 42, 86685, 82892, -93513, 25338, 88596, -69891, 2, 42, -38830, 78145, 82680, 42, -43633, -8525, 97282, 39007, 70493, 89784, 1729, 8543, -88489, -50733, -44087, 42])
-De lijst bevat 7 speciale getallen en 26 andere getallen.
->>> SpecialeGetallen([-44019, 80388])
-De lijst bevat 0 speciale getallen en 2 andere getallen.
->>> SpecialeGetallen([77540, 25130, 10542, -63531, -99913, -20430, -88611, 45024, -94521, 42, -71248, -87910, 46375, -18653, 41120, -90937, -81351, -12372, -31442, -93418, -74359, 1729, 42497, 72688, 26891, 48611, 51177, 83764, -77553, 86484, 22991, 10776, 35170, 24443, -84279, 50812, 2, -3561, -16673, -17626, 1729, 38640, -21370])
-De lijst bevat 4 speciale getallen en 39 andere getallen.
->>> SpecialeGetallen([79667, 87578, -87271])
-De lijst bevat 0 speciale getallen en 3 andere getallen.
->>> SpecialeGetallen([1729, 42, 25912, -55286, 91099, -17649, 1729, -56033, 90246, 6174, 1729, 42, 61149, -26097, 72308, -17441, -26728, 1729, 51451, 98812, 66659, -18695, -31736, 66157, -30020, 39900, 58463, 42, -64544, -66015, -14655, -50595, 27932, 38793, -63603, 18304, 6174, 14041, 2, 56695, 84731, 71441, -45060])
-De lijst bevat 10 speciale getallen en 33 andere getallen.
->>> SpecialeGetallen([-32610, -11799, 77421, 73, -4776, 32282, 59492, 58446, 1729, 64510, 51722, 53519, -32867, -68812, -25948, 59675, 1729, 19557, -10437, 69112, 1729, -84783, -47282, 75478, 7702, 21773, 41092, 88460, -52293, -31343, -77251, -41487, 38028, 5498, -5621, -63852, 59705, -60706, -66351, 73, 42, 7398, -62220, -46821, 6174])
-De lijst bevat 7 speciale getallen en 38 andere getallen.
->>> SpecialeGetallen([2, -83446, 34573, 6174, 9674, -2686, 2007, 54087, 93256, 2, 1729, -85118, 6174, -97439, -39104, 12116, 42, 94800, -75205, 36358, 42, 1729, 73, 20977, -83535, 20139, 73, -77408, 2, -34941, 6174, 39311, 2129, -2886, -22559, 2, 12291, 49639, 2, -63864, 45728, -60646])
-De lijst bevat 14 speciale getallen en 28 andere getallen.
->>> SpecialeGetallen([59203, 2, -98669, -43607, -30814, -96426, 6174, 11605, -77948, 95213, 19221])
-De lijst bevat 2 speciale getallen en 9 andere getallen.
->>> SpecialeGetallen([13044, -34516, 82678, -56488, 63073, -9720, 42, 7503, 17846, -16379, 37604, -28175, 1729, 12783, 97058, -82555, 73, 6174, 62755, 42, 11712, 79704, 73, 77689, -57786, 42, 42, 20621, 97578, -15155, 2, -99497, 1729, 66133])
-De lijst bevat 10 speciale getallen en 24 andere getallen.
->>> SpecialeGetallen([-78067, 42, 48649, -62597, 57422, 37039, 26224, 12934, 41092, 10700, -70578, -67369, 13569, 13900, 6174, 73, -5007, 1729, 81642, -91565, 1729, 1729, 75237, 4174, 93743, 3623, -91135, 73])
-De lijst bevat 7 speciale getallen en 21 andere getallen.
->>> SpecialeGetallen([-96148, -23867, 1729, 42, -60088, 40537, 33367, 63063, -45804, 73, 25092, 84023, -92305, -20966, 84378, -31998, -37296, 83764, 18469, 976, 96767, 2, 42, 73, 2, 359, 70272, -13513, 42, 24209, 4945, -42878, 37387, 2, -43270, 44239, 53907, 2, 97534, -43803, 1729, 48993])
-De lijst bevat 11 speciale getallen en 31 andere getallen.
->>> SpecialeGetallen([92729, -41348, 1729, -50121, 99572, 57418, -30242, 57684, -51982, 24331, 71761, -18526, 77892, 28638, 51654, -74606, -65301, -49525, -66938, 1658, 5028, -68111, 51965, 73, 6174, 86454])
-De lijst bevat 3 speciale getallen en 23 andere getallen.
->>> SpecialeGetallen([41894, -16624, -3233, 73312, 35023, 22220, 12951, 29938, 47970, 1729, 20851, 6174, 73, -35483, -48110, 89828, 54059, 95191, 48329, -34984, 42, 29190, 53570, 6174, 73, -57164, 1729, -43145, 45148, -77847, 2, 27244])
-De lijst bevat 8 speciale getallen en 24 andere getallen.
->>> SpecialeGetallen([-98386, -70137, 6174, -94081, 83873, -41770, 2432, 1729, -64276, 82951, -77744, 73, 90280, 1729, 1729, 92927, 53345, -45069, 13457, 92682, -74981, 73, 1729, 28044, -37478, 95778])
-De lijst bevat 7 speciale getallen en 19 andere getallen.
->>> SpecialeGetallen([1729, 97351, -18375, -94258, 93192, 1729, -28608, 53628, -32227, -96649, 73, 2, -85379, 9148, 49395, -93384, 2, 6174, 2, 93837])
-De lijst bevat 7 speciale getallen en 13 andere getallen.
->>> SpecialeGetallen([-8095, 2, -81555, -64630, -53939, 95799, -61142, 6174, -14338, 3155, 2, 19410, 67869, -73517, 66033, -43689, 1729, 26065, -20020, 13016, 94001, 42, -87461, 96866, -47327, -44480, -69236, 18148, -76375, 65450, 42480, 42173, 23999, -96271, 79727, -1544, 23281, -1191, -21205, 2])
-De lijst bevat 6 speciale getallen en 34 andere getallen.
->>> SpecialeGetallen([-771, 1729, 46233, 76941, 2025, 801, -83531, 42, -82015, 1729, 22190, -50053, 22784, 25193, -38164, -13922, 71386, -2044, 8361, 42, -98975, 16628, -12010, 6174, -40653, 1729, 41077, 6174, 69186, 34497, 6174, 60157, 43756, 57581, -90991, 90005])
-De lijst bevat 8 speciale getallen en 28 andere getallen.
->>> SpecialeGetallen([1729, 89538, -2785, -98062, 11705, 67810, -27982, 6174])
-De lijst bevat 2 speciale getallen en 6 andere getallen.
->>> SpecialeGetallen([38575, 83705, -72147, -46041, -42220, 29943, -41674, 42, 2, 6174, -1129, 93300, 73, -79659, 96545, 54099, 6174, 98352, 24610, 2, 62781, 2, -30314, -92749, -62820, -43819, 1729, 91222, -69699, -20431, 86646, -79964, 19859, -41732, 94738])
-De lijst bevat 8 speciale getallen en 27 andere getallen.
->>> SpecialeGetallen([32523, 42, 46745, 55778, 7732, -1462, 91782, 3590, -45928, -90659, -45134, 87812, 3188, -82370, 93296, -889, 6174, 70985, 2344, -5394, 55129, 46581, 16479, -41000, 42, 17353, 70300, 59613, -29898])
-De lijst bevat 3 speciale getallen en 26 andere getallen.
->>> SpecialeGetallen([12368, 2, -14125, -4095, -96261, 63963])
-De lijst bevat 1 speciale getallen en 5 andere getallen.
->>> SpecialeGetallen([15650, -71760, 7505, -87472, -38588, -63633, -84378, 52193, 1729, -29822, 36092, -99754, -40077, 20184, 6174, -79238, -98213, -15249, -5465, 1729, -63147, -79971, 2, 25224, -39775, 100, 60263, 6174, 94055, 58278, 84221, -48708, -92780, 99544, -73382, 53628, 44323, 96392, 38148, 2, 29381, -37654, 2])
-De lijst bevat 7 speciale getallen en 36 andere getallen.
->>> SpecialeGetallen([-1933, 51314, 55961, 2, -6866, -14835, 6174, 87601, 16186, -42844, 7466, 84705, 13888, 66045, 3717, 73, 6174, 66840, -91375, 1729, 1729, 42, 92911, 1729, 28647, 96535, -51977])
-De lijst bevat 8 speciale getallen en 19 andere getallen.
->>> SpecialeGetallen([73, 2, 42, -96573, -96571, 82597, -53881, -55030, 6174, -45302, 39755, -5516, -81294, -36097, 34670, 91130, -67215, -45681, -72389, 6174, 99153, 6174, 98723, 73, 58662, 1729, 94242, -93828, -40431, -87328, -88304, 90922, 83637, 1729, 6174, -90007, 11870, 12635, 63042, 43236, 2, 578, 41520, 73, 70583, 1729])
-De lijst bevat 13 speciale getallen en 33 andere getallen.
->>> SpecialeGetallen([-71523, 22177, -5994, 42, 42, -38205, -28356, -25196, 12018, 32632, -85099, -83319, -83843, -15477, 86684, 12402, -81349, 1729, 1729, 1729, 1729, -34173, -46315, -49841, -62598, 2, -36784, -90230, -39478, 11765, 76526, -54568, -34091, 2162, 2, -93153, 1729, -68044, -12763, 40331, 1729, -35120, 5273])
-De lijst bevat 10 speciale getallen en 33 andere getallen.
->>> SpecialeGetallen([933, 34614])
-De lijst bevat 0 speciale getallen en 2 andere getallen.
->>> SpecialeGetallen([-73083, 5927, -36410, 73058, 61218, -22089, 45336, -41167, -4704, 91221, -94873, 10390, 1729, 6174, -18593, -16064, 69292, 1729, 16363, -98368, -36242, 73416, 73, -76469, -23707, 43670, 2914, 53908, -28193, -1881, 29865, 2927, -38234, 89751, 42, -4202, 82717, -31115, -22518, 42153, -54874, 46376, 72665])
-De lijst bevat 5 speciale getallen en 38 andere getallen.
->>> SpecialeGetallen([-33000])
-De lijst bevat 0 speciale getallen en 1 andere getallen.
->>> SpecialeGetallen([42, 44551, -44481, 65698, -89514, 1729, 89549, 23760, 57437, -84093, 42, 42, 73, 75191, 1729, -56583, -99218, -347, 42, -43033, 2, -90848, 1729, 90097, 73, -52417, -60479, 1729, 6174, -66504, -22770, -37987, 6174, -50377, 18167, -69226])
-De lijst bevat 13 speciale getallen en 23 andere getallen.
->>> SpecialeGetallen([6174, -88135, -3728, 42, 6174, -79876, -70678, 36186, 1729, 2, -1877, 2, 52722, 78140, 6383, 16370, 6174, 12869, 14518, -37226, -40249, 78643, -6127, 73, 81939, 1889, -66726, 11204, 87636, 42, 15970, 11950, 87425, -924, 6174, -42442, -97623, 42, 24335, 53905, 10765, -75532, 80960])
-De lijst bevat 11 speciale getallen en 32 andere getallen.
->>> SpecialeGetallen([-77335, -76799, -32641, -61358, 2, -26857, 73, -47691, 56367, 73, 85894, -39208, 14158, 81785, -69644, 73, 21156, -92464, -65748, -6675, 1729, 67498, -63066, 28082, 73, 70346, -49689, -34545, -89799, 18144, -90236, 2, 36949, 2, -51568, 44314, 57134, 42, -73715, 6174, -71901, 15131, -50650, -95966, -41576, 2, 6174, -53537, 42])
-De lijst bevat 13 speciale getallen en 36 andere getallen.
->>> SpecialeGetallen([73, -28147, 42, 86859, 38069, -12227, -3312, 52740, 1729, -58985, 18699, 38139, 32828, 34196, 24778])
-De lijst bevat 3 speciale getallen en 12 andere getallen.
->>> SpecialeGetallen([399, 42, -36185, -33676, -45428, 1729, 6174, -20845, -11103, 6174, 73, -98591, 6174, 2, -31739, 79384, -99573, -48061, 61686, 1729, 2, -17700, -1377, -94599, -37900, -35415, -76211, 51951])
-De lijst bevat 9 speciale getallen en 19 andere getallen.
->>> SpecialeGetallen([36915, 71355, 68040, 25556, 6174, 79976, -51850, 47414, 73327, -82910, 68493, -76474, 87058, 50029, 79780, 12061, 92288, 6174, 18769, -35631, 87212, 19730, -84385, -82645, -95949, -76173, 42, 6174, 6174, 42, 29200, -69725, -45327, -943, -39784, -91590, 93589, -29638, 97608, 55843, 6174, 37677, -19457, -12496, 40372, 74406])
-De lijst bevat 7 speciale getallen en 39 andere getallen.
->>> SpecialeGetallen([-27294, 2, -40903, 55328, 21408, 60852, 2, 39114, 6174, -57215, 35622, 81663, -44041, 1729, 68221, 42, 73, 6174, 65911, -33005, 97144, 56692, -65122, 79829, -89501, -79105, 24292, 63320, -65522, 64277, 42, 42, -17234, 25356, 2, -70947, 88119, 2, -38250, 71759, 95784, -29407, -1367, 53751, -4897, -43763, 13004])
-De lijst bevat 11 speciale getallen en 36 andere getallen.
+Aantal speciale getallen: 50.
+Aantal andere getallen: 0.
+>>> SpecialeGetallen([-95742, -94722, 80171, -54087, 6174, 71249, -56085, 6174, -53109, -64512, 66586, 23653, -8230, 73, 38959, 1729, 76799, -12303, -44000, -64362, 94123, -29369, 59379, -11622, 9336, 90696])
+Aantal speciale getallen: 4.
+Aantal andere getallen: 22.
+>>> SpecialeGetallen([-80759, 1729, -57368, 17065, 99699, 20882, 1729, -99560, 77573, 49698, -3435, 1729, -34080, 19178, 88168, 55063, -94518, 42983, -41885, 76855, -47725, 14961, 35664, -17156, 18873, 34794, 50097, 35310, 32329, 6174, 6174, 6174, 80591, -16092, 40694, 67800, 54613, 28887, 63626, 56094, -36832, 79384, 27682])
+Aantal speciale getallen: 6.
+Aantal andere getallen: 37.
+>>> SpecialeGetallen([-20143, 62889, -21648, -52172, -86018, -56743, 58691, 39171, -67663, 64622, -19186, -92764, 22468, -59473, -87129, -23450, 1729, -44152, 48846, 2, 42, 1917, -59577, -75609, 94343])
+Aantal speciale getallen: 3.
+Aantal andere getallen: 22.
+>>> SpecialeGetallen([38884, 71486, -88472, -20316, 42, -38201, 36693, 36927, 88988, -72084, -30861, -32270, 51931, 98295, -4749, 1729, 73, -82961, -25714, -87287, 2, 57409])
+Aantal speciale getallen: 4.
+Aantal andere getallen: 18.
+>>> SpecialeGetallen([48854, 6174, 36911, -56486, 76643, -34001, 73, 85213, -12262, 59216, -98409, -37485, 57505, 68665, 6174, 47620, -47116, 42, -4981, 64554])
+Aantal speciale getallen: 4.
+Aantal andere getallen: 16.
+>>> SpecialeGetallen([88184])
+Aantal speciale getallen: 0.
+Aantal andere getallen: 1.
+>>> SpecialeGetallen([9382, -30751, -57138, -33099, -82781, 79695, 48827, 79330, 81078, 73, 18963, -73458, -61098, 14942, 42, 95336, -78185, -77235, -9159, 42, 92894])
+Aantal speciale getallen: 3.
+Aantal andere getallen: 18.
+>>> SpecialeGetallen([-3150, -79424, 56386, 52433, -88644, 50961, -91432, -36378, 6827, -61722, 45062, 98496, 42, -87742, 84257, -63528, 76939, 39211, 73, 16306, 79592, -85932, -7821, 77266, -77435, 26123, 42701, -11721, 42, 2, -23367, -58730, 6174, -58514, 19133, -6200])
+Aantal speciale getallen: 5.
+Aantal andere getallen: 31.
+>>> SpecialeGetallen([-42944, 46629, -17493, 73, -10775, 6921, 22952, -87977, -59430, -51213, -11481, -33261, 15937, 73, -31565, 50870, 54627, -3517, -10737, 48572, -76747])
+Aantal speciale getallen: 2.
+Aantal andere getallen: 19.
+>>> SpecialeGetallen([2, 6174, -60786, 71151, -553, 6174, 42405, 73, -9821, -89002, 1729, -79591, 2604])
+Aantal speciale getallen: 5.
+Aantal andere getallen: 8.
+>>> SpecialeGetallen([40585, 2, 9083, 1729, 69937, 29685, 43629, 41904, -79485, 79874, -29120, -66123, -63072, 57071, 6174, -96231, -42405, 73, -1412, -8552, -3398, 36106, -49438, -64292, -38189, -10226, -94734, 39057, 90127])
+Aantal speciale getallen: 4.
+Aantal andere getallen: 25.
+>>> SpecialeGetallen([-14145, -12643, 17304, -17341, 37710, 63237, -14698, -44878])
+Aantal speciale getallen: 0.
+Aantal andere getallen: 8.
+>>> SpecialeGetallen([37951, -90629, 67588, -49028, -11701, 45886, 83641, -76371, 73448, -79562, 2233, 81422, 83512, 1729, -36352, -22965, 2, 73, -60925, -2329, 82403, -1298, -96028, 63617, -50206])
+Aantal speciale getallen: 3.
+Aantal andere getallen: 22.
+>>> SpecialeGetallen([73, 21351, -78161, -13525, 42, 38134, 1729, -52901, 1729, 93968, -35178, -24820, 81192, -36967, 85409, 45724, 69698, -43486, -81383, -17039, 19393])
+Aantal speciale getallen: 4.
+Aantal andere getallen: 17.
+>>> SpecialeGetallen([6174, 6174, 60539, 6174, 4520, 2, -40510, -42580, -58510, -2674, -43085, 54682, 73, -19872, -69593, -16177, 3614, -55493, 42, 27761, -44656, -39198, 42, -48618, 2, 53672, -62415, -11312, 75337, 36201, 36763, 65843, 6174])
+Aantal speciale getallen: 9.
+Aantal andere getallen: 24.
+>>> SpecialeGetallen([42, 9445, -15415, 85843, -33178, -68255, 16125, 50222, 46104, -50527, -3917, -19991])
+Aantal speciale getallen: 1.
+Aantal andere getallen: 11.
+>>> SpecialeGetallen([-21105, 21799, -71882, 86384, 61059, -7284, -73438, 42])
+Aantal speciale getallen: 1.
+Aantal andere getallen: 7.
+>>> SpecialeGetallen([-45770, -34258, -82035, -83033, 73, 59606, 28196, -36834, -62461, 54276, 1729, 93397, -80984, 6174, 23185, 76414, 6174, 74112, -50681, -83815, -55697, -86646, 1729, 53440, -1277, 6174, 20767, 93111, -11282, 42496, 73, 2, 73, 99377, -59771, -60178, 77864, -17351, -21781, 1729, -28445, 73, 19596, 50693, 23870, 19807, 1178, -56903, 70500])
+Aantal speciale getallen: 11.
+Aantal andere getallen: 38.
+>>> SpecialeGetallen([42, 25522, 64451, 9825, 4721, 14794, -31500, 16845, -52129, 29419, 40875, 88860, 18716, 51561, -38749, -95562, 73, 1076, 42, 42, 34944, -73762, -224, -47850, 1729, 49033, 38984, -49094, 1729, 83067, 85313, 15603, 17732, -917, 51627, -99832, 2, -93978, 92589, -77033, 95601, 65245, 81267, -88950, -944, -30040, 58320])
+Aantal speciale getallen: 7.
+Aantal andere getallen: 40.
+>>> SpecialeGetallen([40634, 42, -16789, 1729, 73, 1729, 42, 98317, -7957, 45225, -87686, -13182, -65686, -76839])
+Aantal speciale getallen: 5.
+Aantal andere getallen: 9.
+>>> SpecialeGetallen([-98405, -78268, -28847])
+Aantal speciale getallen: 0.
+Aantal andere getallen: 3.
+>>> SpecialeGetallen([-26309, -46367, 54882, 64016, -33737, 38259, -22874, 66065, -10695, 7151, -86254, -58607, -36901, -49027, -86660, -19850, -70659, 81483])
+Aantal speciale getallen: 0.
+Aantal andere getallen: 18.
+>>> SpecialeGetallen([-85929, -39017, 32906, 33140, 35088, 2, 84330, -34616, -86838, -57062, -97767, -77248, 97199, 6174, 73, 42, 42])
+Aantal speciale getallen: 5.
+Aantal andere getallen: 12.
+>>> SpecialeGetallen([-64674, -94446, 21442, 35292, 74066, 1729, 81111, 51690, -17433])
+Aantal speciale getallen: 1.
+Aantal andere getallen: 8.
+>>> SpecialeGetallen([24397, 51607, -84849, -97818, 2, -57439, 73, 91606, 99296, 29110, -13818, -58211, 37777, 27991, 42])
+Aantal speciale getallen: 3.
+Aantal andere getallen: 12.
+>>> SpecialeGetallen([49542, 91142, -72307, 33352, 1729, -46426, -22763, -52088, 1729, 63635, -85340, -42750, -54433, -16930, -4, -87025, 34505, 2, 1729, -33992, 73, 9362, -40357, 36046, 68857, -52958, -20507, 20023, 49644, 62137, 8696, -29668, -39642, -18274, -9494, 6174, -87729, 77008, -21478, -36568, -80419, 91475, 39499, -71124, -57390])
+Aantal speciale getallen: 6.
+Aantal andere getallen: 39.
+>>> SpecialeGetallen([90535, 59682, -2538, 91189, -69123, -32038, -40053, 93498, 2, 6174, 6174, 83193, 72860, -5445, -94296, -23808, 70088, 72005, 2, -82722, -20981, 46385, 73, -30726, 42, -26708, 6174, 86064, 38796, -8131, -7730, 68160, 7983])
+Aantal speciale getallen: 7.
+Aantal andere getallen: 26.
+>>> SpecialeGetallen([81411, 61041, 47305, 87551, -63447, 1729, -12864, -5507, 2, 2, -30997, 61649, 73, -771, 51419, -5321, 57312, -96879, 91872, 6174])
+Aantal speciale getallen: 5.
+Aantal andere getallen: 15.
+>>> SpecialeGetallen([6174, 81680, -37278, -83630, 6174, 42, -15083, 84941, -46269, 41753, 2, 6174, -97920, 87423, -5455, 43071, 73, -79556, 53837, -85250, -32511, 88155, -48365, -83132, -32941, -89890, -36627, -72791, 75136, -98913, -30028, 2, 74219, 98079, 15243, -5504, 81407, 97493, -52118, 73537, 6174, -41042, -50612, 36216, 8454, 65232, -5958, -8116])
+Aantal speciale getallen: 8.
+Aantal andere getallen: 40.
+>>> SpecialeGetallen([42277, -73002, -82321, -4572, 1729, -63954, -12022, -12689, 1729, 19766, -60968, -5952, 46488])
+Aantal speciale getallen: 2.
+Aantal andere getallen: 11.
+>>> SpecialeGetallen([-84591, -91422, -71975, 52067, -51209, -12870, -37020, 36920, 87505, 45848, 88927, -12938, 3045, 12191, -53481, 70955, 42936, -82696, -91705, 57499, 99463, -55764, -84612, 2, 49481, 9932, 12978, 21164, -36788, 91437, 67663, -59128, -99311, 1729, 73])
+Aantal speciale getallen: 3.
+Aantal andere getallen: 32.
+>>> SpecialeGetallen([-89748])
+Aantal speciale getallen: 0.
+Aantal andere getallen: 1.
+>>> SpecialeGetallen([-98867, 73, -31637, 43452, -83737, 12609, -4420, 33622, 73, -94210, 6174, 6174, -74007, 6174, 70949, -19401, 43166, -66313, 1729, 31759, 42, 62787, -20595, 28936, 42, -79465, -75511])
+Aantal speciale getallen: 8.
+Aantal andere getallen: 19.
+>>> SpecialeGetallen([-30755, 57958, -87199, 2, 32074, 34924])
+Aantal speciale getallen: 1.
+Aantal andere getallen: 5.
+>>> SpecialeGetallen([2, -60765, -44661, 29868, 69591, -16872, 6174, 19952, 6174, -63614, -9161, 1729, -87581, 20590, 1729, 73, 2, 18320, 3491, -92181, 89385, 73, 6174, -9780, -87230, -89385, -42530, 30255, 1729, 18123, 58313, -72304, 89702, 42, -69461, 84158, -38834, 1729, -14488])
+Aantal speciale getallen: 12.
+Aantal andere getallen: 27.
+>>> SpecialeGetallen([-7527, -79349, 22645, 52126, -80934, -71351, 73, -36792, -85338, 6174, 1729, 36550, 73, -79450, -781, -36825, 98909, -89992, 2, -41540, 28672, 80004, -99810, 2, -42064, 42485, 42, -8620])
+Aantal speciale getallen: 7.
+Aantal andere getallen: 21.
+>>> SpecialeGetallen([6174, -42248, 2, -48709, 2, 6174, -25428, 64146, -8371, 6174, -30486, 1729, -27144, 94235, -29830, 8333, 79770, 5676, -30933, 35607, -88041, 59716, 24323, 78216, -59760, 4705, 50778, 30995, 52721, -94581, -75350, -63929, -8262, 84242])
+Aantal speciale getallen: 6.
+Aantal andere getallen: 28.
+>>> SpecialeGetallen([-82637, 94668, -52310, 23372, 6174, -35303, -54084, 53277, 3281, 1729, 96862, -64319, 34801, 2, -92609, -26460, 96646, 42, 42, -87412, -60828, -90086, 6174, -68397, 24354, 96341, -45431, 1517])
+Aantal speciale getallen: 6.
+Aantal andere getallen: 22.
+>>> SpecialeGetallen([-88335, 52409, 1729, 29749, 73, 8781, -8038, 15858, 32893, 91131, 11210, -44701, -29758, 73490, 5342, -78982, 42, 21015, 1729, 69258, 54520, 22094, 33470])
+Aantal speciale getallen: 4.
+Aantal andere getallen: 19.
+>>> SpecialeGetallen([-58539, 1453, -67993, 65749, -67901, 2, 73, 74716, -13414, 48023, 73, -65739, -21229, -98761, 17764, 2, -75165, 73, -7552, -65696, 49931, -91921, 50240, 81477, 53427, -5008, 33447, -70610, 42729, -58284, -14065, -33664, 22619, 2, -96509, 50524, 1729, 2581])
+Aantal speciale getallen: 7.
+Aantal andere getallen: 31.
+>>> SpecialeGetallen([-42187, 99313, 23726, -68526, 6174, -47728, 9935, 88697, 24663, 73, -59365, -75680, -55229, 1836, -22405, 94979, 6174, 2, 59248, 6174, 38705, -39986, -32482, 96463, 67587, 52114])
+Aantal speciale getallen: 5.
+Aantal andere getallen: 21.
+>>> SpecialeGetallen([52886, -43717, 6174, -60531, -2852])
+Aantal speciale getallen: 1.
+Aantal andere getallen: 4.
+>>> SpecialeGetallen([-88629, -80397, -4011])
+Aantal speciale getallen: 0.
+Aantal andere getallen: 3.
+>>> SpecialeGetallen([64321, 14890, 6174, -99210, -54780, 2, -89040, -6916, -50330, 57071, 28417, -76929, 2, 54785, 18732, -98383, 73, -15594, -54107, 37190, -30097, -38573, -73675, -19807, -4076, 62415, 52046, 2, 54432, 87763, -63743, -15747, 23182, 2641, 78926, -37050, 37414, -46020, -87033, 2, 2, -88905, -80128, 71122, 60089, 40274])
+Aantal speciale getallen: 7.
+Aantal andere getallen: 39.
+>>> SpecialeGetallen([42, 25370, 42, 24514, 42, -2008, -13518, 29417, -62533, -96502, 73, 79932, 14797, -25967, 2, 73642, 4690, -50834, -64623, -76750, 46, -34101, -13387, -15276, 71078, 42, -3001, -47498, 32608, 50527])
+Aantal speciale getallen: 6.
+Aantal andere getallen: 24.
+>>> SpecialeGetallen([44699, -90004, -30818, 28845, -96587, -57762, 80886, -36766, -98967, 42, 5852, -16375, 73, 68898, -91056, 32367])
+Aantal speciale getallen: 2.
+Aantal andere getallen: 14.
+>>> SpecialeGetallen([6174, 11439, -41935, 53862, 11699, -8954, -35398, 73, 70525, -36267, -41179, 42, -188, 7169])
+Aantal speciale getallen: 3.
+Aantal andere getallen: 11.
+>>> SpecialeGetallen([-53714, -37926, 88662, 37805, 29066, 98514, -70127, 78266, 62713, 1729, 2, -68845, -27698, 22972, 84542, 26731, 39900, 42, 6174, 73, 51045, -50410, 42, -16378, 73, 17091, -56150, 18160, -64091, -36314, -10835, -99143, 2])
+Aantal speciale getallen: 8.
+Aantal andere getallen: 25.
+>>> SpecialeGetallen([63464, -27670, -58851, -76322, 16487, 49513, 91372, 19195, -14509, -44135, 54011, -97071])
+Aantal speciale getallen: 0.
+Aantal andere getallen: 12.
+>>> SpecialeGetallen([-6836, 42, 73, 99679, 59307, 42, 79380, 6174, 20801, -50353, 93301, -91290, 89412, 37770, -96953])
+Aantal speciale getallen: 4.
+Aantal andere getallen: 11.
+>>> SpecialeGetallen([87173, -71879, 60757, -63420, -55310, 22433, 73, -12548])
+Aantal speciale getallen: 1.
+Aantal andere getallen: 7.
+>>> SpecialeGetallen([93063])
+Aantal speciale getallen: 0.
+Aantal andere getallen: 1.
+>>> SpecialeGetallen([42212, -81340, 62041, 62256, 97454, -24690, 51932, -31503, 11620, 73, -2695, 53506, 4198, -52799, 2, -54026, -88695, 80436, 1729, 42, 2, 97465, -18651, 6174, -84520, 78645, 1729, 26864, 1729, -90368, 6362, 55349, 45677, 38534])
+Aantal speciale getallen: 8.
+Aantal andere getallen: 26.
+>>> SpecialeGetallen([81843, -90270, 35871, -91270, 38533, 6453, 32491, 73, 63211])
+Aantal speciale getallen: 1.
+Aantal andere getallen: 8.
+>>> SpecialeGetallen([-42454, 13391, -77893, -64933, -41167, -142, 14285, 1729, -35190, 1729, -73986, -296, -60913, -63063, 78093, 6174, -39263, 1729, 2, -80039, 85032, -71286, 35934, 938, -47837, 83390, 2, -41521, -24978, -3077, -26323, -2707, -13761, 88122, 24994, 1729, -86198, 42, 1729, -47318, -32438, 792, -6076, 6174, -64921, -44521, 19299])
+Aantal speciale getallen: 10.
+Aantal andere getallen: 37.
+>>> SpecialeGetallen([98979, 6174, -1203, -84606, 14029, 73, 64665, 42, -24111, -17840, 11741, 94703, 11792, 6174, 44753, 1729, 42, 58731, 6898, -59237, -70554, 74909, -5141, -16732, -11705, -24774, -19874, 41526, 81281, -27648, 11490, -87833, 73, -94470])
+Aantal speciale getallen: 7.
+Aantal andere getallen: 27.
+>>> SpecialeGetallen([-50037, 42, 79243, 42, 43199, 58641, 6174, 6196, -29387])
+Aantal speciale getallen: 3.
+Aantal andere getallen: 6.
+>>> SpecialeGetallen([-66758, 73, -5466, 79070, -68100, 35411, 48365, 77740, 42, 1729, 30007, 81925, 99284, 65404, -42449, 74199, -10840, -46093, 2012, 5090, -32410, -18107, -25068, 59001, -92406, -11645, -46079, -56774, -63053, -19703, 1729, 34756, 1729, 3250, -16921, -21172])
+Aantal speciale getallen: 5.
+Aantal andere getallen: 31.
+>>> SpecialeGetallen([91241, -30065, 31036, -60736, 1729, 50486, -24785, -21005, 24226, 73, 22909, -90017, 6174, 31752, -64994, 2, 79928, 47342, 1729, 73, -47874, 31716, 35317, -50646, 73, -29075, 1729, 31461, 1729, 58346, -28884, -9687, 2, -29644, 2, 42, 1729, -1713, 5877, 21530, 96739, -52377, -42472])
+Aantal speciale getallen: 13.
+Aantal andere getallen: 30.
+>>> SpecialeGetallen([-4268, 45919, -58043, 85413, 42, 77776, 1729, 1729, 3337, 34715, 32686, 64268, 89573, -49123, -23693, -80045, -6244, 78112, -19195, 34245, -17896, 42, -38087, 12540, 58078, -71762, 24392, 73, 91201, 72817, 83880, 10940, 95541, 2, 55454, 19803, -49459, 12708, -10772, 33518, 6174, -40330])
+Aantal speciale getallen: 7.
+Aantal andere getallen: 35.
+>>> SpecialeGetallen([2, 65434, 1568, 42686, 72806, 67824, -37007, 2, 34323, -97494, -92062, 85952, -56593, -34337, -10579, 6174, 42, 15017, 37101, -14409, -15643, 84565, -83717, 73, 77047, -88362, 42, 51081, -77359, 62087, -54098, 2, 73, 11536, 73, -3549, -20869, 73, -21105, 73, 88916, 90753, 2, 88172, -66734])
+Aantal speciale getallen: 12.
+Aantal andere getallen: 33.
+>>> SpecialeGetallen([10093, 73, 73])
+Aantal speciale getallen: 2.
+Aantal andere getallen: 1.
+>>> SpecialeGetallen([1011, 87068, 73, -28823, 6174, -8082, -34379, 19928, -21906])
+Aantal speciale getallen: 2.
+Aantal andere getallen: 7.
+>>> SpecialeGetallen([6174, -26099, 73])
+Aantal speciale getallen: 2.
+Aantal andere getallen: 1.
+>>> SpecialeGetallen([6174, -13743, -37759, 39785, 98675, -45903, 2, 6174, -86450, 50437, -12771, 80759, -18158, 64940, 81073, -43181, 1729, 40094, 55712, -4539, -89070, 38458, 25949, 73, 6174, 89720])
+Aantal speciale getallen: 6.
+Aantal andere getallen: 20.
+>>> SpecialeGetallen([-7520, 41215, 62595, -33245, 67588, 73, 30331, -69131, 73704, 21149, -30002, 73, 50858, -94986, -1299, 73, 1729, 12263, -51288, 73, -79333, 45731, 2, 68986, -53733, 73, -73143, 74409, -46744, 73, 3665, 91624, -44899, -83140, 62254, -61641, -49367, 1729, 5781, -99481, 69006, 34210, 1729, 2, 87252, -27936, 41384, -79630])
+Aantal speciale getallen: 11.
+Aantal andere getallen: 37.
+>>> SpecialeGetallen([-70567, 93963, -92512, 39669, -61097, 36173, 32937, 17600, -43848, 1729, -85874, 71976, 55246, 86203, 42, 13191, -59880, -19669, 34322, -24315, 46033, 8698, -1926, 73, 49068, 85172, 2, -61049, -83023, 19021, 55543])
+Aantal speciale getallen: 4.
+Aantal andere getallen: 27.
+>>> SpecialeGetallen([-37462, 32524, -12162, 29653, 82523, 2, 41837, -37431, -19185, -9700, 2, 6174, 74043, 1729, -75586, 72267, -80371, 2, 6174, 2, 75585, -7099, -11675, 72280, 7031, -88713, 99661, 1729, 93026, 15448])
+Aantal speciale getallen: 8.
+Aantal andere getallen: 22.
+>>> SpecialeGetallen([69594, 8271, 73, 8045, -51778, 31608, 73, 1729, -36525, 22805, 56450, 6174, -6363, 42, 42, 12771, 82798, 20922, -83960, -55620, -46342, 27952, 84038, 93888, 41662, 84650, -15172, -37025, 1729, -35267, 54463, -75977, 7264, -48580, 78925, 6174])
+Aantal speciale getallen: 8.
+Aantal andere getallen: 28.
+>>> SpecialeGetallen([80400, 42, -81927, 73, -93315, -62751, 81445, -53694, 70957, 2, -39101, 73, 6174, 42, -27059, 95363, 1729, 13041])
+Aantal speciale getallen: 7.
+Aantal andere getallen: 11.
+>>> SpecialeGetallen([-10455, -35102, -68571, 3128, -27382, -53705, 1729, -18735, 79064, -75874, 6174, -13714, -72528, -31884, 42, 2, 93624, -30354, 42, -74313, 1729, 36165, -51016, -58089, 82500, 62166, 73, -7810, -16022, 18852, -1438, -82729, 2, 85939, -54131, 79775, 50992, 73, 83728])
+Aantal speciale getallen: 9.
+Aantal andere getallen: 30.
+>>> SpecialeGetallen([76711, -97628, -15439, 1729, -43119, 1729, 83728, -5120, 30336, -28839, 6174, 97593, 47360, 42, 51604, 64829, 2, 55614, 32630, -85173, -32473, -57273, -95750, 23108, -47226, -75064, 2, 95085, 38584, 15634, 76376, 56525, 93322, 65837, -31802, -4040, 6174, 89979, -97800, 45489, -87669, 77439])
+Aantal speciale getallen: 7.
+Aantal andere getallen: 35.
+>>> SpecialeGetallen([1729, 2, 79529, 42800, -31416, -81049, -9381, -16306, 83126, 93027, 68258, 33173, -7750, -66126, -61326, -69197, -35520, -14303, -5486, 4165, 15621, -18062, 2, 73, 76697, -79239, 71587, -88751, -19649, 98252, -23681, 19141, -58833, 31000, 6174, 72382])
+Aantal speciale getallen: 5.
+Aantal andere getallen: 31.
+>>> SpecialeGetallen([56951, 41125, -30217, -87881, 34903, 87875, -80586, 72572, -32755, 43719, -12112, 28778, 6174])
+Aantal speciale getallen: 1.
+Aantal andere getallen: 12.
+>>> SpecialeGetallen([94142, 66646, 2, -14010, -95999, 39490, -74805, 2, 2])
+Aantal speciale getallen: 3.
+Aantal andere getallen: 6.
+>>> SpecialeGetallen([42, 24307, 73, 65310, 3939, -25712, -13594, -17204, -45528, 89832, 6174, 51298, 76505, 67526, 2, 70700])
+Aantal speciale getallen: 4.
+Aantal andere getallen: 12.
+>>> SpecialeGetallen([39038, 1729, 76912, 73, 33157, -836, -14016, 78843, -89467, -38050, -17838, 38629, -27735, 22858, 59689, -95305, -39268, -62275, 6174, -34505, 73, -61885, 1729, -58416, 6174, -2784, 76673, 6174, 11295, 11451, 2, 80303, 60623, 55804, -80817, -84637, -83133, -41808, -80400, -60659, -72572, 26206, -47212, 89412, -86798, 40628, 29007, -85428, 70762, -22467])
+Aantal speciale getallen: 8.
+Aantal andere getallen: 42.
+>>> SpecialeGetallen([-37394, -50039, 81553, -59633, -28690, 42, -45958, -45163, 21008, 1729, 62602, 75045, -58157, 63087, 18086, 73, 1729, -32711, 73, 31832, 76165, 47592, 68907, 14145, -59685, -63195, -15127, -94520, 49769, -71861, 46735, 42, 42, -36611, 58473, 2, 42, 91273, 87967, 6174, 2, 57935, -99671, 6174, -46192])
+Aantal speciale getallen: 12.
+Aantal andere getallen: 33.
+>>> SpecialeGetallen([54827, -52141, 72181, 29435, 25537, 73, 41008, -16295, 79889, 73, 26280, 42, 8651, 29435, -83471, 42, 69384, -20049, -69130, 2759, 52388, -67311, 63726, -10240, 42, -66454, 2, 20441, 69692, 73, -99725, -75044, -57358, -8820, -67373, -32494, -42654, -48944, 42, -83773, -54745, -36115, 94440, 73, 55336, 31506, 34375, 30067, 11711, -77861])
+Aantal speciale getallen: 9.
+Aantal andere getallen: 41.
+>>> SpecialeGetallen([44473, 24846, -84377, 276, 55910, -72348, 2, -98087, -24497, 6174, 41115, 8284, -2875, -98985, -4872, 91409, 77409, 4030, -53483, -43794, -64032, -32199, 75462, 53484, 63963, -24974, -22362, -56757, -56655, -46878, 62180, -44002, 9838, 25390, -81089, -91068, 63497])
+Aantal speciale getallen: 2.
+Aantal andere getallen: 35.
+>>> SpecialeGetallen([59355, -33879, -20226, 21377, -46130, 21303, -29121, -60974, 22366, 1729, 83236, 49796, 36530, 99, 42, 73, 15206, 2, 93561, 6174, 31779, -56292, 75940, 89764, -53026, 42552, 11000, 81177, 29084, -1334, 2, -13552, -30222, 6174, 1729, 2, -95540, 94527, 66324, -68071, 83064, -21020, -132, 37272])
+Aantal speciale getallen: 9.
+Aantal andere getallen: 35.
+>>> SpecialeGetallen([67899, 42, -54336, 22480, -49509, -67139, 85907, 94459, -20959, 2, 73, 10145, 2, 4016, -68356, 68519, -36900, 39183, -66219, 16329, 99671, 73, -65142, -3070, 29820, -4613, 44148, 42, -86789])
+Aantal speciale getallen: 6.
+Aantal andere getallen: 23.
+>>> SpecialeGetallen([-95500, 8866, 22752, 98864, 67441, -88145, 2, 51525, 10902, 33538, -93996, 43849, -82962, 45855, -66608, 42, 42, 6174, -90736, -43379])
+Aantal speciale getallen: 4.
+Aantal andere getallen: 16.
+>>> SpecialeGetallen([2, -28210, 86930, -8887, 63845, -53401, -78420, 1729, -50235, 36325, -49415, 95472, 3240, 54198, 94232, 89359, 73, 78883, 49531, -15755, 73, 92795, 1729, 62474, 73, 88193, 12379, 42, 45254, -12058, -43755, -84235, -63037, 72064])
+Aantal speciale getallen: 7.
+Aantal andere getallen: 27.
+>>> SpecialeGetallen([-57747, -47243, 94890, 73, 14687, 69089, -82953, -84681, -47836, 1729, 42, 72294, 18194, 87377, -77927, 14057, -70732, 2, 80654, -95350, -62913, -18314, 77825, -46991, 84142, -9688, 31650, 2, 14280, -17899, -64863, 42, -50326, 97297, 43413, -55114])
+Aantal speciale getallen: 6.
+Aantal andere getallen: 30.
+>>> SpecialeGetallen([42, -84580, 1729, 71707, 93521, 56157, -3654, -50357, 6174, 2, 32882, 6213, 67871, 85634, -19069, 73, 73, 25028, -13603, -52271, -57579, 49216, 15539, 13490, -21108, -95243])
+Aantal speciale getallen: 6.
+Aantal andere getallen: 20.
+>>> SpecialeGetallen([-18963, -17727, 97773, 42, 43003, -44121, 42, 55110, -10988, 53537, -66907, 53515, 66533, -13065, -4354, 2, 73, 78715, -4798, -68043, 1729, 1729])
+Aantal speciale getallen: 6.
+Aantal andere getallen: 16.
+>>> SpecialeGetallen([42, 2, -86839, 19443, -44119, 84125, -98316, 83050, 94351, -28897, -81629, -3991, 76800, 2, -11067, 4335, -34036, 2, -43170, -77616, 32911, 61916, -17299, 73, 42, 3594, 89337, -23152, 52330, 6174, -83677, 37182, 6174, 9143, 42, 40583, 37471, -9094, 68762, -99629, -40035, 94459, -11583, 82556, 82271, 12595, 42, -67744, -18515])
+Aantal speciale getallen: 10.
+Aantal andere getallen: 39.
+>>> SpecialeGetallen([15561, -43732, 70442, 47363, 78297, 38971, 6174, -49814])
+Aantal speciale getallen: 1.
+Aantal andere getallen: 7.
+>>> SpecialeGetallen([8417, 73, -90502, -23752, 93659, -57834, -27023, -91180, 7657, 28326, -67883, 97915, -95244, 42, 35071, -95417, -97067, 6391, -44334, -71191, -72751, 2, 60667, 8409, -5205, 6174, -91117, 61322])
+Aantal speciale getallen: 4.
+Aantal andere getallen: 24.
+>>> SpecialeGetallen([-54104, -15372, -77397, -29717, 13588, -42535, 22710, 62006, 9508, 73, -67935, 3574, 84292, 8577, 73, -75365, 25400, -82201, 2, 6174, 43603, 2, -5586, -7875, -66056, 92771, -78660, 60720, -9247, 34595, 32360, 57350, 11929, -60284, 59894, 60730, 26496, -50999, -94208, 65064, -51395])
+Aantal speciale getallen: 5.
+Aantal andere getallen: 36.
+>>> SpecialeGetallen([8784, 87559, 64710, 87342, 42, 59171, 65139, 6174, 2, 2, 44605, 42176, 73, -94642, -31388, 2, 45198, -94850, -29491, 1729, -28260, 31227, 67534, -86049, -6921, 6174, 2, 29775, 2065, 73, 56357, -68371, 60489, -36793, 1729, -73689, 1729, 56814, -52082, 5612, -18553, -32587, -1869, 11285, -63769, 9975])
+Aantal speciale getallen: 12.
+Aantal andere getallen: 34.
+>>> SpecialeGetallen([-90735])
+Aantal speciale getallen: 0.
+Aantal andere getallen: 1.
+>>> SpecialeGetallen([-91435, 84990, -77770, 42, 72842, -24920, 94487, -5154, 6174, -12623, 35358, 49512, 89528, -53303, -22145, 73, -61081, 24598, -16174, -89494, 2, 20479, -67677, 43224, 59634, -9479, 1729, 95030, -81049, 42])
+Aantal speciale getallen: 6.
+Aantal andere getallen: 24.
+>>> SpecialeGetallen([20025, 2, 35497, 83842, 11130, 6174, 1729])
+Aantal speciale getallen: 3.
+Aantal andere getallen: 4.
+>>> SpecialeGetallen([-53795, -91002])
+Aantal speciale getallen: 0.
+Aantal andere getallen: 2.
+>>> SpecialeGetallen([6174, -46252])
+Aantal speciale getallen: 1.
+Aantal andere getallen: 1.
+>>> SpecialeGetallen([51257, 88114, -38663, 71404, 6174])
+Aantal speciale getallen: 1.
+Aantal andere getallen: 4.
+>>> SpecialeGetallen([97311, -87471, -47285, 92794, 63729, 42, 94834, -57966, 28535, 41732, 66977, 2, 93578, -49848, 31193, 74654, 95052, 2, 50531, 14824, -41920, -29424, -76179, 99774, 73])
+Aantal speciale getallen: 4.
+Aantal andere getallen: 21.
+>>> SpecialeGetallen([76633, -9100, 34792, -60461])
+Aantal speciale getallen: 0.
+Aantal andere getallen: 4.
+>>> SpecialeGetallen([2571])
+Aantal speciale getallen: 0.
+Aantal andere getallen: 1.
+>>> SpecialeGetallen([49170, -44948, 55307, 69826, 80930, 24843, -34554, 30905, -40023, 42, -50821])
+Aantal speciale getallen: 1.
+Aantal andere getallen: 10.
+>>> SpecialeGetallen([-32144, 64311, 42])
+Aantal speciale getallen: 1.
+Aantal andere getallen: 2.
+>>> SpecialeGetallen([53007, -38904, -71049, -23625, -7969, 42, -23095, -99899, 67609, 22129, 1729, 87808, -94541, -99077, -98813, -99022, 94529, 91036, -36064, -47562, -37316, 73, 73, 42, 81469, 42, -61236, -46625, 50404, -49281, 56156, 73, 20148, 71395, -54060, 42, 7459, 50803, -38636, 1729, -97024, -42764])
+Aantal speciale getallen: 9.
+Aantal andere getallen: 33.
+>>> SpecialeGetallen([28675, 30162, 89556, -29555, -65793, 1729, -7296, 62150, 42, -13094, 27288, -37879, -3103, 84550, 76232, -28909, -13556, 2, -41960, -14929, 73, 55029, 63711, -60887])
+Aantal speciale getallen: 4.
+Aantal andere getallen: 20.
+>>> SpecialeGetallen([-69807, -46347, -60615, 53483, -81331, -69802, 17015, 81590, -62902, 1729, 25895, 2, 6174, 81357, -16026, 22381, 70268, 92892, 28574, 6174, -30141, -4620, 6174, -58816, 93250, -78467, -38535, 81876, 12285, -80879, -39402, 66757, 87892, 41006, 2, -64987, 65497, -71644, 16207])
+Aantal speciale getallen: 6.
+Aantal andere getallen: 33.
+>>> SpecialeGetallen([-4058, 38194, -51334])
+Aantal speciale getallen: 0.
+Aantal andere getallen: 3.
+>>> SpecialeGetallen([19031, -15059, 42, -71678, 2, -19483, -63072, 27293, -5176, 59342, 15730, -29004, 27106, 73, 91047, -52791, 51222, 38066, 56983, -20431, 1729, -31946])
+Aantal speciale getallen: 4.
+Aantal andere getallen: 18.
+>>> SpecialeGetallen([-18861, 97428, -48014, 20012, -64376, -88949, -1378, 24416])
+Aantal speciale getallen: 0.
+Aantal andere getallen: 8.
+>>> SpecialeGetallen([-98323, 16204, -32964, 97528, -49961, 39643, 73, 78191, -85554, -33513, 55345, 92358, -52058, 150, 1729, 13536, -31647, 14987, 90592, 42, -5510, 45516, 6174, 11131, -43224, 77016, 62551, -44455, 98293, -59681, 42717, -16878, -72246, -41410, -92795, 53483])
+Aantal speciale getallen: 4.
+Aantal andere getallen: 32.
+>>> SpecialeGetallen([6174, 75696, 4850, -16994, 1729, -48248, 87108, -11555, 2, -56022, 79833, -60978, -25539, 43349, 85775, -85707, -15442, -69850, 69096, -88843, 13423, 6174, 74979, 73, 20176, -54278, 89448])
+Aantal speciale getallen: 5.
+Aantal andere getallen: 22.
+>>> SpecialeGetallen([13810, 1729])
+Aantal speciale getallen: 1.
+Aantal andere getallen: 1.
+>>> SpecialeGetallen([2, 6174, -65766, 99506, -76979])
+Aantal speciale getallen: 2.
+Aantal andere getallen: 3.
+>>> SpecialeGetallen([4296, 26028, 98051, 43428, 73, -95025, -49548, 24441, 1729, 48299, -28085, 71988, -87229, -43691, 73, -56151, 47914, 94024, -89247, -19643])
+Aantal speciale getallen: 3.
+Aantal andere getallen: 17.
+>>> SpecialeGetallen([-9702, 14252, 90197, 58188, 2, -49497, 37878, 4626, -16366, 55422, 41913, -21897, 22039, 73, 9026, 42, 49402, 40292, -69802, -69438, -87669, 93272, -10403, 11341, 92219, 26003, 2, 48901, -50105, 62890, -65406, 1729, -50304, -15603])
+Aantal speciale getallen: 5.
+Aantal andere getallen: 29.
+>>> SpecialeGetallen([77670, 42, -50232, -70261, 72049])
+Aantal speciale getallen: 1.
+Aantal andere getallen: 4.
+>>> SpecialeGetallen([38439, -23777, 41209, -81178, 53611, -63543, -41380, 70972, 2, -33360, -61160, 70694, -17983, 90245, 87224, -73051, -77852, -64550, -43436, -5918, 11895])
+Aantal speciale getallen: 1.
+Aantal andere getallen: 20.
+>>> SpecialeGetallen([13451, -50187, 2, 73, 27789, -77270, 13865, -59707, 42959, 2, 20779, 40439, -9228, 43219, 63694, -12862, -77317, -36108, -62653, 78510, -21181, -36979])
+Aantal speciale getallen: 3.
+Aantal andere getallen: 19.
+>>> SpecialeGetallen([42, -15540, -80199, 99609, -93317, 42, -8291, -46444, 6174, -35590, -2507, -69070, 58917, 53700, 63412, -77971, -26785, -63840, -287, 73, 51906, 73760, -42091, 57142, -97222, 5160, -74883, -42849, -22451, -73604, 6174])
+Aantal speciale getallen: 5.
+Aantal andere getallen: 26.
+>>> SpecialeGetallen([-23863, -17052, -48730, 59627, 30213, 46435, 8031, 2308, -28033, -95666, 73, -16871, -19299, -96269, -96217, -64090, 81120, -91501, -43307])
+Aantal speciale getallen: 1.
+Aantal andere getallen: 18.
+>>> SpecialeGetallen([-9438, 86671, 62433, -63662, 36787, -59755, 42, 81293, 2, -18034, -5140, -84556, 1729, 14233, 82532, 20702, 42, -26749, 6681, -60770, -29210, -92862, 2, 86840, 2])
+Aantal speciale getallen: 6.
+Aantal andere getallen: 19.
+>>> SpecialeGetallen([46744, -74755, 25881, -28971, -98782, -32378, 89689, -23609, 2, 70471, -79271, 6174, -74993, 58639, 43209, 51569, 42628, 52277, 81981, 42496, -97833])
+Aantal speciale getallen: 2.
+Aantal andere getallen: 19.
+>>> SpecialeGetallen([29933, -25315, 2, -82651, 44809, 56731, -18058, -43763, 77981, 10169, -90725, -76327, 73, -89651, 94890, 14195, -57772, 71745, 73, 13238, 2, -96774, 76221])
+Aantal speciale getallen: 4.
+Aantal andere getallen: 19.
+>>> SpecialeGetallen([63720, -913, 1729, -60455, -26270, -1132, 22240, 6174, -68729, -97936, 98844, 89906, 92164, 6174, 59875, 9495, 20534, -43366, -25413, -65486, -96711, -9304, 1729, 69591, 3629, -18090, -30252, 69031, -86736, 21478, -31896, -82307, 83194, 73, 1729, 2748, 2004, 42, 3348, 60543, -26502, 46319, 97620, -69526, 69345])
+Aantal speciale getallen: 7.
+Aantal andere getallen: 38.
+>>> SpecialeGetallen([-8137, 99000, 73, -70715, -45120, 72739, 38096, 1729, 77211, 1729, 73, 44674, 66922, 1729, -91976, -63194, 51417, 75826, 38087, 40229, 78355, 73, -56800, 9842, 76840, 63038, 42, 2, -60081, 8368, -38639, -24577, 97053, -87526, 2, 98330, 2, -18185, 52727, -79701, -38673, 20324, 86650])
+Aantal speciale getallen: 10.
+Aantal andere getallen: 33.
+>>> SpecialeGetallen([54445, -62288, 14486, -59378, 21783, 6174, 73, 19134, -42235, -11519, -54123, -31033, 7113, 73, -71639, 33905, -78858, -40397, -1312, -76332, 45665, 32924, 73134, -99982, 42, -38360, -69852])
+Aantal speciale getallen: 4.
+Aantal andere getallen: 23.
+>>> SpecialeGetallen([87434, -8845, 2, 98401, 40651, 76825, -47809, -8107, -67198, -29892, -99469, 6174, 2, 99138, -2466, -7538, -42830, 47381, 16413, 5729, 8664, 41405, 6174, -95890, 32384, -54957, 13153, -56720, 93943, -30103, -96840, -29999, -56583, 7267, 78274, -53810, 51711, 73, 6174, 33185, 61796, 22484])
+Aantal speciale getallen: 6.
+Aantal andere getallen: 36.
+>>> SpecialeGetallen([-88564, 5643, 2, 89280, -42182, -58067, 35183, -72466, 6174, -5380, 37001, 3962, 96581, 62724, 26399, 89652])
+Aantal speciale getallen: 2.
+Aantal andere getallen: 14.
+>>> SpecialeGetallen([87311, -55409, 68111, 17501, -30365, -93670, 23896, 67928, -76679, 39696, -64062, 67608, -34935, 15536, 6174, -79285, 40117, 6174, 95019, 45821, 6174, -788, 84987, 61379, 97538, -25674, 36638, 2, 75566, 1729, -63014, -97392, 1729, 21802, 81802, 60533])
+Aantal speciale getallen: 6.
+Aantal andere getallen: 30.
+>>> SpecialeGetallen([-43108, 2, 14899, -7597, 48766, 1729, -52613, -98111, -51850, 39020])
+Aantal speciale getallen: 2.
+Aantal andere getallen: 8.
+>>> SpecialeGetallen([76501, 45840, 73, -47701, 67680, 35470, 94022, 9128, 45428, -92833, -21365, 18985, -21890])
+Aantal speciale getallen: 1.
+Aantal andere getallen: 12.
+>>> SpecialeGetallen([42, -45596, 62687, -6512, 18498, 42, 2, 1729, -5694, -44921, -9677, 65722, 52150, 2722, 86632, 6174, -33610, 1729, -24943, -57670, 94900, -15106, -43888, 1729, -6837, 56707, 40921, 62074, 34048, -40440, -31254, 79395, -95466, -82775])
+Aantal speciale getallen: 7.
+Aantal andere getallen: 27.
+>>> SpecialeGetallen([-50780, -17064, 6174, 64421, 56763, 57557, -24779, -30011, 2, -20843, 38317, 6174, -26062, 25958, 29283, -85233, 69195, 19800, 704, 73, -92119])
+Aantal speciale getallen: 4.
+Aantal andere getallen: 17.
+>>> SpecialeGetallen([-82967, 94852, -14579, 20697, 28954, 42, -5910, -29482, 80603, -71264, 33830, -86025, 59654, 49071, 6174, -76998, 73, -33544, 4894, 62196, 66946, -51913, -20419, -11711, 35753, -19883, 1729, -70869, -9223, 25208, 59309, -98229])
+Aantal speciale getallen: 4.
+Aantal andere getallen: 28.
+>>> SpecialeGetallen([-67318, 48781, 93163, -32308, -52127, -590, 97935, 73, 16321, 80547, 2, 73, 6174, 43784, 38530, -22475, 85348])
+Aantal speciale getallen: 4.
+Aantal andere getallen: 13.
+>>> SpecialeGetallen([2, 98731, -14176, -55406, 36471, -47281, -96484, -15305, -17901, 61207, -78281, 1729, 17586, 11941, 39538, 69954, 2, 42, 6174, -62628, -74746, -14620, -26735, -56256, 53790, 27375, 55547, 42, -23982, 61304, 28007, -9433, -47204, -82349, 1729, 81982, 45187, 55614, -59376, -60163, 55790, -94482, 73])
+Aantal speciale getallen: 8.
+Aantal andere getallen: 35.
+>>> SpecialeGetallen([-24769, -66723, -23925, -38297])
+Aantal speciale getallen: 0.
+Aantal andere getallen: 4.
+>>> SpecialeGetallen([-84116, -2116, -5968, -60813, 60797, 84798, -14545, 6174, 99802, 1854, -88877, 73335, 6174, 74010, -77077, 66562, 1729, 73, -72300, 94017, -5302, -23981, 67796, 29866, 6174, 61101, 1729, 66372, -38572, -67200, 44622, -31396, 76476, 96431, 2, -1936, 44769, 30206])
+Aantal speciale getallen: 7.
+Aantal andere getallen: 31.
+>>> SpecialeGetallen([-37411, -23789, 42003, -15148, 43524])
+Aantal speciale getallen: 0.
+Aantal andere getallen: 5.
+>>> SpecialeGetallen([81088, -58702, 62750])
+Aantal speciale getallen: 0.
+Aantal andere getallen: 3.
+>>> SpecialeGetallen([-57889, 56382, 42, -5604, 74171, -61173, -75971, -40947, -76974, 83084, -38294, 42927, -21247, -20536, -42308, 43829, -77040, 21172, 73, -4048, 79633, 92251, -57592, 6174, 79950, 87571, 58511, 27469, 91910, 84665, -61243, -87583, -97030, -14933, -50749, 1729, -77468, -67952, 78398, 91984, 59850, 73, 42, 42, 42])
+Aantal speciale getallen: 8.
+Aantal andere getallen: 37.
+>>> SpecialeGetallen([71401, 6174, 1729, -59435, -83124, 46088, 1729, -9866, 4178, -74350, 15, 10223, 42, -70345, 20134, -61476, 13931, -81251, 42, -64338, 94969, 44890, 31954, 68064, 95470, -89651, 92745, 19328, -52763, 54560, -62891, -98910, -77304, 6174, -97727, -17545, 2, -57137, 1729, -98703, -48594, 19111])
+Aantal speciale getallen: 8.
+Aantal andere getallen: 34.
+>>> SpecialeGetallen([-69524, -38759, 73, 42, -26852, 93844, -25685, -4917, -72897, -67143, 6174, 43239, 1729, -59258, 42, 6174, 4156, -41717, 2, -71207, -90404, -3661, -63368, -40332, 75142, 3397, 6174, 94146, 37739, 6174, -20929, -5671, 73, 36756, 73, 74311, -95905, -76242, 39999, 2, -85784, 44211, 25, -88432, 22733, -90784, -68772])
+Aantal speciale getallen: 12.
+Aantal andere getallen: 35.
+>>> SpecialeGetallen([-67731, 9973, 56903, 6174, -73199, -70969, 73, 73, 42, -4140, 86255, -79187, -90465, -54707, 83544, -16671, -25259, -7066])
+Aantal speciale getallen: 4.
+Aantal andere getallen: 14.
+>>> SpecialeGetallen([60469, -32960, -37646, 1729, -71276, -14757, 22333, -24100, -15981, -68790, 42, 70258, -50649, 96199, 73286, 1729, -19530, -5608, -83436, 78345, -40870, 41162, 27116, 73, 6174, -3116, 14892, 97328, 2, 7131, -55146, -38722])
+Aantal speciale getallen: 6.
+Aantal andere getallen: 26.
+>>> SpecialeGetallen([31895, 41874, 62935, -24987, -4460, 1729, 95152, 5858, 80659, 66196, 6174, 1729, 88849, -74524, 19211, -5565, 83600, -50962, -47495, 95376, -4753, 73, 73, 42, 73, 86539, 60206, 12750, 49426, 19349, 28945, -70971, 58414, -64731, 1729, -390, -94027, 1729, 23524, 1729, -35162, -75439, -98216, 90810, 6174, -92185])
+Aantal speciale getallen: 11.
+Aantal andere getallen: 35.
+>>> SpecialeGetallen([-60300, 76919, -88591, 66984, -93673, 96548, 98294, 42, -94186, 483, 73, 20710, 20764, 42, 17930, -41796, 42, 1729, 6174, -46196, 73, -24591, 13471, -89579, 73])
+Aantal speciale getallen: 8.
+Aantal andere getallen: 17.
+>>> SpecialeGetallen([-27375, 71003, -97350, 42, 23585, 73, 2, -1225, 77691, 20513, -97871, 32614, 74053, -3056, 86831, -93958, 25246, -91728, -91960, 47266, 2, 70811, 7745])
+Aantal speciale getallen: 4.
+Aantal andere getallen: 19.
+>>> SpecialeGetallen([95719, 18018, -69098, 42, -15207, -85214, 13595, -19831, 69178, 2, 67732, 10640, 13772, 2, 11370])
+Aantal speciale getallen: 3.
+Aantal andere getallen: 12.
+>>> SpecialeGetallen([-53357, 31855, -59274, 66516, 6174, 73])
+Aantal speciale getallen: 2.
+Aantal andere getallen: 4.
+>>> SpecialeGetallen([1729, 21140, 22561, -74098, -14919, -45100, 50841, -22468, -21026, -38579, -10507, -31758, -5526, 31509, 74093, 1729, -41584, 55792, -28144, 14182, 35991, 73, 42, 42, 82224, -22331, 52889, 21390, 58420])
+Aantal speciale getallen: 5.
+Aantal andere getallen: 24.
+>>> SpecialeGetallen([2, -95884, -19702, 73801, 73, -79229, 1729, -27049, 58464, 75324, -72852, 90267, -82821, 28955, -48477, 21641, 42, 57625, -80538, 16024, -93120, 1729, -88541, -48522, -54650, 71889, -83832, 2, 36999, 61328, 19468, 4032, -8288, -31114, 73, 42, -49588, 58862, 73, 42, -97411, -33846, 27035, 55229, -15061])
+Aantal speciale getallen: 10.
+Aantal andere getallen: 35.
+>>> SpecialeGetallen([86822, -22932, -79736, -29822, -60659, 42])
+Aantal speciale getallen: 1.
+Aantal andere getallen: 5.
+>>> SpecialeGetallen([73, 36048, -57192, 2, -87201, 42, -95998, 83285, 9521, 95095, -51526, -15849, -9948, -39089, -3566, 2])
+Aantal speciale getallen: 4.
+Aantal andere getallen: 12.
+>>> SpecialeGetallen([-44295, 2, 2, 90281, -36432, -39977, -93571, 42, 6174, -80419, 6174, 6174, -72629, -84705, 1729, 94507, -45545, 42, 15746, 35670, -14055, -68291, -26411, 36770, -21491, 6174, -35502, 15532])
+Aantal speciale getallen: 9.
+Aantal andere getallen: 19.
+>>> SpecialeGetallen([1729, -70166, 2811, -34645, 38157, 2, -87979, -35156, -44891, 18612, 75179, 78114, 74426, 1729, 83619, -64008, 74636, -73839, -20355, 49514, 73286, -65481, 525, -48574, 6174, 31111, 9412, -17352, 6174, 2, 73, -41808, -35218, -78623, 32258, -73348, 84474])
+Aantal speciale getallen: 7.
+Aantal andere getallen: 30.
+>>> SpecialeGetallen([1729, 19443, -96601, -7342, -18150, -49166, 69713, 42, -5559, -71268, 1729, -54106, -79773, 45280, 59401, 6174, -27888, -54847, -12355, 64430, 6496, 83231, -720, -41442, 95118, 42689, 42, -23706, 94013, 42, 1729, 87097, 95857, 34544, 74372, -68018, -12222, -1744, 1729, -27815, -1601, -47523, -18829])
+Aantal speciale getallen: 8.
+Aantal andere getallen: 35.
+>>> SpecialeGetallen([1729, 69237, -96320, 5744, 6254, 73, 1729, 73, 30970, -20208, 40552, 73, 6174, 73, 99616, -56560, 77004, 18198, 34251, 2, 1729, -35927, -22415, -49021, -40073, 63405, -27152, 41692, 42, -55203, 1729, 64943, -47520, -82427, 64232, -57078, -36988])
+Aantal speciale getallen: 11.
+Aantal andere getallen: 26.
+>>> SpecialeGetallen([31985, -77279, 6174, -29565, 81630, 1729, 60500, 5261, 6174, 39187, 33717, 45150, -46782, 1729, 23436, 81199, -31954, 2, 68792, -55679, 95797, 95940, -86697, -62047])
+Aantal speciale getallen: 5.
+Aantal andere getallen: 19.
+>>> SpecialeGetallen([-72811, 97338, 26882, 42, -17657, 85267, -71746, -76039, -3751, 42, 7159, 94370, 17435])
+Aantal speciale getallen: 2.
+Aantal andere getallen: 11.
+>>> SpecialeGetallen([-71821, -62549, 97803, 41573, 2, -64256, -10477, 91318, 70100, 1729, 21213, -14447, 22769, 40721])
+Aantal speciale getallen: 2.
+Aantal andere getallen: 12.
+>>> SpecialeGetallen([15663, 50925])
+Aantal speciale getallen: 0.
+Aantal andere getallen: 2.
+>>> SpecialeGetallen([42773, -95243, -30054, 29271, 43038, -21606, 64451, -18195, 73, -24800, -51024, 2, -56411, 41997, 76466, -92480, -96884, 21813, 42, 6174, 53364, 52729, 28534, 6174, -73972, 73, 89441, -6313])
+Aantal speciale getallen: 6.
+Aantal andere getallen: 22.
+>>> SpecialeGetallen([62501, -96954, 2, 75405, -83034, -8929, -36188, -88154, -29826, 61604, -70007, -22921, 1729, 2433, -18466, -99826, -22757, -29045, 22749, 1729, 2, -42840, -63863, 37117, -33966, -24568, 33610, -84181, -72666, 34037, -79204, 58047, 1901, 83364, -34336, -69981, 75961, 74943, 8144])
+Aantal speciale getallen: 4.
+Aantal andere getallen: 35.
+>>> SpecialeGetallen([1729, 59123, 21188, -47572, -17776, -83167, 73, -9172, 42, -15028, 42, 67908, -42505, 98944, 88173, 55019, 6174, 43354, 95001, -78937, 22636, -37807, 37782, -73437, 42, 59243, 42, 42, 15513, -54511, 42, 97982, 61505, -24939, 42658, -42284, -41055, 61058])
+Aantal speciale getallen: 9.
+Aantal andere getallen: 29.
+>>> SpecialeGetallen([99708, 1729, 42, 1729])
+Aantal speciale getallen: 3.
+Aantal andere getallen: 1.
+>>> SpecialeGetallen([39196, 6174, -50646, -51865, -87500, 44837, -36089, 52121, 2])
+Aantal speciale getallen: 2.
+Aantal andere getallen: 7.
+>>> SpecialeGetallen([33979, 11078, -10896, 42])
+Aantal speciale getallen: 1.
+Aantal andere getallen: 3.
+>>> SpecialeGetallen([-60975, 2, 12590, 86280, 1729, 2660, -68687, -96776, -63631, -47141, -91303, -58596, 2, 38230, -29653, -9389, 1729, -43491, 88256, -91108, -49497, 17447, -29655, 73, 86407, 38057, -38656, -28058, 33986, -1548, -20084, 1729, -49456, 29937, 15742, 2, 2, -87044])
+Aantal speciale getallen: 8.
+Aantal andere getallen: 30.
+>>> SpecialeGetallen([-80709, -13368, 52564, 46995, 1729, 70670, 83594, -1568, 2, -40691, -90347, 1729, 76090, 2, -64968, -42241, 2, 94831, 86448, 94694, -11649, 73, 88463, 42, 9290, 42, 35985])
+Aantal speciale getallen: 8.
+Aantal andere getallen: 19.
+>>> SpecialeGetallen([-13458, -26648, -62033, 92758, 27138])
+Aantal speciale getallen: 0.
+Aantal andere getallen: 5.
+>>> SpecialeGetallen([72475, 6174, 66388, 34924, -80361, 10191, -43038, 37220, 35188, -29502, -40933, -37491])
+Aantal speciale getallen: 1.
+Aantal andere getallen: 11.
+>>> SpecialeGetallen([66176, -15919, -42787, 1729, -16758, 27694, 70290, -46439, 6174, 75970, -48258, -80271, -88489, 15542, 40646, -71477, -83458, 2, 6174, 84054, 32227, 54950, 85459, 1729, 81663, 23441, 42, 38150, -6116, 1729, 8369, -79055, 21581])
+Aantal speciale getallen: 7.
+Aantal andere getallen: 26.
+>>> SpecialeGetallen([2, 43985, -39378, -37204, 40423, -57421, -64277, 6704, -29077, -1707, -35011, 6174, 25261, -82812, -85928, 93568, 51151, 77907, -20157, 44858, -28310, 88339, 43698, 73, 50163, -60941, 11834, 9777, -85965, 42, 2, -11778, 44700, 96262, 77497, 62232, -68717, -82579, -70732, 27887, 1729])
+Aantal speciale getallen: 6.
+Aantal andere getallen: 35.
+>>> SpecialeGetallen([2, -88057, 2, 26246, 8650, 61003, -96925, 87722, 72168, -47011, 49630, -17431, 65717, -22029, -93127, 10627, -58526, -85044, -94876, 42, -87020, 9118, -69435, -91087, 73, 1729, -80424, 56689, -92654, -11180, -2808])
+Aantal speciale getallen: 5.
+Aantal andere getallen: 26.
+>>> SpecialeGetallen([7623, -89583, -69361, -6381, -20660, 84735, -83643, -19828, 6174, -17458, 23726, 42, 89209, 86747, 42, -38850, -64278, 79965, -71090, 67423, 828, -3901, 34877, 42, -22493, -12660, 22059, 6174, -26697, 10946, 97770, -7512, 69800, 42428, 98824, 76219, -82353, 2, -42226, 1729, 62986, 72390, 42, 22768, 2, -43303, 10955, 74649, -47296, 4000])
+Aantal speciale getallen: 9.
+Aantal andere getallen: 41.
+>>> SpecialeGetallen([-81896, 2, -12107, 73, -27705, 36972, -52169, -52432, 2, -53377, 2, -64666, -82898, 6174, -17298, 6174, -89750, 6174, 80337, 6548])
+Aantal speciale getallen: 7.
+Aantal andere getallen: 13.
+>>> SpecialeGetallen([82297, -78601, 16005, -80926, 6174, 2, 42, 42, 25988, -97677, 30285, 12002, 17293, 75880, -37604, 6174, -12083, -77667, -63608, 66540, -38702])
+Aantal speciale getallen: 5.
+Aantal andere getallen: 16.
+>>> SpecialeGetallen([30750, 41341, -14297, -62235, -84952])
+Aantal speciale getallen: 0.
+Aantal andere getallen: 5.
+>>> SpecialeGetallen([84169, 40974, -40923, 42, 18446, -46540, 73, -75518, -7898, 42, 4652, 80775, 7515, -25804, 6174, -37475, 1729, 73, -77993, -51444, 98922, -32921, -75614, 1729, 64870, 73136, -3391, -77487, 2, -44024])
+Aantal speciale getallen: 8.
+Aantal andere getallen: 22.
+>>> SpecialeGetallen([-34613, -24665, -55926, -25754, -98669, 73])
+Aantal speciale getallen: 1.
+Aantal andere getallen: 5.
+>>> SpecialeGetallen([-38790, 73609, 82444, 40899, 42, 71310, 71682, -92992, 4052, 11144, 58904, 2, -31373])
+Aantal speciale getallen: 2.
+Aantal andere getallen: 11.

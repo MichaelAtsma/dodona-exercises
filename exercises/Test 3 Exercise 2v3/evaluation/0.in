@@ -1,10 +1,15 @@
 >>> SpecialeGetallen([2, 42, 73, 1729, 6174])
-De lijst bevat 5 speciale getallen en 0 andere getallen.
+Aantal speciale getallen: 5.
+Aantal andere getallen: 0.
 >>> SpecialeGetallen([73, 1729, -1, 73])
-De lijst bevat 3 speciale getallen en 1 andere getallen.
+Aantal speciale getallen: 3.
+Aantal andere getallen: 1.
 >>> SpecialeGetallen([10, 0])
-De lijst bevat 0 speciale getallen en 2 andere getallen.
+Aantal speciale getallen: 0.
+Aantal andere getallen: 2.
 >>> SpecialeGetallen([])
-De lijst bevat 0 speciale getallen en 0 andere getallen.
+Aantal speciale getallen: 0.
+Aantal andere getallen: 0.
 >>> SpecialeGetallen([100, -22, 6174, 87])
-De lijst bevat 1 speciale getallen en 3 andere getallen.
+Aantal speciale getallen: 1.
+Aantal andere getallen: 3.
