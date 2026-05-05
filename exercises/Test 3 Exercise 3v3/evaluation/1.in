@@ -1,0 +1,160 @@
+>>> ProductDelers(1)
+Het product van de delers van 1 is 1.
+>>> ProductDelers(1000000)
+Het product van de delers van 1000000 is 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.
+>>> ProductDelers(999983)
+Het product van de delers van 999983 is 999983.
+>>> ProductDelers(13)
+Het product van de delers van 13 is 13.
+>>> ProductDelers(12)
+Het product van de delers van 12 is 1728.
+>>> ProductDelers(61)
+Het product van de delers van 61 is 61.
+>>> ProductDelers(30)
+Het product van de delers van 30 is 810000.
+>>> ProductDelers(113)
+Het product van de delers van 113 is 113.
+>>> ProductDelers(56)
+Het product van de delers van 56 is 9834496.
+>>> ProductDelers(181)
+Het product van de delers van 181 is 181.
+>>> ProductDelers(90)
+Het product van de delers van 90 is 531441000000.
+>>> ProductDelers(251)
+Het product van de delers van 251 is 251.
+>>> ProductDelers(132)
+Het product van de delers van 132 is 5289852801024.
+>>> ProductDelers(317)
+Het product van de delers van 317 is 317.
+>>> ProductDelers(182)
+Het product van de delers van 182 is 1097199376.
+>>> ProductDelers(397)
+Het product van de delers van 397 is 397.
+>>> ProductDelers(240)
+Het product van de delers van 240 is 634033809653760000000000.
+>>> ProductDelers(463)
+Het product van de delers van 463 is 463.
+>>> ProductDelers(306)
+Het product van de delers van 306 is 820972403643456.
+>>> ProductDelers(557)
+Het product van de delers van 557 is 557.
+>>> ProductDelers(380)
+Het product van de delers van 380 is 3010936384000000.
+>>> ProductDelers(619)
+Het product van de delers van 619 is 619.
+>>> ProductDelers(462)
+Het product van de delers van 462 is 2075562447064149770496.
+>>> ProductDelers(701)
+Het product van de delers van 701 is 701.
+>>> ProductDelers(552)
+Het product van de delers van 552 is 8620106308238186643456.
+>>> ProductDelers(787)
+Het product van de delers van 787 is 787.
+>>> ProductDelers(650)
+Het product van de delers van 650 is 75418890625000000.
+>>> ProductDelers(863)
+Het product van de delers van 863 is 863.
+>>> ProductDelers(756)
+Het product van de delers van 756 is 34854715807867200628629234134286336.
+>>> ProductDelers(953)
+Het product van de delers van 953 is 953.
+>>> ProductDelers(870)
+Het product van de delers van 870 is 328211671543712100000000.
+>>> ProductDelers(1033)
+Het product van de delers van 1033 is 1033.
+>>> ProductDelers(992)
+Het product van de delers van 992 is 952949821243654144.
+>>> ProductDelers(1109)
+Het product van de delers van 1109 is 1109.
+>>> ProductDelers(1122)
+Het product van de delers van 1122 is 2511555938247983124807936.
+>>> ProductDelers(1213)
+Het product van de delers van 1213 is 1213.
+>>> ProductDelers(1260)
+Het product van de delers van 1260 is 64072225938746379480587511979135205376000000000000000000.
+>>> ProductDelers(1291)
+Het product van de delers van 1291 is 1291.
+>>> ProductDelers(1406)
+Het product van de delers van 1406 is 3907880570896.
+>>> ProductDelers(1399)
+Het product van de delers van 1399 is 1399.
+>>> ProductDelers(1560)
+Het product van de delers van 1560 is 1230250566452802880140289503720898560000000000000000.
+>>> ProductDelers(1481)
+Het product van de delers van 1481 is 1481.
+>>> ProductDelers(1722)
+Het product van de delers van 1722 is 77315252210980936870830336.
+>>> ProductDelers(1559)
+Het product van de delers van 1559 is 1559.
+>>> ProductDelers(1892)
+Het product van de delers van 1892 is 45869794281265106944.
+>>> ProductDelers(1627)
+Het product van de delers van 1627 is 1627.
+>>> ProductDelers(2070)
+Het product van de delers van 2070 is 6189337220490697154402830401000000000000.
+>>> ProductDelers(1733)
+Het product van de delers van 1733 is 1733.
+>>> ProductDelers(2256)
+Het product van de delers van 2256 is 3415001927266838623705384328626176.
+>>> ProductDelers(1831)
+Het product van de delers van 1831 is 1831.
+>>> ProductDelers(2450)
+Het product van de delers van 2450 is 3180495308418845703125000000000.
+>>> ProductDelers(1931)
+Het product van de delers van 1931 is 1931.
+>>> ProductDelers(2652)
+Het product van de delers van 2652 is 121026991249843166748508496621854833770496.
+>>> ProductDelers(2017)
+Het product van de delers van 2017 is 2017.
+>>> ProductDelers(2862)
+Het product van de delers van 2862 is 4501497729108799346268324096.
+>>> ProductDelers(2111)
+Het product van de delers van 2111 is 2111.
+>>> ProductDelers(3080)
+Het product van de delers van 3080 is 65586048223022892875005153749594863042560000000000000000.
+>>> ProductDelers(2213)
+Het product van de delers van 2213 is 2213.
+>>> ProductDelers(3306)
+Het product van de delers van 3306 is 14269961253003827808011510016.
+>>> ProductDelers(2297)
+Het product van de delers van 2297 is 2297.
+>>> ProductDelers(3540)
+Het product van de delers van 3540 is 3872925512280619035000649814016000000000000.
+>>> ProductDelers(2383)
+Het product van de delers van 2383 is 2383.
+>>> ProductDelers(3782)
+Het product van de delers van 3782 is 204590798818576.
+>>> ProductDelers(2473)
+Het product van de delers van 2473 is 2473.
+>>> ProductDelers(4032)
+Het product van de delers van 4032 is 5199133776255768868059351586202791644855377714847820005437695474408234156032.
+>>> ProductDelers(2593)
+Het product van de delers van 2593 is 2593.
+>>> ProductDelers(4290)
+Het product van de delers van 4290 is 13161842057717247837220056072644323660611210000000000000000.
+>>> ProductDelers(2687)
+Het product van de delers van 2687 is 2687.
+>>> ProductDelers(4556)
+Het product van de delers van 4556 is 8943392527288758931456.
+>>> ProductDelers(2753)
+Het product van de delers van 2753 is 2753.
+>>> ProductDelers(4830)
+Het product van de delers van 4830 is 87731204501251234400392583759599850105244810000000000000000.
+>>> ProductDelers(2851)
+Het product van de delers van 2851 is 2851.
+>>> ProductDelers(5112)
+Het product van de delers van 5112 is 318485849972861930975477096130047302598393856.
+>>> ProductDelers(2957)
+Het product van de delers van 2957 is 2957.
+>>> ProductDelers(5402)
+Het product van de delers van 5402 is 851566012012816.
+>>> ProductDelers(3061)
+Het product van de delers van 3061 is 3061.
+>>> ProductDelers(5700)
+Het product van de delers van 5700 is 40341068970691068873250369779249000000000000000000000000000000000000.
+>>> ProductDelers(3181)
+Het product van de delers van 3181 is 3181.
+>>> ProductDelers(6006)
+Het product van de delers van 6006 is 2866587784132504158763664037554715899623607504424834349203456.
+>>> ProductDelers(3271)
+Het product van de delers van 3271 is 3271.

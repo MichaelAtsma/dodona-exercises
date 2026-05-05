@@ -1,0 +1,12 @@
+>>> ProductDelers(2)
+Het product van de delers van 2 is 2.
+>>> ProductDelers(4)
+Het product van de delers van 4 is 8.
+>>> ProductDelers(15)
+Het product van de delers van 15 is 225.
+>>> ProductDelers(1)
+Het product van de delers van 1 is 1.
+>>> ProductDelers(113)
+Het product van de delers van 113 is 113.
+>>> ProductDelers(24)
+Het product van de delers van 24 is 331776.

@@ -1,0 +1,7 @@
+--------------------------------------------------
+tab name: Voorbeelden
+used output channel: stdout
+<LANGUAGE code="en">
+    <function from="ProductDelers" to="ProductOfDivisors" />
+    <fixed from="Het product van de delers van " to="The product of the divisors of " />
+</LANGUAGE>
