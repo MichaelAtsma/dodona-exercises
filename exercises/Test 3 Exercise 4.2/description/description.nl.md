@@ -268,7 +268,7 @@ Maak een functie <function name="MeesteKarakters"></function> die twee lijsten a
       <td><function name="MeesteKarakters" inputs='["Python is een mooie taal", "programmeren is leuk"], ["informaticawetenschappen is een nuttig vak!!", ""]'></function></td>
       <td style="text-align: center;">→</td>
       <td><code class="string">Beide lijsten bevatten evenveel karakters.</code></td>
-      <td>Lijst 1 bevat 44 karakters (24+20) en Lijst 2 bevat 44 karakters (42+2).</td>
+      <td>Lijst 1 bevat 44 karakters (24+20) en Lijst 2 bevat 44 karakters (44+0).</td>
     </tr>
     <tr>
       <td><function name="MeesteKarakters" inputs='["a", "bcd"], []'></function></td>
