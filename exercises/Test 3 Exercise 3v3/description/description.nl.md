@@ -285,8 +285,8 @@ Maak een functie <function name="ProductDelers"></function> die één geheel get
     <tr>
       <td><function name="ProductDelers" inputs='24'></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code>Het product van de delers van 24 is 27648.</code></pre></td>
-      <td>De delers van 24 zijn 1, 2, 3, 4, 6, 8, 12, en 24. Het product is 27648.     </td>
+      <td><pre><code>Het product van de delers van 24 is 27648.     </code></pre></td>
+      <td>De delers van 24 zijn 1, 2, 3, 4, 6, 8, 12, en 24. Het product is 27648.</td>
     </tr>
   </tbody>
 </table>
