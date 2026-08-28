@@ -282,19 +282,19 @@ waarbij <span style="color: red">X</span> het product van de cijfers is, <span s
     <tr>
       <td><function name="NummerAnalyse" inputs='123,7'></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code>Het product en de som van de cijfers zijn allebei gelijk aan 6.<br>123 is niet deelbaar door 7, het resultaat is ongeveer 17.57.</code></pre></td>
+      <td><pre><code>Het product en de som van de cijfers zijn allebei gelijk aan 6.     <br>123 is niet deelbaar door 7, het resultaat is ongeveer 17.57.</code></pre></td>
       <td>Het product van de cijfers van <code>123</code> is $$1 \cdot 2 \cdot 3 = 6$$.<br>De som van de cijfers van <code>123</code> is $$1 + 2 + 3 = 6$$.<br>Het product en de som zijn dus gelijk.<br>$$123 / 7 \approx 17.57$$</td>
     </tr>
     <tr>
       <td><function name="NummerAnalyse" inputs='456,2'></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code>Het product van de cijfers (120) is groter dan de som van de cijfers (15).<br>456 is een veelvoud van 2.</code></pre></td>
+      <td><pre><code>Het product van de cijfers (120) is groter dan de som van de cijfers (15).     <br>456 is een veelvoud van 2.</code></pre></td>
       <td>Het product van de cijfers van <code>456</code> is $$4 \cdot 5 \cdot 6 = 120$$.<br>De som van de cijfers van <code>456</code> is $$4 + 5 + 6 = 15$$.<br>Het product is dus groter dan de som.<br>$$456 / 2 = 228$$</td>
     </tr>
     <tr>
       <td><function name="NummerAnalyse" inputs='111112,3'></function></td>
       <td style="text-align: center;">→</td>
-      <td><pre><code>Het product van de cijfers (2) is kleiner dan de som van de cijfers (7).<br>111112 is niet deelbaar door 3, het resultaat is ongeveer 37037.33.</code></pre></td>
+      <td><pre><code>Het product van de cijfers (2) is kleiner dan de som van de cijfers (7).     <br>111112 is niet deelbaar door 3, het resultaat is ongeveer 37037.33.</code></pre></td>
       <td>Het product van de cijfers van <code>111112</code> is $$1 \cdot 1 \cdot 1 \cdot 1 \cdot 1 \cdot 2 = 2$$.<br>De som van de cijfers van <code>111112</code> is $$1 + 1 + 1 + 1 + 1 + 2 = 7$$.<br>Het product is dus kleiner dan de som.<br>$$111112 / 3 \approx 37037.33$$</td>
   </tbody>
 </table>
