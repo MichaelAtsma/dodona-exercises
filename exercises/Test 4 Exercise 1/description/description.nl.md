@@ -302,6 +302,4 @@ waarbij <span style="color: red">X</span> het product van de cijfers is, <span s
 
 </details> <!-- End of input-output verwachtingen -->
 
-<span style="color: red;">Let op: het indienen van je code kan lang duren, dus zorg ervoor dat je klaar bent voordat je op de knop "Indienen" klikt om onnodige wachttijd te vermijden.</span>
-
 </div>
