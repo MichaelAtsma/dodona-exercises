@@ -1,0 +1,13 @@
+--------------------------------------------------
+tab name: Voorbeelden
+used output channel: stdout
+<LANGUAGE code="en">
+    <function from="NummerAnalyse" to="NumberAnalysis" />
+    <fixed from="Het product en de som van de cijfers zijn allebei gelijk aan" to="The product and the sum of the digits are both equal to" />
+    <fixed from="Het product van de cijfers" to="The product of the digits" />
+    <fixed from="is groter dan de som van de cijfers" to="is greater than the sum of the digits" />
+    <fixed from="is kleiner dan de som van de cijfers" to="is smaller than the sum of the digits" />
+    <fixed from="is een veelvoud van" to="is a multiple of" />
+    <fixed from="is niet deelbaar door" to="is not divisible by" />
+    <fixed from="het resultaat is ongeveer" to="the result is approximately" />
+</LANGUAGE>

@@ -1,0 +1,9 @@
+>>> NummerAnalyse(123, 7)
+Het product en de som van de cijfers zijn allebei gelijk aan 6.
+123 is niet deelbaar door 7, het resultaat is ongeveer 17.57.
+>>> NummerAnalyse(456, 2)
+Het product van de cijfers (120) is groter dan de som van de cijfers (15).
+456 is een veelvoud van 2.
+>>> NummerAnalyse(111112, 3)
+Het product van de cijfers (2) is kleiner dan de som van de cijfers (7).
+111112 is niet deelbaar door 3, het resultaat is ongeveer 37037.33.
