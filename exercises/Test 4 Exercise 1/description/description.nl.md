@@ -201,7 +201,8 @@
     box-sizing: border-box;
     border: 1px solid #8f8f8fff !important;
     border-style: solid !important;
-    white-space: normal;
+    white-space: nowrap !important;
+    overflow-wrap: nowrap !important;
   }
   .sub-title-in-table {
     font-size: 0.8em !important;
@@ -302,6 +303,7 @@ waarbij <span style="color: red">X</span> het product van de cijfers is, <span s
       <td style="text-align: center;">→</td>
       <td><pre><code>Het product van de cijfers (2) is kleiner dan de som van de cijfers (7).     <br>111112 is niet deelbaar door 3, het resultaat is ongeveer 37037.33.</code></pre></td>
       <td>Het product van de cijfers van <code>111112</code> is $$1 \cdot 1 \cdot 1 \cdot 1 \cdot 1 \cdot 2 = 2$$.<br>De som van de cijfers van <code>111112</code> is $$1 + 1 + 1 + 1 + 1 + 2 = 7$$.<br>Het product is dus kleiner dan de som.<br>$$111112 / 3 \approx 37037.33$$</td>
+    </tr>
   </tbody>
 </table>
 </div>
