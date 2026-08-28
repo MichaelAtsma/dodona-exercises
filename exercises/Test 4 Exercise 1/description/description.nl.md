@@ -259,7 +259,7 @@ De functie moet 2 dingen op het scherm afdrukken:
   <li>Het product van de cijfers van het eerste getal vergeleken met de som van de cijfers van het eerste getal. 
   <ul>
     <li>Als het product van de cijfers gelijk is aan de som van de cijfers, druk dan af: <code class="string">Het product en de som van de cijfers zijn allebei gelijk aan <span style="color: red">X</span>.</code></li>
-    <li>Als het product van de cijfers groter is dan de som van de cijfers, druk dan af: <code class="string">Het product van de cijfers (<span style="color: red">X</span>) is gelijk aan de som van de cijfers (<span style="color: red">Y</span>).</code></li>
+    <li>Als het product van de cijfers groter is dan de som van de cijfers, druk dan af: <code class="string">Het product van de cijfers (<span style="color: red">X</span>) is groter dan de som van de cijfers (<span style="color: red">Y</span>).</code></li>
     <li>Als het product van de cijfers kleiner is dan de som van de cijfers, druk dan af: <code class="string">Het product van de cijfers (<span style="color: red">X</span>) is kleiner dan de som van de cijfers (<span style="color: red">Y</span>).</code></li>
   </ul>
   </li>
