@@ -216,6 +216,12 @@
     -ms-hyphens: none !important;
   }
 
+  pre code { /* give extra space to each line of code block */
+    display: block;
+    padding: 10px;
+    overflow-x: auto;
+  }
+
   @media (prefers-color-scheme: dark) {
     .functioninput-default { color: white; }
     .functionseparators { color: white; }
