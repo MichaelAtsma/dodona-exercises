@@ -296,7 +296,7 @@ waarbij <span style="color: red">X</span> het product van de cijfers is, <span s
       <td><function name="NummerAnalyse" inputs='456,2'></function></td>
       <td style="text-align: center;">→</td>
       <td><pre><code>Het product van de cijfers (120) is groter dan de som van de cijfers (15).     <br>456 is een veelvoud van 2.</code></pre></td>
-      <td>Het product van de cijfers van <code>456</code> is $$4 \cdot 5 \cdot 6 = 120$$.<br>De som van de cijfers van <code>456</code> is $$4 + 5 + 6 = 15$$.<br>Het product is dus groter dan de som.<br>$$456 / 2 = 228$$</td>
+      <td>Het product van de cijfers van <code>456</code> is $$4 \cdot 5 \cdot 6 = 120$$.<br>De som van de cijfers van <code>456</code> is $$4 + 5 + 6 = 15$$.<br>Het product is dus groter dan de som.<br>$$456 / 2 = 228$$, dus <code>456</code> is exact een veelvoud van <code>2</code>.</td>
     </tr>
     <tr>
       <td><function name="NummerAnalyse" inputs='111112,3'></function></td>
