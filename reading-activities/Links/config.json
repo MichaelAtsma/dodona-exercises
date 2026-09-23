@@ -1,10 +1,14 @@
 {
-    "description": {
-      "names": {
-        "en": "Links to the activities",
-        "nl": "Links naar de oefenreeksen"
-      }
-    },
-    "access": "private",
-    "type": "content"
+  "description": {
+    "names": {
+      "en": "Links to the activities",
+      "nl": "Links naar de oefenreeksen"
+    }
+  },
+  "access": "private",
+  "type": "content",
+  "internals": {
+    "token": "7-um4y_TPmbNh8HRfBfBNkegtBNW5JnsqZ3pqxmRX4eBbpFc24mz-GaqhVhS2M4c",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
+}
