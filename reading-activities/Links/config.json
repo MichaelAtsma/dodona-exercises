@@ -1,0 +1,10 @@
+{
+    "description": {
+      "names": {
+        "en": "Links to the activities",
+        "nl": "Links naar de oefenreeksen"
+      }
+    },
+    "access": "private",
+    "type": "content"
+  }
