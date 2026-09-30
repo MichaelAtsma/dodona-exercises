@@ -15,7 +15,7 @@ Klik via onderstaande links naar de oefenreeksen.
 Toets 1
 
 12. [Beslissingen maken](https://dodona.be/nl/series/83635/?token=6pZ5S)
-13. [Functies en if-else combineren](http://dodona.be/nl/series/83636/?token=VDYNh)
+13. [Functies en if-else combineren](https://dodona.be/nl/series/83636/?token=VDYNh)
 14. [Meer wiskundige operaties](https://dodona.be/nl/series/83637/?token=Y54sk)
 15. [Beslissingen maken vervolg: anders als](https://dodona.be/nl/series/83638/?token=xQHyQ)
 16. [Functies en if-elif-else combineren](https://dodona.be/nl/series/83639/?token=zJnPg)
