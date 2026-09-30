@@ -4,7 +4,7 @@ Klik via onderstaande links naar de oefenreeksen.
 2. [Variabelen maken](https://dodona.be/nl/series/83624/?token=-dMVS)
 3. [Fouten oplossen ('debuggen')](https://dodona.be/nl/series/83626/?token=cstne)
 4. [Datatypen](https://dodona.be/nl/series/83625/?token=8_sSr)
-5. [Rekenen met datatypen](http://dodona.be/nl/series/83628/?token=azWZr)
+5. [Rekenen met datatypen](https://dodona.be/nl/series/83628/?token=azWZr)
 6. [Variabelen gebruiken in volgende stappen](https://dodona.be/nl/series/83627/?token=KTV4y)
 7. [f-strings](https://dodona.be/nl/series/83629/?token=vh3k6)
 8. [Opmaak van je variabelen in f-strings](https://dodona.be/nl/series/83630/?token=2jzJN)
