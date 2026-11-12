@@ -1,0 +1,14 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.oppervlakte"
+          return: 3700
+        - expression: "submission.sport"
+          return: "Ultimate Frisbee"
+        - expression: "submission.bewering"
+          return: !oracle
+            oracle: "custom_check"
+            value: "Een Ultimate Frisbee veld is 3700 vierkante meter groot."
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["bewering", {"oppervlakte": 3700, "sport": "Ultimate Frisbee"}, {"f\"": "f-string", "{": "open accolade", "}": "sluit accolade"}, ["+"], False]
