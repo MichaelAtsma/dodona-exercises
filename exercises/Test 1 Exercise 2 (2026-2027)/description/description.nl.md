@@ -245,4 +245,6 @@
 6. Maak een variabele <code>quotient</code> die het resultaat van <code>eerste_getal</code> gedeeld door <code>tweede_getal</code> opslaat.
 7. Maak een variabele <code>meerdere_dieren</code> die <code>eerste_getal</code> keer het woord van variabele <code>dier</code> achter elkaar opslaat.
 
+Let op: vanaf stap 4 mag je niet meer de gegeven waarden gebruiken, enkel de variabelen die je eerder hebt aangemaakt.
+
 </div>
