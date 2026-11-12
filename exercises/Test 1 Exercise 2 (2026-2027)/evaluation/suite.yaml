@@ -1,0 +1,37 @@
+- tab: "Test"
+  contexts:
+    - testcases:
+        - expression: "submission.eerste_getal"
+          return: 20
+        - expression: "submission.tweede_getal"
+          return: -7
+        - expression: "submission.dier"
+          return: "slang"
+        - expression: "submission.som"
+          return: !oracle
+            oracle: "custom_check"
+            value: 13
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["som", {"eerste_getal": 20, "tweede_getal": -7}, {"+": "sommatie"}, [], False]
+        - expression: "submission.product"
+          return: !oracle
+            oracle: "custom_check"
+            value: -140
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["product", {"eerste_getal": 20, "tweede_getal": -7}, {"*": "product"}, [], False]
+        - expression: "submission.quotient"
+          return: !oracle
+            oracle: "custom_check"
+            value: -2.857142857142857
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["quotient", {"eerste_getal": 20, "tweede_getal": -7}, {"/": "quotient"}, [], False]
+        - expression: "submission.meerdere_dieren"
+          return: !oracle
+            oracle: "custom_check"
+            value: "slangslangslangslangslangslangslangslangslangslangslangslangslangslangslangslangslangslangslangslang"
+            file: "oracle_test.py"
+            name: "evaluate_test"
+            arguments: ["meerdere_dieren", {"eerste_getal": 20, "dier": "slang"}, {"*": "product"}, [], False]

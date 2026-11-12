@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "Tussentijdse toets 1 oefening 2"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "labels": [],
+  "internals": {
+    "token": "zte8nq8Rz-h7jjIIy9IkvgX9af6xqzdecr-FvR4G4KEEC_GQ55-HI-mbfamWWX64",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
