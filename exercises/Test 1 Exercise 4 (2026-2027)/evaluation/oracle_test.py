@@ -7,7 +7,7 @@ def get_submission_code():
 def lines_containing_var(text, var):
     return [line for line in text.splitlines() if (f"{var}=" in line or f"{var} =" in line)]
 
-def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols_and_display_names, forbidden_symbols, feedback_shown=True):
+def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols_and_display_names, forbidden_symbols, feedback_shown=True, specific_symbols_and_feedback_always_shown={}):
     submission = get_submission_code()
     checks = {}
     checks["expected value not in code"] = str(context.expected) not in submission
@@ -87,7 +87,12 @@ def evaluate_test(context, result_var, ingredient_vars, mandatory_symbols_and_di
             mymessages.append(Message(f"Je moet een {' en '.join([mandatory_symbols_and_display_names[symbol] for symbol in mandatory_symbols_not_used_enough])} gebruiken om {result_var} te maken."))
 
         if not feedback_shown:
-            mymessages = [Message("Omdat dit een toets is, krijg je geen hints over wat er precies mis is. Probeer het nog eens!")]
+            mymessages = []
+            for symbol, feedback in specific_symbols_and_feedback_always_shown.items():
+                if symbol in submission:
+                    mymessages.append(Message(feedback))
+            if not mymessages:
+                mymessages = [Message("Omdat dit een toets is, krijg je geen hints over wat er precies mis is. Probeer het nog eens!")]
 
     return EvaluationResult(
       result = correct,

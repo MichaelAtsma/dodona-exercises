@@ -9,4 +9,4 @@
             value: "Als je de oefeningen tot en met deze correct hebt, dan heb je al een 66.667% behaald voor je toets!"
             file: "oracle_test.py"
             name: "evaluate_test"
-            arguments: ["Felicitatie", {"percentage": 66.66667}, {"f\"": "f-string", "{": "open accolade", "}": "sluit accolade", ".3f": "instructies voor afronding op 3 decimalen"}, ["+"], False]
+            arguments: ["Felicitatie", {"percentage": 66.66667}, {"f\"": "f-string", "{": "open accolade", "}": "sluit accolade", ".3f": "instructies voor afronding op 3 decimalen"}, ["+"], False, {":.5": "Er wordt niet om 5 decimalen gevraagd. Je bent dus vergeten hoe je moet afronden en je probeert mij te tricken."}]
