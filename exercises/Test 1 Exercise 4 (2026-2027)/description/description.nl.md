@@ -241,6 +241,6 @@
 <div markdown="1" class="prevent-select">
 
 # <b>Opdracht</b>
-Maak een variabele <code class="enable-select">Felicitatie</code> aan die een <span class="enable-select">percentage</span> van <span class="enable-select"><code>66.66667</code></span> van de variabele <code class="enable-select">percentage</code> afgerond op drie decimalen invult in de tekst <code>Als je de oefeningen tot en met deze correct hebt, dan heb je al een <span class="enable-select">66.667%</span> behaald voor je toets!</code> met een <i>f-string</i>.
+Maak een variabele <code class="enable-select">Felicitatie</code> aan die een <span class="enable-select">percentage</span> van <code class="enable-select">66.66667</code> van de variabele <code class="enable-select">percentage</code> afgerond op drie decimalen invult in de tekst <code>Als je de oefeningen tot en met deze correct hebt, dan heb je al een <span class="enable-select">66.667%</span> behaald voor je toets!</code> met een <i>f-string</i>.
 
 </div>
