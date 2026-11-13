@@ -1,12 +1,12 @@
 <script>
   let copyMessage = "";
 
-  allowed_selections = ["€", "66.667%", "%", "66.66667", "Felicitatie", "percentage"];
+  let allowed_copies = ["€", "66.667%", "%", "66.66667", "Felicitatie", "percentage"];
 
   document.addEventListener("copy", function(e) {
     e.preventDefault();
     const selection = window.getSelection().toString();
-    let allowedPart = allowed_selections.find(sel => selection.includes(sel));
+    let allowedPart = allowed_copies.find(sel => selection.includes(sel));
     if (allowedPart) {
       e.clipboardData.setData("text/plain", allowedPart);
     } else {
@@ -17,7 +17,7 @@
   document.addEventListener("cut", function(e) {
     e.preventDefault();
     const selection = window.getSelection().toString();
-    let allowedPart = allowed_selections.find(sel => selection.includes(sel));
+    let allowedPart = allowed_copies.find(sel => selection.includes(sel));
     if (allowedPart) {
       e.clipboardData.setData("text/plain", allowedPart);
     } else {
