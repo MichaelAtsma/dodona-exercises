@@ -1,11 +1,15 @@
 <script>
   let copyMessage = "";
 
+  allowed_selections = ["€", "%", "66.66667", "66.667%", "Felicitatie", "percentage"];
+
   document.addEventListener("copy", function(e) {
     e.preventDefault();
     const selection = window.getSelection().toString();
-    if (selection.includes("€")) {
-      e.clipboardData.setData("text/plain", "€");
+    let allowedPart = allowed_selections.find(sel => selection.includes(sel));
+    if (allowedPart) {
+      // set only the allowed part of the selection to the clipboard
+      e.clipboardData.setData("text/plain", allowedPart);
     } else {
       e.clipboardData.setData("text/plain", copyMessage);
     }
@@ -14,8 +18,9 @@
   document.addEventListener("cut", function(e) {
     e.preventDefault();
     const selection = window.getSelection().toString();
-    if (selection.includes("€")) {
-      e.clipboardData.setData("text/plain", "€");
+    let allowedPart = allowed_selections.find(sel => selection.includes(sel));
+    if (allowedPart) {
+      e.clipboardData.setData("text/plain", allowedPart);
     } else {
       e.clipboardData.setData("text/plain", copyMessage);
     }
@@ -237,6 +242,6 @@
 <div markdown="1" class="prevent-select">
 
 # <b>Opdracht</b>
-Maak een variabele <code>Felicitatie</code> aan die een percentage van <span class="enable-select"><code>66.66667</code></span> van de variabele <code>percentage</code> afgerond op drie decimalen invult in de tekst <code>Als je de oefeningen tot en met deze correct hebt, dan heb je al een 66.667<span class="enable-select">%</span> behaald voor je toets!</code> met een <i>f-string</i>.
+Maak een variabele <code>Felicitatie</code> aan die een <span class="enable-select">percentage</span> van <span class="enable-select"><code>66.66667</code></span> van de variabele <code class="enable-select">percentage</code> afgerond op drie decimalen invult in de tekst <code>Als je de oefeningen tot en met deze correct hebt, dan heb je al een <span class="enable-select">66.667%</span> behaald voor je toets!</code> met een <i>f-string</i>.
 
 </div>
