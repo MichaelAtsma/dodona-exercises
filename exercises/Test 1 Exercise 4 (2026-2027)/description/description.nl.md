@@ -1,14 +1,13 @@
 <script>
   let copyMessage = "";
 
-  allowed_selections = ["€", "%", "66.66667", "66.667%", "Felicitatie", "percentage"];
+  allowed_selections = ["€", "66.667%", "%", "66.66667", "Felicitatie", "percentage"];
 
   document.addEventListener("copy", function(e) {
     e.preventDefault();
     const selection = window.getSelection().toString();
     let allowedPart = allowed_selections.find(sel => selection.includes(sel));
     if (allowedPart) {
-      // set only the allowed part of the selection to the clipboard
       e.clipboardData.setData("text/plain", allowedPart);
     } else {
       e.clipboardData.setData("text/plain", copyMessage);
