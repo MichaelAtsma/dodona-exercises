@@ -1,6 +1,7 @@
 import pyperclip
 import io
 import sys
+import random
 
 def copy_to_clipboard(text):
     pyperclip.copy(text)
@@ -16,14 +17,15 @@ def capture_output(func, *args, **kwargs):
 
 result = ""
 n_results = 0
-max_range = 10
-for j in range(1, max_range+1):
-    for i in range(j+1):
-        for k in range(1, max_range+1):
-            if i/j*k == i*k/j == k/j*i:
-                result += f">>> ReceptOmrekenen({i}, {j}, {k})\n"
-                result += f"{i*k/j}\n"
-                n_results += 1
+max_range = 1000
+for i in range(2, max_range+1):
+    if not random.randint(0,2):
+        x = i * random.choice([-1, 1])
+        if random.randint(0,1):
+            x += round(random.random(), random.randint(1, 7))
+        result += f">>> ToestandstekenWissel({x})\n"
+        result += f"{-x}\n"
+        n_results += 1
 
 copy_to_clipboard(result)
 print(f"{n_results} copied to clipboard:")

@@ -241,20 +241,16 @@
 <div markdown="1" class="prevent-select">
 
 # <b>Opdracht</b>
-Maak een functie genaamd <function name="ReceptOmrekenen"></function> die <i><b>drie</b></i> getallen als invoer neemt:
-<ol>
-  <li>Het aantal gram van een ingrediënt dat het recept oorspronkelijk gebruikt</li>
-  <li>Het aantal personen waarvoor het recept oorspronkelijk is bedoeld</li>
-  <li>Het aantal personen waarvoor je gaat koken</li>
-</ol>
-De functie rekent dan de hoeveelheid van het ingrediënt om en geeft het resultaat terug.
+Maak een functie genaamd <function name="ToestandstekenWissel"></function> die één getal als invoer neemt en het teken ervan wisselt: positief wordt negatief en negatief wordt positief. Vervolgens geeft de functie het gewijzigde getal terug.
 
 <details markdown="1"><summary>Voorbeelden</summary>
 <ul>
-  <li><function name="ReceptOmrekenen" inputs="100,2,6"></function> geeft <code>300</code> terug (want <code>100</code> gram voor <code>2</code> personen is gelijk aan <code>300</code> gram voor <code>6</code> personen).</li>
-  <li><function name="ReceptOmrekenen" inputs="10,4,3"></function> geeft <code>7.5</code> terug (want <code>10</code> gram voor <code>4</code> personen is gelijk aan <code>7.5</code> gram voor <code>3</code> personen).</li>
-  <li><function name="ReceptOmrekenen" inputs="90,7,5"></function> geeft <code>64.28571428571429</code> terug (want <code>90</code> gram voor <code>7</code> personen is gelijk aan <code>64.28571428571429</code> gram voor <code>5</code> personen).</li>
+  <li><function name="ToestandstekenWissel" inputs="5"></function> geeft <code>-5</code> terug (want het teken van <code>5</code> wordt omgekeerd).</li>
+  <li><function name="ToestandstekenWissel" inputs="-8"></function> geeft <code>8</code> terug (want het teken van <code>-8</code> wordt omgekeerd).</li>
+  <li><function name="ToestandstekenWissel" inputs="100"></function> geeft <code>-100</code> terug (want het teken van <code>100</code> wordt omgekeerd).</li>
 </ul>
 </details>
+
+<i>Je hoeft geen rekening te houden met 0</i>
 
 </div>

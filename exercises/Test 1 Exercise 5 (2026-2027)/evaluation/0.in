@@ -1,1072 +1,686 @@
->>> ReceptOmrekenen(0, 1, 1)
-0.0
->>> ReceptOmrekenen(0, 1, 2)
-0.0
->>> ReceptOmrekenen(0, 1, 3)
-0.0
->>> ReceptOmrekenen(0, 1, 4)
-0.0
->>> ReceptOmrekenen(0, 1, 5)
-0.0
->>> ReceptOmrekenen(0, 1, 6)
-0.0
->>> ReceptOmrekenen(0, 1, 7)
-0.0
->>> ReceptOmrekenen(0, 1, 8)
-0.0
->>> ReceptOmrekenen(0, 1, 9)
-0.0
->>> ReceptOmrekenen(0, 1, 10)
-0.0
->>> ReceptOmrekenen(1, 1, 1)
-1.0
->>> ReceptOmrekenen(1, 1, 2)
-2.0
->>> ReceptOmrekenen(1, 1, 3)
-3.0
->>> ReceptOmrekenen(1, 1, 4)
-4.0
->>> ReceptOmrekenen(1, 1, 5)
-5.0
->>> ReceptOmrekenen(1, 1, 6)
-6.0
->>> ReceptOmrekenen(1, 1, 7)
-7.0
->>> ReceptOmrekenen(1, 1, 8)
-8.0
->>> ReceptOmrekenen(1, 1, 9)
-9.0
->>> ReceptOmrekenen(1, 1, 10)
-10.0
->>> ReceptOmrekenen(0, 2, 1)
-0.0
->>> ReceptOmrekenen(0, 2, 2)
-0.0
->>> ReceptOmrekenen(0, 2, 3)
-0.0
->>> ReceptOmrekenen(0, 2, 4)
-0.0
->>> ReceptOmrekenen(0, 2, 5)
-0.0
->>> ReceptOmrekenen(0, 2, 6)
-0.0
->>> ReceptOmrekenen(0, 2, 7)
-0.0
->>> ReceptOmrekenen(0, 2, 8)
-0.0
->>> ReceptOmrekenen(0, 2, 9)
-0.0
->>> ReceptOmrekenen(0, 2, 10)
-0.0
->>> ReceptOmrekenen(1, 2, 1)
-0.5
->>> ReceptOmrekenen(1, 2, 2)
-1.0
->>> ReceptOmrekenen(1, 2, 3)
-1.5
->>> ReceptOmrekenen(1, 2, 4)
-2.0
->>> ReceptOmrekenen(1, 2, 5)
-2.5
->>> ReceptOmrekenen(1, 2, 6)
-3.0
->>> ReceptOmrekenen(1, 2, 7)
-3.5
->>> ReceptOmrekenen(1, 2, 8)
-4.0
->>> ReceptOmrekenen(1, 2, 9)
-4.5
->>> ReceptOmrekenen(1, 2, 10)
-5.0
->>> ReceptOmrekenen(2, 2, 1)
-1.0
->>> ReceptOmrekenen(2, 2, 2)
-2.0
->>> ReceptOmrekenen(2, 2, 3)
-3.0
->>> ReceptOmrekenen(2, 2, 4)
-4.0
->>> ReceptOmrekenen(2, 2, 5)
-5.0
->>> ReceptOmrekenen(2, 2, 6)
-6.0
->>> ReceptOmrekenen(2, 2, 7)
-7.0
->>> ReceptOmrekenen(2, 2, 8)
-8.0
->>> ReceptOmrekenen(2, 2, 9)
-9.0
->>> ReceptOmrekenen(2, 2, 10)
-10.0
->>> ReceptOmrekenen(0, 3, 1)
-0.0
->>> ReceptOmrekenen(0, 3, 2)
-0.0
->>> ReceptOmrekenen(0, 3, 3)
-0.0
->>> ReceptOmrekenen(0, 3, 4)
-0.0
->>> ReceptOmrekenen(0, 3, 5)
-0.0
->>> ReceptOmrekenen(0, 3, 6)
-0.0
->>> ReceptOmrekenen(0, 3, 7)
-0.0
->>> ReceptOmrekenen(0, 3, 8)
-0.0
->>> ReceptOmrekenen(0, 3, 9)
-0.0
->>> ReceptOmrekenen(0, 3, 10)
-0.0
->>> ReceptOmrekenen(1, 3, 1)
-0.3333333333333333
->>> ReceptOmrekenen(1, 3, 2)
-0.6666666666666666
->>> ReceptOmrekenen(1, 3, 3)
-1.0
->>> ReceptOmrekenen(1, 3, 4)
-1.3333333333333333
->>> ReceptOmrekenen(1, 3, 6)
-2.0
->>> ReceptOmrekenen(1, 3, 8)
-2.6666666666666665
->>> ReceptOmrekenen(1, 3, 9)
-3.0
->>> ReceptOmrekenen(2, 3, 1)
-0.6666666666666666
->>> ReceptOmrekenen(2, 3, 2)
-1.3333333333333333
->>> ReceptOmrekenen(2, 3, 3)
-2.0
->>> ReceptOmrekenen(2, 3, 4)
-2.6666666666666665
->>> ReceptOmrekenen(2, 3, 6)
-4.0
->>> ReceptOmrekenen(2, 3, 8)
-5.333333333333333
->>> ReceptOmrekenen(2, 3, 9)
-6.0
->>> ReceptOmrekenen(3, 3, 1)
-1.0
->>> ReceptOmrekenen(3, 3, 2)
-2.0
->>> ReceptOmrekenen(3, 3, 3)
-3.0
->>> ReceptOmrekenen(3, 3, 4)
-4.0
->>> ReceptOmrekenen(3, 3, 5)
-5.0
->>> ReceptOmrekenen(3, 3, 6)
-6.0
->>> ReceptOmrekenen(3, 3, 7)
-7.0
->>> ReceptOmrekenen(3, 3, 8)
-8.0
->>> ReceptOmrekenen(3, 3, 9)
-9.0
->>> ReceptOmrekenen(3, 3, 10)
-10.0
->>> ReceptOmrekenen(0, 4, 1)
-0.0
->>> ReceptOmrekenen(0, 4, 2)
-0.0
->>> ReceptOmrekenen(0, 4, 3)
-0.0
->>> ReceptOmrekenen(0, 4, 4)
-0.0
->>> ReceptOmrekenen(0, 4, 5)
-0.0
->>> ReceptOmrekenen(0, 4, 6)
-0.0
->>> ReceptOmrekenen(0, 4, 7)
-0.0
->>> ReceptOmrekenen(0, 4, 8)
-0.0
->>> ReceptOmrekenen(0, 4, 9)
-0.0
->>> ReceptOmrekenen(0, 4, 10)
-0.0
->>> ReceptOmrekenen(1, 4, 1)
-0.25
->>> ReceptOmrekenen(1, 4, 2)
-0.5
->>> ReceptOmrekenen(1, 4, 3)
-0.75
->>> ReceptOmrekenen(1, 4, 4)
-1.0
->>> ReceptOmrekenen(1, 4, 5)
-1.25
->>> ReceptOmrekenen(1, 4, 6)
-1.5
->>> ReceptOmrekenen(1, 4, 7)
-1.75
->>> ReceptOmrekenen(1, 4, 8)
-2.0
->>> ReceptOmrekenen(1, 4, 9)
-2.25
->>> ReceptOmrekenen(1, 4, 10)
-2.5
->>> ReceptOmrekenen(2, 4, 1)
-0.5
->>> ReceptOmrekenen(2, 4, 2)
-1.0
->>> ReceptOmrekenen(2, 4, 3)
-1.5
->>> ReceptOmrekenen(2, 4, 4)
-2.0
->>> ReceptOmrekenen(2, 4, 5)
-2.5
->>> ReceptOmrekenen(2, 4, 6)
-3.0
->>> ReceptOmrekenen(2, 4, 7)
-3.5
->>> ReceptOmrekenen(2, 4, 8)
-4.0
->>> ReceptOmrekenen(2, 4, 9)
-4.5
->>> ReceptOmrekenen(2, 4, 10)
-5.0
->>> ReceptOmrekenen(3, 4, 1)
-0.75
->>> ReceptOmrekenen(3, 4, 2)
-1.5
->>> ReceptOmrekenen(3, 4, 3)
-2.25
->>> ReceptOmrekenen(3, 4, 4)
-3.0
->>> ReceptOmrekenen(3, 4, 5)
-3.75
->>> ReceptOmrekenen(3, 4, 6)
-4.5
->>> ReceptOmrekenen(3, 4, 7)
-5.25
->>> ReceptOmrekenen(3, 4, 8)
-6.0
->>> ReceptOmrekenen(3, 4, 9)
-6.75
->>> ReceptOmrekenen(3, 4, 10)
-7.5
->>> ReceptOmrekenen(4, 4, 1)
-1.0
->>> ReceptOmrekenen(4, 4, 2)
-2.0
->>> ReceptOmrekenen(4, 4, 3)
-3.0
->>> ReceptOmrekenen(4, 4, 4)
-4.0
->>> ReceptOmrekenen(4, 4, 5)
-5.0
->>> ReceptOmrekenen(4, 4, 6)
-6.0
->>> ReceptOmrekenen(4, 4, 7)
-7.0
->>> ReceptOmrekenen(4, 4, 8)
-8.0
->>> ReceptOmrekenen(4, 4, 9)
-9.0
->>> ReceptOmrekenen(4, 4, 10)
-10.0
->>> ReceptOmrekenen(0, 5, 1)
-0.0
->>> ReceptOmrekenen(0, 5, 2)
-0.0
->>> ReceptOmrekenen(0, 5, 3)
-0.0
->>> ReceptOmrekenen(0, 5, 4)
-0.0
->>> ReceptOmrekenen(0, 5, 5)
-0.0
->>> ReceptOmrekenen(0, 5, 6)
-0.0
->>> ReceptOmrekenen(0, 5, 7)
-0.0
->>> ReceptOmrekenen(0, 5, 8)
-0.0
->>> ReceptOmrekenen(0, 5, 9)
-0.0
->>> ReceptOmrekenen(0, 5, 10)
-0.0
->>> ReceptOmrekenen(1, 5, 1)
-0.2
->>> ReceptOmrekenen(1, 5, 2)
-0.4
->>> ReceptOmrekenen(1, 5, 4)
-0.8
->>> ReceptOmrekenen(1, 5, 5)
-1.0
->>> ReceptOmrekenen(1, 5, 8)
-1.6
->>> ReceptOmrekenen(1, 5, 9)
-1.8
->>> ReceptOmrekenen(1, 5, 10)
-2.0
->>> ReceptOmrekenen(2, 5, 1)
-0.4
->>> ReceptOmrekenen(2, 5, 2)
-0.8
->>> ReceptOmrekenen(2, 5, 4)
-1.6
->>> ReceptOmrekenen(2, 5, 5)
-2.0
->>> ReceptOmrekenen(2, 5, 8)
-3.2
->>> ReceptOmrekenen(2, 5, 9)
-3.6
->>> ReceptOmrekenen(2, 5, 10)
-4.0
->>> ReceptOmrekenen(3, 5, 5)
-3.0
->>> ReceptOmrekenen(3, 5, 10)
-6.0
->>> ReceptOmrekenen(4, 5, 1)
-0.8
->>> ReceptOmrekenen(4, 5, 2)
-1.6
->>> ReceptOmrekenen(4, 5, 4)
-3.2
->>> ReceptOmrekenen(4, 5, 5)
-4.0
->>> ReceptOmrekenen(4, 5, 8)
-6.4
->>> ReceptOmrekenen(4, 5, 9)
-7.2
->>> ReceptOmrekenen(4, 5, 10)
-8.0
->>> ReceptOmrekenen(5, 5, 1)
-1.0
->>> ReceptOmrekenen(5, 5, 2)
-2.0
->>> ReceptOmrekenen(5, 5, 3)
-3.0
->>> ReceptOmrekenen(5, 5, 4)
-4.0
->>> ReceptOmrekenen(5, 5, 5)
-5.0
->>> ReceptOmrekenen(5, 5, 6)
-6.0
->>> ReceptOmrekenen(5, 5, 7)
-7.0
->>> ReceptOmrekenen(5, 5, 8)
-8.0
->>> ReceptOmrekenen(5, 5, 9)
-9.0
->>> ReceptOmrekenen(5, 5, 10)
-10.0
->>> ReceptOmrekenen(0, 6, 1)
-0.0
->>> ReceptOmrekenen(0, 6, 2)
-0.0
->>> ReceptOmrekenen(0, 6, 3)
-0.0
->>> ReceptOmrekenen(0, 6, 4)
-0.0
->>> ReceptOmrekenen(0, 6, 5)
-0.0
->>> ReceptOmrekenen(0, 6, 6)
-0.0
->>> ReceptOmrekenen(0, 6, 7)
-0.0
->>> ReceptOmrekenen(0, 6, 8)
-0.0
->>> ReceptOmrekenen(0, 6, 9)
-0.0
->>> ReceptOmrekenen(0, 6, 10)
-0.0
->>> ReceptOmrekenen(1, 6, 1)
-0.16666666666666666
->>> ReceptOmrekenen(1, 6, 2)
-0.3333333333333333
->>> ReceptOmrekenen(1, 6, 3)
-0.5
->>> ReceptOmrekenen(1, 6, 4)
-0.6666666666666666
->>> ReceptOmrekenen(1, 6, 6)
-1.0
->>> ReceptOmrekenen(1, 6, 8)
-1.3333333333333333
->>> ReceptOmrekenen(1, 6, 9)
-1.5
->>> ReceptOmrekenen(2, 6, 1)
-0.3333333333333333
->>> ReceptOmrekenen(2, 6, 2)
-0.6666666666666666
->>> ReceptOmrekenen(2, 6, 3)
-1.0
->>> ReceptOmrekenen(2, 6, 4)
-1.3333333333333333
->>> ReceptOmrekenen(2, 6, 6)
-2.0
->>> ReceptOmrekenen(2, 6, 8)
-2.6666666666666665
->>> ReceptOmrekenen(2, 6, 9)
-3.0
->>> ReceptOmrekenen(3, 6, 1)
-0.5
->>> ReceptOmrekenen(3, 6, 2)
-1.0
->>> ReceptOmrekenen(3, 6, 3)
-1.5
->>> ReceptOmrekenen(3, 6, 4)
-2.0
->>> ReceptOmrekenen(3, 6, 5)
-2.5
->>> ReceptOmrekenen(3, 6, 6)
-3.0
->>> ReceptOmrekenen(3, 6, 7)
-3.5
->>> ReceptOmrekenen(3, 6, 8)
-4.0
->>> ReceptOmrekenen(3, 6, 9)
-4.5
->>> ReceptOmrekenen(3, 6, 10)
-5.0
->>> ReceptOmrekenen(4, 6, 1)
-0.6666666666666666
->>> ReceptOmrekenen(4, 6, 2)
-1.3333333333333333
->>> ReceptOmrekenen(4, 6, 3)
-2.0
->>> ReceptOmrekenen(4, 6, 4)
-2.6666666666666665
->>> ReceptOmrekenen(4, 6, 6)
-4.0
->>> ReceptOmrekenen(4, 6, 8)
-5.333333333333333
->>> ReceptOmrekenen(4, 6, 9)
-6.0
->>> ReceptOmrekenen(5, 6, 3)
-2.5
->>> ReceptOmrekenen(5, 6, 5)
-4.166666666666667
->>> ReceptOmrekenen(5, 6, 6)
-5.0
->>> ReceptOmrekenen(5, 6, 9)
-7.5
->>> ReceptOmrekenen(5, 6, 10)
-8.333333333333334
->>> ReceptOmrekenen(6, 6, 1)
-1.0
->>> ReceptOmrekenen(6, 6, 2)
-2.0
->>> ReceptOmrekenen(6, 6, 3)
-3.0
->>> ReceptOmrekenen(6, 6, 4)
-4.0
->>> ReceptOmrekenen(6, 6, 5)
-5.0
->>> ReceptOmrekenen(6, 6, 6)
-6.0
->>> ReceptOmrekenen(6, 6, 7)
-7.0
->>> ReceptOmrekenen(6, 6, 8)
-8.0
->>> ReceptOmrekenen(6, 6, 9)
-9.0
->>> ReceptOmrekenen(6, 6, 10)
-10.0
->>> ReceptOmrekenen(0, 7, 1)
-0.0
->>> ReceptOmrekenen(0, 7, 2)
-0.0
->>> ReceptOmrekenen(0, 7, 3)
-0.0
->>> ReceptOmrekenen(0, 7, 4)
-0.0
->>> ReceptOmrekenen(0, 7, 5)
-0.0
->>> ReceptOmrekenen(0, 7, 6)
-0.0
->>> ReceptOmrekenen(0, 7, 7)
-0.0
->>> ReceptOmrekenen(0, 7, 8)
-0.0
->>> ReceptOmrekenen(0, 7, 9)
-0.0
->>> ReceptOmrekenen(0, 7, 10)
-0.0
->>> ReceptOmrekenen(1, 7, 1)
-0.14285714285714285
->>> ReceptOmrekenen(1, 7, 2)
-0.2857142857142857
->>> ReceptOmrekenen(1, 7, 3)
-0.42857142857142855
->>> ReceptOmrekenen(1, 7, 4)
-0.5714285714285714
->>> ReceptOmrekenen(1, 7, 6)
-0.8571428571428571
->>> ReceptOmrekenen(1, 7, 7)
-1.0
->>> ReceptOmrekenen(1, 7, 8)
-1.1428571428571428
->>> ReceptOmrekenen(2, 7, 1)
-0.2857142857142857
->>> ReceptOmrekenen(2, 7, 2)
-0.5714285714285714
->>> ReceptOmrekenen(2, 7, 3)
-0.8571428571428571
->>> ReceptOmrekenen(2, 7, 4)
-1.1428571428571428
->>> ReceptOmrekenen(2, 7, 6)
-1.7142857142857142
->>> ReceptOmrekenen(2, 7, 7)
-2.0
->>> ReceptOmrekenen(2, 7, 8)
-2.2857142857142856
->>> ReceptOmrekenen(3, 7, 1)
-0.42857142857142855
->>> ReceptOmrekenen(3, 7, 2)
-0.8571428571428571
->>> ReceptOmrekenen(3, 7, 4)
-1.7142857142857142
->>> ReceptOmrekenen(3, 7, 5)
-2.142857142857143
->>> ReceptOmrekenen(3, 7, 7)
-3.0
->>> ReceptOmrekenen(3, 7, 8)
-3.4285714285714284
->>> ReceptOmrekenen(3, 7, 10)
-4.285714285714286
->>> ReceptOmrekenen(4, 7, 1)
-0.5714285714285714
->>> ReceptOmrekenen(4, 7, 2)
-1.1428571428571428
->>> ReceptOmrekenen(4, 7, 3)
-1.7142857142857142
->>> ReceptOmrekenen(4, 7, 4)
-2.2857142857142856
->>> ReceptOmrekenen(4, 7, 6)
-3.4285714285714284
->>> ReceptOmrekenen(4, 7, 7)
-4.0
->>> ReceptOmrekenen(4, 7, 8)
-4.571428571428571
->>> ReceptOmrekenen(5, 7, 3)
-2.142857142857143
->>> ReceptOmrekenen(5, 7, 5)
-3.5714285714285716
->>> ReceptOmrekenen(5, 7, 6)
-4.285714285714286
->>> ReceptOmrekenen(5, 7, 7)
-5.0
->>> ReceptOmrekenen(5, 7, 9)
-6.428571428571429
->>> ReceptOmrekenen(5, 7, 10)
-7.142857142857143
->>> ReceptOmrekenen(6, 7, 1)
-0.8571428571428571
->>> ReceptOmrekenen(6, 7, 2)
-1.7142857142857142
->>> ReceptOmrekenen(6, 7, 4)
-3.4285714285714284
->>> ReceptOmrekenen(6, 7, 5)
-4.285714285714286
->>> ReceptOmrekenen(6, 7, 7)
-6.0
->>> ReceptOmrekenen(6, 7, 8)
-6.857142857142857
->>> ReceptOmrekenen(6, 7, 10)
-8.571428571428571
->>> ReceptOmrekenen(7, 7, 1)
-1.0
->>> ReceptOmrekenen(7, 7, 2)
-2.0
->>> ReceptOmrekenen(7, 7, 3)
-3.0
->>> ReceptOmrekenen(7, 7, 4)
-4.0
->>> ReceptOmrekenen(7, 7, 5)
-5.0
->>> ReceptOmrekenen(7, 7, 6)
-6.0
->>> ReceptOmrekenen(7, 7, 7)
-7.0
->>> ReceptOmrekenen(7, 7, 8)
-8.0
->>> ReceptOmrekenen(7, 7, 9)
-9.0
->>> ReceptOmrekenen(7, 7, 10)
-10.0
->>> ReceptOmrekenen(0, 8, 1)
-0.0
->>> ReceptOmrekenen(0, 8, 2)
-0.0
->>> ReceptOmrekenen(0, 8, 3)
-0.0
->>> ReceptOmrekenen(0, 8, 4)
-0.0
->>> ReceptOmrekenen(0, 8, 5)
-0.0
->>> ReceptOmrekenen(0, 8, 6)
-0.0
->>> ReceptOmrekenen(0, 8, 7)
-0.0
->>> ReceptOmrekenen(0, 8, 8)
-0.0
->>> ReceptOmrekenen(0, 8, 9)
-0.0
->>> ReceptOmrekenen(0, 8, 10)
-0.0
->>> ReceptOmrekenen(1, 8, 1)
-0.125
->>> ReceptOmrekenen(1, 8, 2)
-0.25
->>> ReceptOmrekenen(1, 8, 3)
-0.375
->>> ReceptOmrekenen(1, 8, 4)
-0.5
->>> ReceptOmrekenen(1, 8, 5)
-0.625
->>> ReceptOmrekenen(1, 8, 6)
-0.75
->>> ReceptOmrekenen(1, 8, 7)
-0.875
->>> ReceptOmrekenen(1, 8, 8)
-1.0
->>> ReceptOmrekenen(1, 8, 9)
-1.125
->>> ReceptOmrekenen(1, 8, 10)
-1.25
->>> ReceptOmrekenen(2, 8, 1)
-0.25
->>> ReceptOmrekenen(2, 8, 2)
-0.5
->>> ReceptOmrekenen(2, 8, 3)
-0.75
->>> ReceptOmrekenen(2, 8, 4)
-1.0
->>> ReceptOmrekenen(2, 8, 5)
-1.25
->>> ReceptOmrekenen(2, 8, 6)
-1.5
->>> ReceptOmrekenen(2, 8, 7)
-1.75
->>> ReceptOmrekenen(2, 8, 8)
-2.0
->>> ReceptOmrekenen(2, 8, 9)
-2.25
->>> ReceptOmrekenen(2, 8, 10)
-2.5
->>> ReceptOmrekenen(3, 8, 1)
-0.375
->>> ReceptOmrekenen(3, 8, 2)
-0.75
->>> ReceptOmrekenen(3, 8, 3)
-1.125
->>> ReceptOmrekenen(3, 8, 4)
-1.5
->>> ReceptOmrekenen(3, 8, 5)
-1.875
->>> ReceptOmrekenen(3, 8, 6)
-2.25
->>> ReceptOmrekenen(3, 8, 7)
-2.625
->>> ReceptOmrekenen(3, 8, 8)
-3.0
->>> ReceptOmrekenen(3, 8, 9)
-3.375
->>> ReceptOmrekenen(3, 8, 10)
-3.75
->>> ReceptOmrekenen(4, 8, 1)
-0.5
->>> ReceptOmrekenen(4, 8, 2)
-1.0
->>> ReceptOmrekenen(4, 8, 3)
-1.5
->>> ReceptOmrekenen(4, 8, 4)
-2.0
->>> ReceptOmrekenen(4, 8, 5)
-2.5
->>> ReceptOmrekenen(4, 8, 6)
-3.0
->>> ReceptOmrekenen(4, 8, 7)
-3.5
->>> ReceptOmrekenen(4, 8, 8)
-4.0
->>> ReceptOmrekenen(4, 8, 9)
-4.5
->>> ReceptOmrekenen(4, 8, 10)
-5.0
->>> ReceptOmrekenen(5, 8, 1)
-0.625
->>> ReceptOmrekenen(5, 8, 2)
-1.25
->>> ReceptOmrekenen(5, 8, 3)
-1.875
->>> ReceptOmrekenen(5, 8, 4)
-2.5
->>> ReceptOmrekenen(5, 8, 5)
-3.125
->>> ReceptOmrekenen(5, 8, 6)
-3.75
->>> ReceptOmrekenen(5, 8, 7)
-4.375
->>> ReceptOmrekenen(5, 8, 8)
-5.0
->>> ReceptOmrekenen(5, 8, 9)
-5.625
->>> ReceptOmrekenen(5, 8, 10)
-6.25
->>> ReceptOmrekenen(6, 8, 1)
-0.75
->>> ReceptOmrekenen(6, 8, 2)
-1.5
->>> ReceptOmrekenen(6, 8, 3)
-2.25
->>> ReceptOmrekenen(6, 8, 4)
-3.0
->>> ReceptOmrekenen(6, 8, 5)
-3.75
->>> ReceptOmrekenen(6, 8, 6)
-4.5
->>> ReceptOmrekenen(6, 8, 7)
-5.25
->>> ReceptOmrekenen(6, 8, 8)
-6.0
->>> ReceptOmrekenen(6, 8, 9)
-6.75
->>> ReceptOmrekenen(6, 8, 10)
-7.5
->>> ReceptOmrekenen(7, 8, 1)
-0.875
->>> ReceptOmrekenen(7, 8, 2)
-1.75
->>> ReceptOmrekenen(7, 8, 3)
-2.625
->>> ReceptOmrekenen(7, 8, 4)
-3.5
->>> ReceptOmrekenen(7, 8, 5)
-4.375
->>> ReceptOmrekenen(7, 8, 6)
-5.25
->>> ReceptOmrekenen(7, 8, 7)
-6.125
->>> ReceptOmrekenen(7, 8, 8)
-7.0
->>> ReceptOmrekenen(7, 8, 9)
-7.875
->>> ReceptOmrekenen(7, 8, 10)
-8.75
->>> ReceptOmrekenen(8, 8, 1)
-1.0
->>> ReceptOmrekenen(8, 8, 2)
-2.0
->>> ReceptOmrekenen(8, 8, 3)
-3.0
->>> ReceptOmrekenen(8, 8, 4)
-4.0
->>> ReceptOmrekenen(8, 8, 5)
-5.0
->>> ReceptOmrekenen(8, 8, 6)
-6.0
->>> ReceptOmrekenen(8, 8, 7)
-7.0
->>> ReceptOmrekenen(8, 8, 8)
-8.0
->>> ReceptOmrekenen(8, 8, 9)
-9.0
->>> ReceptOmrekenen(8, 8, 10)
-10.0
->>> ReceptOmrekenen(0, 9, 1)
-0.0
->>> ReceptOmrekenen(0, 9, 2)
-0.0
->>> ReceptOmrekenen(0, 9, 3)
-0.0
->>> ReceptOmrekenen(0, 9, 4)
-0.0
->>> ReceptOmrekenen(0, 9, 5)
-0.0
->>> ReceptOmrekenen(0, 9, 6)
-0.0
->>> ReceptOmrekenen(0, 9, 7)
-0.0
->>> ReceptOmrekenen(0, 9, 8)
-0.0
->>> ReceptOmrekenen(0, 9, 9)
-0.0
->>> ReceptOmrekenen(0, 9, 10)
-0.0
->>> ReceptOmrekenen(1, 9, 1)
-0.1111111111111111
->>> ReceptOmrekenen(1, 9, 2)
-0.2222222222222222
->>> ReceptOmrekenen(1, 9, 3)
-0.3333333333333333
->>> ReceptOmrekenen(1, 9, 4)
-0.4444444444444444
->>> ReceptOmrekenen(1, 9, 5)
-0.5555555555555556
->>> ReceptOmrekenen(1, 9, 6)
-0.6666666666666666
->>> ReceptOmrekenen(1, 9, 8)
-0.8888888888888888
->>> ReceptOmrekenen(1, 9, 9)
-1.0
->>> ReceptOmrekenen(1, 9, 10)
-1.1111111111111112
->>> ReceptOmrekenen(2, 9, 1)
-0.2222222222222222
->>> ReceptOmrekenen(2, 9, 2)
-0.4444444444444444
->>> ReceptOmrekenen(2, 9, 3)
-0.6666666666666666
->>> ReceptOmrekenen(2, 9, 4)
-0.8888888888888888
->>> ReceptOmrekenen(2, 9, 5)
-1.1111111111111112
->>> ReceptOmrekenen(2, 9, 6)
-1.3333333333333333
->>> ReceptOmrekenen(2, 9, 8)
-1.7777777777777777
->>> ReceptOmrekenen(2, 9, 9)
-2.0
->>> ReceptOmrekenen(2, 9, 10)
-2.2222222222222223
->>> ReceptOmrekenen(3, 9, 1)
-0.3333333333333333
->>> ReceptOmrekenen(3, 9, 2)
-0.6666666666666666
->>> ReceptOmrekenen(3, 9, 3)
-1.0
->>> ReceptOmrekenen(3, 9, 4)
-1.3333333333333333
->>> ReceptOmrekenen(3, 9, 6)
-2.0
->>> ReceptOmrekenen(3, 9, 8)
-2.6666666666666665
->>> ReceptOmrekenen(3, 9, 9)
-3.0
->>> ReceptOmrekenen(4, 9, 1)
-0.4444444444444444
->>> ReceptOmrekenen(4, 9, 2)
-0.8888888888888888
->>> ReceptOmrekenen(4, 9, 3)
-1.3333333333333333
->>> ReceptOmrekenen(4, 9, 4)
-1.7777777777777777
->>> ReceptOmrekenen(4, 9, 5)
-2.2222222222222223
->>> ReceptOmrekenen(4, 9, 6)
-2.6666666666666665
->>> ReceptOmrekenen(4, 9, 8)
-3.5555555555555554
->>> ReceptOmrekenen(4, 9, 9)
-4.0
->>> ReceptOmrekenen(4, 9, 10)
-4.444444444444445
->>> ReceptOmrekenen(5, 9, 1)
-0.5555555555555556
->>> ReceptOmrekenen(5, 9, 2)
-1.1111111111111112
->>> ReceptOmrekenen(5, 9, 4)
-2.2222222222222223
->>> ReceptOmrekenen(5, 9, 5)
-2.7777777777777777
->>> ReceptOmrekenen(5, 9, 8)
-4.444444444444445
->>> ReceptOmrekenen(5, 9, 9)
-5.0
->>> ReceptOmrekenen(5, 9, 10)
-5.555555555555555
->>> ReceptOmrekenen(6, 9, 1)
-0.6666666666666666
->>> ReceptOmrekenen(6, 9, 2)
-1.3333333333333333
->>> ReceptOmrekenen(6, 9, 3)
-2.0
->>> ReceptOmrekenen(6, 9, 4)
-2.6666666666666665
->>> ReceptOmrekenen(6, 9, 6)
-4.0
->>> ReceptOmrekenen(6, 9, 8)
-5.333333333333333
->>> ReceptOmrekenen(6, 9, 9)
-6.0
->>> ReceptOmrekenen(7, 9, 7)
-5.444444444444445
->>> ReceptOmrekenen(7, 9, 9)
-7.0
->>> ReceptOmrekenen(8, 9, 1)
-0.8888888888888888
->>> ReceptOmrekenen(8, 9, 2)
-1.7777777777777777
->>> ReceptOmrekenen(8, 9, 3)
-2.6666666666666665
->>> ReceptOmrekenen(8, 9, 4)
-3.5555555555555554
->>> ReceptOmrekenen(8, 9, 5)
-4.444444444444445
->>> ReceptOmrekenen(8, 9, 6)
-5.333333333333333
->>> ReceptOmrekenen(8, 9, 8)
-7.111111111111111
->>> ReceptOmrekenen(8, 9, 9)
-8.0
->>> ReceptOmrekenen(8, 9, 10)
-8.88888888888889
->>> ReceptOmrekenen(9, 9, 1)
-1.0
->>> ReceptOmrekenen(9, 9, 2)
-2.0
->>> ReceptOmrekenen(9, 9, 3)
-3.0
->>> ReceptOmrekenen(9, 9, 4)
-4.0
->>> ReceptOmrekenen(9, 9, 5)
-5.0
->>> ReceptOmrekenen(9, 9, 6)
-6.0
->>> ReceptOmrekenen(9, 9, 7)
-7.0
->>> ReceptOmrekenen(9, 9, 8)
-8.0
->>> ReceptOmrekenen(9, 9, 9)
-9.0
->>> ReceptOmrekenen(9, 9, 10)
-10.0
->>> ReceptOmrekenen(0, 10, 1)
-0.0
->>> ReceptOmrekenen(0, 10, 2)
-0.0
->>> ReceptOmrekenen(0, 10, 3)
-0.0
->>> ReceptOmrekenen(0, 10, 4)
-0.0
->>> ReceptOmrekenen(0, 10, 5)
-0.0
->>> ReceptOmrekenen(0, 10, 6)
-0.0
->>> ReceptOmrekenen(0, 10, 7)
-0.0
->>> ReceptOmrekenen(0, 10, 8)
-0.0
->>> ReceptOmrekenen(0, 10, 9)
-0.0
->>> ReceptOmrekenen(0, 10, 10)
-0.0
->>> ReceptOmrekenen(1, 10, 1)
-0.1
->>> ReceptOmrekenen(1, 10, 2)
-0.2
->>> ReceptOmrekenen(1, 10, 4)
-0.4
->>> ReceptOmrekenen(1, 10, 5)
-0.5
->>> ReceptOmrekenen(1, 10, 8)
-0.8
->>> ReceptOmrekenen(1, 10, 9)
-0.9
->>> ReceptOmrekenen(1, 10, 10)
-1.0
->>> ReceptOmrekenen(2, 10, 1)
-0.2
->>> ReceptOmrekenen(2, 10, 2)
-0.4
->>> ReceptOmrekenen(2, 10, 4)
-0.8
->>> ReceptOmrekenen(2, 10, 5)
-1.0
->>> ReceptOmrekenen(2, 10, 8)
-1.6
->>> ReceptOmrekenen(2, 10, 9)
-1.8
->>> ReceptOmrekenen(2, 10, 10)
-2.0
->>> ReceptOmrekenen(3, 10, 5)
-1.5
->>> ReceptOmrekenen(3, 10, 10)
-3.0
->>> ReceptOmrekenen(4, 10, 1)
-0.4
->>> ReceptOmrekenen(4, 10, 2)
-0.8
->>> ReceptOmrekenen(4, 10, 4)
-1.6
->>> ReceptOmrekenen(4, 10, 5)
-2.0
->>> ReceptOmrekenen(4, 10, 8)
-3.2
->>> ReceptOmrekenen(4, 10, 9)
-3.6
->>> ReceptOmrekenen(4, 10, 10)
-4.0
->>> ReceptOmrekenen(5, 10, 1)
-0.5
->>> ReceptOmrekenen(5, 10, 2)
-1.0
->>> ReceptOmrekenen(5, 10, 3)
-1.5
->>> ReceptOmrekenen(5, 10, 4)
-2.0
->>> ReceptOmrekenen(5, 10, 5)
-2.5
->>> ReceptOmrekenen(5, 10, 6)
-3.0
->>> ReceptOmrekenen(5, 10, 7)
-3.5
->>> ReceptOmrekenen(5, 10, 8)
-4.0
->>> ReceptOmrekenen(5, 10, 9)
-4.5
->>> ReceptOmrekenen(5, 10, 10)
-5.0
->>> ReceptOmrekenen(6, 10, 5)
-3.0
->>> ReceptOmrekenen(6, 10, 10)
-6.0
->>> ReceptOmrekenen(7, 10, 5)
-3.5
->>> ReceptOmrekenen(7, 10, 9)
-6.3
->>> ReceptOmrekenen(7, 10, 10)
-7.0
->>> ReceptOmrekenen(8, 10, 1)
-0.8
->>> ReceptOmrekenen(8, 10, 2)
-1.6
->>> ReceptOmrekenen(8, 10, 4)
-3.2
->>> ReceptOmrekenen(8, 10, 5)
-4.0
->>> ReceptOmrekenen(8, 10, 8)
-6.4
->>> ReceptOmrekenen(8, 10, 9)
-7.2
->>> ReceptOmrekenen(8, 10, 10)
-8.0
->>> ReceptOmrekenen(9, 10, 1)
-0.9
->>> ReceptOmrekenen(9, 10, 2)
-1.8
->>> ReceptOmrekenen(9, 10, 4)
-3.6
->>> ReceptOmrekenen(9, 10, 5)
-4.5
->>> ReceptOmrekenen(9, 10, 7)
-6.3
->>> ReceptOmrekenen(9, 10, 8)
-7.2
->>> ReceptOmrekenen(9, 10, 9)
-8.1
->>> ReceptOmrekenen(9, 10, 10)
-9.0
->>> ReceptOmrekenen(10, 10, 1)
-1.0
->>> ReceptOmrekenen(10, 10, 2)
-2.0
->>> ReceptOmrekenen(10, 10, 3)
-3.0
->>> ReceptOmrekenen(10, 10, 4)
-4.0
->>> ReceptOmrekenen(10, 10, 5)
-5.0
->>> ReceptOmrekenen(10, 10, 6)
-6.0
->>> ReceptOmrekenen(10, 10, 7)
-7.0
->>> ReceptOmrekenen(10, 10, 8)
-8.0
->>> ReceptOmrekenen(10, 10, 9)
-9.0
->>> ReceptOmrekenen(10, 10, 10)
-10.0
+>>> ToestandstekenWissel(5)
+-5
+>>> ToestandstekenWissel(-9)
+9
+>>> ToestandstekenWissel(-13)
+13
+>>> ToestandstekenWissel(16.4)
+-16.4
+>>> ToestandstekenWissel(-18.8)
+18.8
+>>> ToestandstekenWissel(-27)
+27
+>>> ToestandstekenWissel(28.893)
+-28.893
+>>> ToestandstekenWissel(-32)
+32
+>>> ToestandstekenWissel(-33.20561)
+33.20561
+>>> ToestandstekenWissel(-36.4)
+36.4
+>>> ToestandstekenWissel(48.38172)
+-48.38172
+>>> ToestandstekenWissel(55.5311351)
+-55.5311351
+>>> ToestandstekenWissel(-55.785071)
+55.785071
+>>> ToestandstekenWissel(-58)
+58
+>>> ToestandstekenWissel(59.892554)
+-59.892554
+>>> ToestandstekenWissel(61)
+-61
+>>> ToestandstekenWissel(-65.2)
+65.2
+>>> ToestandstekenWissel(-67.82562)
+67.82562
+>>> ToestandstekenWissel(-74.68)
+74.68
+>>> ToestandstekenWissel(76)
+-76
+>>> ToestandstekenWissel(-78)
+78
+>>> ToestandstekenWissel(80.5)
+-80.5
+>>> ToestandstekenWissel(81.05964)
+-81.05964
+>>> ToestandstekenWissel(-83.6594798)
+83.6594798
+>>> ToestandstekenWissel(-84.79)
+84.79
+>>> ToestandstekenWissel(88)
+-88
+>>> ToestandstekenWissel(-89.9562)
+89.9562
+>>> ToestandstekenWissel(91.177876)
+-91.177876
+>>> ToestandstekenWissel(-91.8)
+91.8
+>>> ToestandstekenWissel(94)
+-94
+>>> ToestandstekenWissel(96)
+-96
+>>> ToestandstekenWissel(-98)
+98
+>>> ToestandstekenWissel(-102)
+102
+>>> ToestandstekenWissel(104.37)
+-104.37
+>>> ToestandstekenWissel(110)
+-110
+>>> ToestandstekenWissel(-113.8604)
+113.8604
+>>> ToestandstekenWissel(115.5486512)
+-115.5486512
+>>> ToestandstekenWissel(-116)
+116
+>>> ToestandstekenWissel(-123.25)
+123.25
+>>> ToestandstekenWissel(126.474858)
+-126.474858
+>>> ToestandstekenWissel(127.43978)
+-127.43978
+>>> ToestandstekenWissel(-128)
+128
+>>> ToestandstekenWissel(130.6109)
+-130.6109
+>>> ToestandstekenWissel(-136.03)
+136.03
+>>> ToestandstekenWissel(140)
+-140
+>>> ToestandstekenWissel(-148)
+148
+>>> ToestandstekenWissel(-158)
+158
+>>> ToestandstekenWissel(-160.055)
+160.055
+>>> ToestandstekenWissel(-162)
+162
+>>> ToestandstekenWissel(-163.36)
+163.36
+>>> ToestandstekenWissel(-164.998)
+164.998
+>>> ToestandstekenWissel(-168.6)
+168.6
+>>> ToestandstekenWissel(-169.3250451)
+169.3250451
+>>> ToestandstekenWissel(-178.9303191)
+178.9303191
+>>> ToestandstekenWissel(180.9072)
+-180.9072
+>>> ToestandstekenWissel(188)
+-188
+>>> ToestandstekenWissel(-195)
+195
+>>> ToestandstekenWissel(202.263)
+-202.263
+>>> ToestandstekenWissel(-203.7)
+203.7
+>>> ToestandstekenWissel(-208.9228884)
+208.9228884
+>>> ToestandstekenWissel(214)
+-214
+>>> ToestandstekenWissel(216)
+-216
+>>> ToestandstekenWissel(220)
+-220
+>>> ToestandstekenWissel(221.492557)
+-221.492557
+>>> ToestandstekenWissel(223.7883)
+-223.7883
+>>> ToestandstekenWissel(-223.05516)
+223.05516
+>>> ToestandstekenWissel(-227.092)
+227.092
+>>> ToestandstekenWissel(229)
+-229
+>>> ToestandstekenWissel(-230.38161)
+230.38161
+>>> ToestandstekenWissel(-231.337369)
+231.337369
+>>> ToestandstekenWissel(233.50554)
+-233.50554
+>>> ToestandstekenWissel(-233.9651656)
+233.9651656
+>>> ToestandstekenWissel(237.4)
+-237.4
+>>> ToestandstekenWissel(-237.94)
+237.94
+>>> ToestandstekenWissel(-239)
+239
+>>> ToestandstekenWissel(242.358909)
+-242.358909
+>>> ToestandstekenWissel(-244.8837)
+244.8837
+>>> ToestandstekenWissel(247.7870759)
+-247.7870759
+>>> ToestandstekenWissel(251)
+-251
+>>> ToestandstekenWissel(262)
+-262
+>>> ToestandstekenWissel(-264)
+264
+>>> ToestandstekenWissel(-266)
+266
+>>> ToestandstekenWissel(267.822344)
+-267.822344
+>>> ToestandstekenWissel(274)
+-274
+>>> ToestandstekenWissel(-274.07822)
+274.07822
+>>> ToestandstekenWissel(279.14)
+-279.14
+>>> ToestandstekenWissel(-280.9)
+280.9
+>>> ToestandstekenWissel(-282.8182)
+282.8182
+>>> ToestandstekenWissel(289)
+-289
+>>> ToestandstekenWissel(-297.645)
+297.645
+>>> ToestandstekenWissel(303)
+-303
+>>> ToestandstekenWissel(304.34)
+-304.34
+>>> ToestandstekenWissel(306)
+-306
+>>> ToestandstekenWissel(309)
+-309
+>>> ToestandstekenWissel(-309.71289)
+309.71289
+>>> ToestandstekenWissel(-315)
+315
+>>> ToestandstekenWissel(318.1555095)
+-318.1555095
+>>> ToestandstekenWissel(-320.3)
+320.3
+>>> ToestandstekenWissel(-322.32)
+322.32
+>>> ToestandstekenWissel(325)
+-325
+>>> ToestandstekenWissel(331)
+-331
+>>> ToestandstekenWissel(334)
+-334
+>>> ToestandstekenWissel(-334.092)
+334.092
+>>> ToestandstekenWissel(337.02)
+-337.02
+>>> ToestandstekenWissel(-340)
+340
+>>> ToestandstekenWissel(342.92)
+-342.92
+>>> ToestandstekenWissel(-343)
+343
+>>> ToestandstekenWissel(347.37)
+-347.37
+>>> ToestandstekenWissel(-348.5937862)
+348.5937862
+>>> ToestandstekenWissel(352.013)
+-352.013
+>>> ToestandstekenWissel(-354)
+354
+>>> ToestandstekenWissel(358.305074)
+-358.305074
+>>> ToestandstekenWissel(364)
+-364
+>>> ToestandstekenWissel(367)
+-367
+>>> ToestandstekenWissel(-368.27)
+368.27
+>>> ToestandstekenWissel(370.3)
+-370.3
+>>> ToestandstekenWissel(376)
+-376
+>>> ToestandstekenWissel(-381)
+381
+>>> ToestandstekenWissel(-385)
+385
+>>> ToestandstekenWissel(388.8161)
+-388.8161
+>>> ToestandstekenWissel(-392)
+392
+>>> ToestandstekenWissel(394.2)
+-394.2
+>>> ToestandstekenWissel(399.2703)
+-399.2703
+>>> ToestandstekenWissel(-403)
+403
+>>> ToestandstekenWissel(404)
+-404
+>>> ToestandstekenWissel(405)
+-405
+>>> ToestandstekenWissel(409)
+-409
+>>> ToestandstekenWissel(410.74)
+-410.74
+>>> ToestandstekenWissel(-413)
+413
+>>> ToestandstekenWissel(-414.4)
+414.4
+>>> ToestandstekenWissel(-416.832272)
+416.832272
+>>> ToestandstekenWissel(419)
+-419
+>>> ToestandstekenWissel(-420)
+420
+>>> ToestandstekenWissel(-425.8877)
+425.8877
+>>> ToestandstekenWissel(-427)
+427
+>>> ToestandstekenWissel(-428)
+428
+>>> ToestandstekenWissel(429)
+-429
+>>> ToestandstekenWissel(430.9843083)
+-430.9843083
+>>> ToestandstekenWissel(431.71069)
+-431.71069
+>>> ToestandstekenWissel(-431.009)
+431.009
+>>> ToestandstekenWissel(433)
+-433
+>>> ToestandstekenWissel(-434)
+434
+>>> ToestandstekenWissel(-440)
+440
+>>> ToestandstekenWissel(443)
+-443
+>>> ToestandstekenWissel(-451)
+451
+>>> ToestandstekenWissel(-454.14791)
+454.14791
+>>> ToestandstekenWissel(458.0010593)
+-458.0010593
+>>> ToestandstekenWissel(459)
+-459
+>>> ToestandstekenWissel(460.58)
+-460.58
+>>> ToestandstekenWissel(-460.4072071)
+460.4072071
+>>> ToestandstekenWissel(466.3738)
+-466.3738
+>>> ToestandstekenWissel(467.815372)
+-467.815372
+>>> ToestandstekenWissel(-467.6575846)
+467.6575846
+>>> ToestandstekenWissel(-471)
+471
+>>> ToestandstekenWissel(472.938)
+-472.938
+>>> ToestandstekenWissel(-474)
+474
+>>> ToestandstekenWissel(479.4)
+-479.4
+>>> ToestandstekenWissel(482.01)
+-482.01
+>>> ToestandstekenWissel(-482.9254)
+482.9254
+>>> ToestandstekenWissel(-489)
+489
+>>> ToestandstekenWissel(-491)
+491
+>>> ToestandstekenWissel(-496.266394)
+496.266394
+>>> ToestandstekenWissel(499)
+-499
+>>> ToestandstekenWissel(500)
+-500
+>>> ToestandstekenWissel(501.372)
+-501.372
+>>> ToestandstekenWissel(504.68215)
+-504.68215
+>>> ToestandstekenWissel(-504.98569)
+504.98569
+>>> ToestandstekenWissel(-507.8089)
+507.8089
+>>> ToestandstekenWissel(512.43)
+-512.43
+>>> ToestandstekenWissel(-513)
+513
+>>> ToestandstekenWissel(517.15336)
+-517.15336
+>>> ToestandstekenWissel(-518)
+518
+>>> ToestandstekenWissel(-521)
+521
+>>> ToestandstekenWissel(525.032)
+-525.032
+>>> ToestandstekenWissel(526)
+-526
+>>> ToestandstekenWissel(-530.59)
+530.59
+>>> ToestandstekenWissel(532)
+-532
+>>> ToestandstekenWissel(536.0)
+-536.0
+>>> ToestandstekenWissel(539)
+-539
+>>> ToestandstekenWissel(-545.7032217)
+545.7032217
+>>> ToestandstekenWissel(-547.2259)
+547.2259
+>>> ToestandstekenWissel(-551)
+551
+>>> ToestandstekenWissel(-553)
+553
+>>> ToestandstekenWissel(556)
+-556
+>>> ToestandstekenWissel(-560.3)
+560.3
+>>> ToestandstekenWissel(565)
+-565
+>>> ToestandstekenWissel(-566)
+566
+>>> ToestandstekenWissel(-570)
+570
+>>> ToestandstekenWissel(571.4377)
+-571.4377
+>>> ToestandstekenWissel(-572)
+572
+>>> ToestandstekenWissel(573.948475)
+-573.948475
+>>> ToestandstekenWissel(574)
+-574
+>>> ToestandstekenWissel(-579)
+579
+>>> ToestandstekenWissel(-582)
+582
+>>> ToestandstekenWissel(-584)
+584
+>>> ToestandstekenWissel(586)
+-586
+>>> ToestandstekenWissel(-589)
+589
+>>> ToestandstekenWissel(597.5858)
+-597.5858
+>>> ToestandstekenWissel(-599)
+599
+>>> ToestandstekenWissel(-599.0)
+599.0
+>>> ToestandstekenWissel(-602.7388)
+602.7388
+>>> ToestandstekenWissel(612.27)
+-612.27
+>>> ToestandstekenWissel(-619)
+619
+>>> ToestandstekenWissel(622.7504816)
+-622.7504816
+>>> ToestandstekenWissel(-626)
+626
+>>> ToestandstekenWissel(628.4257346)
+-628.4257346
+>>> ToestandstekenWissel(-630)
+630
+>>> ToestandstekenWissel(633.1058913)
+-633.1058913
+>>> ToestandstekenWissel(634)
+-634
+>>> ToestandstekenWissel(636)
+-636
+>>> ToestandstekenWissel(-638)
+638
+>>> ToestandstekenWissel(-647)
+647
+>>> ToestandstekenWissel(649)
+-649
+>>> ToestandstekenWissel(651.7613)
+-651.7613
+>>> ToestandstekenWissel(654)
+-654
+>>> ToestandstekenWissel(655.0365)
+-655.0365
+>>> ToestandstekenWissel(659.1546)
+-659.1546
+>>> ToestandstekenWissel(-661)
+661
+>>> ToestandstekenWissel(665.15)
+-665.15
+>>> ToestandstekenWissel(666.754107)
+-666.754107
+>>> ToestandstekenWissel(-668.04443)
+668.04443
+>>> ToestandstekenWissel(670)
+-670
+>>> ToestandstekenWissel(-671)
+671
+>>> ToestandstekenWissel(-675)
+675
+>>> ToestandstekenWissel(676)
+-676
+>>> ToestandstekenWissel(680)
+-680
+>>> ToestandstekenWissel(-681.763576)
+681.763576
+>>> ToestandstekenWissel(-682.7)
+682.7
+>>> ToestandstekenWissel(686)
+-686
+>>> ToestandstekenWissel(687)
+-687
+>>> ToestandstekenWissel(-696)
+696
+>>> ToestandstekenWissel(-698.89)
+698.89
+>>> ToestandstekenWissel(701)
+-701
+>>> ToestandstekenWissel(702)
+-702
+>>> ToestandstekenWissel(704)
+-704
+>>> ToestandstekenWissel(705)
+-705
+>>> ToestandstekenWissel(706)
+-706
+>>> ToestandstekenWissel(708)
+-708
+>>> ToestandstekenWissel(709)
+-709
+>>> ToestandstekenWissel(711.7436)
+-711.7436
+>>> ToestandstekenWissel(-713)
+713
+>>> ToestandstekenWissel(714.1232)
+-714.1232
+>>> ToestandstekenWissel(-717.627447)
+717.627447
+>>> ToestandstekenWissel(721)
+-721
+>>> ToestandstekenWissel(-722)
+722
+>>> ToestandstekenWissel(724.1)
+-724.1
+>>> ToestandstekenWissel(-726)
+726
+>>> ToestandstekenWissel(-727.8)
+727.8
+>>> ToestandstekenWissel(730.7)
+-730.7
+>>> ToestandstekenWissel(-730.00907)
+730.00907
+>>> ToestandstekenWissel(-733)
+733
+>>> ToestandstekenWissel(-733.41)
+733.41
+>>> ToestandstekenWissel(-742.080057)
+742.080057
+>>> ToestandstekenWissel(746)
+-746
+>>> ToestandstekenWissel(747)
+-747
+>>> ToestandstekenWissel(749)
+-749
+>>> ToestandstekenWissel(-753.7)
+753.7
+>>> ToestandstekenWissel(758)
+-758
+>>> ToestandstekenWissel(759)
+-759
+>>> ToestandstekenWissel(-759.4698774)
+759.4698774
+>>> ToestandstekenWissel(-762)
+762
+>>> ToestandstekenWissel(763.2693)
+-763.2693
+>>> ToestandstekenWissel(-764)
+764
+>>> ToestandstekenWissel(765.09)
+-765.09
+>>> ToestandstekenWissel(-765.6667)
+765.6667
+>>> ToestandstekenWissel(772.553464)
+-772.553464
+>>> ToestandstekenWissel(-777.6002)
+777.6002
+>>> ToestandstekenWissel(-786)
+786
+>>> ToestandstekenWissel(790)
+-790
+>>> ToestandstekenWissel(791)
+-791
+>>> ToestandstekenWissel(-796.544)
+796.544
+>>> ToestandstekenWissel(-799.3343)
+799.3343
+>>> ToestandstekenWissel(802.3)
+-802.3
+>>> ToestandstekenWissel(-802.052)
+802.052
+>>> ToestandstekenWissel(810.25)
+-810.25
+>>> ToestandstekenWissel(812.51)
+-812.51
+>>> ToestandstekenWissel(813.2544986)
+-813.2544986
+>>> ToestandstekenWissel(-816.27704)
+816.27704
+>>> ToestandstekenWissel(-817.32)
+817.32
+>>> ToestandstekenWissel(825)
+-825
+>>> ToestandstekenWissel(-827)
+827
+>>> ToestandstekenWissel(840.42)
+-840.42
+>>> ToestandstekenWissel(-842)
+842
+>>> ToestandstekenWissel(-848)
+848
+>>> ToestandstekenWissel(849.9350122)
+-849.9350122
+>>> ToestandstekenWissel(850)
+-850
+>>> ToestandstekenWissel(-850.533)
+850.533
+>>> ToestandstekenWissel(-853)
+853
+>>> ToestandstekenWissel(857)
+-857
+>>> ToestandstekenWissel(862.035949)
+-862.035949
+>>> ToestandstekenWissel(-865.1401762)
+865.1401762
+>>> ToestandstekenWissel(-867)
+867
+>>> ToestandstekenWissel(-867.322)
+867.322
+>>> ToestandstekenWissel(871.28)
+-871.28
+>>> ToestandstekenWissel(-872)
+872
+>>> ToestandstekenWissel(-872.98144)
+872.98144
+>>> ToestandstekenWissel(874)
+-874
+>>> ToestandstekenWissel(-879)
+879
+>>> ToestandstekenWissel(-880.804)
+880.804
+>>> ToestandstekenWissel(884)
+-884
+>>> ToestandstekenWissel(-887.4643)
+887.4643
+>>> ToestandstekenWissel(894)
+-894
+>>> ToestandstekenWissel(-895.8)
+895.8
+>>> ToestandstekenWissel(-900)
+900
+>>> ToestandstekenWissel(902)
+-902
+>>> ToestandstekenWissel(-905.655)
+905.655
+>>> ToestandstekenWissel(-909)
+909
+>>> ToestandstekenWissel(-912)
+912
+>>> ToestandstekenWissel(-912.9833)
+912.9833
+>>> ToestandstekenWissel(-916)
+916
+>>> ToestandstekenWissel(917)
+-917
+>>> ToestandstekenWissel(-917.48098)
+917.48098
+>>> ToestandstekenWissel(-921.243)
+921.243
+>>> ToestandstekenWissel(-927)
+927
+>>> ToestandstekenWissel(-928.649746)
+928.649746
+>>> ToestandstekenWissel(931.372)
+-931.372
+>>> ToestandstekenWissel(932.726)
+-932.726
+>>> ToestandstekenWissel(936.3)
+-936.3
+>>> ToestandstekenWissel(-941)
+941
+>>> ToestandstekenWissel(-946.14272)
+946.14272
+>>> ToestandstekenWissel(950)
+-950
+>>> ToestandstekenWissel(953.970167)
+-953.970167
+>>> ToestandstekenWissel(-954)
+954
+>>> ToestandstekenWissel(-956)
+956
+>>> ToestandstekenWissel(959)
+-959
+>>> ToestandstekenWissel(960)
+-960
+>>> ToestandstekenWissel(-960.716)
+960.716
+>>> ToestandstekenWissel(963)
+-963
+>>> ToestandstekenWissel(-968.3590938)
+968.3590938
+>>> ToestandstekenWissel(973.218072)
+-973.218072
+>>> ToestandstekenWissel(-977)
+977
+>>> ToestandstekenWissel(-978.33055)
+978.33055
+>>> ToestandstekenWissel(980)
+-980
+>>> ToestandstekenWissel(-980.26)
+980.26
+>>> ToestandstekenWissel(-982.858901)
+982.858901
+>>> ToestandstekenWissel(-985)
+985
+>>> ToestandstekenWissel(987)
+-987
+>>> ToestandstekenWissel(-988.18662)
+988.18662
+>>> ToestandstekenWissel(993)
+-993
+>>> ToestandstekenWissel(-994)
+994
+>>> ToestandstekenWissel(-995)
+995
+>>> ToestandstekenWissel(-996.6)
+996.6
+>>> ToestandstekenWissel(998)
+-998

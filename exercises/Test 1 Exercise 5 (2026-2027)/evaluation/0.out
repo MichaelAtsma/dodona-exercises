@@ -1,5 +1,5 @@
 --------------------------------------------------
 tab name: Test
 <LANGUAGE code="en">
-    <function from="ReceptOmrekenen" to="ConvertRecipe" />
+    <function from="ToestandstekenWissel" to="SwitchSign" />
 </LANGUAGE>
